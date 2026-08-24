@@ -1,0 +1,154 @@
+{
+  "title": "Probate — Grand Strand Law Group",
+  "slug": "gslg-probate",
+  "kit": "gslg",
+  "containers": [
+    {
+      "id": "pbhdr",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "cta_text": "Contact",
+            "cta_url": { "url": "/gslg-contact/" },
+            "links": [
+              { "text": "Home", "url": { "url": "/gslg/" } },
+              { "text": "About", "url": { "url": "/gslg-about/" } },
+              { "text": "Real Estate", "url": { "url": "/gslg-real-estate/" } },
+              { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } },
+              { "text": "Probate", "url": { "url": "/gslg-probate/" } },
+              { "text": "Business Law", "url": { "url": "/gslg-business/" } },
+              { "text": "Contact", "url": { "url": "/gslg-contact/" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pbhero",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-page-hero",
+          "settings": {
+            "breadcrumb_home_text": "Home",
+            "breadcrumb_home_url": { "url": "/gslg/" },
+            "breadcrumb_mid_text": "Practice Areas",
+            "breadcrumb_mid_url": { "url": "/gslg/#practice" },
+            "breadcrumb_current": "Probate",
+            "eyebrow": "Practice Area",
+            "title": "Probate Law",
+            "lead": "Let us help you navigate the challenging process left behind upon a person's death."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pbintro",
+      "content_width": "full",
+      "settings": { "_element_id": "intro" },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/probate.webp", "id": 243 },
+            "image_caption": "Guidance through a difficult time",
+            "eyebrow": "",
+            "title": "Guidance through",
+            "title_accent": "a difficult time.",
+            "paragraphs": [
+              { "text": "Our Probate Courts are often required to speak for those who cannot speak for themselves. The Probate Code has set guidelines for the Courts to follow. The first step is to appoint a person to act on behalf of those who cannot act for themselves. The Court appoints Personal Representatives to oversee the assets of the deceased, Guardians to control the care of the incapacitated, and Conservators to oversee the assets of the incapacitated." }
+            ],
+            "quote": "",
+            "signature": "",
+            "signature_role": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "pbservices",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What We Handle",
+            "title": "What we",
+            "title_accent": "handle.",
+            "intro": "",
+            "features": [
+              { "title": "Probate Administration", "text": "Guiding the estate through the probate process.", "detail": "", "number": "01" },
+              { "title": "Will Contests", "text": "Representation in disputes over a will's validity.", "detail": "", "number": "02" },
+              { "title": "Guardianship Proceedings", "text": "Appointment of guardians for the incapacitated.", "detail": "", "number": "03" },
+              { "title": "Conservatorship Proceedings", "text": "Oversight of assets for those who cannot manage them.", "detail": "", "number": "04" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pbprocess",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "The Process",
+            "title": "How we",
+            "title_accent": "help.",
+            "note": "",
+            "steps": [
+              { "title": "Initial meeting", "text": "We review the situation and what is needed." },
+              { "title": "Court filings", "text": "We prepare and file the necessary documents." },
+              { "title": "Representation", "text": "We represent the estate or family before the court." },
+              { "title": "Resolution", "text": "We work toward a timely, compassionate resolution." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pbcta",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "We are here to help",
+            "description": "Navigating probate is challenging. Let our experienced team guide you.",
+            "primary_text": "Request a consultation",
+            "primary_url": { "url": "/gslg-contact/" },
+            "secondary_text": "",
+            "secondary_url": { "url": "" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "pbfooter",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "blurb": "Locally owned and operated attorneys serving the Grand Strand. High-quality legal counsel, not high cost.",
+            "columns": [
+              { "heading": "Practice Areas", "links": [ { "text": "Real Estate Law", "url": { "url": "/gslg-real-estate/" } }, { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } }, { "text": "Probate", "url": { "url": "/gslg-probate/" } }, { "text": "Business Law", "url": { "url": "/gslg-business/" } } ] },
+              { "heading": "Company", "links": [ { "text": "About Us", "url": { "url": "/gslg-about/" } }, { "text": "Contact", "url": { "url": "/gslg-contact/" } }, { "text": "Privacy Policy", "url": { "url": "/gslg-privacy/" } }, { "text": "Terms of Use", "url": { "url": "/gslg-terms/" } } ] },
+              { "heading": "Get in touch", "links": [ { "text": "(843) 492-5422", "url": { "url": "tel:+1843 4925422" } }, { "text": "info@grandstrandlawgroup.com", "url": { "url": "mailto:info@grandstrandlawgroup.com" } } ] }
+            ],
+            "copyright": "© 2026 Grand Strand Law Group, LLC."
+          }
+        }
+      ]
+    }
+  ]
+}

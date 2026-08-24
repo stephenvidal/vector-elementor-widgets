@@ -1,0 +1,174 @@
+/* Vector Elementor Widgets — Portfolio
+   Port of the vidal-studio portfolio component. Scoped to .vew-portfolio.
+   Grid of portfolio cards with image, tag, title, text, and link. Themed via
+   --brand, --brand-dark, --ink, --muted, --line, --surface. */
+
+.vew-portfolio {
+	box-sizing: border-box;
+	width: 100vw;
+	margin-inline: calc(50% - 50vw);
+}
+
+.vew-portfolio__inner{
+	box-sizing: border-box;
+	width: min(100%, 1288px);
+	margin: 0 auto;
+	padding-block: var(--section-space-y, clamp(64px, 9vw, 96px));
+	padding-inline: 24px;
+}
+
+.vew-portfolio__heading {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(16rem, 26rem);
+	grid-template-areas:
+		"eyebrow intro"
+		"title intro";
+	column-gap: 2rem;
+	align-items: end;
+	margin-bottom: 48px;
+}
+
+.vew-portfolio__eyebrow {
+	grid-area: eyebrow;
+	margin: 0 0 18px;
+	color: var(--brand, #4a2c8a);
+	font-size: 0.72rem;
+	line-height: 1;
+	font-weight: 800;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+
+.vew-portfolio__title {
+	grid-area: title;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	letter-spacing: -0.042em;
+	line-height: 0.98;
+	font-size: clamp(2.65rem, 5vw, 5.2rem);
+	color: var(--ink, #201a2e);
+}
+
+.vew-portfolio__intro {
+	grid-area: intro;
+	max-width: 26rem;
+	margin: 0;
+	color: var(--muted, #5f5870);
+}
+
+.vew-portfolio__grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.6rem;
+}
+
+.vew-portfolio__card {
+	background: var(--surface, #ffffff);
+	border: 1px solid var(--line, rgba(32, 26, 46, 0.14));
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 12px 32px rgba(32, 26, 46, 0.1);
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vew-portfolio__card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 18px 40px rgba(32, 26, 46, 0.14);
+}
+
+.vew-portfolio__thumb {
+	height: 200px;
+	background-size: cover;
+	background-position: center top;
+	border-bottom: 1px solid var(--line, rgba(32, 26, 46, 0.14));
+	overflow: hidden;
+}
+
+.vew-portfolio__thumb img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center top;
+	display: block;
+	transition: transform 0.45s ease;
+}
+
+.vew-portfolio__card:hover .vew-portfolio__thumb img {
+	transform: scale(1.03);
+}
+
+.vew-portfolio__body {
+	padding: 1.6rem;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.vew-portfolio__tag {
+	align-self: flex-start;
+	font-size: 0.7rem;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--brand, #4a2c8a);
+	background: var(--soft, #ece7f5);
+	padding: 0.25rem 0.6rem;
+	border-radius: 2px;
+	margin-bottom: 0.8rem;
+}
+
+.vew-portfolio__card-title {
+	margin: 0 0 0.4rem;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	font-size: 1.3rem;
+	color: var(--brand-dark, #2a174f);
+}
+
+.vew-portfolio__card-text {
+	margin: 0 0 1.2rem;
+	color: var(--muted, #5f5870);
+	font-size: 0.92rem;
+}
+
+.vew-portfolio__visit {
+	margin-top: auto;
+	color: var(--brand, #4a2c8a);
+	font-weight: 600;
+	font-size: 0.9rem;
+	text-decoration: none;
+}
+
+.vew-portfolio__card:hover .vew-portfolio__visit {
+	color: var(--accent, #ff6b4a);
+}
+
+@media (max-width: 1100px) {
+	.vew-portfolio__heading {
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"eyebrow"
+			"title"
+			"intro";
+	}
+
+	.vew-portfolio__intro {
+		margin-top: 1rem;
+	}
+}
+
+/* Responsive collapse at 820px (component CSS owns the layout collapse). */
+@media (max-width: 820px) {
+	.vew-portfolio__inner {
+		padding-block: var(--section-space-y-mobile, clamp(48px, 10vw, 64px));
+		padding-inline: 20px;
+	}
+
+	.vew-portfolio__grid {
+		grid-template-columns: 1fr;
+	}
+}

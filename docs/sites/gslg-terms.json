@@ -1,0 +1,83 @@
+{
+  "title": "Terms of Use — Grand Strand Law Group",
+  "slug": "gslg-terms",
+  "kit": "gslg",
+  "containers": [
+    {
+      "id": "tmhdr",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "cta_text": "Contact",
+            "cta_url": { "url": "/gslg-contact/" },
+            "links": [
+              { "text": "Home", "url": { "url": "/gslg/" } },
+              { "text": "About", "url": { "url": "/gslg-about/" } },
+              { "text": "Real Estate", "url": { "url": "/gslg-real-estate/" } },
+              { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } },
+              { "text": "Probate", "url": { "url": "/gslg-probate/" } },
+              { "text": "Business Law", "url": { "url": "/gslg-business/" } },
+              { "text": "Contact", "url": { "url": "/gslg-contact/" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tmhero",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-page-hero",
+          "settings": {
+            "breadcrumb_home_text": "Home",
+            "breadcrumb_home_url": { "url": "/gslg/" },
+            "breadcrumb_mid_text": "",
+            "breadcrumb_mid_url": { "url": "" },
+            "breadcrumb_current": "Terms of Use",
+            "eyebrow": "Legal",
+            "title": "Terms of use.",
+            "lead": "Effective August 14, 2026"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tmcontent",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "text-editor",
+          "settings": {
+            "editor": "<h2>Use of this website</h2><p>This website is provided for general information about Grand Strand Law Group, LLC and its legal services. By using this website, you agree to these terms of use. The content on this site is not legal advice and does not create an attorney-client relationship.</p><h2>No legal advice</h2><p>Information on this website is provided for general informational purposes only and should not be relied upon as legal advice. You should consult a qualified attorney for advice regarding your individual situation.</p><h2>Intellectual property</h2><p>All content on this website, including text, graphics, logos, and design, is the property of Grand Strand Law Group, LLC and is protected by applicable copyright and trademark laws. You may not reproduce, distribute, or use this content without our prior written permission.</p><h2>Third-party links</h2><p>This website may contain links to third-party websites. We are not responsible for the content or practices of those sites, and linking to them does not imply endorsement.</p><h2>Limitation of liability</h2><p>To the fullest extent permitted by law, Grand Strand Law Group, LLC shall not be liable for any damages arising from your use of this website or reliance on its content.</p><h2>Contact us</h2><p>If you have questions about these terms, please contact us at <a href=\"mailto:info@grandstrandlawgroup.com\">info@grandstrandlawgroup.com</a> or call <a href=\"tel:+18434925422\">(843) 492-5422</a>.</p>",
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tmfooter",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "blurb": "Locally owned and operated attorneys serving the Grand Strand. High-quality legal counsel, not high cost.",
+            "columns": [
+              { "heading": "Practice Areas", "links": [ { "text": "Real Estate Law", "url": { "url": "/gslg-real-estate/" } }, { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } }, { "text": "Probate", "url": { "url": "/gslg-probate/" } }, { "text": "Business Law", "url": { "url": "/gslg-business/" } } ] },
+              { "heading": "Company", "links": [ { "text": "About Us", "url": { "url": "/gslg-about/" } }, { "text": "Contact", "url": { "url": "/gslg-contact/" } }, { "text": "Privacy Policy", "url": { "url": "/gslg-privacy/" } }, { "text": "Terms of Use", "url": { "url": "/gslg-terms/" } } ] },
+              { "heading": "Get in touch", "links": [ { "text": "(843) 492-5422", "url": { "url": "tel:+1843 4925422" } }, { "text": "info@grandstrandlawgroup.com", "url": { "url": "mailto:info@grandstrandlawgroup.com" } } ] }
+            ],
+            "copyright": "© 2026 Grand Strand Law Group, LLC."
+          }
+        }
+      ]
+    }
+  ]
+}

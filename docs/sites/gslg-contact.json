@@ -1,0 +1,113 @@
+{
+  "title": "Contact — Grand Strand Law Group",
+  "slug": "gslg-contact",
+  "kit": "gslg",
+  "containers": [
+    {
+      "id": "cphdr",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "cta_text": "Contact",
+            "cta_url": { "url": "/gslg-contact/" },
+            "links": [
+              { "text": "Home", "url": { "url": "/gslg/" } },
+              { "text": "About", "url": { "url": "/gslg-about/" } },
+              { "text": "Real Estate", "url": { "url": "/gslg-real-estate/" } },
+              { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } },
+              { "text": "Probate", "url": { "url": "/gslg-probate/" } },
+              { "text": "Business Law", "url": { "url": "/gslg-business/" } },
+              { "text": "Contact", "url": { "url": "/gslg-contact/" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cphero",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-page-hero",
+          "settings": {
+            "breadcrumb_home_text": "Home",
+            "breadcrumb_home_url": { "url": "/gslg/" },
+            "breadcrumb_mid_text": "",
+            "breadcrumb_mid_url": { "url": "" },
+            "breadcrumb_current": "Contact",
+            "eyebrow": "Contact",
+            "title": "How can we help you?",
+            "lead": "We are committed to helping our clients succeed. Reach out and tell us about your legal needs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cpcontact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "Get in",
+            "title_accent": "touch.",
+            "intro": "Call us, email us, or stop by one of our three convenient locations. We look forward to hearing from you.",
+            "phone": "(843) 492-5422",
+            "email": "info@grandstrandlawgroup.com",
+            "location": "Myrtle Beach · North Myrtle Beach · Loris, SC",
+            "form_kicker": "Tell us how we can help",
+            "form_title": "Request a consultation",
+            "submit_cta": "Submit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cplocations",
+      "content_width": "full",
+      "settings": { "_element_id": "locations" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Locations",
+            "title": "Our",
+            "title_accent": "locations.",
+            "intro": "",
+            "features": [
+              { "title": "Myrtle Beach Office", "text": "401 Broadway St, Myrtle Beach, SC 29577 · (843) 492-5422", "detail": "", "number": "01" },
+              { "title": "North Myrtle Beach Office", "text": "North Myrtle Beach, SC · (843) 492-5422", "detail": "", "number": "02" },
+              { "title": "Loris Office", "text": "4721 Main St, Loris, SC 29569 · (843) 492-5422", "detail": "", "number": "03" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cpfooter",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "blurb": "Locally owned and operated attorneys serving the Grand Strand. High-quality legal counsel, not high cost.",
+            "columns": [
+              { "heading": "Practice Areas", "links": [ { "text": "Real Estate Law", "url": { "url": "/gslg-real-estate/" } }, { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } }, { "text": "Probate", "url": { "url": "/gslg-probate/" } }, { "text": "Business Law", "url": { "url": "/gslg-business/" } } ] },
+              { "heading": "Company", "links": [ { "text": "About Us", "url": { "url": "/gslg-about/" } }, { "text": "Contact", "url": { "url": "/gslg-contact/" } }, { "text": "Privacy Policy", "url": { "url": "/gslg-privacy/" } }, { "text": "Terms of Use", "url": { "url": "/gslg-terms/" } } ] },
+              { "heading": "Get in touch", "links": [ { "text": "(843) 492-5422", "url": { "url": "tel:+1843 4925422" } }, { "text": "info@grandstrandlawgroup.com", "url": { "url": "mailto:info@grandstrandlawgroup.com" } } ] }
+            ],
+            "copyright": "© 2026 Grand Strand Law Group, LLC."
+          }
+        }
+      ]
+    }
+  ]
+}

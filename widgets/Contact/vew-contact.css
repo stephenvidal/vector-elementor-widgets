@@ -1,0 +1,232 @@
+/* Vector Elementor Widgets — Contact
+   Port of the vidal-studio contact component. Scoped to .vew-contact.
+   Two-column: intro + details on the left, consultation form on the right.
+   Themed via --brand, --brand-dark, --ink, --muted, --line, --surface. */
+
+.vew-contact {
+	box-sizing: border-box;
+	width: 100vw;
+	margin-inline: calc(50% - 50vw);
+}
+
+.vew-contact__inner{
+	box-sizing: border-box;
+	width: min(100%, 1288px);
+	margin: 0 auto;
+	padding-block: var(--section-space-y, clamp(64px, 9vw, 96px));
+	padding-inline: 24px;
+	display: grid;
+	grid-template-columns: 1fr 1.2fr;
+	gap: 3rem;
+	align-items: start;
+}
+
+.vew-contact__eyebrow {
+	margin: 0 0 18px;
+	color: var(--brand, #4a2c8a);
+	font-size: 0.72rem;
+	line-height: 1;
+	font-weight: 800;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+
+.vew-contact__title {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	letter-spacing: -0.042em;
+	line-height: 0.98;
+	font-size: clamp(2.65rem, 5vw, 5.2rem);
+	color: var(--ink, #201a2e);
+}
+
+.vew-contact__intro-copy {
+	margin: 20px 0 0;
+	color: var(--muted, #5f5870);
+}
+
+.vew-contact__details {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+.vew-contact__details a {
+	text-decoration: none;
+	display: block;
+	font-weight: 600;
+	color: var(--brand, #4a2c8a);
+}
+
+.vew-contact__details span {
+	display: block;
+	font-size: 0.75rem;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--muted, #5f5870);
+	margin-bottom: 0.2rem;
+}
+
+.vew-contact__details div {
+	color: var(--ink, #201a2e);
+	font-weight: 600;
+}
+
+.vew-contact__form {
+	background: var(--surface, #ffffff);
+	border: 1px solid var(--line, rgba(32, 26, 46, 0.14));
+	border-radius: 3px;
+	padding: 2.4rem;
+	box-shadow: 0 12px 32px rgba(32, 26, 46, 0.1);
+}
+
+.vew-contact__form-heading {
+	margin-bottom: 1.6rem;
+}
+
+.vew-contact__form-heading span {
+	display: block;
+	font-size: 0.78rem;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--brand, #4a2c8a);
+	margin-bottom: 0.3rem;
+}
+
+.vew-contact__form-heading strong {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	display: block;
+}
+
+.vew-contact__form-heading small {
+	color: var(--muted, #5f5870);
+}
+
+.vew-contact__form-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1.1rem;
+	margin-bottom: 1.1rem;
+}
+
+.vew-contact__field--full {
+	grid-column: 1 / -1;
+}
+
+.vew-contact__field label {
+	display: block;
+	font-size: 0.85rem;
+	font-weight: 600;
+	margin-bottom: 0.35rem;
+}
+
+.vew-contact__field input,
+.vew-contact__field textarea {
+	width: 100%;
+	padding: 0.8rem 0.9rem;
+	border: 1px solid var(--line, rgba(32, 26, 46, 0.14));
+	border-radius: 3px;
+	font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.95rem;
+	background: var(--soft, #ffffff);
+	color: var(--ink, #201a2e);
+}
+
+.vew-contact__field textarea {
+	min-height: 110px;
+	resize: vertical;
+}
+
+.vew-contact__field input:focus,
+.vew-contact__field textarea:focus {
+	outline: 2px solid var(--brand, #4a2c8a);
+	outline-offset: 0;
+}
+
+.vew-contact__submit {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	width: 100%;
+	min-height: 48px;
+	appearance: none;
+	-webkit-appearance: none;
+	background: var(--brand, #4a2c8a);
+	color: var(--on-brand, #fff);
+	border: 0;
+	box-shadow: none;
+	cursor: pointer;
+	padding: 0 24px;
+	border-radius: 3px;
+	font-weight: 800;
+	font-size: 0.67rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.vew-contact__submit:hover {
+	background: var(--brand-dark, #2a174f);
+	color: var(--on-brand-dark, #fff);
+	transform: translateY(-1px);
+}
+
+.vew-contact__submit:focus,
+.vew-contact__submit:active {
+	background: var(--brand, #4a2c8a);
+	border-color: transparent;
+	color: var(--on-brand, #fff);
+}
+
+.vew-contact__submit:focus-visible {
+	outline: 2px solid var(--brand-dark, #2a174f);
+	outline-offset: 3px;
+}
+
+.vew-contact__privacy {
+	font-size: 0.8rem;
+	color: var(--muted, #5f5870);
+	text-align: center;
+	margin: 1rem 0 0;
+}
+
+.vew-contact__notice {
+	padding: 0.9rem 1rem;
+	border-radius: 3px;
+	margin-bottom: 1rem;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.vew-contact__notice--success {
+	background: var(--soft, #ece7f5);
+	color: var(--ink, #201a2e);
+	border: 1px solid var(--line, rgba(32, 26, 46, 0.14));
+}
+
+.vew-contact__notice--error {
+	background: color-mix(in srgb, #d14343 14%, transparent);
+	color: var(--ink, #201a2e);
+	border: 1px solid color-mix(in srgb, #d14343 45%, transparent);
+}
+
+/* Responsive collapse at 820px (component CSS owns the layout collapse). */
+@media (max-width: 820px) {
+	.vew-contact__inner {
+		padding-block: var(--section-space-y-mobile, clamp(48px, 10vw, 64px));
+		padding-inline: 20px;
+		grid-template-columns: 1fr;
+	}
+
+	.vew-contact__form-grid {
+		grid-template-columns: 1fr;
+	}
+}

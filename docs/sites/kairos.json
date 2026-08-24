@@ -1,0 +1,485 @@
+{
+  "title": "Kairos Agent",
+  "slug": "kairos",
+  "kit": "kairos",
+  "containers": [
+    {
+      "id": "khdr",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "top"
+      },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "KAIROS",
+            "brand_tag": "THE OPPORTUNE-MOMENT HARNESS",
+            "cta_text": "Read the concept",
+            "cta_url": {
+              "url": "#concept"
+            },
+            "links": [
+              {
+                "text": "Concept",
+                "url": { "url": "#concept" }
+              },
+              {
+                "text": "Problem",
+                "url": { "url": "#problem" }
+              },
+              {
+                "text": "Pillars",
+                "url": { "url": "#pillars" }
+              },
+              {
+                "text": "Design",
+                "url": { "url": "#design" }
+              },
+              {
+                "text": "FAQ",
+                "url": { "url": "#faq" }
+              },
+              {
+                "text": "Contact",
+                "url": { "url": "#contact" }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "khero",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "home"
+      },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero.png",
+              "id": 308
+            },
+            "eyebrow": "A theoretical response to agent-harness inefficiency",
+            "headline": "The agent that never loses<br>the plot.<br><em>Kairos.</em>",
+            "copy": "Every agent harness today spends a large share of its attention managing itself — compacting context, re-deriving state, second-guessing its own work. Kairos reorganizes the harness so the model only ever thinks about the task, never about surviving the session.",
+            "primary_cta_text": "Read the thesis",
+            "primary_cta_url": {
+              "url": "#concept"
+            },
+            "secondary_cta_text": "See the five pillars",
+            "secondary_cta_url": {
+              "url": "#pillars"
+            },
+            "trust_list": [
+              {
+                "text": "Attention-as-Budget"
+              },
+              {
+                "text": "Typed State Ledger"
+              },
+              {
+                "text": "Opportune Dispatch"
+              },
+              {
+                "text": "Enforced Verification"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kstats",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "stats"
+      },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The inefficiency inventory",
+            "title": "The costs the frontier models",
+            "title_accent": "can't fix alone",
+            "stats": [
+              {
+                "value": "7",
+                "label": "Structural harness costs identified"
+              },
+              {
+                "value": "0",
+                "label": "Are model limitations"
+              },
+              {
+                "value": "~50%",
+                "label": "Of tokens often spent re-deriving state"
+              },
+              {
+                "value": "5",
+                "label": "Kairos design pillars proposed"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kconcept",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "concept"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "eyebrow": "The thesis",
+            "title": "The job of a harness is not to maximize what an agent can",
+            "title_accent": "do",
+            "title_after": "— it is to minimize how much of its attention is spent managing itself.",
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/opportune.png",
+              "id": 306
+            },
+            "image_caption": "The opportune moment — work dispatched exactly when it is ready",
+            "paragraphs": [
+              {
+                "text": "Research across Hermes Agent, Claude Code, OpenAI Codex, Cursor, Copilot, Devin, and the open-source harness layer converges on a single conclusion: the frontier models have largely converged, and the wrapper now decides the experience."
+              },
+              {
+                "text": "And the wrappers share seven expensive habits — leaking context, sessions that forget, one-shotting, soft self-review, stale plans, tool-call round-trip overhead, and hidden harness control. None of these are model weaknesses. They are architectural choices that Kairos proposes to reverse."
+              }
+            ],
+            "quote": "You never compact a ledger; you query it.",
+            "signature": "Kairos",
+            "signature_role": "Second-generation harness concept"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kproblem",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "problem"
+      },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "The seven structural costs",
+            "title": "Why today's agents burn their",
+            "title_accent": "attention",
+            "intro": "These are harness-level inefficiencies, present across the current generation of agent tools. Each one is a place where attention is spent on the harness itself instead of on the work.",
+            "features": [
+              {
+                "number": "01",
+                "title": "Context is a leaking bucket",
+                "text": "Compaction summarizes away the exact granular state a later bug needs. Even the best compression is lossy, and context anxiety makes agents wrap up early near a limit they believe is near.",
+                "detail": "Working-memory rot + lossy compaction"
+              },
+              {
+                "number": "02",
+                "title": "Sessions forget",
+                "text": "Each context window begins with no memory. Agents re-explore, re-run, and re-guess what a handoff should have carried. Memory files help but depend on the agent deciding to consult them.",
+                "detail": "Cold-start amnesia"
+              },
+              {
+                "number": "03",
+                "title": "One-shotting & premature completion",
+                "text": "Agents try to eat the whole task in one pass, run out of context, and leave a half-built mess — or see progress and mistake it for completion on a feature that never ran end-to-end.",
+                "detail": "The field patches this with prompts, not structure"
+              },
+              {
+                "number": "04",
+                "title": "Self-review is soft",
+                "text": "The same weights that generated the output now judge it. The result is confident praise of mediocre work. A separate evaluator helps but doubles the inference budget.",
+                "detail": "Self-review softness"
+              },
+              {
+                "number": "05",
+                "title": "Plans go stale — or are over-administered",
+                "text": "Task trees anchor an agent to a plan reality has invalidated, or decompose so finely that more tokens go to bookkeeping than to the work. Checkbox theater replaces progress.",
+                "detail": "Plan drag + overdecomposition"
+              },
+              {
+                "number": "06",
+                "title": "Tool-call round-trip overhead",
+                "text": "Every tool call re-sends the system prompt, schemas, and a growing transcript. Progressive-disclosure helps, but the reason-act-observe loop itself is the largest single token sink.",
+                "detail": "The loop, not the model"
+              },
+              {
+                "number": "07",
+                "title": "Hidden harness control",
+                "text": "Many harnesses mutate context, prompts, and tools in ways the user cannot inspect or steer. The field's answer is user-owned minimal harnesses — but the burden lands on the operator.",
+                "detail": "Opacity by default"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kpillars",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "pillars"
+      },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "The response",
+            "title": "Five structural bets,",
+            "title_accent": "not five patches",
+            "intro": "Where today's harnesses add patches (compaction, feature lists, evaluator agents, memory files), Kairos moves those responsibilities out of the model's reasoning loop and into deterministic, inspectable harness layers.",
+            "variant": "design",
+            "design": [
+              {
+                "icon": "◈",
+                "title": "Split attention",
+                "text": "Separate the working set (active task) from the ledger (all prior state). The model's window holds only the current task, a fresh situation card, and the artifacts for the immediate decision."
+              },
+              {
+                "icon": "◈",
+                "title": "Typed state ledger",
+                "text": "History lives as typed, queryable records — values, error signatures, decisions with reasons — not prose. The harness rewrites the situation card deterministically between steps. You query the past; you never carry it."
+              },
+              {
+                "icon": "◈",
+                "title": "Opportune dispatch",
+                "text": "Continuously score readiness: task specified, inputs fresh, verification cheap. Spend inference only at the task's opportune moment — never guessing early, never acting on stale state."
+              }
+            ],
+            "build": [
+              {
+                "icon": "⚑",
+                "title": "Verification is a guarantee",
+                "text": "Schedule verification as a typed step with its own toolset and a skeptical evaluator — a different model family than the generator — run against the live artifact, not a summary."
+              },
+              {
+                "icon": "⚑",
+                "title": "Stateless subagents",
+                "text": "Subagents write results into the shared ledger (not a prose summary) and return a pointer + diff. Async results carry their context ID, so reconciliation is deterministic."
+              },
+              {
+                "icon": "⚑",
+                "title": "Radical transparency",
+                "text": "Every context mutation, compaction decision, ledger write, and dispatch decision is observable, inspectable, and overridable. The user owns the harness, not the vendor."
+              }
+            ],
+            "launch": [
+              {
+                "icon": "✦",
+                "title": "A theoretical response",
+                "text": "Kairos is a design thesis, not a shipped system. It is a second-generation opinion on how the next harness should be built, informed by the failure modes this generation exposed."
+              },
+              {
+                "icon": "✦",
+                "title": "Informed by Hermes' strengths",
+                "text": "Hermes' structured compaction, progressive-disclosure skills, and FTS5 session search are genuinely strong — they would be inputs to Kairos' ledger, not things to discard."
+              },
+              {
+                "icon": "✦",
+                "title": "Honest about its costs",
+                "text": "A typed ledger needs deterministic state extraction. Readiness scoring is domain-dependent. Separate-model evaluators double spend. These remain open, unproven claims."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kdesign",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "design"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "eyebrow": "Inside the console",
+            "title": "The harness you can",
+            "title_accent": "watch",
+            "title_after": "— and override.",
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/console.png",
+              "id": 307
+            },
+            "image_caption": "A live context-health console — observability as a first-class surface",
+            "paragraphs": [
+              {
+                "text": "Transparency is not a feature Kairos adds; it is the substrate. Every decision the harness makes — a dispatch, a ledger write, a verification schedule — appears in a live console as an inspectable, revertible action."
+              },
+              {
+                "text": "This is the OpenDev 'transparency over magic' principle made a product surface, not a buried mechanic. The operator owns the harness the same way they own their terminal."
+              }
+            ],
+            "signature": "Context pressure",
+            "signature_role": "Live, never guessed"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kprocess",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "process"
+      },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How Kairos works",
+            "title": "From intake to verified handoff,",
+            "title_accent": "at the opportune moment",
+            "steps": [
+              {
+                "title": "Intake & classify",
+                "text": "A task arrives and is typed: is it specified, are inputs available, is verification cheap? If not ready, it waits — it is never handed to the model half-formed."
+              },
+              {
+                "title": "Dispatch at the moment",
+                "text": "The readiness score crosses its threshold and the task is dispatched. The model receives only the current task, the fresh situation card, and the exact artifacts it needs."
+              },
+              {
+                "title": "Execute with a live card",
+                "text": "The harness rewrites the situation card deterministically between steps. The model never carries the past; the ledger does, and the card is always current."
+              },
+              {
+                "title": "Verify as a guarantee",
+                "text": "A skeptical evaluator, a different model family, runs against the live artifact. 'Done' is a verifiable condition, not a self-assessment."
+              },
+              {
+                "title": "Ledger write & handoff",
+                "text": "Results and diffs are written to the typed ledger. The next session queries state instead of re-deriving it. No cold start, no lossy summary."
+              }
+            ],
+            "note": "Kairos is a design thesis — the readiness scoring function and the ledger-extraction layer are the two hardest, least-proven pieces."
+          }
+        }
+      ]
+    },
+    {
+      "id": "kcta",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "concept-cta"
+      },
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Want the full thesis?",
+            "description": "The complete research write-up — the seven inefficiencies, the five pillars, and the honest caveats — is documented in the Kairos concept file.",
+            "primary_text": "Read the concept",
+            "primary_url": { "url": "#concept" },
+            "secondary_text": "See the pillars",
+            "secondary_url": { "url": "#pillars" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "kfaq",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "faq"
+      },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "The honest, unpolished answers to the obvious questions about a concept product.",
+            "items": [
+              {
+                "question": "Is Kairos a real product I can install?",
+                "answer": "No. Kairos is a theoretical response and design thesis — a second-generation opinion on how an agent harness should be architected. No shipped code yet."
+              },
+              {
+                "question": "How does it relate to Hermes Agent?",
+                "answer": "Kairos is informed by Hermes' strengths — structured compaction, progressive-disclosure skills, FTS5 session search — and proposes to take them further by moving state out of the window into a typed ledger."
+              },
+              {
+                "question": "What's the hardest part to actually build?",
+                "answer": "Two pieces: deterministically extracting typed state from model output into the ledger, and defining a readiness-scoring function that reliably knows when a task is truly 'ripe.'"
+              },
+              {
+                "question": "Doesn't a separate evaluator double the cost?",
+                "answer": "Yes. That is a real, admitted trade-off. The claim is that enforced verification catches failures that soft self-review misses — but the cost objection is legitimate and unproven either way."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kcontact",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "contact"
+      },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "Discuss the thesis",
+            "intro": "If you are building an agent harness — or just tired of one that loses the plot — Kairos is a starting point for the conversation.",
+            "phone": "(555) 010-0000",
+            "email": "kairos@example.com",
+            "location": "Concept stage — remote",
+            "form_kicker": "Send a note",
+            "form_title": "Tell us what you think",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kfoot",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "footer"
+      },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "KAIROS",
+            "brand_tag": "OPPORTUNE-MOMENT HARNESS",
+            "blurb": "A theoretical agent harness that reorganizes attention so the model only ever thinks about the task — never about surviving the session.",
+            "copyright": "© Kairos Agent — concept document",
+            "columns": [
+              {
+                "heading": "Explore",
+                "links": [
+                  { "text": "Concept", "url": { "url": "#concept" } },
+                  { "text": "Problem", "url": { "url": "#problem" } },
+                  { "text": "Pillars", "url": { "url": "#pillars" } },
+                  { "text": "Process", "url": { "url": "#process" } }
+                ]
+              },
+              {
+                "heading": "Reference",
+                "links": [
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Concept doc", "url": { "url": "#concept" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

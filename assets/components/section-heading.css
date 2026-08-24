@@ -1,0 +1,11 @@
+.vew-section-heading__accent {
+	color: var(--accent, #ff6b4a);
+	font-family: inherit;
+	font-style: italic;
+	font-weight: inherit;
+}
+
+.vew-section-heading__before,
+.vew-section-heading__after {
+	font: inherit;
+}

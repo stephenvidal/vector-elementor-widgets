@@ -1,0 +1,140 @@
+/* Vector Elementor Widgets — Watch
+   Port of the vidal/rore/rorecclesia "watch" band. Scoped to .vew-watch.
+   A dark brand-dark surface with an intro + CTA links on one side and a media
+   image with a play pin on the other. Themed via --brand-dark, --accent. */
+
+.vew-watch {
+	box-sizing: border-box;
+	width: 100vw;
+	margin-inline: calc(50% - 50vw);
+	background: var(--brand-dark, #222223);
+	color: var(--on-brand-dark, #fff);
+}
+
+.vew-watch__inner{
+	box-sizing: border-box;
+	width: min(100%, 1288px);
+	margin: 0 auto;
+	padding-block: var(--section-space-y, clamp(64px, 9vw, 96px));
+	padding-inline: 24px;
+}
+
+.vew-watch__grid {
+	display: grid;
+	grid-template-columns: 0.9fr 1.1fr;
+	gap: clamp(55px, 9vw, 120px);
+	align-items: center;
+}
+
+.vew-watch__eyebrow {
+	margin: 0 0 18px;
+	color: var(--accent, #c9a84c);
+	font-size: 0.72rem;
+	line-height: 1;
+	font-weight: 800;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+
+.vew-watch__title {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	letter-spacing: -0.042em;
+	line-height: 0.98;
+	font-size: clamp(2.65rem, 5vw, 5.2rem);
+	color: var(--on-brand-dark, #fff);
+}
+
+.vew-watch__title em {
+	color: var(--accent, #c9a84c);
+	font-weight: 400;
+}
+
+.vew-watch__intro > p:not(.vew-watch__eyebrow) {
+	max-width: 440px;
+	color: color-mix(in srgb, var(--on-brand-dark, #fff) 72%, transparent);
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.vew-watch__links {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 28px;
+	margin-top: 34px;
+}
+
+.vew-watch__cta {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 14px 26px;
+	background: var(--accent, #c9a84c);
+	color: var(--on-accent, #fff);
+	font-size: 0.8rem;
+	font-weight: 800;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.vew-watch__cta:hover {
+	opacity: 0.9;
+}
+
+.vew-watch__secondary {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	color: var(--on-brand-dark, #fff);
+	font-size: 0.8rem;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px solid color-mix(in srgb, var(--on-brand-dark, #fff) 40%, transparent);
+}
+
+.vew-watch__media {
+	position: relative;
+}
+
+.vew-watch__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	border-radius: 3px;
+}
+
+.vew-watch__play {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 76px;
+	height: 76px;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.9);
+	color: var(--brand-dark, #222223);
+	font-size: 1.4rem;
+	box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive collapse at 820px (component CSS owns the layout collapse). */
+@media (max-width: 820px) {
+	.vew-watch__inner {
+		padding-block: var(--section-space-y-mobile, clamp(48px, 10vw, 64px));
+		padding-inline: 20px;
+	}
+
+	.vew-watch__grid {
+		grid-template-columns: 1fr;
+		gap: 45px;
+	}
+}

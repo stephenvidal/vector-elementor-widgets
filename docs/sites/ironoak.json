@@ -1,0 +1,607 @@
+{
+  "title": "Iron & Oak",
+  "slug": "ironoak",
+  "containers": [
+    {
+      "id": "iohdr",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "top"
+      },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "IRON & OAK",
+            "brand_tag": "STRENGTH & CONDITIONING",
+            "cta_text": "Join now",
+            "cta_url": {
+              "url": "#contact"
+            },
+            "links": [
+              {
+                "text": "Programs",
+                "url": {
+                  "url": "#programs"
+                }
+              },
+              {
+                "text": "Process",
+                "url": {
+                  "url": "#process"
+                }
+              },
+              {
+                "text": "Coaching",
+                "url": {
+                  "url": "#coaching"
+                }
+              },
+              {
+                "text": "Gallery",
+                "url": {
+                  "url": "#gallery"
+                }
+              },
+              {
+                "text": "Reviews",
+                "url": {
+                  "url": "#reviews"
+                }
+              },
+              {
+                "text": "Pricing",
+                "url": {
+                  "url": "#pricing"
+                }
+              },
+              {
+                "text": "FAQ",
+                "url": {
+                  "url": "#faq"
+                }
+              },
+              {
+                "text": "Contact",
+                "url": {
+                  "url": "#contact"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "iohero",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "home"
+      },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "eyebrow": "Boutique strength & conditioning",
+            "headline": "Train with intent.<br>Build with <em>consistency.</em>",
+            "copy": "Small-group coaching in a focused space. Honest programming, clear progress, and a community that holds the standard — for every body that shows up ready to work.",
+            "primary_cta_text": "Start a free week",
+            "primary_cta_url": {
+              "url": "#contact"
+            },
+            "secondary_cta_text": "Explore programs",
+            "secondary_cta_url": {
+              "url": "#programs"
+            },
+            "trust_list": [
+              {
+                "text": "Small-Group Coaching"
+              },
+              {
+                "text": "Capped Sessions"
+              },
+              {
+                "text": "No Lock-In Contracts"
+              },
+              {
+                "text": "All Levels Welcome"
+              }
+            ],
+            "hero_background_image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-5.webp",
+              "id": 194
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ioprograms",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "programs"
+      },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Three ways to train",
+            "title": "Programs built around",
+            "title_accent": "your goals.",
+            "intro": "Every program is coached, capped at a small group, and built on progressive overload. Pick the focus that fits your season of life.",
+            "features": [
+              {
+                "title": "Strength Foundations",
+                "text": "Learn the core lifts with a coach in the room. Build a base of strength you can carry into any goal.",
+                "detail": "8-week block · All levels",
+                "number": "01"
+              },
+              {
+                "title": "Performance Conditioning",
+                "text": "Engine work, power, and work capacity. For athletes and anyone who wants to move better and recover faster.",
+                "detail": "3 sessions / week",
+                "number": "02"
+              },
+              {
+                "title": "Small-Group Coaching",
+                "text": "Capped at 8 per session. Every rep gets eyes on it, every program gets adjusted to you.",
+                "detail": "Max 8 per session",
+                "number": "03"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ioprocess",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "process"
+      },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From first visit",
+            "title_accent": "to first PR.",
+            "note": "No pressure, no confusing packages — just a clear conversation about where you are and where you want to go.",
+            "steps": [
+              {
+                "title": "Book a Free Week",
+                "text": "Schedule your first session and a quick intro with a coach."
+              },
+              {
+                "title": "Set Your Baseline",
+                "text": "We assess your movement, goals, and starting point."
+              },
+              {
+                "title": "Get Your Program",
+                "text": "A clear plan built around your goals and your schedule."
+              },
+              {
+                "title": "Train With Intent",
+                "text": "Coached sessions, tracked progress, steady improvement."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "iocoaching",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "coaching"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/coach.webp",
+              "id": 196
+            },
+            "image_caption": "Representative coaching image",
+            "eyebrow": "Coached, not crowded",
+            "title": "Small groups.",
+            "title_accent": "Real attention.",
+            "paragraphs": [
+              {
+                "text": "Iron & Oak keeps sessions capped so every rep gets eyes on it. Coaches correct form, adjust loads, and track progress — not just run a clock."
+              },
+              {
+                "text": "You'll know your coach, your numbers, and your next step. That's the whole model."
+              }
+            ],
+            "quote": "“Consistency beats intensity — but consistency with intent is unbeatable.”",
+            "signature": "— [Head Coach Name]",
+            "signature_role": "HEAD COACH · NAME TO CONFIRM"
+          }
+        }
+      ]
+    },
+    {
+      "id": "iowhy",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why members stay",
+            "title": "The standard we",
+            "title_accent": "hold ourselves to.",
+            "features": [
+              {
+                "title": "Capped Sessions",
+                "text": "Never more than 8 in a class. You get coached, not just counted.",
+                "detail": "",
+                "number": "01"
+              },
+              {
+                "title": "Honest Programming",
+                "text": "Progressive overload with a plan. No random workouts, no guesswork.",
+                "detail": "",
+                "number": "02"
+              },
+              {
+                "title": "Real Community",
+                "text": "People who show up and hold each other to the standard.",
+                "detail": "",
+                "number": "03"
+              },
+              {
+                "title": "No Lock-In",
+                "text": "Free first week, cancel anytime. We earn your membership every month.",
+                "detail": "",
+                "number": "04"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "iogallery",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "gallery"
+      },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the studio",
+            "title": "A space built",
+            "title_accent": "for work.",
+            "images": [
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g1-4.webp",
+                  "id": 195
+                },
+                "alt": "Barbell platforms and racks in a clean, open training space",
+                "label": "Strength floor"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g2-4.webp",
+                  "id": 199
+                },
+                "alt": "A coach guiding an athlete through a movement",
+                "label": "Coaching"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g3-4.webp",
+                  "id": 198
+                },
+                "alt": "Conditioning circuit with kettlebells and rowers",
+                "label": "Conditioning"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g4-3.webp",
+                  "id": 197
+                },
+                "alt": "Members training together in a small-group session",
+                "label": "Community"
+              }
+            ],
+            "gallery_style": "editorial"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ioreviews",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "reviews"
+      },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Member results",
+            "title": "Good work is",
+            "title_accent": "remembered.",
+            "reviews": [
+              {
+                "quote": "“The coaching is the difference. Someone actually watches your reps and fixes your form — you improve faster than you expect.”",
+                "author": "A.M.",
+                "role": "[Local Area] · Strength block",
+                "stars": 5
+              },
+              {
+                "quote": "“Small groups, real attention, and a plan that makes sense. I stopped guessing and started progressing.”",
+                "author": "J.R.",
+                "role": "[Local Area] · Conditioning",
+                "stars": 5
+              },
+              {
+                "quote": "“I was nervous starting as a beginner. The coaches met me where I was and built me up from there.”",
+                "author": "D.K.",
+                "role": "[Local Area] · Foundations",
+                "stars": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "iopricing",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "pricing"
+      },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Membership",
+            "title": "Simple plans,",
+            "title_accent": "no lock-in.",
+            "note": "All plans include a free first week. Cancel anytime — no lock-in contracts.",
+            "plans": [
+              {
+                "plan": "Foundations",
+                "price": "$89",
+                "unit": "/ month",
+                "featured": "",
+                "cta": "Start free week",
+                "features": [
+                  {
+                    "text": "2 coached sessions / week"
+                  },
+                  {
+                    "text": "Baseline assessment"
+                  },
+                  {
+                    "text": "Program access"
+                  },
+                  {
+                    "text": "Community app access"
+                  }
+                ]
+              },
+              {
+                "plan": "Unlimited",
+                "price": "$129",
+                "unit": "/ month",
+                "featured": "yes",
+                "cta": "Start free week",
+                "features": [
+                  {
+                    "text": "Unlimited coached sessions"
+                  },
+                  {
+                    "text": "Baseline + monthly check-ins"
+                  },
+                  {
+                    "text": "Full program library"
+                  },
+                  {
+                    "text": "Community app access"
+                  },
+                  {
+                    "text": "Guest pass each month"
+                  }
+                ]
+              },
+              {
+                "plan": "Performance",
+                "price": "$159",
+                "unit": "/ month",
+                "featured": "",
+                "cta": "Start free week",
+                "features": [
+                  {
+                    "text": "Unlimited coached sessions"
+                  },
+                  {
+                    "text": "1-on-1 programming review"
+                  },
+                  {
+                    "text": "Monthly performance testing"
+                  },
+                  {
+                    "text": "Recovery & mobility work"
+                  },
+                  {
+                    "text": "Priority booking"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "iofaq",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "faq"
+      },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions,",
+            "title_accent": "answered clearly.",
+            "intro": "A few helpful details before you join. If your question is not here, just get in touch.",
+            "items": [
+              {
+                "question": "Do I need experience to join?",
+                "answer": "No. Every program is scaled to your level. Coaches meet you where you are and build you up from there."
+              },
+              {
+                "question": "How big are the classes?",
+                "answer": "Sessions are capped at 8 people. That cap is what lets coaches actually coach — every rep gets attention."
+              },
+              {
+                "question": "What does the free first week include?",
+                "answer": "Unlimited access to scheduled sessions for your first week, plus a baseline assessment and a program intro. No card required."
+              },
+              {
+                "question": "Can I cancel anytime?",
+                "answer": "Yes. There are no lock-in contracts. Annual and lifetime plans are one-time commitments you choose; monthly is month-to-month."
+              },
+              {
+                "question": "What should I bring?",
+                "answer": "Comfortable training clothes and water. We have all the equipment — barbells, kettlebells, rowers, and more."
+              },
+              {
+                "question": "What if I miss a session?",
+                "answer": "Your program is flexible. Missed sessions can be made up within the same week, subject to class availability."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "iocontact",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "contact"
+      },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Let's get you started",
+            "title": "Book your",
+            "title_accent": "free first week.",
+            "intro": "Tell us a little about your goals and we'll follow up to schedule your first session and a quick intro.",
+            "phone": "(555) 010-0333",
+            "email": "hello@example.com",
+            "location": "[Primary City] · Mon–Fri 6–8 · Sat 8–12",
+            "form_kicker": "Free first week",
+            "form_title": "Start your intro",
+            "submit_cta": "Request my free week"
+          }
+        }
+      ]
+    },
+    {
+      "id": "iofooter",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "footer"
+      },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "IRON & OAK",
+            "brand_tag": "STRENGTH & CONDITIONING",
+            "blurb": "Small-group coaching in a focused space. Honest programming, clear progress, and a community that holds the standard.",
+            "columns": [
+              {
+                "heading": "Navigate",
+                "links": [
+                  {
+                    "text": "Programs",
+                    "url": {
+                      "url": "#programs"
+                    }
+                  },
+                  {
+                    "text": "Process",
+                    "url": {
+                      "url": "#process"
+                    }
+                  },
+                  {
+                    "text": "Coaching",
+                    "url": {
+                      "url": "#coaching"
+                    }
+                  },
+                  {
+                    "text": "Gallery",
+                    "url": {
+                      "url": "#gallery"
+                    }
+                  },
+                  {
+                    "text": "Pricing",
+                    "url": {
+                      "url": "#pricing"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Join",
+                "links": [
+                  {
+                    "text": "Free first week",
+                    "url": {
+                      "url": "#contact"
+                    }
+                  },
+                  {
+                    "text": "Reviews",
+                    "url": {
+                      "url": "#reviews"
+                    }
+                  },
+                  {
+                    "text": "FAQ",
+                    "url": {
+                      "url": "#faq"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  {
+                    "text": "(555) 010-0333",
+                    "url": {
+                      "url": "tel:+15550100333"
+                    }
+                  },
+                  {
+                    "text": "hello@example.com",
+                    "url": {
+                      "url": "mailto:hello@example.com"
+                    }
+                  }
+                ]
+              }
+            ],
+            "copyright": "© Iron & Oak"
+          }
+        }
+      ]
+    }
+  ]
+}

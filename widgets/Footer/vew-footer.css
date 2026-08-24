@@ -1,0 +1,135 @@
+/* Vector Elementor Widgets — Footer
+   Port of the vidal-studio site footer. Scoped to .vew-footer. Brand block +
+   link columns + bottom bar on a dark brand-dark background. Themed via
+   --brand-dark, --accent, --ink. */
+
+.vew-footer {
+	box-sizing: border-box;
+	background: var(--brand-dark, #2a174f);
+	color: var(--on-brand-dark, #fff);
+	width: 100vw;
+	margin: 0 calc(50% - 50vw);
+}
+
+.vew-footer__inner {
+	box-sizing: border-box;
+	width: min(100%, 1288px);
+	margin: 0 auto;
+	padding: 4rem 24px 0;
+}
+
+.vew-footer__grid {
+	display: grid;
+	grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+	gap: 2.5rem;
+	padding-bottom: 3rem;
+}
+
+.vew-footer__brand {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.7rem;
+	text-decoration: none;
+	margin-bottom: 0;
+}
+
+.vew-footer__mark {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	flex: 0 0 40px;
+	overflow: hidden;
+	color: var(--on-brand-dark, #fff);
+}
+
+.vew-footer__mark svg {
+	display: block;
+	width: 100%;
+	height: 100%;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.7;
+}
+
+.vew-footer__mark-detail {
+	fill: none;
+	stroke-width: 1.5;
+}
+
+.vew-footer__brand-text strong {
+	display: block;
+	font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.98rem;
+	letter-spacing: 0.08em;
+	line-height: 1;
+	color: var(--on-brand-dark, #fff);
+}
+
+.vew-footer__brand-text small {
+	display: block;
+	font-size: 0.62rem;
+	letter-spacing: 0.18em;
+	color: color-mix(in srgb, var(--on-brand-dark, #fff) 60%, transparent);
+	margin-top: 3px;
+}
+
+.vew-footer__blurb {
+	color: color-mix(in srgb, var(--on-brand-dark, #fff) 75%, transparent);
+	font-size: 0.9rem;
+	margin: 1rem 0 0;
+}
+
+.vew-footer__col h3 {
+	font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+	font-size: 0.85rem;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	color: var(--on-brand-dark, #fff);
+}
+
+.vew-footer__col a {
+	display: block;
+	color: color-mix(in srgb, var(--on-brand-dark, #fff) 75%, transparent);
+	text-decoration: none;
+	font-size: 0.9rem;
+	margin-bottom: 0.6rem;
+	transition: color 0.2s ease;
+}
+
+.vew-footer__col a:hover {
+	color: var(--accent, #ff6b4a);
+}
+
+.vew-footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	border-top: 1px solid color-mix(in srgb, var(--on-brand-dark, #fff) 15%, transparent);
+	padding: 1.4rem 0;
+	font-size: 0.85rem;
+	color: color-mix(in srgb, var(--on-brand-dark, #fff) 60%, transparent);
+	flex-wrap: wrap;
+}
+
+/* Responsive collapse at 820px (component CSS owns the layout collapse). */
+@media (max-width: 1100px) {
+	.vew-footer__grid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 820px) {
+	.vew-footer__inner {
+		padding: 3.5rem 20px 0;
+	}
+
+	.vew-footer__grid {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+}

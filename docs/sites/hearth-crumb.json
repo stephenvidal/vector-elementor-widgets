@@ -1,0 +1,621 @@
+{
+  "title": "Hearth & Crumb",
+  "slug": "hearth-crumb",
+  "containers": [
+    {
+      "id": "hchdr",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "top"
+      },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HEARTH & CRUMB",
+            "brand_tag": "BAKERY · BAKED AT DAWN",
+            "cta_text": "Order ahead",
+            "cta_url": {
+              "url": "#order"
+            },
+            "links": [
+              {
+                "text": "Menu",
+                "url": {
+                  "url": "#menu"
+                }
+              },
+              {
+                "text": "Visit",
+                "url": {
+                  "url": "#visit"
+                }
+              },
+              {
+                "text": "Gallery",
+                "url": {
+                  "url": "#gallery"
+                }
+              },
+              {
+                "text": "Our Story",
+                "url": {
+                  "url": "#story"
+                }
+              },
+              {
+                "text": "Order",
+                "url": {
+                  "url": "#order"
+                }
+              },
+              {
+                "text": "FAQ",
+                "url": {
+                  "url": "#faq"
+                }
+              },
+              {
+                "text": "Contact",
+                "url": {
+                  "url": "#contact"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hchero",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "home"
+      },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "eyebrow": "Baked fresh each morning",
+            "headline": "Slow bread.<br>Real butter.<br><em>Good mornings.</em>",
+            "copy": "Slow-fermented sourdough, laminated pastries, and honest coffee — baked at dawn in [Primary City] and gone by close. Come for the crust, stay for the coffee.",
+            "primary_cta_text": "Order ahead",
+            "primary_cta_url": {
+              "url": "#order"
+            },
+            "secondary_cta_text": "See today's menu",
+            "secondary_cta_url": {
+              "url": "#menu"
+            },
+            "trust_list": [
+              {
+                "text": "Stone-milled Flour"
+              },
+              {
+                "text": "Real Butter"
+              },
+              {
+                "text": "Small-Batch Daily"
+              },
+              {
+                "text": "Baked at Dawn"
+              }
+            ],
+            "hero_background_image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-4.webp",
+              "id": 180
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "hcmenu",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "menu"
+      },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "The menu",
+            "title": "Baked today,",
+            "title_accent": "gone by close.",
+            "intro": "Everything is made in small batches with stone-milled flour and real butter. When it's gone, it's gone — that's the point.",
+            "items": [
+              {
+                "name": "Country Sourdough",
+                "description": "Slow-fermented 36 hours over the wood-fired hearth.",
+                "price": "$6",
+                "tag": ""
+              },
+              {
+                "name": "Honey & Thyme Loaf",
+                "description": "A touch of local honey, fresh thyme, and a crackling crust.",
+                "price": "$8",
+                "tag": "Favourite"
+              },
+              {
+                "name": "Classic Croissant",
+                "description": "72-layer lamination, French butter, baked until deep gold.",
+                "price": "$4",
+                "tag": ""
+              },
+              {
+                "name": "Pain au Chocolat",
+                "description": "All-butter croissant folded around dark chocolate batons.",
+                "price": "$4.50",
+                "tag": ""
+              },
+              {
+                "name": "Morning Bun",
+                "description": "Cardamom, vanilla, and a sticky citrus glaze.",
+                "price": "$5",
+                "tag": "New"
+              },
+              {
+                "name": "Seasonal Galette",
+                "description": "Stone fruit or orchard apple with a buttery hand-rolled crust.",
+                "price": "$7",
+                "tag": ""
+              },
+              {
+                "name": "Baguette",
+                "description": "Crisp crust, open crumb — our take on the classic.",
+                "price": "$5.50",
+                "tag": ""
+              },
+              {
+                "name": "Espresso",
+                "description": "Single-origin, roasted locally, pulled to order.",
+                "price": "$3.50",
+                "tag": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hcvisit",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "visit"
+      },
+      "widgets": [
+        {
+          "type": "vew-visit",
+          "settings": {
+            "eyebrow": "Find us",
+            "title": "Stop in for a",
+            "title_accent": "warm one.",
+            "intro": "We're in the heart of [Primary City]. Come for the smell of fresh bread, stay for the coffee and the company.",
+            "details": [
+              {
+                "label": "Address",
+                "value": "[Primary City] · [Street to confirm]"
+              },
+              {
+                "label": "Hours",
+                "value": "Mon–Fri 6:30–4 · Sat–Sun 7–3"
+              },
+              {
+                "label": "Fresh out",
+                "value": "First batch 7am · Pastries 8am"
+              }
+            ],
+            "cta_text": "Order ahead for pickup",
+            "cta_url": {
+              "url": "#order"
+            },
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g2-3.webp",
+              "id": 186
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "hcgallery",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "gallery"
+      },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "From the hearth",
+            "title": "A look inside",
+            "title_accent": "the bakery.",
+            "images": [
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g1-3.webp",
+                  "id": 182
+                },
+                "alt": "Fresh country sourdough loaf sliced with butter"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g3-3.webp",
+                  "id": 185
+                },
+                "alt": "Baker shaping dough by hand"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g4-2.webp",
+                  "id": 184
+                },
+                "alt": "Spread of loaves and pastries on a wooden table"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g5-2.webp",
+                  "id": 181
+                },
+                "alt": "Scored sourdough loaf and baguette on the counter"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hcstory",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "story"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/baker.webp",
+              "id": 183
+            },
+            "image_caption": "Head baker",
+            "eyebrow": "Our story",
+            "title": "From a home oven",
+            "title_accent": "to the neighborhood.",
+            "paragraphs": [
+              {
+                "text": "Hearth & Crumb started with a home oven, a sourdough starter, and a stubborn belief that bread should be worth waking up for. Today we bake the same way — slow, small, and honest."
+              },
+              {
+                "text": "Stone-milled flour, real butter, and time. No shortcuts, no additives — just bread you can taste the morning it's baked."
+              }
+            ],
+            "quote": "“Good bread is patient. So are we.”",
+            "signature": "— [Head Baker's Name]",
+            "signature_role": "HEAD BAKER & FOUNDER · NAME TO CONFIRM"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hcspecialties",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "The signatures",
+            "title": "What we're",
+            "title_accent": "known for.",
+            "features": [
+              {
+                "title": "The Country Sourdough",
+                "text": "Our signature — a 36-hour ferment with a crackling crust and open crumb.",
+                "detail": "",
+                "number": "01"
+              },
+              {
+                "title": "The Croissant",
+                "text": "Seventy-two layers of French butter and patience.",
+                "detail": "",
+                "number": "02"
+              },
+              {
+                "title": "The Espresso",
+                "text": "Single-origin beans roasted locally and pulled to order.",
+                "detail": "",
+                "number": "03"
+              },
+              {
+                "title": "The Morning Bun",
+                "text": "Cardamom, vanilla, and a sticky citrus glaze that sells out daily.",
+                "detail": "",
+                "number": "04"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hcorder",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "order"
+      },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Order ahead",
+            "title": "Get your",
+            "title_accent": "fix sorted.",
+            "note": "Order by 5pm for next-day pickup, or by 10am for same-day. Delivery within [Primary City].",
+            "plans": [
+              {
+                "plan": "Counter Pickup",
+                "price": "Ready",
+                "unit": "when you are",
+                "featured": "",
+                "cta": "Pick up today",
+                "features": [
+                  {
+                    "text": "Order by 10am for same-day"
+                  },
+                  {
+                    "text": "Ready at the counter"
+                  },
+                  {
+                    "text": "No minimum"
+                  },
+                  {
+                    "text": "Pay on arrival"
+                  }
+                ]
+              },
+              {
+                "plan": "Fresh Batch",
+                "price": "Reserved",
+                "unit": "30 min",
+                "featured": "yes",
+                "cta": "Reserve fresh batch",
+                "features": [
+                  {
+                    "text": "Guaranteed first batch"
+                  },
+                  {
+                    "text": "Reserved for 30 min"
+                  },
+                  {
+                    "text": "No minimum"
+                  },
+                  {
+                    "text": "Priority at counter"
+                  }
+                ]
+              },
+              {
+                "plan": "Custom Order",
+                "price": "48h",
+                "unit": "advance",
+                "featured": "",
+                "cta": "Plan a custom order",
+                "features": [
+                  {
+                    "text": "48h advance notice"
+                  },
+                  {
+                    "text": "Cakes & celebration"
+                  },
+                  {
+                    "text": "Custom recipes"
+                  },
+                  {
+                    "text": "Confirm on order"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hctestimonials",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word of mouth",
+            "title": "Loved by",
+            "title_accent": "regulars.",
+            "reviews": [
+              {
+                "quote": "“The sourdough is the real thing — that crackling crust and open crumb you can't find anywhere else. Worth the early stop.”",
+                "author": "M.D.",
+                "role": "[Local Area] · Regular",
+                "stars": 5
+              },
+              {
+                "quote": "“They catered our office breakfast and every tray was gone in an hour. Beautiful croissants, easy to work with.”",
+                "author": "R.T.",
+                "role": "[Local Area] · Catering",
+                "stars": 5
+              },
+              {
+                "quote": "“I moved here six months ago and this is the reason I look forward to Saturdays. The morning bun sells out for a reason.”",
+                "author": "S.G.",
+                "role": "[Local Area] · Local",
+                "stars": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hcfqa",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "faq"
+      },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions,",
+            "title_accent": "answered fresh.",
+            "intro": "A few helpful details before you visit. If your question is not here, just ask.",
+            "items": [
+              {
+                "question": "What time do you open?",
+                "answer": "We're open Mon–Fri 6:30am–4pm and Sat–Sun 7am–3pm. First bread out at 7am, pastries at 8am."
+              },
+              {
+                "question": "Do you take pre-orders?",
+                "answer": "Yes — order ahead for pickup by 5pm the day before, or by 10am for same-day."
+              },
+              {
+                "question": "Do you deliver?",
+                "answer": "We offer local delivery within [Primary City] on orders over $20. See the ordering options above."
+              },
+              {
+                "question": "Do you cater events?",
+                "answer": "Yes. We offer catering trays for offices, events, and gatherings. Order at least 48 hours ahead."
+              },
+              {
+                "question": "Is your menu gluten-free or vegan?",
+                "answer": "We focus on naturally leavened sourdough, which is easier to digest. A limited vegan and gluten-free selection rotates daily — ask at the counter."
+              },
+              {
+                "question": "Do you take custom orders?",
+                "answer": "Absolutely. For custom cakes, wedding breads, or specialty loaves, get in touch and we'll work it out."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hccontact",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "contact"
+      },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Say hello",
+            "title": "Get in",
+            "title_accent": "touch.",
+            "intro": "Questions, custom orders, or large events — drop us a note and we'll get back to you.",
+            "phone": "(555) 010-0222",
+            "email": "hello@example.com",
+            "location": "[Primary City] · Mon–Fri 6:30–4 · Sat–Sun 7–3",
+            "form_kicker": "We'd love to hear",
+            "form_title": "Drop us a note",
+            "submit_cta": "Send a message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hcfooter",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "footer"
+      },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HEARTH & CRUMB",
+            "brand_tag": "BAKERY · BAKED AT DAWN",
+            "blurb": "Slow-fermented sourdough, laminated pastries, and honest coffee — baked at dawn in [Primary City].",
+            "columns": [
+              {
+                "heading": "Navigate",
+                "links": [
+                  {
+                    "text": "Menu",
+                    "url": {
+                      "url": "#menu"
+                    }
+                  },
+                  {
+                    "text": "Visit",
+                    "url": {
+                      "url": "#visit"
+                    }
+                  },
+                  {
+                    "text": "Gallery",
+                    "url": {
+                      "url": "#gallery"
+                    }
+                  },
+                  {
+                    "text": "Our Story",
+                    "url": {
+                      "url": "#story"
+                    }
+                  },
+                  {
+                    "text": "Order",
+                    "url": {
+                      "url": "#order"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Order",
+                "links": [
+                  {
+                    "text": "Pickup",
+                    "url": {
+                      "url": "#order"
+                    }
+                  },
+                  {
+                    "text": "Delivery",
+                    "url": {
+                      "url": "#order"
+                    }
+                  },
+                  {
+                    "text": "Catering",
+                    "url": {
+                      "url": "#order"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  {
+                    "text": "(555) 010-0222",
+                    "url": {
+                      "url": "tel:+15550100222"
+                    }
+                  },
+                  {
+                    "text": "hello@example.com",
+                    "url": {
+                      "url": "mailto:hello@example.com"
+                    }
+                  }
+                ]
+              }
+            ],
+            "copyright": "© Hearth & Crumb"
+          }
+        }
+      ]
+    }
+  ]
+}

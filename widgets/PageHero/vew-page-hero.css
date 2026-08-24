@@ -1,0 +1,79 @@
+/* Vector Elementor Widgets — PageHero
+   Port of the gslg "page-hero" component used on subpages. Scoped to
+   .vew-page-hero. A breadcrumb nav, eyebrow, H1 title, and lead paragraph.
+   Themed via --brand, --ink, --muted, --accent, --soft. */
+
+.vew-page-hero {
+	box-sizing: border-box;
+	width: 100vw;
+	margin-inline: calc(50% - 50vw);
+	background: var(--soft, #f2f5f8);
+	border-bottom: 1px solid var(--line, rgba(28, 98, 143, 0.14));
+}
+
+.vew-page-hero__inner {
+	box-sizing: border-box;
+	width: min(100%, 1288px);
+	margin: 0 auto;
+	padding: clamp(52px, 8vw, 96px) 24px 48px;
+}
+
+.vew-page-hero__breadcrumb {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	margin: 0 0 20px;
+	font-size: 0.78rem;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	color: var(--muted, #5b6b78);
+}
+
+.vew-page-hero__breadcrumb a {
+	color: var(--brand, #1c628f);
+	text-decoration: none;
+}
+
+.vew-page-hero__breadcrumb a:hover {
+	text-decoration: underline;
+}
+
+.vew-page-hero__breadcrumb span[aria-current="page"] {
+	color: var(--ink, #16202a);
+}
+
+.vew-page-hero__eyebrow {
+	margin: 0 0 12px;
+	color: var(--accent, #c9a84c);
+	font-size: 0.72rem;
+	line-height: 1;
+	font-weight: 800;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+
+.vew-page-hero__title {
+	margin: 0 0 14px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	letter-spacing: -0.03em;
+	line-height: 1.05;
+	font-size: clamp(2rem, 4.2vw, 3.4rem);
+	color: var(--ink, #16202a);
+}
+
+.vew-page-hero__lead {
+	margin: 0;
+	max-width: 560px;
+	color: var(--muted, #5b6b78);
+	font-size: 1.05rem;
+	line-height: 1.6;
+}
+
+/* Responsive collapse at 820px (component CSS owns the layout collapse). */
+@media (max-width: 820px) {
+	.vew-page-hero__inner {
+		padding: 44px 20px 36px;
+	}
+}

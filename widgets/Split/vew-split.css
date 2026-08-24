@@ -1,0 +1,157 @@
+/* Vector Elementor Widgets — Split
+   Port of the vidal/blackstone/ember-oak "firm / story / about / coaching"
+   pattern. Scoped to .vew-split. Two-column split: image + caption on one
+   side, eyebrow/title/paragraphs/quote/signature on the other. Themed via
+   --accent, --ink, --muted, --line, --surface, --shadow. */
+
+.vew-split {
+	box-sizing: border-box;
+	width: 100vw;
+	margin-inline: calc(50% - 50vw);
+	background: var(--surface, #ffffff);
+}
+
+.vew-split__inner{
+	box-sizing: border-box;
+	width: min(100%, 1288px);
+	margin: 0 auto;
+	padding-block: var(--section-space-y, clamp(64px, 9vw, 96px));
+	padding-inline: 24px;
+}
+
+.vew-split__grid {
+	display: grid;
+	grid-template-columns: 0.9fr 1fr;
+	gap: clamp(55px, 9vw, 130px);
+	align-items: center;
+}
+
+.vew-split__media {
+	position: relative;
+}
+
+.vew-split__media::before {
+	content: "";
+	position: absolute;
+	inset: -18px 18px 18px -18px;
+	border: 1px solid var(--accent, #b08d3e);
+	opacity: 0.45;
+}
+
+.vew-split__image {
+	position: relative;
+	width: 100%;
+	height: 670px;
+	object-fit: cover;
+	display: block;
+}
+
+.vew-split__caption {
+	position: absolute;
+	right: -22px;
+	bottom: 28px;
+	padding: 13px 16px;
+	background: var(--surface, #ffffff);
+	box-shadow: var(--shadow, 0 12px 32px rgba(32, 26, 46, 0.1));
+	color: var(--muted, #5f5870);
+	font-size: 0.55rem;
+	line-height: 1.5;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.vew-split__eyebrow {
+	margin: 0 0 18px;
+	color: var(--brand, #1f3a6b);
+	font-size: 0.72rem;
+	line-height: 1;
+	font-weight: 800;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+
+.vew-split__title {
+	margin: 0 0 35px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	letter-spacing: -0.042em;
+	line-height: 0.98;
+	font-size: clamp(2.65rem, 5vw, 5.2rem);
+	color: var(--ink, #1a2233);
+}
+
+.vew-split__title em {
+	color: var(--accent, #b08d3e);
+	font-weight: 400;
+}
+
+.vew-split__paragraph {
+	margin: 0 0 1rem;
+	color: var(--muted, #5f5870);
+	font-size: 1rem;
+}
+
+.vew-split__quote {
+	margin: 38px 0 16px;
+	padding-left: 25px;
+	border-left: 2px solid var(--accent, #b08d3e);
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.65rem;
+	line-height: 1.35;
+	color: var(--ink, #1a2233);
+}
+
+.vew-split__signature-name {
+	display: block;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.1rem;
+	color: var(--ink, #1a2233);
+}
+
+.vew-split__signature-role {
+	display: block;
+	margin-top: 4px;
+	color: var(--muted, #5f5870);
+	font-size: 0.55rem;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+}
+
+/* Responsive collapse at 820px (component CSS owns the layout collapse). */
+@media (max-width: 1100px) {
+	.vew-split__grid {
+		gap: 60px;
+	}
+
+	.vew-split__image {
+		height: 570px;
+	}
+}
+
+@media (max-width: 820px) {
+	.vew-split__inner {
+		padding-block: var(--section-space-y-mobile, clamp(48px, 10vw, 64px));
+		padding-inline: 20px;
+	}
+
+	.vew-split__grid {
+		grid-template-columns: 1fr;
+		gap: 55px;
+	}
+
+	.vew-split__image {
+		height: 480px;
+	}
+
+	.vew-split__caption {
+		right: 0;
+		bottom: 24px;
+		max-width: calc(100% - 24px);
+	}
+}
+
+@media (max-width: 560px) {
+	.vew-split__image {
+		height: 430px;
+	}
+}

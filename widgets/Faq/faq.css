@@ -1,0 +1,149 @@
+/* Vector Elementor Widgets — FAQ accordion
+   Port of the Derby FAQ component. Scoped to .vew-faq. Accessible accordion:
+   button + aria-expanded + hidden panel. Themed via --brand, --brand-dark,
+   --line, --muted, --display. */
+
+.vew-faq {
+	box-sizing: border-box;
+	width: 100vw;
+	margin-inline: calc(50% - 50vw);
+}
+
+.vew-faq__grid {
+	box-sizing: border-box;
+	width: min(100%, 1288px);
+	margin: 0 auto;
+	padding-block: var(--section-space-y, clamp(64px, 9vw, 96px));
+	padding-inline: 24px;
+	display: grid;
+	grid-template-columns: 1fr 1.2fr;
+	gap: 3rem;
+	align-items: start;
+}
+
+.vew-faq__heading {
+	margin-bottom: 0;
+	min-width: 0;
+}
+
+.vew-faq__eyebrow {
+	margin: 0 0 18px;
+	color: var(--brand, #1e6040);
+	font-size: 0.72rem;
+	line-height: 1;
+	font-weight: 800;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+
+.vew-faq__title {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	letter-spacing: -0.042em;
+	line-height: 0.98;
+	font-size: clamp(2.65rem, 5vw, 5.2rem);
+}
+
+.vew-faq__intro {
+	max-width: 390px;
+	margin: 20px 0 0;
+	color: var(--muted, #5d6a63);
+}
+
+.vew-faq__list {
+	min-width: 0;
+	border-top: 1px solid var(--line, rgba(20, 35, 28, 0.15));
+}
+
+.vew-faq__item {
+	min-width: 0;
+	border-bottom: 1px solid var(--line, rgba(20, 35, 28, 0.15));
+}
+
+.vew-faq__question-wrap {
+	margin: 0;
+	min-width: 0;
+}
+
+.vew-faq__question {
+	width: 100%;
+	max-width: 100%;
+	min-height: 80px;
+	padding: 20px 0;
+	appearance: none;
+	-webkit-appearance: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	background: transparent;
+	text-align: left;
+	cursor: pointer;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: var(--ink, #14231c);
+	white-space: normal;
+	overflow-wrap: anywhere;
+}
+
+.vew-faq__question:hover,
+.vew-faq__question:focus,
+.vew-faq__question:active {
+	background: transparent;
+	border-color: transparent;
+	color: var(--ink, #201a2e);
+}
+
+.vew-faq__question:focus-visible {
+	outline: 2px solid var(--brand, #4a2c8a);
+	outline-offset: 3px;
+}
+
+.vew-faq__question-text {
+	flex: 1 1 auto;
+	min-width: 0;
+	white-space: normal;
+	overflow-wrap: anywhere;
+}
+
+.vew-faq__icon {
+	flex: 0 0 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-right: 6px;
+	font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+	font-size: 1.5rem;
+	font-weight: 250;
+	line-height: 1.35rem;
+	text-align: center;
+	transition: transform 0.25s;
+}
+
+.vew-faq__question[aria-expanded="true"] .vew-faq__icon {
+	transform: rotate(45deg);
+}
+
+.vew-faq__answer {
+	padding: 0 50px 24px 0;
+	color: var(--muted, #5d6a63);
+	font-size: 0.88rem;
+}
+
+.vew-faq__answer p {
+	margin: 0;
+}
+
+/* Responsive collapse at 820px (component CSS owns the layout collapse). */
+@media (max-width: 820px) {
+	.vew-faq__grid {
+		padding-block: var(--section-space-y-mobile, clamp(48px, 10vw, 64px));
+		padding-inline: 20px;
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+}

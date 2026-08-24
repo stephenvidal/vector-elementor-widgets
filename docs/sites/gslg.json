@@ -1,0 +1,387 @@
+{
+  "title": "Grand Strand Law Group",
+  "slug": "gslg",
+  "containers": [
+    {
+      "id": "glhdr",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "top"
+      },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "cta_text": "Contact",
+            "cta_url": {
+              "url": "/gslg-contact/"
+            },
+            "links": [
+              {
+                "text": "Home",
+                "url": {
+                  "url": "/gslg/"
+                }
+              },
+              {
+                "text": "About",
+                "url": {
+                  "url": "/gslg-about/"
+                }
+              },
+              {
+                "text": "Real Estate",
+                "url": {
+                  "url": "/gslg-real-estate/"
+                }
+              },
+              {
+                "text": "Estate Planning",
+                "url": {
+                  "url": "/gslg-estate-planning/"
+                }
+              },
+              {
+                "text": "Probate",
+                "url": {
+                  "url": "/gslg-probate/"
+                }
+              },
+              {
+                "text": "Business Law",
+                "url": {
+                  "url": "/gslg-business/"
+                }
+              },
+              {
+                "text": "Contact",
+                "url": {
+                  "url": "/gslg-contact/"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "glhero",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "home"
+      },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "eyebrow": "Myrtle Beach · North Myrtle Beach · Loris",
+            "headline": "Trusted local attorneys for the Grand Strand",
+            "copy": "From real estate closings to estate planning and probate, Grand Strand Law Group has guided families and businesses across the Grand Strand for years. Local, responsive, and on your side.",
+            "primary_cta_text": "Request a consultation",
+            "primary_cta_url": {
+              "url": "/gslg-contact/"
+            },
+            "secondary_cta_text": "Explore practice areas",
+            "secondary_cta_url": {
+              "url": "#practice"
+            },
+            "trust_list": [
+              {
+                "text": "Local attorneys"
+              },
+              {
+                "text": "Pet-friendly office"
+              },
+              {
+                "text": "3 convenient locations"
+              },
+              {
+                "text": "Responsive & personal"
+              }
+            ],
+            "hero_background_image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-7.webp",
+              "id": 239
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "glpractice",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "practice"
+      },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Practice Areas",
+            "title": "Legal services for",
+            "title_accent": "every stage of life.",
+            "intro": "Whether you are buying a home, planning for the future, or growing a business, our attorneys are here to help.",
+            "features": [
+              {
+                "title": "Real Estate Law",
+                "text": "Worry-free closings for buyers and sellers, residential and commercial.",
+                "detail": "Learn more",
+                "number": "01",
+                "link": {
+                  "url": "/gslg-real-estate/"
+                }
+              },
+              {
+                "title": "Estate Planning",
+                "text": "Wills, trusts, and powers of attorney — it is never too early to prepare.",
+                "detail": "Learn more",
+                "number": "02",
+                "link": {
+                  "url": "/gslg-estate-planning/"
+                }
+              },
+              {
+                "title": "Probate",
+                "text": "Guidance through the process left behind after a loved one passes.",
+                "detail": "Learn more",
+                "number": "03",
+                "link": {
+                  "url": "/gslg-probate/"
+                }
+              },
+              {
+                "title": "Business Law",
+                "text": "Formation, contracts, and counsel to help your business succeed.",
+                "detail": "Learn more",
+                "number": "04",
+                "link": {
+                  "url": "/gslg-business/"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "glstats",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Firm statistics",
+            "title": "",
+            "title_accent": "",
+            "stats": [
+              {
+                "value": "3",
+                "label": "Convenient locations"
+              },
+              {
+                "value": "4",
+                "label": "Practice areas"
+              },
+              {
+                "value": "15+",
+                "label": "Years of local service"
+              },
+              {
+                "value": "1000s",
+                "label": "Closings completed"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "glabout",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "about"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/about.webp",
+              "id": 241
+            },
+            "image_caption": "Locally owned & operated",
+            "eyebrow": "About the Firm",
+            "title": "A law firm that",
+            "title_accent": "treats you like family.",
+            "paragraphs": [
+              {
+                "text": "Grand Strand Law Group, LLC is a locally owned and operated firm serving the Grand Strand. Our team of attorneys and paralegals is committed to providing high-quality, personal legal counsel — not high cost. We are proud to be a pet-friendly office, because we believe the people we serve deserve to feel at home."
+              }
+            ],
+            "quote": "",
+            "signature": "",
+            "signature_role": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "gltestimonials",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "testimonials"
+      },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Testimonials",
+            "title": "What our",
+            "title_accent": "clients say.",
+            "reviews": [
+              {
+                "quote": "On top of the whole process! Great to work with Shellie, Ariana and Angie. The followup and guidance through the whole process was perfect.",
+                "author": "Homebuyer",
+                "role": "Real estate closing",
+                "stars": 5
+              },
+              {
+                "quote": "Thank you for a wonderful experience for our house closing. Everything was done in a courteous and timely manner. We would highly recommend this law group!",
+                "author": "Homebuyer",
+                "role": "Real estate closing",
+                "stars": 5
+              },
+              {
+                "quote": "This was my second experience with Grand Strand Law Group — first for my apartment closing, and later for preparing my will and trust. Both were great experiences.",
+                "author": "Client",
+                "role": "Closing & estate planning",
+                "stars": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "glcta",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "contact-cta"
+      },
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "How can we help you?",
+            "description": "We are committed to helping our clients succeed. Reach out and tell us about your legal needs.",
+            "primary_text": "Contact us today",
+            "primary_url": {
+              "url": "/gslg-contact/"
+            },
+            "secondary_text": "",
+            "secondary_url": {
+              "url": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "glfooter",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "footer"
+      },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "blurb": "Locally owned and operated attorneys serving the Grand Strand. High-quality legal counsel, not high cost.",
+            "columns": [
+              {
+                "heading": "Practice Areas",
+                "links": [
+                  {
+                    "text": "Real Estate Law",
+                    "url": {
+                      "url": "/gslg-real-estate/"
+                    }
+                  },
+                  {
+                    "text": "Estate Planning",
+                    "url": {
+                      "url": "/gslg-estate-planning/"
+                    }
+                  },
+                  {
+                    "text": "Probate",
+                    "url": {
+                      "url": "/gslg-probate/"
+                    }
+                  },
+                  {
+                    "text": "Business Law",
+                    "url": {
+                      "url": "/gslg-business/"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  {
+                    "text": "About Us",
+                    "url": {
+                      "url": "/gslg-about/"
+                    }
+                  },
+                  {
+                    "text": "Contact",
+                    "url": {
+                      "url": "/gslg-contact/"
+                    }
+                  },
+                  {
+                    "text": "Privacy Policy",
+                    "url": {
+                      "url": "/gslg-privacy/"
+                    }
+                  },
+                  {
+                    "text": "Terms of Use",
+                    "url": {
+                      "url": "/gslg-terms/"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  {
+                    "text": "(843) 492-5422",
+                    "url": {
+                      "url": "tel:+1843 4925422"
+                    }
+                  },
+                  {
+                    "text": "info@grandstrandlawgroup.com",
+                    "url": {
+                      "url": "mailto:info@grandstrandlawgroup.com"
+                    }
+                  }
+                ]
+              }
+            ],
+            "copyright": "© 2026 Grand Strand Law Group, LLC."
+          }
+        }
+      ]
+    }
+  ]
+}

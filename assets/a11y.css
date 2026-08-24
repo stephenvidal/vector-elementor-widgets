@@ -1,0 +1,29 @@
+/* Vector Elementor Widgets — Accessibility baseline (loaded globally).
+   ------------------------------------------------------------------------
+   Enqueued on every request alongside the site-kit tokens, regardless of
+   whether the kit comes from the DB or the legacy file. */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+/* Universal visible focus ring for keyboard users. Token-driven so it follows
+   the active site kit. Applied to every focusable element inside a Vector
+   widget section. */
+[class*="vew-"] :is(a, button, input, textarea, select, summary):focus-visible {
+	outline: 2px solid var(--brand, #4a2c8a);
+	outline-offset: 2px;
+}
+
+/* The lightbox overlay sits outside the widget tree; keep its keyboard focus
+   visible and high-contrast against the dark scrim. */
+.vew-lightbox :is(button):focus-visible {
+	outline: 2px solid var(--on-brand, #fff);
+	outline-offset: 2px;
+}

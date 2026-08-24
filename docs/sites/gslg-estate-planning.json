@@ -1,0 +1,155 @@
+{
+  "title": "Estate Planning — Grand Strand Law Group",
+  "slug": "gslg-estate-planning",
+  "kit": "gslg",
+  "containers": [
+    {
+      "id": "ephdr",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "cta_text": "Contact",
+            "cta_url": { "url": "/gslg-contact/" },
+            "links": [
+              { "text": "Home", "url": { "url": "/gslg/" } },
+              { "text": "About", "url": { "url": "/gslg-about/" } },
+              { "text": "Real Estate", "url": { "url": "/gslg-real-estate/" } },
+              { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } },
+              { "text": "Probate", "url": { "url": "/gslg-probate/" } },
+              { "text": "Business Law", "url": { "url": "/gslg-business/" } },
+              { "text": "Contact", "url": { "url": "/gslg-contact/" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ephero",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-page-hero",
+          "settings": {
+            "breadcrumb_home_text": "Home",
+            "breadcrumb_home_url": { "url": "/gslg/" },
+            "breadcrumb_mid_text": "Practice Areas",
+            "breadcrumb_mid_url": { "url": "/gslg/#practice" },
+            "breadcrumb_current": "Estate Planning",
+            "eyebrow": "Practice Area",
+            "title": "Estate Planning",
+            "lead": "Wills, trusts, and powers of attorney — it is never too early to prepare for the future."
+          }
+        }
+      ]
+    },
+    {
+      "id": "epintro",
+      "content_width": "full",
+      "settings": { "_element_id": "intro" },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/estate-planning.webp", "id": 240 },
+            "image_caption": "Protect what matters most",
+            "eyebrow": "",
+            "title": "Protect what",
+            "title_accent": "matters most.",
+            "paragraphs": [
+              { "text": "Preparing for your future using helpful estate planning tools may be one of the most important steps you can take in protecting your property and providing for your loved ones. Grand Strand Law Group is committed to helping you easily and effectively establish a comprehensive estate plan customized to meet your needs. The most important thing to remember: you do not have to have millions of dollars to need an estate plan." }
+            ],
+            "quote": "",
+            "signature": "",
+            "signature_role": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "epservices",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What We Handle",
+            "title": "What we",
+            "title_accent": "handle.",
+            "intro": "",
+            "features": [
+              { "title": "Wills", "text": "Ensure your wishes are honored and your loved ones are provided for.", "detail": "", "number": "01" },
+              { "title": "Trusts", "text": "Flexible tools to manage and protect your assets.", "detail": "", "number": "02" },
+              { "title": "General Durable Power of Attorney", "text": "Authorize someone you trust to act on your behalf.", "detail": "", "number": "03" },
+              { "title": "Health Care Power of Attorney", "text": "Designate who makes medical decisions if you cannot.", "detail": "", "number": "04" },
+              { "title": "Living Will", "text": "Document your wishes for end-of-life care.", "detail": "", "number": "05" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "epprocess",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "The Process",
+            "title": "How it",
+            "title_accent": "works.",
+            "note": "",
+            "steps": [
+              { "title": "Consultation", "text": "We learn about your family, assets, and goals." },
+              { "title": "Plan design", "text": "We recommend the tools that fit your circumstances." },
+              { "title": "Drafting", "text": "We prepare your documents with care." },
+              { "title": "Review & sign", "text": "We walk you through everything and finalize your plan." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "epcta",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Plan for the future",
+            "description": "It is never too early to prepare. Let us help you build your estate plan.",
+            "primary_text": "Request a consultation",
+            "primary_url": { "url": "/gslg-contact/" },
+            "secondary_text": "",
+            "secondary_url": { "url": "" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "epfooter",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "blurb": "Locally owned and operated attorneys serving the Grand Strand. High-quality legal counsel, not high cost.",
+            "columns": [
+              { "heading": "Practice Areas", "links": [ { "text": "Real Estate Law", "url": { "url": "/gslg-real-estate/" } }, { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } }, { "text": "Probate", "url": { "url": "/gslg-probate/" } }, { "text": "Business Law", "url": { "url": "/gslg-business/" } } ] },
+              { "heading": "Company", "links": [ { "text": "About Us", "url": { "url": "/gslg-about/" } }, { "text": "Contact", "url": { "url": "/gslg-contact/" } }, { "text": "Privacy Policy", "url": { "url": "/gslg-privacy/" } }, { "text": "Terms of Use", "url": { "url": "/gslg-terms/" } } ] },
+              { "heading": "Get in touch", "links": [ { "text": "(843) 492-5422", "url": { "url": "tel:+1843 4925422" } }, { "text": "info@grandstrandlawgroup.com", "url": { "url": "mailto:info@grandstrandlawgroup.com" } } ] }
+            ],
+            "copyright": "© 2026 Grand Strand Law Group, LLC."
+          }
+        }
+      ]
+    }
+  ]
+}

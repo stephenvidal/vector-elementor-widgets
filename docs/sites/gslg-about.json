@@ -1,0 +1,133 @@
+{
+  "title": "About Us — Grand Strand Law Group",
+  "slug": "gslg-about",
+  "kit": "gslg",
+  "containers": [
+    {
+      "id": "abhdr",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "cta_text": "Contact",
+            "cta_url": { "url": "/gslg-contact/" },
+            "links": [
+              { "text": "Home", "url": { "url": "/gslg/" } },
+              { "text": "About", "url": { "url": "/gslg-about/" } },
+              { "text": "Real Estate", "url": { "url": "/gslg-real-estate/" } },
+              { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } },
+              { "text": "Probate", "url": { "url": "/gslg-probate/" } },
+              { "text": "Business Law", "url": { "url": "/gslg-business/" } },
+              { "text": "Contact", "url": { "url": "/gslg-contact/" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "abhero",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-page-hero",
+          "settings": {
+            "breadcrumb_home_text": "Home",
+            "breadcrumb_home_url": { "url": "/gslg/" },
+            "breadcrumb_mid_text": "",
+            "breadcrumb_mid_url": { "url": "" },
+            "breadcrumb_current": "About",
+            "eyebrow": "About Us",
+            "title": "The team behind Grand Strand Law Group",
+            "lead": "A locally owned firm with attorneys and paralegals who know the Grand Strand — and treat every client like family."
+          }
+        }
+      ]
+    },
+    {
+      "id": "abteam",
+      "content_width": "full",
+      "settings": { "_element_id": "team" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Our Team",
+            "title": "Our attorneys",
+            "title_accent": "& team.",
+            "intro": "From managing partners to our front desk, everyone here is committed to your success.",
+            "features": [
+              { "title": "Angie D. Knight, Esq.", "text": "Managing Partner · Myrtle Beach Office", "detail": "", "number": "AK" },
+              { "title": "Whitney \"Lacey\" Higginbotham, Esq.", "text": "Junior Partner · North Myrtle Beach Office", "detail": "", "number": "WH" },
+              { "title": "Bailey Gordon", "text": "Managing Associate Attorney · North Myrtle Beach Office", "detail": "", "number": "BG" },
+              { "title": "Victoria H. Small, Esq.", "text": "Associate Attorney · Myrtle Beach Office", "detail": "", "number": "VS" },
+              { "title": "Alyssa Proudfoot", "text": "Real Estate Paralegal · Myrtle Beach Office", "detail": "", "number": "AP" },
+              { "title": "Angela Ramdeen", "text": "Senior Estate & Probate Paralegal · Myrtle Beach Office", "detail": "", "number": "AR" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "abvalues",
+      "content_width": "full",
+      "settings": { "_element_id": "values" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Our Values",
+            "title": "What we",
+            "title_accent": "stand for.",
+            "intro": "",
+            "features": [
+              { "title": "Local & accessible", "text": "We are here in the Grand Strand, not a call center. You can reach us, and we answer.", "detail": "", "number": "01" },
+              { "title": "Personal attention", "text": "You are a client, not a case number. We take the time to understand your situation.", "detail": "", "number": "02" },
+              { "title": "High quality, not high cost", "text": "We provide prompt, attentive legal counsel that is high quality — not high cost.", "detail": "", "number": "03" },
+              { "title": "Pet-friendly", "text": "Our office welcomes your pets, because we know comfort matters in difficult times.", "detail": "", "number": "04" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "abcta",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Ready to work with us?",
+            "description": "Reach out and tell us about your legal needs. We are committed to helping our clients succeed.",
+            "primary_text": "Contact us today",
+            "primary_url": { "url": "/gslg-contact/" },
+            "secondary_text": "",
+            "secondary_url": { "url": "" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "abfooter",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "blurb": "Locally owned and operated attorneys serving the Grand Strand. High-quality legal counsel, not high cost.",
+            "columns": [
+              { "heading": "Practice Areas", "links": [ { "text": "Real Estate Law", "url": { "url": "/gslg-real-estate/" } }, { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } }, { "text": "Probate", "url": { "url": "/gslg-probate/" } }, { "text": "Business Law", "url": { "url": "/gslg-business/" } } ] },
+              { "heading": "Company", "links": [ { "text": "About Us", "url": { "url": "/gslg-about/" } }, { "text": "Contact", "url": { "url": "/gslg-contact/" } }, { "text": "Privacy Policy", "url": { "url": "/gslg-privacy/" } }, { "text": "Terms of Use", "url": { "url": "/gslg-terms/" } } ] },
+              { "heading": "Get in touch", "links": [ { "text": "(843) 492-5422", "url": { "url": "tel:+1843 4925422" } }, { "text": "info@grandstrandlawgroup.com", "url": { "url": "mailto:info@grandstrandlawgroup.com" } } ] }
+            ],
+            "copyright": "© 2026 Grand Strand Law Group, LLC."
+          }
+        }
+      ]
+    }
+  ]
+}

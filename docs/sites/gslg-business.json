@@ -1,0 +1,156 @@
+{
+  "title": "Business Law — Grand Strand Law Group",
+  "slug": "gslg-business",
+  "kit": "gslg",
+  "containers": [
+    {
+      "id": "bzhdr",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "cta_text": "Contact",
+            "cta_url": { "url": "/gslg-contact/" },
+            "links": [
+              { "text": "Home", "url": { "url": "/gslg/" } },
+              { "text": "About", "url": { "url": "/gslg-about/" } },
+              { "text": "Real Estate", "url": { "url": "/gslg-real-estate/" } },
+              { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } },
+              { "text": "Probate", "url": { "url": "/gslg-probate/" } },
+              { "text": "Business Law", "url": { "url": "/gslg-business/" } },
+              { "text": "Contact", "url": { "url": "/gslg-contact/" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bzhero",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-page-hero",
+          "settings": {
+            "breadcrumb_home_text": "Home",
+            "breadcrumb_home_url": { "url": "/gslg/" },
+            "breadcrumb_mid_text": "Practice Areas",
+            "breadcrumb_mid_url": { "url": "/gslg/#practice" },
+            "breadcrumb_current": "Business Law",
+            "eyebrow": "Practice Area",
+            "title": "Business Law",
+            "lead": "We are here to help create your new business or address issues that might arise with an existing business."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bzintro",
+      "content_width": "full",
+      "settings": { "_element_id": "intro" },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/business.webp", "id": 242 },
+            "image_caption": "Help your business succeed",
+            "eyebrow": "",
+            "title": "Help your business",
+            "title_accent": "succeed.",
+            "paragraphs": [
+              { "text": "At Grand Strand Law Group, we want your business to succeed. We are prepared to help you place yourself in the best position for growth by providing the legal services you need to make advantageous and cost-effective business decisions. We recognize how significant starting your own business may be, especially when there are major financial stakes involved." }
+            ],
+            "quote": "",
+            "signature": "",
+            "signature_role": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "bzservices",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What We Handle",
+            "title": "What we",
+            "title_accent": "handle.",
+            "intro": "",
+            "features": [
+              { "title": "LLC Formation", "text": "Choose and form the right entity for your business.", "detail": "", "number": "01" },
+              { "title": "Corporation Formation", "text": "Establish a corporation with proper structure.", "detail": "", "number": "02" },
+              { "title": "Buy / Sell Agreements", "text": "Protect your ownership interests and plan transitions.", "detail": "", "number": "03" },
+              { "title": "Dissolution", "text": "Wind down a business properly and legally.", "detail": "", "number": "04" },
+              { "title": "Contracts & Leases", "text": "Prepare, review, and negotiate commercial agreements.", "detail": "", "number": "05" },
+              { "title": "Operating Agreements", "text": "Define how your business is run and governed.", "detail": "", "number": "06" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bzprocess",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "The Process",
+            "title": "How we",
+            "title_accent": "work.",
+            "note": "",
+            "steps": [
+              { "title": "Understand your goals", "text": "We learn about your business and objectives." },
+              { "title": "Recommend structure", "text": "We advise on the best entity and approach." },
+              { "title": "Draft & review", "text": "We prepare and refine your documents." },
+              { "title": "Ongoing counsel", "text": "We support you as your business grows." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bzcta",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Grow with confidence",
+            "description": "Let us help you make advantageous, cost-effective business decisions.",
+            "primary_text": "Request a consultation",
+            "primary_url": { "url": "/gslg-contact/" },
+            "secondary_text": "",
+            "secondary_url": { "url": "" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "bzfooter",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "blurb": "Locally owned and operated attorneys serving the Grand Strand. High-quality legal counsel, not high cost.",
+            "columns": [
+              { "heading": "Practice Areas", "links": [ { "text": "Real Estate Law", "url": { "url": "/gslg-real-estate/" } }, { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } }, { "text": "Probate", "url": { "url": "/gslg-probate/" } }, { "text": "Business Law", "url": { "url": "/gslg-business/" } } ] },
+              { "heading": "Company", "links": [ { "text": "About Us", "url": { "url": "/gslg-about/" } }, { "text": "Contact", "url": { "url": "/gslg-contact/" } }, { "text": "Privacy Policy", "url": { "url": "/gslg-privacy/" } }, { "text": "Terms of Use", "url": { "url": "/gslg-terms/" } } ] },
+              { "heading": "Get in touch", "links": [ { "text": "(843) 492-5422", "url": { "url": "tel:+1843 4925422" } }, { "text": "info@grandstrandlawgroup.com", "url": { "url": "mailto:info@grandstrandlawgroup.com" } } ] }
+            ],
+            "copyright": "© 2026 Grand Strand Law Group, LLC."
+          }
+        }
+      ]
+    }
+  ]
+}

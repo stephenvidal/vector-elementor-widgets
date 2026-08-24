@@ -1,0 +1,111 @@
+/* Vector Elementor Widgets — Testimonials
+   Port of the Derby reviews component. Scoped to .vew-testimonials.
+   Responsive grid collapses to a single column at <=820px (Derby Rule 6).
+   Themed via --brand, --brand-dark, --paper, --line, --accent. */
+
+.vew-testimonials {
+	box-sizing: border-box;
+	width: 100vw;
+	margin-inline: calc(50% - 50vw);
+}
+
+.vew-testimonials__inner{
+	box-sizing: border-box;
+	width: min(100%, 1288px);
+	margin: 0 auto;
+	padding-block: var(--section-space-y, clamp(64px, 9vw, 96px));
+	padding-inline: 24px;
+}
+
+.vew-testimonials__heading {
+	margin-bottom: 55px;
+}
+
+.vew-testimonials__eyebrow {
+	margin: 0 0 18px;
+	color: var(--brand, #1e6040);
+	font-size: 0.72rem;
+	line-height: 1;
+	font-weight: 800;
+	letter-spacing: 0.17em;
+	text-transform: uppercase;
+}
+
+.vew-testimonials__title {
+	margin: 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: 400;
+	letter-spacing: -0.042em;
+	line-height: 0.98;
+	font-size: clamp(2.65rem, 5vw, 5.2rem);
+}
+
+.vew-testimonials__grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 18px;
+}
+
+.vew-testimonial {
+	padding: 32px;
+	background: var(--paper, #f7f5ee);
+	border-top: 2px solid var(--brand, #1e6040);
+}
+
+.vew-testimonial__stars {
+	color: var(--accent, #c59a48);
+	font-size: 0.75rem;
+	letter-spacing: 0.15em;
+}
+
+.vew-testimonial__quote {
+	margin: 22px 0;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.vew-testimonial__meta {
+	display: flex;
+	align-items: center;
+	gap: 13px;
+	border-top: 1px solid var(--line, rgba(20, 35, 28, 0.15));
+	padding-top: 18px;
+}
+
+.vew-testimonial__avatar {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	object-fit: cover;
+	flex-shrink: 0;
+}
+
+.vew-testimonial__meta-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.vew-testimonial__author {
+	font-size: 0.72rem;
+}
+
+.vew-testimonial__role {
+	color: var(--muted, #5d6a63);
+	font-size: 0.59rem;
+}
+
+/* Responsive: collapse the grid to one column at <=820px (Derby Rule 6). */
+@media (max-width: 820px) {
+	.vew-testimonials__inner {
+		padding-block: var(--section-space-y-mobile, clamp(48px, 10vw, 64px));
+		padding-inline: 20px;
+	}
+	.vew-testimonials__grid {
+		grid-template-columns: 1fr;
+	}
+
+	.vew-testimonial__quote {
+		min-height: auto;
+	}
+}

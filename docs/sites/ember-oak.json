@@ -1,0 +1,621 @@
+{
+  "title": "Ember & Oak",
+  "slug": "ember-oak",
+  "containers": [
+    {
+      "id": "eohdr",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "top"
+      },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "EMBER & OAK",
+            "brand_tag": "CRAFT COFFEE · ROASTERY",
+            "cta_text": "Order ahead",
+            "cta_url": {
+              "url": "#order"
+            },
+            "links": [
+              {
+                "text": "Roasts",
+                "url": {
+                  "url": "#roast"
+                }
+              },
+              {
+                "text": "Visit",
+                "url": {
+                  "url": "#visit"
+                }
+              },
+              {
+                "text": "Gallery",
+                "url": {
+                  "url": "#gallery"
+                }
+              },
+              {
+                "text": "Our Story",
+                "url": {
+                  "url": "#story"
+                }
+              },
+              {
+                "text": "Order",
+                "url": {
+                  "url": "#order"
+                }
+              },
+              {
+                "text": "FAQ",
+                "url": {
+                  "url": "#faq"
+                }
+              },
+              {
+                "text": "Contact",
+                "url": {
+                  "url": "#contact"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eohero",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "home"
+      },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "eyebrow": "Roasted in-house each week",
+            "headline": "Small-batch coffee.<br>Roasted for<br><em>this week.</em>",
+            "copy": "Single-origin beans roasted in small batches every week, pulled to order behind the bar. Come for the pour, stay for the quiet.",
+            "primary_cta_text": "Order ahead",
+            "primary_cta_url": {
+              "url": "#order"
+            },
+            "secondary_cta_text": "See this week's roasts",
+            "secondary_cta_url": {
+              "url": "#roast"
+            },
+            "trust_list": [
+              {
+                "text": "Roasted In-House"
+              },
+              {
+                "text": "Single-Origin"
+              },
+              {
+                "text": "Small-Batch Weekly"
+              },
+              {
+                "text": "Pulled to Order"
+              }
+            ],
+            "hero_background_image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-3.webp",
+              "id": 168
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "eoroast",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "roast"
+      },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "This week's roast",
+            "title": "Fresh out",
+            "title_accent": "of the drum.",
+            "intro": "A rotating line-up of single-origin and blend coffees, roasted in small batches and bagged the day after. When it's gone, we move to the next lot.",
+            "items": [
+              {
+                "name": "Ember House Blend",
+                "description": "Our daily driver — chocolate, toasted hazelnut, a clean finish. Great with milk.",
+                "price": "$16 / 12oz",
+                "tag": "Favourite"
+              },
+              {
+                "name": "Yirgacheffe Single",
+                "description": "Bright, floral, with notes of bergamot and honey. Filter-brewed or pourover.",
+                "price": "$21 / 12oz",
+                "tag": ""
+              },
+              {
+                "name": "Colombia Huila",
+                "description": "Sweet red apple, caramel, and a soft, syrupy body.",
+                "price": "$18 / 12oz",
+                "tag": "New"
+              },
+              {
+                "name": "Guatemala Antigua",
+                "description": "Cocoa, toasted nuts, and a rich, balanced depth.",
+                "price": "$19 / 12oz",
+                "tag": ""
+              },
+              {
+                "name": "Ethiopia Sidamo",
+                "description": "Berries, stone fruit, and lively acidity — bright and complex.",
+                "price": "$20 / 12oz",
+                "tag": ""
+              },
+              {
+                "name": "Espresso Roast",
+                "description": "Built for the machine — dark chocolate, brown sugar, thick crema.",
+                "price": "$17 / 12oz",
+                "tag": ""
+              },
+              {
+                "name": "Decaf (Swiss Water)",
+                "description": "All the craft, none of the caffeine. Naturally decaffeinated.",
+                "price": "$18 / 12oz",
+                "tag": ""
+              },
+              {
+                "name": "Cold Brew Blend",
+                "description": "Low-acid, smooth, and chocolatey — made for slow steeping.",
+                "price": "$16 / 12oz",
+                "tag": ""
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eovisit",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "visit"
+      },
+      "widgets": [
+        {
+          "type": "vew-visit",
+          "settings": {
+            "eyebrow": "Find us",
+            "title": "A warm cup in",
+            "title_accent": "a quiet corner.",
+            "intro": "We're in the heart of [Primary City]. Come for the pour-over, stay for the low hum of conversation and the smell of the roast.",
+            "details": [
+              {
+                "label": "Address",
+                "value": "[Primary City] · [Street to confirm]"
+              },
+              {
+                "label": "Hours",
+                "value": "Mon–Fri 6:30–4 · Sat–Sun 7–3"
+              },
+              {
+                "label": "Fresh roast",
+                "value": "New batch Monday · Beans bagged Tuesday"
+              }
+            ],
+            "cta_text": "Order beans ahead",
+            "cta_url": {
+              "url": "#order"
+            },
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g2-2.webp",
+              "id": 172
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "eogallery",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "gallery"
+      },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "From bean to cup",
+            "title": "Inside",
+            "title_accent": "the roastery.",
+            "images": [
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-3.webp",
+                  "id": 168
+                },
+                "alt": "Roastery café interior with warm lighting and espresso bar"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g1-2.webp",
+                  "id": 169
+                },
+                "alt": "Freshly roasted coffee beans in a wooden scoop"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g2-2.webp",
+                  "id": 172
+                },
+                "alt": "Barista pouring latte art into a ceramic cup"
+              },
+              {
+                "url": {
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g3-2.webp",
+                  "id": 171
+                },
+                "alt": "Coffee roaster machine with freshly roasted beans"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eostory",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "story"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/owner.webp",
+              "id": 170
+            },
+            "image_caption": "Head roaster",
+            "eyebrow": "Our story",
+            "title": "From a home roaster",
+            "title_accent": "to the neighborhood.",
+            "paragraphs": [
+              {
+                "text": "Ember & Oak started with a cast-iron pan, a bag of green beans, and a stubborn belief that coffee shouldn't be an afterthought. Today we roast the same way — small, careful, and honest."
+              },
+              {
+                "text": "Direct-sourced beans, roasted in small batches, poured to order. No mass distribution, no mystery blends — just coffee you can taste the week it's roasted."
+              }
+            ],
+            "quote": "“Good coffee is patient. The roast takes as long as it takes.”",
+            "signature": "— [Head Roaster's Name]",
+            "signature_role": "HEAD ROASTER & FOUNDER · NAME TO CONFIRM"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eospecialties",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "The signatures",
+            "title": "What we're",
+            "title_accent": "known for.",
+            "features": [
+              {
+                "title": "House Blend",
+                "text": "A chocolatey, balanced blend that works any way you brew it.",
+                "detail": "",
+                "number": "01"
+              },
+              {
+                "title": "The Pour-Over",
+                "text": "Slow, precise, and worth the wait — our most-ordered drink.",
+                "detail": "",
+                "number": "02"
+              },
+              {
+                "title": "Roasted In-House",
+                "text": "Every bean roasted on our drum in small batches each week.",
+                "detail": "",
+                "number": "03"
+              },
+              {
+                "title": "Direct Sourced",
+                "text": "Green beans bought direct from growers we know by name.",
+                "detail": "",
+                "number": "04"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eoorder",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "order"
+      },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Order ahead",
+            "title": "Get your",
+            "title_accent": "fix sorted.",
+            "note": "Order beans by 3pm for same-week pickup, or subscribe for a standing roast delivered to your door. Delivery within [Primary City].",
+            "plans": [
+              {
+                "plan": "Bean Pickup",
+                "price": "Ready",
+                "unit": "when you are",
+                "featured": "",
+                "cta": "Pick up today",
+                "features": [
+                  {
+                    "text": "Order by 3pm for same week"
+                  },
+                  {
+                    "text": "Ready at the counter"
+                  },
+                  {
+                    "text": "No minimum"
+                  },
+                  {
+                    "text": "Pay on arrival"
+                  }
+                ]
+              },
+              {
+                "plan": "Fresh Roast Reserve",
+                "price": "Reserved",
+                "unit": "48h",
+                "featured": "yes",
+                "cta": "Reserve fresh roast",
+                "features": [
+                  {
+                    "text": "Guaranteed fresh bag"
+                  },
+                  {
+                    "text": "Reserved for 48h"
+                  },
+                  {
+                    "text": "No minimum"
+                  },
+                  {
+                    "text": "Priority at counter"
+                  }
+                ]
+              },
+              {
+                "plan": "Bar Order",
+                "price": "Ready",
+                "unit": "in 5 min",
+                "featured": "",
+                "cta": "Order a drink",
+                "features": [
+                  {
+                    "text": "Pour-overs & espresso"
+                  },
+                  {
+                    "text": "Ready in 5 minutes"
+                  },
+                  {
+                    "text": "Custom milk options"
+                  },
+                  {
+                    "text": "No minimum"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eotestimonials",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word of mouth",
+            "title": "Loved by",
+            "title_accent": "regulars.",
+            "reviews": [
+              {
+                "quote": "“The house blend is the best coffee I've found in years — chocolatey, smooth, and always fresh. I order beans every week now.”",
+                "author": "A.M.",
+                "role": "[Local Area] · Regular",
+                "stars": 5
+              },
+              {
+                "quote": "“Their subscription is dangerous — the beans show up the day they're roasted and I can't go back to supermarket coffee.”",
+                "author": "J.R.",
+                "role": "[Local Area] · Subscriber",
+                "stars": 5
+              },
+              {
+                "quote": "“A quiet, warm place to sit with a pour-over and get real work done. The baristas actually know what they're doing.”",
+                "author": "K.S.",
+                "role": "[Local Area] · Local",
+                "stars": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eofaq",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "faq"
+      },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions,",
+            "title_accent": "answered fresh.",
+            "intro": "A few helpful details before you visit. If your question is not here, just ask.",
+            "items": [
+              {
+                "question": "When do you roast?",
+                "answer": "We roast every Monday and bag beans the following day. The menu reflects this week's batch, so it's always fresh."
+              },
+              {
+                "question": "Can I buy beans by the bag?",
+                "answer": "Yes — all our roasts are available by the 12oz bag, in-store or to order ahead."
+              },
+              {
+                "question": "Do you deliver beans?",
+                "answer": "We offer local delivery within [Primary City] on bean orders over $25, and subscriptions ship nationwide."
+              },
+              {
+                "question": "Do you offer subscriptions?",
+                "answer": "Yes. Choose your roast and frequency, and we'll roast and ship it to you on a standing schedule. Pause or cancel anytime."
+              },
+              {
+                "question": "Do you brew decaf?",
+                "answer": "We do — our Swiss Water decaf is roasted and brewed with the same care as the rest of the line-up."
+              },
+              {
+                "question": "Do you take wholesale accounts?",
+                "answer": "Absolutely. For offices, cafés, and restaurants, get in touch and we'll set up a wholesale account and schedule."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eocontact",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "contact"
+      },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Say hello",
+            "title": "Get in",
+            "title_accent": "touch.",
+            "intro": "Wholesale accounts, private events, or just to talk coffee — drop us a note and we'll get back to you.",
+            "phone": "(555) 010-0111",
+            "email": "hello@example.com",
+            "location": "[Primary City] · Mon–Fri 6:30–4 · Sat–Sun 7–3",
+            "form_kicker": "We'd love to hear",
+            "form_title": "Drop us a note",
+            "submit_cta": "Send a message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eofooter",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "footer"
+      },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "EMBER & OAK",
+            "brand_tag": "CRAFT COFFEE · ROASTERY",
+            "blurb": "Small-batch, single-origin coffee roasted in-house each week — served fresh in [Primary City].",
+            "columns": [
+              {
+                "heading": "Navigate",
+                "links": [
+                  {
+                    "text": "Roasts",
+                    "url": {
+                      "url": "#roast"
+                    }
+                  },
+                  {
+                    "text": "Visit",
+                    "url": {
+                      "url": "#visit"
+                    }
+                  },
+                  {
+                    "text": "Gallery",
+                    "url": {
+                      "url": "#gallery"
+                    }
+                  },
+                  {
+                    "text": "Our Story",
+                    "url": {
+                      "url": "#story"
+                    }
+                  },
+                  {
+                    "text": "Order",
+                    "url": {
+                      "url": "#order"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Order",
+                "links": [
+                  {
+                    "text": "Pickup",
+                    "url": {
+                      "url": "#order"
+                    }
+                  },
+                  {
+                    "text": "Delivery",
+                    "url": {
+                      "url": "#order"
+                    }
+                  },
+                  {
+                    "text": "Subscribe",
+                    "url": {
+                      "url": "#order"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  {
+                    "text": "(555) 010-0111",
+                    "url": {
+                      "url": "tel:+15550100111"
+                    }
+                  },
+                  {
+                    "text": "hello@example.com",
+                    "url": {
+                      "url": "mailto:hello@example.com"
+                    }
+                  }
+                ]
+              }
+            ],
+            "copyright": "© Ember & Oak"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<ruleset name="Vector-Elementor-Widgets">
+
+    <description>WordPress Coding Standards configuration for Vector Elementor Widgets.</description>
+
+    <!-- What to scan -->
+    <file>src/</file>
+    <file>tests/</file>
+    <file>vector-elementor-widgets.php</file>
+
+    <!-- Exclude vendor and build output -->
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>builds/*</exclude-pattern>
+    <exclude-pattern>reports/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+
+    <!--
+        Test-specific relaxations. Test files intentionally stub WordPress
+        functions (esc_html, _e, wp_die, etc.) for the unit-test environment
+        and use them without escaping; the actual escaping is tested via
+        integration tests.
+    -->
+    <exclude-pattern>tests/Support/*</exclude-pattern>
+    <exclude-pattern>tests/Unit/*</exclude-pattern>
+
+    <!--
+        PHPStan stubs are not runtime code. The Elementor stub file
+        (tests/phpstan-elementor-stubs.php) declares type shapes so PHPStan
+        can resolve `Elementor\...` symbols. It is loaded by PHPStan only,
+        never executed in production.
+    -->
+    <exclude-pattern>tests/phpstan-elementor-stubs.php</exclude-pattern>
+
+    <!-- Use WordPress + WordPress-Extra + WordPress-Docs as the base -->
+    <rule ref="WordPress">
+        <!-- Allow short array syntax in plugin code (modern PHP 8.1+) -->
+        <exclude name="Generic.Arrays.DisallowShortArraySyntax"/>
+        <!-- Allow nullable type hints in modern PHP -->
+        <exclude name="Universal.Namespaces.DisallowCurlyBraceSyntax"/>
+        <!-- nonce verification is enforced by integration tests, not PHPCS -->
+        <exclude name="WordPress.Security.NonceVerification"/>
+
+        <!--
+            PSR-4 file-name conflict. The spec mandates PSR-4 autoloading
+            (src/Plugin.php → class Plugin). WPCS's WordPress.Files.FileName
+            rules expect the lowercase-with-hyphens "class-plugin.php" naming.
+            PSR-4 wins because it is a hard dependency of Composer's autoload
+            mechanism.
+        -->
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName"/>
+        <exclude name="WordPress.Files.FileName.InvalidNonHookedFilename"/>
+
+        <!--
+            ABSPATH is a WordPress core global defined in wp-load.php, not by
+            our plugin. The prefix rule only applies to globals our plugin
+            defines.
+        -->
+        <exclude name="WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound"/>
+        <exclude name="WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedConstantFound"/>
+
+        <!--
+            @phpstan-ignore-* annotations are a static-analysis contract, not
+            natural language — exempt them from the inline-comment punctuation rule.
+        -->
+        <exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+
+        <!--
+            Exception messages never reach output (they bubble to a catch
+            block or WP_Error). WPCS's EscapeOutput rule is over-strict when
+            the only place a string is "output" is inside `throw new`.
+        -->
+        <exclude name="WordPress.Security.EscapeOutput.ExceptionNotEscaped"/>
+    </rule>
+
+    <!-- Text domain: required to be consistent with our identifier -->
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <property name="text_domain" type="array">
+                <element value="vector-elementor-widgets"/>
+            </property>
+        </properties>
+    </rule>
+
+    <!-- Plugin-specific prefixes: every public function/class must be prefixed vew_ or Vector\ElementorWidgets\ -->
+    <rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+        <properties>
+            <property name="prefixes" type="array">
+                <element value="vew_"/>
+                <element value="Vector\ElementorWidgets"/>
+            </property>
+        </properties>
+    </rule>
+
+    <!-- PHP version targeting: 8.1 minimum -->
+    <config name="testVersion" value="8.1-"/>
+
+    <!-- Severity: warnings are visible; errors fail the build -->
+    <arg value="s"/>
+    <arg name="extensions" value="php"/>
+    <arg name="basepath" value="."/>
+    <arg name="colors"/>
+
+    <!-- Show progress + sniff codes so devs can search the standard -->
+    <arg value="sp"/>
+    <arg value="n"/>
+
+</ruleset>

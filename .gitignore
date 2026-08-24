@@ -1,0 +1,46 @@
+# Vector Elementor Widgets — root .gitignore
+
+# Build output
+builds/
+dist/
+reports/
+coverage/
+.phpunit.cache/
+.phpunit.result.cache
+
+# Composer
+vendor/
+composer.lock
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Hermes local state (plans, session scratch) — not part of the plugin
+.hermes/
+
+# Transient review/validation docs and one-off DB scripts (not shipped tooling)
+tools/CLAUDE-REVIEW-2026-08-24.md
+tools/CLAUDE-VALIDATION-2026-08-24.md
+tools/claude-review-brief.md
+tools/claude-validation-brief.md
+tools/backfill-on-tokens.php
+tools/update-kairos-on-tokens.php
+tools/check-hero-images.php
+tools/set-hero-images.php
+tools/compose-site.php
+tools/import-site.php
+tools/rebuild-site-kits.php

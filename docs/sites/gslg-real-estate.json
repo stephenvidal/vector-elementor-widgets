@@ -1,0 +1,156 @@
+{
+  "title": "Real Estate Law — Grand Strand Law Group",
+  "slug": "gslg-real-estate",
+  "kit": "gslg",
+  "containers": [
+    {
+      "id": "rehdr",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "cta_text": "Contact",
+            "cta_url": { "url": "/gslg-contact/" },
+            "links": [
+              { "text": "Home", "url": { "url": "/gslg/" } },
+              { "text": "About", "url": { "url": "/gslg-about/" } },
+              { "text": "Real Estate", "url": { "url": "/gslg-real-estate/" } },
+              { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } },
+              { "text": "Probate", "url": { "url": "/gslg-probate/" } },
+              { "text": "Business Law", "url": { "url": "/gslg-business/" } },
+              { "text": "Contact", "url": { "url": "/gslg-contact/" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rehero",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-page-hero",
+          "settings": {
+            "breadcrumb_home_text": "Home",
+            "breadcrumb_home_url": { "url": "/gslg/" },
+            "breadcrumb_mid_text": "Practice Areas",
+            "breadcrumb_mid_url": { "url": "/gslg/#practice" },
+            "breadcrumb_current": "Real Estate",
+            "eyebrow": "Practice Area",
+            "title": "Real Estate Law",
+            "lead": "Whether you are buying or selling, our goal is to make the closing process worry free."
+          }
+        }
+      ]
+    },
+    {
+      "id": "reintro",
+      "content_width": "full",
+      "settings": { "_element_id": "intro" },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/real-estate.webp", "id": 238 },
+            "image_caption": "Worry-free closings",
+            "eyebrow": "",
+            "title": "Worry-free",
+            "title_accent": "closings",
+            "paragraphs": [
+              { "text": "Whether you are purchasing a home or commercial property, whether you are paying cash or obtaining a loan, things can get pretty hectic when closing on real estate. Our goal is to make the process as worry free as possible. Let our real estate attorneys handle things for you. We will communicate with all parties, including your lender and realtor, to keep them up to date on the status of your closing." }
+            ],
+            "quote": "",
+            "signature": "",
+            "signature_role": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "reservices",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What We Handle",
+            "title": "What we",
+            "title_accent": "handle.",
+            "intro": "",
+            "features": [
+              { "title": "Residential Closings", "text": "Home purchases and sales, from contract to closing day.", "detail": "", "number": "01" },
+              { "title": "Commercial Closings", "text": "Commercial property transactions with attention to every detail.", "detail": "", "number": "02" },
+              { "title": "Foreclosure Purchases", "text": "Guidance through the foreclosure purchase process.", "detail": "", "number": "03" },
+              { "title": "New Homes & Subdivisions", "text": "Closings for new construction and subdivision purchases.", "detail": "", "number": "04" },
+              { "title": "Quiet Title & Partition Actions", "text": "Resolving title disputes and co-ownership issues.", "detail": "", "number": "05" },
+              { "title": "Title Opinions & Insurance", "text": "Title examination and insurance to protect your investment.", "detail": "", "number": "06" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "reprocess",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "The Process",
+            "title": "How a closing",
+            "title_accent": "works.",
+            "note": "",
+            "steps": [
+              { "title": "Contact us", "text": "Tell us about your transaction and we will get started." },
+              { "title": "We coordinate", "text": "We communicate with your lender, realtor, and all parties." },
+              { "title": "Title work", "text": "We examine title and prepare the necessary documents." },
+              { "title": "Closing day", "text": "We schedule the closing with you first — you are our client." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "recta",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Ready to close?",
+            "description": "Let our real estate attorneys make your closing worry free.",
+            "primary_text": "Request a consultation",
+            "primary_url": { "url": "/gslg-contact/" },
+            "secondary_text": "",
+            "secondary_url": { "url": "" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "refooter",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRAND STRAND LAW GROUP",
+            "brand_tag": "MYRTLE BEACH LAW FIRM",
+            "blurb": "Locally owned and operated attorneys serving the Grand Strand. High-quality legal counsel, not high cost.",
+            "columns": [
+              { "heading": "Practice Areas", "links": [ { "text": "Real Estate Law", "url": { "url": "/gslg-real-estate/" } }, { "text": "Estate Planning", "url": { "url": "/gslg-estate-planning/" } }, { "text": "Probate", "url": { "url": "/gslg-probate/" } }, { "text": "Business Law", "url": { "url": "/gslg-business/" } } ] },
+              { "heading": "Company", "links": [ { "text": "About Us", "url": { "url": "/gslg-about/" } }, { "text": "Contact", "url": { "url": "/gslg-contact/" } }, { "text": "Privacy Policy", "url": { "url": "/gslg-privacy/" } }, { "text": "Terms of Use", "url": { "url": "/gslg-terms/" } } ] },
+              { "heading": "Get in touch", "links": [ { "text": "(843) 492-5422", "url": { "url": "tel:+1843 4925422" } }, { "text": "info@grandstrandlawgroup.com", "url": { "url": "mailto:info@grandstrandlawgroup.com" } } ] }
+            ],
+            "copyright": "© 2026 Grand Strand Law Group, LLC."
+          }
+        }
+      ]
+    }
+  ]
+}

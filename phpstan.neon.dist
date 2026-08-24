@@ -1,0 +1,24 @@
+includes:
+    - vendor/szepeviktor/phpstan-wordpress/extension.neon
+
+parameters:
+    # Level 6: missing typehints, wrong number of arguments, etc.
+    level: 6
+
+    paths:
+        - src/
+
+    # Bootstrap defines VEW_* constants and the vew_plugin() helper.
+    # szepeviktor/phpstan-wordpress (loaded via includes: above) provides
+    # stubs for all WordPress core functions (__, get_option, $wpdb, etc.).
+    bootstrapFiles:
+        - tests/phpstan-bootstrap.php
+        - tests/phpstan-elementor-stubs.php
+
+    # treatPhpDocTypesAsCertain: false avoids false positives when our
+    # PHPDoc types are broader than the inferred runtime types.
+    treatPhpDocTypesAsCertain: false
+
+    earlyTerminatingFunctionCalls:
+        - 'wp_die'
+        - 'exit'

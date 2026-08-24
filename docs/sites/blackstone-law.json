@@ -1,0 +1,581 @@
+{
+  "title": "Blackstone & Hale",
+  "slug": "blackstone-law",
+  "containers": [
+    {
+      "id": "blkheader",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "top"
+      },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "BLACKSTONE & HALE",
+            "brand_tag": "ATTORNEYS AT LAW",
+            "cta_text": "Book a consult",
+            "cta_url": {
+              "url": "#contact"
+            },
+            "links": [
+              {
+                "text": "Practice",
+                "url": {
+                  "url": "#practice"
+                }
+              },
+              {
+                "text": "The Firm",
+                "url": {
+                  "url": "#firm"
+                }
+              },
+              {
+                "text": "Process",
+                "url": {
+                  "url": "#process"
+                }
+              },
+              {
+                "text": "Results",
+                "url": {
+                  "url": "#testimonials"
+                }
+              },
+              {
+                "text": "Fees",
+                "url": {
+                  "url": "#fees"
+                }
+              },
+              {
+                "text": "FAQ",
+                "url": {
+                  "url": "#faq"
+                }
+              },
+              {
+                "text": "Contact",
+                "url": {
+                  "url": "#contact"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkhero",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "home"
+      },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "eyebrow": "Boutique legal counsel",
+            "headline": "Clear counsel.<br>Honest fees.<br><em>Results that matter.</em>",
+            "copy": "A boutique firm built on direct access to your attorney, transparent pricing, and a practical approach to the legal matters that shape your business and your life.",
+            "primary_cta_text": "Book a consultation",
+            "primary_cta_url": {
+              "url": "#contact"
+            },
+            "secondary_cta_text": "Explore practice areas",
+            "secondary_cta_url": {
+              "url": "#practice"
+            },
+            "trust_list": [
+              {
+                "text": "Direct Attorney Access"
+              },
+              {
+                "text": "Transparent Fees"
+              },
+              {
+                "text": "Confidential & Discreet"
+              },
+              {
+                "text": "Business & Personal"
+              }
+            ],
+            "hero_background_image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-2.webp",
+              "id": 154
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkpractice",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "practice"
+      },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Practice areas",
+            "title": "Focused counsel,",
+            "title_accent": "where it matters.",
+            "intro": "We keep our practice deliberately focused so every matter gets the attention it deserves — from a founding attorney who knows your file.",
+            "features": [
+              {
+                "title": "Business Law",
+                "text": "Formation, contracts, governance, and day-to-day counsel for growing companies.",
+                "detail": "Formation · Contracts · Governance",
+                "number": "01"
+              },
+              {
+                "title": "Real Estate",
+                "text": "Purchases, sales, leases, and closings handled with precision and care.",
+                "detail": "Purchases · Leases · Closings",
+                "number": "02"
+              },
+              {
+                "title": "Estate Planning",
+                "text": "Wills, trusts, and powers of attorney that protect what you have built.",
+                "detail": "Wills · Trusts · POA",
+                "number": "03"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkstats",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "A track record of trust",
+            "title": "Numbers that",
+            "title_accent": "speak for themselves.",
+            "stats": [
+              {
+                "value": "15+",
+                "label": "Years of practice"
+              },
+              {
+                "value": "500+",
+                "label": "Matters resolved"
+              },
+              {
+                "value": "98%",
+                "label": "Client satisfaction"
+              },
+              {
+                "value": "24h",
+                "label": "Response time"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkfirm",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "firm"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/attorney.webp",
+              "id": 157
+            },
+            "image_caption": "Founding attorney",
+            "eyebrow": "The firm",
+            "title": "A boutique firm",
+            "title_accent": "built on trust.",
+            "paragraphs": [
+              {
+                "text": "Blackstone & Hale was founded on a simple belief: legal counsel should be clear, direct, and honest. No layers of associates you never meet, no opaque billing, no surprises."
+              },
+              {
+                "text": "You work directly with an attorney who knows your matter, your goals, and your timeline — and who gives you a straight answer even when it's not the one you hoped for."
+              }
+            ],
+            "quote": "“Good counsel is honest counsel — even when it's hard to hear.”",
+            "signature": "— [Founding Attorney]",
+            "signature_role": "FOUNDING ATTORNEY · NAME TO CONFIRM"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkwhy",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why clients stay",
+            "title": "The standard we",
+            "title_accent": "hold ourselves to.",
+            "features": [
+              {
+                "title": "Direct Access",
+                "text": "You work with your attorney directly — not a rotating cast of associates.",
+                "detail": "",
+                "number": "01"
+              },
+              {
+                "title": "Focused Practice",
+                "text": "A deliberately narrow practice means deep expertise in what we take on.",
+                "detail": "",
+                "number": "02"
+              },
+              {
+                "title": "Transparent Fees",
+                "text": "Written fee agreements and clear pricing before any work begins.",
+                "detail": "",
+                "number": "03"
+              },
+              {
+                "title": "Confidential",
+                "text": "Your matter is handled with discretion and care, always.",
+                "detail": "",
+                "number": "04"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkprocess",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "process"
+      },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A clear path",
+            "title_accent": "from first call.",
+            "note": "Every engagement starts with a clear conversation about your goals, the options, and what it will cost — before any work begins.",
+            "steps": [
+              {
+                "title": "Book a Consultation",
+                "text": "A confidential call to understand your matter and your goals."
+              },
+              {
+                "title": "Review Your Options",
+                "text": "We lay out the paths, the risks, and the likely outcomes."
+              },
+              {
+                "title": "Agree on Fees",
+                "text": "A written fee agreement — no surprises, no hidden costs."
+              },
+              {
+                "title": "We Handle It",
+                "text": "Direct counsel and clear communication until it is resolved."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blktestimonials",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "testimonials"
+      },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client results",
+            "title": "Trusted with",
+            "title_accent": "what matters.",
+            "reviews": [
+              {
+                "quote": "“Clear, direct, and honest. They explained the options plainly and the fees upfront — exactly what you want from counsel.”",
+                "author": "A.M.",
+                "role": "[Local Area] · Business",
+                "stars": 5
+              },
+              {
+                "quote": "“The closing went smoothly and every question was answered the same day. I always knew where things stood.”",
+                "author": "J.R.",
+                "role": "[Local Area] · Real estate",
+                "stars": 5
+              },
+              {
+                "quote": "“They made a sensitive process straightforward and took the time to make sure everything was right.”",
+                "author": "D.K.",
+                "role": "[Local Area] · Estate planning",
+                "stars": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkfees",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "fees"
+      },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Transparent fees",
+            "title": "Know the cost",
+            "title_accent": "before you commit.",
+            "note": "Every engagement begins with a written fee agreement. No hidden costs, no surprise invoices.",
+            "plans": [
+              {
+                "plan": "Standard",
+                "price": "$295",
+                "unit": "/ hour",
+                "featured": "",
+                "cta": "Book a consult",
+                "features": [
+                  {
+                    "text": "Direct attorney time"
+                  },
+                  {
+                    "text": "Itemized billing"
+                  },
+                  {
+                    "text": "No minimums"
+                  },
+                  {
+                    "text": "Clear estimates"
+                  }
+                ]
+              },
+              {
+                "plan": "Preferred",
+                "price": "$350",
+                "unit": "/ hour",
+                "featured": "yes",
+                "cta": "Book a consult",
+                "features": [
+                  {
+                    "text": "Direct attorney time"
+                  },
+                  {
+                    "text": "Priority scheduling"
+                  },
+                  {
+                    "text": "Itemized billing"
+                  },
+                  {
+                    "text": "Weekly status updates"
+                  }
+                ]
+              },
+              {
+                "plan": "Senior",
+                "price": "$425",
+                "unit": "/ hour",
+                "featured": "",
+                "cta": "Book a consult",
+                "features": [
+                  {
+                    "text": "Founding attorney"
+                  },
+                  {
+                    "text": "Priority scheduling"
+                  },
+                  {
+                    "text": "Dedicated attention"
+                  },
+                  {
+                    "text": "Itemized billing"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkfaq",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "faq"
+      },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions,",
+            "title_accent": "answered clearly.",
+            "intro": "A few helpful details before you reach out. If your question is not here, just get in touch.",
+            "items": [
+              {
+                "question": "How do you charge for your services?",
+                "answer": "We offer three structures — hourly, fixed-fee, and retainer — depending on the matter. Every engagement begins with a written fee agreement so you know the cost upfront."
+              },
+              {
+                "question": "Do you offer a free initial consultation?",
+                "answer": "Yes. The first consultation is a confidential conversation to understand your matter and whether we can help."
+              },
+              {
+                "question": "Is my inquiry confidential?",
+                "answer": "We treat all inquiries with discretion. Note that a formal attorney-client relationship is established only after we agree to take your matter."
+              },
+              {
+                "question": "What areas of law do you practice?",
+                "answer": "We focus on business law, real estate, and estate planning. This focused approach lets us provide deep, practical counsel."
+              },
+              {
+                "question": "How quickly will I hear back?",
+                "answer": "We aim to respond to all inquiries within one business day."
+              },
+              {
+                "question": "Do you handle matters outside your practice areas?",
+                "answer": "We keep our practice focused. If your matter falls outside our expertise, we will help you find the right counsel."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkcontact",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "contact"
+      },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Let's talk",
+            "title": "Book a",
+            "title_accent": "consultation.",
+            "intro": "Tell us a little about your matter and we'll follow up to schedule a confidential consultation.",
+            "phone": "(555) 010-0299",
+            "email": "hello@example.com",
+            "location": "[Primary City] office · Mon–Fri 9–6 · Sat by appt",
+            "form_kicker": "Confidential",
+            "form_title": "Start your inquiry",
+            "submit_cta": "Request a consultation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "blkfooter",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "footer"
+      },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "BLACKSTONE & HALE",
+            "brand_tag": "ATTORNEYS AT LAW",
+            "blurb": "Clear counsel, honest fees, and results that matter — from a boutique firm that knows your file.",
+            "columns": [
+              {
+                "heading": "Navigate",
+                "links": [
+                  {
+                    "text": "Practice",
+                    "url": {
+                      "url": "#practice"
+                    }
+                  },
+                  {
+                    "text": "The Firm",
+                    "url": {
+                      "url": "#firm"
+                    }
+                  },
+                  {
+                    "text": "Process",
+                    "url": {
+                      "url": "#process"
+                    }
+                  },
+                  {
+                    "text": "Results",
+                    "url": {
+                      "url": "#testimonials"
+                    }
+                  },
+                  {
+                    "text": "FAQ",
+                    "url": {
+                      "url": "#faq"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Fees",
+                "links": [
+                  {
+                    "text": "Fee structures",
+                    "url": {
+                      "url": "#fees"
+                    }
+                  },
+                  {
+                    "text": "Hourly",
+                    "url": {
+                      "url": "#fees"
+                    }
+                  },
+                  {
+                    "text": "Fixed-fee",
+                    "url": {
+                      "url": "#fees"
+                    }
+                  },
+                  {
+                    "text": "Retainer",
+                    "url": {
+                      "url": "#fees"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  {
+                    "text": "(555) 010-0299",
+                    "url": {
+                      "url": "tel:+15550100299"
+                    }
+                  },
+                  {
+                    "text": "hello@example.com",
+                    "url": {
+                      "url": "mailto:hello@example.com"
+                    }
+                  }
+                ]
+              }
+            ],
+            "copyright": "© Blackstone & Hale"
+          }
+        }
+      ]
+    }
+  ]
+}

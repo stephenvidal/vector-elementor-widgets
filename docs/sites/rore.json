@@ -1,0 +1,539 @@
+{
+  "title": "Realms of Revelation Ecclesia",
+  "slug": "rore",
+  "containers": [
+    {
+      "id": "rohdr",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "top"
+      },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "REALMS OF REVELATION ECCLESIA",
+            "brand_tag": "A COMMUNITY OF FAITH",
+            "cta_text": "Watch LIVE",
+            "cta_url": {
+              "url": "#watch"
+            },
+            "links": [
+              {
+                "text": "About",
+                "url": {
+                  "url": "#message"
+                }
+              },
+              {
+                "text": "Services",
+                "url": {
+                  "url": "#services"
+                }
+              },
+              {
+                "text": "Watch",
+                "url": {
+                  "url": "#watch"
+                }
+              },
+              {
+                "text": "Give",
+                "url": {
+                  "url": "#give"
+                }
+              },
+              {
+                "text": "Testimonials",
+                "url": {
+                  "url": "#testimonials"
+                }
+              },
+              {
+                "text": "FAQ",
+                "url": {
+                  "url": "#faq"
+                }
+              },
+              {
+                "text": "Contact",
+                "url": {
+                  "url": "#contact"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rohero",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "home"
+      },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "eyebrow": "Realms of Revelation Ecclesia",
+            "headline": "Embracing the Word of God to <em>destroy the works of darkness.</em>",
+            "copy": "A community of faith in pursuit of truth — supporting individuals and families in building a firm spiritual foundation.",
+            "primary_cta_text": "Watch LIVE",
+            "primary_cta_url": {
+              "url": "#watch"
+            },
+            "secondary_cta_text": "Learn more",
+            "secondary_cta_url": {
+              "url": "#message"
+            },
+            "trust_list": [
+              {
+                "text": "Rooted in Truth"
+              },
+              {
+                "text": "Grounded in Grace"
+              },
+              {
+                "text": "Built on Community"
+              },
+              {
+                "text": "All Are Welcome"
+              }
+            ],
+            "hero_background_image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-6.webp",
+              "id": 207
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ropractice",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "practice"
+      },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Who we are",
+            "title": "Tribe of",
+            "title_accent": "Fire!",
+            "intro": "At Realms of Revelation Ecclesia, we prioritize the pursuit of truth and are dedicated to supporting individuals and families in building a firm and meaningful spiritual foundation.",
+            "features": [
+              {
+                "title": "Praise & Prayer",
+                "text": "A time of praise, prayer, and the teaching of God's Word.",
+                "detail": "Weekly gathering",
+                "number": "01"
+              },
+              {
+                "title": "The Word",
+                "text": "Diving into Scripture to deepen understanding and grow in faith.",
+                "detail": "Mid-week study",
+                "number": "02"
+              },
+              {
+                "title": "Community & Prayer",
+                "text": "Prayer meetings and fellowship that strengthen relationships and promote positive change.",
+                "detail": "Gather with the family",
+                "number": "03"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rostats",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "A firm foundation",
+            "title": "A firm foundation,",
+            "title_accent": "built in community.",
+            "stats": [
+              {
+                "value": "WORD",
+                "label": "Rooted in Scripture"
+              },
+              {
+                "value": "GRACE",
+                "label": "Freely given"
+              },
+              {
+                "value": "FAMILY",
+                "label": "Built in community"
+              },
+              {
+                "value": "ALL",
+                "label": "Are welcome"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rofirm",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "message"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g3.webp",
+              "id": 211
+            },
+            "image_caption": "Realms of Revelation Ecclesia",
+            "eyebrow": "The message",
+            "title": "End time word,",
+            "title_accent": "for an end time people.",
+            "paragraphs": [
+              {
+                "text": "In a world filled with despair and uncertainty, we stand firm trusting in the one true God, Jesus Christ. We offer a range of opportunities for our members to deepen their relationship with God and grow together in faith."
+              },
+              {
+                "text": "Realms of Revelation Ecclesia fosters strong community relationships and promotes positive change through faith."
+              }
+            ],
+            "quote": "\"Please come and visit us to experience the love and grace of God in person!\"",
+            "signature": "— Bishop Marlon Curtis",
+            "signature_role": "BISHOP · REALMS OF REVELATION ECCLESIA"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rowhy",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why we gather",
+            "title": "A place to",
+            "title_accent": "grow in faith.",
+            "features": [
+              {
+                "title": "The Word",
+                "text": "Embracing the Word of God to destroy the works of darkness.",
+                "detail": "",
+                "number": "01"
+              },
+              {
+                "title": "Love & Grace",
+                "text": "Experience the love and grace of God in person among family.",
+                "detail": "",
+                "number": "02"
+              },
+              {
+                "title": "Standing Firm",
+                "text": "In a world of despair, we stand firm trusting in Jesus Christ.",
+                "detail": "",
+                "number": "03"
+              },
+              {
+                "title": "End Time Word",
+                "text": "A word for an end time people — anchored and assured.",
+                "detail": "",
+                "number": "04"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "roservices",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "services"
+      },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Join us",
+            "title": "Join us,",
+            "title_accent": "this week.",
+            "note": "We invite anyone and everyone to join us as we learn how to tap into the depths of the Word of God.",
+            "steps": [
+              {
+                "title": "Saturday",
+                "text": "Worship service — 9:00 AM – 12:30 PM"
+              },
+              {
+                "title": "Tuesday",
+                "text": "Bible study — 7:30 PM – 8:30 PM"
+              },
+              {
+                "title": "Weekday",
+                "text": "Prayer meetings & fellowship"
+              },
+              {
+                "title": "Every Day",
+                "text": "Grow in relationship with God"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rowatch",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "watch"
+      },
+      "widgets": [
+        {
+          "type": "vew-watch",
+          "settings": {
+            "eyebrow": "Watch live",
+            "title": "Worship with us,",
+            "title_accent": "from anywhere.",
+            "intro": "Can't be with us in person? Join our live broadcast and be part of the gathering online.",
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero.webp",
+              "id": 207
+            },
+            "cta_text": "Watch on YouTube",
+            "cta_url": {
+              "url": "https://www.youtube.com/@thewayofholinessbroadcast4551"
+            },
+            "secondary_text": "Follow on Instagram",
+            "secondary_url": {
+              "url": "https://www.instagram.com/rore.ministries/"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rogive",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "give"
+      },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Donations & giving",
+            "title": "Give from a willing heart,",
+            "title_accent": "obediently and cheerfully.",
+            "quote": "\"Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.\"",
+            "verse_ref": "— 2 Corinthians 9:7",
+            "cta_text": "Get giving details",
+            "cta_url": {
+              "url": "#contact"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rotestimonials",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "testimonials"
+      },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Testimonials",
+            "title": "Lives changed",
+            "title_accent": "through faith.",
+            "reviews": [
+              {
+                "quote": "\"I found a community that walks with me — grounded in the Word and full of grace.\"",
+                "author": "M.",
+                "role": "[Congregation] · Member",
+                "stars": 5
+              },
+              {
+                "quote": "\"The teaching has deepened my understanding of Scripture more than anywhere else. A true family in Christ.\"",
+                "author": "R.",
+                "role": "[Congregation] · Member",
+                "stars": 5
+              },
+              {
+                "quote": "\"I visited not knowing what to expect and felt welcomed from the moment I walked in. The love of God is real here.\"",
+                "author": "S.",
+                "role": "[Congregation] · Visitor",
+                "stars": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rofaq",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "faq"
+      },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions,",
+            "title_accent": "answered clearly.",
+            "intro": "A few helpful details before you visit. If your question is not here, just get in touch.",
+            "items": [
+              {
+                "question": "When can I visit?",
+                "answer": "See our service times below for the full weekly schedule. We would love to have you join us."
+              },
+              {
+                "question": "Do I need to be a member to attend?",
+                "answer": "No — we invite anyone and everyone to attend. Come and see, and experience the love and grace of God in person."
+              },
+              {
+                "question": "Can I watch online?",
+                "answer": "Yes. We broadcast our services live — find us on YouTube to join the gathering from anywhere."
+              },
+              {
+                "question": "How can I get involved?",
+                "answer": "From prayer and fellowship to serving in the community, there are many ways to grow and serve. Get in touch and we'll help you find your place."
+              },
+              {
+                "question": "How do I give?",
+                "answer": "We give from a willing heart, obediently and cheerfully. Get in touch for giving details, or speak with us after a service."
+              },
+              {
+                "question": "Where are you located?",
+                "answer": "Contact us for directions and service details — we would love to have you join us in person."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rocontact",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "contact"
+      },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Come",
+            "title_accent": "and see.",
+            "intro": "Questions, directions, or how to get involved — drop us a note and we'll be in touch.",
+            "phone": "(555) 010-0444",
+            "email": "hello@example.com",
+            "location": "[Primary City] · Service times above",
+            "form_kicker": "We'd love to hear from you",
+            "form_title": "Send a message",
+            "submit_cta": "Send a message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rofooter",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "footer"
+      },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "REALMS OF REVELATION ECCLESIA",
+            "brand_tag": "A COMMUNITY OF FAITH",
+            "blurb": "A community of faith in pursuit of truth — supporting individuals and families in building a firm spiritual foundation.",
+            "columns": [
+              {
+                "heading": "Navigate",
+                "links": [
+                  {
+                    "text": "About",
+                    "url": {
+                      "url": "#message"
+                    }
+                  },
+                  {
+                    "text": "Services",
+                    "url": {
+                      "url": "#services"
+                    }
+                  },
+                  {
+                    "text": "Watch",
+                    "url": {
+                      "url": "#watch"
+                    }
+                  },
+                  {
+                    "text": "Give",
+                    "url": {
+                      "url": "#give"
+                    }
+                  },
+                  {
+                    "text": "FAQ",
+                    "url": {
+                      "url": "#faq"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Join us",
+                "links": [
+                  {
+                    "text": "Testimonials",
+                    "url": {
+                      "url": "#testimonials"
+                    }
+                  },
+                  {
+                    "text": "Contact",
+                    "url": {
+                      "url": "#contact"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  {
+                    "text": "(555) 010-0444",
+                    "url": {
+                      "url": "tel:+15550100444"
+                    }
+                  },
+                  {
+                    "text": "hello@example.com",
+                    "url": {
+                      "url": "mailto:hello@example.com"
+                    }
+                  }
+                ]
+              }
+            ],
+            "copyright": "© Realms of Revelation Ecclesia"
+          }
+        }
+      ]
+    }
+  ]
+}

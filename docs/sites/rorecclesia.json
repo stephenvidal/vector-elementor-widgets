@@ -1,0 +1,588 @@
+{
+  "title": "Realms of Revelation Ecclesia — Myrtle Beach",
+  "slug": "rorecclesia",
+  "containers": [
+    {
+      "id": "rchdr",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "top"
+      },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "REALMS OF REVELATION ECCLESIA",
+            "brand_tag": "MYRTLE BEACH, SC",
+            "cta_text": "Plan Your Visit",
+            "cta_url": {
+              "url": "#contact"
+            },
+            "links": [
+              {
+                "text": "About",
+                "url": {
+                  "url": "#message"
+                }
+              },
+              {
+                "text": "Ministries",
+                "url": {
+                  "url": "#ministries"
+                }
+              },
+              {
+                "text": "Services",
+                "url": {
+                  "url": "#services"
+                }
+              },
+              {
+                "text": "Events",
+                "url": {
+                  "url": "#events"
+                }
+              },
+              {
+                "text": "Messages",
+                "url": {
+                  "url": "#messages"
+                }
+              },
+              {
+                "text": "Give",
+                "url": {
+                  "url": "#give"
+                }
+              },
+              {
+                "text": "FAQ",
+                "url": {
+                  "url": "#faq"
+                }
+              },
+              {
+                "text": "Contact",
+                "url": {
+                  "url": "#contact"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rchero",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "home"
+      },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "eyebrow": "A church where faith becomes life",
+            "headline": "Encounter God.<br><em>Find your place.</em>",
+            "copy": "Come as you are and discover a vibrant church family committed to biblical truth, authentic worship, meaningful relationships, and a life of purpose.",
+            "primary_cta_text": "Plan Your First Visit",
+            "primary_cta_url": {
+              "url": "#contact"
+            },
+            "secondary_cta_text": "Watch a Message",
+            "secondary_cta_url": {
+              "url": "#messages"
+            },
+            "trust_list": [
+              {
+                "text": "Warm, family-focused community"
+              },
+              {
+                "text": "Biblical and Spirit-led"
+              },
+              {
+                "text": "Meaningful relationships"
+              },
+              {
+                "text": "A life of purpose"
+              }
+            ],
+            "hero_background_image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero_v2.webp",
+              "id": 220
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcpractice",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "practice"
+      },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "A personal welcome",
+            "title": "You were never meant to walk in faith",
+            "title_accent": "alone.",
+            "intro": "Realms Of Revelation Ecclesia is a place to meet God, build genuine relationships, deepen your understanding of Scripture, and become equipped to live with spiritual clarity and purpose.",
+            "features": [
+              {
+                "title": "Praise & Prayer",
+                "text": "A time of praise, prayer, and the teaching of God's Word.",
+                "detail": "Weekly gathering",
+                "number": "01"
+              },
+              {
+                "title": "The Word",
+                "text": "Diving into Scripture to deepen understanding and grow in faith.",
+                "detail": "Mid-week study",
+                "number": "02"
+              },
+              {
+                "title": "Community & Prayer",
+                "text": "Prayer meetings and fellowship that strengthen relationships and promote positive change.",
+                "detail": "Gather with the family",
+                "number": "03"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcstats",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "A firm foundation",
+            "title": "A firm foundation,",
+            "title_accent": "built in community.",
+            "stats": [
+              {
+                "value": "WORD",
+                "label": "Rooted in Scripture"
+              },
+              {
+                "value": "GRACE",
+                "label": "Freely given"
+              },
+              {
+                "value": "FAMILY",
+                "label": "Built in community"
+              },
+              {
+                "value": "ALL",
+                "label": "Are welcome"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcfirm",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "message"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g3_v2.webp",
+              "id": 222
+            },
+            "image_caption": "Realms of Revelation Ecclesia",
+            "eyebrow": "The message",
+            "title": "End time word,",
+            "title_accent": "for an end time people.",
+            "paragraphs": [
+              {
+                "text": "In a world filled with despair and uncertainty, we stand firm trusting in the one true God, Jesus Christ. We offer a range of opportunities for our members to deepen their relationship with God and grow together in faith."
+              },
+              {
+                "text": "Realms of Revelation Ecclesia fosters strong community relationships and promotes positive change through faith."
+              }
+            ],
+            "quote": "\"Please come and visit us to experience the love and grace of God in person!\"",
+            "signature": "— Bishop Marlon Curtis",
+            "signature_role": "BISHOP · REALMS OF REVELATION ECCLESIA"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcministries",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "ministries"
+      },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Ministries",
+            "title": "There is a place here",
+            "title_accent": "for every generation.",
+            "features": [
+              {
+                "title": "Children & Families",
+                "text": "A safe, joyful environment where children can know God, build friendships, and grow in faith.",
+                "detail": "",
+                "number": "01"
+              },
+              {
+                "title": "Youth & Young Adults",
+                "text": "Real conversations, spiritual formation, and community for emerging generations.",
+                "detail": "",
+                "number": "02"
+              },
+              {
+                "title": "Discipleship",
+                "text": "Practical pathways for learning Scripture and becoming mature in faith.",
+                "detail": "",
+                "number": "03"
+              },
+              {
+                "title": "Community Outreach",
+                "text": "Serving Myrtle Beach and beyond through compassion, practical support, prayer, and partnership.",
+                "detail": "",
+                "number": "04"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcwhy",
+      "content_width": "full",
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Our heart",
+            "title": "Faith that transforms",
+            "title_accent": "the whole person.",
+            "features": [
+              {
+                "title": "Reveal Christ",
+                "text": "We center every gathering, message, and ministry on the person of Jesus and the truth of Scripture.",
+                "detail": "",
+                "number": "01"
+              },
+              {
+                "title": "Restore People",
+                "text": "We create space for healing, belonging, discipleship, and the rebuilding of lives through grace and community.",
+                "detail": "",
+                "number": "02"
+              },
+              {
+                "title": "Release Purpose",
+                "text": "We equip believers to understand their gifts, serve others, and live with courage in their God-given calling.",
+                "detail": "",
+                "number": "03"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcservices",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "services"
+      },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Join us",
+            "title": "Make space for",
+            "title_accent": "what matters most.",
+            "note": "Whether you join us for worship, teaching, or conversation, every gathering is designed to help you grow closer to God and others.",
+            "steps": [
+              {
+                "title": "Saturday",
+                "text": "Worship service — 9:00 AM – 12:30 PM"
+              },
+              {
+                "title": "Tuesday",
+                "text": "Bible study — 7:30 PM – 8:30 PM"
+              },
+              {
+                "title": "Weekday",
+                "text": "Prayer meetings & fellowship"
+              },
+              {
+                "title": "Every Day",
+                "text": "Grow in relationship with God"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcevents",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "events"
+      },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Gatherings",
+            "title": "More than a service.",
+            "title_accent": "A life shared.",
+            "features": [
+              {
+                "title": "Weekly Gatherings",
+                "text": "Corporate praise, biblical teaching, prayer, and fellowship.",
+                "detail": "WEEKLY",
+                "number": "01"
+              },
+              {
+                "title": "Study & Discussion",
+                "text": "Thoughtful teaching and open discussion rooted in Scripture.",
+                "detail": "MIDWEEK",
+                "number": "02"
+              },
+              {
+                "title": "Community Gatherings",
+                "text": "Fellowship, family moments, outreach, and special celebrations.",
+                "detail": "SEASON",
+                "number": "03"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcwatch",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "messages"
+      },
+      "widgets": [
+        {
+          "type": "vew-watch",
+          "settings": {
+            "eyebrow": "Featured message",
+            "title": "When faith finds",
+            "title_accent": "its footing.",
+            "intro": "Discover how to remain grounded, discerning, and full of hope when life feels uncertain and the next step is not yet clear.",
+            "image": {
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/message.webp",
+              "id": 223
+            },
+            "cta_text": "Watch the Message",
+            "cta_url": {
+              "url": "https://www.youtube.com/@thewayofholinessbroadcast4551"
+            },
+            "secondary_text": "Get in touch",
+            "secondary_url": {
+              "url": "#contact"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcgive",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "give"
+      },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Giving",
+            "title": "Generosity makes",
+            "title_accent": "ministry possible.",
+            "quote": "Your giving supports worship, discipleship, outreach, care, and the practical work of serving people throughout our community.",
+            "verse_ref": "",
+            "cta_text": "Learn about giving",
+            "cta_url": {
+              "url": "#contact"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcfaq",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "faq"
+      },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions,",
+            "title_accent": "answered clearly.",
+            "intro": "A few helpful details before you visit. If your question is not here, just get in touch.",
+            "items": [
+              {
+                "question": "When can I visit?",
+                "answer": "See our service times below for the full weekly schedule. We would love to have you join us."
+              },
+              {
+                "question": "Do I need to be a member to attend?",
+                "answer": "No — we invite anyone and everyone to attend. Come and see, and experience the love and grace of God in person."
+              },
+              {
+                "question": "Can I watch online?",
+                "answer": "Yes. We broadcast our services live — find us on YouTube to join the gathering from anywhere."
+              },
+              {
+                "question": "How can I get involved?",
+                "answer": "From prayer and fellowship to serving in the community, there are many ways to grow and serve. Get in touch and we'll help you find your place."
+              },
+              {
+                "question": "How do I give?",
+                "answer": "We give from a willing heart, obediently and cheerfully. Get in touch for giving details, or speak with us after a service."
+              },
+              {
+                "question": "Where are you located?",
+                "answer": "We are a welcoming church family in Myrtle Beach, South Carolina. Contact us for directions and service details."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rccontact",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "contact"
+      },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Your first visit",
+            "title": "We would love to",
+            "title_accent": "welcome you.",
+            "intro": "Tell us you are coming and our team can help make your first visit comfortable, simple, and personal.",
+            "phone": "(555) 010-0555",
+            "email": "hello@example.com",
+            "location": "Myrtle Beach, South Carolina",
+            "form_kicker": "Let us know you are coming",
+            "form_title": "Plan your visit",
+            "submit_cta": "Send My Visit Details"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcfooter",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "footer"
+      },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "REALMS OF REVELATION ECCLESIA",
+            "brand_tag": "MYRTLE BEACH, SC",
+            "blurb": "A vibrant church family in Myrtle Beach, South Carolina — committed to biblical truth, authentic worship, and a life of purpose.",
+            "columns": [
+              {
+                "heading": "Navigate",
+                "links": [
+                  {
+                    "text": "About",
+                    "url": {
+                      "url": "#message"
+                    }
+                  },
+                  {
+                    "text": "Ministries",
+                    "url": {
+                      "url": "#ministries"
+                    }
+                  },
+                  {
+                    "text": "Services",
+                    "url": {
+                      "url": "#services"
+                    }
+                  },
+                  {
+                    "text": "Events",
+                    "url": {
+                      "url": "#events"
+                    }
+                  },
+                  {
+                    "text": "Messages",
+                    "url": {
+                      "url": "#messages"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  {
+                    "text": "Give",
+                    "url": {
+                      "url": "#give"
+                    }
+                  },
+                  {
+                    "text": "FAQ",
+                    "url": {
+                      "url": "#faq"
+                    }
+                  },
+                  {
+                    "text": "Plan a visit",
+                    "url": {
+                      "url": "#contact"
+                    }
+                  }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  {
+                    "text": "(555) 010-0555",
+                    "url": {
+                      "url": "tel:+15550100555"
+                    }
+                  },
+                  {
+                    "text": "hello@example.com",
+                    "url": {
+                      "url": "mailto:hello@example.com"
+                    }
+                  }
+                ]
+              }
+            ],
+            "copyright": "© Realms of Revelation Ecclesia"
+          }
+        }
+      ]
+    }
+  ]
+}
