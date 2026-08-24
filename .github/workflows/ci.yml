@@ -1,0 +1,66 @@
+name: ci
+
+on:
+  push:
+    branches: [main, develop, phase/*]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  quality:
+    name: PHP ${{ matrix.php }} — lint, static analysis, tests, build
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # The plugin header promises PHP 8.1+. Test the declared floor plus
+        # the forward checks so the promise is actually verified.
+        php: ['8.1', '8.2', '8.3', '8.4']
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install PHP ${{ matrix.php }}
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: curl, mbstring, xml, zip, intl, mysqli, gd, dom, bcmath, sqlite
+          coverage: none
+          tools: composer
+
+      - name: Cache Composer dependencies
+        uses: actions/cache@v4
+        with:
+          path: vendor
+          key: ${{ runner.os }}-php${{ matrix.php }}-${{ hashFiles('composer.json') }}
+          restore-keys: ${{ runner.os }}-php-
+
+      - name: Composer validate
+        run: composer validate --strict --no-check-publish
+
+      - name: Composer install
+        run: composer install --no-interaction --no-progress --prefer-dist
+
+      - name: Lint (PHPCS / WPCS)
+        run: ./vendor/bin/phpcs
+
+      - name: Static analysis (PHPStan)
+        run: ./vendor/bin/phpstan analyse --no-progress
+
+      - name: Unit tests (PHPUnit)
+        run: ./vendor/bin/phpunit --testdox
+
+      - name: Build source ZIP
+        run: bash tools/build.sh phase-0
+
+      - name: Upload build artifact
+        # One artifact is enough; every matrix leg builds the same source.
+        if: matrix.php == '8.1'
+        uses: actions/upload-artifact@v4
+        with:
+          name: vector-elementor-widgets-source
+          path: builds/vector-elementor-widgets-phase-0-source.zip
+          if-no-files-found: error
+          retention-days: 30
