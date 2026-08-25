@@ -1,0 +1,260 @@
+{
+  "title": "Bento — No-Code App Builder",
+  "slug": "no-code-builder",
+  "kit": "no-code-builder",
+  "containers": [
+    {
+      "id": "nc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "BENTO",
+            "brand_tag": "NO-CODE APP BUILDER",
+            "cta_text": "Start building",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Features", "url": { "url": "#features" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-14.png", "id": 368 },
+            "eyebrow": "The no-code app builder for teams that ship",
+            "headline": "Ideas in your head.<br><em>Apps in production.</em>",
+            "copy": "Bento is the visual way to build real web apps. Drag in data sources, wire up logic, and publish a production-ready app your team and customers will actually use — no code required.",
+            "primary_cta_text": "Start building free",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "Watch the 2-min demo",
+            "secondary_cta_url": { "url": "#features" },
+            "trust_list": [
+              { "text": "No engineers required" },
+              { "text": "Deploys to a custom domain in minutes" },
+              { "text": "SOC 2 Type II compliant" },
+              { "text": "Data you can export anytime" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The momentum",
+            "title": "Teams ship faster, way faster,",
+            "title_accent": "with Bento",
+            "stats": [
+              { "value": "87%", "label": "Faster to launch their first app" },
+              { "value": "3.4x", "label": "More ideas actually reach customers" },
+              { "value": "41k", "label": "Apps published on Bento" },
+              { "value": "190+", "label": "Countries building with Bento" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "features" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What you can build",
+            "title": "From blank canvas to live app,",
+            "title_accent": "in an afternoon",
+            "intro": "Bento turns your workflow into a working product. Point it at your data, design the screens, set the rules — and hit publish.",
+            "features": [
+              { "number": "01", "title": "Visual app canvas", "text": "Drag, drop, and connect screens on a live canvas. See your app exactly as users will, as you build — no compile step, no surprises.", "detail": "Live canvas" },
+              { "number": "02", "title": "Connect real data", "text": "Pull from Airtable, Google Sheets, SQL, or an API. Your app reads and writes the data you already trust, not a locked-in copy.", "detail": "30+ connectors" },
+              { "number": "03", "title": "Logic, no code", "text": "Set permissions, approvals, and workflows with point-and-click rules. Complex automation that normally takes weeks, done in an afternoon.", "detail": "Visual logic" },
+              { "number": "04", "title": "Design that looks designed", "text": "Responsive, accessible components out of the box. Tune the look to your brand without touching a single stylesheet.", "detail": "WCAG-aware" },
+              { "number": "05", "title": "One-click publish", "text": "Deploy to a custom domain, add auth, and share. Every change ships to your own hosted URL with SSL in seconds.", "detail": "Custom domains" },
+              { "number": "06", "title": "Export anytime", "text": "Own your work. Export your app, data, and components whenever you like — Bento never holds your product hostage.", "detail": "No lock-in" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How Bento works",
+            "title": "From idea to live app,",
+            "title_accent": "four steps",
+            "steps": [
+              { "title": "Start from a template", "text": "Pick a template close to your idea — a client portal, an internal tool, a marketplace, or a landing app. Or start from a blank canvas." },
+              { "title": "Connect your data", "text": "Bring in the tables or sheets you already use. Bento maps them to a database your app can read and write, instantly." },
+              { "title": "Design the flow", "text": "Drag screens together, set the navigation, and add the logic — approvals, roles, and actions — all visually." },
+              { "title": "Publish to production", "text": "Hit publish, point your domain at it, and share the link. Every update goes live to the same URL in seconds." }
+            ],
+            "note": "Most people build their first working app the same afternoon they sign up. No install, no hosting bill, no engineering ticket."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Start free, scale",
+            "title_accent": "when you're ready",
+            "intro": "Every plan includes unlimited viewers and a custom domain. Upgrade when you want more power, not sooner than you need it.",
+            "plans": [
+              { "plan": "Free", "price": "$0", "unit": "/ month", "features": [{ "text": "Up to 3 apps" }, { "text": "100 rows of data" }, { "text": "Bento subdomain" }, { "text": "Community support" }], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Pro", "price": "$29", "unit": "/ month", "featured": "yes", "features": [{ "text": "Unlimited apps" }, { "text": "10,000 rows of data" }, { "text": "Custom domain + SSL" }, { "text": "Logic & approvals" }, { "text": "Priority support" }], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Team", "price": "$99", "unit": "/ month", "features": [{ "text": "Everything in Pro" }, { "text": "Shared workspaces" }, { "text": "Role-based access" }, { "text": "Audit logs" }, { "text": "Onboarding help" }], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What builders say",
+            "title": "No-code that doesn't feel",
+            "title_accent": "like a toy",
+            "intro": "Real words from operators who replaced a backlog of ideas with a portfolio of shipped apps.",
+            "reviews": [
+              { "quote": "We had a client portal idea sitting in a spreadsheet for eight months. I built the MVP in one weekend with Bento and it's been running our onboarding since.", "author": "Sasha P.", "role": "Operations lead", "stars": 5 },
+              { "quote": "It connects to our Google Sheets and just works. Our support team finally has an internal tool they actually like using instead of fighting one.", "author": "Marcus T.", "role": "Support manager", "stars": 5 },
+              { "quote": "I'm not an engineer, and Bento let me launch a marketplace nobody thought was possible for a two-person team. The export-anytime thing sold me.", "author": "Priya N.", "role": "Founder", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "The honest answers teams ask before building with Bento.",
+            "items": [
+              { "question": "Is Bento actually for non-technical people?", "answer": "Yes. If you can build a spreadsheet and lay out a slide, you can ship a Bento app. Engineers often use it too, but no one has to." },
+              { "question": "Can I connect my existing data?", "answer": "Bento reads and writes Airtable, Google Sheets, SQL databases, and REST APIs out of the box. Bring the source you already trust." },
+              { "question": "Is it really production-grade?", "answer": "Bento apps are hosted on our secure infrastructure with SSL, roles, audit logs, and a published API. We treat your builds with the same care as a native app." },
+              { "question": "What happens if I want to leave?", "answer": "Your app, your data, and any code are yours. Export everything on Pro and Team plans, and a Bento app isn't tied to a lifetime subscription." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-cta",
+      "content_width": "full",
+      "settings": { "_element_id": "get-started" },
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Your idea deserves to ship.",
+            "description": "Stop waiting on the backlog. Build your app on Bento today — free to start, live by afternoon.",
+            "primary_text": "Start building free",
+            "primary_url": { "url": "#contact" },
+            "secondary_text": "See pricing",
+            "secondary_url": { "url": "#pricing" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "Start your first app today",
+            "intro": "Build free, ask us anything, or bring a whole team. Bento is here to make shipping ideas embarrassingly easy.",
+            "phone": "(555) 042-9900",
+            "email": "hello@bento.build",
+            "location": "Remote-first · Global",
+            "form_kicker": "Request a demo",
+            "form_title": "Get started with Bento",
+            "submit_cta": "Send request"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "BENTO",
+            "brand_tag": "NO-CODE APP BUILDER",
+            "blurb": "The visual app builder that turns your ideas into production software — no engineers, no code, no waiting.",
+            "copyright": "© Bento — no-code app builder",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Features", "url": { "url": "#features" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Security", "url": { "url": "#features" } },
+                  { "text": "Privacy", "url": { "url": "#faq" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
