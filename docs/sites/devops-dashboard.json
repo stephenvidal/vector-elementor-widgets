@@ -1,0 +1,334 @@
+{
+  "title": "RelayStack — DevOps Observability",
+  "slug": "devops-dashboard",
+  "kit": "devops-dashboard",
+  "containers": [
+    {
+      "id": "dd-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "RELAYSTACK",
+            "brand_tag": "DEVOPS OBSERVABILITY",
+            "cta_text": "Start free",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Product", "url": { "url": "#product" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-13.png", "id": 361 },
+            "eyebrow": "Observability for teams that ship fast",
+            "headline": "Every second,<br><em>one pane of glass.</em>",
+            "copy": "RelayStack fuses logs, metrics, traces, and on-call into a single live view. Spot the anomaly before your users do, correlate root cause in one click, and get back to shipping.",
+            "primary_cta_text": "Start free",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See the live demo",
+            "secondary_cta_url": { "url": "#product" },
+            "trust_list": [
+              { "text": "Unified logs, metrics & traces" },
+              { "text": "Goes live in under 10 minutes" },
+              { "text": "SOC 2 Type II compliant" },
+              { "text": "Agentless for most clouds" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The impact",
+            "title": "Less noise, fewer pages, faster fixes",
+            "title_accent": "in numbers",
+            "stats": [
+              { "value": "73%", "label": "Fewer alert pages after 30 days" },
+              { "value": "2.1x", "label": "Faster mean time to resolve" },
+              { "value": "42%", "label": "Less time context-switching" },
+              { "value": "11k", "label": "Signals correlated per incident" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "product" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What's inside",
+            "title": "One stack to see the whole",
+            "title_accent": "system",
+            "intro": "Instead of five tools that each see a slice, RelayStack brings every signal together and points your team at what matters.",
+            "features": [
+              { "number": "01", "title": "Unified telemetry", "text": "Logs, metrics, and traces land in one store with a single query language. No more stitching three dashboards together to answer one question.", "detail": "Logs + metrics + traces" },
+              { "number": "02", "title": "Anomaly detection", "text": "Baselines learn from your traffic and flag drift in latency, error rate, and saturation — without you hand-writing a single threshold.", "detail": "ML baseline engine" },
+              { "number": "03", "title": "Root-cause correlation", "text": "When an alert fires, RelayStack links the related logs and traces automatically, so the investigation starts at the cause, not the symptom.", "detail": "Automatic linking" },
+              { "number": "04", "title": "Intelligent on-call", "text": "Alerts route to the right engineer with escalation rules and a mobile app that shows the full incident context before you pick up.", "detail": "On-call schedules" },
+              { "number": "05", "title": "Service maps", "text": "A live dependency graph of your services and the load between them, so you see cascading failures forming before they reach users.", "detail": "Live topology" },
+              { "number": "06", "title": "SLO & budgets", "text": "Define service-level objectives and track error budgets against them, with alerts tuned to what your business actually promises.", "detail": "SLO tracking" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "How teams use it",
+            "title": "RelayStack adapts to",
+            "title_accent": "how you run",
+            "intro": "Whether you run a two-person startup or a platform org, RelayStack slots into your existing tools without a rewrite.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Platform engineering" },
+              { "key": "build", "label": "SRE & on-call" },
+              { "key": "launch", "label": "Developer teams" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Internal platform", "text": "Standardize observability for every team with shared dashboards, guardrails, and a single tenant model — no more shadow monitoring." },
+              { "icon": "◈", "title": "Golden signals", "text": "Wire latency, traffic, errors, and saturation as first-class citizens. Everyone on the team reads the same picture." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Pager triage", "text": "Escalation rules route every page with full context. On-call engineers answer with the why, not just the what." },
+              { "icon": "⚑", "title": "Postmortems", "text": "Incident timelines are captured automatically, so the postmortem writes itself from real data instead of memory." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Fast feedback", "text": "Deploys get instant feedback in the dev loop, so teams ship confidently and catch regressions in staging, not production." },
+              { "icon": "✦", "title": "No vendor lock-in", "text": "Pulls from Prometheus, OpenTelemetry, and the major clouds — it meets your stack where it already is." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Getting started",
+            "title": "From install to insight",
+            "title_accent": "in under an hour",
+            "steps": [
+              { "title": "Connect your stack", "text": "Install the agentless collector or drop in OpenTelemetry. RelayStack auto-discovers services, databases, and queues." },
+              { "title": "We build the baseline", "text": "Within minutes, RelayStack learns each service's normal behavior and stands up a live topology map and SLO templates." },
+              { "title": "Review your dashboards", "text": "Tailor the ready-made views to your team — or let the anomaly engine surface what to look at first." },
+              { "title": "Set on-call & alerts", "text": "Wire schedules and escalation rules. RelayStack pages the right person with the right context." },
+              { "title": "Ship and sleep better", "text": "Keep shipping. RelayStack watches, correlates, and pages — your team only shows up when it matters." }
+            ],
+            "note": "No agents to install for most managed clouds, and no data egress fees on your way out. Bring your existing dashboards; we'll import them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Plans that scale",
+            "title_accent": "with your signals",
+            "intro": "Start with the free tier and grow as your telemetry does. Volume-based, no per-seat surprises.",
+            "plans": [
+              {
+                "plan": "Starter",
+                "price": "$0",
+                "unit": "/ month",
+                "features": [
+                  { "text": "5,000 metric series" },
+                  { "text": "2 users" },
+                  { "text": "30-day retention" },
+                  { "text": "Community support" }
+                ],
+                "cta": "Start free",
+                "cta_url": { "url": "#contact" }
+              },
+              {
+                "plan": "Growth",
+                "price": "$89",
+                "unit": "/ month",
+                "featured": "yes",
+                "features": [
+                  { "text": "50,000 metric series" },
+                  { "text": "Unlimited users" },
+                  { "text": "13-month retention" },
+                  { "text": "Anomaly detection + SLOs" },
+                  { "text": "On-call & escalations" }
+                ],
+                "cta": "Start 14-day trial",
+                "cta_url": { "url": "#contact" }
+              },
+              {
+                "plan": "Enterprise",
+                "price": "Custom",
+                "unit": "",
+                "features": [
+                  { "text": "Unlimited scale" },
+                  { "text": "SSO / SAML" },
+                  { "text": "Audit logs" },
+                  { "text": "Self-hosted option" },
+                  { "text": "Dedicated TAM" }
+                ],
+                "cta": "Talk to sales",
+                "cta_url": { "url": "#contact" }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What teams say",
+            "title": "Observability that",
+            "title_accent": "actually helps",
+            "intro": "Real words from platform and SRE teams who replaced a pile of dashboards with RelayStack.",
+            "reviews": [
+              { "quote": "We killed four separate monitoring tools the week we turned on RelayStack. The correlation view alone paid for itself in the first incident.", "author": "Dana O.", "role": "Staff SRE", "stars": 5 },
+              { "quote": "Root-cause correlation is the killer feature. Our MTTR dropped from 40 minutes to under 20 because we stop hunting and start fixing.", "author": "Kenji R.", "role": "Platform lead", "stars": 5 },
+              { "quote": "It imports our existing Prometheus data and just works. The on-call context alone made our nightly pages 70% less panic.", "author": "Marta V.", "role": "DevOps engineer", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "The honest answers teams ask before standardizing on RelayStack.",
+            "items": [
+              { "question": "Is this just another Prometheus dashboard?", "answer": "No. RelayStack layers an anomaly engine and root-cause correlation over the raw signals. It tells you what to look at and why, rather than just rendering a chart." },
+              { "question": "How hard is it to migrate from my current stack?", "answer": "For most teams it's an agentless collector or a small OpenTelemetry change. We auto-discover services and import existing dashboards where we can. Most are live in under an hour." },
+              { "question": "What about on-prem or air-gapped environments?", "answer": "We offer a self-hosted Enterprise deployment that runs fully inside your VPC. Your telemetry never leaves your network." },
+              { "question": "Do you store or train on our data?", "answer": "We keep your telemetry only as long as your retention plan specifies and never train foundation models on customer data. Enterprise SSO and audit logs are available." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-cta",
+      "content_width": "full",
+      "settings": { "_element_id": "get-started" },
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Stop babysitting dashboards.",
+            "description": "Connect your stack and let RelayStack point you at what matters. Free to start, live in minutes.",
+            "primary_text": "Start free",
+            "primary_url": { "url": "#contact" },
+            "secondary_text": "See pricing",
+            "secondary_url": { "url": "#pricing" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "See your system clearly",
+            "intro": "Spin up a workspace free, or ask us anything before you commit.",
+            "phone": "(555) 018-4400",
+            "email": "hello@relaystack.io",
+            "location": "Remote-first · Global",
+            "form_kicker": "Request a demo",
+            "form_title": "Start your free workspace",
+            "submit_cta": "Send request"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "RELAYSTACK",
+            "brand_tag": "DEVOPS OBSERVABILITY",
+            "blurb": "The observability platform that fuses logs, metrics, and traces into one live view — so your team sees the whole system, not just the fire.",
+            "copyright": "© RelayStack — DevOps observability",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Features", "url": { "url": "#product" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Security", "url": { "url": "#product" } },
+                  { "text": "Privacy", "url": { "url": "#faq" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
