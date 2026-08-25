@@ -25,6 +25,7 @@ use Vector\ElementorWidgets\Elementor\Widget\Faq;
 use Vector\ElementorWidgets\Elementor\Widget\FeatureGrid;
 use Vector\ElementorWidgets\Elementor\Widget\Hero;
 use Vector\ElementorWidgets\Elementor\Widget\Testimonials;
+use Vector\ElementorWidgets\Elementor\Widget\PortfolioIndex;
 use Vector\ElementorWidgets\Elementor\Widget\Timeline;
 use Vector\ElementorWidgets\Elementor\Widget\BeforeAfter;
 use Vector\ElementorWidgets\Elementor\Widget\Countdown;
@@ -166,6 +167,7 @@ final class Plugin {
 		$this->container->get( 'widget_registry' )->register( FeatureGrid::class );
 		$this->container->get( 'widget_registry' )->register( Testimonials::class );
 		$this->container->get( 'widget_registry' )->register( Faq::class );
+		$this->container->get( 'widget_registry' )->register( PortfolioIndex::class );
 		$this->container->get( 'widget_registry' )->register( Timeline::class );
 		$this->container->get( 'widget_registry' )->register( BeforeAfter::class );
 		$this->container->get( 'widget_registry' )->register( Countdown::class );
@@ -301,6 +303,7 @@ final class Plugin {
 		$assets->register_style( 'vew-testimonials', 'widgets/Testimonials/testimonials.css' );
 		$assets->register_style( 'vew-faq', 'widgets/Faq/faq.css' );
 		$assets->register_script( 'vew-faq', 'widgets/Faq/faq.js' );
+		$assets->register_style( 'vew-portfolio-index', 'widgets/PortfolioIndex/vew-portfolio-index.css' );
 		$assets->register_style( 'vew-timeline', 'widgets/Timeline/vew-timeline.css' );
 		$assets->register_style( 'vew-before-after', 'widgets/BeforeAfter/vew-before-after.css' );
 		$assets->register_script( 'vew-before-after', 'widgets/BeforeAfter/vew-before-after.js' );

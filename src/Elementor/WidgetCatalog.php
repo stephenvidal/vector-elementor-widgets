@@ -29,6 +29,7 @@ use Vector\ElementorWidgets\Elementor\Widget\Pricing;
 use Vector\ElementorWidgets\Elementor\Widget\Process;
 use Vector\ElementorWidgets\Elementor\Widget\Services;
 use Vector\ElementorWidgets\Elementor\Widget\Testimonials;
+use Vector\ElementorWidgets\Elementor\Widget\PortfolioIndex;
 use Vector\ElementorWidgets\Elementor\Widget\Timeline;
 use Vector\ElementorWidgets\Elementor\Widget\BeforeAfter;
 use Vector\ElementorWidgets\Elementor\Widget\Countdown;
@@ -278,6 +279,13 @@ final class WidgetCatalog {
 				'title'       => __( 'Timeline', 'vector-elementor-widgets' ),
 				'description' => __( 'A vertical milestone timeline (alternating or left column).', 'vector-elementor-widgets' ),
 				'icon'        => 'eicon-time-line',
+			),
+			array(
+				'slug'        => 'vew-portfolio-index',
+				'class'       => PortfolioIndex::class,
+				'title'       => __( 'Portfolio Index', 'vector-elementor-widgets' ),
+				'description' => __( 'A dynamic grid of the website-factory portfolio pages, each with a kit colour swatch.', 'vector-elementor-widgets' ),
+				'icon'        => 'eicon-gallery-grid',
 			),
 		);
 	}

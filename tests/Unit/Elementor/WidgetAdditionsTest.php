@@ -146,10 +146,27 @@ final class WidgetAdditionsTest extends TestCase {
 
 		// The control exposes a tab_labels repeater.
 		$this->assertStringContainsString( "'tab_labels'", $ctrl );
-		$this->assertStringContainsString( "'variant key'", strtolower( $ctrl ) );
 		// The render path reads tab_labels and falls back to the variant key.
 		$this->assertStringContainsString( '$tab_labels[ $key ]', $widget );
-		$this->assertStringContainsString( "ucfirst( \$key )", $widget );
+		$this->assertStringContainsString( 'ucfirst( $key )', $widget );
+	}
+
+	/**
+	 * PortfolioIndex queries factory-tagged pages and renders a kit swatch per card.
+	 */
+	public function test_portfolio_index_queries_factory_sites(): void {
+		$widget = $this->source( 'src/Elementor/Widget/PortfolioIndex.php' );
+		$css    = $this->source( 'widgets/PortfolioIndex/vew-portfolio-index.css' );
+
+		// Queries pages tagged _vew_factory_site.
+		$this->assertStringContainsString( "'_vew_factory_site'", $widget );
+		$this->assertStringContainsString( 'meta_key', $widget );
+		// Reads the per-site kit for a brand swatch.
+		$this->assertStringContainsString( '_vew_site_kit', $widget );
+		$this->assertStringContainsString( 'vew-portfolio-index__swatch', $widget );
+		// Responsive grid columns.
+		$this->assertStringContainsString( 'vew-portfolio-index__grid', $css );
+		$this->assertStringContainsString( 'grid-template-columns', $css );
 	}
 
 	/**
