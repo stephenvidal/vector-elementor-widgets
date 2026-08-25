@@ -94,6 +94,53 @@ final class ServicesContentControls {
 			'launch' => __( 'Launch Cards', 'vector-elementor-widgets' ),
 		);
 
+		// Configurable tab labels — the variant names stay Design/Build/Launch
+		// internally, but the rendered tab text is user-defined. Defaults to the
+		// classic Design / Build / Launch labels for backward compatibility.
+		$widget->add_control(
+			'tab_labels',
+			array(
+				'label'       => __( 'Tab Labels', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::REPEATER,
+				'fields'      => array(
+					array(
+						'name'        => 'key',
+						'label'       => __( 'Variant Key', 'vector-elementor-widgets' ),
+						'type'        => \Elementor\Controls_Manager::SELECT,
+						'options'     => array(
+							'design' => __( 'Design', 'vector-elementor-widgets' ),
+							'build'  => __( 'Build', 'vector-elementor-widgets' ),
+							'launch' => __( 'Launch', 'vector-elementor-widgets' ),
+						),
+						'default'     => 'design',
+						'label_block' => true,
+					),
+					array(
+						'name'        => 'label',
+						'label'       => __( 'Label', 'vector-elementor-widgets' ),
+						'type'        => \Elementor\Controls_Manager::TEXT,
+						'default'     => '',
+						'label_block' => true,
+					),
+				),
+				'default'     => array(
+					array(
+						'key'   => 'design',
+						'label' => __( 'Design', 'vector-elementor-widgets' ),
+					),
+					array(
+						'key'   => 'build',
+						'label' => __( 'Build', 'vector-elementor-widgets' ),
+					),
+					array(
+						'key'   => 'launch',
+						'label' => __( 'Launch', 'vector-elementor-widgets' ),
+					),
+				),
+				'title_field' => '{{{ key }}}',
+			)
+		);
+
 		foreach ( array( 'design', 'build', 'launch' ) as $key ) {
 			$widget->add_control(
 				$key,

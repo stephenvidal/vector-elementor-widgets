@@ -101,6 +101,7 @@ final class Services extends BaseWidget {
 				'title_after'  => 'string',
 				'intro'   => 'string',
 				'variant' => 'string',
+				'tab_labels' => 'array',
 				'design'  => 'array',
 				'build'   => 'array',
 				'launch'  => 'array',
@@ -116,6 +117,22 @@ final class Services extends BaseWidget {
 			'build'  => $safe['build'] ?? array(),
 			'launch' => $safe['launch'] ?? array(),
 		);
+
+		// Resolve the configurable tab labels into a key => label map. Falls back
+		// to the variant key (title-cased) when a label is missing or unset.
+		$tab_labels = array();
+		if ( ! empty( $safe['tab_labels'] ) && is_array( $safe['tab_labels'] ) ) {
+			foreach ( $safe['tab_labels'] as $row ) {
+				if ( ! is_array( $row ) ) {
+					continue;
+				}
+				$key = isset( $row['key'] ) ? sanitize_key( (string) $row['key'] ) : '';
+				$lbl = isset( $row['label'] ) ? sanitize_text_field( (string) $row['label'] ) : '';
+				if ( '' !== $key && isset( $groups[ $key ] ) ) {
+					$tab_labels[ $key ] = '' !== $lbl ? $lbl : ucfirst( $key );
+				}
+			}
+		}
 
 		$instance_id = wp_unique_id( 'vew-services-' );
 
@@ -136,7 +153,7 @@ final class Services extends BaseWidget {
 						aria-controls="<?php echo esc_attr( $instance_id ); ?>-panel-<?php echo esc_attr( $key ); ?>"
 						aria-selected="<?php echo $variant === $key ? 'true' : 'false'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- boolean-driven. ?>"
 						tabindex="<?php echo $variant === $key ? '0' : '-1'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- boolean-driven. ?>"
-					><?php echo esc_html( ucfirst( $key ) ); ?></button>
+					><?php echo esc_html( isset( $tab_labels[ $key ] ) ? $tab_labels[ $key ] : ucfirst( $key ) ); ?></button>
 				<?php endforeach; ?>
 			</div>
 

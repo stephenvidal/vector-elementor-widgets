@@ -138,6 +138,21 @@ final class WidgetAdditionsTest extends TestCase {
 	}
 
 	/**
+	 * Services exposes configurable tab labels (no more hardcoded Design/Build/Launch).
+	 */
+	public function test_services_configurable_tab_labels(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Services.php' );
+		$ctrl   = $this->source( 'src/Elementor/Control/ServicesContentControls.php' );
+
+		// The control exposes a tab_labels repeater.
+		$this->assertStringContainsString( "'tab_labels'", $ctrl );
+		$this->assertStringContainsString( "'variant key'", strtolower( $ctrl ) );
+		// The render path reads tab_labels and falls back to the variant key.
+		$this->assertStringContainsString( '$tab_labels[ $key ]', $widget );
+		$this->assertStringContainsString( "ucfirst( \$key )", $widget );
+	}
+
+	/**
 	 * Stats exposes a numeric count target and a reduced-motion-gated count-up.
 	 */
 	public function test_stats_count_up(): void {
