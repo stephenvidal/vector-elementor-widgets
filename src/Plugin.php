@@ -304,6 +304,7 @@ final class Plugin {
 		$assets->register_style( 'vew-faq', 'widgets/Faq/faq.css' );
 		$assets->register_script( 'vew-faq', 'widgets/Faq/faq.js' );
 		$assets->register_style( 'vew-portfolio-index', 'widgets/PortfolioIndex/vew-portfolio-index.css' );
+		$assets->register_script( 'vew-portfolio-index', 'widgets/PortfolioIndex/vew-portfolio-index.js' );
 		$assets->register_style( 'vew-timeline', 'widgets/Timeline/vew-timeline.css' );
 		$assets->register_style( 'vew-before-after', 'widgets/BeforeAfter/vew-before-after.css' );
 		$assets->register_script( 'vew-before-after', 'widgets/BeforeAfter/vew-before-after.js' );

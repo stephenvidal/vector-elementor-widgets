@@ -77,6 +77,18 @@ final class PortfolioIndexContentControls {
 			)
 		);
 
+		$widget->add_control(
+			'visible',
+			array(
+				'label'       => __( 'Visible before "Load more"', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::NUMBER,
+				'default'     => 6,
+				'min'         => 1,
+				'max'         => 24,
+				'description' => __( 'Cards shown before the "Load more" button reveals the rest (keeps bandwidth bounded).', 'vector-elementor-widgets' ),
+			)
+		);
+
 		$widget->end_controls_section();
 	}
 }

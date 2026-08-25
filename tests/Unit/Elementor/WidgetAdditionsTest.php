@@ -152,21 +152,30 @@ final class WidgetAdditionsTest extends TestCase {
 	}
 
 	/**
-	 * PortfolioIndex queries factory-tagged pages and renders a kit swatch per card.
+	 * PortfolioIndex queries factory-tagged pages, renders previews, and gates behind "Load more".
 	 */
 	public function test_portfolio_index_queries_factory_sites(): void {
 		$widget = $this->source( 'src/Elementor/Widget/PortfolioIndex.php' );
 		$css    = $this->source( 'widgets/PortfolioIndex/vew-portfolio-index.css' );
+		$js     = $this->source( 'widgets/PortfolioIndex/vew-portfolio-index.js' );
 
 		// Queries pages tagged _vew_factory_site.
 		$this->assertStringContainsString( "'_vew_factory_site'", $widget );
 		$this->assertStringContainsString( 'meta_key', $widget );
-		// Reads the per-site kit for a brand swatch.
+		// Reads the per-site kit for a brand swatch and a preview screenshot.
 		$this->assertStringContainsString( '_vew_site_kit', $widget );
-		$this->assertStringContainsString( 'vew-portfolio-index__swatch', $widget );
-		// Responsive grid columns.
+		$this->assertStringContainsString( '_portfolio_preview', $widget );
+		$this->assertStringContainsString( 'vew-portfolio-index__preview', $widget );
+		// Responsive grid columns + lazy loading.
 		$this->assertStringContainsString( 'vew-portfolio-index__grid', $css );
 		$this->assertStringContainsString( 'grid-template-columns', $css );
+		$this->assertStringContainsString( 'loading="lazy"', $widget );
+		// Load-more gating: hidden cards collapsed, JS reveals them.
+		$this->assertStringContainsString( 'vew-portfolio-index__card--hidden', $widget );
+		$this->assertStringContainsString( 'vew-portfolio-index__card--hidden', $css );
+		$this->assertStringContainsString( 'data-vew-portfolio-more', $widget );
+		$this->assertStringContainsString( 'classList.remove', $js );
+		$this->assertStringContainsString( "get_script_depends", $widget );
 	}
 
 	/**
