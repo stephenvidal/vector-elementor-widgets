@@ -1,0 +1,241 @@
+{
+  "title": "Neon Forge — Indie App Studio",
+  "slug": "indie-app-studio",
+  "kit": "indie-app-studio",
+  "containers": [
+    {
+      "id": "nf-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "NEON FORGE",
+            "brand_tag": "INDIE APP STUDIO",
+            "cta_text": "Work with us",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Work", "url": { "url": "#work" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "The team", "url": { "url": "#team" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-24.png", "id": 0 },
+            "eyebrow": "Independent app studio · Est. 2019",
+            "headline": "Small studio. Big ideas.<br><em>Shipped to your pocket.</em>",
+            "copy": "Neon Forge is an independent app studio crafting focused, beautifully-built mobile and desktop apps — one product at a time, with the care only a small team can give.",
+            "primary_cta_text": "See our work",
+            "primary_cta_url": { "url": "#work" },
+            "secondary_cta_text": "Work with us",
+            "secondary_cta_url": { "url": "#contact" },
+            "trust_list": [
+              { "text": "A studio, not an agency — no account managers" },
+              { "text": "Every app designed and built in-house" },
+              { "text": "Products used by 2M+ people worldwide" },
+              { "text": "We ship, then we keep improving" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The studio in numbers",
+            "title": "Small team,",
+            "title_accent": "serious output",
+            "stats": [
+              { "value": "2M+", "label": "Downloads across our apps" },
+              { "value": "14", "label": "Apps shipped since 2019" },
+              { "value": "4.8", "label": "Average App Store rating" },
+              { "value": "6", "label": "People, all hands-on" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we build",
+            "title": "Focused apps for",
+            "title_accent": "real problems",
+            "intro": "We don't chase trends. We pick a problem we care about and build the best possible answer to it — then we keep refining it for years.",
+            "features": [
+              { "number": "01", "title": "Product design", "text": "We start with the why. Research, flows, and prototypes that make sure we build the right thing before we build it beautifully.", "detail": "Design" },
+              { "number": "02", "title": "Native engineering", "text": "Swift and Kotlin, done properly. Fast, offline-first, and accessible — the way a native app should feel.", "detail": "Engineering" },
+              { "number": "03", "title": "Desktop & web", "text": "From macOS utilities to web apps, we bring the same craft to every screen your product lives on.", "detail": "Cross-platform" },
+              { "number": "04", "title": "Long-term care", "text": "Shipping is the start, not the finish. We maintain, update, and improve our apps for years after launch.", "detail": "Support" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From spark to",
+            "title_accent": "shipped app",
+            "steps": [
+              { "title": "Discover", "text": "We dig into the problem, the people, and the market. A clear brief beats a clever guess every time." },
+              { "title": "Design", "text": "Flows, wireframes, and a polished visual direction. You see the product take shape before a line of code." },
+              { "title": "Build", "text": "Tight, iterative sprints. We ship a working build early and refine it with real feedback, not assumptions." },
+              { "title": "Launch & grow", "text": "App Store, marketing, and a roadmap. We stay on after launch to keep the product sharp and the users happy." }
+            ],
+            "note": "Most projects go from brief to a live beta in 8–12 weeks. We keep the team small so decisions are fast and the quality stays high."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Recent work",
+            "title": "Apps we're",
+            "title_accent": "proud of",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-24.png", "id": 0 }, "label": "A productivity app we shipped", "alt": "A clean app interface with purple accents on a dark background" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-24.png", "id": 0 }, "label": "Designing in the studio", "alt": "A designer working on a mobile app interface" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-24.png", "id": 0 }, "label": "The finished product", "alt": "A polished mobile app on a smartphone screen" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-video",
+      "content_width": "full",
+      "settings": { "_element_id": "video" },
+      "widgets": [
+        {
+          "type": "vew-video-embed",
+          "settings": {
+            "eyebrow": "Inside the studio",
+            "title": "How we",
+            "title_accent": "make things",
+            "video_url": { "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
+            "autoplay": "",
+            "controls": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-team",
+      "content_width": "full",
+      "settings": { "_element_id": "team" },
+      "widgets": [
+        {
+          "type": "vew-team-grid",
+          "settings": {
+            "eyebrow": "The people",
+            "title": "Six people,",
+            "title_accent": "one craft",
+            "intro": "No freelancers, no outsourcing. Everyone you meet is a full-time part of the studio.",
+            "columns": "3",
+            "members": [
+              { "name": "Mara Voss", "role": "Founder & Product Lead", "bio": "Started Neon Forge in her garage with one app and a stubborn belief that software can feel personal again.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Theo Lindgren", "role": "Lead iOS Engineer", "bio": "Swift specialist who sweats the details — haptics, transitions, and the moments most people never notice.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Priya Raman", "role": "Design Director", "bio": "Turns complex problems into interfaces that feel obvious. Believes restraint is the highest form of design.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Jon Bell", "role": "Android Engineer", "bio": "Kotlin and Material, done right. Keeps our Android apps as polished as our iOS ones.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Sofia Marchetti", "role": "Product Manager", "bio": "The bridge between ideas and execution. Keeps the roadmap honest and the launches on time.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Dmitri Volkov", "role": "Backend & Web", "bio": "Builds the services and web apps that power our products. Quietly keeps everything running.", "twitter": { "url": "" }, "linkedin": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Have an idea?",
+            "title_accent": "Let's talk",
+            "intro": "Whether you want to work with us or just say hello, we'd love to hear from you. We reply to every message.",
+            "phone": "(555) 031-8800",
+            "email": "hello@neonforge.app",
+            "location": "Studio 4 · 21 Foundry Lane",
+            "form_kicker": "Send us a note",
+            "form_title": "We'll get back to you",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nf-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "NEON FORGE",
+            "brand_tag": "INDIE APP STUDIO",
+            "blurb": "An independent app studio crafting focused, beautifully-built mobile and desktop apps — one product at a time.",
+            "copyright": "© Neon Forge — indie app studio",
+            "columns": [
+              {
+                "heading": "Studio",
+                "links": [
+                  { "text": "Our work", "url": { "url": "#work" } },
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "The team", "url": { "url": "#team" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Our apps", "url": { "url": "#gallery" } },
+                  { "text": "Inside the studio", "url": { "url": "#video" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
