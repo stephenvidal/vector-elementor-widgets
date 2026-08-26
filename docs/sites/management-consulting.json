@@ -1,0 +1,273 @@
+{
+  "title": "Meridian & Co. — Management Consultancy",
+  "slug": "management-consulting",
+  "kit": "management-consulting",
+  "containers": [
+    {
+      "id": "mc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "MERIDIAN & CO.",
+            "brand_tag": "MANAGEMENT CONSULTANCY",
+            "cta_text": "Book a diagnostic",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Practices", "url": { "url": "#practices" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "The team", "url": { "url": "#team" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-15.png", "id": 374 },
+            "eyebrow": "Management consultancy for decisive leadership",
+            "headline": "Clarity for hard decisions.<br><em>Results you can measure.</em>",
+            "copy": "Meridian & Co. partners with leadership teams to cut through complexity — diagnosing the real problem, designing a strategy your people can execute, and staying on the line until the numbers move.",
+            "primary_cta_text": "Book a diagnostic",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Partner-led engagements" },
+              { "text": "Sector-specific senior teams" },
+              { "text": "Success measured on your KPIs" },
+              { "text": "No dependency on our tooling" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The scoreboard",
+            "title": "Where our clients land,",
+            "title_accent": "in numbers",
+            "stats": [
+              { "value": "18+", "label": "Years guiding leadership teams" },
+              { "value": "140+", "label": "Engagements delivered" },
+              { "value": "$2.1B", "label": "In client value realized" },
+              { "value": "92%", "label": "Clients who re-engage within two years" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-practices",
+      "content_width": "full",
+      "settings": { "_element_id": "practices" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Focused practices for",
+            "title_accent": "real-world problems",
+            "intro": "Three practices, one way of working: diagnose the facts, design the path, and drive delivery until the outcome holds.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Strategy" },
+              { "key": "build", "label": "Operations" },
+              { "key": "launch", "label": "Transformation" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Corporate strategy", "text": "Market position, portfolio choices, and the growth math behind them. We help you pick the bets worth making." },
+              { "icon": "◈", "title": "Commercial due diligence", "text": "Rigorous, independent assessment of a market, a competitor, or an acquisition target before you commit capital." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Operating-model design", "text": "Org structure, roles, and decision rights aligned to the strategy — so the org chart stops fighting the plan." },
+              { "icon": "⚑", "title": "Cost & margin programs", "text": "Find the waste that's quietly eroding margin, protect what matters, and build durable cost discipline." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "M&A integration", "text": "Two companies, one direction. We run the integration plan so the deal's value actually shows up on your P&L." },
+              { "icon": "✦", "title": "Transformation office", "text": "A standing program office that keeps multi-year change on track, on budget, and on message." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A calm, evidence-based",
+            "title_accent": "four-step method",
+            "steps": [
+              { "title": "Diagnose", "text": "We spend time in the business — on the floor, in the data, with the people closest to the problem — to define it precisely. No off-the-shelf answer." },
+              { "title": "Design", "text": "A pragmatic plan with options, trade-offs, and a clear recommendation. You decide; we give you the facts to decide well." },
+              { "title": "Deliver", "text": "We work alongside your teams, not around them, building capability as we go. Our people sit next to yours through execution." },
+              { "title": "Prove", "text": "We measure against the KPIs you care about and stay through the first reporting cycle — because a plan that isn't measured is a guess." }
+            ],
+            "note": "Most engagements run 8–16 weeks. You'll always know the scope, the team, and the price before we start."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-team",
+      "content_width": "full",
+      "settings": { "_element_id": "team" },
+      "widgets": [
+        {
+          "type": "vew-team-grid",
+          "settings": {
+            "eyebrow": "The people",
+            "title": "Senior partners,",
+            "title_accent": "hands-on",
+            "intro": "No bait-and-switch staffing. The partners who sell the work are the ones in the room doing it.",
+            "columns": "3",
+            "members": [
+              { "name": "Ava Delacroix", "role": "Managing Partner", "bio": "Leads our corporate strategy practice. Former CFO with two decades across industrials and professional services.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Jonas Reyes", "role": "Partner, Operations", "bio": "Rebuilds operating models and cost structures for mid-market manufacturers. Keeps his own plant-floor boots dirty.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Mira Lindqvist", "role": "Partner, Transformation", "bio": "Runs M&A integration and transformation offices. Calm under pressure, allergic to decks that don't change behavior.", "twitter": { "url": "" }, "linkedin": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client words",
+            "title": "Quiet confidence,",
+            "title_accent": "loud results",
+            "intro": "What leadership teams say after a Meridian & Co. engagement.",
+            "reviews": [
+              { "quote": "Meridian found the margin leak our own finance team had missed for three quarters. Within a year we'd recovered it and then some.", "author": "Daniel Okafor", "role": "CEO, mid-market manufacturer", "stars": 5 },
+              { "quote": "They didn't hand us a deck and disappear. They sat with our plant managers, rebuilt the operating model, and stayed until it held.", "author": "Elena Marsh", "role": "COO, industrial distributor", "stars": 5 },
+              { "quote": "The M&A integration ran on time and under budget — something nobody in our sector expected. Their team was the difference.", "author": "Marcus Feld", "role": "CFO, post-integration", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Before we start,",
+            "title_accent": "honest answers",
+            "intro": "The questions leaders ask most often before engaging us.",
+            "items": [
+              { "question": "How is Meridian & Co. different from a Big Four firm?", "answer": "You get senior partners doing the actual work, a smaller engaged team, and fees that reflect the scope — not a brand tax. We take fewer clients so we can commit to the ones we take." },
+              { "question": "Who actually does the work on my engagement?", "answer": "The partners who sell the engagement lead it, supported by a small senior team. We deliberately avoid the leverage model that staffs juniors on your problem." },
+              { "question": "How long does a typical engagement run?", "answer": "Most run 8–16 weeks, but every scope is set in writing before we start. You'll always know the timeline, the team, and the fee upfront." },
+              { "question": "What if we can't afford the full engagement?", "answer": "We scope down honestly. A focused diagnostic or a single-practice engagement often delivers most of the value at a fraction of the cost." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-cta",
+      "content_width": "full",
+      "settings": { "_element_id": "get-started" },
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "The problem is probably more precise than it feels.",
+            "description": "Book a no-obligation diagnostic call with a partner. You'll leave with a clearer view of the issue — whether or not we work together.",
+            "primary_text": "Book a diagnostic",
+            "primary_url": { "url": "#contact" },
+            "secondary_text": "Read our approach",
+            "secondary_url": { "url": "#how" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "Let's find the real problem",
+            "intro": "Book a no-obligation diagnostic call with a partner. You'll leave with a clearer view of the issue — whether or not we work together.",
+            "phone": "(555) 019-4400",
+            "email": "partner@meridianco.com",
+            "location": "One Meridian Plaza · By appointment",
+            "form_kicker": "Book a diagnostic",
+            "form_title": "Start the conversation",
+            "submit_cta": "Request a call"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "MERIDIAN & CO.",
+            "brand_tag": "MANAGEMENT CONSULTANCY",
+            "blurb": "A senior-led management consultancy that turns ambiguity into strategy and strategy into measured outcomes.",
+            "copyright": "© Meridian & Co. — management consultancy",
+            "columns": [
+              {
+                "heading": "Practices",
+                "links": [
+                  { "text": "Strategy", "url": { "url": "#practices" } },
+                  { "text": "Operations", "url": { "url": "#practices" } },
+                  { "text": "Transformation", "url": { "url": "#practices" } },
+                  { "text": "How we work", "url": { "url": "#how" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "The team", "url": { "url": "#team" } },
+                  { "text": "Client words", "url": { "url": "#reviews" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
