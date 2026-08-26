@@ -1,0 +1,247 @@
+{
+  "title": "Ember & Grain Brewing — Independent Brewery",
+  "slug": "craft-brewery",
+  "kit": "craft-brewery",
+  "containers": [
+    {
+      "id": "eb-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "EMBER & GRAIN",
+            "brand_tag": "BREWERY & TAPROOM",
+            "cta_text": "Book a tour",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "The Brewery", "url": { "url": "#brewery" } },
+              { "text": "The Taps", "url": { "url": "#taps" } },
+              { "text": "Our Story", "url": { "url": "#story" } },
+              { "text": "Gallery", "url": { "url": "#gallery" } },
+              { "text": "Visit", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-29.png", "id": 0 },
+            "eyebrow": "Independent brewery & taproom · Mill River waterfront",
+            "headline": "Beer made the slow way,<br><em>poured fresh at the source.</em>",
+            "copy": "Ember & Grain is an independent brewery and taproom on the riverfront — small-batch ales and lagers brewed with local grain, poured a few feet from the tanks that made them.",
+            "primary_cta_text": "Browse the taps",
+            "primary_cta_url": { "url": "#taps" },
+            "secondary_cta_text": "Book a tour",
+            "secondary_cta_url": { "url": "#contact" },
+            "trust_list": [
+              { "text": "Brewed, fermented, and poured on-site" },
+              { "text": "Local heritage grain from farms within 60 miles" },
+              { "text": "12 taps rotating, always something new" },
+              { "text": "Small-batch, nothing shipped off for mass canning" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The brewhouse in numbers",
+            "title": "A decade of",
+            "title_accent": "slow, honest beer",
+            "stats": [
+              { "value": "12", "label": "Taps rotating through the taproom" },
+              { "value": "11", "label": "Years brewing on this riverfront block" },
+              { "value": "60mi", "label": "From our door to the farms that grow our grain" },
+              { "value": "28", "label": "Medals from regional and national competitions" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "brewery" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What Ember & Grain is known for",
+            "title": "Small batches,",
+            "title_accent": "big intentions",
+            "intro": "We didn't build the biggest brewery in the region — we built the one that cares most about every pint that leaves it. Here's what that means in practice.",
+            "features": [
+              { "number": "01", "title": "Riverfront brewhouse & taproom", "text": "An oak, brick, and steel space on the Mill River with a glass wall onto the tanks — you watch the next batch while you drink the last one.", "detail": "Tanks visible from every seat" },
+              { "number": "02", "title": "Local heritage grain", "text": "We malt barley grown within sixty miles, and we buy each season's harvest before it's planted. Fresher grain, truer flavor, and a reason to stay local.", "detail": "Farms within a 60-mile radius" },
+              { "number": "03", "title": "Open fermentation", "text": "Our saisons and wild ales ferment in open vessels, letting the yeast and the riverside air do their work — a living process you can smell before you taste.", "detail": "Unfiltered, unfined, alive" },
+              { "number": "04", "title": "Barrel program", "text": "Old wine and spirits barrels from the region rest in our cellar for one to three years, turning simple stouts and sours into layered, ageable beers.", "detail": "One-to-three year cellar rests" },
+              { "number": "05", "title": "Seasonal small-batch runs", "text": "When a farm brings in something interesting — a new hop, an heirloom wheat — we brew it. Limited runs that vanish in a weekend and never come back the same.", "detail": "Limited releases, gone fast" },
+              { "number": "06", "title": "The tasting room", "text": "A cozy room off the taproom for flights, cheese boards, and the stories behind each beer. It's where regulars and first-timers end up talking.", "detail": "Flights, boards, and brewers' talks" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-taps",
+      "content_width": "full",
+      "settings": { "_element_id": "taps" },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "On the taps this week",
+            "title": "Pouring",
+            "title_accent": "fresh from the tanks",
+            "intro": "A snapshot of the current lineup. The list rotates as batches finish — if it's gone when you arrive, ask what's next in the tank.",
+            "items": [
+              { "name": "Riverbend Pale Ale", "description": "Our flagship — bright citrus and pine from Cascade and Amarillo, a firm cracker malt body, and a dry, clean finish.", "price": "$7", "tag": "Flagship" },
+              { "name": "Grain & Ember Stout", "description": "Roasted barley, dark chocolate, and a whisper of smoked malt from our own kiln. Rich but surprisingly easy-drinking at 6.2%.", "price": "$8", "tag": "Barrel-aged" },
+              { "name": "Mill River Saison", "description": "Open-fermented with a touch of our house wild yeast. Peppery, slightly funky, with a soft golden haze and a bone-dry ending.", "price": "$8", "tag": "Open-ferment" },
+              { "name": "Harvest Wheat", "description": "Brewed with this season's heirloom wheat and a little orange zest. A hazy, refreshing summer pour at 4.8%.", "price": "$7", "tag": "Seasonal" },
+              { "name": "Cellar Door Barleywine", "description": "A year in bourbon barrels — toffee, vanilla, and dark fruit with a smooth, warming backbone. One to sip slowly.", "price": "$12", "tag": "Cellar" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-story",
+      "content_width": "full",
+      "settings": { "_element_id": "story" },
+      "widgets": [
+        {
+          "type": "vew-timeline",
+          "settings": {
+            "eyebrow": "How we got here",
+            "title": "From homebrew kit to",
+            "title_accent": "riverfront brewery",
+            "intro": "A decade of grain, fire, and patience.",
+            "orientation": "alternating",
+            "events": [
+              { "year": "2015", "title": "A stubborn homebrewer", "text": "Founder Marta Vale wins her third local homebrew competition with a saison made from her grandmother's grain plot. She starts planning something bigger.", "link": { "url": "" } },
+              { "year": "2017", "title": "The riverfront found", "text": "An abandoned wool mill on the Mill River — open brick, heavy timber, and enough room for a real brewhouse. Marta and two friends sign the lease.", "link": { "url": "" } },
+              { "year": "2019", "title": "First pint poured", "text": "After eighteen months of building and a brutal first winter, the taproom opens with three beers and a line around the block. The pale ale sells out by nightfall.", "link": { "url": "" } },
+              { "year": "2022", "title": "Barrel program begins", "text": "The cellar fills with regional wine and spirits barrels. Our first barleywine wins gold at the regional championships and sells out in a week.", "link": { "url": "" } },
+              { "year": "2024", "title": "The farm partnership", "text": "We formalize grain contracts with seven farms within sixty miles. Every beer brewed since carries a harvest year and a farm's name.", "link": { "url": "" } },
+              { "year": "2026", "title": "A decade on the river", "text": "Twenty-eight medals, a loyal taproom, and a rotating lineup that still surprises us. Here's to the next batch.", "link": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the brewhouse",
+            "title": "Where the",
+            "title_accent": "beer is born",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-29.png", "id": 0 }, "label": "The copper mash tun mid-brew", "alt": "Steam rising from a copper mash tun in the brewhouse" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-29.png", "id": 0 }, "label": "Pints at the riverfront taproom bar", "alt": "Freshly poured pints lined up on an oak taproom bar" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-29.png", "id": 0 }, "label": "Barrels resting in the cellar", "alt": "A cellar of aging barrels stacked in the darkness" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What our regulars say",
+            "title": "Pour after",
+            "title_accent": "pour",
+            "intro": "The taproom is full of regulars who'd rather argue about beer than about much else.",
+            "reviews": [
+              { "quote": "I've been coming every Friday since they opened. The lineup changes so often there's always something new, and the staff actually know what they're talking about — not just pouring, but the story behind the tank.", "author": "Dana Whitfield", "role": "Taproom regular", "stars": 5 },
+              { "quote": "Their saison is the reason I started homebrewing. I drove ninety minutes just to try the open-ferment release, and it was worth every mile. This is what craft beer should be.", "author": "Tom Osei", "role": "Homebrewer", "stars": 5 },
+              { "quote": "We held our engagement party in the tasting room. They built a bespoke barrel-aged stout for the toasts. Our guests are still talking about it months later.", "author": "Renee & Sam", "role": "Engagement party, 2025", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Come taste the river",
+            "title": "Find us on the Mill River",
+            "intro": "Drop by for a flight, book a brewery tour, or ask about private events in the tasting room. We'd love to pour you something you haven't tried before.",
+            "phone": "(555) 314-0928",
+            "email": "hello@emberandgrain.com",
+            "location": "14 Mill River Road · Emberton",
+            "form_kicker": "Book a tour",
+            "form_title": "Taste the lineup",
+            "submit_cta": "Reserve my spot"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "EMBER & GRAIN",
+            "brand_tag": "BREWERY & TAPROOM",
+            "blurb": "An independent brewery and taproom on the Mill River — small-batch ales and lagers brewed with local grain, poured a few feet from the tanks that made them.",
+            "copyright": "© Ember & Grain Brewing Co.",
+            "columns": [
+              {
+                "heading": "The Brewery",
+                "links": [
+                  { "text": "What we brew", "url": { "url": "#brewery" } },
+                  { "text": "The taps", "url": { "url": "#taps" } },
+                  { "text": "Our story", "url": { "url": "#story" } },
+                  { "text": "Gallery", "url": { "url": "#gallery" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Our regulars", "url": { "url": "#reviews" } },
+                  { "text": "Book a tour", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
