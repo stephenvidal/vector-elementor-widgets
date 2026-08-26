@@ -1,0 +1,245 @@
+{
+  "title": "Field & Frame Architects — Architecture Studio",
+  "slug": "architecture-firm",
+  "kit": "architecture-firm",
+  "containers": [
+    {
+      "id": "af-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "FIELD & FRAME",
+            "brand_tag": "ARCHITECTURE",
+            "cta_text": "Start a project",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Approach", "url": { "url": "#approach" } },
+              { "text": "Process", "url": { "url": "#process" } },
+              { "text": "Work", "url": { "url": "#work" } },
+              { "text": "Reuse", "url": { "url": "#reuse" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-31.png", "id": 461 },
+            "eyebrow": "Architecture studio · Boston to the Hudson",
+            "headline": "We build places that<br><em>earn their skyline.</em>",
+            "copy": "Field & Frame is an architecture studio designing civic buildings, workplaces, and homes that balance light, material, and the life that moves through them — from first sketch to final key.",
+            "primary_cta_text": "Start a project",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See our work",
+            "secondary_cta_url": { "url": "#work" },
+            "trust_list": [
+              { "text": "Full service: concept through construction administration" },
+              { "text": "30 years of civic, workplace, and residential work" },
+              { "text": "Carbon-conscious material and energy strategy" },
+              { "text": "Licensed in six states and growing" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The studio in numbers",
+            "title": "Three decades of",
+            "title_accent": "built trust",
+            "stats": [
+              { "value": "30", "label": "Years practicing architecture" },
+              { "value": "240", "label": "Structures completed and occupied" },
+              { "value": "18", "label": "Design awards and citations" },
+              { "value": "92%", "label": "Of clients come back or refer us" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-approach",
+      "content_width": "full",
+      "settings": { "_element_id": "approach" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "How we approach every project",
+            "title": "Design that",
+            "title_accent": "holds up to daylight",
+            "intro": "We don't chase trends. We design for how a building is actually used — the morning light in a classroom, the sound in a lobby, the way a corridor guides two people toward a conversation.",
+            "features": [
+              { "number": "01", "title": "Site-first thinking", "text": "We read the land before we draw on it — sun angles, prevailing wind, the neighbor's roofline, the history of the street. The site is the first client.", "detail": "Every scheme begins with a site study" },
+              { "number": "02", "title": "Material honesty", "text": "Brick, timber, stone, and steel used for what they are. We avoid cladding that pretends to be structure and choose materials that age gracefully rather than peel.", "detail": "Materials chosen to age, not expire" },
+              { "number": "03", "title": "Light as a structural material", "text": "A room is a machine for shaping daylight. We place openings to bring the low winter sun deep inside and cut glare before it becomes a problem.", "detail": "Sun studies on every facade" },
+              { "number": "04", "title": "Carbon-conscious by default", "text": "We model embodied carbon on every project and favor reuse, low-carbon concrete, and timber where it's honest. Sustainability isn't a badge here — it's the default.", "detail": "Embodied-carbon modeling on every project" },
+              { "number": "05", "title": "Built for real budgets", "text": "We cost our designs with real contractors, not guesswork. The building you approve in the render is the building that shows up on site — and on budget.", "detail": "Real-numbers estimating from day one" },
+              { "number": "06", "title": "We stay through construction", "text": "Our architects run construction administration ourselves. When a detail meets a difficult condition on site, we're there to resolve it, not to hand it off.", "detail": "In-house construction administration" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How a project comes together",
+            "title": "From blank site to",
+            "title_accent": "final key",
+            "intro": "A disciplined, honest path from first conversation to completed structure.",
+            "steps": [
+              { "title": "Listen", "text": "We start with your program and your land — how you live or work, what the site gives you, and what you've learned from buildings that fell short." },
+              { "title": "Study", "text": "We test the site with sun, wind, and circulation studies, and sketch three directions before we ever settle on one worth drawing well." },
+              { "title": "Design", "text": "The chosen scheme becomes a full set of drawings and a real model — plans, sections, and a budget you can actually hold us to." },
+              { "title": "Refine", "text": "You live with the design through a few honest rounds. We refine materials, daylight, and cost together until it's right, not just finished." },
+              { "title": "Build", "text": "We produce construction documents, help you choose a contractor, and run construction administration to keep the intent intact through the last nail." }
+            ],
+            "note": "Most of our work arrives as a referral from a client who says the same thing: the building felt right the day they moved in — and still does years later."
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "A few of our places",
+            "title": "Buildings we're",
+            "title_accent": "proud to return to",
+            "intro": "Civic, workplace, and residential projects across the region.",
+            "gallery_style": "editorial",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-31.png", "id": 461 }, "label": "The Meridian Public Library reading room", "alt": "Sunlit reading room with a curved timber ceiling and full-height glazing" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-31.png", "id": 461 }, "label": "Fieldstone House courtyard home", "alt": "A timber and stone courtyard home with a shallow reflecting pool" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-31.png", "id": 461 }, "label": "Civic tower lobby at golden hour", "alt": "A warm stone and brass lobby washed in low evening light" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-reuse",
+      "content_width": "full",
+      "settings": { "_element_id": "reuse" },
+      "widgets": [
+        {
+          "type": "vew-before-after",
+          "settings": {
+            "eyebrow": "Adaptive reuse",
+            "title": "A warehouse, brought",
+            "title_accent": "back to life",
+            "intro": "Drag the slider to see the transformation of the North Block — a derelict textile mill reborn as a mixed-use maker space and studio. We kept the heavy timber and brick, and gave it new lungs.",
+            "before_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/before-1.png", "id": 460 },
+            "before_label": "2021 · derelict mill",
+            "after_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-31.png", "id": 461 },
+            "after_label": "2024 · maker space",
+            "orientation": "horizontal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-clients",
+      "content_width": "full",
+      "settings": { "_element_id": "clients" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What our clients say",
+            "title": "Trusted with",
+            "title_accent": "the things that last",
+            "intro": "A building committee is the hardest client in architecture — and one of our favorites.",
+            "reviews": [
+              { "quote": "They found budget headroom we didn't think existed and poured it into daylight. Our librarians say the reading room gets busier every year, and I believe it's the room itself doing the work.", "author": "Elena Vasquez", "role": "City Library Board", "stars": 5 },
+              { "quote": "Field & Frame costed our renovation honestly from the first meeting. Nothing came as a surprise at the end, and the building is everything the model promised — that almost never happens.", "author": "Marcus Hale", "role": "Developer, North Block", "stars": 5 },
+              { "quote": "We've built three homes with them. The first one taught us what 'light' could mean; by the third we stopped asking for anything and just described how we wanted to live.", "author": "Priya & Jonah", "role": "Residential clients", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Start the conversation",
+            "title": "Let's talk about your site",
+            "intro": "Whether you're planning a new civic building, a workplace, or a home, we'd love to walk the land with you first. Initial consultations are free and without obligation.",
+            "phone": "(555) 482-6610",
+            "email": "studio@fieldandframe.com",
+            "location": "18 Foundry Row · North District",
+            "form_kicker": "Project inquiry",
+            "form_title": "Tell us about the place you're dreaming of",
+            "submit_cta": "Request a consultation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "af-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "FIELD & FRAME",
+            "brand_tag": "ARCHITECTURE",
+            "blurb": "An architecture studio designing civic buildings, workplaces, and homes that balance light, material, and the life that moves through them — from first sketch to final key.",
+            "copyright": "© Field & Frame Architects",
+            "columns": [
+              {
+                "heading": "Studio",
+                "links": [
+                  { "text": "Our approach", "url": { "url": "#approach" } },
+                  { "text": "The process", "url": { "url": "#process" } },
+                  { "text": "Selected work", "url": { "url": "#work" } },
+                  { "text": "Adaptive reuse", "url": { "url": "#reuse" } }
+                ]
+              },
+              {
+                "heading": "Engage",
+                "links": [
+                  { "text": "Client voices", "url": { "url": "#clients" } },
+                  { "text": "Start a project", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
