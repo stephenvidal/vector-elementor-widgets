@@ -1,0 +1,215 @@
+{
+  "title": "The Main Branch — Developer Conference",
+  "slug": "tech-conference",
+  "kit": "tech-conference",
+  "containers": [
+    {
+      "id": "tc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE MAIN",
+            "brand_tag": "BRANCH",
+            "cta_text": "Get tickets",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "The tracks", "url": { "url": "#talks" } },
+              { "text": "Schedule", "url": { "url": "#schedule" } },
+              { "text": "Tickets", "url": { "url": "#contact" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-34.png", "id": 0 },
+            "eyebrow": "October 12–13 · Harborview Convention Center · 60 speakers",
+            "headline": "Two days of code,<br><em>coffee, and clever ideas.</em>",
+            "copy": "The Main Branch is a two-day developer conference at the Harborview Convention Center — sixty speakers, five tracks, and an after-party that actually lives up to the hype.",
+            "primary_cta_text": "Get tickets",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See the lineup",
+            "secondary_cta_url": { "url": "#talks" },
+            "trust_list": [
+              { "text": "60 speakers across five focused tracks" },
+              { "text": "Workshops with hands-on, keyboard-down labs" },
+              { "text": "Live Q&A with every session's speaker" },
+              { "text": "Catering, coffee, and a serious after-party" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The event in numbers",
+            "title": "A conference that",
+            "title_accent": "adds up",
+            "stats": [
+              { "value": "60", "label": "Speakers from 14 countries" },
+              { "value": "5", "label": "Concurrent tracks, from frontend to infra" },
+              { "value": "1.2k", "label": "Attendees, capped for a real community feel" },
+              { "value": "12", "label": "Hands-on workshops with live coding" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tc-talks",
+      "content_width": "full",
+      "settings": { "_element_id": "talks" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Five tracks",
+            "title": "Something for every",
+            "title_accent": "layer of the stack",
+            "intro": "We keep the tracks tight and the sessions deep. No keynote filler, no vendor theater — just working engineers sharing what actually shipped.",
+            "features": [
+              { "number": "01", "title": "Frontend Foundations", "text": "Component architecture, state that doesn't rot, and the rendering patterns that keep large apps fast on real devices.", "detail": "Track A" },
+              { "number": "02", "title": "Backend & APIs", "text": "Designing services that survive prod. Contracts, observability, and the boring reliability work that lets teams sleep.", "detail": "Track B" },
+              { "number": "03", "title": "Data & ML in Prod", "text": "From training pipeline to serving endpoint. Feature stores, drift detection, and shipping models you can actually trust.", "detail": "Track C" },
+              { "number": "04", "title": "DevOps & Platforms", "text": "Kubernetes without the horror stories, incident reviews that don't blame, and platforms that make developers faster.", "detail": "Track D" },
+              { "number": "05", "title": "Careers & Craft", "text": "Staff-level growth, technical writing, mentoring, and the soft skills that make senior engineers great to work with.", "detail": "Track E" },
+              { "number": "06", "title": "After-Party", "text": "A waterfront rooftop with a DJ, an arcade, and enough food to undo all the conference cardio. The unofficial sixth track.", "detail": "Friday night" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tc-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "countdown" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Early-bird pricing",
+            "title": "Launch tickets",
+            "title_accent": "close in",
+            "end": "2026-09-10 23:59",
+            "expired_text": "Early-bird pricing has ended — full-price tickets are still available until the doors open."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tc-schedule",
+      "content_width": "full",
+      "settings": { "_element_id": "schedule" },
+      "widgets": [
+        {
+          "type": "vew-timeline",
+          "settings": {
+            "eyebrow": "Two days, hour by hour",
+            "title": "From opening keynotes",
+            "title_accent": "to closing drinks",
+            "orientation": "alternating",
+            "events": [
+              { "year": "Day 1", "title": "Keynote & five tracks", "text": "An opening keynote on the craft of building durable software, then five tracks running in parallel all day. Workshops kick off mid-afternoon.", "link": { "url": "" } },
+              { "year": "Night 1", "title": "The After-Party", "text": "Rooftop drinks, an arcade corner, and the best conversations of the conference. No talks, no agenda — just the community.", "link": { "url": "" } },
+              { "year": "Day 2", "title": "Hands-on workshops", "text": "Twelve keyboard-down labs where you build something real with guidance from the speakers. Bring a laptop and an appetite for learning.", "link": { "url": "" } },
+              { "year": "Day 3", "title": "Office hours & open source day", "text": "Speakers hold open office hours; maintainers run contribution sprints on their own projects. Leave having shipped.", "link": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tc-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "From past years",
+            "title": "What attendees",
+            "title_accent": "keep saying",
+            "intro": "We measure success in the hallway conversations, the pull requests opened, and the people who come back every single year.",
+            "reviews": [
+              { "quote": "Best conference I've been to in a decade. Every session was genuinely useful, and I left with two real architecture ideas I shipped the next week.", "author": "A. Novak", "role": "Staff Engineer", "stars": 5 },
+              { "quote": "The workshops are the real draw. I built something I'd been meaning to learn for months, with the author of the library right there to help.", "author": "S. Chen", "role": "Senior Developer", "stars": 5 },
+              { "quote": "No vendor theater, no fluff — just engineers sharing what actually worked. The after-party is a legitimate bonus, not an afterthought.", "author": "T. Mwangi", "role": "Platform Engineer", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Tickets & questions",
+            "title": "Get your pass, or",
+            "title_accent": "just say hello",
+            "intro": "General admission includes all sessions, the workshops, catering, and the after-party. Teams of five or more get a discount — reach out and we'll sort it.",
+            "phone": "(555) 014-2200",
+            "email": "tickets@mainbranch.dev",
+            "location": "The Main Branch · Harborview Convention Center",
+            "form_kicker": "Secure your pass",
+            "form_title": "We'll confirm your spot",
+            "submit_cta": "Request tickets"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE MAIN",
+            "brand_tag": "BRANCH",
+            "blurb": "A two-day developer conference at the Harborview Convention Center — sixty speakers, five tracks, and an after-party that actually lives up to the hype.",
+            "copyright": "© The Main Branch — developer conference",
+            "columns": [
+              {
+                "heading": "The event",
+                "links": [
+                  { "text": "The tracks", "url": { "url": "#talks" } },
+                  { "text": "Schedule", "url": { "url": "#schedule" } },
+                  { "text": "In their words", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Plan your visit",
+                "links": [
+                  { "text": "Tickets", "url": { "url": "#contact" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
