@@ -1,0 +1,243 @@
+{
+  "title": "Brightloop — HR & Payroll Platform",
+  "slug": "hr-platform",
+  "kit": "hr-platform",
+  "containers": [
+    {
+      "id": "hr-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "BRIGHTLOOP",
+            "brand_tag": "HR & PAYROLL",
+            "cta_text": "Start free",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Features", "url": { "url": "#features" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-30.png", "id": 0 },
+            "eyebrow": "HR & payroll · One platform, every people process",
+            "headline": "Payroll, people, and compliance —<br><em>in one calm loop.</em>",
+            "copy": "Brightloop is the HR and payroll platform for teams that'd rather run a company than maintain a spreadsheet. Onboard, pay, and stay compliant in one place — with numbers that reconcile themselves.",
+            "primary_cta_text": "Start a free trial",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how payroll runs",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Payroll runs on time, every time — zero surprises" },
+              { "text": "Automated tax filing in all 50 US states" },
+              { "text": "Onboarding that takes minutes, not weeks" },
+              { "text": "Your people data, exportable anytime" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Brightloop in numbers",
+            "title": "People, paid",
+            "title_accent": "right, every run",
+            "stats": [
+              { "value": "120k+", "label": "Employees paid every pay cycle" },
+              { "value": "2.4s", "label": "Average payroll run — from open to done" },
+              { "value": "99.98%", "label": "On-time tax filings, all 50 states" },
+              { "value": "38%", "label": "Less time your team spends on HR admin" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "features" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What Brightloop does",
+            "title": "Every people process,",
+            "title_accent": "in one quiet place",
+            "intro": "We rebuilt HR from the ground up around a single idea: the work should feel done before you think about it. Here's what that looks like in practice.",
+            "features": [
+              { "number": "01", "title": "Payroll that runs itself", "text": "Set up a pay schedule once. Brightloop calculates wages, deductions, and benefits automatically, and reconciles the books on every single run.", "detail": "Auto-reconciling every cycle" },
+              { "number": "02", "title": "Tax filing, handled", "text": "Federal, state, and local payroll taxes filed on time, everywhere you operate. Brightloop tracks every deadline so nobody has to.", "detail": "Filing in all 50 states" },
+              { "number": "03", "title": "Onboarding in minutes", "text": "Offer letters, tax forms, direct deposit, and policy acknowledgements — sent and collected before the first day, with the paperwork done for you.", "detail": "Self-serve onboarding" },
+              { "number": "04", "title": "Benefits without the binder", "text": "Offer, enroll, and manage health, retirement, and perks in one dashboard. Employees choose; Brightloop syncs the rest.", "detail": "Benefits administration" },
+              { "number": "05", "title": "Time off that approves itself", "text": "Policy-aware PTO that respects your rules, balances automatically, and routes approvals to the right person. No more asking twice.", "detail": "Policy-aware PTO" },
+              { "number": "06", "title": "Compliance on autopilot", "text": "State posting requirements, pay-frequency rules, and wage statements — Brightloop keeps you current, and flags anything that changes.", "detail": "Always-current compliance" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From hire to payday,",
+            "title_accent": "four calm steps",
+            "steps": [
+              { "title": "Set up your team", "text": "Import your people from a spreadsheet, a previous payroll, or invite them yourself. Brightloop fills in what it can as it loads." },
+              { "title": "Run your first payroll", "text": "Pick a schedule, review the numbers, and run. Brightloop computes wages, taxes, and benefits and reconciles the books for you." },
+              { "title": "Let compliance ride", "text": "Tax filings and regulatory updates happen in the background. Brightloop keeps every requirement current without you chasing them." },
+              { "title": "Free your people team", "text": "Redirect hours of admin toward what matters: hiring, developing, and keeping your team. The loop runs itself." }
+            ],
+            "note": "Most teams run their first payroll in under an hour and never look back at a spreadsheet again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-price",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple pricing,",
+            "title_accent": "no per-employee surprises",
+            "intro": "Every plan includes payroll, tax filing, onboarding, and benefits administration. Add seats as you grow — never in advance of needing them.",
+            "plans": [
+              { "plan": "Essential", "price": "$39", "unit": "/ month", "features": [{ "text": "For up to 10 employees" }, { "text": "Full payroll runs & direct deposit" }, { "text": "State & federal tax filing" }, { "text": "Self-serve onboarding" }, { "text": "Email support" }], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Growth", "price": "$69", "unit": "/ month", "featured": "yes", "features": [{ "text": "For up to 50 employees" }, { "text": "Everything in Essential" }, { "text": "Benefits administration" }, { "text": "Time-off & PTO management" }, { "text": "Compliance monitoring" }, { "text": "Priority support" }], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Scale", "price": "$149", "unit": "/ month", "features": [{ "text": "For up to 200 employees" }, { "text": "Everything in Growth" }, { "text": "Advanced HR reporting" }, { "text": "Multi-entity payroll" }, { "text": "Dedicated success manager" }, { "text": "API & integrations" }], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "The answers",
+            "title_accent": "teams ask first",
+            "intro": "The honest questions that come up before a company moves its people-and-payroll to Brightloop.",
+            "items": [
+              { "question": "Is my payroll really filed automatically?", "answer": "Yes. Brightloop prepares and files federal, state, and local payroll taxes on time across all 50 states, and flags anything you need to review before each deadline." },
+              { "question": "Can I import my existing payroll and employee data?", "answer": "Absolutely. Bring your people over from a spreadsheet, your previous payroll, or your HRIS. Brightloop validates and cleans the data as it loads." },
+              { "question": "How long does onboarding take?", "answer": "The average team is running payroll within an hour. Onboarding new hires is self-serve and paperless — they complete their forms before their first day." },
+              { "question": "What happens to our data if we leave?", "answer": "Everything is yours. Export your employees, pay history, and documents anytime. Brightloop never holds your people hostage." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What people teams say",
+            "title": "The payroll loop,",
+            "title_accent": "without the drama",
+            "intro": "Real words from HR and finance teams who stopped dreading payday.",
+            "reviews": [
+              { "quote": "We moved off a clunky HRIS and an accountant's payroll service into Brightloop. Payroll runs in minutes now, and I actually get to spend my day on people instead of paperwork.", "author": "Priya N.", "role": "Head of People, mid-size SaaS", "stars": 5 },
+              { "quote": "The tax filing genuinely sells it. We operate in four states and I used to triple-check every deadline. Brightloop files it all on time and tells me what's done. I've stopped worrying about it entirely.", "author": "Marcus T.", "role": "Finance director", "stars": 5 },
+              { "quote": "Onboarding used to take a week of my coordinator's time. Now new hires fill their forms before they start, and everything lands in the same place. It just feels calm.", "author": "Elena R.", "role": "HR generalist", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Start the loop",
+            "title": "Run payroll the calm way",
+            "intro": "Try Brightloop free, book a 20-minute walkthrough, or ask us anything about moving your team over. We're here to make people-and-pay a non-event.",
+            "phone": "(555) 032-4461",
+            "email": "hello@brightloop.app",
+            "location": "Remote-first · USA",
+            "form_kicker": "Request a demo",
+            "form_title": "Get started with Brightloop",
+            "submit_cta": "Send request"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hr-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "BRIGHTLOOP",
+            "brand_tag": "HR & PAYROLL",
+            "blurb": "The HR and payroll platform for teams who'd rather run a company than maintain a spreadsheet — pay, onboard, and stay compliant in one calm loop.",
+            "copyright": "© Brightloop — HR & payroll",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Features", "url": { "url": "#features" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Reviews", "url": { "url": "#reviews" } },
+                  { "text": "Start free", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
