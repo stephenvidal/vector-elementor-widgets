@@ -1,0 +1,241 @@
+{
+  "title": "Little Wings Foundation — Children's Charity",
+  "slug": "childrens-charity",
+  "kit": "childrens-charity",
+  "containers": [
+    {
+      "id": "lw-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "LITTLE WINGS",
+            "brand_tag": "FOUNDATION",
+            "cta_text": "Give today",
+            "cta_url": { "url": "#give" },
+            "links": [
+              { "text": "Programs", "url": { "url": "#programs" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-32.png", "id": 0 },
+            "eyebrow": "Children's charity · Support, care & opportunity",
+            "headline": "Every child deserves<br><em>a safe place to grow.</em>",
+            "copy": "Little Wings Foundation gives children in need a warm meal, a place to belong, and the chance to dream big — one community at a time.",
+            "primary_cta_text": "Support a child",
+            "primary_cta_url": { "url": "#give" },
+            "secondary_cta_text": "Our programs",
+            "secondary_cta_url": { "url": "#programs" },
+            "trust_list": [
+              { "text": "91¢ of every dollar goes directly to children" },
+              { "text": "Serving 4,800 kids across three states" },
+              { "text": "Fully vetted, child-first programs" },
+              { "text": "Transparent, audited, accountable" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The difference we make",
+            "title": "When a child is",
+            "title_accent": "lifted, everyone rises",
+            "stats": [
+              { "value": "4,800+", "label": "Children supported each year" },
+              { "value": "210k", "label": "Meals served through our programs" },
+              { "value": "640", "label": "Volunteers giving their time and care" },
+              { "value": "38", "label": "Community partners we work beside" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-programs",
+      "content_width": "full",
+      "settings": { "_element_id": "programs" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Three ways we",
+            "title_accent": "help kids thrive",
+            "intro": "Hunger, isolation, and limited opportunity hold children back before they even begin. We meet those needs head-on with programs built around the whole child.",
+            "features": [
+              { "number": "01", "title": "Full Bellies", "text": "Weekend meal packs and after-school suppers that mean no child sits down to homework on an empty stomach. Nutrition isn't a perk — it's the foundation.", "detail": "210k meals a year" },
+              { "number": "02", "title": "Safe Spaces", "text": "After-school and holiday clubs where kids find a warm room, caring adults, and a routine they can count on — a steady anchor in an unsteady world.", "detail": "32 club sites" },
+              { "number": "03", "title": "Big Dreams", "text": "Mentoring, tutoring, and kit grants that turn a child's ambition into a plan — school shoes, art supplies, sports kit, and the belief that the future is theirs.", "detail": "1,100 kids mentored" },
+              { "number": "04", "title": "Family Support", "text": "We don't help a child in isolation. Emergency groceries, clothing, and connection to local services help whole families stand back up together.", "detail": "900 families helped" },
+              { "number": "05", "title": "Holiday Magic", "text": "Summer day trips and festive gifts that give children the childhood moments too many miss out on — the first beach visit, the first wrapped present.", "detail": "Every season, every kid" },
+              { "number": "06", "title": "Community Roots", "text": "We partner with schools, churches, and local businesses so support is woven into the neighborhood — not parachuted in from far away.", "detail": "38 local partners" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How your support lands",
+            "title": "From your gift to",
+            "title_accent": "a child's smile",
+            "note": "Every donation is tracked from the moment it arrives to the moment it's spent, and we publish exactly how it was used. Your care goes where it's promised.",
+            "steps": [
+              { "title": "Give", "text": "A one-off gift or a monthly pledge — whatever fits your season of life. Every amount changes a day." },
+              { "title": "We plan", "text": "Your donation is pooled with others and allocated against our real, current needs — meals this week, kit for term, a club that's short on chairs." },
+              { "title": "It reaches kids", "text": "Funds flow to the programs and families that need them most, delivered by staff and volunteers who know each child by name." },
+              { "title": "You see the impact", "text": "We report back with stories, photos, and honest numbers — so you know the difference you made, not just that you made one." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support Little Wings",
+            "title": "Be the reason a",
+            "title_accent": "child believes again",
+            "quote": "A child who is fed, safe, and believed in will surprise the world. We just help them get to the starting line.",
+            "verse_ref": "— Little Wings Foundation founding note",
+            "cta_text": "Give a child wings",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "In their words",
+            "title": "What your kindness",
+            "title_accent": "makes possible",
+            "intro": "Parents, teachers, and the children themselves on what Little Wings has meant.",
+            "reviews": [
+              { "quote": "The weekend food packs meant my daughter stopped asking if we could afford dinner. That's a weight no child should carry, and you carried it for us.", "author": "M. Okafor", "role": "Parent of a club member", "stars": 5 },
+              { "quote": "I've seen a kid go from hiding in the back of the room to standing at the front to read their story aloud. That didn't happen by accident — it happened because someone believed in them every single week.", "author": "Mrs. D. Ellery", "role": "Teacher & volunteer", "stars": 5 },
+              { "quote": "We give monthly because we can see exactly where it goes. When your charity is that honest, you don't think twice about it.", "author": "H. & J. Whitfield", "role": "Monthly supporters", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions we",
+            "title_accent": "hear often",
+            "intro": "A few answers about how Little Wings works and where your gift goes.",
+            "items": [
+              { "question": "What percentage of donations reaches children directly?", "answer": "91 cents of every dollar goes straight to programs for children and families. The rest covers the essentials of running a charity responsibly — and we publish the breakdown every year." },
+              { "question": "Can I sponsor a specific child?", "answer": "Yes. Our sponsorship program pairs a monthly gift with one named child, so you follow their progress and milestones throughout the year. Most supporters tell us it's the most rewarding giving they've ever done." },
+              { "question": "How do you choose which children and families to support?", "answer": "We work through partner schools, shelters, and community centers that refer families in genuine need. A small, caring team assesses each case individually — no child is turned away if we can help." },
+              { "question": "Can I volunteer?", "answer": "Absolutely. We're always looking for meal-pack helpers, club assistants, and mentors. All volunteers go through a thorough child-safety vetting and training before meeting any child." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Give, volunteer, or",
+            "title_accent": "just ask",
+            "intro": "Whether you want to make a gift, bring your company on board, or spend an afternoon volunteering, we'd love to hear from you.",
+            "phone": "(555) 028-4417",
+            "email": "hello@littlewings.org",
+            "location": "Little Wings House · 14 Meadow Lane",
+            "form_kicker": "Reach the team",
+            "form_title": "We'll point you the right way",
+            "submit_cta": "Send a message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lw-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "LITTLE WINGS",
+            "brand_tag": "FOUNDATION",
+            "blurb": "A children's charity that gives kids in need a warm meal, a place to belong, and the chance to dream big — from first backpack to opening night.",
+            "copyright": "© Little Wings Foundation — children's charity",
+            "columns": [
+              {
+                "heading": "Our work",
+                "links": [
+                  { "text": "Programs", "url": { "url": "#programs" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "In their words", "url": { "url": "#voices" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Give today", "url": { "url": "#give" } },
+                  { "text": "Volunteer", "url": { "url": "#contact" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
