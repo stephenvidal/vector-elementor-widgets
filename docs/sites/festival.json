@@ -1,0 +1,236 @@
+{
+  "title": "Mmmetry — Music Festival",
+  "slug": "festival",
+  "kit": "festival",
+  "containers": [
+    {
+      "id": "mm-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "MMMETRY",
+            "brand_tag": "MUSIC FESTIVAL",
+            "cta_text": "Get tickets",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "The festival", "url": { "url": "#festival" } },
+              { "text": "Lineup", "url": { "url": "#festival" } },
+              { "text": "Schedule", "url": { "url": "#schedule" } },
+              { "text": "Gallery", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-23.png", "id": 0 },
+            "eyebrow": "August 14–16 · Riverfront Rail Yard · 40 artists",
+            "headline": "Three days of sound,<br><em>light, and everything between.</em>",
+            "copy": "Mmmetry is a boutique electronic music festival on the riverfront — three stages, forty artists, and a crowd that came to feel it, not just watch it.",
+            "primary_cta_text": "Get tickets",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See the lineup",
+            "secondary_cta_url": { "url": "#festival" },
+            "trust_list": [
+              { "text": "Three stages, one riverfront rail yard" },
+              { "text": "40 artists across techno, ambient & live modular" },
+              { "text": "Camping + day passes available" },
+              { "text": "All ages until 10pm, 18+ after" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The numbers behind the noise",
+            "title": "A weekend that",
+            "title_accent": "adds up",
+            "stats": [
+              { "value": "40", "label": "Artists across three stages" },
+              { "value": "72h", "label": "Of music, from dusk to last light" },
+              { "value": "12k", "label": "Festival-goers, capped for intimacy" },
+              { "value": "0", "label": "VIP cages — everyone gets the same rail" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-festival",
+      "content_width": "full",
+      "settings": { "_element_id": "festival" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What to expect",
+            "title": "More than a",
+            "title_accent": "lineup",
+            "intro": "We built Mmmetry around the moments between the sets — the ones you'll still be talking about in October.",
+            "features": [
+              { "number": "01", "title": "The Rail Yard stage", "text": "A converted warehouse floor with a Funktion-One rig that hits you in the chest. Headliners close the night here.", "detail": "Main stage" },
+              { "number": "02", "title": "The Boiler Room", "text": "A sweaty, low-ceilinged room for techno and hard-hitting live sets. No phones, no photos — just the music.", "detail": "Intimate stage" },
+              { "number": "03", "title": "The River Deck", "text": "Ambient and downtempo sets as the sun goes down over the water. Bring a blanket, stay for the sunset.", "detail": "Daytime stage" },
+              { "number": "04", "title": "Live modular garden", "text": "An open-air patch bay where artists build sets in real time. Watch the cables, hear the sound evolve.", "detail": "Interactive" },
+              { "number": "05", "title": "The Night Market", "text": "Local food trucks, a record fair, and a repair bench where you can fix your headphones between sets.", "detail": "Food & culture" },
+              { "number": "06", "title": "Camping under the bridge", "text": "A quiet campsite a short walk from the gates, with showers, coffee at dawn, and a place to sleep it off.", "detail": "On-site camping" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "countdown" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "The clock is ticking",
+            "title": "Gates open in",
+            "title_accent": "",
+            "end": "2026-08-14 12:00",
+            "expired_text": "The gates are open — see you at the rail yard."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-schedule",
+      "content_width": "full",
+      "settings": { "_element_id": "schedule" },
+      "widgets": [
+        {
+          "type": "vew-timeline",
+          "settings": {
+            "eyebrow": "The weekend, hour by hour",
+            "title": "From first light",
+            "title_accent": "to last set",
+            "orientation": "alternating",
+            "events": [
+              { "year": "Friday", "title": "Gates open at noon", "text": "The River Deck opens with ambient sets as the first campers roll in. The Boiler Room warms up after dark.", "link": { "url": "" } },
+              { "year": "Saturday", "title": "The long day", "text": "Three stages running back-to-back from noon to 4am. The Rail Yard headliner closes the night under the lights.", "link": { "url": "" } },
+              { "year": "Sunday", "title": "Sunset & wind-down", "text": "Downtempo on the River Deck as the sun drops, then a closing live modular set that runs until the last train.", "link": { "url": "" } },
+              { "year": "Monday", "title": "The afterglow", "text": "A slow morning, a shared breakfast, and the long walk home with ringing ears and a full heart.", "link": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Last year, in frames",
+            "title": "Moments from",
+            "title_accent": "the rail yard",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-23.png", "id": 0 }, "label": "The Rail Yard at night", "alt": "The main stage lit in pink and purple under the warehouse roof" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-23.png", "id": 0 }, "label": "Sunset on the River Deck", "alt": "A crowd watching the sun set over the river from the deck" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-23.png", "id": 0 }, "label": "The Boiler Room", "alt": "A packed low-ceilinged room lit in deep red" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-video",
+      "content_width": "full",
+      "settings": { "_element_id": "video" },
+      "widgets": [
+        {
+          "type": "vew-video-embed",
+          "settings": {
+            "eyebrow": "Watch the aftermovie",
+            "title": "Relive",
+            "title_accent": "last year",
+            "video_url": { "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
+            "autoplay": "",
+            "controls": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Questions, press, or",
+            "title_accent": "volunteering",
+            "intro": "Whether you're a first-timer, a returning regular, or a local business that wants to get involved, we'd love to hear from you.",
+            "phone": "(555) 018-4400",
+            "email": "hello@mmmetry.fest",
+            "location": "Riverfront Rail Yard · 12 Rail Yard Way",
+            "form_kicker": "Send us a note",
+            "form_title": "We'll get back to you",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mm-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "MMMETRY",
+            "brand_tag": "MUSIC FESTIVAL",
+            "blurb": "A boutique electronic music festival on the riverfront — three stages, forty artists, and a crowd that came to feel it, not just watch it.",
+            "copyright": "© Mmmetry — music festival",
+            "columns": [
+              {
+                "heading": "The festival",
+                "links": [
+                  { "text": "What to expect", "url": { "url": "#festival" } },
+                  { "text": "Lineup", "url": { "url": "#lineup" } },
+                  { "text": "Schedule", "url": { "url": "#schedule" } },
+                  { "text": "Gallery", "url": { "url": "#gallery" } }
+                ]
+              },
+              {
+                "heading": "Plan your visit",
+                "links": [
+                  { "text": "Tickets", "url": { "url": "#contact" } },
+                  { "text": "Camping", "url": { "url": "#festival" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
