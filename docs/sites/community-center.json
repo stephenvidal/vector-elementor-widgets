@@ -1,0 +1,250 @@
+{
+  "title": "The Commons — Community Center",
+  "slug": "community-center",
+  "kit": "community-center",
+  "containers": [
+    {
+      "id": "cc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE COMMONS",
+            "brand_tag": "COMMUNITY CENTER",
+            "cta_text": "Get involved",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Programs", "url": { "url": "#programs" } },
+              { "text": "Get involved", "url": { "url": "#involved" } },
+              { "text": "Our story", "url": { "url": "#story" } },
+              { "text": "Support", "url": { "url": "#support" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-16.png", "id": 381 },
+            "eyebrow": "Neighborhood community center · Est. 1962",
+            "headline": "A place that belongs<br><em>to everyone.</em>",
+            "copy": "The Commons is where the neighborhood gathers — to learn, to create, to share a meal, and to look out for each other. Open every day, free to walk in, and built around the people who live here.",
+            "primary_cta_text": "See what's on",
+            "primary_cta_url": { "url": "#programs" },
+            "secondary_cta_text": "Get involved",
+            "secondary_cta_url": { "url": "#involved" },
+            "trust_list": [
+              { "text": "Free & open to all, every day" },
+              { "text": "120+ weekly programs" },
+              { "text": "A kitchen that never turns anyone away" },
+              { "text": "Run with the community, for the community" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The heartbeat of the block",
+            "title": "What happens in a year",
+            "title_accent": "at The Commons",
+            "stats": [
+              { "value": "38k", "label": "Neighbors served last year" },
+              { "value": "120+", "label": "Weekly classes & programs" },
+              { "value": "60k", "label": "Meals shared in the kitchen" },
+              { "value": "900", "label": "Volunteers who give their time" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-programs",
+      "content_width": "full",
+      "settings": { "_element_id": "programs" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we offer",
+            "title": "Programs for every",
+            "title_accent": "age and every need",
+            "intro": "From after-school homework clubs to evening English classes to a shared garden, there's a reason for every neighbor to walk through our doors.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Kids & Youth" },
+              { "key": "build", "label": "Adults & Seniors" },
+              { "key": "launch", "label": "Shared Spaces" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "After-school homework club", "text": "A quiet, supported space with tutors and a hot snack every school day. Homework gets done, friendships get made." },
+              { "icon": "◈", "title": "Youth arts & music", "text": "Free lessons in painting, theatre, and instruments, with a showcase night each season for families and neighbors." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "English & citizenship classes", "text": "Taught by volunteer instructors, with childcare on site so parents can actually focus and show up." },
+              { "icon": "⚑", "title": "Senior social & wellness", "text": "Morning movement, tea circles, tech help, and a warm lunch — a daily reason to get out and connect." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Community kitchen", "text": "A professional kitchen and dining hall that turns no one away. Pay-what-you-can meals, plus free space for neighbor-hosted suppers." },
+              { "icon": "✦", "title": "Rooms & garden", "text": "Meeting rooms, a makerspace, and a shared garden available free or low-cost to local groups and residents." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-involved",
+      "content_width": "full",
+      "settings": { "_element_id": "involved" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How to get involved",
+            "title": "Three ways in,",
+            "title_accent": "all welcome",
+            "steps": [
+              { "title": "Walk in the door", "text": "No registration, no membership card. Come for a meal, a class, or just to see the space. Someone will show you around." },
+              { "title": "Join a program", "text": "Pick from the weekly schedule — most are free, all are open. If you don't see what you need, tell us and we'll help find it." },
+              { "title": "Give back", "text": "Volunteer an evening, teach a skill, or donate to the kitchen fund. The building runs on the people who show up." }
+            ],
+            "note": "Every program is free or pay-what-you-can. Nobody is ever turned away for what they can't afford."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-story",
+      "content_width": "full",
+      "settings": { "_element_id": "story" },
+      "widgets": [
+        {
+          "type": "vew-timeline",
+          "settings": {
+            "eyebrow": "Our story",
+            "title": "Sixty years of",
+            "title_accent": "showing up",
+            "orientation": "alternating",
+            "events": [
+              { "year": "1962", "title": "The doors open", "text": "A donated church hall becomes a meeting place for the neighborhood's new families." },
+              { "year": "1975", "title": "The kitchen begins", "text": "Volunteers start serving a weekly community supper that has run ever since." },
+              { "year": "1998", "title": "The center expands", "text": "A new wing adds classrooms, a library, and the garden that still feeds the kitchen today." },
+              { "year": "2016", "title": "Youth programming grows", "text": "After-school and arts programs double, supported by a neighborhood-wide fundraising drive." },
+              { "year": "Today", "title": "Built by the block", "text": "Over 900 volunteers and 38,000 neighbors keep the doors open and the welcome warm." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside The Commons",
+            "title": "Life happens",
+            "title_accent": "through these doors",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-16.png", "id": 381 }, "label": "The front garden", "alt": "The Commons building and garden at golden hour" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-16.png", "id": 381 }, "label": "Neighbors gathering", "alt": "Neighbors walking into the community center" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-support",
+      "content_width": "full",
+      "settings": { "_element_id": "support" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support The Commons",
+            "title": "Keep the welcome",
+            "title_accent": "warm",
+            "quote": "What a neighborhood is, in the end, is the people who show up for each other.",
+            "verse_ref": "— The Commons founding charter",
+            "cta_text": "Give to the kitchen fund",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Visit us",
+            "title": "The door is always open",
+            "intro": "Drop by any day, or send us a note. If you'd like to volunteer, teach, or host an event, we'd love to hear from you.",
+            "phone": "(555) 016-2200",
+            "email": "hello@thecommonscenter.org",
+            "location": "48 Linden Avenue · Open daily 8am–9pm",
+            "form_kicker": "Get in touch",
+            "form_title": "We'll get back to you",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE COMMONS",
+            "brand_tag": "COMMUNITY CENTER",
+            "blurb": "A neighborhood community center where people gather, learn, create, and look out for one another — open to all, every day.",
+            "copyright": "© The Commons — community center",
+            "columns": [
+              {
+                "heading": "Programs",
+                "links": [
+                  { "text": "Kids & Youth", "url": { "url": "#programs" } },
+                  { "text": "Adults & Seniors", "url": { "url": "#programs" } },
+                  { "text": "Shared Spaces", "url": { "url": "#programs" } },
+                  { "text": "Our story", "url": { "url": "#story" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "How to join", "url": { "url": "#involved" } },
+                  { "text": "Support The Commons", "url": { "url": "#support" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
