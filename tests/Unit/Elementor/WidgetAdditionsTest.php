@@ -166,6 +166,9 @@ final class WidgetAdditionsTest extends TestCase {
 		$this->assertStringContainsString( '_vew_site_kit', $widget );
 		$this->assertStringContainsString( '_portfolio_preview', $widget );
 		$this->assertStringContainsString( 'vew-portfolio-index__preview', $widget );
+		// Preview accepts both an attachment ID and a URL string.
+		$this->assertStringContainsString( 'is_numeric( $preview_raw )', $widget );
+		$this->assertStringContainsString( 'esc_url_raw( $preview_raw )', $widget );
 		// Responsive grid columns + lazy loading.
 		$this->assertStringContainsString( 'vew-portfolio-index__grid', $css );
 		$this->assertStringContainsString( 'grid-template-columns', $css );

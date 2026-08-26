@@ -140,12 +140,20 @@ final class PortfolioIndex extends BaseWidget {
 					$kit   = $kit_store->get( $site_kit_slug );
 					$brand = $kit->token( 'brand' );
 				}
-				$preview = (int) get_post_meta( get_the_ID(), '_portfolio_preview', true );
+				$preview_raw = get_post_meta( get_the_ID(), '_portfolio_preview', true );
 				$preview_url = '';
-				if ( $preview > 0 ) {
-					$src = wp_get_attachment_image_src( $preview, 'large' );
+				// Accept either an attachment ID (int) or a full URL string. The
+				// factory stores IDs; tolerate URL values so a URL doesn't silently
+				// fall back to the swatch (casting a URL to int is 0).
+				if ( is_numeric( $preview_raw ) && (int) $preview_raw > 0 ) {
+					$src = wp_get_attachment_image_src( (int) $preview_raw, 'large' );
 					if ( is_array( $src ) && ! empty( $src[0] ) ) {
 						$preview_url = $src[0];
+					}
+				} elseif ( is_string( $preview_raw ) && '' !== $preview_raw ) {
+					$candidate = esc_url_raw( $preview_raw );
+					if ( '' !== $candidate ) {
+						$preview_url = $candidate;
 					}
 				}
 				$cards[] = array(
