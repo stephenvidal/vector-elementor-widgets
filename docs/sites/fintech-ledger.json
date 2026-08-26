@@ -1,0 +1,277 @@
+{
+  "title": "Ledgerly — Business Ledger App",
+  "slug": "fintech-ledger",
+  "kit": "fintech-ledger",
+  "containers": [
+    {
+      "id": "fl-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "LEDGERLY",
+            "brand_tag": "BUSINESS LEDGER",
+            "cta_text": "Start your ledger",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Features", "url": { "url": "#features" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-26.png", "id": 435 },
+            "eyebrow": "Business ledger · Real-time reconciliation",
+            "headline": "Your books,<br><em>finally in focus.</em>",
+            "copy": "Ledgerly keeps every transaction, invoice, and tax line in one place — reconciled in real time, so your numbers always tell the truth.",
+            "primary_cta_text": "Start your ledger",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how it works",
+            "secondary_cta_url": { "url": "#features" },
+            "trust_list": [
+              { "text": "Bank-grade 256-bit encryption" },
+              { "text": "Reconciles automatically, every day" },
+              { "text": "Tax-ready reports in one click" },
+              { "text": "Works with your accountant, not against them" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The numbers behind the ledger",
+            "title": "Built for clarity,",
+            "title_accent": "measured in confidence",
+            "stats": [
+              { "value": "40K+", "label": "Small businesses keeping their books on Ledgerly" },
+              { "value": "99.98%", "label": "Auto-reconciliation accuracy across all accounts" },
+              { "value": "6h", "label": "Average time saved on bookkeeping every week" },
+              { "value": "0", "label": "Spreadsheets needed to run your books" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "features" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What Ledgerly does",
+            "title": "From chaos to",
+            "title_accent": "a clean ledger",
+            "intro": "We don't just record transactions. We connect your bank, invoices, and expenses into one living ledger that reconciles itself — so you can trust the numbers without the busywork.",
+            "features": [
+              { "number": "01", "title": "Auto-reconciliation", "text": "Ledgerly matches every bank transaction to its invoice or expense automatically, flagging only the few that need a human eye.", "detail": "Reconciles daily, not monthly" },
+              { "number": "02", "title": "Live cash position", "text": "See your real cash balance, upcoming obligations, and runway at a glance — updated the moment money moves.", "detail": "Real-time cash visibility" },
+              { "number": "03", "title": "Invoice-to-ledger sync", "text": "Send an invoice and it lands in the ledger the moment it's paid. No re-keying, no missed entries, no double counting.", "detail": "Invoices flow in automatically" },
+              { "number": "04", "title": "Tax-ready reports", "text": "P&L, balance sheet, and cash-flow statements that are always current and exportable for your accountant in one click.", "detail": "Reports your accountant will love" },
+              { "number": "05", "title": "Expense capture", "text": "Snap a receipt and Ledgerly reads it, categorizes it, and attaches it to the right entry — so nothing slips through at tax time.", "detail": "Receipts, read automatically" },
+              { "number": "06", "title": "Accountant access", "text": "Give your accountant a read-only view or full access with a single invite. No more emailing spreadsheets back and forth.", "detail": "Collaborate without the chaos" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "One ledger, every need",
+            "title": "The books,",
+            "title_accent": "handled your way",
+            "intro": "Whether you're a solo founder or a growing team, Ledgerly adapts to how you work — without forcing you into a rigid chart of accounts.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Solo & Freelance" },
+              { "key": "build", "label": "Small Business" },
+              { "key": "launch", "label": "Growing Teams" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Simple single-entity books", "text": "One clean ledger for your freelance income and expenses, with automatic tax categorization and a one-click annual report." },
+              { "icon": "◈", "title": "Receipts on the go", "text": "Snap receipts from your phone and Ledgerly files them instantly — no shoebox, no lost deductions." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Multi-account reconciliation", "text": "Connect your business bank, credit cards, and payment processors. Ledgerly reconciles them all against one ledger." },
+              { "icon": "⚑", "title": "Invoicing that books itself", "text": "Create and send invoices, and watch them post to the ledger automatically when paid — with late-payment reminders built in." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Team roles & approvals", "text": "Give your team controlled access with role-based permissions, so the right people see the right numbers." },
+              { "icon": "✦", "title": "Accountant-ready exports", "text": "Hand your accountant clean, GAAP-friendly exports and a read-only portal — no more spreadsheet archaeology." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From signup to",
+            "title_accent": "a reconciled ledger in four steps",
+            "steps": [
+              { "title": "Connect", "text": "Link your bank, cards, and payment processors in minutes. Ledgerly pulls your history and starts categorizing automatically." },
+              { "title": "Reconcile", "text": "Ledgerly matches every transaction to its invoice or expense. You only review the few that need a human decision." },
+              { "title": "Run", "text": "Your ledger stays current on its own. Send invoices, snap receipts, and watch your cash position update in real time." },
+              { "title": "Report", "text": "Generate tax-ready P&L, balance sheet, and cash-flow reports in one click — and share them with your accountant instantly." }
+            ],
+            "note": "Most founders stop opening their bank app to 'check the numbers' within the first week — because Ledgerly already shows them the truth."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple pricing,",
+            "title_accent": "honest value",
+            "intro": "Every plan includes unlimited transactions, auto-reconciliation, and tax-ready reports. Upgrade when your business grows, not before.",
+            "plans": [
+              { "plan": "Solo", "price": "$12", "unit": "/ month", "features": [{ "text": "1 entity, unlimited transactions" }, { "text": "Auto-reconciliation" }, { "text": "Receipt capture" }, { "text": "Tax-ready reports" }, { "text": "Email support" }], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Business", "price": "$29", "unit": "/ month", "featured": "yes", "features": [{ "text": "Everything in Solo" }, { "text": "Multi-account reconciliation" }, { "text": "Invoicing that books itself" }, { "text": "Cash-flow forecasting" }, { "text": "Accountant access" }, { "text": "Priority support" }], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Team", "price": "$59", "unit": "/ month", "features": [{ "text": "Everything in Business" }, { "text": "Team roles & approvals" }, { "text": "Multi-entity consolidation" }, { "text": "Advanced reporting" }, { "text": "Dedicated onboarding" }, { "text": "Audit log" }], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Founders, in their words",
+            "title": "The books we",
+            "title_accent": "used to dread",
+            "intro": "What small-business owners and freelancers say after moving their books to Ledgerly.",
+            "reviews": [
+              { "quote": "I used to spend every Sunday night reconciling a spreadsheet. Now Ledgerly does it while I sleep, and Monday morning I just look at the dashboard. It's the first bookkeeping tool I've actually stuck with.", "author": "Priya S.", "role": "Freelance designer", "stars": 5 },
+              { "quote": "Tax season used to mean a week of panic. This year I exported my P&L in one click and my accountant said it was the cleanest set of books she'd ever seen from a client our size.", "author": "Marcus T.", "role": "Cafe owner", "stars": 5 },
+              { "quote": "The auto-reconciliation is the killer feature. It flags the one or two transactions that need me, and everything else just lines up. I finally trust my numbers again.", "author": "Elena V.", "role": "E-commerce founder", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Straight answers,",
+            "title_accent": "no accounting jargon",
+            "intro": "The questions founders ask us most before they move their books to Ledgerly.",
+            "items": [
+              { "question": "Is my financial data secure?", "answer": "Yes. Ledgerly uses bank-grade 256-bit encryption in transit and at rest, and we never sell or share your data. You can export everything and leave anytime." },
+              { "question": "Will it work with my accountant?", "answer": "Absolutely. Give your accountant a read-only portal or full access with one invite, and export clean, GAAP-friendly reports whenever they need them." },
+              { "question": "How does auto-reconciliation work?", "answer": "Ledgerly connects to your bank, cards, and payment processors, then matches every transaction to its invoice or expense automatically. Only the few that need a human decision get flagged for your review." },
+              { "question": "Can I import my existing books?", "answer": "Yes. Bring in your current spreadsheet or accounting export, and Ledgerly maps it to your new ledger so you start with a clean, complete history — not a blank page." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's get your books in focus",
+            "intro": "Start your ledger free, ask us anything, or bring your whole team. We'll help you get from spreadsheet chaos to a reconciled ledger you actually trust.",
+            "phone": "(555) 042-1190",
+            "email": "hello@ledgerly.app",
+            "location": "Remote-first · Serving businesses everywhere",
+            "form_kicker": "Request a demo",
+            "form_title": "See your books in focus",
+            "submit_cta": "Get started"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fl-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "LEDGERLY",
+            "brand_tag": "BUSINESS LEDGER",
+            "blurb": "The business ledger that keeps every transaction, invoice, and tax line in one place — reconciled in real time, so your numbers always tell the truth.",
+            "copyright": "© Ledgerly — business ledger app",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Features", "url": { "url": "#features" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Founders", "url": { "url": "#reviews" } },
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Start your ledger", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
