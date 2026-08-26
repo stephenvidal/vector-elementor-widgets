@@ -95,6 +95,15 @@ additive text fields, and render with `SectionHeading::render()`. Keep the
 widget's semantic section structure and BEM layout classes; the component owns
 only the repeated heading contract.
 
+> **PITFALL — call order matters (Elementor fatal).** `SectionHeading::register_content_controls()`
+> calls `add_control()` immediately, so it MUST be invoked AFTER `start_controls_section()` is open.
+> If it is called before the section starts, Elementor throws
+> `Cannot add a control outside of a section (use start_controls_section)` and kills the
+> editor (the error labels the *calling widget*, e.g. `BeforeAfter::`, but the method
+> `handle_control_position` is Elementor core in `includes/base/controls-stack.php`, not ours).
+> Affected historically: BeforeAfter, Countdown, GoogleMap, Timeline, VideoEmbed. Fix is to move the
+> helper call below the section opener (see `docs/framework-refinement.md`).
+
 ## 3. Create the assets
 
 `widgets/X/x.css` (+ `widgets/X/x.js` if interactive). Scope every selector to

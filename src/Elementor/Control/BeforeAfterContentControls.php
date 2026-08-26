@@ -33,14 +33,14 @@ final class BeforeAfterContentControls {
 	 * @return void
 	 */
 	public function register( Widget_Base $widget ): void {
-		SectionHeading::register_content_controls( $widget );
-
 		$widget->start_controls_section(
 			'vew_before_after_content',
 			array(
 				'label' => __( 'Images', 'vector-elementor-widgets' ),
 			)
 		);
+
+		SectionHeading::register_content_controls( $widget );
 
 		$widget->add_control(
 			'before_image',

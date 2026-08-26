@@ -34,14 +34,14 @@ final class GoogleMapContentControls {
 	 * @return void
 	 */
 	public function register( Widget_Base $widget ): void {
-		SectionHeading::register_content_controls( $widget );
-
 		$widget->start_controls_section(
 			'vew_google_map_content',
 			array(
 				'label' => __( 'Map', 'vector-elementor-widgets' ),
 			)
 		);
+
+		SectionHeading::register_content_controls( $widget );
 
 		$widget->add_control(
 			'location',

@@ -33,14 +33,14 @@ final class TimelineContentControls {
 	 * @return void
 	 */
 	public function register( Widget_Base $widget ): void {
-		SectionHeading::register_content_controls( $widget );
-
 		$widget->start_controls_section(
 			'vew_timeline_content',
 			array(
 				'label' => __( 'Timeline', 'vector-elementor-widgets' ),
 			)
 		);
+
+		SectionHeading::register_content_controls( $widget );
 
 		$widget->add_control(
 			'orientation',
