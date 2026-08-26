@@ -1,0 +1,215 @@
+{
+  "title": "The Riot Room — Comedy Club",
+  "slug": "comedy-club",
+  "kit": "comedy-club",
+  "containers": [
+    {
+      "id": "cc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE RIOT",
+            "brand_tag": "ROOM",
+            "cta_text": "Book a table",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "This week", "url": { "url": "#shows" } },
+              { "text": "The room", "url": { "url": "#room" } },
+              { "text": "Gallery", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-70.png", "id": 0 },
+            "eyebrow": "Stand-up & variety · 180 seats · Est. 1987",
+            "headline": "The punchline is<br><em>worth the wait.</em>",
+            "copy": "The Riot Room is a 180-seat comedy club in a converted music-hall basement — where established headliners test new material and first-timers find out if they're funny. We serve cheap pints and even cheaper laughs.",
+            "primary_cta_text": "See this week's lineup",
+            "primary_cta_url": { "url": "#shows" },
+            "secondary_cta_text": "Book a table",
+            "secondary_cta_url": { "url": "#contact" },
+            "trust_list": [
+              { "text": "180 seats — no bad sightline, no bad seat" },
+              { "text": "Three comics a night, six nights a week" },
+              { "text": "Open mic every Sunday — sign-up at the bar" },
+              { "text": "Late-night pints, £4.50 and honest" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "room" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The room in numbers",
+            "title": "A basement that",
+            "title_accent": "works hard for a laugh",
+            "stats": [
+              { "value": "180", "label": "Seats, every one with a clear view of the stage" },
+              { "value": "18", "label": "Shows a week, from amateur night to touring headliners" },
+              { "value": "240+", "label": "Comics who've worked this room, from open mic to the big tours" },
+              { "value": "38", "label": "Years of hosting the city's best (and worst) jokes" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-shows",
+      "content_width": "full",
+      "settings": { "_element_id": "shows" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "This week",
+            "title": "Who's on",
+            "title_accent": "the Riot stage",
+            "intro": "Every week we mix touring headliners, hot new acts, and the local regulars who've been sharpening their sets in this basement for years.",
+            "features": [
+              { "number": "01", "title": "Headliner nights — Thu to Sat", "text": "Touring headliners working fresh material in an intimate room. Expect a full hour, a packed stage, and zero phones on the floor.", "detail": "Thu–Sat · Main room" },
+              { "number": "02", "title": "Midweek showcase", "text": "Three rising comics, one strong MC, and a bar that stays open late. The best-value night in the city if you know where to look.", "detail": "Tue–Wed · Main room" },
+              { "number": "03", "title": "Sketch & improv night", "text": "Our resident troupe plus a rotating cast of guests. Half-scripted, half-chaos, entirely worth the cover.", "detail": "Fri late · Upstairs bar" },
+              { "number": "04", "title": "Sunday open mic", "text": "The room where it starts. Five minutes, a stool, and a mic that's seen it all. Sign up at the bar from 7pm.", "detail": "Every Sunday · The Back Room" },
+              { "number": "05", "title": "Comedy quiz night", "text": "Teams of four, one very opinionated quizmaster, and a tie-breaker decided entirely by whoever's funniest. Not to be missed.", "detail": "Monthly · Main room" },
+              { "number": "06", "title": "The Riot Late Show", "text": "A midnight special with a mystery headliner announced on the night. Past guests have ranged from national names to a very confident parrot.", "detail": "First Saturday monthly" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "countdown" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Coming soon",
+            "title": "The Riot 38th Anniversary",
+            "title_accent": "Special starts in",
+            "end": "2026-10-16 20:00",
+            "expired_text": "The anniversary show is on — get your table before it sells out."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the room",
+            "title": "A few laughs",
+            "title_accent": "from the floor",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-70.png", "id": 0 }, "label": "Headliner night", "alt": "A comic on the intimate red-lit stage, microphone in hand, in the packed basement room" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-70.png", "id": 0 }, "label": "The Back Room", "alt": "The smaller open-mic room with a single stool, warm lights, and a chalkboard lineup" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-70.png", "id": 0 }, "label": "The upstairs bar", "alt": "The busy wood-paneled bar with pint glasses and framed vintage comedy posters" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "In their words",
+            "title": "What the room",
+            "title_accent": "sounds like",
+            "intro": "From comics who worked the mic to regulars who never miss a Thursday — here's what they say about the Riot Room.",
+            "reviews": [
+              { "quote": "The first room that ever gave me five minutes. The crowd is sharp, they're generous, and they'll absolutely let you know if it's not landing. The best education in stand-up I ever had.", "author": "D. Okafor", "role": "Comedian", "stars": 5 },
+              { "quote": "We came for a birthday and left having laughed so hard my face hurt. The intimacy is unreal — you're ten feet from the stage and the jokes hit harder because of it.", "author": "L. Bennett", "role": "Regular", "stars": 5 },
+              { "quote": "I've booked comics into rooms all over the country and this is one of the best-run, best-sounding clubs there is. The crowd here actually wants to be won over, which is everything.", "author": "M. Reyes", "role": "Talent booker", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Book a table or",
+            "title_accent": "bring a show",
+            "intro": "Want a table for six, a corner for two, or a slot on the open mic? Tell us what you need and we'll sort the rest.",
+            "phone": "(555) 044-9180",
+            "email": "tables@riotroom.club",
+            "location": "The Riot Room · 3 Basement Row",
+            "form_kicker": "Reach the box office",
+            "form_title": "We'll get you sorted",
+            "submit_cta": "Book my night"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE RIOT",
+            "brand_tag": "ROOM",
+            "blurb": "A 180-seat comedy club in a converted music-hall basement — where established headliners test new material and first-timers find out if they're funny.",
+            "copyright": "© The Riot Room — comedy club",
+            "columns": [
+              {
+                "heading": "The room",
+                "links": [
+                  { "text": "This week", "url": { "url": "#shows" } },
+                  { "text": "The room in numbers", "url": { "url": "#room" } },
+                  { "text": "Gallery", "url": { "url": "#gallery" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Open mic sign-up", "url": { "url": "#contact" } },
+                  { "text": "Bring a show", "url": { "url": "#contact" } },
+                  { "text": "Book a table", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
