@@ -1,0 +1,257 @@
+{
+  "title": "Freightline — Logistics & Freight",
+  "slug": "logistics",
+  "kit": "logistics",
+  "containers": [
+    {
+      "id": "lg-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "FREIGHTLINE",
+            "brand_tag": "LOGISTICS & FREIGHT",
+            "cta_text": "Get a quote",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#work" } },
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-25.png", "id": 430 },
+            "eyebrow": "Freight & logistics · Real-time visibility",
+            "headline": "Every mile,<br><em>accounted for.</em>",
+            "copy": "Freightline moves your freight on time, tracks it in real time, and hands you one clear bill — so your supply chain runs on facts, not guesswork.",
+            "primary_cta_text": "Get a quote",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "Track a shipment",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Live GPS tracking on every load" },
+              { "text": "One accountable partner, door to door" },
+              { "text": "99.2% on-time delivery across our network" },
+              { "text": "Dedicated freight coordinator per account" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The network behind the promise",
+            "title": "Built to move,",
+            "title_accent": "measured in results",
+            "stats": [
+              { "value": "12K+", "label": "Shipments delivered across our network last year" },
+              { "value": "99.2%", "label": "On-time delivery rate, rolling 12 months" },
+              { "value": "48", "label": "States and provinces covered by our carrier partners" },
+              { "value": "0", "label": "Lost shipments in the last 24 months" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What Freightline does",
+            "title": "From pickup to",
+            "title_accent": "proof of delivery",
+            "intro": "We don't just move boxes. We move information alongside them — so you always know where your freight is and when it will arrive.",
+            "features": [
+              { "number": "01", "title": "Live shipment tracking", "text": "Every load reports its position in real time, so you can see exactly where your freight is without calling anyone.", "detail": "GPS + ETA on every load" },
+              { "number": "02", "title": "Proactive delay alerts", "text": "When weather, traffic, or a breakdown threatens your ETA, we tell you before it becomes a problem — not after.", "detail": "Alerts before issues escalate" },
+              { "number": "03", "title": "Multi-modal routing", "text": "We combine road, rail, and ocean to find the route that balances speed, cost, and reliability for each shipment.", "detail": "Road · rail · ocean" },
+              { "number": "04", "title": "One clear bill", "text": "No surprise surcharges, no line-item mysteries. You get a single, itemized invoice you can reconcile in minutes.", "detail": "Transparent, itemized pricing" },
+              { "number": "05", "title": "Dedicated coordinator", "text": "A named freight coordinator owns your account end to end — one person to call, who knows your freight and your deadlines.", "detail": "A single accountable partner" },
+              { "number": "06", "title": "Proof of delivery", "text": "Digital PODs and photos attach to every shipment automatically, so your records and your customers' are always in sync.", "detail": "Digital PODs, auto-attached" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Coverage that fits your freight",
+            "title": "One partner,",
+            "title_accent": "every mode",
+            "intro": "Whatever you're shipping and wherever it's going, Freightline has a lane for it. Pick the service, we handle the rest.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Full Truckload" },
+              { "key": "build", "label": "LTL & Parcel" },
+              { "key": "launch", "label": "Intermodal" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Full truckload (FTL)", "text": "Dedicated trailers for large or time-sensitive loads, with live tracking and a committed pickup window." },
+              { "icon": "◈", "title": "Temperature-controlled", "text": "Reefer trailers with monitored temperature and humidity for food, pharma, and other sensitive freight." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Less-than-truckload (LTL)", "text": "Cost-effective shared-trailer shipping for smaller pallets, with the same visibility as a full load." },
+              { "icon": "⚑", "title": "Parcel & small package", "text": "Reliable small-parcel delivery with tracking numbers and delivery confirmation on every box." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Rail & intermodal", "text": "Long-haul rail combined with truck for the best balance of cost and transit time on cross-country freight." },
+              { "icon": "✦", "title": "Ocean & port services", "text": "Container shipping, customs coordination, and drayage to move your freight across borders without friction." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From quote to",
+            "title_accent": "delivery in four steps",
+            "steps": [
+              { "title": "Quote", "text": "Tell us what you're shipping and where it's going. You get a clear, itemized quote within the hour — no hidden fees." },
+              { "title": "Book", "text": "Confirm the lane and we assign a carrier and a dedicated coordinator. Your pickup window is locked in." },
+              { "title": "Move", "text": "Your freight is picked up and tracked live. You get proactive alerts and a real-time ETA at every leg of the journey." },
+              { "title": "Deliver", "text": "Proof of delivery and photos attach to your shipment automatically. One clear bill follows, ready to reconcile." }
+            ],
+            "note": "Most shippers see their freight-related delays drop by a third within the first quarter — because they stop chasing shipments and start watching them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Shippers, in their words",
+            "title": "The visibility",
+            "title_accent": "we'd been missing",
+            "intro": "What supply-chain and operations leaders say after moving freight with Freightline.",
+            "reviews": [
+              { "quote": "We used to spend an hour a day calling carriers for status updates. Now I open a dashboard and see every load on a map. It paid for itself in the first month.", "author": "T. Nguyen", "role": "Supply Chain Director, retail", "stars": 5 },
+              { "quote": "The proactive delay alerts are the difference. Freightline told us about a port hold two days before it would have hit our customer — we rerouted and never missed the date.", "author": "M. Alvarez", "role": "Operations Lead, manufacturer", "stars": 5 },
+              { "quote": "One clear bill, one coordinator, zero surprises. After years of juggling three freight brokers, that alone was worth the switch.", "author": "J. Kowalski", "role": "Logistics Manager, e-commerce", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Straight answers,",
+            "title_accent": "no freight jargon",
+            "intro": "The questions shippers ask us most before they book their first load.",
+            "items": [
+              { "question": "How fast can I get a quote?", "answer": "Most quotes come back within the hour. Tell us your origin, destination, freight type, and weight, and we'll send a clear, itemized quote with no hidden surcharges." },
+              { "question": "Do you handle temperature-controlled freight?", "answer": "Yes. We run a fleet of reefer trailers with monitored temperature and humidity for food, pharma, and other sensitive loads, and we flag any deviation immediately." },
+              { "question": "How do I track my shipment?", "answer": "Every load reports live GPS position and a real-time ETA. You get a tracking link and proactive alerts at every leg — no phone calls required." },
+              { "question": "What if my shipment is delayed?", "answer": "We tell you before it becomes a problem. If weather, traffic, or a breakdown threatens your ETA, we alert you and work the network to find a faster route or a backup carrier." },
+              { "question": "How are you different from a freight broker?", "answer": "A broker hands you off to whoever's cheapest. Freightline gives you a dedicated coordinator, live visibility, and one accountable partner from pickup to delivery — with a single clear bill at the end." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's move your freight",
+            "intro": "Tell us what you're shipping and where it's going. We'll send a clear quote within the hour — no sales gauntlet, no hidden fees.",
+            "phone": "(555) 018-4470",
+            "email": "hello@freightline.co",
+            "location": "Serving North America · 48 states & provinces",
+            "form_kicker": "Request a quote",
+            "form_title": "We'll show you the lane",
+            "submit_cta": "Get my quote"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "FREIGHTLINE",
+            "brand_tag": "LOGISTICS & FREIGHT",
+            "blurb": "A logistics and freight partner that moves your freight on time, tracks it in real time, and hands you one clear bill — so your supply chain runs on facts, not guesswork.",
+            "copyright": "© Freightline — logistics & freight",
+            "columns": [
+              {
+                "heading": "Services",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#work" } },
+                  { "text": "Services", "url": { "url": "#services" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Shippers", "url": { "url": "#reviews" } },
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Get a quote", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
