@@ -1,0 +1,241 @@
+{
+  "title": "Lantern Arts Council — Arts Council",
+  "slug": "arts-council",
+  "kit": "arts-council",
+  "containers": [
+    {
+      "id": "ac-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "LANTERN ARTS",
+            "brand_tag": "ARTS COUNCIL",
+            "cta_text": "Support the arts",
+            "cta_url": { "url": "#give" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#work" } },
+              { "text": "The season", "url": { "url": "#season" } },
+              { "text": "Grantees", "url": { "url": "#grantees" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-27.png", "id": 440 },
+            "eyebrow": "Regional arts council · Grants, stages & public programs",
+            "headline": "Art is how a city<br><em>remembers itself.</em>",
+            "copy": "Lantern Arts Council funds, stages, and champions the artists and venues that give our city its voice — from first brushstroke to opening night.",
+            "primary_cta_text": "See this season",
+            "primary_cta_url": { "url": "#season" },
+            "secondary_cta_text": "Support the arts",
+            "secondary_cta_url": { "url": "#give" },
+            "trust_list": [
+              { "text": "Grants to 200+ working artists a year" },
+              { "text": "Free public programs in every ward" },
+              { "text": "A season of exhibitions open to all" },
+              { "text": "Run by artists, for the whole city" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The reach of the lantern",
+            "title": "What the arts",
+            "title_accent": "carry for us",
+            "stats": [
+              { "value": "200+", "label": "Working artists funded through grants each year" },
+              { "value": "48", "label": "Free public programs staged across the city" },
+              { "value": "120k", "label": "Visitors to our exhibitions and stages annually" },
+              { "value": "$1.4M", "label": "Put back into local artists and venues last year" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Three ways we",
+            "title_accent": "keep the lights on",
+            "intro": "A healthy arts scene needs money, space, and an audience. We work all three at once — so a grant isn't a cheque, it's the start of a season.",
+            "features": [
+              { "number": "01", "title": "Artist grants", "text": "Open, juried grants for working artists in every discipline — painting, dance, film, sound, and the crafts. No gatekeeping, just a fair panel and a clear brief.", "detail": "200+ artists funded" },
+              { "number": "02", "title": "Venue & space support", "text": "We help independent galleries, theaters, and studios keep their doors open — rent relief, technical grants, and the insurance that lets a small stage take a risk.", "detail": "30+ venues supported" },
+              { "number": "03", "title": "Public programs", "text": "Free exhibitions, open studios, and neighborhood festivals that put art where people already are — the market, the library, the underpass, the schoolyard.", "detail": "48 programs a year" },
+              { "number": "04", "title": "Youth & education", "text": "Residencies and after-school workshops that put working artists in front of the next generation — because a city's art is only as good as its next idea.", "detail": "3,000 students reached" },
+              { "number": "05", "title": "The Lantern Season", "text": "Our flagship exhibition series, staged across partner venues each autumn. One theme, many rooms, and a citywide opening night that belongs to everyone.", "detail": "Annual flagship series" },
+              { "number": "06", "title": "Advocacy", "text": "We make the case to funders and city hall that the arts are infrastructure — and we publish the numbers that prove the return on every public dollar.", "detail": "Evidence-led advocacy" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-season",
+      "content_width": "full",
+      "settings": { "_element_id": "season" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "From the season",
+            "title": "Rooms full of",
+            "title_accent": "what we fund",
+            "intro": "A glimpse of the work our grantees and venues have made possible this year.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-27.png", "id": 0 }, "label": "The Lantern Season opening", "alt": "A gallery opening with warm light and a crowd gathered around large paintings" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-27.png", "id": 0 }, "label": "Open studio day", "alt": "An artist at work in a bright studio with canvases and tools around them" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-27.png", "id": 0 }, "label": "Neighborhood festival", "alt": "A street festival with colorful banners and people gathered around a stage" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-grantees",
+      "content_width": "full",
+      "settings": { "_element_id": "grantees" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "Featured grantees",
+            "title": "Artists we're",
+            "title_accent": "proud to fund",
+            "intro": "A few of the makers whose work the council has helped bring to the city.",
+            "items": [
+              { "title": "Mira Okafor", "tag": "Painting · 2026 grantee", "text": "Large-scale canvases on migration and memory, now touring three partner galleries.", "url": { "url": "#contact" }, "link_label": "See the work", "image": { "url": "" }, "alt": "" },
+              { "title": "The Hollow Stage Co.", "tag": "Theater · venue grant", "text": "A scrappy storefront theater that used our rent relief to stage a sold-out season of new plays.", "url": { "url": "#contact" }, "link_label": "See the season", "image": { "url": "" }, "alt": "" },
+              { "title": "Riverside Sound Lab", "tag": "Sound · public program", "text": "A free open-air sound installation that turned the riverfront into a listening room for a month.", "url": { "url": "#contact" }, "link_label": "Hear the work", "image": { "url": "" }, "alt": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support Lantern Arts",
+            "title": "Keep a light on",
+            "title_accent": "for the next artist",
+            "quote": "A city that funds its artists is a city that believes it has a future worth making visible.",
+            "verse_ref": "— Lantern Arts Council founding note",
+            "cta_text": "Give to the arts",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "In their words",
+            "title": "What the arts",
+            "title_accent": "make possible",
+            "intro": "Artists, venue directors, and neighbors on what the council's support has meant.",
+            "reviews": [
+              { "quote": "The grant didn't just pay for my materials — it told me the city thought my work mattered. That changed how I showed up in the studio for a year.", "author": "Mira O.", "role": "Painter & 2026 grantee", "stars": 5 },
+              { "quote": "Our rent relief kept the doors open through the quiet months. Without it, the Hollow Stage would have closed and a whole neighborhood would have lost its theater.", "author": "D. Reyes", "role": "Artistic Director, Hollow Stage Co.", "stars": 5 },
+              { "quote": "I took my kids to the riverfront sound installation and they talked about it for weeks. That's what public art should do — meet people where they are.", "author": "A. Whitfield", "role": "Neighbor & regular visitor", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Apply, volunteer, or",
+            "title_accent": "just come see",
+            "intro": "Whether you're an artist seeking a grant, a venue in need, or a neighbor who wants to get involved, we'd love to hear from you.",
+            "phone": "(555) 027-6630",
+            "email": "hello@lanternarts.org",
+            "location": "The Lantern House · 9 Gallery Row",
+            "form_kicker": "Reach the council",
+            "form_title": "We'll point you the right way",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "LANTERN ARTS",
+            "brand_tag": "ARTS COUNCIL",
+            "blurb": "A regional arts council that funds, stages, and champions the artists and venues that give our city its voice — from first brushstroke to opening night.",
+            "copyright": "© Lantern Arts Council — arts council",
+            "columns": [
+              {
+                "heading": "The council",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#work" } },
+                  { "text": "The season", "url": { "url": "#season" } },
+                  { "text": "Featured grantees", "url": { "url": "#grantees" } },
+                  { "text": "In their words", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Give to the arts", "url": { "url": "#give" } },
+                  { "text": "Apply for a grant", "url": { "url": "#contact" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
