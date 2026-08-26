@@ -1,0 +1,238 @@
+{
+  "title": "Verdant Trust — Environmental Trust",
+  "slug": "environmental",
+  "kit": "environmental",
+  "containers": [
+    {
+      "id": "en-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "VERDANT",
+            "brand_tag": "TRUST",
+            "cta_text": "Protect a place",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#work" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Voices", "url": { "url": "#voices" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-62.png", "id": 1243 },
+            "eyebrow": "Nonprofit land trust · Protecting wild places forever",
+            "headline": "The land we protect today<br><em>is the legacy we leave tomorrow.</em>",
+            "copy": "Verdant Trust buys, restores, and permanently protects wild land, clean water, and native habitat across the region — so the places we love stay wild for the people who come after us.",
+            "primary_cta_text": "Protect a place you love",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See our protected lands",
+            "secondary_cta_url": { "url": "#work" },
+            "trust_list": [
+              { "text": "Permanently protected — every acre is held in trust, forever" },
+              { "text": "Accredited land trust with audited conservation easements" },
+              { "text": "Restored 4,200 acres of native forest and wetland" },
+              { "text": "Run on member support and volunteer stewardship" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The trust in numbers",
+            "title": "Land held, ",
+            "title_accent": "water kept clean",
+            "stats": [
+              { "value": "18,500", "label": "Acres under permanent protection" },
+              { "value": "4,200", "label": "Acres of native habitat restored" },
+              { "value": "96", "label": "Miles of river and stream corridor conserved" },
+              { "value": "3,100", "label": "Volunteer hours given last year" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Conservation that",
+            "title_accent": "works on the ground",
+            "intro": "We don't just hold land on paper. We restore it, steward it, and open it to the people who will care for it next.",
+            "features": [
+              { "number": "01", "title": "Protect the land", "text": "We work with willing landowners to place conservation easements and buy critical parcels, locking in protection that survives every change of ownership.", "detail": "Easements + fee-title acquisition" },
+              { "number": "02", "title": "Restore the habitat", "text": "Our crews replant native forest, reconnect floodplains, and remove invasive species so wildlife and clean water can return on their own.", "detail": "4,200 acres restored" },
+              { "number": "03", "title": "Keep the water clean", "text": "Healthy forests and wetlands filter the water that feeds our rivers and wells. We protect the headwaters so the whole watershed stays drinkable.", "detail": "96 miles of stream corridor" },
+              { "number": "04", "title": "Steward forever", "text": "Protection is a promise, not a one-time deed. We monitor every easement and parcel each year and act when a boundary or habitat needs care.", "detail": "Annual monitoring on every acre" },
+              { "number": "05", "title": "Open the trails", "text": "Protected land is public land. We build and maintain low-impact trails so families can walk the same woods we're working to save.", "detail": "40 miles of public trails" },
+              { "number": "06", "title": "Grow the next stewards", "text": "School programs and volunteer days teach the next generation why wild places matter — and how to keep them wild.", "detail": "3,100 volunteer hours a year" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How a place gets protected",
+            "title": "From first walk",
+            "title_accent": "to protected forever",
+            "steps": [
+              { "title": "Walk the land", "text": "A landowner reaches out, and we walk the property together — mapping the habitat, the water, and what makes the place worth saving." },
+              { "title": "Assess the value", "text": "Our ecologists and appraisers document the conservation value and the fair terms, so the deal is honest for the landowner and the trust." },
+              { "title": "Protect it", "text": "We place a conservation easement or acquire the parcel, recording the protection in the deed so it binds every future owner." },
+              { "title": "Restore & steward", "text": "We restore what's degraded, then monitor the land every year — walking the boundaries, checking the habitat, and keeping the promise alive." },
+              { "title": "Open it up", "text": "Where it's safe and appropriate, we build trails and host volunteer days, so the community can love the land and help protect it too." }
+            ],
+            "note": "Most of our projects start with a single landowner who wants their family's land to stay wild after they're gone. We make that wish permanent."
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support Verdant Trust",
+            "title": "Give a place",
+            "title_accent": "a future",
+            "quote": "We do not inherit the earth from our ancestors; we borrow it from our children. Every acre we hold is a debt we're proud to repay.",
+            "verse_ref": "— Verdant Trust founding note",
+            "cta_text": "Donate or volunteer",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Voices from the land",
+            "title": "Protected by people,",
+            "title_accent": "loved by everyone",
+            "intro": "Landowners, volunteers, and neighbors on why they trust Verdant Trust with the places they love.",
+            "reviews": [
+              { "quote": "My family farmed this valley for three generations. Placing the easement with Verdant was the hardest and best decision we made — the land stays open, and it stays ours to walk.", "author": "Harold B.", "role": "Conservation easement donor", "stars": 5 },
+              { "quote": "I've volunteered on the river restoration every spring for five years. Watching the salmon come back to a creek that was nearly dead — that's why I keep coming.", "author": "Nadia K.", "role": "Volunteer", "stars": 5 },
+              { "quote": "The trails they built let my kids grow up in the same woods I did. Knowing it's protected forever means they'll get to show their own kids.", "author": "Tomás R.", "role": "Neighbor & member", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-news",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "Stay in the loop",
+            "title": "Wild places,",
+            "title_accent": "monthly",
+            "intro": "One short email a month with the lands we're protecting, the trails we're opening, and the volunteer days that need you. No noise, unsubscribe anytime.",
+            "placeholder": "you@email.com",
+            "button_text": "Subscribe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's protect a place together",
+            "intro": "Whether you're a landowner thinking about an easement, a volunteer looking for a trail day, or a member who wants to give, we'd love to hear from you.",
+            "phone": "(555) 218-4470",
+            "email": "hello@verdanttrust.org",
+            "location": "9 Fern Hollow Road · River District",
+            "form_kicker": "Reach out",
+            "form_title": "Tell us about the land or the help you have in mind",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "VERDANT",
+            "brand_tag": "TRUST",
+            "blurb": "A nonprofit environmental trust that buys, restores, and permanently protects wild land, clean water, and native habitat — so the places we love stay wild for the people who come after us.",
+            "copyright": "© Verdant Trust — environmental land trust",
+            "columns": [
+              {
+                "heading": "Explore",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#work" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Voices from the land", "url": { "url": "#voices" } },
+                  { "text": "Newsletter", "url": { "url": "#newsletter" } }
+                ]
+              },
+              {
+                "heading": "Support us",
+                "links": [
+                  { "text": "Give a place a future", "url": { "url": "#give" } },
+                  { "text": "Donate or volunteer", "url": { "url": "#contact" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
