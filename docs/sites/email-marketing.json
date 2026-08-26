@@ -1,0 +1,260 @@
+{
+  "title": "Postmark — Email Marketing",
+  "slug": "email-marketing",
+  "kit": "email-marketing",
+  "containers": [
+    {
+      "id": "em-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "POSTMARK",
+            "brand_tag": "EMAIL MARKETING",
+            "cta_text": "Start sending",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Features", "url": { "url": "#features" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-17.png", "id": 386 },
+            "eyebrow": "Email marketing that lands · SOC 2 Type II",
+            "headline": "Email that actually<br><em>gets opened.</em>",
+            "copy": "Postmark is the email platform for teams who care about deliverability. Design beautiful campaigns, send to the inbox — not the spam folder — and read the numbers that actually matter.",
+            "primary_cta_text": "Start sending free",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how it works",
+            "secondary_cta_url": { "url": "#features" },
+            "trust_list": [
+              { "text": "98% average inbox placement" },
+              { "text": "No per-send surprises — flat pricing" },
+              { "text": "Built for teams, not just marketers" },
+              { "text": "Your data, exportable anytime" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The proof is in the inbox",
+            "title": "Numbers that make",
+            "title_accent": "your CFO smile",
+            "stats": [
+              { "value": "98%", "label": "Average inbox placement rate" },
+              { "value": "3.1x", "label": "Higher open rates vs. the old tool" },
+              { "value": "2.4B", "label": "Emails delivered every month" },
+              { "value": "40k+", "label": "Teams sending with Postmark" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "features" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What you can do",
+            "title": "Everything you need to send,",
+            "title_accent": "nothing you don't",
+            "intro": "From a drag-and-drop builder to deliverability tools that protect your sender reputation, Postmark covers the whole journey — without the bloat.",
+            "features": [
+              { "number": "01", "title": "Drag-and-drop builder", "text": "Compose responsive campaigns on a live canvas. Blocks for every need — buttons, products, countdowns — that look right on any phone.", "detail": "Visual editor" },
+              { "number": "02", "title": "Deliverability that's earned", "text": "Warm-up tools, spam-score checks, and a dedicated IP option keep your sender reputation high so your mail reaches the inbox.", "detail": "Inbox-first" },
+              { "number": "03", "title": "Segmentation that's simple", "text": "Build audiences from your own data with point-and-click rules. Send the right message to the right people, automatically.", "detail": "Smart segments" },
+              { "number": "04", "title": "Automation without code", "text": "Welcome series, win-backs, and lifecycle flows that trigger on real behavior — set once, run forever.", "detail": "Visual flows" },
+              { "number": "05", "title": "Reports that tell the truth", "text": "Open, click, and conversion data in real time, with honest attribution. Know what worked and what to change next.", "detail": "Real-time analytics" },
+              { "number": "06", "title": "A/B test everything", "text": "Test subject lines, send times, and content against real audiences. Postmark picks the winner and applies it for you.", "detail": "Built-in testing" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From draft to delivered,",
+            "title_accent": "four steps",
+            "steps": [
+              { "title": "Import your audience", "text": "Bring in your contacts from a CSV, your CRM, or an API. Postmark cleans and dedupes as it loads, so you start with a healthy list." },
+              { "title": "Design your campaign", "text": "Pick a template or start from a blank canvas. Drag in your content, add your brand colors, and preview it on every device." },
+              { "title": "Send to the inbox", "text": "Hit send. Postmark routes your mail through warm, trusted infrastructure and watches your deliverability in real time." },
+              { "title": "Read the real results", "text": "Watch opens, clicks, and conversions roll in. Use the honest numbers to refine your next send — and repeat." }
+            ],
+            "note": "Most teams send their first campaign the same day they sign up. No IT ticket, no deliverability degree, no guesswork."
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Flat, honest pricing",
+            "title_accent": "that scales with you",
+            "intro": "Every plan includes unlimited contacts, a drag-and-drop builder, and real-time analytics. Upgrade when you want more sends, not sooner than you need them.",
+            "plans": [
+              { "plan": "Starter", "price": "$19", "unit": "/ month", "features": [{ "text": "Up to 5,000 sends / month" }, { "text": "Unlimited contacts" }, { "text": "Drag-and-drop builder" }, { "text": "Basic analytics" }, { "text": "Community support" }], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Growth", "price": "$49", "unit": "/ month", "featured": "yes", "features": [{ "text": "Up to 25,000 sends / month" }, { "text": "Automation & visual flows" }, { "text": "A/B testing" }, { "text": "Advanced segmentation" }, { "text": "Deliverability tools" }, { "text": "Priority support" }], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Scale", "price": "$149", "unit": "/ month", "features": [{ "text": "Up to 100,000 sends / month" }, { "text": "Everything in Growth" }, { "text": "Dedicated IP option" }, { "text": "Custom sender domains" }, { "text": "Team roles & audit logs" }, { "text": "Onboarding help" }], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What senders say",
+            "title": "The inbox is",
+            "title_accent": "a crowded place",
+            "intro": "Real words from teams who stopped fighting spam filters and started getting read.",
+            "reviews": [
+              { "quote": "Our open rate jumped from 22% to 41% the month we switched. Postmark's deliverability tools are the real deal — our mail finally lands where it should.", "author": "Dana R.", "role": "Marketing lead", "stars": 5 },
+              { "quote": "I set up a welcome flow in an afternoon and it's been running our onboarding ever since. The automation is genuinely no-code, and it just works.", "author": "Tomás V.", "role": "Growth manager", "stars": 5 },
+              { "quote": "The reports are the first ones I've actually trusted. Real attribution, no inflated numbers. It changed how we plan every campaign.", "author": "Aisha K.", "role": "Founder", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "The honest answers teams ask before moving their email to Postmark.",
+            "items": [
+              { "question": "Will my emails actually reach the inbox?", "answer": "That's the whole point. Postmark combines warm-up tools, spam-score checks, and trusted sending infrastructure to protect your sender reputation. Our average inbox placement is 98%." },
+              { "question": "Can I import my existing list and templates?", "answer": "Yes. Bring contacts from a CSV, CRM, or API, and import your existing HTML templates or start fresh with our builder. Nothing is locked in." },
+              { "question": "Is it really no-code?", "answer": "Yes. If you can lay out a slide, you can build a Postmark campaign. Engineers can go deeper with our API, but no one has to." },
+              { "question": "What happens if I want to leave?", "answer": "Your contacts, templates, and data are yours. Export everything anytime — Postmark never holds your audience hostage." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-news",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "Stay sharp",
+            "title": "Deliverability tips,",
+            "title_accent": "monthly",
+            "intro": "One email a month with the tactics that keep your campaigns out of the spam folder. No fluff, no spam — unsubscribe anytime.",
+            "placeholder": "you@company.com",
+            "button_text": "Subscribe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "Start sending to the inbox",
+            "intro": "Try Postmark free, ask us anything, or bring your whole team. We're here to make your email actually get read.",
+            "phone": "(555) 031-8800",
+            "email": "hello@postmark.email",
+            "location": "Remote-first · Global",
+            "form_kicker": "Request a demo",
+            "form_title": "Get started with Postmark",
+            "submit_cta": "Send request"
+          }
+        }
+      ]
+    },
+    {
+      "id": "em-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "POSTMARK",
+            "brand_tag": "EMAIL MARKETING",
+            "blurb": "The email marketing platform for teams who care about deliverability — send campaigns that land in the inbox, not the spam folder.",
+            "copyright": "© Postmark — email marketing",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Features", "url": { "url": "#features" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Newsletter", "url": { "url": "#newsletter" } },
+                  { "text": "Security", "url": { "url": "#features" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
