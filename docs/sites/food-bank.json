@@ -1,0 +1,236 @@
+{
+  "title": "Harvest Table — Food Bank",
+  "slug": "food-bank",
+  "kit": "food-bank",
+  "containers": [
+    {
+      "id": "fb-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HARVEST TABLE",
+            "brand_tag": "FOOD BANK",
+            "cta_text": "Find a pantry",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#work" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Neighbor words", "url": { "url": "#voices" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-21.png", "id": 409 },
+            "eyebrow": "Countywide food bank · Feeding families weekly",
+            "headline": "No one in our county should<br><em>go to bed hungry.</em>",
+            "copy": "Harvest Table rescues fresh surplus from farms, grocers, and bakeries and turns it into free weekly groceries for the neighbors who need them — with dignity, and no judgement.",
+            "primary_cta_text": "Find a pantry near you",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "Donate or volunteer",
+            "secondary_cta_url": { "url": "#give" },
+            "trust_list": [
+              { "text": "Fresh produce every week, not just canned goods" },
+              { "text": "No questions asked, no paperwork for groceries" },
+              { "text": "Free to every family, every week" },
+              { "text": "Run on volunteer power and neighbor care" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The scale of the need",
+            "title": "What we move, ",
+            "title_accent": "what we change",
+            "stats": [
+              { "value": "2.4M", "label": "Pounds of food rescued last year" },
+              { "value": "18k", "label": "Neighbors served every month" },
+              { "value": "92%", "label": "Of every dollar goes to food, not overhead" },
+              { "value": "640", "label": "Partner farms, grocers & bakeries donating" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "A full circle,",
+            "title_accent": "from farm to table",
+            "intro": "Hunger is a logistics problem with a human face. We run the logistics so the dignity can come first.",
+            "features": [
+              { "number": "01", "title": "Rescue the surplus", "text": "Our refrigerated vans collect imperfect produce, day-old bakery, and overstock from farms and grocers that would otherwise go to waste.", "detail": "640+ donor partners" },
+              { "number": "02", "title": "Sort & store", "text": "Volunteers sort and date everything in our 40,000 sq ft warehouse, keeping fresh food fresh and safe.", "detail": "Full cold chain" },
+              { "number": "03", "title": "Stock the pantries", "text": "Every week we deliver full, grocery-style distributions across 30 neighborhood pantry sites countywide.", "detail": "30+ pantry sites" },
+              { "number": "04", "title": "Serve with dignity", "text": "Families shop their own carts at a pantry, in private, no vouchers or line-ups — the way a grocery aisle should work.", "detail": "Choice, not rations" },
+              { "number": "05", "title": "Feed the kids", "text": "Weekend backpacks and school holiday packs make sure no child goes without when the cafeteria is closed.", "detail": "12k backpacks a year" },
+              { "number": "06", "title": "Grow the next meal", "text": "A small teaching farm grows fresh greens for the pantry and teaches neighbors to grow their own.", "detail": "2-acre community farm" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How to get groceries",
+            "title": "Getting help is",
+            "title_accent": "simple and private",
+            "steps": [
+              { "title": "Find a pantry", "text": "Use our site or call our helpline to find the pantry site and hours nearest you. No referral, no appointment." },
+              { "title": "Walk in & shop", "text": "Sign in with a first name only. Then shop the aisles like a grocery store — a half-cart or a full cart, your call." },
+              { "title": "Take what you need", "text": "No limits, no means test, no questions. You can come back every week. When you're ready, you simply don't need to anymore." }
+            ],
+            "note": "Groceries are free and unlimited. If you need more than the weekly cart, our staff will quietly make sure you get it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support Harvest Table",
+            "title": "A table is set",
+            "title_accent": "by neighbors like you",
+            "quote": "A community that feeds its children, its seniors, and its tired is not a community in crisis — it is one quietly taking care of its own.",
+            "verse_ref": "— Harvest Table founding note",
+            "cta_text": "Give groceries or time",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Neighbor words",
+            "title": "A full cart,",
+            "title_accent": "a lighter heart",
+            "intro": "What the people we serve want the community to know.",
+            "reviews": [
+              { "quote": "I went from being a regular donor to needing help after my hours got cut. The dignity of just walking in and choosing my own groceries — it changed how I felt about asking.", "author": "Maria T.", "role": "Pantry guest", "stars": 5 },
+              { "quote": "The weekend backpacks mean my kids eat well when school's closed, and I don't have to choose between groceries and their bus money.", "author": "DeShawn P.", "role": "Parent", "stars": 5 },
+              { "quote": "I volunteer every Saturday. Everyone is welcome here, no questions, and the produce is genuinely fresh. It's the most hopeful room in the county.", "author": "Adele R.", "role": "Volunteer", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-news",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "Stay in the loop",
+            "title": "Need-based help,",
+            "title_accent": "weekly",
+            "intro": "One short email each week with pantry hours, volunteer shifts, and what food is flowing. No guilt, no spam, unsubscribe anytime.",
+            "placeholder": "you@email.com",
+            "button_text": "Subscribe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "We're here for you",
+            "intro": "Need food, want to donate, or looking to volunteer? Tell us what you need and our small team will point you the right way.",
+            "phone": "(555) 040-2210",
+            "email": "hello@harvesttable.org",
+            "location": "118 Center Street · Pantries countywide",
+            "form_kicker": "Reach out",
+            "form_title": "We'll get right back to you",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fb-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HARVEST TABLE",
+            "brand_tag": "FOOD BANK",
+            "blurb": "A countywide food bank that rescues fresh surplus and gets it to the tables of neighbors who need it — with dignity, every week.",
+            "copyright": "© Harvest Table — food bank",
+            "columns": [
+              {
+                "heading": "Get help",
+                "links": [
+                  { "text": "Find a pantry", "url": { "url": "#contact" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "What we do", "url": { "url": "#work" } },
+                  { "text": "Neighbor words", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Support us",
+                "links": [
+                  { "text": "Give groceries or time", "url": { "url": "#give" } },
+                  { "text": "Newsletter", "url": { "url": "#newsletter" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
