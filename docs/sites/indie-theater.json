@@ -1,0 +1,236 @@
+{
+  "title": "The Velvet Curtain — Independent Theater",
+  "slug": "indie-theater",
+  "kit": "indie-theater",
+  "containers": [
+    {
+      "id": "vc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE VELVET",
+            "brand_tag": "CURTAIN",
+            "cta_text": "Get tickets",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "This season", "url": { "url": "#shows" } },
+              { "text": "The house", "url": { "url": "#impact" } },
+              { "text": "Gallery", "url": { "url": "#gallery" } },
+              { "text": "Membership", "url": { "url": "#membership" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-33.png", "id": 0 },
+            "eyebrow": "Independent theater · 120 seats · Est. 2009",
+            "headline": "Stories that stay with you<br><em>long after the house lights come up.</em>",
+            "copy": "The Velvet Curtain is a 120-seat independent theater in the old warehouse district — new plays, bold revivals, and a stage that belongs to the neighborhood.",
+            "primary_cta_text": "See what's on",
+            "primary_cta_url": { "url": "#shows" },
+            "secondary_cta_text": "Become a member",
+            "secondary_cta_url": { "url": "#membership" },
+            "trust_list": [
+              { "text": "120 seats — no bad seat in the house" },
+              { "text": "New plays and bold revivals all season" },
+              { "text": "Pay-what-you-can previews every Thursday" },
+              { "text": "A stage that belongs to the neighborhood" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The house in numbers",
+            "title": "A small stage with",
+            "title_accent": "a big reach",
+            "stats": [
+              { "value": "120", "label": "Seats, every one a good one" },
+              { "value": "14", "label": "Productions a year, from new plays to revivals" },
+              { "value": "38k", "label": "Audience members through our doors annually" },
+              { "value": "60+", "label": "Local artists, writers & crew we employ each season" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-shows",
+      "content_width": "full",
+      "settings": { "_element_id": "shows" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "This season",
+            "title": "What's on the",
+            "title_accent": "Velvet stage",
+            "intro": "From world premieres to reimagined classics, our season is built on risk, craft, and the kind of stories you won't see anywhere else in the city.",
+            "features": [
+              { "number": "01", "title": "The Glass Orchard", "text": "A world premiere about three sisters who inherit a failing orchard and the secrets buried beneath it. A tender, funny, quietly devastating new play.", "detail": "World premiere · Main stage" },
+              { "number": "02", "title": "Midnight at the Meridian", "text": "A noir revival set in a 1950s hotel lobby where a night clerk, a missing guest, and a suitcase full of letters collide. Style, wit, and a twist you won't see coming.", "detail": "Revival · Main stage" },
+              { "number": "03", "title": "The Second Floor", "text": "A devised ensemble piece built from real interviews with the building's former residents — a love letter to the people who lived above the shops.", "detail": "Devised · Studio space" },
+              { "number": "04", "title": "Salt & Ash", "text": "A two-hander about a lighthouse keeper and the stranger who washes ashore. Minimal set, maximal feeling — the kind of play that fills a room with silence.", "detail": "Two-hander · Studio space" },
+              { "number": "05", "title": "The Neighborhood Play", "text": "Our annual community production, written and performed with local residents. This year: the story of the warehouse district's own transformation.", "detail": "Community · Main stage" },
+              { "number": "06", "title": "Late-Night Improv", "text": "Every Friday after the show, our resident troupe takes the stage with nothing but a suggestion from the audience. Unscripted, unrepeatable, unmissable.", "detail": "Weekly · The Velvet Bar" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "countdown" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Opening night",
+            "title": "The Glass Orchard",
+            "title_accent": "opens in",
+            "end": "2026-09-18 19:30",
+            "expired_text": "The Glass Orchard is now playing — get your tickets before the run sells out."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the house",
+            "title": "Moments from",
+            "title_accent": "the Velvet stage",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-33.png", "id": 0 }, "label": "Opening night", "alt": "The main stage lit in warm amber as the curtain rises" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-33.png", "id": 0 }, "label": "The studio space", "alt": "An intimate black-box studio set for a two-hander" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-33.png", "id": 0 }, "label": "The Velvet Bar", "alt": "Audience members gathered in the warm, wood-paneled bar after a show" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "In their words",
+            "title": "What audiences",
+            "title_accent": "keep saying",
+            "intro": "From first-timers to season subscribers, here's what people say after the lights come up.",
+            "reviews": [
+              { "quote": "I came for a date night and left with a new favorite place in the city. The Glass Orchard made me cry in the best way — I've already booked again.", "author": "M. Delgado", "role": "First-time visitor", "stars": 5 },
+              { "quote": "The Velvet Curtain is the reason I still believe in live theater. Every production feels hand-made, cared for, and completely alive.", "author": "R. Osei", "role": "Season subscriber", "stars": 5 },
+              { "quote": "As a playwright, having a house that will actually stage new work is everything. They took a risk on my play and gave it a home.", "author": "J. Whitmore", "role": "Playwright", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-membership",
+      "content_width": "full",
+      "settings": { "_element_id": "membership" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Join the house",
+            "title": "Become a",
+            "title_accent": "Velvet member",
+            "quote": "Membership isn't just a ticket — it's a stake in the kind of theater that takes risks, tells real stories, and keeps the lights on for the neighborhood.",
+            "verse_ref": "— The Velvet Curtain membership note",
+            "cta_text": "Become a member",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Tickets, memberships,",
+            "title_accent": "or just to say hello",
+            "intro": "Whether you want tickets, to join the membership, or to bring your own work to our stage, we'd love to hear from you.",
+            "phone": "(555) 031-8820",
+            "email": "hello@velvetcurtain.org",
+            "location": "The Velvet Curtain · 8 Warehouse Row",
+            "form_kicker": "Reach the box office",
+            "form_title": "We'll get you sorted",
+            "submit_cta": "Send a message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE VELVET",
+            "brand_tag": "CURTAIN",
+            "blurb": "A 120-seat independent theater in the old warehouse district — new plays, bold revivals, and a stage that belongs to the neighborhood.",
+            "copyright": "© The Velvet Curtain — independent theater",
+            "columns": [
+              {
+                "heading": "The house",
+                "links": [
+                  { "text": "This season", "url": { "url": "#shows" } },
+                  { "text": "The house in numbers", "url": { "url": "#impact" } },
+                  { "text": "Gallery", "url": { "url": "#gallery" } },
+                  { "text": "In their words", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Membership", "url": { "url": "#membership" } },
+                  { "text": "Tickets", "url": { "url": "#contact" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
