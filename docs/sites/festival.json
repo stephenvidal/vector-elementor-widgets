@@ -214,7 +214,7 @@
                 "heading": "The festival",
                 "links": [
                   { "text": "What to expect", "url": { "url": "#festival" } },
-                  { "text": "Lineup", "url": { "url": "#lineup" } },
+                  { "text": "Lineup", "url": { "url": "#festival" } },
                   { "text": "Schedule", "url": { "url": "#schedule" } },
                   { "text": "Gallery", "url": { "url": "#gallery" } }
                 ]
