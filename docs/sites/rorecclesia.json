@@ -1,6 +1,7 @@
 {
   "title": "Realms of Revelation Ecclesia — Myrtle Beach",
   "slug": "rorecclesia",
+  "kit": "rorecclesia",
   "containers": [
     {
       "id": "rchdr",
@@ -108,8 +109,7 @@
               }
             ],
             "hero_background_image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero_v2.webp",
-              "id": 220
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-37.png"
             }
           }
         }

@@ -1,6 +1,14 @@
 {
   "title": "Hearth & Crumb",
   "slug": "hearth-crumb",
+  "kit": "hearth-crumb",
+  "services": {
+    "tab_labels": [
+      { "key": "design", "label": "Bakery" },
+      { "key": "build", "label": "Cafe" },
+      { "key": "launch", "label": "Catering" }
+    ]
+  },
   "containers": [
     {
       "id": "hchdr",
@@ -102,8 +110,8 @@
               }
             ],
             "hero_background_image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-4.webp",
-              "id": 180
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-39.png",
+              "id": 686
             }
           }
         }

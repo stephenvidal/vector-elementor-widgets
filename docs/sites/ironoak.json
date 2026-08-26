@@ -1,6 +1,7 @@
 {
   "title": "Iron & Oak",
   "slug": "ironoak",
+  "kit": "ironoak",
   "containers": [
     {
       "id": "iohdr",
@@ -108,8 +109,7 @@
               }
             ],
             "hero_background_image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-5.webp",
-              "id": 194
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-36.png"
             }
           }
         }
@@ -200,8 +200,7 @@
           "type": "vew-split",
           "settings": {
             "image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/coach.webp",
-              "id": 196
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/coach-1.webp"
             },
             "image_caption": "Representative coaching image",
             "eyebrow": "Coached, not crowded",
@@ -278,32 +277,28 @@
             "images": [
               {
                 "url": {
-                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g1-4.webp",
-                  "id": 195
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g1-7.webp"
                 },
                 "alt": "Barbell platforms and racks in a clean, open training space",
                 "label": "Strength floor"
               },
               {
                 "url": {
-                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g2-4.webp",
-                  "id": 199
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g2-7.webp"
                 },
                 "alt": "A coach guiding an athlete through a movement",
                 "label": "Coaching"
               },
               {
                 "url": {
-                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g3-4.webp",
-                  "id": 198
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g3-6.webp"
                 },
                 "alt": "Conditioning circuit with kettlebells and rowers",
                 "label": "Conditioning"
               },
               {
                 "url": {
-                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g4-3.webp",
-                  "id": 197
+                  "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g4-4.webp"
                 },
                 "alt": "Members training together in a small-group session",
                 "label": "Community"

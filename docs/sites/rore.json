@@ -1,6 +1,7 @@
 {
   "title": "Realms of Revelation Ecclesia",
   "slug": "rore",
+  "kit": "rore",
   "containers": [
     {
       "id": "rohdr",
@@ -102,8 +103,8 @@
               }
             ],
             "hero_background_image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-6.webp",
-              "id": 207
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-36-3.png",
+              "id": 597
             }
           }
         }

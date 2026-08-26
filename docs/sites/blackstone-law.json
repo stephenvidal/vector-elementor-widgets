@@ -1,6 +1,7 @@
 {
   "title": "Blackstone & Hale",
   "slug": "blackstone-law",
+  "kit": "blackstone-law",
   "containers": [
     {
       "id": "blkheader",
@@ -102,8 +103,7 @@
               }
             ],
             "hero_background_image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-2.webp",
-              "id": 154
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-38.png"
             }
           }
         }

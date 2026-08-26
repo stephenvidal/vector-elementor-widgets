@@ -1,6 +1,12 @@
 {
   "title": "Ember & Oak",
   "slug": "ember-oak",
+  "kit": "ember-oak",
+  "tab_labels": [
+    { "key": "design", "label": "Menu" },
+    { "key": "build", "label": "Visit" },
+    { "key": "launch", "label": "Events" }
+  ],
   "containers": [
     {
       "id": "eohdr",
@@ -102,8 +108,8 @@
               }
             ],
             "hero_background_image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-3.webp",
-              "id": 168
+              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-40.png",
+              "id": 780
             }
           }
         }
