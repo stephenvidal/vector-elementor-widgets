@@ -1,0 +1,255 @@
+{
+  "title": "The Ivory Gate — Vue & Reception Hall",
+  "slug": "wedding-venue",
+  "kit": "wedding-venue",
+  "containers": [
+    {
+      "id": "ig-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE IVORY GATE",
+            "brand_tag": "VUE & RECEPTION HALL",
+            "cta_text": "Book a tour",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "The Spaces", "url": { "url": "#spaces" } },
+              { "text": "Packages", "url": { "url": "#packages" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Gallery", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-28.png", "id": 0 },
+            "eyebrow": "Wedding venue & reception hall · Est. 2016",
+            "headline": "The day you'll relive forever,<br><em>held in the perfect room.</em>",
+            "copy": "The Ivory Gate is an intimate wedding venue and reception hall — a light-filled barn of glass, oak, and gardens where your vows get the space they deserve.",
+            "primary_cta_text": "Book a tour",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "View the spaces",
+            "secondary_cta_url": { "url": "#spaces" },
+            "trust_list": [
+              { "text": "One all-inclusive venue, ceremony to send-off" },
+              { "text": "Light-filled glass barn for up to 140 guests" },
+              { "text": "In-house catering, florals, and coordination" },
+              { "text": "Weddings held here 340+ times, flawlessly" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The venue in numbers",
+            "title": "Built for your",
+            "title_accent": "once-in-a-lifetime day",
+            "stats": [
+              { "value": "140", "label": "Guests, seated comfortably ceremony-to-dance" },
+              { "value": "340+", "label": "Weddings hosted since we opened in 2016" },
+              { "value": "12h", "label": "Reception window — your day, unhurried" },
+              { "value": "1", "label": "Space you never have to leave from vows to last dance" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "spaces" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What The Ivory Gate offers",
+            "title": "Everything in one place,",
+            "title_accent": "nothing to coordinate",
+            "intro": "We built this venue so you plan one wedding, not twenty vendors. Ceremony, cocktails, dinner, and dancing — all under one roof, all handled by one trusted team.",
+            "features": [
+              { "number": "01", "title": "Glass-barn ceremony space", "text": "An oak-and-glass pavilion flooded with afternoon light, with a clear aisle that frames your vows against the gardens.", "detail": "Indoor ceremony, weather-proof" },
+              { "number": "02", "title": "Grand reception hall", "text": "Seats 140 with a built-in dance floor, draped ceilings, and warm pendant lighting that shifts from daylight to candlelight.", "detail": "Seating for up to 140 guests" },
+              { "number": "03", "title": "In-house catering", "text": "A seasonal menu crafted by our own chefs, from passed hors d'oeuvres to a plated dinner — with tastings included in every package.", "detail": "Seasonal menus, tastings included" },
+              { "number": "04", "title": "On-site coordination", "text": "A dedicated coordinator owns your timeline from rehearsal to send-off, so your family and friends can be guests, not staff.", "detail": "Dedicated coordinator, day-of" },
+              { "number": "05", "title": "Garden photo moments", "text": "Manicured lawns, an old stone arch, and a weeping willow give you a dozen backdrops within a two-minute walk of the hall.", "detail": "Private gardens, 6 acres" },
+              { "number": "06", "title": "Getting-ready suites", "text": "Two light-filled bridal and groom suites with mirrors, refreshments, and enough space for your whole party to gather before the aisle.", "detail": "Private suites for both sides" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-services",
+      "content_width": "full",
+      "settings": { "_element_id": "packages" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Packages to fit your day",
+            "title": "Three ways to",
+            "title_accent": "celebrate with us",
+            "intro": "Every package includes the venue, catering, and a coordinator. Choose the level of polish that fits your vision — we'll handle the rest.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Garden Ceremony" },
+              { "key": "build", "label": "Full Reception" },
+              { "key": "launch", "label": "Weekend Wedding" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Garden ceremony package", "text": "The glass pavilion, ceremony styling, an officiant, and sparkling-wine toast — for intimate vows of up to 60 guests." },
+              { "icon": "◈", "title": "Intimate dinner", "text": "A plated three-course dinner for your closest circle in the smaller oak room, with candlelight and garden views." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Full reception package", "text": "The grand hall, in-house catering, bar service, dance floor, and day-of coordination — the complete celebration for up to 140." },
+              { "icon": "⚑", "title": "Flowers & styling", "text": "Our floral team builds the centerpieces, aisle décor, and arch arrangement to match your palette exactly." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Weekend wedding", "text": "Take over the whole estate Friday to Sunday — rehearsal dinner, ceremony, reception, and a farewell brunch, all yours." },
+              { "icon": "✦", "title": "Multi-day guest experience", "text": "On-site cottage stays for your party, lawn games, and a guided garden walk the morning after for lingering guests." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From first tour to",
+            "title_accent": "your last dance",
+            "steps": [
+              { "title": "Tour", "text": "Walk the gardens, stand in the glass pavilion, and picture your day. We'll answer every question — no pressure, no scripts." },
+              { "title": "Book", "text": "Reserve your date with a small deposit. Your coordinator and a tasting are scheduled, and the room is yours." },
+              { "title": "Plan", "text": "Choose your menu, florals, and timeline. We guide you through each choice and keep everything on track." },
+              { "title": "Celebrate", "text": "Show up and enjoy it. Our team runs the entire day seamlessly, so you're never pulled away from your people or your moment." }
+            ],
+            "note": "Most couples book within two weeks of their first tour. Dates for peak season fill six to ten months ahead — reach out early to hold yours."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "The spaces",
+            "title": "A glimpse of",
+            "title_accent": "your day",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-28.png", "id": 0 }, "label": "The glass pavilion at golden hour", "alt": "A light-filled oak and glass wedding pavilion at golden hour" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-28.png", "id": 0 }, "label": "The grand reception hall dressed for dinner", "alt": "An elegant reception hall with draped ceilings and candlelight" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-28.png", "id": 0 }, "label": "The gardens before the ceremony", "alt": "A manicured garden with an old stone arch and willow tree" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Couples, in their words",
+            "title": "The day we",
+            "title_accent": "still think about",
+            "intro": "What our couples say long after the last dance.",
+            "reviews": [
+              { "quote": "We planned everything long-distance and our coordinator handled it all. On the day, we didn't lift a finger — we just got married in the most beautiful room I've ever stood in.", "author": "Amelia & James", "role": "Married June 2025", "stars": 5 },
+              { "quote": "The tasting alone sold us. Our guests still talk about the dinner, and the way the hall looked at candlelight made me cry before the speeches even started.", "author": "Priya & Daniel", "role": "Married September 2025", "stars": 5 },
+              { "quote": "One space for everything meant our 90-year-old grandmother never had to drive between venues. Everyone was together all day, and that was the whole point.", "author": "Rosa & Tom", "role": "Married May 2025", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Plan your day with us",
+            "title": "Come see the Ivory Gate",
+            "intro": "Book a private tour, ask about open dates, or start planning your celebration. We'll take it from there — gently.",
+            "phone": "(555) 022-6140",
+            "email": "hello@theivorygate.com",
+            "location": "6 Acres · Willow Lane, Meadowbrook",
+            "form_kicker": "Request a tour",
+            "form_title": "Let's find your date",
+            "submit_cta": "Book my tour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ig-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE IVORY GATE",
+            "brand_tag": "VUE & RECEPTION HALL",
+            "blurb": "An intimate wedding venue and reception hall — a light-filled barn of glass, oak, and gardens where your vows get the space they deserve.",
+            "copyright": "© The Ivory Gate — vue & reception hall",
+            "columns": [
+              {
+                "heading": "Venue",
+                "links": [
+                  { "text": "The spaces", "url": { "url": "#spaces" } },
+                  { "text": "Packages", "url": { "url": "#packages" } },
+                  { "text": "Gallery", "url": { "url": "#gallery" } },
+                  { "text": "Book a tour", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Plan",
+                "links": [
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Our couples", "url": { "url": "#reviews" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
