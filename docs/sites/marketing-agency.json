@@ -1,0 +1,254 @@
+{
+  "title": "Signal & Co. — Marketing Agency",
+  "slug": "marketing-agency",
+  "kit": "marketing-agency",
+  "containers": [
+    {
+      "id": "ma-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "SIGNAL & CO.",
+            "brand_tag": "MARKETING AGENCY",
+            "cta_text": "Get a growth plan",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#services" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "Work", "url": { "url": "#work" } },
+              { "text": "The team", "url": { "url": "#team" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-20.png", "id": 404 },
+            "eyebrow": "Full-service marketing agency · Revenue-driven, not vanity-driven",
+            "headline": "Marketing that actually<br><em>moves the number.</em>",
+            "copy": "Brand, paid, content, and web — run as one revenue engine. We take the metrics that flatter you off the table and replace them with ones that matter: pipeline, bookings, and ROI.",
+            "primary_cta_text": "Get your growth plan",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See our work",
+            "secondary_cta_url": { "url": "#work" },
+            "trust_list": [
+              { "text": "Senior strategists, not juniors" },
+              { "text": "Tied to your revenue, not our hours" },
+              { "text": "Full-stack: brand to paid to web" },
+              { "text": "Transparent reporting, no spin" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The scoreboard we're judged on",
+            "title": "Growth we can prove,",
+            "title_accent": "not promises",
+            "stats": [
+              { "value": "$340M", "label": "Client revenue attributed to our campaigns" },
+              { "value": "3.2x", "label": "Average return on ad spend across accounts" },
+              { "value": "120+", "label": "Brands grown since we opened" },
+              { "value": "38%", "label": "Average lift in qualified pipeline, year one" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Three disciplines,",
+            "title_accent": "one revenue engine",
+            "intro": "Most agencies are good at one thing. We're built to run the whole loop — so brand, demand, and web actually reinforce each other instead of fighting.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Brand" },
+              { "key": "build", "label": "Demand" },
+              { "key": "launch", "label": "Growth" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Brand strategy & identity", "text": "Positioning, messaging, and a visual system your market actually recognizes — built on research, not taste." },
+              { "icon": "◈", "title": "Messaging & voice", "text": "The words you use to win. We define the voice that carries through every page, post, and pitch." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Paid media", "text": "Search, social, and programmatic run on a strict CAC discipline. We scale what pays for itself and kill what doesn't." },
+              { "icon": "⚑", "title": "Content & SEO", "text": "Assets that compound. We build the search and content engine that keeps qualified demand coming without renting it." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Web & conversion", "text": "Landing pages and sites engineered to convert — fast, on-brand, and tested against real visitor behavior." },
+              { "icon": "✦", "title": "Lifecycle & retention", "text": "Email, nurture, and onboarding that turn first buyers into repeat revenue instead of one-and-done." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A process built on",
+            "title_accent": "accountability",
+            "steps": [
+              { "title": "Diagnose", "text": "We audit your funnel, your brand, and your data — and tell you where the leak is before we recommend spending a dollar." },
+              { "title": "Strategize", "text": "A plan with a target, a budget, and a projection. You see the thesis and the math before we commit anything." },
+              { "title": "Execute", "text": "Brand, paid, content, and web run in one cadence. Weekly standups, no black-box reporting." },
+              { "title": "Optimize", "text": "We reallocate to what's working every month and hold ourselves to the number we promised — not a pretty chart." }
+            ],
+            "note": "Most engagements see a measurable lift in qualified pipeline within the first quarter. We stay on as long as we're earning the retainer."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "Selected work",
+            "title": "Real brands,",
+            "title_accent": "measurable results",
+            "intro": "A cross-section of recent engagements — each a different market, each with a number attached.",
+            "items": [
+              { "title": "Halstead Financial", "tag": "Fintech · Demand gen", "text": "Rebuilt the funnel and ran paid. 2.8x ROAS, CAC down 31% in two quarters.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" },
+              { "title": "Morrow & Sons", "tag": "B2B manufacturing · Brand", "text": "A full rebrand and new web presence that lifted inbound demo requests 64%.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" },
+              { "title": "Solace Wellness", "tag": "Health & wellness · Retention", "text": "Lifecycle program that raised repeat-purchase rate from 22% to 41%.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-team",
+      "content_width": "full",
+      "settings": { "_element_id": "team" },
+      "widgets": [
+        {
+          "type": "vew-team-grid",
+          "settings": {
+            "eyebrow": "The team",
+            "title": "Senior people,",
+            "title_accent": "not a bench",
+            "intro": "The strategists you meet on the pitch are the ones running your account. No bait-and-switch staffing.",
+            "columns": "3",
+            "members": [
+              { "name": "Priya Anand", "role": "Founding Partner, Brand", "bio": "Two decades across agency and in-house brand. Turns fuzzy positioning into a voice the market remembers.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Theo Marchetti", "role": "Partner, Performance", "bio": "Former growth lead at a DTC unicorn. Runs paid and analytics with a strict 'show me the CAC' rule.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Lena Kowalski", "role": "Partner, Web & Conversion", "bio": "Designs and builds the pages that convert. Tests relentlessly, ships fast, and sweats the CRO details.", "twitter": { "url": "" }, "linkedin": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client words",
+            "title": "The number",
+            "title_accent": "they care about",
+            "intro": "What marketing leaders say after a quarter (or three) with Signal & Co.",
+            "reviews": [
+              { "quote": "We'd burned money on two agencies that gave us impressions. Signal tied every dollar to booked demos, and within a quarter our CAC was actually down while the pipeline grew.", "author": "R. Hale", "role": "CMO, B2B SaaS", "stars": 5 },
+              { "quote": "The rebrand was the easy part — they fixed the whole funnel around it. Our demo requests jumped 64% and stayed there.", "author": "G. Morrow", "role": "Managing Director, manufacturing", "stars": 5 },
+              { "quote": "Finally an agency that shows up with numbers in the room. Their lifecycle program is the single best marketing decision we've made.", "author": "S. Quinn", "role": "Head of Growth, wellness", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "Let's talk about the number",
+            "intro": "Tell us your growth target. We'll come back with an honest read on what's achievable, what it costs, and whether we're the right fit.",
+            "phone": "(555) 031-8820",
+            "email": "hello@signaland.co",
+            "location": "One Market Street · By appointment",
+            "form_kicker": "Get a growth read",
+            "form_title": "Start the conversation",
+            "submit_cta": "Request a call"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ma-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "SIGNAL & CO.",
+            "brand_tag": "MARKETING AGENCY",
+            "blurb": "A full-service marketing agency that ties every dollar to revenue you can measure — brand, demand, and web run as one engine.",
+            "copyright": "© Signal & Co. — marketing agency",
+            "columns": [
+              {
+                "heading": "What we do",
+                "links": [
+                  { "text": "Brand", "url": { "url": "#services" } },
+                  { "text": "Demand", "url": { "url": "#services" } },
+                  { "text": "Growth", "url": { "url": "#services" } },
+                  { "text": "How we work", "url": { "url": "#how" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Selected work", "url": { "url": "#work" } },
+                  { "text": "The team", "url": { "url": "#team" } },
+                  { "text": "Client words", "url": { "url": "#reviews" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
