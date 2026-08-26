@@ -1,0 +1,259 @@
+{
+  "title": "Keystone Structural — Structural Engineering",
+  "slug": "engineering",
+  "kit": "engineering",
+  "containers": [
+    {
+      "id": "en-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "KEYSTONE",
+            "brand_tag": "STRUCTURAL",
+            "cta_text": "Request a review",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Disciplines", "url": { "url": "#disciplines" } },
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "Process", "url": { "url": "#process" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-61.png", "id": 1238 },
+            "eyebrow": "Structural engineering · Commercial, industrial & civic",
+            "headline": "The load path,<br><em>proven before it's poured.</em>",
+            "copy": "Keystone Structural designs the bones of buildings — steel, concrete, timber, and masonry — and proves every load path with analysis before a single foundation is poured.",
+            "primary_cta_text": "Request a structural review",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See our disciplines",
+            "secondary_cta_url": { "url": "#disciplines" },
+            "trust_list": [
+              { "text": "Licensed structural engineers in 14 states" },
+              { "text": "Full analysis: gravity, wind, seismic, and lateral" },
+              { "text": "Peer-reviewed calculations on every project" },
+              { "text": "Construction-phase support through final inspection" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The firm in numbers",
+            "title": "Structures that",
+            "title_accent": "hold their ground",
+            "stats": [
+              { "value": "38", "label": "Years of structural engineering practice" },
+              { "value": "1,200+", "label": "Buildings designed and certified" },
+              { "value": "0", "label": "Structural failures across our portfolio" },
+              { "value": "96%", "label": "Of projects delivered on the original schedule" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-approach",
+      "content_width": "full",
+      "settings": { "_element_id": "approach" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "How we engineer every structure",
+            "title": "Analysis that",
+            "title_accent": "earns its weight",
+            "intro": "We don't guess at strength. Every member, connection, and foundation is sized by calculation and checked by a second engineer before it leaves our office.",
+            "features": [
+              { "number": "01", "title": "Load-path clarity", "text": "We trace every load — dead, live, snow, wind, and seismic — from the roof down to the soil, so nothing is left to assumption and nothing is overbuilt.", "detail": "Every load traced roof to bedrock" },
+              { "number": "02", "title": "Steel & connection design", "text": "From moment frames to trusses, we design steel members and their connections to be strong, simple, and economical to fabricate and erect.", "detail": "Moment frames, trusses, and braces" },
+              { "number": "03", "title": "Concrete & foundations", "text": "We size footings, slabs, and retaining walls against real soil reports, and design reinforced concrete that performs under both gravity and lateral forces.", "detail": "Footings, slabs, and retaining walls" },
+              { "number": "04", "title": "Seismic & wind resilience", "text": "In high-seismic and high-wind regions we model the lateral system explicitly, so the building sways safely and stays upright when the ground moves.", "detail": "Lateral systems modeled explicitly" },
+              { "number": "05", "title": "Timber & masonry", "text": "We engineer wood-framed and masonry structures with the same rigor as steel — checking bearing, deflection, and fire-rated assemblies.", "detail": "Wood, masonry, and hybrid systems" },
+              { "number": "06", "title": "Construction support", "text": "Our engineers stay on the job through shoring, erection, and final inspection, answering RFIs and resolving field conditions before they become change orders.", "detail": "On-site through final inspection" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Disciplines we practice",
+            "title": "One firm,",
+            "title_accent": "every structural system",
+            "intro": "Whatever your building is made of, Keystone has an engineer who has designed it before — and a second engineer who checked the math.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Steel" },
+              { "key": "build", "label": "Concrete" },
+              { "key": "launch", "label": "Timber & Masonry" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Structural steel frames", "text": "Moment frames, braced frames, and trusses for warehouses, offices, and industrial buildings — designed for strength and economy." },
+              { "icon": "◈", "title": "Connection design & detailing", "text": "Shop-ready connection details that fabricators can build without guesswork, reducing RFIs and erection delays." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Reinforced concrete", "text": "Footings, slabs, columns, and shear walls sized against real soil and load data, with clear rebar schedules for the field." },
+              { "icon": "⚑", "title": "Foundations & retaining", "text": "Shallow and deep foundations, retaining walls, and below-grade waterproofing details that keep the structure stable and dry." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Timber engineering", "text": "Glulam, CLT, and light-frame wood systems engineered for bearing, deflection, and fire-rated performance." },
+              { "icon": "✦", "title": "Masonry & hybrid", "text": "Load-bearing masonry and mixed steel-timber-concrete systems, coordinated across trades for a buildable whole." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How a project is engineered",
+            "title": "From sketch to",
+            "title_accent": "certified structure",
+            "intro": "A disciplined, documented path from first review to a sealed, buildable structure.",
+            "steps": [
+              { "title": "Review", "text": "We start with your drawings, the soil report, and the governing code. We flag the load paths and the questions that need answering before we model anything." },
+              { "title": "Model", "text": "We build a structural model of the building and run the full load cases — gravity, wind, seismic, and combinations — to see where the forces actually go." },
+              { "title": "Design", "text": "Members and connections are sized by calculation, then checked by a second engineer. We optimize for strength, cost, and buildability together." },
+              { "title": "Document", "text": "You get clear structural drawings, schedules, and a sealed calculation set that a contractor can build from and a reviewer can approve." },
+              { "title": "Support", "text": "We stay on site through shoring, erection, and final inspection — answering RFIs and resolving field conditions before they become change orders." }
+            ],
+            "note": "Most of our work comes from contractors and architects who say the same thing: Keystone's drawings build clean, and the math is right the first time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What our clients say",
+            "title": "Trusted with",
+            "title_accent": "the load-bearing decisions",
+            "intro": "Architects, contractors, and owners rely on our calculations to keep their projects safe, on schedule, and on budget.",
+            "reviews": [
+              { "quote": "Keystone's connection details went to the fabricator and came back with almost no RFIs. On a 40,000-square-foot steel building, that saved us weeks.", "author": "Dana Whitfield", "role": "General Contractor", "stars": 5 },
+              { "quote": "They caught a lateral-load issue in our schematic that two other firms had missed. It cost a small redesign up front and saved the whole project later.", "author": "Marcus Osei", "role": "Architect, principal", "stars": 5 },
+              { "quote": "The calculations were peer-reviewed, the drawings were clear, and the building passed inspection without a single structural finding. That's rare.", "author": "Priya Raman", "role": "Facilities Director", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Straight answers,",
+            "title_accent": "no structural jargon",
+            "intro": "The questions owners and architects ask us most before they engage a structural engineer.",
+            "items": [
+              { "question": "When do I need a structural engineer?", "answer": "Any time a building is new, altered, or changing use — and often when you're adding a load like a rooftop unit or a mezzanine. If you're not sure, a quick review is cheap insurance." },
+              { "question": "Do you work with our architect or contractor?", "answer": "Yes. We coordinate directly with your architect and contractor, and we're used to being brought in at any stage — from early schematic to a field condition mid-construction." },
+              { "question": "What do your deliverables include?", "answer": "Structural drawings, member and connection schedules, a sealed calculation set, and construction-phase support. You get everything a contractor needs to build and a reviewer needs to approve." },
+              { "question": "How do you handle seismic and wind?", "answer": "We model the lateral system explicitly for your region's code requirements, so the building sways safely and stays upright under the design ground motion and wind load." },
+              { "question": "How are you different from a drafting service?", "answer": "A drafting service draws what you ask for. We engineer it — we size every member by calculation, check it with a second engineer, and seal it. The math is the product." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Start the conversation",
+            "title": "Let's check your structure",
+            "intro": "Whether you're designing a new building or reviewing an existing one, we'd be glad to review your drawings and give you an honest read on the structural work required.",
+            "phone": "(555) 731-2290",
+            "email": "eng@keystonestructural.com",
+            "location": "12 Girder Row · Industrial District",
+            "form_kicker": "Structural inquiry",
+            "form_title": "Tell us about the structure you're building",
+            "submit_cta": "Request a structural review"
+          }
+        }
+      ]
+    },
+    {
+      "id": "en-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "KEYSTONE",
+            "brand_tag": "STRUCTURAL",
+            "blurb": "A structural engineering firm that designs the bones of buildings — steel, concrete, timber, and masonry — and proves every load path with analysis before a single foundation is poured.",
+            "copyright": "© Keystone Structural",
+            "columns": [
+              {
+                "heading": "Disciplines",
+                "links": [
+                  { "text": "Our approach", "url": { "url": "#approach" } },
+                  { "text": "Services", "url": { "url": "#services" } },
+                  { "text": "The process", "url": { "url": "#process" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Engage",
+                "links": [
+                  { "text": "Client voices", "url": { "url": "#reviews" } },
+                  { "text": "Request a review", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
