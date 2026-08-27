@@ -1,0 +1,243 @@
+{
+  "title": "Northlight Pictures — Independent Film Studio",
+  "slug": "film-studio",
+  "kit": "film-studio",
+  "containers": [
+    {
+      "id": "nl-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "NORTHLIGHT",
+            "brand_tag": "PICTURES",
+            "cta_text": "Start a project",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Our films", "url": { "url": "#films" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "The studio", "url": { "url": "#studio" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-71.png", "id": 0 },
+            "eyebrow": "Independent film studio · Est. 2012",
+            "headline": "Stories that<br><em>outlast the credits.</em>",
+            "copy": "Northlight Pictures is an independent studio crafting character-driven features and documentaries. From the first draft to the final cut, we keep the whole process under one roof — so the story never gets lost in the machine.",
+            "primary_cta_text": "See our films",
+            "primary_cta_url": { "url": "#films" },
+            "secondary_cta_text": "Start a project",
+            "secondary_cta_url": { "url": "#contact" },
+            "trust_list": [
+              { "text": "A studio, not a service — we develop our own slate" },
+              { "text": "12 features and 30+ shorts in 14 years" },
+              { "text": "Films screened at 40+ festivals worldwide" },
+              { "text": "In-house writing, production, and post" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The studio in numbers",
+            "title": "Fourteen years of",
+            "title_accent": "telling it right",
+            "stats": [
+              { "value": "12", "label": "Feature films produced since 2012" },
+              { "value": "40+", "label": "Festival selections, from Sundance to Locarno" },
+              { "value": "18", "label": "Awards for writing, directing, and craft" },
+              { "value": "9", "label": "Full-time filmmakers under one roof" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-films",
+      "content_width": "full",
+      "settings": { "_element_id": "films" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Our films",
+            "title": "A slate we're",
+            "title_accent": "proud to sign",
+            "intro": "We make the films we'd want to see — quiet, precise, and unafraid of a hard question. Here's a look at what's come out of the studio.",
+            "features": [
+              { "number": "01", "title": "The Long Winter", "text": "A lighthouse keeper's daughter returns to the island she fled, only to find the storm she left behind was never the weather. Our most awarded feature to date.", "detail": "Drama · 2023 · 104 min" },
+              { "number": "02", "title": "Salt & Cedar", "text": "Two brothers inherit a failing boatyard and a debt neither can name. A quiet study of inheritance, pride, and the cost of holding on.", "detail": "Drama · 2021 · 98 min" },
+              { "number": "03", "title": "The Cartographer's Wife", "text": "A documentary following a woman who has spent thirty years mapping the last unmapped coastline in the world — and what she's leaving behind.", "detail": "Documentary · 2019 · 88 min" },
+              { "number": "04", "title": "Low Tide", "text": "A coming-of-age story set over one summer on a shrinking fishing town, where a teenage diver finds more than he was looking for.", "detail": "Drama · 2017 · 92 min" },
+              { "number": "05", "title": "The Glasshouse", "text": "A botanist and a thief collide in a derelict Victorian conservatory. A two-hander about trust, told almost entirely in one room.", "detail": "Drama · 2015 · 90 min" },
+              { "number": "06", "title": "North of Nowhere", "text": "Our debut — a road film about a father and daughter driving the length of a country neither of them calls home anymore.", "detail": "Drama · 2012 · 96 min" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From first draft to",
+            "title_accent": "final cut",
+            "steps": [
+              { "title": "Develop", "text": "It starts with a script we believe in. We develop our own slate in-house, working the story until it's ready to stand on its own." },
+              { "title": "Finance & plan", "text": "We build a realistic budget and schedule, then bring in partners who care about the film as much as the return." },
+              { "title": "Produce", "text": "Small, trusted crews. We shoot with intention — every scene earns its place, every day is planned to protect the story." },
+              { "title": "Post & release", "text": "Editing, sound, and grade in our own suite. Then we take the film to festivals, distributors, and the audiences it was made for." }
+            ],
+            "note": "Most features move from greenlight to festival premiere in 18–24 months. We keep the team small so the vision stays intact from page to screen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the studio",
+            "title": "Where the",
+            "title_accent": "work happens",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-71.png", "id": 0 }, "label": "On set", "alt": "A film crew on a dimly lit set, camera and lights arranged around a single actor" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-71.png", "id": 0 }, "label": "The edit suite", "alt": "A dark editing suite with a color-grading monitor and a timeline on screen" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-71.png", "id": 0 }, "label": "The sound stage", "alt": "A quiet sound stage with boom mics and acoustic panels, ready for a dialogue scene" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-video",
+      "content_width": "full",
+      "settings": { "_element_id": "video" },
+      "widgets": [
+        {
+          "type": "vew-video-embed",
+          "settings": {
+            "eyebrow": "Watch",
+            "title": "A look behind",
+            "title_accent": "the lens",
+            "video_url": { "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
+            "autoplay": "",
+            "controls": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-team",
+      "content_width": "full",
+      "settings": { "_element_id": "team" },
+      "widgets": [
+        {
+          "type": "vew-team-grid",
+          "settings": {
+            "eyebrow": "The people",
+            "title": "Nine filmmakers,",
+            "title_accent": "one vision",
+            "intro": "No freelancers, no revolving door. Everyone you meet is a full-time part of the studio, and every film carries all of our names.",
+            "columns": "3",
+            "members": [
+              { "name": "Elena Marsh", "role": "Founder & Director", "bio": "Directed five of our features. Believes a film is finished when it's honest, not when it's safe.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Tom Okafor", "role": "Head of Production", "bio": "Keeps the schedules honest and the budgets real. Has never missed a call time in fourteen years.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Ruth Lindqvist", "role": "Writer-in-Residence", "bio": "Wrote The Long Winter and Salt & Cedar. A former journalist who still chases the truth in every draft.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Marco Delgado", "role": "Director of Photography", "bio": "Shoots on film whenever the budget allows. Obsessed with light, shadow, and the space between actors.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Aisha Rahman", "role": "Editor", "bio": "The final cut is hers. Known for finding the film in the footage everyone else thought was unusable.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Jonas Weber", "role": "Sound Designer", "bio": "Builds the worlds you hear. Every room, every silence, every breath is placed with intent.", "twitter": { "url": "" }, "linkedin": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Have a story?",
+            "title_accent": "Let's talk",
+            "intro": "Whether you're a writer with a script, a partner with a project, or a festival looking to screen our work — we'd love to hear from you.",
+            "phone": "(555) 012-4470",
+            "email": "hello@northlight.pictures",
+            "location": "Northlight Pictures · 8 Harbour Lane",
+            "form_kicker": "Reach the studio",
+            "form_title": "We'll get back to you",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nl-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "NORTHLIGHT",
+            "brand_tag": "PICTURES",
+            "blurb": "An independent film studio crafting character-driven features and documentaries — from first draft to final cut, under one roof.",
+            "copyright": "© Northlight Pictures — independent film studio",
+            "columns": [
+              {
+                "heading": "Studio",
+                "links": [
+                  { "text": "Our films", "url": { "url": "#films" } },
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "The studio", "url": { "url": "#studio" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Our films", "url": { "url": "#gallery" } },
+                  { "text": "Behind the lens", "url": { "url": "#video" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
