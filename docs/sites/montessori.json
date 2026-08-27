@@ -1,0 +1,257 @@
+{
+  "title": "Willow & Sage — Montessori School",
+  "slug": "montessori",
+  "kit": "montessori",
+  "containers": [
+    {
+      "id": "mo-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "WILLOW & SAGE",
+            "brand_tag": "MONTESSORI SCHOOL",
+            "cta_text": "Book a tour",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Approach", "url": { "url": "#approach" } },
+              { "text": "Programs", "url": { "url": "#programs" } },
+              { "text": "A day here", "url": { "url": "#day" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-19.png", "id": 1271 },
+            "eyebrow": "Montessori school · Ages 3–12 · Est. 2014",
+            "headline": "Let childhood<br><em>unfold at its own pace.</em>",
+            "copy": "Willow & Sage is a Montessori school for children ages 3 to 12, where curiosity leads, independence grows, and every child learns the way they learn best. Small classes, prepared environments, and guides who know each child by name.",
+            "primary_cta_text": "Book a tour",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "Explore our approach",
+            "secondary_cta_url": { "url": "#approach" },
+            "trust_list": [
+              { "text": "Authentic Montessori, AMI-trained guides" },
+              { "text": "Mixed-age classrooms, ages 3 to 12" },
+              { "text": "A 1.5-acre campus with gardens and woods" },
+              { "text": "Before- and after-school care included" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Our school in numbers",
+            "title": "A decade of",
+            "title_accent": "quiet, steady growth",
+            "stats": [
+              { "value": "10", "label": "Years serving our community" },
+              { "value": "120", "label": "Children across three mixed-age classrooms" },
+              { "value": "8:1", "label": "Average child-to-guide ratio" },
+              { "value": "94%", "label": "Of families re-enroll the following year" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-approach",
+      "content_width": "full",
+      "settings": { "_element_id": "approach" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Our approach",
+            "title": "The child is",
+            "title_accent": "the curriculum",
+            "intro": "We don't teach to a test. We prepare an environment and let each child's natural curiosity do the rest — with a guide nearby to observe, support, and step back at just the right moment.",
+            "features": [
+              { "number": "01", "title": "Prepared environments", "text": "Every classroom is arranged so children can choose their own work, move freely, and return materials to their place — building order, focus, and independence from the very first day.", "detail": "Child-sized everything, chosen with care" },
+              { "number": "02", "title": "Mixed-age classrooms", "text": "Children stay with the same guide for three years, learning from older peers and mentoring younger ones. It's how real social skills and deep relationships grow.", "detail": "Ages 3–6, 6–9, and 9–12" },
+              { "number": "03", "title": "Hands-on materials", "text": "From the pink tower to the golden beads, our materials make abstract ideas tangible. Children don't memorize math — they hold it, build it, and understand it.", "detail": "Montessori materials, AMI standard" },
+              { "number": "04", "title": "Uninterrupted work cycles", "text": "A three-hour morning work period lets children enter deep concentration and finish what they start — the foundation of focus and self-discipline for life.", "detail": "Three-hour cycles, every morning" },
+              { "number": "05", "title": "Freedom within limits", "text": "Children choose their work, but within a clear, consistent structure. They learn that freedom and responsibility are two sides of the same coin.", "detail": "Choice, guided by gentle limits" },
+              { "number": "06", "title": "Nature every day", "text": "Our campus includes gardens, a small orchard, and a wooded trail. Children spend real time outdoors in every season, learning to notice and care for the living world.", "detail": "Gardens, orchard, and woods on campus" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-programs",
+      "content_width": "full",
+      "settings": { "_element_id": "programs" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Our programs",
+            "title": "Three classrooms,",
+            "title_accent": "one continuous path",
+            "intro": "From the first day of Children's House to the end of Upper Elementary, Willow & Sage offers an unbroken Montessori journey — each stage preparing the child for the next.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Children's House" },
+              { "key": "build", "label": "Lower Elementary" },
+              { "key": "launch", "label": "Upper Elementary" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Ages 3–6", "text": "Practical life, sensorial, language, and math — the foundations of independence, concentration, and a lifelong love of learning." },
+              { "icon": "◈", "title": "A gentle start", "text": "A gradual, family-centered entry that helps each child settle in at their own pace, with a guide who knows them by name." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Ages 6–9", "text": "Reading, writing, and the beginnings of abstract math, geography, and science — all through hands-on materials and real questions." },
+              { "icon": "⚑", "title": "The great stories", "text": "The five Great Lessons open the universe to children — from the birth of the Earth to the story of writing and numbers." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Ages 9–12", "text": "Research, collaboration, and going-out — children plan their own studies, manage projects, and take learning beyond the classroom walls." },
+              { "icon": "✦", "title": "Ready for the world", "text": "By the end of Upper Elementary, children are confident, self-directed learners, ready to thrive in any middle school." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-day",
+      "content_width": "full",
+      "settings": { "_element_id": "day" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "A day at Willow & Sage",
+            "title": "A rhythm that",
+            "title_accent": "lets children breathe",
+            "intro": "The day moves between deep work, community, and the outdoors — a rhythm that respects each child's need for concentration, connection, and movement.",
+            "steps": [
+              { "title": "Morning arrival", "text": "Children arrive, greet their guide, and settle into the classroom. Coats hung, shoes changed, ready for the day." },
+              { "title": "The work cycle", "text": "A three-hour uninterrupted work period. Children choose their work, concentrate deeply, and finish what they start." },
+              { "title": "Community & lunch", "text": "A shared lunch where children serve themselves, pour their own water, and practice grace and courtesy with one another." },
+              { "title": "Outdoor time", "text": "Gardens, the orchard, or the woods — real time outside in every season, rain or shine, with a guide nearby." },
+              { "title": "Afternoon & dismissal", "text": "A shorter afternoon cycle, then a calm dismissal. After-school care runs until 5:30 for families who need it." }
+            ],
+            "note": "Parents often tell us the same thing: their child comes home calmer, more capable, and more themselves than when they started."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside our classrooms",
+            "title": "Where learning",
+            "title_accent": "comes alive",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-19.png", "id": 1271 }, "label": "The Children's House", "alt": "A bright Montessori classroom with child-sized wooden shelves and a rug on the floor" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-19.png", "id": 1271 }, "label": "The garden", "alt": "Children tending raised garden beds on a sunny school campus" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-19.png", "id": 1271 }, "label": "The orchard", "alt": "A small orchard with young fruit trees and a wooden bench under the branches" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What families say",
+            "title": "Heard from",
+            "title_accent": "the families we serve",
+            "intro": "We don't make promises we can't keep. We let the children — and their parents — speak for us.",
+            "reviews": [
+              { "quote": "My daughter started at three, barely speaking in class. By five she was reading chapter books and teaching her little brother. Willow & Sage didn't push her — they just let her bloom.", "author": "Amara Okafor", "role": "Parent, Children's House", "stars": 5 },
+              { "quote": "The mixed-age classroom changed everything for my son. He's the youngest, and the older kids look out for him. He's learned patience, kindness, and how to ask for help.", "author": "Daniel Reyes", "role": "Parent, Lower Elementary", "stars": 5 },
+              { "quote": "We toured five schools. Only Willow & Sage asked what our child was curious about. Three years later, that question still guides everything they do.", "author": "Hannah Lindqvist", "role": "Parent, Upper Elementary", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Visit us",
+            "title": "Come see",
+            "title_accent": "the difference",
+            "intro": "The best way to understand Montessori is to see it. Book a tour, meet our guides, and watch a classroom in motion — we'd love to host you.",
+            "phone": "(555) 402-7716",
+            "email": "hello@willowandsage.org",
+            "location": "Willow & Sage · 18 Orchard Lane",
+            "form_kicker": "Book a tour",
+            "form_title": "Tell us about your child",
+            "submit_cta": "Request a tour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mo-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "WILLOW & SAGE",
+            "brand_tag": "MONTESSORI SCHOOL",
+            "blurb": "A Montessori school for children ages 3 to 12, where curiosity leads, independence grows, and every child learns the way they learn best.",
+            "copyright": "© Willow & Sage Montessori School",
+            "columns": [
+              {
+                "heading": "Explore",
+                "links": [
+                  { "text": "Our approach", "url": { "url": "#approach" } },
+                  { "text": "Programs", "url": { "url": "#programs" } },
+                  { "text": "A day here", "url": { "url": "#day" } },
+                  { "text": "The classrooms", "url": { "url": "#gallery" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "Family voices", "url": { "url": "#reviews" } },
+                  { "text": "Book a tour", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
