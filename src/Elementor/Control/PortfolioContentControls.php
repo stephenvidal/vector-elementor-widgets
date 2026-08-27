@@ -74,6 +74,20 @@ final class PortfolioContentControls {
 		SectionHeading::register_content_controls( $widget );
 
 		$widget->add_control(
+			'columns',
+			array(
+				'label'   => __( 'Columns', 'vector-elementor-widgets' ),
+				'type'    => \Elementor\Controls_Manager::SELECT,
+				'default' => '3',
+				'options' => array(
+					'2' => __( '2', 'vector-elementor-widgets' ),
+					'3' => __( '3', 'vector-elementor-widgets' ),
+					'4' => __( '4', 'vector-elementor-widgets' ),
+				),
+			)
+		);
+
+		$widget->add_control(
 			'items',
 			array(
 				'label'       => __( 'Portfolio Items', 'vector-elementor-widgets' ),

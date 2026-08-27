@@ -42,7 +42,7 @@ final class Portfolio extends BaseWidget {
 	 * @return string
 	 */
 	public function get_title(): string {
-		return __( 'Portfolio', 'vector-elementor-widgets' );
+		return __( 'Portfolio (Manual)', 'vector-elementor-widgets' );
 	}
 
 	/**
@@ -94,12 +94,13 @@ final class Portfolio extends BaseWidget {
 		$safe     = $this->sanitize_settings(
 			$settings,
 			array(
-				'eyebrow' => 'string',
-				'title'   => 'string',
+				'eyebrow'     => 'string',
+				'title'       => 'string',
 				'title_accent' => 'string',
 				'title_after'  => 'string',
-				'intro'   => 'string',
-				'items'   => 'array',
+				'intro'       => 'string',
+				'columns'     => 'string',
+				'items'       => 'array',
 			)
 		);
 
@@ -108,8 +109,11 @@ final class Portfolio extends BaseWidget {
 		$intro   = $safe['intro'] ?? '';
 		$items   = $safe['items'] ?? array();
 
+		$columns = isset( $safe['columns'] ) ? sanitize_key( (string) $safe['columns'] ) : '3';
+		$columns = in_array( $columns, array( '2', '3', '4' ), true ) ? $columns : '3';
+
 		?>
-		<section class="vew-portfolio" aria-label="portfolio">
+		<section class="vew-portfolio vew-portfolio--<?php echo esc_attr( $columns ); ?>" aria-label="portfolio">
 			<div class="vew-portfolio__inner">
 			<?php echo SectionHeading::render( $safe, array( 'block_class' => 'vew-portfolio' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- component escapes all values. ?>
 

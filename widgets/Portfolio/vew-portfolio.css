@@ -63,6 +63,10 @@
 	gap: 1.6rem;
 }
 
+.vew-portfolio--2 .vew-portfolio__grid { grid-template-columns: repeat(2, 1fr); }
+.vew-portfolio--3 .vew-portfolio__grid { grid-template-columns: repeat(3, 1fr); }
+.vew-portfolio--4 .vew-portfolio__grid { grid-template-columns: repeat(4, 1fr); }
+
 .vew-portfolio__card {
 	background: var(--surface, #ffffff);
 	border: 1px solid var(--line, rgba(32, 26, 46, 0.14));
@@ -168,7 +172,9 @@
 		padding-inline: 20px;
 	}
 
-	.vew-portfolio__grid {
+	.vew-portfolio--2 .vew-portfolio__grid,
+	.vew-portfolio--3 .vew-portfolio__grid,
+	.vew-portfolio--4 .vew-portfolio__grid {
 		grid-template-columns: 1fr;
 	}
 }

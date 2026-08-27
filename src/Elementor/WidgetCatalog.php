@@ -129,8 +129,8 @@ final class WidgetCatalog {
 			array(
 				'slug'        => 'vew-portfolio',
 				'class'       => Portfolio::class,
-				'title'       => __( 'Portfolio', 'vector-elementor-widgets' ),
-				'description' => __( 'A grid of portfolio cards with image, tag, title, and link.', 'vector-elementor-widgets' ),
+				'title'       => __( 'Portfolio (Manual)', 'vector-elementor-widgets' ),
+				'description' => __( 'A hand-curated grid of portfolio cards with image, tag, title, description, and link.', 'vector-elementor-widgets' ),
 				'icon'        => 'eicon-gallery-grid',
 			),
 			array(
@@ -283,8 +283,8 @@ final class WidgetCatalog {
 			array(
 				'slug'        => 'vew-portfolio-index',
 				'class'       => PortfolioIndex::class,
-				'title'       => __( 'Portfolio Index', 'vector-elementor-widgets' ),
-				'description' => __( 'A dynamic grid of the website-factory portfolio pages, each with a kit colour swatch.', 'vector-elementor-widgets' ),
+				'title'       => __( 'Portfolio Index (Auto)', 'vector-elementor-widgets' ),
+				'description' => __( 'A dynamic, auto-updating grid of the website-factory portfolio pages, each with a kit colour swatch.', 'vector-elementor-widgets' ),
 				'icon'        => 'eicon-gallery-grid',
 			),
 		);
