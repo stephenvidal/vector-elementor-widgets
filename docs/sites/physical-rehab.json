@@ -1,0 +1,255 @@
+{
+  "title": "Momentum Physio — Physiotherapy Clinic",
+  "slug": "physical-rehab",
+  "kit": "physical-rehab",
+  "containers": [
+    {
+      "id": "pr-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "MOMENTUM",
+            "brand_tag": "PHYSIO",
+            "cta_text": "Book an assessment",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we treat", "url": { "url": "#treat" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "Stories", "url": { "url": "#stories" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-120.png", "id": 1437 },
+            "eyebrow": "Momentum Physio · Evidence-based physiotherapy in Portland",
+            "headline": "Move better,<br><em>recover stronger.</em>",
+            "copy": "Whether you're recovering from surgery, chasing a running PR, or just tired of the same nagging shoulder, Momentum Physio builds a plan around your goals. We treat the cause, not just the symptom — and we teach you how to stay well long after you leave.",
+            "primary_cta_text": "Book an assessment",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Doctor of Physical Therapy on every visit" },
+              { "text": "One-on-one sessions — never double-booked" },
+              { "text": "No referral needed to get started" },
+              { "text": "Most insurance plans accepted, direct billing" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Momentum in numbers",
+            "title": "Results you can",
+            "title_accent": "measure",
+            "stats": [
+              { "value": "15+", "label": "Years helping Portlanders move pain-free" },
+              { "value": "9,400+", "label": "Patients treated since we opened" },
+              { "value": "96%", "label": "Would recommend Momentum to a friend" },
+              { "value": "4.9/5", "label": "Average rating from 2,100+ reviews" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-treat",
+      "content_width": "full",
+      "settings": { "_element_id": "treat" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we treat",
+            "title": "Care for the way",
+            "title_accent": "you move",
+            "intro": "From acute injuries to chronic pain, we see the whole picture. Here's a snapshot of the conditions we help people overcome every week.",
+            "features": [
+              { "number": "01", "title": "Back & neck pain", "text": "Disc issues, sciatica, and the desk-job stiffness that creeps up on you. We find the driver and build a plan that holds.", "detail": "Chronic & acute" },
+              { "number": "02", "title": "Sports injuries", "text": "Sprains, strains, and overuse injuries from running, lifting, and team sports. Get back to training with a plan, not a guess.", "detail": "Return-to-sport" },
+              { "number": "03", "title": "Post-surgical rehab", "text": "Knee, shoulder, and hip replacements and repairs. We coordinate with your surgeon to rebuild strength safely and steadily.", "detail": "Orthopedic recovery" },
+              { "number": "04", "title": "Joint pain & arthritis", "text": "Knees, hips, and hands that ache. We reduce pain and improve function so you can keep doing what you love.", "detail": "Pain management" },
+              { "number": "05", "title": "Headaches & migraines", "text": "Tension and cervicogenic headaches that start in the neck. Targeted treatment that often reduces frequency and intensity.", "detail": "Neck-related" },
+              { "number": "06", "title": "Balance & falls prevention", "text": "For older adults and anyone feeling unsteady. We improve strength and balance to keep you confident on your feet.", "detail": "Senior & vestibular" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-services",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A method, not",
+            "title_accent": "a magic wand",
+            "intro": "Great physio is a process. Here's how we take you from pain to confident movement.",
+            "tab_labels": [
+              { "key": "design", "label": "Assess" },
+              { "key": "build", "label": "Treat" },
+              { "key": "launch", "label": "Sustain" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Thorough assessment", "text": "A full hour with your physio: your history, a movement screen, and a clear diagnosis. You leave knowing what's wrong and why." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Hands-on treatment", "text": "Manual therapy, dry needling, and targeted exercise — combined into a plan that addresses the root cause, not just the pain." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "A plan that lasts", "text": "You get a home program and clear milestones. We check in, adjust, and graduate you when you're strong enough to stay well on your own." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Getting started",
+            "title": "From first visit",
+            "title_accent": "to feeling better",
+            "intro": "Getting started is simple, and the first step is always a conversation.",
+            "steps": [
+              { "title": "Book your assessment", "text": "Call or book online. We'll ask a few questions to match you with the right physio and get you scheduled — usually within 48 hours." },
+              { "title": "Get a clear diagnosis", "text": "In your first hour-long session, we assess, explain what's going on, and lay out a plan. You'll know exactly what we're doing and why." },
+              { "title": "Start your treatment", "text": "Hands-on care and a targeted exercise program, reviewed and progressed at every visit. Most patients feel meaningful change within 3–4 sessions." },
+              { "title": "Stay strong for good", "text": "We don't just discharge you — we make sure you have the tools to stay well. Follow-up and maintenance plans keep you moving." }
+            ],
+            "note": "Most patients see meaningful improvement within 3–4 sessions, and we review your progress together at every visit so you always know where things stand."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Patient stories",
+            "title": "Real people,",
+            "title_accent": "real recovery",
+            "intro": "From marathoners to grandparents, here's how Momentum has helped people get back to the lives they love.",
+            "reviews": [
+              { "quote": "I'd been limping for months after a knee surgery that left me worse off. Momentum rebuilt my strength from the ground up. I ran my first 10k in two years last month.", "author": "Sarah K.", "role": "Marathoner, age 34", "stars": 5 },
+              { "quote": "My shoulder pain had me avoiding the gym entirely. Three months of focused work and I'm lifting heavier than before the injury. The home program made all the difference.", "author": "Marcus T.", "role": "CrossFit coach", "stars": 5 },
+              { "quote": "After my hip replacement I was terrified of falling. My physio was patient, encouraging, and never pushed me past my limit. I walk my dog every morning now without fear.", "author": "Eleanor W.", "role": "Retired teacher, age 72", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions patients",
+            "title_accent": "ask us",
+            "intro": "The honest answers to the questions we hear most often before someone books their first appointment.",
+            "items": [
+              { "question": "Do I need a referral to see a physio?", "answer": "No. In most states you can see a physiotherapist directly without a referral. We'll help you understand your coverage and, if your condition needs a doctor, we'll point you in the right direction." },
+              { "question": "Will my insurance cover it?", "answer": "Most major insurance plans cover physiotherapy. We verify your benefits before your first visit and offer direct billing to most providers, so you know exactly what you'll pay upfront." },
+              { "question": "How many sessions will I need?", "answer": "It depends on your condition, but most patients see meaningful improvement within 3–4 sessions. We give you a clear plan and honest expectations from day one — no endless treatment with no end in sight." },
+              { "question": "What should I wear?", "answer": "Comfortable, loose clothing you can move in. For lower-body issues, shorts are helpful. We have private treatment rooms and can provide gowns if needed." },
+              { "question": "What if it hurts during treatment?", "answer": "You should never be in significant pain during a session. We work within your comfort level and communicate constantly. Some soreness after treatment is normal, but we'll always tell you what to expect." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book an assessment",
+            "title": "Let's get you",
+            "title_accent": "moving again",
+            "intro": "Send us a message or call — a real person will get back to you within one business day to schedule your assessment.",
+            "phone": "(555) 318-7742",
+            "email": "hello@momentumphysio.com",
+            "location": "Momentum Physio · 2140 SE Hawthorne Blvd, Portland, OR",
+            "form_kicker": "New patient inquiry",
+            "form_title": "Tell us what's bothering you",
+            "submit_cta": "Request an assessment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pr-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "MOMENTUM",
+            "brand_tag": "PHYSIO",
+            "blurb": "An evidence-based physiotherapy clinic in Portland that treats the cause, not just the symptom — and teaches you how to stay well for good.",
+            "copyright": "© Momentum Physio",
+            "columns": [
+              {
+                "heading": "Care",
+                "links": [
+                  { "text": "What we treat", "url": { "url": "#treat" } },
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "Getting started", "url": { "url": "#process" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "Patient stories", "url": { "url": "#stories" } },
+                  { "text": "Book an assessment", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
