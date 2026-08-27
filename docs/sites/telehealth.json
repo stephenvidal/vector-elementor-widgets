@@ -1,0 +1,257 @@
+{
+  "title": "Carebridge Telehealth — Telehealth Clinic",
+  "slug": "telehealth",
+  "kit": "telehealth",
+  "containers": [
+    {
+      "id": "th-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "CAREBRIDGE",
+            "brand_tag": "TELEHEALTH",
+            "cta_text": "Book a visit",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Care", "url": { "url": "#care" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-110.png", "id": 0 },
+            "eyebrow": "Telehealth medicine · Primary care, urgent care & behavioral health",
+            "headline": "Expert care,<br><em>from wherever you are.</em>",
+            "copy": "Carebridge connects you with board-certified doctors, nurse practitioners, and licensed therapists in minutes — no waiting rooms, no commute, no rushed visits. Real appointments, real follow-up, real care.",
+            "primary_cta_text": "Book a video visit",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Board-certified providers on every visit" },
+              { "text": "Appointments in minutes, not days" },
+              { "text": "Follow-up and prescriptions handled end to end" },
+              { "text": "HIPAA-secure video that just works" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Carebridge in numbers",
+            "title": "Care that's",
+            "title_accent": "always within reach",
+            "stats": [
+              { "value": "40+", "label": "Board-certified providers across primary, urgent, and behavioral care" },
+              { "value": "12min", "label": "Average time from booking to your video visit starting" },
+              { "value": "98%", "label": "Of patients say they'd recommend Carebridge to a friend" },
+              { "value": "50", "label": "States where our providers are licensed to treat you" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-features",
+      "content_width": "full",
+      "settings": { "_element_id": "care" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What Carebridge covers",
+            "title": "Whole-person care,",
+            "title_accent": "on your schedule",
+            "intro": "Whether it's a sudden cold, a lingering ache, or a hard week that needs talking through, Carebridge connects you to the right provider — quickly and without the runaround.",
+            "features": [
+              { "number": "01", "title": "Primary care", "text": "Annual check-ins, chronic-condition management, prescriptions, and referrals — handled by providers who know you and follow up.", "detail": "Continuity, not one-off calls" },
+              { "number": "02", "title": "Urgent care", "text": "Rashes, infections, fevers, and injuries seen the same day. Get a diagnosis and treatment plan without a 4-hour emergency-room wait.", "detail": "Same-day slots most days" },
+              { "number": "03", "title": "Behavioral health", "text": "Licensed therapists and psychiatric providers for anxiety, depression, stress, and life transitions — with the same clinician across sessions.", "detail": "Therapy, not just tips" },
+              { "number": "04", "title": "Prescriptions & labs", "text": "Medications sent to your pharmacy and lab orders at a nearby draw station, with results explained to you directly by your provider.", "detail": "Prescriptions and labs handled" },
+              { "number": "05", "title": "Secure messaging", "text": "A HIPAA-secure message thread with your care team between visits — ask follow-up questions without booking another appointment.", "detail": "A care team in your pocket" },
+              { "number": "06", "title": "Family & employer plans", "text": "Add your family on one account, or offer Carebridge to your team as a modern employee benefit that actually gets used.", "detail": "Coverage for your people" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-services",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "Three kinds of care,",
+            "title_accent": "one simple app",
+            "intro": "Choose the kind of care you need, and Carebridge matches you with a provider who's right for you — with transparent pricing and no surprise bills.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Primary Care" },
+              { "key": "build", "label": "Urgent Care" },
+              { "key": "launch", "label": "Behavioral Health" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Annual & preventive visits", "text": "Established patients get yearly check-ins, routine screenings, and proactive guidance from a provider who keeps your history straight." },
+              { "icon": "◈", "title": "Chronic-condition care", "text": "Diabetes, hypertension, asthma, and more — managed with regular follow-ups and clear treatment plans you can actually follow." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Same-day sick visits", "text": "Sore throat, sinus infection, UTI, or flu? Get seen today and leave with a diagnosis and a treatment plan — no emergency room required." },
+              { "icon": "⚑", "title": "Lab & imaging orders", "text": "Your provider orders labs at a nearby station and follows up to explain results and adjust your plan." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "One-on-one therapy", "text": "Licensed therapists for anxiety, depression, burnout, and life transitions — consistent, judgment-free, and covered by most plans." },
+              { "icon": "✦", "title": "Medication management", "text": "Psychiatric providers who evaluate, prescribe, and adjust when needed, with check-ins between visits." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Getting started",
+            "title": "From sign-up",
+            "title_accent": "to better feeling",
+            "intro": "Care is simpler when the process isn't a maze. Here's exactly what happens after you make an account.",
+            "steps": [
+              { "title": "Create your account", "text": "Add your basics, insurance or payment, and what you'd like help with — it takes about two minutes on any device." },
+              { "title": "Pick a provider", "text": "Choose a time that works and a provider who fits. Most patients are matched with a board-certified clinician in minutes." },
+              { "title": "Meet by video", "text": "Join a secure video visit right from your browser or the app. No downloads, no waiting rooms." },
+              { "title": "Get your plan", "text": "Leave with a clear diagnosis, treatment plan, and any prescriptions sent to your pharmacy automatically." },
+              { "title": "Stay connected", "text": "Follow up by secure message, track your plan, and see your provider again if you need — continuity is the point." }
+            ],
+            "note": "Most of our patients say the same thing after their first visit: they can't believe care was ever this easy to get."
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Patient stories",
+            "title": "Real care,",
+            "title_accent": "in real lives",
+            "intro": "From a midweek panic to a long-term therapy journey, here's how Carebridge shows up for the people who use it.",
+            "reviews": [
+              { "quote": "I was traveling and woke up with a throat infection. In forty minutes I'd seen a provider and had a prescription at the pharmacy. I almost couldn't believe it worked.", "author": "Maya Tran", "role": "Registered nurse, frequent traveler", "stars": 5 },
+              { "quote": "Finding a therapist who took my insurance used to take months. I had my first session within a week, and I've kept the same provider since — that consistency changed everything for me.", "author": "David Okafor", "role": "Software engineer", "stars": 5 },
+              { "quote": "My parents live a thousand miles away. Carebridge lets me sit in on their appointments from my phone and actually understand what's going on with their care.", "author": "Elena Marquez", "role": "Daughter of a Carebridge patient", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Common questions",
+            "title": "Before you book,",
+            "title_accent": "the honest answers",
+            "intro": "The questions patients ask most before their first visit.",
+            "items": [
+              { "question": "Is Carebridge a real doctor, or an algorithm?", "answer": "Every visit is with a real, board-certified physician, nurse practitioner, physician assistant, or licensed therapist. There's no AI diagnosis — a human clinician sees you and is responsible for your care." },
+              { "question": "Will my insurance cover it?", "answer": "Most major plans cover telehealth visits. We verify your coverage before you book, so you'll know exactly what you'll pay — usually a standard copay, often less than an in-person visit." },
+              { "question": "What about prescriptions?", "answer": "When medically appropriate, your provider sends prescriptions electronically to the pharmacy of your choice. Controlled substances follow the same rules as any clinic." },
+              { "question": "Can Carebridge handle my chronic condition?", "answer": "For many conditions — diabetes, hypertension, asthma, thyroid, and more — yes. Your provider builds a continuity plan with regular follow-ups. Complex conditions may still need in-person care, and we'll help you get set up." },
+              { "question": "What if it's an emergency?", "answer": "Call emergency services first. Carebridge is for non-emergency care and is never a substitute for an ambulance or emergency room when you have a true emergency." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book a visit",
+            "title": "Let's get you cared for",
+            "intro": "Create an account, pick a provider, and start a video visit in minutes. If you'd rather talk to a human first, we're here too.",
+            "phone": "(555) 413-8876",
+            "email": "care@carebridge.health",
+            "location": "Online · Serving all 50 states",
+            "form_kicker": "New patient inquiry",
+            "form_title": "Tell us what you need care for",
+            "submit_cta": "Book a video visit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "CAREBRIDGE",
+            "brand_tag": "TELEHEALTH",
+            "blurb": "A telehealth clinic that puts board-certified providers, real appointments, and follow-up that actually happens right on your phone or laptop.",
+            "copyright": "© Carebridge",
+            "columns": [
+              {
+                "heading": "Care",
+                "links": [
+                  { "text": "What we cover", "url": { "url": "#care" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Patient stories", "url": { "url": "#reviews" } }
+                ]
+              },
+              {
+                "heading": "Get care",
+                "links": [
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Book a visit", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
