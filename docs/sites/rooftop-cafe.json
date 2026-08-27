@@ -1,0 +1,224 @@
+{
+  "title": "The Gilded Terrace — Rooftop Cafe",
+  "slug": "rooftop-cafe",
+  "kit": "rooftop-cafe",
+  "containers": [
+    {
+      "id": "gt-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GILDED TERRACE",
+            "brand_tag": "ROOFTOP CAFE",
+            "cta_text": "See the menu",
+            "cta_url": { "url": "#menu" },
+            "links": [
+              { "text": "Menu", "url": { "url": "#menu" } },
+              { "text": "Why the roof", "url": { "url": "#why" } },
+              { "text": "Gallery", "url": { "url": "#gallery" } },
+              { "text": "Visit", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-118.png", "id": 1427 },
+            "eyebrow": "Rooftop cafe & espresso bar · Seventh floor of the Meridian Building",
+            "headline": "Coffee and sky,<br><em>a storey above the city.</em>",
+            "copy": "The Gilded Terrace is a rooftop cafe perched above the city's west end — small-batch coffee, light seasonal plates, and slow evenings under string lights with a skyline view you can't get anywhere else.",
+            "primary_cta_text": "See the menu",
+            "primary_cta_url": { "url": "#menu" },
+            "secondary_cta_text": "Find the roof",
+            "secondary_cta_url": { "url": "#contact" },
+            "trust_list": [
+              { "text": "Small-batch beans roasted weekly, thirty miles away" },
+              { "text": "Seventh-floor skyline view, open-air in the warm months" },
+              { "text": "Seasonal plates built around what's in season" },
+              { "text": "Quiet enough to work, warm enough to linger" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "A cafe in the sky",
+            "title": "Built on",
+            "title_accent": "altitude and care",
+            "stats": [
+              { "value": "7", "label": "Storeys up — the city's only rooftop cafe" },
+              { "value": "42", "label": "Seats with a direct view of the skyline" },
+              { "value": "60mi", "label": "From the roastery that supplies our beans" },
+              { "value": "4.9/5", "label": "Average rating across 1,200+ reviews" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt-menu",
+      "content_width": "full",
+      "settings": { "_element_id": "menu" },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "The counter today",
+            "title": "What's",
+            "title_accent": "pouring & plating",
+            "intro": "A small, rotating menu built for a rooftop. Coffee changes with the roaster's weekly drop; the kitchen follows the season and the sky.",
+            "items": [
+              { "name": "Golden Hour Cortado", "description": "Double shot pulled tight over velvet micro-foam, finished with a pinch of smoked sea salt and a whisper of honey. Our signature.", "price": "$5.5", "tag": "Signature" },
+              { "name": "Skyline Cold Brew", "description": "Eighteen-hour slow-steeped, served over a single large cube with a twist of orange. Clean, bright, and bracingly cold.", "price": "$6", "tag": "Cold" },
+              { "name": "Rooftop Matcha", "description": "Ceremonial-grade matcha whisked to order with oat milk and a touch of maple. Green, grassy, and gently sweet.", "price": "$6.5", "tag": "Cafe" },
+              { "name": "Dusk Flat White", "description": "A double ristretto with silky full-cream milk — the drink the regulars order as the sun drops below the skyline.", "price": "$5.5", "tag": "Espresso" },
+              { "name": "Heirloom Tomato Toast", "description": "Sourdough, whipped ricotta, blistered heirloom tomatoes, and a drizzle of basil oil. The reason people stay past their coffee.", "price": "$12", "tag": "Kitchen" },
+              { "name": "Honey-Burnt Fig Plate", "description": "Roasted figs, whipped goat cheese, candied walnuts, and warm honey over toast. Dessert that thinks it's breakfast.", "price": "$11", "tag": "Kitchen" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why people climb seven floors",
+            "title": "More than",
+            "title_accent": "a good cup",
+            "intro": "Good coffee is table stakes. What keeps people coming back to the roof is the combination — the view, the pace, and the little details that make a cafe feel like a place, not a stop.",
+            "features": [
+              { "number": "01", "title": "A skyline that does the work", "text": "West-facing tables catch the full golden hour, and the open-air terrace means you watch the city lights come on as you finish your coffee.", "detail": "West-facing, open-air in warm months" },
+              { "number": "02", "title": "Beans from thirty miles away", "text": "We roast with a small local roastery on a weekly schedule, so the coffee is never more than a week off the roaster. You can taste the difference.", "detail": "Roasted weekly, never warehoused" },
+              { "number": "03", "title": "A kitchen that follows the season", "text": "The menu changes with the farmers market. Tomatoes in summer, figs in fall, citrus in winter — a small board that never gets boring.", "detail": "Seasonal, small-batch plates" },
+              { "number": "04", "title": "Quiet enough to actually work", "text": "Weekday mornings are a working cafe: reliable wifi, low music, and outlets at half the tables. It's a rooftop office for people who like light.", "detail": "Wifi + outlets, weekday mornings" },
+              { "number": "05", "title": "Evenings made for lingering", "text": "After six the lights go warm and the pace slows. It's a place for a second coffee, a shared plate, and conversation that runs long.", "detail": "Slow evenings under string lights" },
+              { "number": "06", "title": "A team that knows your order", "text": "The baristas remember faces and regulars, pour with intention, and will happily talk beans or the view for as long as you like.", "detail": "Friendly, repeatable service" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the terrace",
+            "title": "Scenes from",
+            "title_accent": "seven floors up",
+            "intro": "A glimpse of the roof in different lights — dawn espresso, golden-hour glow, and the blue of a city evening.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-118.png", "id": 1427 }, "label": "Golden hour on the west terrace", "alt": "Warm sunlight falling across outdoor rooftop cafe tables" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-118.png", "id": 1427 }, "label": "The espresso bar at dawn", "alt": "Espresso machine steaming behind a marble counter" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-118.png", "id": 1427 }, "label": "The city below at dusk", "alt": "Skyline lights coming on below the rooftop railing" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "From the regulars",
+            "title": "The roof",
+            "title_accent": "keeps them coming",
+            "intro": "People don't just pass through the Gilded Terrace — they develop habits around it. Here's what the regulars say.",
+            "reviews": [
+              { "quote": "I work here three mornings a week. There's no better place to start the day than a flat white with the whole city waking up below you. The staff know my order and my name.", "author": "Mara Chen", "role": "Rooftop regular", "stars": 5 },
+              { "quote": "The golden hour here is genuinely unmatched. We came for the view and stayed for the cortado — and the fig plate. Now it's our Friday ritual.", "author": "Jonas & Priya", "role": "Friday regulars", "stars": 5 },
+              { "quote": "I've tried every coffee shop downtown and this is the one I keep returning to. It's the combination — the light, the quiet, the beans. Nothing else comes close.", "author": "Sam Okafor", "role": "Coffee enthusiast", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Find the roof",
+            "title": "Come up",
+            "title_accent": "and slow down",
+            "intro": "Take the lift to the seventh floor of the Meridian Building. Come for the coffee, stay for the sky — and bring a book, a laptop, or a friend.",
+            "phone": "(555) 209-4466",
+            "email": "hello@thegildedterrace.com",
+            "location": "Seventh Floor · Meridian Building · 210 Skyline Ave",
+            "form_kicker": "Private events & table holds",
+            "form_title": "Plan your visit",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gt-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GILDED TERRACE",
+            "brand_tag": "ROOFTOP CAFE",
+            "blurb": "A rooftop cafe perched above the city's west end — small-batch coffee, light seasonal plates, and slow evenings under string lights with a skyline view you can't get anywhere else.",
+            "copyright": "© The Gilded Terrace",
+            "columns": [
+              {
+                "heading": "The Terrace",
+                "links": [
+                  { "text": "Menu", "url": { "url": "#menu" } },
+                  { "text": "Why the roof", "url": { "url": "#why" } },
+                  { "text": "Gallery", "url": { "url": "#gallery" } },
+                  { "text": "From the regulars", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Plan your visit", "url": { "url": "#contact" } },
+                  { "text": "Private events", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
