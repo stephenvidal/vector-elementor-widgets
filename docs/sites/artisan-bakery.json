@@ -1,0 +1,248 @@
+{
+  "title": "The Hearth & Crumb — Artisan Bakery",
+  "slug": "artisan-bakery",
+  "kit": "artisan-bakery",
+  "containers": [
+    {
+      "id": "hc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HEARTH & CRUMB",
+            "brand_tag": "ARTISAN BAKERY",
+            "cta_text": "Today's bake",
+            "cta_url": { "url": "#menu" },
+            "links": [
+              { "text": "Today's bake", "url": { "url": "#menu" } },
+              { "text": "Our story", "url": { "url": "#story" } },
+              { "text": "The early shift", "url": { "url": "#gallery" } },
+              { "text": "Find us", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-125.png", "id": 0 },
+            "eyebrow": "Artisan bakery · Stone-milled flour · Wood-fired oven",
+            "headline": "Bread that waits<br><em>for the dough, not the clock.</em>",
+            "copy": "The Hearth & Crumb is a small bakery in the Old Market quarter. We slow-ferment every loaf overnight, mill our own heritage grains, and bake on a wood-fired deck that gives each crust a deep, honeyed colour you can't get any other way.",
+            "primary_cta_text": "See today's bake",
+            "primary_cta_url": { "url": "#menu" },
+            "secondary_cta_text": "Our story",
+            "secondary_cta_url": { "url": "#story" },
+            "trust_list": [
+              { "text": "Every loaf cold-fermented 18 to 24 hours for deeper flavour" },
+              { "text": "Heritage grains stone-milled on site each week" },
+              { "text": "Wood-fired deck, baked in small batches every morning" },
+              { "text": "Flour, water, salt and time — nothing else" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The numbers behind the bake",
+            "title": "Baked slowly,",
+            "title_accent": "measured honestly",
+            "stats": [
+              { "value": "24", "label": "Hours of cold ferment for every sourdough loaf" },
+              { "value": "3", "label": "Heritage grain varieties milled on site each week" },
+              { "value": "14", "label": "Different breads and pastries on a typical Saturday" },
+              { "value": "4.9/5", "label": "Average rating from our regulars and neighbours" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-menu",
+      "content_width": "full",
+      "settings": { "_element_id": "menu" },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "The daily bake",
+            "title": "On the",
+            "title_accent": "counter today",
+            "intro": "A short, honest list that changes with the seasons and the weather — what the oven can carry well, baked in small numbers so nothing sits. Come early for the loaves; they go fast.",
+            "items": [
+              { "name": "Country Sourdough", "description": "Our signature 24-hour cold-ferment loaf — crackling crust, open crumb, a gentle tang that deepens with toast and age. Stone-milled wheat, water, salt.", "price": "$7", "tag": "Signature" },
+              { "name": "Heritage Rye", "description": "A dense, faintly sweet loaf built on a rye starter we've kept alive since 2018. Sliced thin, it's the backbone of every good lunch.", "price": "$8", "tag": "Rye" },
+              { "name": "Olive & Rosemary Focaccia", "description": "Wet, blistered, and oiled — slow-proofed overnight with kalamata olives and fresh rosemary from the market. Best torn warm.", "price": "$9", "tag": "Daily" },
+              { "name": "Almond Croissant", "description": "Laminated over three days, filled with house frangipane and toasted almond. Shatters when you bite it.", "price": "$6", "tag": "Pastry" },
+              { "name": "Cardamom Knot", "description": "A Scandinavian-style morning bun, heavy on fresh-ground cardamom, finished with pearl sugar and a whisper of lemon.", "price": "$5", "tag": "Pastry" },
+              { "name": "Honey & Sea Salt Loaf", "description": "A soft, enriched loaf sweetened with local wildflower honey and flecked with sea salt. Toasts like a dream.", "price": "$7.5", "tag": "Sweet" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "story" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why the bread tastes different",
+            "title": "Slow food,",
+            "title_accent": "start to finish",
+            "intro": "There's nothing quick about our bread. It's a long, deliberate process built on the idea that flour, water, salt and time — given room — make something worth waking up early for.",
+            "features": [
+              { "number": "01", "title": "Stone-milled heritage grains", "text": "We mill our own flour from small farms every week, so nothing ever sits long enough to go stale before it becomes dough. Different seasons, slightly different loaves — that's the point.", "detail": "Milled in-house, never pre-mixed" },
+              { "number": "02", "title": "A starter older than the shop", "text": "Our rye starter has been fed every day since 2018. It carries the bakery's whole history, and it's why the sourdough has a depth you can't shortcut.", "detail": "One continuous culture, fed daily" },
+              { "number": "03", "title": "Cold ferment, never rushed", "text": "Every loaf sleeps in the fridge for 18 to 24 hours before baking. Slow cold fermentation builds flavour and a crust that stays crisp for days.", "detail": "18–24 hour cold ferment, every loaf" },
+              { "number": "04", "title": "A wood-fired deck", "text": "We bake on a traditional wood-fired deck oven that holds its heat for hours. It gives the crust a deep amber colour and a whisper of smoke you can't fake.", "detail": "Wood-fired, hand-loaded each morning" },
+              { "number": "05", "title": "Small batches, on purpose", "text": "We bake only what we expect to sell. Nothing sits under heat lamps, nothing is made to a frozen schedule — when a batch is gone, it's gone until tomorrow.", "detail": "Baked to order, never warehoused" },
+              { "number": "06", "title": "Four ingredients, honestly", "text": "Flour, water, salt and time. No improvers, no preservatives, no secrets. If the recipe needs a list of additives, it isn't bread.", "detail": "Flour · water · salt · time" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-proc",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "From mill to morning",
+            "title": "How a loaf",
+            "title_accent": "gets to the counter",
+            "intro": "Each batch follows the same slow rhythm — a schedule set by the dough's readiness, not by the clock on the wall.",
+            "steps": [
+              { "title": "Mill the grain", "text": "Heritage wheat and rye are stone-milled on a Sunday morning, the flour sifted and rested before it meets water." },
+              { "title": "Mix & build the dough", "text": "Flour, water, salt and a portion of the starter are mixed by hand, then folded at intervals through the afternoon." },
+              { "title": "Cold ferment overnight", "text": "The dough sleeps in the fridge for 18 to 24 hours, developing flavour and a crust that crackles." },
+              { "title": "Shape & score", "text": "At first light we shape each loaf by hand and score it with a single clean line, then let it rest before the oven." },
+              { "title": "Bake on the wood deck", "text": "Loaded onto the hot stone, the loaves bake until the crust turns deep amber and the bakery smells like a morning should." }
+            ],
+            "note": "The oven holds its heat for hours, so small batches come out all morning — the last loaf is as fresh as the first."
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the bake house",
+            "title": "Scenes from",
+            "title_accent": "the early shift",
+            "intro": "A look at the counter at dawn — fresh scores, blistered focaccia, and the wood deck doing its quiet work.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-125.png", "id": 0 }, "label": "The wood-fired deck at first light", "alt": "A wood-fired brick oven glowing with freshly baked loaves" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-125.png", "id": 0 }, "label": "Cold-fermented loaves, proofed and ready", "alt": "Rustic sourdough loaves resting on a floured linen couche" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-125.png", "id": 0 }, "label": "The morning counter", "alt": "An artisan bakery counter with pastries and bread on a wooden board" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "From the regulars",
+            "title": "The neighbourhood",
+            "title_accent": "wakes up here",
+            "intro": "People build whole mornings around the smell from the oven. Here's what they say once the coffee's poured.",
+            "reviews": [
+              { "quote": "I've lived three blocks away for a decade, and I still walk past every bakery in town to get here. The country sourdough is the best loaf in the city, full stop.", "author": "Ingrid Voss", "role": "Neighbour & daily regular", "stars": 5 },
+              { "quote": "The cardamom knots are worth getting up early for. But it's the almond croissant that ruined every other bakery for me. It shatters. It's perfect.", "author": "Marcus Bell", "role": "Saturday regular", "stars": 5 },
+              { "quote": "You can taste the difference the moment you break the crust — that open crumb, that long ferment. This is real bread, made properly, and you can tell.", "author": "Priya Anand", "role": "Home baker & customer", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Find the bake house",
+            "title": "Come by",
+            "title_accent": "in the morning",
+            "intro": "We're in the Old Market quarter, on the corner of Mill Lane and Baker Street. The door opens at 7am; the oven never stops until the last loaf is out. Come early for the loaves.",
+            "phone": "(555) 318-2044",
+            "email": "hello@hearthandcrumb.com",
+            "location": "14 Mill Lane · Old Market Quarter",
+            "form_kicker": "Wholesale & special orders",
+            "form_title": "Order a bake or ask a question",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HEARTH & CRUMB",
+            "brand_tag": "ARTISAN BAKERY",
+            "blurb": "A small wood-fired bakery in the Old Market quarter — slow-fermented bread and pastries from stone-milled heritage grains, baked in small batches every morning.",
+            "copyright": "© The Hearth & Crumb",
+            "columns": [
+              {
+                "heading": "The Bake",
+                "links": [
+                  { "text": "Today's bake", "url": { "url": "#menu" } },
+                  { "text": "Our story", "url": { "url": "#story" } },
+                  { "text": "The early shift", "url": { "url": "#gallery" } },
+                  { "text": "From the regulars", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Find us", "url": { "url": "#contact" } },
+                  { "text": "Wholesale orders", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
