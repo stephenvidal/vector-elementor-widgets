@@ -1,0 +1,284 @@
+{
+  "title": "Gracehaven Community Church",
+  "slug": "church",
+  "kit": "church",
+  "containers": [
+    {
+      "id": "ch-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GRACEHAVEN",
+            "brand_tag": "COMMUNITY CHURCH",
+            "cta_text": "Plan your visit",
+            "cta_url": { "url": "#visit" },
+            "links": [
+              { "text": "Beliefs", "url": { "url": "#beliefs" } },
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "Our story", "url": { "url": "#story" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-114.png", "id": 1406 },
+            "eyebrow": "Gracehaven Community Church · Est. 1987",
+            "headline": "A place to belong,<br><em>a people to grow with.</em>",
+            "copy": "Gracehaven is a neighborhood church in the heart of the city — a community that gathers weekly, serves its neighbors, and walks with one another through every season of life.",
+            "primary_cta_text": "Plan your visit",
+            "primary_cta_url": { "url": "#visit" },
+            "secondary_cta_text": "What we believe",
+            "secondary_cta_url": { "url": "#beliefs" },
+            "trust_list": [
+              { "text": "Sunday gatherings at 9:00 & 11:00 AM" },
+              { "text": "Kids & youth programs every week" },
+              { "text": "A church for every season of life" },
+              { "text": "Open to everyone, wherever you are" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Our community in numbers",
+            "title": "A church that",
+            "title_accent": "shows up",
+            "stats": [
+              { "value": "38", "label": "Years serving our neighborhood" },
+              { "value": "600+", "label": "People gathering each Sunday" },
+              { "value": "24", "label": "Small groups meeting weekly" },
+              { "value": "12", "label": "Local ministries we support" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-beliefs",
+      "content_width": "full",
+      "settings": { "_element_id": "beliefs" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we believe",
+            "title": "Faith that is",
+            "title_accent": "honest and lived",
+            "intro": "We keep the essentials central and hold the rest with grace. Here is the heart of what Gracehaven stands for.",
+            "features": [
+              { "number": "01", "title": "Grace at the center", "text": "We believe we are loved by God not because of what we do, but because of who God is. Grace is the starting point of everything we teach and practice.", "detail": "Core conviction" },
+              { "number": "02", "title": "Scripture that shapes us", "text": "We read the Bible seriously and honestly — not as a rulebook, but as the story that forms our lives and our community.", "detail": "Weekly teaching" },
+              { "number": "03", "title": "A people, not a program", "text": "Church is not an event we attend but a family we belong to. Small groups, shared meals, and everyday friendship are the real work.", "detail": "Small groups" },
+              { "number": "04", "title": "Sent to serve", "text": "We are not called to stay inside our walls. We serve our neighbors, care for the vulnerable, and welcome the stranger.", "detail": "Local mission" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Gather with us",
+            "title": "Ways to",
+            "title_accent": "connect",
+            "intro": "There are many doors into the Gracehaven family. Find the one that fits your season of life.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Sunday" },
+              { "key": "build", "label": "Midweek" },
+              { "key": "launch", "label": "Serve" }
+            ],
+            "design": [
+              { "icon": "✦", "title": "Sunday Worship", "text": "Two identical gatherings at 9:00 and 11:00 AM — contemporary worship, honest teaching, and a warm welcome. Kids' church runs alongside both." },
+              { "icon": "✦", "title": "Kids & Youth", "text": "Age-appropriate programs for infants through high school, staffed by trained volunteers who love what they do." },
+              { "icon": "✦", "title": "New Here? Start Here", "text": "A relaxed 20-minute welcome after the 11:00 service — coffee, a tour, and a chance to meet a few friendly faces." }
+            ],
+            "build": [
+              { "icon": "✦", "title": "Small Groups", "text": "Two dozen groups meet in homes across the city — by neighborhood, life stage, and interest. Find your people." },
+              { "icon": "✦", "title": "Prayer Night", "text": "Every Wednesday at 7:00 PM we gather to pray for one another, our city, and the world. All are welcome." },
+              { "icon": "✦", "title": "Bible Study", "text": "A midweek walk through Scripture with discussion and real questions — no prior knowledge needed, ever." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Serve on a Team", "text": "Worship, kids, hospitality, tech, and more — there is a place for your gifts. Serving is how we become family." },
+              { "icon": "✦", "title": "Local Mission", "text": "We partner with a dozen neighborhood ministries — from food distribution to after-school tutoring — and you can join them." },
+              { "icon": "✦", "title": "Give & Support", "text": "Your generosity funds our mission and our neighbors. Give online, in person, or by mail." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-process",
+      "content_width": "full",
+      "settings": { "_element_id": "start" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Your first steps",
+            "title": "Getting",
+            "title_accent": "started",
+            "intro": "Whether you are brand new or returning after a long time away, here is how to take your first steps at Gracehaven.",
+            "steps": [
+              { "title": "Come as you are", "text": "No dress code, no checklist, no pressure. Just show up to a Sunday gathering and see if it feels like home." },
+              { "title": "Say hello", "text": "Grab a coffee at the welcome table and meet a few people. We would love to learn your name." },
+              { "title": "Find your people", "text": "Join a small group or a serving team. This is where the church stops being a crowd and becomes a family." },
+              { "title": "Grow at your pace", "text": "Explore faith through teaching, community, and honest questions. There is no rush and no wrong way to grow." }
+            ],
+            "note": "New to church? Start with the 11:00 service and the 'New Here' welcome — it is designed exactly for you."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-story",
+      "content_width": "full",
+      "settings": { "_element_id": "story" },
+      "widgets": [
+        {
+          "type": "vew-timeline",
+          "settings": {
+            "eyebrow": "Our story",
+            "title": "Forty years of",
+            "title_accent": "faithful presence",
+            "intro": "Gracehaven began as a handful of families in a living room. Here is how we grew into the church we are today.",
+            "orientation": "alternating",
+            "events": [
+              { "year": "1987", "title": "A church is born", "text": "Twelve families begin meeting in a rented school gym, determined to be a church for their neighborhood.", "link": { "url": "" } },
+              { "year": "1994", "title": "Our first building", "text": "The congregation moves into the building we still call home, built by the hands of our own members.", "link": { "url": "" } },
+              { "year": "2006", "title": "Kids & youth flourish", "text": "We launch dedicated children's and youth ministries, and the next generation becomes central to our life.", "link": { "url": "" } },
+              { "year": "2015", "title": "Sent into the city", "text": "We plant our first neighborhood partnerships, committing to serve our city rather than just gather in it.", "link": { "url": "" } },
+              { "year": "2024", "title": "Still growing", "text": "Today more than 600 people call Gracehaven home, and we are still learning what it means to be a family.", "link": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Generosity",
+            "title": "Give from a",
+            "title_accent": "willing heart",
+            "intro": "Your giving makes our mission possible — from the lights on Sunday to the food we share with neighbors on Tuesday.",
+            "quote": "Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.",
+            "verse_ref": "2 Corinthians 9:7",
+            "cta_text": "Give to Gracehaven",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-visit",
+      "content_width": "full",
+      "settings": { "_element_id": "visit" },
+      "widgets": [
+        {
+          "type": "vew-visit",
+          "settings": {
+            "eyebrow": "Plan your visit",
+            "title": "We would love to",
+            "title_accent": "meet you",
+            "intro": "Visiting a new church can feel intimidating. We have tried to make it easy — here is everything you need to know before you come.",
+            "details": [
+              { "label": "Sunday services", "value": "9:00 AM & 11:00 AM" },
+              { "label": "Kids' church", "value": "Runs during both services" },
+              { "label": "Address", "value": "214 Gracehaven Lane, Riverside" },
+              { "label": "Parking", "value": "Free lot + street parking" }
+            ],
+            "cta_text": "Get directions",
+            "cta_url": { "url": "#contact" },
+            "image": { "url": "" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Reach out",
+            "title": "We would love to",
+            "title_accent": "hear from you",
+            "intro": "Questions, prayer requests, or just want to say hello? Send us a note and a real person will get back to you.",
+            "phone": "(555) 214-8890",
+            "email": "hello@gracehaven.church",
+            "location": "Gracehaven Community Church · 214 Gracehaven Lane",
+            "form_kicker": "Start the conversation",
+            "form_title": "Send us a message",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ch-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GRACEHAVEN",
+            "brand_tag": "COMMUNITY CHURCH",
+            "blurb": "A neighborhood church gathering weekly, serving our city, and walking with one another through every season of life since 1987.",
+            "copyright": "© Gracehaven Community Church",
+            "columns": [
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Plan your visit", "url": { "url": "#visit" } },
+                  { "text": "Sunday services", "url": { "url": "#services" } },
+                  { "text": "Get directions", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "What we believe", "url": { "url": "#beliefs" } },
+                  { "text": "Our story", "url": { "url": "#story" } },
+                  { "text": "Give", "url": { "url": "#give" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
