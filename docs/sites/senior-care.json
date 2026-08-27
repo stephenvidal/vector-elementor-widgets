@@ -1,0 +1,255 @@
+{
+  "title": "Hearthstone Senior Living — Senior Care Home",
+  "slug": "senior-care",
+  "kit": "senior-care",
+  "containers": [
+    {
+      "id": "sc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HEARTHSTONE",
+            "brand_tag": "SENIOR LIVING",
+            "cta_text": "Book a tour",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Our care", "url": { "url": "#care" } },
+              { "text": "Levels of care", "url": { "url": "#levels" } },
+              { "text": "Life here", "url": { "url": "#life" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-128.png", "id": 1457 },
+            "eyebrow": "Hearthstone Senior Living · Residential care, close to family",
+            "headline": "A home that feels<br><em>like family.</em>",
+            "copy": "Hearthstone is a warm, single-story care home where older adults live with dignity, purpose, and genuine companionship. Our live-in caregivers, home-cooked meals, and unhurried daily life mean your loved one is cared for the way we'd care for our own.",
+            "primary_cta_text": "Book a tour",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how we care",
+            "secondary_cta_url": { "url": "#care" },
+            "trust_list": [
+              { "text": "Live-in caregivers who know each resident by name" },
+              { "text": "Home-cooked meals made fresh every day" },
+              { "text": "Medication, personal care, and mobility support" },
+              { "text": "Open to families at any time — no visiting hours" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Hearthstone in numbers",
+            "title": "Small by design,",
+            "title_accent": "deeply personal",
+            "stats": [
+              { "value": "12", "label": "Residents — never more, so we know everyone by name" },
+              { "value": "24/7", "label": "Trained caregivers on-site, day and night" },
+              { "value": "15+", "label": "Years serving local families with the same ownership" },
+              { "value": "98%", "label": "Of families would recommend Hearthstone" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-features",
+      "content_width": "full",
+      "settings": { "_element_id": "care" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Our approach",
+            "title": "Care that starts",
+            "title_accent": "with connection",
+            "intro": "We keep things simple: a small, calm home where every resident is a person first. Here's what that looks like every day.",
+            "features": [
+              { "number": "01", "title": "Live-in companionship", "text": "Our caregivers live on-site, so help is always nearby — and conversation is always available. It's not a shift rotation; it's a household.", "detail": "Caregivers who live here too" },
+              { "number": "02", "title": "Home-cooked meals", "text": "Meals are prepared fresh in our own kitchen, served family-style. Dietary needs are honored, and birthdays are celebrated with cake.", "detail": "Real food, family-style" },
+              { "number": "03", "title": "Personal care, gently done", "text": "Bathing, dressing, medication, and mobility support are provided with patience and respect. Residents keep their routines and their privacy.", "detail": "Dignity at every step" },
+              { "number": "04", "title": "Active, meaningful days", "text": "Gardening, art, music, games, and outings keep life full. We don't schedule residents into busywork — we ask what they love and make it possible.", "detail": "A life worth living" },
+              { "number": "05", "title": "Family always welcome", "text": "There are no visiting hours. Drop by for dinner, join a craft afternoon, or spend the weekend. Families are part of the household here.", "detail": "No visiting hours" },
+              { "number": "06", "title": "Coordinated health support", "text": "We work closely with each resident's doctors, therapists, and visiting nurses to keep care consistent and communication open.", "detail": "One team around your loved one" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-services",
+      "content_width": "full",
+      "settings": { "_element_id": "levels" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Levels of care",
+            "title": "The right support,",
+            "title_accent": "at every stage",
+            "intro": "From assisted living to memory care, we meet each resident where they are — and adapt as their needs change, so they never have to move again.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Assisted Living" },
+              { "key": "build", "label": "Memory Care" },
+              { "key": "launch", "label": "Respite & Transition" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Daily living support", "text": "Help with bathing, dressing, meals, and medication — provided with warmth and without hurry, so independence is preserved as long as possible." },
+              { "icon": "◈", "title": "A full social life", "text": "Shared meals, outings, and activities that keep residents connected to each other and to the wider community." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Secure, familiar spaces", "text": "A calm, secure wing designed for residents living with dementia, with familiar routines and caregivers who build trust over time." },
+              { "icon": "◈", "title": "Memory-focused activities", "text": "Music, sensory activities, and gentle exercise that bring joy and reduce agitation — tailored to each resident's history and preferences." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Respite stays", "text": "Short-term stays while a family caregiver rests or travels. Your loved one gets full care in a welcoming home, and you get peace of mind." },
+              { "icon": "◈", "title": "Transition support", "text": "We help families navigate the move with honesty and care — from the first tour to settling in and adjusting over the first weeks." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How to get started",
+            "title": "From first call",
+            "title_accent": "to moving in",
+            "intro": "Choosing a care home is a big decision. We make the process clear, unhurried, and always on your family's timeline.",
+            "steps": [
+              { "title": "Reach out", "text": "Call or message us. We'll listen to your situation, answer questions honestly, and share what makes Hearthstone different — no pressure, ever." },
+              { "title": "Take a tour", "text": "Visit the home, meet our residents and caregivers, and share a meal with us. We want you to see the real thing, not a brochure." },
+              { "title": "Meet the team", "text": "We sit down with you and your loved one to understand needs, preferences, and history, so we can build a personalized care plan." },
+              { "title": "Move in and settle", "text": "A gentle move-in, a familiar welcome, and a first week focused on comfort. We stay in close touch with family as everyone finds their rhythm." }
+            ],
+            "note": "There's no rush and no obligation — if Hearthstone isn't the right fit, we'll help you find the place that is."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "life" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Life at Hearthstone",
+            "title": "A home,",
+            "title_accent": "in moments",
+            "intro": "Gardens, shared meals, morning coffee, and afternoons full of music — a look at everyday life in our home.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-128.png", "id": 1457 }, "label": "The garden at golden hour", "alt": "A calm residential garden with raised beds and a seating area in warm evening light" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-128.png", "id": 1457 }, "label": "Family-style dinner", "alt": "A warmly lit dining room with a long table set for a shared meal" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-128.png", "id": 1457 }, "label": "A quiet corner", "alt": "A cozy lounge with armchairs, books, and soft natural light by a window" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Family stories",
+            "title": "In their own words,",
+            "title_accent": "what Hearthstone means",
+            "intro": "Families tell us the same thing: they found a home, not a facility. Here's what a few of them shared.",
+            "reviews": [
+              { "quote": "We visited seven care homes before Hearthstone. The difference was immediate — residents laughing at the dinner table, caregivers who knew every name. Mom moved in two weeks later and has never once looked back.", "author": "Daniel R.", "role": "Son of a resident", "stars": 5 },
+              { "quote": "Dad has dementia, and we were terrified of the wrong kind of place. The memory-care wing feels like a calm, warm home. He lights up for music hour and calls his caregiver by name. We finally sleep at night.", "author": "Priya S.", "role": "Daughter of a resident", "stars": 5 },
+              { "quote": "I needed respite care after my own surgery and Hearthstone took my mom for three weeks. They treated her like family and kept me updated every day. When the time comes, this is where she'll live.", "author": "Marcus L.", "role": "Family caregiver", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Plan a visit",
+            "title": "Come see",
+            "title_accent": "for yourself",
+            "intro": "The best way to understand Hearthstone is to spend time here. Send us a message to arrange a tour, ask a question, or just talk through your options with someone who cares.",
+            "phone": "(555) 517-2246",
+            "email": "hello@hearthstoneseniorliving.com",
+            "location": "Hearthstone Senior Living · 42 Orchard Lane, Maplewood",
+            "form_kicker": "New inquiry",
+            "form_title": "Tell us about your loved one",
+            "submit_cta": "Request a tour"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HEARTHSTONE",
+            "brand_tag": "SENIOR LIVING",
+            "blurb": "A family-owned care home where older adults live with dignity, purpose, and genuine companionship — cared for the way we'd care for our own.",
+            "copyright": "© Hearthstone Senior Living",
+            "columns": [
+              {
+                "heading": "Our care",
+                "links": [
+                  { "text": "Our approach", "url": { "url": "#care" } },
+                  { "text": "Levels of care", "url": { "url": "#levels" } },
+                  { "text": "Life here", "url": { "url": "#life" } }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  { "text": "Family stories", "url": { "url": "#reviews" } },
+                  { "text": "Plan a visit", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
