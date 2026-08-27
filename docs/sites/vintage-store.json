@@ -1,0 +1,221 @@
+{
+  "title": "The Velvet Attic — Vintage Boutique",
+  "slug": "vintage-store",
+  "kit": "vintage-store",
+  "containers": [
+    {
+      "id": "vs-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE VELVET ATTIC",
+            "brand_tag": "VINTAGE BOUTIQUE",
+            "cta_text": "Visit the shop",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "The collection", "url": { "url": "#collection" } },
+              { "text": "How we curate", "url": { "url": "#curate" } },
+              { "text": "Recent finds", "url": { "url": "#finds" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-119.png", "id": 0 },
+            "eyebrow": "The Velvet Attic · Curated vintage in the old mill district",
+            "headline": "Clothes with a past,<br>made for your <em>now.</em>",
+            "copy": "The Velvet Attic is a small, fiercely curated vintage boutique. Every piece on our rails was chosen by hand, checked seam by seam, and given the repairs it needed to live again. No bins, no bulk — just the good stuff, waiting for the right person.",
+            "primary_cta_text": "Browse the collection",
+            "primary_cta_url": { "url": "#collection" },
+            "secondary_cta_text": "How we curate",
+            "secondary_cta_url": { "url": "#curate" },
+            "trust_list": [
+              { "text": "Every piece inspected, mended, and ready to wear" },
+              { "text": "New arrivals every Thursday, hand-picked by our buyers" },
+              { "text": "Sizes 0–26, plus a dedicated menswear rail" },
+              { "text": "Free local pickup and easy nationwide shipping" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The Attic in numbers",
+            "title": "A little shop with",
+            "title_accent": "a long memory",
+            "stats": [
+              { "value": "12k+", "label": "Pieces rescued and rehomed since we opened" },
+              { "value": "90+", "label": "Years of fashion covered, 1920s to the 1990s" },
+              { "value": "4.9/5", "label": "Average rating from 1,200+ happy customers" },
+              { "value": "38", "label": "Local makers and menders we work with" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-collection",
+      "content_width": "full",
+      "settings": { "_element_id": "collection" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we carry",
+            "title": "Six rails, one",
+            "title_accent": "obsession",
+            "intro": "We don't chase trends — we chase character. Here's what you'll find when you step through the door.",
+            "features": [
+              { "number": "01", "title": "Dresses & gowns", "text": "From 1940s tea dresses to 1980s power shoulders, a rail of occasion pieces that turn heads and start conversations.", "detail": "1920s–1990s · all sizes" },
+              { "number": "02", "title": "Denim & workwear", "text": "Vintage Levi's, chore coats, and honest workwear that's been broken in by real life — not by a machine.", "detail": "Curated by decade" },
+              { "number": "03", "title": "Outerwear", "text": "Wool coats, leather jackets, and trench coats with the patina only decades can give. Inspected and relined where needed.", "detail": "Fall & winter staples" },
+              { "number": "04", "title": "Menswear", "text": "A dedicated rail of shirts, trousers, and jackets — from Ivy League prep to mid-century tailoring.", "detail": "Sizes S–XXL" },
+              { "number": "05", "title": "Accessories", "text": "Scarves, hats, belts, and bags that finish an outfit. Plus a case of vintage jewelry, each piece tagged with its era.", "detail": "Jewelry, scarves, bags" },
+              { "number": "06", "title": "Home & oddities", "text": "A small shelf of vintage home goods — ceramics, lamps, and the occasional oddity we couldn't leave behind.", "detail": "Rotating selection" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "curate" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "From the floor",
+            "title": "A few pieces that",
+            "title_accent": "found their people",
+            "intro": "A glimpse of what's been through the shop lately — and what might be waiting for you.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-119.png", "id": 0 }, "label": "The main floor", "alt": "A warm vintage boutique interior with wooden racks of clothing and soft sepia lighting" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-119.png", "id": 0 }, "label": "The dress rail", "alt": "A rail of vintage dresses in warm light, hanging in a cozy shop" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-119.png", "id": 0 }, "label": "The jewelry case", "alt": "A glass case of vintage jewelry with brass and gold pieces on display" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-finds",
+      "content_width": "full",
+      "settings": { "_element_id": "finds" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "Recent finds",
+            "title": "Fresh off the",
+            "title_accent": "buying trip",
+            "intro": "A few of the pieces our buyers are most excited about this month.",
+            "items": [
+              { "title": "1970s suede fringe jacket", "tag": "Outerwear · $185", "text": "A buttery-soft suede jacket with hand-stitched fringe, fully relined and ready for its next chapter.", "url": { "url": "#contact" }, "link_label": "Ask about this piece", "image": { "url": "" }, "alt": "" },
+              { "title": "1950s floral tea dress", "tag": "Dresses · $95", "text": "A crisp cotton tea dress with a full skirt and original buttons. Size 8, in remarkable condition.", "url": { "url": "#contact" }, "link_label": "Ask about this piece", "image": { "url": "" }, "alt": "" },
+              { "title": "Vintage Levi's 501s", "tag": "Denim · $120", "text": "A pair of 1980s 501s with honest fade and no rips. Waist 32, inseam 30 — the good kind of broken in.", "url": { "url": "#contact" }, "link_label": "Ask about this piece", "image": { "url": "" }, "alt": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word of mouth",
+            "title": "What our regulars",
+            "title_accent": "keep saying",
+            "intro": "The nicest part of the job is watching a piece find its person. Here's what they say after.",
+            "reviews": [
+              { "quote": "I found a 1960s wool coat that fits like it was made for me. The team had already relined it and replaced the buttons. It's the best thing in my closet and it cost less than a fast-fashion jacket.", "author": "Nadia P.", "role": "Regular since 2021", "stars": 5 },
+              { "quote": "The Velvet Attic is the only place I shop. Every piece is genuinely good — no digging through bins, no disappointment. They know their stock and they know their customers.", "author": "Marcus T.", "role": "Menswear regular", "stars": 5 },
+              { "quote": "I brought in my grandmother's 1970s dresses and they gave me a fair price and a lovely note. It felt like they understood what those pieces meant. I've been back to shop ever since.", "author": "Elena R.", "role": "Sold & shopped", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Visit or write",
+            "title": "Come find your",
+            "title_accent": "next favorite thing",
+            "intro": "Drop by the shop, send us a message, or ask about a piece you saw online. We answer every note within a day.",
+            "phone": "(555) 318-7742",
+            "email": "hello@velvetatticvintage.com",
+            "location": "The Velvet Attic · 14 Mill Street, Old Town",
+            "form_kicker": "Say hello",
+            "form_title": "Ask about a piece or plan a visit",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE VELVET ATTIC",
+            "brand_tag": "VINTAGE BOUTIQUE",
+            "blurb": "A curated vintage boutique in the old mill district — hand-picked pieces from the 1920s through the 1990s, each one inspected, mended, and ready for a second life.",
+            "copyright": "© The Velvet Attic — vintage boutique",
+            "columns": [
+              {
+                "heading": "The shop",
+                "links": [
+                  { "text": "The collection", "url": { "url": "#collection" } },
+                  { "text": "From the floor", "url": { "url": "#curate" } },
+                  { "text": "Recent finds", "url": { "url": "#finds" } },
+                  { "text": "Word of mouth", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Plan a visit", "url": { "url": "#contact" } },
+                  { "text": "Ask about a piece", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
