@@ -1,0 +1,274 @@
+{
+  "title": "Velocitas Cycling Club",
+  "slug": "cycling-club",
+  "kit": "cycling-club",
+  "containers": [
+    {
+      "id": "vc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "VELOCITAS",
+            "brand_tag": "CYCLING CLUB",
+            "cta_text": "Join the club",
+            "cta_url": { "url": "#join" },
+            "links": [
+              { "text": "Rides", "url": { "url": "#rides" } },
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "Gallery", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-129.png", "id": 1462 },
+            "eyebrow": "Velocitas Cycling Club · Est. 2012 · USA Cycling club",
+            "headline": "The pack that<em> never drops you.</em>",
+            "copy": "Velocitas is more than a club — it's a training collective. Group rides every weekend, coached programs for every level, and a race team that's stood on podiums from state crits to gravel nationals. No matter where you start, you'll finish faster here.",
+            "primary_cta_text": "Join the club",
+            "primary_cta_url": { "url": "#join" },
+            "secondary_cta_text": "See the rides",
+            "secondary_cta_url": { "url": "#rides" },
+            "trust_list": [
+              { "text": "USA Cycling insured club since 2012" },
+              { "text": "Rides at every level — social to race team" },
+              { "text": "Structured coaching by certified USA Cycling coaches" },
+              { "text": "300+ members across three chapters" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "stats" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The club in numbers",
+            "title": "Built to",
+            "title_accent": "move the dial",
+            "intro": "Twelve seasons of riding, racing, and building riders up from their first century to their first podium.",
+            "stats": [
+              { "value": "300+", "label": "Active members across three chapters" },
+              { "value": "14", "label": "Weekly group rides, all year round" },
+              { "value": "38", "label": "Podiums at regional and national events" },
+              { "value": "19", "label": "Coached race-team athletes this season" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-rides",
+      "content_width": "full",
+      "settings": { "_element_id": "rides" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Rides & programs",
+            "title": "Find your",
+            "title_accent": "pace in the pack",
+            "intro": "Three tracks into Velocitas, each with its own rides, coaching, and community. Join one, or roll through them all as you build.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Social Rides" },
+              { "key": "build", "label": "Development" },
+              { "key": "launch", "label": "Race Team" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Sunday Social", "text": "A no-drop 30–45 mile spin every Sunday morning. Coffee stop halfway, all paces welcome, nobody left behind." },
+              { "icon": "◈", "title": "Gravel Grinder", "text": "Monthly off-road adventure — mixed-surface routes, farm roads, and trails for riders who like their miles a little loose." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Tuesday Interval Lab", "text": "A coached VO2 and threshold session on the club's rolling circuit. Structured, measured, and surprisingly fun." },
+              { "icon": "◈", "title": "Century Training Block", "text": "A 12-week progressive plan to your first (or fastest) century — long rides, nutrition coaching, and a finish-line crew." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Elite Development Squad", "text": "For racers aiming at podiums. Periodized training plans, race support, and a tight group of committed teammates." },
+              { "icon": "◈", "title": "Race Support Crew", "text": "Mechanics, feed zones, and team cars at every race — so our athletes can focus on the effort, not the logistics." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-join",
+      "content_width": "full",
+      "settings": { "_element_id": "join" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How to join",
+            "title": "From first ride",
+            "title_accent": "to race day",
+            "intro": "Joining Velocitas takes about an hour of your week and changes how you ride for good. Here's the path in.",
+            "steps": [
+              { "title": "Join a Sunday Social", "text": "Ride with us once before you commit. Every pace is welcome — we'll pair you with a group that fits your fitness." },
+              { "title": "Meet the club", "text": "Grab coffee after the ride, meet the ride leaders, and find the track that matches your goals. Ask anything." },
+              { "title": "Membership & insurance", "text": "Sign up, get covered under our USA Cycling club insurance, and pick the track — social, development, or race." },
+              { "title": "Gear up & go", "text": "You're in. Weekly rides, structured programs, and a clubhouse of riders who'll push you and pick you up in equal measure." }
+            ],
+            "note": "First ride is always free. If you're not a member yet, the Sunday Social is the easiest yes in cycling."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Velocitas",
+            "title": "More than",
+            "title_accent": "a group ride",
+            "intro": "There are plenty of ways to ride alone. We exist to make you faster, safer, and more consistent than you'd ever be on your own.",
+            "features": [
+              { "number": "01", "title": "Certified coaching", "text": "Every training program is designed by USA Cycling-certified coaches. No guesswork — just measured, periodized progress.", "detail": "USA Cycling coaches on staff" },
+              { "number": "02", "title": "Rides for every level", "text": "From the Sunday social to the elite squad, there's a pack that matches your pace. Ride up through them as you build.", "detail": "No-drop guarantee on social rides" },
+              { "number": "03", "title": "Real race support", "text": "Team cars, mechanics, feed zones, and a support crew at every race. You show up to suffer; we handle the rest.", "detail": "Full support at every event" },
+              { "number": "04", "title": "Community that shows up", "text": "Flat tire on a Tuesday night? Someone is driving out with a tube. That's the culture we protect.", "detail": "300+ riders who've got your back" },
+              { "number": "05", "title": "Safety first", "text": "Ride leaders, route vetting, club insurance, and clear group-riding etiquette on every outing.", "detail": "USA Cycling insured" },
+              { "number": "06", "title": "Year-round calendar", "text": "Winter trainer rides, spring build camps, summer racing, and fall classics. The calendar never sleeps.", "detail": "14 rides every single week" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Life in the club",
+            "title": "Moments from",
+            "title_accent": "the pack",
+            "intro": "A snapshot of a Velocitas season — coffee stops, finish lines, gravel days, and the miles between.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-129.png", "id": 1462 }, "label": "Sunday social rolling out", "alt": "A peloton of cyclists in red kit rolling out of the clubhouse on a bright morning" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-129.png", "id": 1462 }, "label": "Gravel grinder day", "alt": "Riders climbing a gravel farm road at golden hour, dust in the air" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-129.png", "id": 1462 }, "label": "Race-day podium", "alt": "A cyclist on the podium raising a trophy, red team kit on" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-count",
+      "content_width": "full",
+      "settings": { "_element_id": "next" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Race season",
+            "title": "Spring Classic",
+            "title_accent": "registration closes in",
+            "end": "2026-09-18 23:59",
+            "expired_text": "Spring Classic registration has closed — join the club to get first access to next season's race calendar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-stories",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Member stories",
+            "title": "What riders",
+            "title_accent": "say about the club",
+            "intro": "We asked a few members what Velocitas means to them. The answers read like a mission statement.",
+            "reviews": [
+              { "quote": "I came for the Sunday social and stayed for the race team. Three seasons later I've got a state championship, a training plan I actually trust, and friends I'd drive two hours to help with a flat.", "author": "Mateo R.", "role": "Race team, 3 seasons", "stars": 5 },
+              { "quote": "As someone who barely rode before joining, the development program took me from 'fear the century' to a 100-mile finish with a grin. The no-drop policy is real — someone always waits.", "author": "Priya K.", "role": "Development track", "stars": 5 },
+              { "quote": "I've raced on a lot of teams. Velocitas is the first where the support crew out-hustles the athletes. New bike, tubeless sealant, feed bottles — they think of everything so you just ride.", "author": "Jonas W.", "role": "Elite squad", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Come ride",
+            "title_accent": "with us",
+            "intro": "Questions about joining, a ride time, or bringing a group ride through town? Drop us a note — a ride leader replies within a day.",
+            "phone": "(555) 208-7741",
+            "email": "hello@velocitas.club",
+            "location": "Velocitas Cycling Club · 14 Peloton Plaza, Riverside, OR",
+            "form_kicker": "New member inquiry",
+            "form_title": "Tell us about your riding",
+            "submit_cta": "Request to join"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "VELOCITAS",
+            "brand_tag": "CYCLING CLUB",
+            "blurb": "A competitive road and gravel cycling club — structured training, group rides, and race support for riders who want to go further, faster, together.",
+            "copyright": "© Velocitas Cycling Club",
+            "columns": [
+              {
+                "heading": "Rides",
+                "links": [
+                  { "text": "Rides & programs", "url": { "url": "#rides" } },
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "Life in the club", "url": { "url": "#gallery" } },
+                  { "text": "Member stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Join",
+                "links": [
+                  { "text": "Join the club", "url": { "url": "#join" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
