@@ -1,0 +1,265 @@
+{
+  "title": "Chili Runner",
+  "slug": "street-food",
+  "kit": "street-food",
+  "containers": [
+    {
+      "id": "sf-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "CHILI RUNNER",
+            "brand_tag": "FOOD TRUCK",
+            "cta_text": "Find us today",
+            "cta_url": { "url": "#find" },
+            "links": [
+              { "text": "Menu", "url": { "url": "#menu" } },
+              { "text": "Tonight's stop", "url": { "url": "#find" } },
+              { "text": "On the road", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-130.png", "id": 1467 },
+            "eyebrow": "Chili Runner Food Truck · Roaming the metro since 2016",
+            "headline": "Chili that<em> chases you.</em>",
+            "copy": "Chili Runner rolls into a new corner every day with a menu built from scratch in the truck's tiny kitchen — slow-simmered chili, smoky birria, loaded fries, and hand-pressed tortillas. Follow the tracker. Catch us before the pot runs dry.",
+            "primary_cta_text": "Find us today",
+            "primary_cta_url": { "url": "#find" },
+            "secondary_cta_text": "See the menu",
+            "secondary_cta_url": { "url": "#menu" },
+            "trust_list": [
+              { "text": "Scratch-made daily from a real kitchen on wheels" },
+              { "text": "Live tracker — we post our corner every morning" },
+              { "text": "Winner, Metro Street Food Slam 2024" },
+              { "text": "Cash, cards, and mobile pay all welcome" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "stats" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The truck in numbers",
+            "title": "Small kitchen,",
+            "title_accent": "big appetite",
+            "intro": "Seven years on the road, one stubborn rule: everything worth eating is made in-house, from scratch, in the back of a truck.",
+            "stats": [
+              { "value": "300k", "label": "Bowls served since we rolled out in 2016" },
+              { "value": "9", "label": "Metro corners on the weekly rotation" },
+              { "value": "2", "label": "Hours on average until the chili's gone" },
+              { "value": "4.9", "label": "Average rating across 2,100+ reviews" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-menu",
+      "content_width": "full",
+      "settings": { "_element_id": "menu" },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "The menu",
+            "title": "Made today,",
+            "title_accent": "gone today",
+            "intro": "A tight menu done right. When the pot's empty, it's empty — that's the point. Here's what's on the board when we roll up.",
+            "items": [
+              { "name": "Signature Chili Bowl", "description": "Slow-simmered beef & bean chili, cheddar, crema, pickled onion, warm tortilla.", "price": "$11", "tag": "Flagship" },
+              { "name": "Birria Quesadilla", "description": "Shredded birria, Oaxaca cheese, consommé for dipping.", "price": "$13", "tag": "Crowd favorite" },
+              { "name": "Loaded Street Fries", "description": "Crispy fries, chili, cheese sauce, jalapeño, crema drizzle.", "price": "$10", "tag": "" },
+              { "name": "Elote Cup", "description": "Grilled corn, cotija, chipotle mayo, lime, tajín.", "price": "$6", "tag": "Veg" },
+              { "name": "Hand-Pressed Tortas", "description": "Slow-braised meat or veg, avocado, house slaw, on pressed bolillo.", "price": "$12", "tag": "" },
+              { "name": "Aguas Frescas", "description": "Fresh-pressed watermelon or horchata, made to order.", "price": "$4", "tag": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-find",
+      "content_width": "full",
+      "settings": { "_element_id": "find" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Tonight's stop",
+            "title": "Lakeside Farmers Market",
+            "title_accent": "closes in",
+            "end": "2026-09-18 21:00",
+            "expired_text": "Tonight's stop has wrapped — follow the tracker to see where the Chili Runner parks tomorrow."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-route",
+      "content_width": "full",
+      "settings": { "_element_id": "route" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "Catch us",
+            "title_accent": "on the move",
+            "intro": "No fixed address, no problem. Here's how to find the truck wherever it lands.",
+            "steps": [
+              { "title": "Follow the tracker", "text": "We post our corner and arrival time on socials every morning, rain or shine. Follow to know exactly where we'll be." },
+              { "title": "Order at the window", "text": "No apps, no kiosks — just a friendly window. Tell us what looks good; we'll fire it up fresh." },
+              { "title": "Grab a spot", "text": "Fold-out tables and a couple of stools around the truck. Eat hot, meet neighbors, stay a while." },
+              { "title": "Catch us next time", "text": "The menu changes with the seasons and the pot runs dry most days. Missed it? We'll be somewhere new tomorrow." }
+            ],
+            "note": "First-time regulars get a loyalty card — buy nine bowls, the tenth is on the house."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Chili Runner",
+            "title": "Street food,",
+            "title_accent": "done honestly",
+            "intro": "We could cut corners and sell more. We don't. Here's what we refuse to compromise on.",
+            "features": [
+              { "number": "01", "title": "Scratch, always", "text": "Chili simmers overnight, tortillas are pressed to order, sauces are built in-house. Nothing comes out of a bag.", "detail": "Made from scratch, daily" },
+              { "number": "02", "title": "Real ingredients", "text": "We buy from local farms and markets, and it shows up in the flavor. Seasonal menus mean we cook what's good right now.", "detail": "Local, seasonal sourcing" },
+              { "number": "03", "title": "Honest portions", "text": "A full bowl at a fair price, made for people who are actually hungry — not a photo prop.", "detail": "Big portions, fair prices" },
+              { "number": "04", "title": "Community corners", "text": "We park where neighborhoods gather — markets, parks, breweries — and tip the crew that feeds the regulars.", "detail": "Rooted in the neighborhood" },
+              { "number": "05", "title": "Fast, friendly window", "text": "Order at the window, eat in minutes. Real people, real conversation, real food.", "detail": "No kiosks, just us" },
+              { "number": "06", "title": "We show up", "text": "Rain, cold, or heat wave — if we said we'd be there, we're there. The tracker is a promise.", "detail": "We run the route we post" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "On the road",
+            "title": "Life at",
+            "title_accent": "the window",
+            "intro": "A look at the Chili Runner in its natural habitat — markets, parking lots, hungry lines, and good weather.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-130.png", "id": 1467 }, "label": "Rolling up to the market", "alt": "A chili-red food truck with cream accents pulling into a sunny farmers market" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-130.png", "id": 1467 }, "label": "The signature bowl", "alt": "A steaming bowl of chili with cheese and crema, served on a paper tray" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-130.png", "id": 1467 }, "label": "Line at the window", "alt": "Customers queuing at a food truck window on a warm evening, string lights overhead" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-stories",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word on the street",
+            "title": "What regulars",
+            "title_accent": "are saying",
+            "intro": "The best review we get is seeing the same faces at a new corner. Here's what a few of them have told us.",
+            "reviews": [
+              { "quote": "I've followed the Chili Runner to three different corners this month. The birria quesadilla is worth the drive — and the tracker makes it too easy to find them.", "author": "Dana P.", "role": "Tracked us across the metro", "stars": 5 },
+              { "quote": "As a lifelong chili snob, I was skeptical of a bowl from a truck. Now I've got a loyalty card. That slow-simmered chili is the real deal, every time.", "author": "Marcus T.", "role": "Signature Bowl loyalist", "stars": 5 },
+              { "quote": "They showed up at our brewery every Friday all summer, rain and shine. The loaded fries and the crew's energy made it the best part of the week.", "author": "Elena V.", "role": "Brewery partner", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book us or find us",
+            "title": "Come hungry,",
+            "title_accent": "leave happy",
+            "intro": "Want the truck at your event, office, or block party? Send a note. Want tonight's chili? Just check the tracker and roll up.",
+            "phone": "(555) 417-8820",
+            "email": "hello@chilirunner.co",
+            "location": "Chili Runner · roaming the metro — see the tracker for today's corner",
+            "form_kicker": "Booking & catering",
+            "form_title": "Bring the truck to you",
+            "submit_cta": "Request a date"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sf-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "CHILI RUNNER",
+            "brand_tag": "FOOD TRUCK",
+            "blurb": "A roaming chili-red food truck serving scratch-made street plates — slow-simmered chili, birria, loaded fries, and hand-pressed tortillas — at a new metro corner every day.",
+            "copyright": "© Chili Runner Food Truck",
+            "columns": [
+              {
+                "heading": "Menu",
+                "links": [
+                  { "text": "The menu", "url": { "url": "#menu" } },
+                  { "text": "Why Chili Runner", "url": { "url": "#why" } },
+                  { "text": "On the road", "url": { "url": "#gallery" } },
+                  { "text": "Word on the street", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Find us",
+                "links": [
+                  { "text": "Tonight's stop", "url": { "url": "#find" } },
+                  { "text": "How to catch us", "url": { "url": "#route" } },
+                  { "text": "Book the truck", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
