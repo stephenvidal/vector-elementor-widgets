@@ -80,12 +80,36 @@ final class PortfolioIndexContentControls {
 		$widget->add_control(
 			'visible',
 			array(
-				'label'       => __( 'Visible before "Load more"', 'vector-elementor-widgets' ),
+				'label'       => __( 'Starting cards (desktop / tablet)', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::NUMBER,
+				'default'     => 6,
+				'min'         => 1,
+				'max'         => 48,
+				'description' => __( 'Cards shown on the first paint on desktop and tablet (before "Load more"). Default 6 = two rows of three.', 'vector-elementor-widgets' ),
+			)
+		);
+
+		$widget->add_control(
+			'visible_mobile',
+			array(
+				'label'       => __( 'Starting cards (mobile)', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::NUMBER,
+				'default'     => 4,
+				'min'         => 1,
+				'max'         => 24,
+				'description' => __( 'Cards shown on the first load on mobile (one column). Defaults to 4 = one column of four rows.', 'vector-elementor-widgets' ),
+			)
+		);
+
+		$widget->add_control(
+			'per_click',
+			array(
+				'label'       => __( 'Cards per "Load more" click', 'vector-elementor-widgets' ),
 				'type'        => \Elementor\Controls_Manager::NUMBER,
 				'default'     => 6,
 				'min'         => 1,
 				'max'         => 24,
-				'description' => __( 'Cards shown before the "Load more" button reveals the rest (keeps bandwidth bounded).', 'vector-elementor-widgets' ),
+				'description' => __( 'How many additional cards each "Load more" click reveals. Defaults to one full row on desktop.', 'vector-elementor-widgets' ),
 			)
 		);
 

@@ -97,15 +97,19 @@ final class PortfolioIndex extends BaseWidget {
 			array_merge(
 				SectionHeading::setting_types(),
 				array(
-					'columns'    => 'string',
-					'visible'    => 'int',
+					'columns'         => 'string',
+					'visible'         => 'int',
+					'visible_mobile'  => 'int',
+					'per_click'       => 'int',
 				)
 			)
 		);
 
 		$columns = isset( $safe['columns'] ) ? sanitize_key( (string) $safe['columns'] ) : '3';
 		$columns = in_array( $columns, array( '2', '3', '4' ), true ) ? $columns : '3';
-		$visible = isset( $safe['visible'] ) ? max( 1, min( 24, $safe['visible'] ) ) : 6;
+		$visible        = isset( $safe['visible'] ) ? max( 1, min( 48, $safe['visible'] ) ) : 6;
+		$visible_mobile = isset( $safe['visible_mobile'] ) ? max( 1, min( 24, $safe['visible_mobile'] ) ) : 4;
+		$per_click      = isset( $safe['per_click'] ) ? max( 1, min( 24, $safe['per_click'] ) ) : 6;
 
 		$heading = SectionHeading::render(
 			$safe,
@@ -171,7 +175,7 @@ final class PortfolioIndex extends BaseWidget {
 		$hidden   = $has_more ? array_slice( $cards, $visible ) : array();
 		$slot_id  = wp_unique_id( 'vew-portfolio-index-' );
 		?>
-		<section class="vew-portfolio-index vew-portfolio-index--<?php echo esc_attr( $columns ); ?>" aria-label="<?php echo esc_attr__( 'Portfolio index', 'vector-elementor-widgets' ); ?>" data-vew-portfolio-index>
+		<section class="vew-portfolio-index vew-portfolio-index--<?php echo esc_attr( $columns ); ?>" aria-label="<?php echo esc_attr__( 'Portfolio index', 'vector-elementor-widgets' ); ?>" data-vew-portfolio-index data-vew-visible="<?php echo esc_attr( $visible ); ?>" data-vew-visible-mobile="<?php echo esc_attr( $visible_mobile ); ?>" data-vew-per-click="<?php echo esc_attr( $per_click ); ?>">
 			<div class="vew-portfolio-index__inner">
 				<?php
 				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- component escapes all values.
