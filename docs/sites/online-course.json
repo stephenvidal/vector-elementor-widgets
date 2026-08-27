@@ -1,0 +1,244 @@
+{
+  "title": "Lumen Academy",
+  "slug": "online-course",
+  "kit": "online-course",
+  "containers": [
+    {
+      "id": "oc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "LUMEN",
+            "brand_tag": "ACADEMY",
+            "cta_text": "Browse courses",
+            "cta_url": { "url": "#courses" },
+            "links": [
+              { "text": "Courses", "url": { "url": "#courses" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-115.png", "id": 1411 },
+            "eyebrow": "Lumen Academy · Online courses for working professionals",
+            "headline": "Learn a skill that<br><em>moves your career.</em>",
+            "copy": "Lumen Academy turns busy schedules into real progress. Every course is project-based, cohort-supported, and built around the skills employers actually hire for — so you finish with a portfolio, not just a certificate.",
+            "primary_cta_text": "Browse courses",
+            "primary_cta_url": { "url": "#courses" },
+            "secondary_cta_text": "How it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Project-based — finish with real work, not just a certificate" },
+              { "text": "Taught by practitioners who do the work daily" },
+              { "text": "Cohort cohorts with live instructor support" },
+              { "text": "Lifetime access to every course you buy" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The numbers behind the learning",
+            "title": "Progress you can",
+            "title_accent": "measure",
+            "stats": [
+              { "value": "120k+", "label": "Learners enrolled across all courses" },
+              { "value": "94%", "label": "of graduates complete their course" },
+              { "value": "4.8/5", "label": "Average course rating from 38k reviews" },
+              { "value": "60+", "label": "Project-based courses in the catalog" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-courses",
+      "content_width": "full",
+      "settings": { "_element_id": "courses" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "The catalog",
+            "title": "Courses that build",
+            "title_accent": "real skills",
+            "intro": "Every Lumen course is a complete project: you build something real, get feedback from instructors, and leave with work you can show. Here are a few of our most popular tracks.",
+            "features": [
+              { "number": "01", "title": "Data Analysis with Python", "text": "From spreadsheets to real analysis. Clean, explore, and visualize data with Python and pandas, then build a portfolio project you can share with employers.", "detail": "8 weeks · project-based" },
+              { "number": "02", "title": "Product Management Essentials", "text": "Learn to discover, scope, and ship products people actually use. Practice with real case studies and leave with a product roadmap you built yourself.", "detail": "6 weeks · cohort" },
+              { "number": "03", "title": "UX & Product Design", "text": "Design interfaces that solve real problems. Cover research, wireframing, and prototyping in Figma, and finish with a polished case study.", "detail": "7 weeks · project-based" },
+              { "number": "04", "title": "Digital Marketing Foundations", "text": "Build a full-funnel marketing plan for a real brand. Learn SEO, paid channels, and analytics — and measure what actually works.", "detail": "5 weeks · cohort" },
+              { "number": "05", "title": "SQL for Business Analysts", "text": "Query, join, and analyze data like a pro. Move from basic SELECTs to complex business questions, with hands-on practice on real datasets.", "detail": "4 weeks · self-paced" },
+              { "number": "06", "title": "Career & Interview Prep", "text": "A practical toolkit for the job search: resume, portfolio, and mock interviews with feedback from hiring managers.", "detail": "3 weeks · cohort" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How Lumen works",
+            "title": "From signup to skill,",
+            "title_accent": "in four steps",
+            "intro": "We designed the learning path around a working professional's week. No fluff, no filler — just a clear path from where you are to where you want to be.",
+            "steps": [
+              { "title": "Pick your course", "text": "Browse the catalog, read the syllabus, and choose a course that matches your goal. Every course lists the exact skills and project you'll build." },
+              { "title": "Learn in short sessions", "text": "Lessons are broken into focused 10–15 minute videos you can fit into a lunch break. Practice exercises reinforce each concept before you move on." },
+              { "title": "Build your project", "text": "Each course centers on a real project. Submit your work, get detailed feedback from instructors, and iterate until it's portfolio-ready." },
+              { "title": "Graduate with proof", "text": "Finish with a certificate, a completed project, and a skill you can demonstrate. Our career team helps you present it to employers." }
+            ],
+            "note": "Most learners spend 3–5 hours a week and complete their course in 4–8 weeks — while keeping their full-time job."
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Invest in a skill,",
+            "title_accent": "not a subscription",
+            "intro": "One course, one price, lifetime access. No monthly fees, no surprise renewals — just the course and the support to finish it.",
+            "plans": [
+              { "plan": "Single Course", "price": "$129", "unit": "one-time", "features": [{ "text": "Full course access" }, { "text": "Lifetime updates" }, { "text": "Project feedback" }, { "text": "Certificate of completion" }], "cta": "Enroll now", "cta_url": { "url": "#contact" } },
+              { "plan": "Career Track", "price": "$349", "unit": "one-time", "featured": "yes", "features": [{ "text": "3 related courses" }, { "text": "Priority instructor feedback" }, { "text": "Career & interview prep" }, { "text": "Portfolio review" }, { "text": "Certificate of completion" }], "cta": "Start your track", "cta_url": { "url": "#contact" } },
+              { "plan": "Team Access", "price": "$899", "unit": "per seat", "features": [{ "text": "All courses included" }, { "text": "Team progress dashboard" }, { "text": "Dedicated support" }, { "text": "Custom onboarding" }], "cta": "Talk to us", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Learner stories",
+            "title": "Skills that changed",
+            "title_accent": "careers",
+            "intro": "Real words from professionals who turned a course into a promotion, a new role, or a whole new direction.",
+            "reviews": [
+              { "quote": "I took the Data Analysis course while working full-time. Three months later I moved from operations into a data analyst role — the project portfolio made the difference.", "author": "Maya R.", "role": "Data Analyst · completed 2025", "stars": 5 },
+              { "quote": "The product management cohort was the best money I've spent on my career. The feedback on my roadmap was specific and honest, and it showed up in my interview.", "author": "Daniel K.", "role": "Product Manager · completed 2025", "stars": 5 },
+              { "quote": "I'd tried free tutorials for years and never finished. The structure and the project kept me accountable — I actually completed something for the first time.", "author": "Priya S.", "role": "UX Designer · completed 2024", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions learners",
+            "title_accent": "ask us",
+            "intro": "The honest answers to the questions we hear most often before someone enrolls.",
+            "items": [
+              { "question": "How much time do I need each week?", "answer": "Most learners spend 3–5 hours a week. Lessons are broken into 10–15 minute videos, so you can fit them into lunch breaks or evenings. Courses are designed to be completed in 4–8 weeks while working full-time." },
+              { "question": "Do I get a certificate?", "answer": "Yes. Every course includes a certificate of completion. More importantly, you finish with a real project you can show employers — that's what actually moves your career." },
+              { "question": "What if I get stuck?", "answer": "Every course has instructor support. You can ask questions in the course forum, and cohort courses include live Q&A sessions. Career Track students get priority feedback on their projects." },
+              { "question": "Is it really lifetime access?", "answer": "Yes. Once you buy a course, it's yours forever — including all future updates. No subscriptions, no renewals, no surprise fees." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get started",
+            "title": "Start learning",
+            "title_accent": "today",
+            "intro": "Browse the catalog, ask us a question, or get help choosing the right course for your goal. We're here to help you make progress.",
+            "phone": "(555) 214-8800",
+            "email": "hello@lumen.academy",
+            "location": "Lumen Academy · Remote-first, worldwide",
+            "form_kicker": "Talk to a learning advisor",
+            "form_title": "Find the right course",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "oc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "LUMEN",
+            "brand_tag": "ACADEMY",
+            "blurb": "The online course platform for working professionals who want practical, project-based skills — taught by people who do the work.",
+            "copyright": "© Lumen Academy",
+            "columns": [
+              {
+                "heading": "Learn",
+                "links": [
+                  { "text": "Courses", "url": { "url": "#courses" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Learner stories", "url": { "url": "#stories" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
