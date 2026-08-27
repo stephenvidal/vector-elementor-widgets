@@ -1,0 +1,240 @@
+{
+  "title": "The Margin — Digital Journal",
+  "slug": "digital-journal",
+  "kit": "digital-journal",
+  "containers": [
+    {
+      "id": "dj-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE MARGIN",
+            "brand_tag": "DIGITAL JOURNAL",
+            "cta_text": "Subscribe free",
+            "cta_url": { "url": "#newsletter" },
+            "links": [
+              { "text": "Latest", "url": { "url": "#latest" } },
+              { "text": "Reporting", "url": { "url": "#reporting" } },
+              { "text": "Voices", "url": { "url": "#voices" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-112.png", "id": 1396 },
+            "eyebrow": "Independent digital journal · Est. 2016",
+            "headline": "Reporting that<br><em>reads between the lines.</em>",
+            "copy": "The Margin is an independent digital journal covering the stories that move slowly — policy, culture, and the people shaping both. No clickbait, no breaking-news treadmill. Just careful reporting, published when it's ready.",
+            "primary_cta_text": "Read the latest",
+            "primary_cta_url": { "url": "#latest" },
+            "secondary_cta_text": "Our reporting",
+            "secondary_cta_url": { "url": "#reporting" },
+            "trust_list": [
+              { "text": "Ad-free, reader-funded since 2016" },
+              { "text": "Long-form reporting, published weekly" },
+              { "text": "No paywall on our investigative series" },
+              { "text": "Fact-checked by an independent desk" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The journal in numbers",
+            "title": "A patient readership,",
+            "title_accent": "growing quietly",
+            "stats": [
+              { "value": "9", "label": "Years of continuous publication" },
+              { "value": "120k", "label": "Readers across 40 countries" },
+              { "value": "340+", "label": "Long-form stories published" },
+              { "value": "0", "label": "Ads on any page, ever" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-latest",
+      "content_width": "full",
+      "settings": { "_element_id": "latest" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "From the newsroom",
+            "title": "The latest",
+            "title_accent": "from the desk",
+            "intro": "New stories land every week. Here's what the newsroom is working on right now.",
+            "features": [
+              { "number": "01", "title": "The Quiet Cost of Cheap Water", "text": "A two-year investigation into how a single aquifer is being drained faster than it can refill — and the towns that will feel it first.", "detail": "Investigative · 12 min read" },
+              { "number": "02", "title": "What the Census Missed", "text": "The people who fall through the cracks of every national count, and why their absence reshapes policy for a decade.", "detail": "Policy · 9 min read" },
+              { "number": "03", "title": "The Librarians of the Last Mile", "text": "In rural counties where broadband never arrived, a small network of librarians is quietly building the internet's last outpost.", "detail": "Culture · 11 min read" },
+              { "number": "04", "title": "A Field Guide to Slow News", "text": "Why the most important stories rarely break — they accumulate. A manifesto for reading against the feed.", "detail": "Essay · 7 min read" },
+              { "number": "05", "title": "The Price of a Quiet Street", "text": "How one neighborhood traded its traffic for trees, and what it cost the city in the process.", "detail": "Cities · 8 min read" },
+              { "number": "06", "title": "Notes from the Archive", "text": "A monthly column digging through old issues to find the stories that were right all along.", "detail": "Column · 5 min read" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-reporting",
+      "content_width": "full",
+      "settings": { "_element_id": "reporting" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "Reporting that",
+            "title_accent": "takes its time",
+            "intro": "We don't chase the news cycle. We follow the story until it's ready to be told — then we tell it properly.",
+            "steps": [
+              { "title": "Pitch and vet", "text": "Every story starts with a question worth answering. Our editors vet the angle, the sources, and the stakes before a single interview." },
+              { "title": "Report in the field", "text": "Our writers go where the story is — a courthouse, a farm, a factory floor. We talk to the people who live it, not just the people who tweet it." },
+              { "title": "Edit and fact-check", "text": "Every piece passes through an independent fact-checking desk. If we can't verify it, we don't publish it." },
+              { "title": "Publish when ready", "text": "Stories go live when they're done, not when the calendar says so. That's the whole point of a journal that reads between the lines." }
+            ],
+            "note": "Our longest investigation took fourteen months from first interview to publication. It was worth every week."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-feed",
+      "content_width": "full",
+      "settings": { "_element_id": "feed" },
+      "widgets": [
+        {
+          "type": "vew-posts-feed",
+          "settings": {
+            "eyebrow": "From the blog",
+            "title": "Notes from",
+            "title_accent": "the newsroom",
+            "intro": "Short dispatches, reading lists, and the occasional editor's note — straight from the desk.",
+            "post_type": "post",
+            "count": 3,
+            "columns": "3",
+            "order": "desc",
+            "show_excerpt": "yes",
+            "show_date": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Reader voices",
+            "title": "Read by",
+            "title_accent": "people who read",
+            "intro": "We don't optimize for engagement. We write for people who finish the article — and they tell us so.",
+            "reviews": [
+              { "quote": "The Margin is the only publication I read to the end. It doesn't tell me what to think; it gives me the tools to think for myself.", "author": "Priya Raman", "role": "Reader since 2019", "stars": 5 },
+              { "quote": "Their investigation into the aquifer changed how my town votes. That's not a headline — that's journalism doing its job.", "author": "Tom Ellison", "role": "Subscriber, 4 years", "stars": 5 },
+              { "quote": "I cancelled three news apps and kept The Margin. It's slower, but it's honest. I trust what I read here.", "author": "Aisha Bello", "role": "Reader since 2021", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-newsletter",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "The Sunday Margin",
+            "title": "One story,",
+            "title_accent": "every Sunday",
+            "intro": "A single long-form story in your inbox each week, plus a note from the editor on what we're working on. No breaking-news alerts, no spam, unsubscribe anytime.",
+            "placeholder": "you@example.com",
+            "button_text": "Subscribe free"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Have a story",
+            "title_accent": "worth telling?",
+            "intro": "Tips, corrections, pitches, or just a note about something we got right — we read everything that comes in.",
+            "phone": "(555) 214-8803",
+            "email": "desk@themargin.news",
+            "location": "The Margin · 8 Press Row",
+            "form_kicker": "Reach the newsroom",
+            "form_title": "We'll get back to you",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dj-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE MARGIN",
+            "brand_tag": "DIGITAL JOURNAL",
+            "blurb": "An independent digital journal covering the stories that move slowly — policy, culture, and the people shaping both.",
+            "copyright": "© The Margin — digital journal",
+            "columns": [
+              {
+                "heading": "Read",
+                "links": [
+                  { "text": "Latest stories", "url": { "url": "#latest" } },
+                  { "text": "How we report", "url": { "url": "#reporting" } },
+                  { "text": "Newsroom notes", "url": { "url": "#feed" } },
+                  { "text": "Reader voices", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "Subscribe free", "url": { "url": "#newsletter" } },
+                  { "text": "Contact the desk", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
