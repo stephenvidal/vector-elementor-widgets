@@ -1,0 +1,266 @@
+{
+  "title": "The Fenwick School of Public Affairs",
+  "slug": "university-dept",
+  "kit": "university-dept",
+  "containers": [
+    {
+      "id": "ud-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "FENWICK SCHOOL",
+            "brand_tag": "PUBLIC AFFAIRS",
+            "cta_text": "Apply now",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Programs", "url": { "url": "#programs" } },
+              { "text": "Approach", "url": { "url": "#approach" } },
+              { "text": "Faculty", "url": { "url": "#faculty" } },
+              { "text": "News", "url": { "url": "#news" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-113.png", "id": 1401 },
+            "eyebrow": "The Fenwick School of Public Affairs · Est. 1928",
+            "headline": "Where public leaders<br><em>learn to lead.</em>",
+            "copy": "For nearly a century, the Fenwick School has trained the people who shape public life. Our graduate programs in public policy, public administration, and data-driven governance combine academic rigor with the practical work of building better institutions.",
+            "primary_cta_text": "Explore programs",
+            "primary_cta_url": { "url": "#programs" },
+            "secondary_cta_text": "Our approach",
+            "secondary_cta_url": { "url": "#approach" },
+            "trust_list": [
+              { "text": "Ranked in the top 20 public-affairs schools nationally" },
+              { "text": "1,200+ alumni in public service across 14 countries" },
+              { "text": "1:9 faculty-to-student ratio in core seminars" },
+              { "text": "90% of graduates placed within six months" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The school in numbers",
+            "title": "A legacy of",
+            "title_accent": "public service",
+            "stats": [
+              { "value": "96", "label": "Years of preparing public leaders" },
+              { "value": "1,200+", "label": "Alumni serving in public roles worldwide" },
+              { "value": "42", "label": "Core faculty across four academic tracks" },
+              { "value": "94%", "label": "of students receive funded support" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-programs",
+      "content_width": "full",
+      "settings": { "_element_id": "programs" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Degrees & tracks",
+            "title": "Programs built for",
+            "title_accent": "real impact",
+            "intro": "Four graduate programs, one mission: to give you the analytical tools, ethical grounding, and hands-on experience to lead in public life.",
+            "features": [
+              { "number": "01", "title": "Master of Public Policy", "text": "A two-year, data-intensive program in economic analysis, policy evaluation, and program design. Ideal for analysts and advisors who want to shape what governments do.", "detail": "2 years · full-time" },
+              { "number": "02", "title": "Master of Public Administration", "text": "For managers and executives in the public and nonprofit sectors. Focused on organizational leadership, budgeting, and the craft of running public institutions well.", "detail": "2 years · flexible scheduling" },
+              { "number": "03", "title": "MS in Data & Governance", "text": "The newest track — where statistics meets public decision-making. Learn to build the models and evidence base that modern agencies rely on.", "detail": "18 months · cohort-based" },
+              { "number": "04", "title": "PhD in Public Affairs", "text": "A research-intensive doctorate for future scholars and policy researchers. Funded for five years, with mentorship from our leading faculty.", "detail": "5 years · fully funded" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-approach",
+      "content_width": "full",
+      "settings": { "_element_id": "approach" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we teach",
+            "title": "Learning that",
+            "title_accent": "reaches the field",
+            "intro": "The classroom is only half the education. Every Fenwick student leaves campus with a portfolio of real policy work, not just a transcript.",
+            "steps": [
+              { "title": "Learn the craft", "text": "Core seminars in economics, law, statistics, and public management build the shared foundation every public leader needs." },
+              { "title": "Apply it live", "text": "Capstone clients are real agencies — city halls, nonprofits, and legislative offices — that commission our students' analysis and take the recommendations seriously." },
+              { "title": "Learn from practice", "text": "Practitioner-in-residence programs bring working officials, analysts, and advocates into the classroom every week." },
+              { "title": "Launch your career", "text": "Our placement office and 1,200-strong alumni network open doors in government, NGOs, and the public sector's growing data roles." }
+            ],
+            "note": "Last year alone, Fenwick capstone teams delivered 31 policy memos to partner agencies — 12 of which were adopted."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-faculty",
+      "content_width": "full",
+      "settings": { "_element_id": "faculty" },
+      "widgets": [
+        {
+          "type": "vew-team-grid",
+          "settings": {
+            "eyebrow": "Faculty",
+            "title": "Scholars who",
+            "title_accent": "have served",
+            "intro": "Our faculty are not just researchers — they are former agency directors, policy advisors, and elected officials who bring the field into the seminar room.",
+            "columns": "4",
+            "members": [
+              { "name": "Dr. Elena Marsh", "role": "Professor of Public Policy", "bio": "Former state budget director; studies fiscal federalism and the politics of public spending.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Dr. Rajiv Nair", "role": "Associate Professor of Data & Governance", "bio": "Builds the predictive models cities use to allocate housing and transit resources.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Prof. Angela Reyes", "role": "Practitioner-in-Residence", "bio": "Two decades leading community-development nonprofits and municipal agencies.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Dr. Marcus Cole", "role": "Professor of Public Administration", "bio": "Researches organizational reform and how public institutions learn (or fail to).", "twitter": { "url": "" }, "linkedin": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-news",
+      "content_width": "full",
+      "settings": { "_element_id": "news" },
+      "widgets": [
+        {
+          "type": "vew-posts-feed",
+          "settings": {
+            "eyebrow": "From the school",
+            "title": "Latest from",
+            "title_accent": "the Quad",
+            "intro": "Research highlights, faculty notes, and dispatches from Fenwick events and the wider policy world.",
+            "post_type": "post",
+            "count": 3,
+            "columns": "3",
+            "order": "desc",
+            "show_excerpt": "yes",
+            "show_date": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "alumni" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Alumni voices",
+            "title": "Where Fenwick",
+            "title_accent": "graduates lead",
+            "intro": "Our alumni are the measure of our work. Here is what a few of them have built since leaving the Quad.",
+            "reviews": [
+              { "quote": "The capstone program handed me a real portfolio — and a real job. My agency hired me because of the analysis I did as a student.", "author": "Priya Shah", "role": "MPP '18 · Policy Analyst, City Housing Dept", "stars": 5 },
+              { "quote": "Fenwick taught me to think like an institution-builder, not just a commentator. That changed how I lead my department.", "author": "Samuel Otieno", "role": "MPA '15 · County Administrator", "stars": 5 },
+              { "quote": "The faculty had actually run agencies. That practitioner depth is rare, and it made every seminar feel real.", "author": "Lena Kowalski", "role": "MS Data & Governance '22 · State Data Office", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Admissions",
+            "title": "Questions prospective",
+            "title_accent": "students ask",
+            "intro": "Everything you need to know about applying to the Fenwick School — from requirements to funding.",
+            "items": [
+              { "question": "What do I need to apply?", "answer": "A bachelor's degree, a personal statement, two letters of recommendation, and — for most tracks — GRE scores. We review applications holistically; professional experience matters as much as your transcript." },
+              { "question": "Is financial support available?", "answer": "Yes. 94% of our graduate students receive some form of funding — from merit scholarships to research assistantships and paid capstone fellowships. We are committed to making public service careers financially viable." },
+              { "question": "Can I study part-time?", "answer": "The MPA track offers flexible and evening scheduling for working professionals. The MPP and MS in Data & Governance are full-time cohort programs." },
+              { "question": "Where do graduates work?", "answer": "Across all levels of government, nonprofit organizations, think tanks, and the fast-growing public-sector data field. About 90% of graduates are placed within six months of completing the program." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Visit or apply",
+            "title": "Come see",
+            "title_accent": "the Quad",
+            "intro": "Attend an open house, meet a current student, or start your application. We would be glad to show you around the school that has trained a century of public leaders.",
+            "phone": "(555) 318-7726",
+            "email": "admissions@fenwick.edu",
+            "location": "The Fenwick School · 200 Chancellor Hall",
+            "form_kicker": "Start the conversation",
+            "form_title": "Request program information",
+            "submit_cta": "Request information"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ud-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "FENWICK SCHOOL",
+            "brand_tag": "OF PUBLIC AFFAIRS",
+            "blurb": "Preparing the next generation of public servants, policy analysts, and civic leaders since 1928.",
+            "copyright": "© The Fenwick School of Public Affairs",
+            "columns": [
+              {
+                "heading": "Study",
+                "links": [
+                  { "text": "Programs", "url": { "url": "#programs" } },
+                  { "text": "Our approach", "url": { "url": "#approach" } },
+                  { "text": "Faculty", "url": { "url": "#faculty" } },
+                  { "text": "Alumni", "url": { "url": "#alumni" } }
+                ]
+              },
+              {
+                "heading": "Admissions",
+                "links": [
+                  { "text": "FAQs", "url": { "url": "#faq" } },
+                  { "text": "Request info", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
