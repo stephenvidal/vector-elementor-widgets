@@ -1,0 +1,258 @@
+{
+  "title": "Ledger & Leaf — Accounting Firm",
+  "slug": "accounting",
+  "kit": "accounting",
+  "containers": [
+    {
+      "id": "ac-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "LEDGER & LEAF",
+            "brand_tag": "ACCOUNTING",
+            "cta_text": "Book a consultation",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "Process", "url": { "url": "#process" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-72.png", "id": 0 },
+            "eyebrow": "Accounting & tax · Bookkeeping, payroll & advisory",
+            "headline": "Your books,<br><em>in good hands.</em>",
+            "copy": "Ledger & Leaf is an accounting firm that keeps your numbers honest, your taxes filed on time, and your cash flow clear — so you can run the business instead of the books.",
+            "primary_cta_text": "Book a free consultation",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See our services",
+            "secondary_cta_url": { "url": "#services" },
+            "trust_list": [
+              { "text": "Certified public accountants on every engagement" },
+              { "text": "Year-round tax planning, not just April" },
+              { "text": "Cloud bookkeeping you can see anytime" },
+              { "text": "A dedicated team that answers the phone" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The firm in numbers",
+            "title": "Numbers that",
+            "title_accent": "add up for you",
+            "stats": [
+              { "value": "22", "label": "Years serving small and mid-sized businesses" },
+              { "value": "480+", "label": "Businesses on our books today" },
+              { "value": "$140M", "label": "In client revenue we help track each year" },
+              { "value": "99.2%", "label": "Of tax filings delivered on time, every year" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-approach",
+      "content_width": "full",
+      "settings": { "_element_id": "approach" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do for you",
+            "title": "More than",
+            "title_accent": "a tax deadline",
+            "intro": "We're a full-service accounting firm, but we keep it simple: you get one team that knows your business, your numbers, and your goals — and that's it.",
+            "features": [
+              { "number": "01", "title": "Clean monthly books", "text": "We reconcile, categorize, and close your books every month, so you always know exactly where your money is — and where it's going.", "detail": "Monthly close, always on time" },
+              { "number": "02", "title": "Tax strategy year-round", "text": "We plan deductions and entity structure across the year, not in a panic in March, so you keep more of what you earn.", "detail": "Planning, not just filing" },
+              { "number": "03", "title": "Payroll that just works", "text": "We run payroll, file the returns, and handle new hires and terminations — so your team gets paid right and on time, every time.", "detail": "Payroll, taxes, and filings handled" },
+              { "number": "04", "title": "Cash-flow clarity", "text": "We turn your numbers into a forward-looking cash-flow picture, so you can decide when to hire, invest, or hold.", "detail": "Forecasts you can act on" },
+              { "number": "05", "title": "Advisory that pays for itself", "text": "We sit with you quarterly to review the numbers and the decisions behind them — pricing, margins, and growth — and it usually pays for itself.", "detail": "Quarterly strategy reviews" },
+              { "number": "06", "title": "One point of contact", "text": "You get a dedicated team that knows your file, not a call center. Ask a question and get an answer from someone who knows your business.", "detail": "A team that knows your name" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Services we provide",
+            "title": "One firm,",
+            "title_accent": "every number you need",
+            "intro": "From day-to-day bookkeeping to year-end tax and long-term strategy, Ledger & Leaf covers the full accounting lifecycle for growing businesses.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Bookkeeping" },
+              { "key": "build", "label": "Tax" },
+              { "key": "launch", "label": "Payroll & Advisory" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Monthly bookkeeping", "text": "Bank feeds, reconciliations, and clean category coding delivered as a tidy monthly close you can actually read." },
+              { "icon": "◈", "title": "Financial statements", "text": "Clear P&L, balance sheet, and cash-flow statements prepared to a standard your bank and investors will trust." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Business & personal tax", "text": "Corporations, partnerships, LLCs, and individuals — prepared accurately and filed on time, with planning built in." },
+              { "icon": "⚑", "title": "Entity & structure advice", "text": "The right entity for where you are now and where you're going, so you don't pay more tax than you have to." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Payroll services", "text": "Full-service payroll with direct deposit, tax filings, and year-end W-2s and 1099s handled end to end." },
+              { "icon": "✦", "title": "CFO-style advisory", "text": "Quarterly reviews of margins, pricing, and cash flow that help you make confident decisions about growth." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From messy inbox",
+            "title_accent": "to clear books",
+            "intro": "A simple, predictable onboarding that gets your numbers clean and keeps them that way.",
+            "steps": [
+              { "title": "Onboard", "text": "We connect your bank and accounting software, gather your current records, and get a clear picture of where your books stand today." },
+              { "title": "Clean up", "text": "We reconcile past months, fix the categories, and close out any gaps so you start from a clean, accurate baseline." },
+              { "title": "Automate", "text": "We set up bank feeds, recurring entries, and a monthly close routine so the books stay current without you chasing receipts." },
+              { "title": "Review", "text": "You get a clear monthly close and a quarterly strategy call where we walk through the numbers and the decisions behind them." },
+              { "title": "Advise", "text": "We keep planning tax, payroll, and cash flow year-round, so you're never surprised at year-end and never overpay." }
+            ],
+            "note": "Most of our clients say the same thing after the first quarter: they finally understand their own numbers — and they sleep better at tax time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What our clients say",
+            "title": "Trusted with",
+            "title_accent": "the numbers that matter",
+            "intro": "Founders, owners, and operators rely on Ledger & Leaf to keep their finances honest and their minds clear.",
+            "reviews": [
+              { "quote": "They cleaned up two years of messy books in a month and found us $18,000 in missed deductions. The engagement paid for itself before the first quarter was over.", "author": "Nadia Haddad", "role": "Founder, retail brand", "stars": 5 },
+              { "quote": "I used to dread tax season. Now I send a few documents and it's handled. Their quarterly calls have genuinely changed how I think about pricing.", "author": "Tom Ellison", "role": "Owner, contracting firm", "stars": 5 },
+              { "quote": "Payroll used to eat a full day every two weeks. Ledger & Leaf took it over and I haven't thought about it since. Worth every penny.", "author": "Priya Nair", "role": "Managing partner, clinic", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Straight answers,",
+            "title_accent": "no accounting jargon",
+            "intro": "The questions business owners ask us most before they hand over the books.",
+            "items": [
+              { "question": "How is this different from doing it myself in QuickBooks?", "answer": "Software records transactions; we make sure they're right, complete, and meaningful. We reconcile, categorize, close monthly, and turn the numbers into decisions — that's the part software can't do." },
+              { "question": "Do you work with my existing software?", "answer": "Almost certainly. We work in QuickBooks, Xero, and most major platforms, and we'll connect to whatever you already use so you don't have to switch." },
+              { "question": "What does onboarding look like?", "answer": "We connect your accounts, review your current records, clean up any gaps, and set up a monthly close routine. Most businesses are fully onboarded within two to three weeks." },
+              { "question": "How do you charge?", "answer": "A flat monthly fee based on the size and complexity of your business — no surprise hourly bills. You'll know exactly what you pay and what you get." },
+              { "question": "Are you available year-round, or just at tax time?", "answer": "Year-round. We're your bookkeeper, tax planner, and advisor all year, not a seasonal filing service. That's how we keep your numbers clean and your taxes low." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Start the conversation",
+            "title": "Let's talk about your books",
+            "intro": "Whether you're drowning in receipts or just want a second set of eyes on your numbers, we'd be glad to take a look and give you an honest read on where you stand.",
+            "phone": "(555) 214-8803",
+            "email": "hello@ledgerandleaf.com",
+            "location": "48 Ledger Lane · Financial District",
+            "form_kicker": "Free consultation",
+            "form_title": "Tell us about your business and your books",
+            "submit_cta": "Book a free consultation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ac-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "LEDGER & LEAF",
+            "brand_tag": "ACCOUNTING",
+            "blurb": "An accounting firm that keeps your numbers honest, your taxes filed on time, and your cash flow clear — so you can run the business instead of the books.",
+            "copyright": "© Ledger & Leaf",
+            "columns": [
+              {
+                "heading": "Services",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#approach" } },
+                  { "text": "Services", "url": { "url": "#services" } },
+                  { "text": "The process", "url": { "url": "#process" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Engage",
+                "links": [
+                  { "text": "Client voices", "url": { "url": "#reviews" } },
+                  { "text": "Book a consultation", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
