@@ -182,6 +182,29 @@ final class WidgetAdditionsTest extends TestCase {
 	}
 
 	/**
+	 * Portfolio (Manual) supports an "auto from linked page" preview source:
+	 * the control exposes preview_source, and the render path resolves the
+	 * linked page's _portfolio_preview via url_to_postid, falling back to the
+	 * manual image.
+	 */
+	public function test_portfolio_auto_preview_source(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Portfolio.php' );
+		$ctrl   = $this->source( 'src/Elementor/Control/PortfolioContentControls.php' );
+
+		// The repeater exposes a preview_source selector (manual / auto).
+		$this->assertStringContainsString( "'preview_source'", $ctrl );
+		$this->assertStringContainsString( "'auto'", $ctrl );
+		$this->assertStringContainsString( "'manual'", $ctrl );
+		// The render path reads preview_source and resolves the linked page.
+		$this->assertStringContainsString( "'preview_source'", $widget );
+		$this->assertStringContainsString( 'resolve_auto_preview', $widget );
+		$this->assertStringContainsString( 'url_to_postid', $widget );
+		$this->assertStringContainsString( '_portfolio_preview', $widget );
+		// Falls back to the manual image when auto resolution yields nothing.
+		$this->assertStringContainsString( "'' !== \$auto", $widget );
+	}
+
+	/**
 	 * Stats exposes a numeric count target and a reduced-motion-gated count-up.
 	 */
 	public function test_stats_count_up(): void {

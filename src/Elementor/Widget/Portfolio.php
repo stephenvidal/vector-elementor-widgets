@@ -134,6 +134,16 @@ final class Portfolio extends BaseWidget {
 						if ( isset( $item['image']['url'] ) && is_string( $item['image']['url'] ) ) {
 							$p_img = esc_url( $item['image']['url'] );
 						}
+						// Auto preview source: resolve the linked page's capture when
+						// the card URL points to a page on this site; fall back to
+						// the manual image if the page has no _portfolio_preview.
+						$preview_source = isset( $item['preview_source'] ) ? sanitize_key( (string) $item['preview_source'] ) : 'manual';
+						if ( 'auto' === $preview_source && '' !== $p_url ) {
+							$auto = $this->resolve_auto_preview( $p_url );
+							if ( '' !== $auto ) {
+								$p_img = $auto;
+							}
+						}
 						if ( '' === $p_title ) {
 							continue;
 						}
@@ -163,6 +173,36 @@ final class Portfolio extends BaseWidget {
 			</div>
 		</section>
 		<?php
+	}
+
+	/**
+	 * Resolve the auto preview image for a card whose URL points to a page
+	 * on this site. Reads the linked page's `_portfolio_preview` meta (an
+	 * attachment ID or a URL string) and returns the large-size image URL,
+	 * or '' when the page is not local / has no preview.
+	 *
+	 * @param string $url Card link URL.
+	 *
+	 * @return string Resolved preview URL, or ''.
+	 */
+	private function resolve_auto_preview( string $url ): string {
+		$post_id = url_to_postid( $url );
+		if ( $post_id <= 0 ) {
+			return '';
+		}
+		$preview_raw = get_post_meta( $post_id, '_portfolio_preview', true );
+		if ( is_numeric( $preview_raw ) && (int) $preview_raw > 0 ) {
+			$src = wp_get_attachment_image_src( (int) $preview_raw, 'large' );
+			if ( is_array( $src ) && ! empty( $src[0] ) ) {
+				return (string) $src[0];
+			}
+			return '';
+		}
+		if ( is_string( $preview_raw ) && '' !== $preview_raw ) {
+			$candidate = esc_url_raw( $preview_raw );
+			return '' !== $candidate ? $candidate : '';
+		}
+		return '';
 	}
 
 	/**

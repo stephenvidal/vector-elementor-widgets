@@ -138,6 +138,17 @@ final class PortfolioContentControls {
 						),
 					),
 					array(
+						'name'        => 'preview_source',
+						'label'       => __( 'Preview Source', 'vector-elementor-widgets' ),
+						'type'        => \Elementor\Controls_Manager::SELECT,
+						'default'     => 'manual',
+						'options'     => array(
+							'manual' => __( 'Manual image (above)', 'vector-elementor-widgets' ),
+							'auto'   => __( 'Auto from linked page', 'vector-elementor-widgets' ),
+						),
+						'description' => __( 'Auto resolves the linked page\'s _portfolio_preview capture when the card URL points to a page on this site; falls back to the manual image.', 'vector-elementor-widgets' ),
+					),
+					array(
 						'name'        => 'alt',
 						'label'       => __( 'Image Alt Text', 'vector-elementor-widgets' ),
 						'type'        => \Elementor\Controls_Manager::TEXT,
