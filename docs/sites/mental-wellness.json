@@ -1,0 +1,253 @@
+{
+  "title": "Stillpoint Mental Wellness",
+  "slug": "mental-wellness",
+  "kit": "mental-wellness",
+  "containers": [
+    {
+      "id": "mw-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "STILLPOINT",
+            "brand_tag": "MENTAL WELLNESS",
+            "cta_text": "Book an intro call",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Stories", "url": { "url": "#stories" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-116.png", "id": 0 },
+            "eyebrow": "Stillpoint Mental Wellness · Therapy, counselling & group support",
+            "headline": "Therapy that meets you<BR><EM>where you are.</EM>",
+            "copy": "Stillpoint is a mental wellness practice built around one idea: you don't have to figure this out alone. Our licensed therapists offer a calm, judgement-free space to explore what's weighing on you — whether that's anxiety, burnout, a difficult relationship, or simply feeling stuck.",
+            "primary_cta_text": "Book a free intro call",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Licensed therapists, not automated chatbots" },
+              { "text": "Free 20-minute intro call before you commit" },
+              { "text": "In-person in Portland and secure online sessions" },
+              { "text": "Sliding-scale options and most insurance accepted" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Stillpoint in numbers",
+            "title": "Care you can",
+            "title_accent": "count on",
+            "stats": [
+              { "value": "14", "label": "Licensed therapists across our two offices" },
+              { "value": "6,000+", "label": "Sessions delivered in the last year" },
+              { "value": "4.9/5", "label": "Average client rating from 2,300 reviews" },
+              { "value": "92%", "label": "of clients report progress within 12 sessions" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-care",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we offer",
+            "title": "Care shaped around",
+            "title_accent": "your life",
+            "intro": "No two people arrive the same way, so no two care plans should either. Our therapists specialise in a range of modalities and work with you to find what fits — not a one-size-fits-all script.",
+            "features": [
+              { "number": "01", "title": "Individual therapy", "text": "One-on-one sessions for anxiety, depression, burnout, grief, and life transitions. We start where you are and build a plan around your goals and pace.", "detail": "50-minute sessions · weekly or bi-weekly" },
+              { "number": "02", "title": "Couples & relationship counselling", "text": "A structured, compassionate space to untangle conflict, rebuild trust, and communicate better — whether you're in crisis or just want to grow stronger together.", "detail": "60–90 minute sessions · in-person or online" },
+              { "number": "03", "title": "Trauma-informed care", "text": "Specialised support for people living with the after-effects of trauma. Grounding, evidence-based approaches delivered slowly, at a pace you control.", "detail": "By referral or self-referral" },
+              { "number": "04", "title": "Group support", "text": "Small, facilitated groups for anxiety, grief, new parents, and burnout recovery. Connection with people who genuinely get it — in a safe, confidential setting.", "detail": "6–8 week cohorts · max 10 people" },
+              { "number": "05", "title": "Teletherapy", "text": "The same licensed therapists, over a secure video link. If you can't make it to an office, care comes to you — from anywhere in the state.", "detail": "HIPAA-secure video platform" },
+              { "number": "06", "title": "Workshops & workplace care", "text": "Resilience workshops, mental-health days, and employee support programs for teams and organisations that want to invest in wellbeing at scale.", "detail": "Half-day to full-day programs" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-services",
+      "content_width": "full",
+      "settings": { "_element_id": "care" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "How we work with you",
+            "title": "A path, not a",
+            "title_accent": "prescription",
+            "intro": "Whatever brings you in, the shape of the work is the same: we listen first, agree on where you want to get to, and walk alongside you at a pace that feels right.",
+            "tab_labels": [
+              { "key": "design", "label": "First sessions" },
+              { "key": "build", "label": "The work" },
+              { "key": "launch", "label": "Ongoing care" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Get to know you", "text": "We start with a free intro call, then a full first session where your therapist learns your history, goals, and what 'better' looks like for you." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Regular sessions", "text": "Weekly or bi-weekly sessions using a mix of approaches — CBT, EMDR, mindfulness, and narrative work — tailored to what's actually showing up in your life." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "A plan you sustain", "text": "As you make progress, we agree on how to sustain it: tapering sessions, booster check-ins, or a referral onward. We never leave you without a plan." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Getting started",
+            "title": "Starting care,",
+            "title_accent": "without the overwhelm",
+            "intro": "Reaching out is often the hardest step. We've made the rest as simple as possible.",
+            "steps": [
+              { "title": "Book a free intro call", "text": "A 20-minute conversation, no commitment. Tell us a little about what's going on and ask us anything. We'll recommend a therapist and next steps." },
+              { "title": "Meet your therapist", "text": "We match you with a therapist who fits your needs and preferences. If the first match isn't right, we'll try again until it feels right." },
+              { "title": "Begin regular sessions", "text": "Start meeting weekly or bi-weekly. Together you set goals and a rhythm, and adapt as life changes around you." },
+              { "title": "Build lasting wellbeing", "text": "Work at your pace toward the tools and insights that last. When you're ready, we agree on a plan to sustain your progress beyond therapy." }
+            ],
+            "note": "Most clients notice a difference within 6–12 sessions, and we review progress together every month so you always know where things stand."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client stories",
+            "title": "Words from",
+            "title_accent": "people we've helped",
+            "intro": "Real feedback from clients who found a way through — with a little help and a lot of listening.",
+            "reviews": [
+              { "quote": "I put off reaching out for two years because I didn't know where to start. The free intro call made it easy, and my therapist met me exactly where I was. I'm finally sleeping again.", "author": "Jordan M.", "role": "Client, individual therapy", "stars": 5 },
+              { "quote": "We came in on the edge of splitting up. Nine months of couples counselling later, we communicate better than we have in a decade. Stillpoint gave us the tools and the space.", "author": "Priya & Aaron", "role": "Couples counselling", "stars": 5 },
+              { "quote": "The trauma work was slow and I needed it that way. My therapist never pushed — she just stayed present and let me lead. I'm not the person I was when I started.", "author": "Devon K.", "role": "Trauma-informed care", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions new",
+            "title_accent": "clients ask",
+            "intro": "The honest answers to the questions we hear most often before someone books their first session.",
+            "items": [
+              { "question": "Do you take insurance?", "answer": "Yes. We accept most major insurance plans and offer sliding-scale fees for clients who qualify. Our team checks your coverage before your first session so there are no surprises." },
+              { "question": "How much does it cost?", "answer": "Individual sessions range from $130–$180 depending on therapist and length. We have a limited number of sliding-scale slots, and the free intro call is always no-cost and no-obligation." },
+              { "question": "How quickly can I get an appointment?", "answer": "For most new clients, we can schedule a first session within one to two weeks. Teletherapy often has openings sooner. If you're in crisis, we'll help connect you to immediate support." },
+              { "question": "Is online therapy as effective as in-person?", "answer": "For many people, yes. Research shows online therapy is highly effective for anxiety, depression, and relationship work. Some clients prefer it — you can switch between in-person and online whenever you like." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Reach out",
+            "title": "Take the first step",
+            "intro": "Book a free 20-minute intro call or send us a message. A real person — not a bot — will get back to you within one business day.",
+            "phone": "(555) 482-3370",
+            "email": "hello@stillpointwellness.com",
+            "location": "Stillpoint Mental Wellness · Portland & Lakeview offices, plus online",
+            "form_kicker": "Free intro call",
+            "form_title": "Tell us what's going on",
+            "submit_cta": "Request a call"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mw-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "STILLPOINT",
+            "brand_tag": "MENTAL WELLNESS",
+            "blurb": "A calm, judgement-free mental wellness practice — individual therapy, couples counselling, and group support from licensed therapists, in person and online.",
+            "copyright": "© Stillpoint Mental Wellness",
+            "columns": [
+              {
+                "heading": "Care",
+                "links": [
+                  { "text": "What we offer", "url": { "url": "#services" } },
+                  { "text": "How we work", "url": { "url": "#care" } },
+                  { "text": "Getting started", "url": { "url": "#how" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "Client stories", "url": { "url": "#stories" } },
+                  { "text": "Book an intro call", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
