@@ -1,0 +1,253 @@
+{
+  "title": "The Curiosity Lab",
+  "slug": "stem-tutoring",
+  "kit": "stem-tutoring",
+  "containers": [
+    {
+      "id": "st-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "CURIOSITY LAB",
+            "brand_tag": "STEM TUTORING",
+            "cta_text": "Book a free assessment",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we offer", "url": { "url": "#offer" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Stories", "url": { "url": "#stories" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-117.png", "id": 0 },
+            "eyebrow": "The Curiosity Lab · STEM tutoring for grades 4–12",
+            "headline": "STEM tutoring that makes the <EM>hard stuff click.</EM>",
+            "copy": "The Curiosity Lab pairs students with expert tutors who teach the why behind the answer — not just the formula. Whether it's algebra, physics, or your first lines of code, we build genuine understanding that shows up on tests and stays for life.",
+            "primary_cta_text": "Book a free assessment",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Certified teachers and STEM professionals, not undergrads" },
+              { "text": "Free 45-minute diagnostic assessment before you commit" },
+              { "text": "In-person in Austin and live online sessions" },
+              { "text": "Progress reports after every session, straight to parents" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The Curiosity Lab in numbers",
+            "title": "Results you can",
+            "title_accent": "measure",
+            "stats": [
+              { "value": "12", "label": "Years tutoring Austin students" },
+              { "value": "4,800+", "label": "Sessions delivered last year" },
+              { "value": "94%", "label": "of students improve a full letter grade" },
+              { "value": "4.9/5", "label": "Average parent rating from 1,900 reviews" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-offer",
+      "content_width": "full",
+      "settings": { "_element_id": "offer" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we offer",
+            "title": "Support shaped around",
+            "title_accent": "each learner",
+            "intro": "No two students learn the same way, so no two tutoring plans should either. We start with a diagnostic and build a plan around how your child actually thinks.",
+            "features": [
+              { "number": "01", "title": "Math & algebra", "text": "From fractions to calculus, we rebuild the foundations that make advanced math feel intuitive instead of intimidating.", "detail": "Grades 4–12 · all levels" },
+              { "number": "02", "title": "Science & physics", "text": "Hands-on, concept-first science tutoring that turns abstract laws into things you can picture, test, and trust.", "detail": "Biology, chemistry, physics" },
+              { "number": "03", "title": "Coding & computer science", "text": "Learn to think like a programmer — Python, web basics, and AP Computer Science — with projects you're proud to show off.", "detail": "Beginner to advanced" },
+              { "number": "04", "title": "Test prep", "text": "Focused prep for SAT, ACT, and AP exams with real practice tests, strategy, and the confidence that comes from being ready.", "detail": "SAT · ACT · AP" },
+              { "number": "05", "title": "Homework & study skills", "text": "Weekly support that keeps students on track and teaches the study habits that make independent learning possible.", "detail": "Ongoing · flexible" },
+              { "number": "06", "title": "Homeschool support", "text": "A consistent STEM partner for homeschool families — curriculum guidance, assessments, and a tutor who knows your learner.", "detail": "Custom curriculum" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-services",
+      "content_width": "full",
+      "settings": { "_element_id": "method" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A method, not",
+            "title_accent": "a magic trick",
+            "intro": "Great tutoring is a process. Here's how we take a student from stuck to confident.",
+            "tab_labels": [
+              { "key": "design", "label": "Assess" },
+              { "key": "build", "label": "Build" },
+              { "key": "launch", "label": "Sustain" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Free diagnostic assessment", "text": "A 45-minute session with a senior tutor to find exactly where the gaps are — and what motivates your student. You get a written plan, no obligation." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Weekly one-on-one sessions", "text": "Consistent sessions with the same tutor, using a mix of direct instruction, guided practice, and real-world problems that make the material stick." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Independence that lasts", "text": "As confidence grows, we shift from teaching to coaching — until your student can tackle new problems on their own. We celebrate the day they don't need us." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Getting started",
+            "title": "From first call to",
+            "title_accent": "first breakthrough",
+            "intro": "Getting started is simple, and the first step is always free.",
+            "steps": [
+              { "title": "Book a free assessment", "text": "Tell us a little about your student and pick a time. We'll match you with a senior tutor for a 45-minute diagnostic — no cost, no commitment." },
+              { "title": "Get your plan", "text": "Within 48 hours you'll receive a written learning plan: the gaps we found, the goals we'll target, and the tutor we recommend." },
+              { "title": "Start weekly sessions", "text": "Meet your tutor for regular one-on-one sessions, in person or online. You'll get a progress report after every single session." },
+              { "title": "Watch confidence grow", "text": "Students don't just improve grades — they start asking better questions. We review progress every month and adjust the plan as they grow." }
+            ],
+            "note": "Most families see measurable improvement within 8–10 sessions, and we review progress together every month so you always know where things stand."
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Parent & student stories",
+            "title": "Words from",
+            "title_accent": "families we've helped",
+            "intro": "Real feedback from parents and students who found their footing with a little curiosity and a lot of support.",
+            "reviews": [
+              { "quote": "My daughter went from dreading math to asking to do extra problems. Her tutor found the exact gap that had been holding her back for years. Worth every penny.", "author": "Maya R.", "role": "Parent, grade 8", "stars": 5 },
+              { "quote": "I was failing physics and convinced I was 'just not a science person.' My tutor showed me it was a foundation problem, not a brain problem. I ended the year with an A.", "author": "Ethan W.", "role": "Student, grade 11", "stars": 5 },
+              { "quote": "As a homeschool parent, having a consistent STEM tutor who actually knows my son's strengths has been transformative. The progress reports keep me in the loop every week.", "author": "Priya S.", "role": "Homeschool parent", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions parents",
+            "title_accent": "ask us",
+            "intro": "The honest answers to the questions we hear most often before a family books their first session.",
+            "items": [
+              { "question": "How much does tutoring cost?", "answer": "One-on-one sessions range from $55–$85 per hour depending on the tutor's experience and subject. Small-group sessions (max 4 students) start at $35 per hour. The diagnostic assessment is always free." },
+              { "question": "Are your tutors actually qualified?", "answer": "Yes. Every tutor is either a certified teacher or a working STEM professional with a background in education. We interview, background-check, and train every tutor, and we match them to your student's needs and personality." },
+              { "question": "In-person or online?", "answer": "Both. We have two tutoring centres in Austin, and we offer live online sessions with the same tutors and the same interactive tools. Many families switch between the two week to week." },
+              { "question": "How quickly will we see results?", "answer": "Most students show measurable improvement within 8–10 sessions. You'll get a written progress report after every session, and we review the overall plan with you monthly so you always know where things stand." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Reach out",
+            "title": "Book a free assessment",
+            "intro": "Send us a message or call — a real person will get back to you within one business day to schedule your free diagnostic.",
+            "phone": "(555) 214-8890",
+            "email": "hello@curiositylabtutoring.com",
+            "location": "The Curiosity Lab · Austin & Round Rock centres, plus live online",
+            "form_kicker": "Free assessment",
+            "form_title": "Tell us about your student",
+            "submit_cta": "Request a session"
+          }
+        }
+      ]
+    },
+    {
+      "id": "st-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "CURIOSITY LAB",
+            "brand_tag": "STEM TUTORING",
+            "blurb": "One-on-one and small-group STEM tutoring in math, science, and coding — for students who want to understand, not just memorise.",
+            "copyright": "© The Curiosity Lab",
+            "columns": [
+              {
+                "heading": "Programs",
+                "links": [
+                  { "text": "What we offer", "url": { "url": "#offer" } },
+                  { "text": "How we work", "url": { "url": "#method" } },
+                  { "text": "Getting started", "url": { "url": "#how" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "Family stories", "url": { "url": "#stories" } },
+                  { "text": "Book a free assessment", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
