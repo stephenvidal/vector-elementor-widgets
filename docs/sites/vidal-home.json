@@ -1,0 +1,419 @@
+{
+  "title": "Vidal Studios — Hand-Built Websites for Small Business",
+  "slug": "home",
+  "kit": "vidal-studio",
+  "containers": [
+    {
+      "id": "vhdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "VIDAL STUDIOS",
+            "brand_tag": "WEB DESIGN & BUILD",
+            "cta_text": "Start a project",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Work", "url": { "url": "#work" } },
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "Process", "url": { "url": "#process" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vhero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-37.png" },
+            "eyebrow": "Vidal Studios · Myrtle Beach, SC",
+            "headline": "Websites that make<br>your business <em>easy to find.</em>",
+            "copy": "I design and build hand-crafted websites for small business — custom design, clean code, and a live launch. No templates, no fuss, no agencies that ghost you.",
+            "primary_cta_text": "Start a project",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See the work",
+            "secondary_cta_url": { "url": "#work" },
+            "trust_list": [
+              { "text": "Custom design, not templates" },
+              { "text": "Mobile-first & fast" },
+              { "text": "Live launch included" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vstats",
+      "content_width": "full",
+      "settings": { "_element_id": "stats" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The proof",
+            "title": "A factory of",
+            "title_accent": "original sites.",
+            "intro": "Every site below is live, unique, and built for a different business — a different niche, a different look, a different job to do.",
+            "stats": [
+              { "value": "34", "label": "Live sites built" },
+              { "value": "30+", "label": "Industries covered" },
+              { "value": "1hr", "label": "Avg. build time" },
+              { "value": "100%", "label": "Custom designed" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vport",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "The work",
+            "title": "Real businesses.",
+            "title_accent": "Live websites.",
+            "intro": "A cross-section of the sites I've designed and built — from law firms and breweries to charities and tech platforms. Each one is live, unique, and built to do a specific job. Click through to see them in the wild.",
+            "items": [
+              {
+                "title": "The Main Branch — Developer Conference",
+                "tag": "Tech · Conference",
+                "text": "A two-day developer conference site — speaker lineup, tracks, schedule, and ticket CTAs on a bold dark-blue stage.",
+                "url": { "url": "https://wppt.nsystems.live/tech-conference/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-68-1024x768.png" },
+                "alt": "The Main Branch developer conference website"
+              },
+              {
+                "title": "The Velvet Curtain — Independent Theater",
+                "tag": "Arts · Theater",
+                "text": "A dramatic dark theater site — season lineup, showtimes, and ticket CTAs under warm stage lighting.",
+                "url": { "url": "https://wppt.nsystems.live/indie-theater/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-69-1024x768.png" },
+                "alt": "The Velvet Curtain independent theater website"
+              },
+              {
+                "title": "Little Wings Foundation — Children's Charity",
+                "tag": "Nonprofit · Charity",
+                "text": "A warm, hopeful charity site — mission, impact stories, and a clear giving path for a children's foundation.",
+                "url": { "url": "https://wppt.nsystems.live/childrens-charity/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-70-1024x768.png" },
+                "alt": "Little Wings Foundation children's charity website"
+              },
+              {
+                "title": "Field & Frame — Architecture Studio",
+                "tag": "Professional · Architecture",
+                "text": "A refined architecture studio site — portfolio of projects, process, and a credibility-first structure.",
+                "url": { "url": "https://wppt.nsystems.live/architecture-firm/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-71-1024x768.png" },
+                "alt": "Field & Frame architecture studio website"
+              },
+              {
+                "title": "Brightloop — HR & Payroll Platform",
+                "tag": "Tech · SaaS",
+                "text": "A clean corporate SaaS site — payroll, people, and compliance in one calm loop, with a dashboard mockup hero.",
+                "url": { "url": "https://wppt.nsystems.live/hr-platform/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-72-1024x768.png" },
+                "alt": "Brightloop HR and payroll platform website"
+              },
+              {
+                "title": "Ember & Grain — Independent Brewery",
+                "tag": "Food & Drink · Brewery",
+                "text": "A warm amber brewery site — beer made the slow way, poured fresh at the source, with taproom details.",
+                "url": { "url": "https://wppt.nsystems.live/craft-brewery/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-73-1024x768.png" },
+                "alt": "Ember and Grain independent brewery website"
+              },
+              {
+                "title": "Iron & Oak — Fitness Studio",
+                "tag": "Health · Fitness",
+                "text": "A boutique strength & conditioning studio — small-group coaching, membership pricing, and a community that shows up.",
+                "url": { "url": "https://wppt.nsystems.live/ironoak/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-95-1024x768.png" },
+                "alt": "Iron and Oak fitness studio website"
+              },
+              {
+                "title": "Blackstone & Hale — Law Firm",
+                "tag": "Professional · Law",
+                "text": "A law firm built for trust — credibility-first structure, practice areas, fee structures, and a clear path to consultation.",
+                "url": { "url": "https://wppt.nsystems.live/blackstone-law/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-27-1024x768.png" },
+                "alt": "Blackstone and Hale law firm website"
+              },
+              {
+                "title": "Hearth & Crumb — Bakery",
+                "tag": "Food & Drink · Bakery",
+                "text": "A warm bakery site that leads with the menu and visiting hours — online ordering options and a handcrafted, homely feel.",
+                "url": { "url": "https://wppt.nsystems.live/hearth-crumb/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-61-1024x768.png" },
+                "alt": "Hearth and Crumb bakery website"
+              },
+              {
+                "title": "Ember & Oak — Coffee Roastery",
+                "tag": "Food & Drink · Coffee",
+                "text": "A craft coffee roastery — visit-first structure with this week's roast list, ordering methods, and a warm, artisanal feel.",
+                "url": { "url": "https://wppt.nsystems.live/ember-oak/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-64-1024x768.png" },
+                "alt": "Ember and Oak coffee roastery website"
+              },
+              {
+                "title": "Kairos — Agent Harness Concept",
+                "tag": "Tech · Concept",
+                "text": "A flagship product concept — the opportune-moment agent harness, on a deep charcoal-navy and gold palette.",
+                "url": { "url": "https://wppt.nsystems.live/kairos/" },
+                "link_label": "Visit site",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-66-1024x768.png" },
+                "alt": "Kairos agent harness concept website"
+              },
+              {
+                "title": "R.O.R.E. — Church Redesign",
+                "tag": "Nonprofit · Church",
+                "text": "A single-page redesign proposal for Realms of Revelation Ecclesia — reusing the client's real logo and brand in a fresh, credibility-first structure.",
+                "url": { "url": "https://wppt.nsystems.live/rore/" },
+                "link_label": "View proposal",
+                "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/preview-62-1024x768.png" },
+                "alt": "R.O.R.E. church redesign proposal website"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vsvc",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What I do",
+            "title": "Design & build.",
+            "title_accent": "Nothing you don't need.",
+            "intro": "Every site is designed and built from scratch to fit your business — and launched on a fast, secure, always-on connection.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Design" },
+              { "key": "build", "label": "Build" },
+              { "key": "launch", "label": "Launch" }
+            ],
+            "design": [
+              { "icon": "◐", "title": "Custom design", "text": "A look built around your business, your customers, and the job you need your site to do. No recycled templates — every layout starts from your goals." },
+              { "icon": "✦", "title": "Brand fit", "text": "Color, type, and tone matched to who you are. I establish a distinctive palette so your site stands apart from every competitor." },
+              { "icon": "◯", "title": "Mobile-first", "text": "Designed on a phone screen first, then scaled up. Your site looks right and feels natural on every device your customers use." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Hand-coded", "text": "Clean, lightweight HTML, CSS, and JavaScript. No bloated builders, no plugin sprawl — just code that loads fast and does exactly what it should." },
+              { "icon": "⚡", "title": "Fast by default", "text": "Optimized images, sensible caching, and efficient code. A site that opens instantly for your visitors and scores well on the tools that matter." },
+              { "icon": "⚨", "title": "Accessible & secure", "text": "Built to be usable by everyone, with proper structure, keyboard navigation, and security headers. An accessible site is a better site for all." }
+            ],
+            "launch": [
+              { "icon": "☁", "title": "Live deployment", "text": "Your site goes live on a fast, secure, always-on connection with HTTPS built in. No server admin required on your end." },
+              { "icon": "✓", "title": "Domain & setup", "text": "I handle DNS, hosting, and the technical wiring so your domain points to a working, polished site from day one." },
+              { "icon": "↻", "title": "Easy to update", "text": "The site is structured so changes are simple — and I'm a message away when you need a tweak, an update, or a new section." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vproc",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "A straightforward process",
+            "title": "From first call",
+            "title_accent": "to launched site.",
+            "note": "No jargon, no surprise invoices. You'll know what's happening at every step, and you'll own your site when it's done.",
+            "steps": [
+              { "title": "Discover", "text": "A quick call to understand your business, your goals, and what you need from the site." },
+              { "title": "Design", "text": "I design a custom layout and palette tailored to your niche — and we refine it together." },
+              { "title": "Build", "text": "I hand-code the site, mobile-first, fast and accessible, keeping you updated as it comes together." },
+              { "title": "Launch", "text": "We go live on a fast, secure connection and you start getting found. I make sure everything works." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vprice",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Fixed packages.",
+            "title_accent": "No hidden fees.",
+            "note": "Every package includes a custom design, mobile-first build, and a live launch. Add-ons like copywriting and ongoing care are quoted separately.",
+            "plans": [
+              {
+                "plan": "Starter",
+                "price": "$800",
+                "unit": "one-time",
+                "featured": "",
+                "cta": "Start a project",
+                "cta_url": { "url": "#contact" },
+                "features": [
+                  { "text": "1-page website" },
+                  { "text": "Custom design" },
+                  { "text": "Mobile-friendly" },
+                  { "text": "Live launch" },
+                  { "text": "1 round of revisions" }
+                ]
+              },
+              {
+                "plan": "Standard",
+                "price": "$1,600",
+                "unit": "one-time",
+                "featured": "yes",
+                "cta": "Start a project",
+                "cta_url": { "url": "#contact" },
+                "features": [
+                  { "text": "Up to 5 pages" },
+                  { "text": "Custom design" },
+                  { "text": "Mobile-first build" },
+                  { "text": "Contact form" },
+                  { "text": "Basic SEO setup" },
+                  { "text": "Live launch" },
+                  { "text": "2 rounds of revisions" }
+                ]
+              },
+              {
+                "plan": "Pro",
+                "price": "$2,800",
+                "unit": "one-time",
+                "featured": "",
+                "cta": "Start a project",
+                "cta_url": { "url": "#contact" },
+                "features": [
+                  { "text": "Up to 10 pages" },
+                  { "text": "Custom design" },
+                  { "text": "Mobile-first build" },
+                  { "text": "Contact forms" },
+                  { "text": "Blog / gallery" },
+                  { "text": "SEO setup" },
+                  { "text": "Fast, secure launch" },
+                  { "text": "3 rounds of revisions" },
+                  { "text": "30 days support" }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vfaq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions,",
+            "title_accent": "answered clearly.",
+            "intro": "A few helpful details before we start. If your question isn't here, just get in touch.",
+            "items": [
+              { "question": "How long does a website take?", "answer": "A typical project takes 2–4 weeks from our first call to launch. A simple one-pager can go faster; a larger site with many pages takes a little longer. You'll get a clear timeline up front." },
+              { "question": "Do I need to write the content?", "answer": "I'll guide you with a simple content checklist. You know your business best, so you provide the facts and details — I handle the design, structure, and how it's presented." },
+              { "question": "Will I be able to update it myself?", "answer": "Yes. The site is built with clean, straightforward structure, and I can show you how to make simple updates. For bigger changes, I'm a message away." },
+              { "question": "Do you work with clients outside Myrtle Beach?", "answer": "Absolutely. I'm based in Myrtle Beach, SC, but I work with small businesses everywhere — all calls and collaboration happen online." },
+              { "question": "What does \"design + build\" include?", "answer": "Every package includes custom design, a mobile-first build, and a live launch on fast, secure hosting. Copywriting, ongoing maintenance, and advanced features are quoted as add-ons." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vcontact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Let's talk",
+            "title": "Tell me about",
+            "title_accent": "your business.",
+            "intro": "Ready for a website that actually works for you? Send a few details and I'll get back to you with next steps — usually within a day.",
+            "phone": "(843) 455-9604",
+            "email": "vidalstephen@gmail.com",
+            "location": "Myrtle Beach, SC — Serving clients remotely",
+            "form_kicker": "Start your project",
+            "form_title": "Free consultation",
+            "submit_cta": "Request my consultation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vfoot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "VIDAL STUDIOS",
+            "brand_tag": "WEB DESIGN & BUILD",
+            "blurb": "Hand-built websites for small business. Based in Myrtle Beach, SC — working for clients everywhere.",
+            "copyright": "© Vidal Studios",
+            "columns": [
+              {
+                "heading": "Navigate",
+                "links": [
+                  { "text": "Work", "url": { "url": "#work" } },
+                  { "text": "Services", "url": { "url": "#services" } },
+                  { "text": "Process", "url": { "url": "#process" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Work with me",
+                "links": [
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "Start a project", "url": { "url": "#contact" } },
+                  { "text": "Free consultation", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  { "text": "(843) 455-9604", "url": { "url": "tel:+18434559604" } },
+                  { "text": "vidalstephen@gmail.com", "url": { "url": "mailto:vidalstephen@gmail.com" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
