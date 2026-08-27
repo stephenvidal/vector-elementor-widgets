@@ -1,0 +1,273 @@
+{
+  "title": "Terra Verde Eco-Tours",
+  "slug": "eco-tours",
+  "kit": "eco-tours",
+  "containers": [
+    {
+      "id": "tv-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "TERRA VERDE",
+            "brand_tag": "ECO-TOURS",
+            "cta_text": "Book a trip",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Expeditions", "url": { "url": "#tours" } },
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "On the trail", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-126.png", "id": 1447 },
+            "eyebrow": "Terra Verde Eco-Tours · Certified B-Corp · Small-group expeditions",
+            "headline": "Travel gently,<br><em>leave it better.</em>",
+            "copy": "The best journeys are the ones that tread lightly. Terra Verde runs small-group expeditions through rainforests, fjords, and wild coastline — guided by naturalists, capped at ten guests, and designed to protect the places we explore. Every tour funds local conservation.",
+            "primary_cta_text": "Explore expeditions",
+            "primary_cta_url": { "url": "#tours" },
+            "secondary_cta_text": "How we travel",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Certified B-Corp and 1% for the Planet member" },
+              { "text": "Groups capped at ten — never bus tours" },
+              { "text": "Naturalist guides on every expedition" },
+              { "text": "Carbon-neutral travel included in every fare" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Our impact in numbers",
+            "title": "Tread lightly,",
+            "title_accent": "measure honestly",
+            "stats": [
+              { "value": "12", "label": "Years guiding the Pacific coast" },
+              { "value": "8,400+", "label": "Guests travelled with us, small groups only" },
+              { "value": "$1.2M", "label": "Raised for local conservation projects" },
+              { "value": "98%", "label": "Of departures carbon-neutral end to end" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-tours",
+      "content_width": "full",
+      "settings": { "_element_id": "tours" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Our expeditions",
+            "title": "Choose your",
+            "title_accent": "wild journey",
+            "intro": "Three ways to get into the wild with Terra Verde — from a single unhurried day on the water to a week-long expedition into the backcountry.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Day Expeditions" },
+              { "key": "build", "label": "Overnight & Multi-Day" },
+              { "key": "launch", "label": "Custom & Private" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Coastal rainforest walk", "text": "A full-day guided hike through old-growth rainforest and tidewater — boardwalks, giant cedars, and a picnic lunch on the inlet." },
+              { "icon": "◈", "title": "Kayak the quiet inlets", "text": "Paddle glassy channels in small kayaks with a naturalist. Sea lions, eagles, and the deep quiet of the fjords." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Two-day fjord expedition", "text": "Camp beneath old-growth forest, hike to a glacier viewpoint at dawn, and paddle back the way you came. Small camp, big silence." },
+              { "icon": "◈", "title": "Five-day backcountry traverse", "text": "A guided traverse of a protected coastal range — alpine lakes, wildlife, and nights under a sky with no light pollution." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Private naturalist charter", "text": "Book the whole boat or trail for your family, friends, or crew. Your pace, your dates, our guides and conservation commitment." },
+              { "icon": "◈", "title": "Conservation & volunteer trips", "text": "Combine travel with real restoration work — tree planting, trail repair, and habitat surveys alongside local scientists." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Terra Verde",
+            "title": "Wild places,",
+            "title_accent": "wild respect",
+            "intro": "We built Terra Verde around a simple rule: a tour should leave the place richer than it found it. Here's how we hold ourselves to it on every departure.",
+            "features": [
+              { "number": "01", "title": "Small groups, always", "text": "We cap every expedition at ten guests. No crowding the boardwalks, no hordes of boats — just a handful of people moving quietly through wild country.", "detail": "Max 10 guests per departure" },
+              { "number": "02", "title": "Naturalist guides", "text": "Every expedition is led by a certified naturalist — a biologist, ecologist, or long-time backcountry guide — who reads the landscape and shares what we're really looking at.", "detail": "Certified naturalists on board" },
+              { "number": "03", "title": "Conservation funding", "text": "A portion of every fare goes directly to local land trusts and restoration projects. Travelling with us funds the very habitats we visit.", "detail": "1% for the Planet member" },
+              { "number": "04", "title": "Leave-no-trace by design", "text": "We pack out everything, camp on durable surfaces, and route around sensitive habitat. Our guides carry the gear and the training to do it right.", "detail": "Certified leave-no-trace" },
+              { "number": "05", "title": "Carbon-neutral travel", "text": "Ground transport, boat fuel, and guide travel are offset through verified projects — and we favour electric and human-powered legs whenever the route allows.", "detail": "Offset on every departure" },
+              { "number": "06", "title": "Local, not generic", "text": "We work with the communities and scientists who know these places best. You're not getting a scripted tourist route — you're getting the insider's coast.", "detail": "Community-led itineraries" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From booking",
+            "title_accent": "to the trailhead",
+            "intro": "A low-stress way to plan a wild trip. Here's what happens once you reserve a departure.",
+            "steps": [
+              { "title": "Choose a departure", "text": "Browse our calendar, pick a date and expedition, and reserve with a small deposit. Spaces are limited to ten, so they go quickly." },
+              { "title": "We build your prep pack", "text": "You'll receive a full packing list, fitness notes, and a briefing from your guide. We answer every question before you leave home." },
+              { "title": "Meet your naturalist", "text": "You'll meet your guide and small group at the trailhead or marina. Gear check, safety briefing, and the day's plan — then we move." },
+              { "title": "Journey & give back", "text": "Travel the coast with a certified naturalist. A share of your fare funds local conservation before you even return home." }
+            ],
+            "note": "Every departure is fully carbon-neutral and leave-no-trace certified — our guarantee that your journey leaves the wild a little richer than it found it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-count",
+      "content_width": "full",
+      "settings": { "_element_id": "next" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Next departure",
+            "title": "Fjord & Forest",
+            "title_accent": "expedition departs in",
+            "end": "2026-09-24 08:00",
+            "expired_text": "Our next fjord expedition is underway — book the following departure before spaces are gone."
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "On the trail",
+            "title": "Scenes from",
+            "title_accent": "the wild coast",
+            "intro": "A look at where we travel — the boardwalks, inlets, and quiet backcountry that our guests carry home with them.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-126.png", "id": 1447 }, "label": "Boardwalk through old-growth rainforest", "alt": "A wooden boardwalk winding through tall evergreens and ferns" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-126.png", "id": 1447 }, "label": "Glassy inlet at dawn", "alt": "A still fjord inlet reflecting mountains at sunrise" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-126.png", "id": 1447 }, "label": "Camp beneath the cedars", "alt": "A small tent camp under tall coastal cedar trees" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Guest stories",
+            "title": "The coast,",
+            "title_accent": "in their words",
+            "intro": "People tell us the same thing: they came for the scenery and left changed. Here's what a few guests had to say.",
+            "reviews": [
+              { "quote": "I've done eco-tours on four continents and this was the most thoughtfully run of all of them. Ten of us, one naturalist who knew every tree and bird by name, and not a trace left behind. The fjord paddle at dawn was pure magic.", "author": "Amara N.", "role": "Travel writer, Vancouver", "stars": 5 },
+              { "quote": "As a conservation biologist I'm picky about who I trust with wild places. Terra Verde got every detail right — the leave-no-trace discipline, the local funding, the genuine science. I'll be back with my own research group.", "author": "Dr. Elias Roth", "role": "Marine biologist", "stars": 5 },
+              { "quote": "We booked the private charter for our 20th anniversary. Small, unhurried, utterly beautiful. Our guide made us feel like the only people on the coast. Worth every penny.", "author": "Priya & Marcus", "role": "Private charter guests", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book your expedition",
+            "title": "Let's get you",
+            "title_accent": "into the wild",
+            "intro": "Questions about a departure, a custom trip, or conservation trips for your group? Send us a note — a real human replies within one business day.",
+            "phone": "(555) 412-9083",
+            "email": "hello@terraverde.eco",
+            "location": "Terra Verde Eco-Tours · 28 Harbourside Wharf, Coastal City, BC",
+            "form_kicker": "New expedition inquiry",
+            "form_title": "Tell us where you'd like to go",
+            "submit_cta": "Request availability"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tv-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "TERRA VERDE",
+            "brand_tag": "ECO-TOURS",
+            "blurb": "A certified B-Corp guiding collective on the Pacific coast — small-group, naturalist-led expeditions through rainforests, fjords, and wild coastline, with every fare funding local conservation.",
+            "copyright": "© Terra Verde Eco-Tours",
+            "columns": [
+              {
+                "heading": "Expeditions",
+                "links": [
+                  { "text": "Explore trips", "url": { "url": "#tours" } },
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "How we travel", "url": { "url": "#how" } },
+                  { "text": "Guest stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Book",
+                "links": [
+                  { "text": "Book a trip", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
