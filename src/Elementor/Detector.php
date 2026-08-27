@@ -53,6 +53,12 @@ final class Detector {
 			return;
 		}
 		$compat = ( new Compatibility() )->check();
+
+		// Elementor installed and at/above the minimum — nothing to warn about.
+		if ( null !== $compat->elementor_version && $compat->elementor_meets_min ) {
+			return;
+		}
+
 		if ( null === $compat->elementor_version ) {
 			$message = __( 'Vector Elementor Widgets: Elementor is not installed. The Elementor widgets are disabled.', 'vector-elementor-widgets' );
 		} else {
