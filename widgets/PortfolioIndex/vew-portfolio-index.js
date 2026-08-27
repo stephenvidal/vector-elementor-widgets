@@ -84,8 +84,7 @@
 			}
 			more.hidden = false;
 			more.setAttribute( 'aria-expanded', 'true' );
-			var label = hidden + ' more';
-			more.textContent = label;
+			more.textContent = 'Load more';
 		};
 
 		// Reset the visible batch when the breakpoint flips (desktop -> mobile).

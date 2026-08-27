@@ -192,7 +192,7 @@ final class PortfolioIndex extends BaseWidget {
 					</div>
 					<?php if ( $has_more ) : ?>
 						<button type="button" class="vew-portfolio-index__more" data-vew-portfolio-more aria-expanded="false" aria-controls="<?php echo esc_attr( $slot_id ); ?>-grid">
-							<?php echo esc_html( sprintf( /* translators: %d = number of hidden sites. */ __( 'Load more (%d)', 'vector-elementor-widgets' ), count( $hidden ) ) ); ?>
+							<?php echo esc_html__( 'Load more', 'vector-elementor-widgets' ); ?>
 						</button>
 					<?php endif; ?>
 				<?php else : ?>
