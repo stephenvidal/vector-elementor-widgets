@@ -1,0 +1,239 @@
+{
+  "title": "Common Thread — Podcast Network",
+  "slug": "podcast-network",
+  "kit": "podcast-network",
+  "containers": [
+    {
+      "id": "ct-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "COMMON THREAD",
+            "brand_tag": "PODCAST NETWORK",
+            "cta_text": "Start listening",
+            "cta_url": { "url": "#listen" },
+            "links": [
+              { "text": "Shows", "url": { "url": "#shows" } },
+              { "text": "How to listen", "url": { "url": "#listen" } },
+              { "text": "The studio", "url": { "url": "#studio" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-73.png", "id": 0 },
+            "eyebrow": "Independent podcast network · Est. 2019",
+            "headline": "Stories that<br><em>hold together.</em>",
+            "copy": "Common Thread is an independent podcast network producing shows about the people, places, and ideas that quietly shape how we live. We record, edit, and distribute everything in-house — so every episode sounds like it belongs to the same family.",
+            "primary_cta_text": "Browse our shows",
+            "primary_cta_url": { "url": "#shows" },
+            "secondary_cta_text": "Start listening",
+            "secondary_cta_url": { "url": "#listen" },
+            "trust_list": [
+              { "text": "Six original shows, one shared sound" },
+              { "text": "Over 2 million downloads a year" },
+              { "text": "Recorded and edited in our own studio" },
+              { "text": "Ad-free for members, always" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The network in numbers",
+            "title": "A quiet audience,",
+            "title_accent": "listening closely",
+            "stats": [
+              { "value": "6", "label": "Original shows in the network" },
+              { "value": "2.1M", "label": "Downloads across the last year" },
+              { "value": "180+", "label": "Countries where listeners tune in" },
+              { "value": "4.9", "label": "Average rating across all shows" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-shows",
+      "content_width": "full",
+      "settings": { "_element_id": "shows" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Our shows",
+            "title": "Six shows,",
+            "title_accent": "one common thread",
+            "intro": "Every Common Thread show starts with a question worth sitting with. Here's what's on the network right now.",
+            "features": [
+              { "number": "01", "title": "The Long Way Home", "text": "A documentary series following people who left the places they grew up — and the reasons they keep going back. Quiet, patient, and deeply human.", "detail": "Documentary · Weekly · 45 min" },
+              { "number": "02", "title": "Field Notes", "text": "Scientists, farmers, and naturalists on the small observations that change how we understand the world. Recorded in the field, not the studio.", "detail": "Science · Biweekly · 30 min" },
+              { "number": "03", "title": "The Workbench", "text": "Makers and craftspeople on the tools, materials, and habits behind the things they build. For anyone who loves a well-made object.", "detail": "Craft · Weekly · 40 min" },
+              { "number": "04", "title": "Second Reading", "text": "Two editors revisit a book they loved twenty years ago and ask whether it still holds up. Honest, funny, and occasionally wrong.", "detail": "Books · Monthly · 55 min" },
+              { "number": "05", "title": "The Night Shift", "text": "Stories from people who work while the rest of us sleep — nurses, bakers, truckers, and the quiet hours that shape their lives.", "detail": "Human interest · Weekly · 35 min" },
+              { "number": "06", "title": "Common Ground", "text": "A conversation show where guests who disagree on everything find one thing they can agree on. Recorded in front of a live audience.", "detail": "Conversation · Weekly · 60 min" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-listen",
+      "content_width": "full",
+      "settings": { "_element_id": "listen" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How to listen",
+            "title": "Wherever you",
+            "title_accent": "already listen",
+            "intro": "Every Common Thread show is free on all the major platforms. Members get ad-free episodes, early access, and the occasional behind-the-scenes tape.",
+            "steps": [
+              { "title": "Pick a show", "text": "Start with the one that matches your mood — a long drive, a quiet evening, or a commute that needs company." },
+              { "title": "Press play", "text": "Find us on Apple Podcasts, Spotify, or any app you already use. New episodes land every week." },
+              { "title": "Become a member", "text": "For a few dollars a month, get every episode ad-free, a day early, plus the tapes that never make it to air." }
+            ],
+            "note": "Most listeners tell us they start with one show and end up following three. That's the common thread — once you're in, you're in."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "studio" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the studio",
+            "title": "Where the",
+            "title_accent": "sound happens",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-73.png", "id": 0 }, "label": "The main room", "alt": "A warm recording studio with a large microphone and acoustic panels" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-73.png", "id": 0 }, "label": "The edit suite", "alt": "A dim editing suite with a large monitor showing a waveform timeline" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-73.png", "id": 0 }, "label": "The live room", "alt": "A small live-audience room with chairs arranged around two microphones" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-video",
+      "content_width": "full",
+      "settings": { "_element_id": "video" },
+      "widgets": [
+        {
+          "type": "vew-video-embed",
+          "settings": {
+            "eyebrow": "Watch",
+            "title": "A look behind",
+            "title_accent": "the microphone",
+            "video_url": { "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
+            "autoplay": "",
+            "controls": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What listeners say",
+            "title": "Heard by",
+            "title_accent": "people who listen",
+            "intro": "We don't chase the algorithm. We make shows for people who actually listen — and they tell us so.",
+            "reviews": [
+              { "quote": "The Long Way Home made me call my grandmother. I hadn't called her in months. That's what this network does — it reaches in and reminds you what matters.", "author": "Maya Chen", "role": "Listener since 2020", "stars": 5 },
+              { "quote": "I've listened to a lot of podcasts, and Common Thread is the only network where every show sounds like it was made with care. You can hear the difference.", "author": "Daniel Osei", "role": "Member, 3 years", "stars": 5 },
+              { "quote": "Field Notes got me back into birdwatching. I never expected a podcast to do that. The production quality is genuinely beautiful.", "author": "Ruth Alvarez", "role": "Listener since 2021", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Have a story",
+            "title_accent": "worth telling?",
+            "intro": "Whether you're a writer with a pitch, a brand looking to sponsor responsibly, or a listener with a story to share — we'd love to hear from you.",
+            "phone": "(555) 318-2290",
+            "email": "hello@commonthread.fm",
+            "location": "Common Thread · 12 Studio Row",
+            "form_kicker": "Reach the network",
+            "form_title": "We'll get back to you",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ct-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "COMMON THREAD",
+            "brand_tag": "PODCAST NETWORK",
+            "blurb": "An independent podcast network producing shows about the people, places, and ideas that quietly shape how we live.",
+            "copyright": "© Common Thread — podcast network",
+            "columns": [
+              {
+                "heading": "Listen",
+                "links": [
+                  { "text": "Our shows", "url": { "url": "#shows" } },
+                  { "text": "How to listen", "url": { "url": "#listen" } },
+                  { "text": "The studio", "url": { "url": "#studio" } },
+                  { "text": "Watch", "url": { "url": "#video" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "Listener voices", "url": { "url": "#reviews" } },
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Start listening", "url": { "url": "#listen" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
