@@ -160,7 +160,7 @@
     {
       "id": "nl-team",
       "content_width": "full",
-      "settings": { "_element_id": "team" },
+      "settings": { "_element_id": "studio" },
       "widgets": [
         {
           "type": "vew-team-grid",
