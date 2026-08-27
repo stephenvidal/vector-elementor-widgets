@@ -1,0 +1,249 @@
+{
+  "title": "The Jade Kettle",
+  "slug": "tea-house",
+  "kit": "tea-house",
+  "containers": [
+    {
+      "id": "th-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE JADE KETTLE",
+            "brand_tag": "TEA HOUSE",
+            "cta_text": "The tea list",
+            "cta_url": { "url": "#menu" },
+            "links": [
+              { "text": "The tea list", "url": { "url": "#menu" } },
+              { "text": "The ritual", "url": { "url": "#ritual" } },
+              { "text": "Inside the arcade", "url": { "url": "#gallery" } },
+              { "text": "Find us", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-131.png", "id": 0 },
+            "eyebrow": "The Jade Kettle Tea House · Loose-leaf · Hand-brewed",
+            "headline": "Tea that<em> asks you to slow down.</em>",
+            "copy": "The Jade Kettle is a tea house tucked into the corner of the Marble Arcade — no espresso machine, no music, no hurry. We source single-origin leaves from small estates, brew each pot to the right temperature for the leaf, and pour it for people who want somewhere to be present for a while.",
+            "primary_cta_text": "See the tea list",
+            "primary_cta_url": { "url": "#menu" },
+            "secondary_cta_text": "Our brewing ritual",
+            "secondary_cta_url": { "url": "#ritual" },
+            "trust_list": [
+              { "text": "Single-origin leaves from nine small estates, bought whole leaf" },
+              { "text": "Every pot brewed to a temperature matched to the leaf" },
+              { "text": "A quiet room with soft light, no laptops on the tea tables" },
+              { "text": "Leaf-to-cup service — watch it steep, pour when it's ready" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The house in numbers",
+            "title": "Steeped in",
+            "title_accent": "slow practice",
+            "intro": "We measure our day in pots, not covers — and it shows.",
+            "stats": [
+              { "value": "9", "label": "Single-origin estates we buy from directly" },
+              { "value": "30+", "label": "Loose-leaf varieties on the current list" },
+              { "value": "6", "label": "Different brewing temperatures, matched per leaf" },
+              { "value": "8", "label": "Years serving the same corner of the arcade" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-menu",
+      "content_width": "full",
+      "settings": { "_element_id": "menu" },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "The tea list",
+            "title": "Leaf,",
+            "title_accent": "by leaf",
+            "intro": "A living list that rotates with the harvests. Each tea is chosen whole-leaf, bought in small lots, and brewed to bring out what the estate intended — never bagged, never over-steeped.",
+            "items": [
+              { "name": "Jade Cloud Green", "description": "A high-mountain green from Anji, China — sweet, nutty, and almost creamy, with a pale jade liquor. Brewed cool, at 70°C, for a soft finish.", "price": "$9", "tag": "House signature" },
+              { "name": "Midnight Oolong", "description": "A dark, roasted Tieguanyin with notes of cocoa, stone fruit, and a long, toasty tail. We brew it hot and fast to keep the roast alive.", "price": "$11", "tag": "Roasted" },
+              { "name": "Silver Needle White", "description": "A delicate Fuding white made from unopened buds — honeyed, floral, and endlessly patient. Brewed gently; refills are free while the leaf lasts.", "price": "$13", "tag": "Delicate" },
+              { "name": "Hojicha & Milk", "description": "A warm, low-caffeine house blend of roasted green hojicha and steamed milk, lightly sweetened with raw cane. Comfort in a cup.", "price": "$8", "tag": "Comfort" },
+              { "name": "Earl of the Fog", "description": "Our take on a classic: Assam with a whisper of bergamot, brewed strong enough to stand up to a splash of milk.", "price": "$9", "tag": "Classic" },
+              { "name": "Kettle Tasting Flight", "description": "Three small pots from three corners of the world, chosen by our brewers each day, poured in order with a note card for each.", "price": "$18", "tag": "For two" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-ritual",
+      "content_width": "full",
+      "settings": { "_element_id": "ritual" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we brew",
+            "title": "The",
+            "title_accent": "ritual",
+            "intro": "A pot at the Jade Kettle follows the same quiet path every time — a ritual we protect because it makes the tea taste better.",
+            "steps": [
+              { "title": "Choose the leaf", "text": "Tell us how you're feeling or what you like; our brewers will point you to the leaf that fits the moment. Everything is on the list for a reason." },
+              { "title": "Heat the water right", "text": "Each leaf has a temperature it likes — greens cool, oolongs hot. We heat to the degree, never guess." },
+              { "title": "Rinse & awaken", "text": "A quick rinse opens the leaves and shakes off the dust of travel, so the first true steep starts clean." },
+              { "title": "Steep, then pour", "text": "We steep to the clock and pour when it's ready — not a second over. Most leaves give several good infusions; we'll guide you through them." },
+              { "title": "Sit with it", "text": "The pot sits on a warm stand, the room goes quiet, and you take your time. This is the whole point." }
+            ],
+            "note": "Laptops and loud calls live at the long table by the window; the low tea tables are reserved for drinking."
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why the Jade Kettle",
+            "title": "A house built on",
+            "title_accent": "respect for the leaf",
+            "intro": "Anyone can boil water. We think it deserves more care than that — here's what we refuse to compromise on.",
+            "features": [
+              { "number": "01", "title": "Whole-leaf, bought direct", "text": "We buy whole leaves in small lots from estates we've met, never commodity dust. It costs more and tastes the difference.", "detail": "Small-lot, estate-direct" },
+              { "number": "02", "title": "Temperature, not guesswork", "text": "Our kettles heat to a precise degree for every leaf — a green at 70°C is a different tea than the same leaf at 90.", "detail": "Per-leaf brewing temperature" },
+              { "number": "03", "title": "Multiple infusions, always", "text": "Good leaves steep more than once. We pour every good infusion, not just the first, and refill is part of the pot.", "detail": "The whole leaf, used fully" },
+              { "number": "04", "title": "A room that honors silence", "text": "Soft light, warm wood, and a no-rush rule. It's a place to read, to talk quietly, or simply to sit.", "detail": "Quiet tables, slow pace" },
+              { "number": "05", "title": "Brewers, not baristas", "text": "Our team trains on provenance and brewing technique, not latte art. Ask them anything about a leaf — they'll talk all day.", "detail": "Trained tea brewers" },
+              { "number": "06", "title": "Tea you can take home", "text": "Every leaf on the list is sold loose by weight to go, so the ritual doesn't have to end at the door.", "detail": "Loose-leaf to take home" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the house",
+            "title": "Scenes from",
+            "title_accent": "the arcade",
+            "intro": "A look at the calm corners of the Jade Kettle — the steeping bar, the low tables, and the warm light of the arcade.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-131.png", "id": 0 }, "label": "The steeping bar at golden hour", "alt": "A serene tea house interior with a jade-green matcha bowl and steam rising at golden hour" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-131.png", "id": 0 }, "label": "The low tea tables", "alt": "Rustic wooden tea tables in warm light with ceramic tea sets" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-131.png", "id": 0 }, "label": "A pot, poured slowly", "alt": "A cast-iron kettle pouring tea into a small ceramic cup" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "From the regulars",
+            "title": "The kettle",
+            "title_accent": "keeps them coming back",
+            "intro": "People find their table, their leaf, and their ritual. Here's what a few of them say after years of sittings.",
+            "reviews": [
+              { "quote": "I come here to write, but I stay because the tea is the quietest, best-tended in the city. The brewers remember your leaf from one visit to the next. That's rare.", "author": "Sofia Reyes", "role": "Wednesday regular", "stars": 5 },
+              { "quote": "The Jade Cloud Green at 70 degrees is the best cup of tea I've ever had, and I've had a lot. They treat the leaf like it matters, because it does.", "author": "Tomas Hargrove", "role": "Tea collector", "stars": 5 },
+              { "quote": "No laptops at the low tables, no rush, no soundtrack. Just warm light and a pot that keeps giving. It's the one place in the arcade I actually relax.", "author": "Meera Patel", "role": "Neighbour", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Find the kettle",
+            "title": "Come in,",
+            "title_accent": "sit down",
+            "intro": "We're on the ground floor of the Marble Arcade, past the bookshop, left at the fountain. The door is open from mid-morning to early evening, every day.",
+            "phone": "(555) 209-7731",
+            "email": "hello@thejadekettle.co",
+            "location": "The Marble Arcade, 8 Kettle Row — ground floor, end of the arcade",
+            "form_kicker": "Events & private sittings",
+            "form_title": "Reserve the tea room or ask a question",
+            "submit_cta": "Send inquiry"
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE JADE KETTLE",
+            "brand_tag": "TEA HOUSE",
+            "blurb": "A calm tea house in the Marble Arcade serving single-origin loose-leaf teas, brewed by hand to the right temperature — with a quiet place to sit with every pot.",
+            "copyright": "© The Jade Kettle Tea House",
+            "columns": [
+              {
+                "heading": "The House",
+                "links": [
+                  { "text": "The tea list", "url": { "url": "#menu" } },
+                  { "text": "The ritual", "url": { "url": "#ritual" } },
+                  { "text": "Why the Jade Kettle", "url": { "url": "#why" } },
+                  { "text": "From the regulars", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Inside the arcade", "url": { "url": "#gallery" } },
+                  { "text": "Find us", "url": { "url": "#contact" } },
+                  { "text": "Events & private sittings", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
