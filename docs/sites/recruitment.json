@@ -1,0 +1,282 @@
+{
+  "title": "TalentBridge & Co. — Recruitment Agency",
+  "slug": "recruitment",
+  "kit": "recruitment",
+  "containers": [
+    {
+      "id": "rc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "TALENTBRIDGE & CO.",
+            "brand_tag": "RECRUITMENT AGENCY",
+            "cta_text": "Hire a candidate",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "The team", "url": { "url": "#team" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-111.png", "id": 0 },
+            "eyebrow": "Recruitment & talent acquisition · Tech, finance, healthcare & more",
+            "headline": "Hiring is hard.<br><em>Let us do the hard part.</em>",
+            "copy": "We find, screen, and shortlist the people your team is missing — without the endless screening, ghosted candidates, or bad-fit hires that slow you down.",
+            "primary_cta_text": "Hire a candidate",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Recruiters who know your industry" },
+              { "text": "Pre-screened, genuinely interested candidates" },
+              { "text": "90-day placement guarantee" },
+              { "text": "Average time-to-hire under 4 weeks" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The numbers behind the placements",
+            "title": "Placed,",
+            "title_accent": "not just sourced",
+            "stats": [
+              { "value": "3,400+", "label": "Placements made in the last five years" },
+              { "value": "92%", "label": "Of placements still in-role after 12 months" },
+              { "value": "4.1 wks", "label": "Average time-to-hire across all sectors" },
+              { "value": "9.8/10", "label": "Client satisfaction score, every quarter" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why TalentBridge",
+            "title": "A hiring partner,",
+            "title_accent": "not a resume dump",
+            "intro": "Most agencies send you candidates. We send you the right candidate — pre-screened, vetted, and actually interested in your role.",
+            "features": [
+              { "number": "01", "title": "Sector-specialist recruiters", "text": "Your account is led by a recruiter who has worked in your industry and speaks your language, not a generic call-center screener.", "detail": "Real domain knowledge" },
+              { "number": "02", "title": "Deep candidate vetting", "text": "Every shortlist includes skills assessment, reference checks, and a motivation screen — so the candidate actually wants the job, not just any job.", "detail": "Skills + fit verified" },
+              { "number": "03", "title": "Fast, focused shortlists", "text": "You get three to five matched candidates, not a spreadsheet of hundreds. We do the shortlisting so you don't have to.", "detail": "Quality over volume" },
+              { "number": "04", "title": "Transparent fees", "text": "Clear, fixed placement fees with a 90-day guarantee. If a hire doesn't work out, we replace them at no extra cost.", "detail": "No surprise invoices" },
+              { "number": "05", "title": "Candidate experience that protects your brand", "text": "We treat every candidate like a future customer, so your employer brand stays strong even when a role doesn't work out.", "detail": "Your reputation, protected" },
+              { "number": "06", "title": "One point of contact", "text": "A dedicated recruiter who knows your roles, your culture, and your timeline — not a rotating cast of account managers.", "detail": "A partner, not a queue" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Recruitment services",
+            "title_accent": "for every stage",
+            "intro": "From a single hard-to-fill role to building an entire team, TalentBridge covers the full talent lifecycle.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Permanent Hires" },
+              { "key": "build", "label": "Contract & Interim" },
+              { "key": "launch", "label": "Executive Search" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Permanent recruitment", "text": "End-to-end hiring for full-time roles — from brief and sourcing to offer and onboarding support." },
+              { "icon": "◈", "title": "Volume hiring", "text": "For growth-stage teams hiring many people at once, we scale fast without dropping quality." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Contract & interim staff", "text": "Need someone in a role this week? We place skilled contractors and interim leaders within days, not months." },
+              { "icon": "⚑", "title": "Project-based resourcing", "text": "Short-term, project-specific talent for deadlines, launches, and coverage when your team is stretched." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Executive search", "text": "Senior and leadership roles handled with discretion, targeted outreach, and a rigorous assessment process." },
+              { "icon": "✦", "title": "Retained search", "text": "For mission-critical hires, we work on a retained basis with a dedicated team and a guaranteed timeline." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From brief to hire,",
+            "title_accent": "in four steps",
+            "intro": "A simple, transparent process that gets you a great hire without the guesswork.",
+            "steps": [
+              { "title": "Brief", "text": "We start with a deep brief — the role, the team, the culture, and the real reasons the last hire didn't work. This is the step most agencies skip." },
+              { "title": "Source", "text": "We tap our network, job boards, and passive candidates to build a shortlist of genuinely interested, well-matched people." },
+              { "title": "Screen", "text": "Every candidate is interviewed, assessed, and reference-checked before you ever see them. You meet only the best fits." },
+              { "title": "Place", "text": "We support the offer, the negotiation, and the onboarding — and stay on hand through the 90-day guarantee period." }
+            ],
+            "note": "Most roles are filled within four weeks of the brief. If we don't find the right person, we keep looking — and you don't pay until they start."
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-team",
+      "content_width": "full",
+      "settings": { "_element_id": "team" },
+      "widgets": [
+        {
+          "type": "vew-team-grid",
+          "settings": {
+            "eyebrow": "The people behind the placements",
+            "title": "Recruiters who",
+            "title_accent": "know your world",
+            "intro": "Our consultants come from the industries they recruit for — so they understand your roles, your talent pool, and your challenges.",
+            "columns": "3",
+            "members": [
+              { "name": "Sofia Marchetti", "role": "Managing Director", "bio": "Founded TalentBridge after a decade in tech recruitment. Leads the tech and product practice with a hands-on approach.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Derek Osei", "role": "Director, Healthcare", "bio": "Former nurse turned recruiter. Places clinicians and healthcare leaders with the empathy the sector demands.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Priya Raman", "role": "Head of Finance Recruitment", "bio": "Chartered accountant background. Matches finance and accounting talent to teams that need numbers they can trust.", "twitter": { "url": "" }, "linkedin": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What our clients say",
+            "title": "Hired for keeps,",
+            "title_accent": "not just for now",
+            "intro": "CFOs, founders, and hiring managers who trust TalentBridge with their most important hires.",
+            "reviews": [
+              { "quote": "We'd been trying to fill a senior backend role for five months. TalentBridge brought us three strong candidates in three weeks, and the hire is still here two years later.", "author": "Nathan Cole", "role": "CTO, logistics platform", "stars": 5 },
+              { "quote": "The recruiter actually understood our finance team. They didn't send us a pile of resumes — they sent us two people who were exactly right and genuinely wanted the job.", "author": "Amara Singh", "role": "CFO, retail group", "stars": 5 },
+              { "quote": "What sold me was the 90-day guarantee and the transparency. When our first placement left for a family move, they replaced them at no cost and the second one was even better.", "author": "James O'Reilly", "role": "Founder, health-tech startup", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Before you hire,",
+            "title_accent": "straight answers",
+            "intro": "The questions hiring managers ask us most before engaging a recruitment partner.",
+            "items": [
+              { "question": "How is this different from posting the job ourselves?", "answer": "A job post gets you applicants; we get you the right ones. We source active and passive candidates, pre-screen them, and shortlist only the people who genuinely fit and genuinely want the role." },
+              { "question": "What does it cost? What's the guarantee?", "answer": "We charge a fixed placement fee based on the role and seniority — usually a percentage of first-year salary, agreed upfront. Every placement comes with a 90-day guarantee: if a hire doesn't work out, we replace them at no extra cost." },
+              { "question": "How quickly can you fill a role?", "answer": "Most roles are filled within four weeks of the brief. For urgent contract or interim needs, we can often have someone in place within a week." },
+              { "question": "Which industries do you cover?", "answer": "We specialize in tech, finance, healthcare, and professional services, and we recruit for a wide range of roles across operations, marketing, and leadership. If we're not the right fit, we'll tell you honestly." },
+              { "question": "Will you treat our candidates well?", "answer": "Absolutely. We believe a strong employer brand starts with how you treat every applicant. We give every candidate honest feedback and a positive experience, even when they don't get the job." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Start the conversation",
+            "title": "Let's find your next hire",
+            "intro": "Tell us about the role you're trying to fill. A specialist recruiter will get back to you within one business day with an honest read on the market and a plan.",
+            "phone": "(555) 342-1190",
+            "email": "team@talentbridgeco.com",
+            "location": "82 Bridge Street · Talent District",
+            "form_kicker": "Free role consultation",
+            "form_title": "Tell us about the role you're hiring for",
+            "submit_cta": "Book a free consultation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "TALENTBRIDGE & CO.",
+            "brand_tag": "RECRUITMENT AGENCY",
+            "blurb": "A recruitment agency that finds you the people your team is missing — pre-screened, vetted, and genuinely interested.",
+            "copyright": "© TalentBridge & Co. — recruitment & talent acquisition",
+            "columns": [
+              {
+                "heading": "Services",
+                "links": [
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "Services", "url": { "url": "#services" } },
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "The team", "url": { "url": "#team" } },
+                  { "text": "Client voices", "url": { "url": "#reviews" } },
+                  { "text": "Book a consultation", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
