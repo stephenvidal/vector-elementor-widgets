@@ -1,0 +1,219 @@
+{
+  "title": "Fern & Clay Nursery",
+  "slug": "plant-nursery",
+  "kit": "plant-nursery",
+  "containers": [
+    {
+      "id": "pn-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "FERN & CLAY",
+            "brand_tag": "NURSERY",
+            "cta_text": "Visit the greenhouse",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "How we grow", "url": { "url": "#how" } },
+              { "text": "The greenhouse", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pn-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-155.png", "id": 1550 },
+            "eyebrow": "Fern & Clay Nursery · Locally grown · Climate-tested · Hand-selected",
+            "headline": "Grown here,<br><em>rooted for your home.</em>",
+            "copy": "We're a working nursery, not a big-box greenhouse. Every plant we sell was propagated, hardened off, and hand-selected on our own beds — so it's already adapted to your climate before it ever reaches your porch.",
+            "primary_cta_text": "Browse the greenhouse",
+            "primary_cta_url": { "url": "#gallery" },
+            "secondary_cta_text": "How we grow",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Propagated on-site, not trucked in" },
+              { "text": "Climate-tested for your zone" },
+              { "text": "Hand-selected by our growers" },
+              { "text": "Repotting & care advice included" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pn-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Fern & Clay by the numbers",
+            "title": "A nursery that",
+            "title_accent": "grows what it sells",
+            "stats": [
+              { "value": "1200", "label": "Plants propagated on-site each season" },
+              { "value": "180", "label": "Hardy varieties we grow from seed or cutting" },
+              { "value": "14", "label": "Years of local growing experience" },
+              { "value": "0", "label": "Plants shipped in from distant warehouses" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pn-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "From cutting to your garden",
+            "title": "Four honest steps,",
+            "title_accent": "from our beds to yours",
+            "intro": "Here's exactly how a plant gets from Fern & Clay to your home — and why it's stronger for the journey.",
+            "steps": [
+              { "title": "Propagate on-site", "text": "We start everything ourselves — from seed, cutting, or division — in our own propagation house, so we know each plant's history from day one." },
+              { "title": "Harden off slowly", "text": "Plants are gradually introduced to sun, wind, and temperature swings over weeks, building the resilience they need to thrive in a real garden." },
+              { "title": "Hand-select & pot", "text": "Our growers walk the beds and choose only the strongest, best-shaped plants. Anything weak or leggy never makes it to the sales floor." },
+              { "title": "Send you home with care", "text": "Every plant leaves with a care card written for your specific zone — watering, light, and when to repot. No guesswork, no mystery." }
+            ],
+            "note": "Fern & Clay is built on honesty: bring in a photo of a struggling plant and we'll tell you what's wrong — even if the fix means buying nothing from us."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pn-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Fern & Clay",
+            "title": "Plants that",
+            "title_accent": "actually survive",
+            "intro": "Most plants die in the first month because they were grown in a perfect greenhouse and shipped across the country. Ours are different — here's what that means for you.",
+            "features": [
+              { "number": "01", "title": "Grown for your climate", "text": "We propagate and harden off every plant in your local conditions, so it's already adapted to your sun, wind, and seasons before you take it home.", "detail": "Zone-tested on-site" },
+              { "number": "02", "title": "No shipping shock", "text": "Our plants never sit in a dark truck for days. They go from our beds to your garden in hours, arriving strong and ready to establish.", "detail": "Local, same-day" },
+              { "number": "03", "title": "Hand-selected, every one", "text": "Growers walk the beds and choose only the strongest specimens. Weak, leggy, or pest-stressed plants are composted, never sold.", "detail": "Quality over volume" },
+              { "number": "04", "title": "Real soil, real roots", "text": "We grow in a rich, living mix that builds strong root systems — not the sterile peat plugs that strangle plants after transplant.", "detail": "Living soil mix" },
+              { "number": "05", "title": "Care advice that's honest", "text": "Every plant leaves with a zone-specific care card, and our growers answer questions for free — even if the answer is 'this one won't work in your spot.'", "detail": "Free grower advice" },
+              { "number": "06", "title": "Built to come back", "text": "Perennials, natives, and hardy annuals chosen to return year after year — so your garden grows with you, not against you.", "detail": "Perennial-first" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pn-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the greenhouse",
+            "title": "A nursery worth",
+            "title_accent": "wandering through",
+            "intro": "Morning light through the propagation house, a fresh bench of hardened-off perennials, and the potting bench where every plant gets its care card. A few moments from a working nursery.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-155.png", "id": 1550 }, "label": "The propagation house at dawn", "alt": "Rows of young seedlings catching soft morning light inside a glass propagation house" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-155.png", "id": 1550 }, "label": "Hardened-off perennials on the bench", "alt": "A wooden bench lined with potted perennials ready for the sales floor at a plant nursery" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-155.png", "id": 1550 }, "label": "The potting bench", "alt": "A gardener's potting bench with terracotta pots, soil, and hand-written care cards" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pn-news",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "The Growing Season",
+            "title": "What to plant,",
+            "title_accent": "when to plant it",
+            "intro": "A short seasonal letter from the nursery — what's ready, what to plant now, and a grower's tip for your zone. No spam, just honest gardening. Unsubscribe anytime.",
+            "placeholder": "Your email address",
+            "button_text": "Get the letter"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pn-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Come see the beds",
+            "title": "Visit the",
+            "title_accent": "nursery",
+            "intro": "Browse the greenhouse, bring in a struggling plant for a free diagnosis, or ask what's ready for your zone. We're open every day and happy to help you pick the right plant.",
+            "phone": "(555) 318-7742",
+            "email": "hello@fernandclay.com",
+            "location": "Fern & Clay Nursery · 88 Greenhouse Road, Willow Creek, Farm County",
+            "form_kicker": "Plant question / visit",
+            "form_title": "Tell us what you're growing",
+            "submit_cta": "Send my message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pn-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "FERN & CLAY",
+            "brand_tag": "NURSERY",
+            "blurb": "A working plant nursery growing hardy, climate-tested plants in real soil — propagated, hardened off, and hand-selected on-site so they thrive in your garden for years.",
+            "copyright": "© Fern & Clay Nursery",
+            "columns": [
+              {
+                "heading": "The nursery",
+                "links": [
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "How we grow", "url": { "url": "#how" } },
+                  { "text": "The greenhouse", "url": { "url": "#gallery" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Seasonal letter", "url": { "url": "#newsletter" } },
+                  { "text": "Plan a visit", "url": { "url": "#contact" } },
+                  { "text": "Ask a grower", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
