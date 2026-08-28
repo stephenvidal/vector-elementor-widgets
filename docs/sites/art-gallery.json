@@ -1,0 +1,220 @@
+{
+  "title": "The White Room — Contemporary Art Gallery",
+  "slug": "art-gallery",
+  "kit": "art-gallery",
+  "containers": [
+    {
+      "id": "ag-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE WHITE ROOM",
+            "brand_tag": "ART GALLERY",
+            "cta_text": "Visit the gallery",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "On the walls", "url": { "url": "#exhibition" } },
+              { "text": "Inside the rooms", "url": { "url": "#rooms" } },
+              { "text": "Recent placements", "url": { "url": "#placements" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ag-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-133.png", "id": 0 },
+            "eyebrow": "The White Room · Contemporary art gallery in a converted print works",
+            "headline": "Stand close.<br><em>Look slowly.</em>",
+            "copy": "The White Room is a gallery built on a single conviction: great art rewards the people who stop rushing. We show a small, rigorously chosen rotation of contemporary painters and sculptors — and give every work the space, light, and silence it needs to do its work.",
+            "primary_cta_text": "See what's on the walls",
+            "primary_cta_url": { "url": "#exhibition" },
+            "secondary_cta_text": "Visit us",
+            "secondary_cta_url": { "url": "#contact" },
+            "trust_list": [
+              { "text": "Admission is always free — the work is the only barrier to entry" },
+              { "text": "A small, curated rotation of contemporary painters and sculptors" },
+              { "text": "Conversations with the artists every first Thursday" },
+              { "text": "Original works for every first collection, priced clearly" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ag-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The gallery in numbers",
+            "title": "Quiet rooms,",
+            "title_accent": "serious numbers",
+            "intro": "We measure success in the work that finds a home — and the conversations that start in our rooms.",
+            "stats": [
+              { "value": "14", "label": "Exhibitions hosted since we opened the doors in 2019" },
+              { "value": "300+", "label": "Original works now hanging in private collections worldwide" },
+              { "value": "9", "label": "Artists on our current roster, from emerging to established" },
+              { "value": "40k", "label": "Visitors who walked through our rooms last year, admission free" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ag-exhibition",
+      "content_width": "full",
+      "settings": { "_element_id": "exhibition" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "On the walls now",
+            "title": "Current",
+            "title_accent": "exhibition",
+            "intro": "Each season we hang one show and one artist's solo work in the back gallery. Here's what's on the walls this month.",
+            "features": [
+              { "number": "01", "title": "Mara Voss — 'Still, Between'", "text": "A solo show of large-scale charcoal works that read, from a distance, as pure black geometry — and up close dissolve into hours of patient, trembling line. On view in the main room through the end of the season.", "detail": "Main room · now showing" },
+              { "number": "02", "title": "The Quiet Object", "text": "A group show of sculpture and ceramics chosen for how they hold light and silence in a room: bronze, stone, and fired clay from four artists, arranged in a single long line down the east gallery.", "detail": "East gallery · group show" },
+              { "number": "03", "title": "New Drawings & Small Works", "text": "A rotating wall of affordable small works — drawings, studies, and editions — so that a first collection doesn't have to start with a big leap. Every piece is original, numbered, and priced clearly.", "detail": "The study wall · monthly rotation" },
+              { "number": "04", "title": "Open to the Public, Free Always", "text": "Admission is always free. We believe the work should be the only barrier to entry — never a ticket price. Guided conversations with the artists happen every first Thursday.", "detail": "Free admission · every day" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ag-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "rooms" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the rooms",
+            "title": "The spaces that",
+            "title_accent": "hold the work",
+            "intro": "A gallery is architecture for looking. Ours is a converted print works: high ceilings, north light, and floors worn smooth by decades of feet.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-133.png", "id": 0 }, "label": "The main room", "alt": "A white contemporary gallery room with a large abstract charcoal painting on a white wall, soft natural light from above" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-133.png", "id": 0 }, "label": "The east gallery", "alt": "A long narrow gallery hall with sculptures on low plinths arranged in a line, polished concrete floor" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-133.png", "id": 0 }, "label": "The study wall", "alt": "A gallery wall hung with small drawings and framed works at eye level, spotlit and clean" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ag-placements",
+      "content_width": "full",
+      "settings": { "_element_id": "placements" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "Recent placements",
+            "title": "Work that found",
+            "title_accent": "its people",
+            "intro": "A few of the pieces that left our walls this season — and the quiet satisfaction of seeing them land in the right hands.",
+            "items": [
+              { "title": "Mara Voss — 'Held', charcoal on paper", "tag": "Sold · placed in a private collection", "text": "A four-foot charcoal study of an empty chair, bought on the second day of the show by a collector who wrote that it 'looked like waiting.'", "url": { "url": "#contact" }, "link_label": "Enquire about the artist", "image": { "url": "" }, "alt": "" },
+              { "title": "Kenji Aoki — 'Vessel No. 4', bronze", "tag": "Sold · commissioned repeat", "text": "The fourth in a series of cast bronze vessels. The buyer commissioned a fifth before the fourth had even been crated.", "url": { "url": "#contact" }, "link_label": "Enquire about the artist", "image": { "url": "" }, "alt": "" },
+              { "title": "A first collection, started small", "tag": "Three works · study wall", "text": "A couple came in for one small drawing and left with three: the drawing, a study by the same artist, and a ceramic they couldn't stop returning to.", "url": { "url": "#contact" }, "link_label": "Start your own collection", "image": { "url": "" }, "alt": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ag-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What visitors say",
+            "title": "The feeling of",
+            "title_accent": "being slowed down",
+            "intro": "People tell us the same thing: they came in for ten minutes and stayed for an hour. Here's a little of that.",
+            "reviews": [
+              { "quote": "I walked in intending to stay five minutes and stayed two hours. The white room does something to the light that makes you stand still. I bought my first piece of original art that day — a small drawing from the study wall.", "author": "Dana Whitfield", "role": "First-time buyer", "stars": 5 },
+              { "quote": "As an artist, the showing was a gift. They gave the work room to breathe, lit it honestly, and let it speak for itself. That's rarer than people know.", "author": "Mara Voss", "role": "Exhibiting artist", "stars": 5 },
+              { "quote": "Admission is free, the staff never hover, and the curation is serious without being precious. This is exactly what a neighborhood gallery should be.", "author": "Elliot Reyes", "role": "Regular visitor", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ag-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Visit or inquire",
+            "title": "Come stand close,",
+            "title_accent": "look slowly",
+            "intro": "We're open every day, admission free, and always glad to talk about a work, an artist, or a commission. Drop in or write to us — we answer every note.",
+            "phone": "(555) 318-9913",
+            "email": "hello@thewhiteroom.gallery",
+            "location": "The White Room · 8 Foundry Lane, Old Town — the gallery with the glass front",
+            "form_kicker": "Talk to the gallery",
+            "form_title": "Ask about a work, an artist, or starting a collection",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ag-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE WHITE ROOM",
+            "brand_tag": "ART GALLERY",
+            "blurb": "A contemporary art gallery in a converted print works — showing a small, rigorously chosen rotation of painters and sculptors, with room enough to stand close and look slowly.",
+            "copyright": "© The White Room — contemporary art gallery",
+            "columns": [
+              {
+                "heading": "The gallery",
+                "links": [
+                  { "text": "On the walls", "url": { "url": "#exhibition" } },
+                  { "text": "Inside the rooms", "url": { "url": "#rooms" } },
+                  { "text": "Recent placements", "url": { "url": "#placements" } },
+                  { "text": "What visitors say", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Plan a visit", "url": { "url": "#contact" } },
+                  { "text": "Ask about a work", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
