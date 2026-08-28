@@ -1,0 +1,260 @@
+{
+  "title": "Clearview Optometry",
+  "slug": "optometry",
+  "kit": "optometry",
+  "containers": [
+    {
+      "id": "ov-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "CLEARVIEW",
+            "brand_tag": "OPTOMETRY",
+            "cta_text": "Book an exam",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#services" } },
+              { "text": "Your first visit", "url": { "url": "#visit" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-132.png", "id": 0 },
+            "eyebrow": "Clearview Optometry · Comprehensive eye exams · Precision lenses",
+            "headline": "See clearly,<em> live fully.</em>",
+            "copy": "Clearview is a modern eye-care clinic built around one idea: your eyes deserve more than a quick chart and a rushed prescription. We take the time to understand how you actually see — at work, on the road, in the dark — and fit lenses to your life, not just your acuity.",
+            "primary_cta_text": "Book an eye exam",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How a visit works",
+            "secondary_cta_url": { "url": "#visit" },
+            "trust_list": [
+              { "text": "Comprehensive exams that go far beyond the 20/20 chart" },
+              { "text": "Digital retinal imaging on every exam — no dilation drops needed" },
+              { "text": "Lenses fitted to your screen, your commute, and your hobbies" },
+              { "text": "Same-week appointments, most days" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Clearview in numbers",
+            "title": "Care that's",
+            "title_accent": "measured in clarity",
+            "intro": "We track what matters to your vision, not just our volume.",
+            "stats": [
+              { "value": "25+", "label": "Years of combined optometric experience on our team" },
+              { "value": "98%", "label": "Of patients leave with a prescription they can actually wear" },
+              { "value": "15min", "label": "Average time from check-in to your exam starting" },
+              { "value": "4.9", "label": "Average patient rating across 1,200+ reviews" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Every kind of",
+            "title_accent": "eye care, under one roof",
+            "intro": "From routine exams to dry-eye therapy and specialty contact lenses, Clearview handles the full spectrum of everyday eye care — with the same optometrist across visits.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Exams & Vision" },
+              { "key": "build", "label": "Lenses & Frames" },
+              { "key": "launch", "label": "Medical Eye Care" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Comprehensive eye exams", "text": "A full workup — acuity, refraction, eye-health screening, and digital retinal imaging — so we catch problems early, not after they've cost you vision." },
+              { "icon": "◈", "title": "Contact lens fittings", "text": "From daily disposables to toric and multifocal lenses, we fit and trial lenses until they're comfortable and clear — not just 'good enough'." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Precision lenses", "text": "Blue-light, progressive, and high-index lenses measured to your exact frame and your exact habits — screen-heavy, driving, or both." },
+              { "icon": "⚑", "title": "Frames for every face", "text": "A curated optical with frames from independent makers and familiar brands, adjusted and fitted on-site by our opticians." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Dry-eye therapy", "text": "A dedicated dry-eye program — diagnosis, in-clinic treatments, and a home plan — for the burning, gritty eyes so many people just put up with." },
+              { "icon": "✦", "title": "Medical eye care", "text": "Management of glaucoma, diabetes-related eye changes, and other conditions, with co-management alongside your primary care team." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-visit",
+      "content_width": "full",
+      "settings": { "_element_id": "visit" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Your first visit",
+            "title": "What to",
+            "title_accent": "expect",
+            "intro": "A Clearview exam is unhurried and transparent. Here's the path from the front door to your new prescription.",
+            "steps": [
+              { "title": "Check in & relax", "text": "A warm welcome, a quick health-history chat, and a seat in our bright, calm waiting room. No long forms, no pressure." },
+              { "title": "The full workup", "text": "Your optometrist runs a complete exam — acuity, refraction, eye-health screening, and a digital retinal image. You'll see your own retina on the screen." },
+              { "title": "Talk it through", "text": "We explain what we found in plain language and ask about your real life — screens, driving, sports — so the prescription fits how you live." },
+              { "title": "Choose your lenses", "text": "Our opticians help you pick frames and lens options that match your prescription and your budget, with transparent pricing up front." },
+              { "title": "Pick up & follow up", "text": "Most glasses are ready in a week. We adjust them to fit, and we follow up to make sure they feel right in the real world." }
+            ],
+            "note": "Most new patients are in and out in about 45 minutes — and leave knowing more about their eyes than they ever have."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-features",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Clearview",
+            "title": "The difference is",
+            "title_accent": "in the details",
+            "intro": "Anyone can read a chart. We think the job is to understand your eyes — and your life — well enough to fit lenses that disappear into your day.",
+            "features": [
+              { "number": "01", "title": "Digital retinal imaging", "text": "A high-resolution photo of the back of your eye on every exam — no dilation drops, and a permanent record we compare year to year.", "detail": "See your own retina" },
+              { "number": "02", "title": "Lenses for your life", "text": "We ask about your screens, your commute, your hobbies — then fit lenses for how you actually use your eyes, not just your acuity number.", "detail": "Fitted to your habits" },
+              { "number": "03", "title": "The same optometrist", "text": "You see the same clinician across visits, so your history, your concerns, and your progress are all in one head — and one record.", "detail": "Continuity of care" },
+              { "number": "04", "title": "Transparent pricing", "text": "Every exam, lens, and frame is priced clearly up front. No surprise add-ons, no pressure to upgrade, no mystery line items.", "detail": "No surprise bills" },
+              { "number": "05", "title": "Modern equipment", "text": "Digital imaging, automated refraction, and up-to-date diagnostic tools mean faster, more accurate exams and earlier detection.", "detail": "Technology that helps" },
+              { "number": "06", "title": "Care for the whole family", "text": "From a child's first exam to senior eye-health monitoring, we see every age — and we make kids feel comfortable, not scared.", "detail": "Every age, every eye" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Patient stories",
+            "title": "Clearer eyes,",
+            "title_accent": "happier people",
+            "intro": "The best measure of our work is how people feel when they walk out — and how they see the world after.",
+            "reviews": [
+              { "quote": "I'd been squinting at my computer for years and just assumed it was normal. Clearview fitted me with lenses for my screen distance and it genuinely changed my workday. I didn't know it could feel this good.", "author": "Priya Nair", "role": "Product designer", "stars": 5 },
+              { "quote": "They showed me a photo of my own retina and explained what they were looking for. No other eye doctor has ever done that. I actually understood my eye health for the first time.", "author": "Marcus Bell", "role": "Teacher", "stars": 5 },
+              { "quote": "My daughter was terrified of eye exams. The team here turned it into a game and she left smiling with her first pair of glasses. We won't go anywhere else now.", "author": "Elena Vasquez", "role": "Parent", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Common questions",
+            "title": "Before you book,",
+            "title_accent": "the honest answers",
+            "intro": "The questions patients ask us most before their first visit.",
+            "items": [
+              { "question": "How often should I get an eye exam?", "answer": "For most adults, every one to two years. If you have diabetes, a family history of glaucoma, or wear contact lenses, we'll likely recommend yearly exams. Children should have their first exam before starting school." },
+              { "question": "Do I need dilation drops?", "answer": "Not usually. We use digital retinal imaging, which photographs the back of your eye without drops — so you can drive yourself home and get back to your day. Drops are only used when a specific condition calls for them." },
+              { "question": "Will my insurance cover the exam?", "answer": "Most vision and medical plans cover routine eye exams. We verify your benefits before your visit and give you a clear estimate, so there are no surprises at the front desk." },
+              { "question": "How long does it take to get my glasses?", "answer": "Most single-vision and progressive lenses are ready in about a week. We'll call you when they arrive and adjust them to fit perfectly when you pick them up." },
+              { "question": "Can you treat dry eyes?", "answer": "Yes — dry eye is one of the most common things we treat. We offer a dedicated program with in-clinic treatments and a home-care plan, and we'll help you find real relief, not just artificial tears." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book a visit",
+            "title": "Let's get your",
+            "title_accent": "eyes seen to",
+            "intro": "Book an exam online, or call and we'll find a time that works. Walk-ins are welcome for frame adjustments and lens questions.",
+            "phone": "(555) 318-4420",
+            "email": "hello@clearview.eye",
+            "location": "12 Meridian Lane, Suite 200 — across from the civic plaza",
+            "form_kicker": "New patient booking",
+            "form_title": "Tell us what you need, and we'll find you a time",
+            "submit_cta": "Request an appointment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ov-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "CLEARVIEW",
+            "brand_tag": "OPTOMETRY",
+            "blurb": "A modern eye-care clinic that takes the time to understand how you actually see — and fits lenses to your life, not just your acuity.",
+            "copyright": "© Clearview Optometry",
+            "columns": [
+              {
+                "heading": "Care",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#services" } },
+                  { "text": "Your first visit", "url": { "url": "#visit" } },
+                  { "text": "Why Clearview", "url": { "url": "#why" } },
+                  { "text": "Patient stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Book a visit", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
