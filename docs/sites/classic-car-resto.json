@@ -1,0 +1,277 @@
+{
+  "title": "Iron & Chrome",
+  "slug": "classic-car-resto",
+  "kit": "classic-car-resto",
+  "containers": [
+    {
+      "id": "cc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "IRON & CHROME",
+            "brand_tag": "CLASSIC CAR RESTORATION",
+            "cta_text": "Start your build",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Restorations", "url": { "url": "#restorations" } },
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "Recent builds", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-137.png", "id": 1502 },
+            "eyebrow": "Iron & Chrome Classic Car Restoration · 38 years · Concours-grade",
+            "headline": "Bring the legend<br><em>back to the road.</em>",
+            "copy": "Iron & Chrome is a full-service classic car restoration shop for people who refuse to let a good car die. From a barn-find '67 Mustang to a concours-grade Duesenberg, we strip it, rebuild it, and hand it back better than the day it left the line. You bring the story; we bring the torque wrenches, the period-correct parts, and the patience.",
+            "primary_cta_text": "Explore our work",
+            "primary_cta_url": { "url": "#restorations" },
+            "secondary_cta_text": "Why Iron & Chrome",
+            "secondary_cta_url": { "url": "#why" },
+            "trust_list": [
+              { "text": "Full rotisserie restoration, frame-off to concours" },
+              { "text": "Period-correct parts sourcing across three continents" },
+              { "text": "In-house machine shop, upholstery, and paint booth" },
+              { "text": "Every build documented with photo and video logs" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Iron & Chrome by the numbers",
+            "title": "Built on",
+            "title_accent": "decades of torque",
+            "stats": [
+              { "value": "38", "label": "Years restoring classics" },
+              { "value": "1,200", "label": "Cars returned to the road" },
+              { "value": "14", "label": "Master technicians on staff" },
+              { "value": "9", "label": "Concours best-in-class awards" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-restorations",
+      "content_width": "full",
+      "settings": { "_element_id": "restorations" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we restore",
+            "title": "Every era,",
+            "title_accent": "every legend",
+            "intro": "Whether it's a pre-war brass car or a 90s Japanese icon, we treat every build as a one-of-one. Here's the work we do best.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Full Restorations" },
+              { "key": "build", "label": "Mechanical & Drivetrain" },
+              { "key": "launch", "label": "Body, Paint & Interior" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Frame-off rotisserie", "text": "The body comes completely off the frame and spins on a rotisserie so every panel, seam, and undercarriage surface gets the same obsessive attention as the paint." },
+              { "icon": "◈", "title": "Concours & show builds", "text": "For the cars that will be judged, we restore to factory-correct spec with NOS and period-correct hardware, down to the correct hose clamps and date-coded glass." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Engine & drivetrain", "text": "In-house machine shop for blocks, heads, and rotating assemblies. We rebuild to stock, hot-rod, or restomod spec — your call, your power curve." },
+              { "icon": "◈", "title": "Suspension & brakes", "text": "Period-correct or modernized, we make sure the car stops and steers as well as it looks. Every build gets a full alignment and road test before delivery." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Paint & body", "text": "A dedicated downdraft booth and a painter who's been laying lacquer and modern two-stage for three decades. Color-matched to the original or your wildest idea." },
+              { "icon": "◈", "title": "Interior & upholstery", "text": "In-house trim shop for seats, door panels, headliners, and carpets — stitched in correct materials, from original leather to period vinyl." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Iron & Chrome",
+            "title": "We treat your car",
+            "title_accent": "like it's ours",
+            "intro": "Anyone can bolt on new parts. We restore the car you remember — the one that smells right, sounds right, and starts on the first crank. Here's what that takes.",
+            "features": [
+              { "number": "01", "title": "Documented, not guessed", "text": "Every build gets a photo and video log from teardown to first start. You'll see exactly what we found and exactly what we did.", "detail": "Full build documentation" },
+              { "number": "02", "title": "Parts that match the year", "text": "We source NOS and period-correct parts across three continents, and machine what we can't find. No wrong-era parts, ever.", "detail": "Global parts sourcing" },
+              { "number": "03", "title": "One point of contact", "text": "A single project manager owns your build from intake to delivery. One phone number, one person who knows your car cold.", "detail": "Dedicated project manager" },
+              { "number": "04", "title": "No surprises on the invoice", "text": "We quote the work, show you the teardown, and only proceed with your sign-off. The price you approve is the price you pay.", "detail": "Transparent, itemized quotes" },
+              { "number": "05", "title": "Built to be driven", "text": "A show car that won't start is a sculpture. We set up every build to be driven — to the show, to the coast, and back.", "detail": "Road-tested before delivery" },
+              { "number": "06", "title": "Warranty on the work", "text": "Our craftsmanship is backed by a two-year warranty on restoration work. If it's our fault, it's our fix.", "detail": "2-year workmanship warranty" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How a build works",
+            "title": "From the barn",
+            "title_accent": "to the boulevard",
+            "intro": "Every restoration follows the same disciplined path. Here's what to expect from the day your car rolls in to the day you turn the key.",
+            "steps": [
+              { "title": "Intake & assessment", "text": "We photograph, inspect, and document your car's condition, then give you an honest, itemized quote for the work you want done." },
+              { "title": "Teardown & catalog", "text": "The car comes apart completely. Every part is tagged, photographed, and cataloged so nothing gets lost and nothing gets guessed." },
+              { "title": "Body, paint & assembly", "text": "Metalwork, paint, and reassembly happen in sequence, with progress photos at every milestone. You watch it come back to life." },
+              { "title": "Road test & delivery", "text": "We align, tune, and road-test the finished car, then hand you the keys, the build book, and a car that starts on the first crank." }
+            ],
+            "note": "Most restorations take 6 to 18 months depending on scope. We'll give you a realistic timeline up front and keep you posted at every milestone — no surprises, no disappearing acts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-makeover",
+      "content_width": "full",
+      "settings": { "_element_id": "makeover" },
+      "widgets": [
+        {
+          "type": "vew-before-after",
+          "settings": {
+            "eyebrow": "Before & after",
+            "title": "A '67 Mustang,",
+            "title_accent": "brought back",
+            "intro": "Drag the slider to see one of our favorite rescues — a 1967 fastback that arrived with a seized engine, rusted floors, and 40 years of barn dust, returned to its factory glory.",
+            "before_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-137.png", "id": 1502 },
+            "before_label": "Found · seized engine, rusted floors",
+            "after_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-137.png", "id": 1502 },
+            "after_label": "Restored · factory glory",
+            "orientation": "horizontal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "From the shop floor",
+            "title": "Cars we've",
+            "title_accent": "brought back",
+            "intro": "A look at recent builds leaving our shop — the metal, the paint, and the people who make a classic feel new again.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-137.png", "id": 1502 }, "label": "A fastback in the paint booth", "alt": "A classic fastback coupe in a downdraft paint booth with chrome trim" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-137.png", "id": 1502 }, "label": "Hands on a period-correct engine", "alt": "A technician tuning a rebuilt V8 engine with chrome valve covers" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-137.png", "id": 1502 }, "label": "The finished car on the road", "alt": "A restored classic car driving on an open coastal road at golden hour" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Owner stories",
+            "title": "The cars they",
+            "title_accent": "got back",
+            "intro": "We asked owners what it felt like to see their car come home. They said: the smell, the sound, and the moment the key turned. Here's a few of their answers.",
+            "reviews": [
+              { "quote": "My father bought this '67 fastback in 1971 and I grew up in the back seat. When it finally died, I thought that was the end of the story. Iron & Chrome gave me back the car AND the memory. I cried when I heard it start.", "author": "Dana W.", "role": "Owner, 1967 Mustang fastback", "stars": 5 },
+              { "quote": "They found NOS parts I'd been hunting for a decade. The build book they handed me is a work of art in itself. This is the only shop I'd trust with a car that means something.", "author": "Marcus L.", "role": "Owner, 1957 Bel Air", "stars": 5 },
+              { "quote": "I was terrified of the cost and the timeline. They were honest at every step, showed me the teardown, and delivered two weeks early. The car drives better than it did in 1963.", "author": "Elena V.", "role": "Owner, 1963 Corvette", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Start your build",
+            "title": "Tell us about",
+            "title_accent": "your car",
+            "intro": "Send us a few photos and the story of your car. We'll reply within one business day with an honest assessment and next steps. No pressure, no hard sell.",
+            "phone": "(555) 208-4471",
+            "email": "hello@ironandchrome.resto",
+            "location": "Iron & Chrome Classic Car Restoration · 88 Foundry Lane, Motor City",
+            "form_kicker": "Restoration inquiry",
+            "form_title": "Tell us about your classic",
+            "submit_cta": "Request an assessment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "IRON & CHROME",
+            "brand_tag": "CLASSIC CAR RESTORATION",
+            "blurb": "A full-service classic car restoration shop for people who refuse to let a good car die — frame-off restorations, period-correct parts, and craftsmanship that's built to be driven.",
+            "copyright": "© Iron & Chrome Classic Car Restoration",
+            "columns": [
+              {
+                "heading": "Restore",
+                "links": [
+                  { "text": "What we restore", "url": { "url": "#restorations" } },
+                  { "text": "Why Iron & Chrome", "url": { "url": "#why" } },
+                  { "text": "How a build works", "url": { "url": "#how" } },
+                  { "text": "Owner stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Start your build", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
