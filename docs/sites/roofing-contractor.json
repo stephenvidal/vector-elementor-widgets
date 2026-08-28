@@ -1,0 +1,277 @@
+{
+  "title": "Summit Ridge Roofing",
+  "slug": "roofing-contractor",
+  "kit": "roofing-contractor",
+  "containers": [
+    {
+      "id": "sr-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "SUMMIT RIDGE ROOFING",
+            "brand_tag": "RESIDENTIAL & COMMERCIAL ROOFING",
+            "cta_text": "Get a free estimate",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#services" } },
+              { "text": "Why Summit Ridge", "url": { "url": "#why" } },
+              { "text": "Recent roofs", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-139.png", "id": 1512 },
+            "eyebrow": "Summit Ridge Roofing · Residential & Commercial · GAF-Certified",
+            "headline": "A roof that<br><em>outlasts the weather.</em>",
+            "copy": "Summit Ridge Roofing is a family-owned roofing contractor that treats your home like our own. From a single shingle repair to a full tear-off and re-roof, we install systems built to shrug off hail, wind, and decades of sun — and we back every job with a workmanship warranty that actually means something.",
+            "primary_cta_text": "Explore our work",
+            "primary_cta_url": { "url": "#services" },
+            "secondary_cta_text": "Why Summit Ridge",
+            "secondary_cta_url": { "url": "#why" },
+            "trust_list": [
+              { "text": "Licensed, bonded, and insured in every county we serve" },
+              { "text": "GAF-certified installers with factory-backed warranties" },
+              { "text": "Free, no-pressure roof inspections and honest estimates" },
+              { "text": "Storm-damage specialists who work with your insurance" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Summit Ridge by the numbers",
+            "title": "Built to",
+            "title_accent": "last",
+            "stats": [
+              { "value": "27", "label": "Years roofing homes and businesses" },
+              { "value": "4,800", "label": "Roofs installed or repaired" },
+              { "value": "50", "label": "Year workmanship warranty on every install" },
+              { "value": "4.9", "label": "Average rating across 1,200+ reviews" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Every roof,",
+            "title_accent": "every need",
+            "intro": "Whether you need a fast repair before a storm or a full replacement that will outlast the mortgage, we have the crew, the materials, and the warranty to do it right.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Roof Replacement" },
+              { "key": "build", "label": "Repairs & Maintenance" },
+              { "key": "launch", "label": "Storm & Insurance" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Full tear-off & re-roof", "text": "We strip the old roof down to the deck, inspect and repair the sheathing, and install a new system with proper underlayment, flashing, and ventilation." },
+              { "icon": "◈", "title": "Architectural & metal roofing", "text": "From dimensional asphalt shingles to standing-seam metal, we install the material that fits your home, your budget, and your climate." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Leak & storm repair", "text": "A leak today is a bigger problem tomorrow. We find the source, fix it right, and make sure the repair is warrantied — not just patched." },
+              { "icon": "◈", "title": "Preventive maintenance", "text": "Annual inspections, gutter cleaning, and small repairs that stop small problems from becoming expensive ones. We keep your roof healthy." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Insurance claims help", "text": "After hail or wind damage, we document the damage, work directly with your adjuster, and make sure you get the coverage you're owed." },
+              { "icon": "◈", "title": "Emergency tarping", "text": "Storm hit and your roof is compromised? We respond fast to tarp and secure your home, then schedule the permanent repair." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Summit Ridge",
+            "title": "The roof is",
+            "title_accent": "the whole house",
+            "intro": "Your roof is the only thing between your family and the sky. We build ours to be the last roof you'll think about for decades. Here's what that means.",
+            "features": [
+              { "number": "01", "title": "Factory-certified installers", "text": "Our crews are GAF-certified, which means your roof carries a manufacturer-backed warranty on top of our own workmanship guarantee.", "detail": "GAF-certified crews" },
+              { "number": "02", "title": "Honest, itemized estimates", "text": "You get a clear, line-item estimate before we start. No surprise charges, no 'we found more damage' games after the work begins.", "detail": "Transparent pricing" },
+              { "number": "03", "title": "We protect your property", "text": "Landscaping, driveways, and siding get covered and protected before we start. We leave your yard cleaner than we found it.", "detail": "Property protection" },
+              { "number": "04", "title": "50-year workmanship warranty", "text": "If our workmanship fails, we fix it — for free, for fifty years. That's how confident we are in how we install.", "detail": "50-year warranty" },
+              { "number": "05", "title": "Storm specialists", "text": "We've handled thousands of insurance claims. We know how to document damage and advocate for the coverage you're owed.", "detail": "Insurance experts" },
+              { "number": "06", "title": "Local and accountable", "text": "We're a family business that lives in the communities we roof. Our name and our reputation are on every job.", "detail": "Family-owned & local" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From inspection",
+            "title_accent": "to finished roof",
+            "intro": "A clear, no-surprises process that takes you from a free inspection to a roof you can forget about. Here's what to expect at every step.",
+            "steps": [
+              { "title": "Free inspection & estimate", "text": "We climb up, inspect your roof and attic, and give you an honest assessment with a clear, itemized estimate. No pressure, no obligation." },
+              { "title": "Materials & scheduling", "text": "We order the right materials for your roof and climate, and schedule a crew that will show up on time and finish on schedule." },
+              { "title": "Tear-off & install", "text": "We protect your property, tear off the old roof, repair the deck, and install the new system with proper flashing and ventilation." },
+              { "title": "Final walkthrough & warranty", "text": "We clean up, walk the roof with you, and hand over your warranty paperwork. You get a roof that's built to last and backed in writing." }
+            ],
+            "note": "Most residential re-roofs are completed in one to three days. We'll give you a firm start date and keep you posted — and we always leave your property cleaner than we found it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-makeover",
+      "content_width": "full",
+      "settings": { "_element_id": "makeover" },
+      "widgets": [
+        {
+          "type": "vew-before-after",
+          "settings": {
+            "eyebrow": "Before & after",
+            "title": "A roof,",
+            "title_accent": "reborn",
+            "intro": "Drag the slider to see a recent full replacement — a 30-year-old asphalt roof with curling shingles and a slow leak, replaced with a new architectural shingle system and fresh flashing.",
+            "before_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-139.png", "id": 1512 },
+            "before_label": "Before · curling shingles, slow leak",
+            "after_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-139.png", "id": 1512 },
+            "after_label": "After · new architectural shingle system",
+            "orientation": "horizontal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "From the job site",
+            "title": "Roofs we've",
+            "title_accent": "built",
+            "intro": "A look at recent installations and repairs — the materials, the craftsmanship, and the finished roofs that protect the families below.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-139.png", "id": 1512 }, "label": "A new architectural shingle roof at golden hour", "alt": "A freshly installed architectural shingle roof on a suburban home at golden hour" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-139.png", "id": 1512 }, "label": "Crew installing flashing around a chimney", "alt": "A roofer installing metal flashing around a brick chimney" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-139.png", "id": 1512 }, "label": "The finished roof with clean lines", "alt": "A completed roof with crisp ridge lines and clean valleys" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What homeowners say",
+            "title": "Roofs they",
+            "title_accent": "trust",
+            "intro": "We asked homeowners what it was like to work with Summit Ridge. They said: on time, honest, and a roof that finally feels done. Here's a few of their stories.",
+            "reviews": [
+              { "quote": "After a hailstorm, three companies gave me wildly different numbers. Summit Ridge walked the roof with me, showed me the damage, and handled the insurance claim start to finish. The new roof is beautiful and the process was painless.", "author": "Karen M.", "role": "Homeowner, Maplewood", "stars": 5 },
+              { "quote": "They showed up exactly when they said, protected my flower beds, and finished in two days. The crew was polite and the cleanup was spotless. This is how contractors should operate.", "author": "Dave T.", "role": "Homeowner, Ridgeline Estates", "stars": 5 },
+              { "quote": "We had a leak that two other companies couldn't find. Summit Ridge found it in an hour, fixed it, and warrantied the work. I've already recommended them to three neighbors.", "author": "Priya S.", "role": "Homeowner, Cedar Hollow", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get a free estimate",
+            "title": "Let's talk",
+            "title_accent": "about your roof",
+            "intro": "Tell us about your roof and we'll schedule a free, no-pressure inspection. We'll give you an honest assessment and a clear estimate — whether you need a repair or a full replacement.",
+            "phone": "(555) 482-7710",
+            "email": "hello@summitridgeroofing.com",
+            "location": "Summit Ridge Roofing · 17 Ridgecrest Drive, Summit County",
+            "form_kicker": "Free roof inspection",
+            "form_title": "Tell us about your roof",
+            "submit_cta": "Request a free estimate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sr-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "SUMMIT RIDGE ROOFING",
+            "brand_tag": "RESIDENTIAL & COMMERCIAL ROOFING",
+            "blurb": "A family-owned roofing contractor that treats your home like our own — GAF-certified installers, honest estimates, and a 50-year workmanship warranty on every roof we build.",
+            "copyright": "© Summit Ridge Roofing",
+            "columns": [
+              {
+                "heading": "Roof",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#services" } },
+                  { "text": "Why Summit Ridge", "url": { "url": "#why" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Homeowner stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Start",
+                "links": [
+                  { "text": "Get a free estimate", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
