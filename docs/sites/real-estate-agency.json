@@ -1,0 +1,301 @@
+{
+  "title": "Harborline Realty",
+  "slug": "real-estate-agency",
+  "kit": "real-estate-agency",
+  "containers": [
+    {
+      "id": "re-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HARBORLINE",
+            "brand_tag": "REALTY",
+            "cta_text": "Talk to an agent",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Listings", "url": { "url": "#listings" } },
+              { "text": "What we do", "url": { "url": "#services" } },
+              { "text": "Why Harborline", "url": { "url": "#why" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-159.png", "id": 0 },
+            "eyebrow": "Harborline Realty · Buy · Sell · Invest · Full-service brokerage",
+            "headline": "Find the home<br><em>that fits your life.</em>",
+            "copy": "Harborline Realty is a full-service agency that treats every move like a once-in-a-lifetime decision — because it is. From first showing to final signature, we're the steady hand that gets you there.",
+            "primary_cta_text": "Browse listings",
+            "primary_cta_url": { "url": "#listings" },
+            "secondary_cta_text": "Talk to an agent",
+            "secondary_cta_url": { "url": "#contact" },
+            "trust_list": [
+              { "text": "Local agents who know every street and school zone" },
+              { "text": "Listings priced to sell, not to sit" },
+              { "text": "One team for buying, selling, and investing" },
+              { "text": "Transparent fees, no surprises at closing" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Harborline by the numbers",
+            "title": "A track record",
+            "title_accent": "you can build on",
+            "intro": "We measure ourselves in closed deals, happy neighbors, and the families who come back to us when it's time to move again.",
+            "stats": [
+              { "value": "1200+", "label": "Homes bought and sold since we opened" },
+              { "value": "14", "label": "Days average time on market for our listings" },
+              { "value": "98", "label": "Percent of sellers who'd refer us to a friend" },
+              { "value": "3", "label": "Offices across the metro, one standard of care" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "One team for",
+            "title_accent": "every kind of move",
+            "intro": "Whether you're buying your first home, selling the one you've raised a family in, or building a portfolio, the same agents who know the market handle your deal end to end.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Buy" },
+              { "key": "build", "label": "Sell" },
+              { "key": "launch", "label": "Invest" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Buyer representation", "text": "We find homes that match your list, negotiate on your side, and walk you through every inspection and document. You never bid blind." },
+              { "icon": "◈", "title": "First-time buyer guidance", "text": "From pre-approval to closing day, we explain each step in plain language and keep you from the costly mistakes first-timers make." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Pricing & staging", "text": "We price your home to attract real offers, stage it to show its best, and market it across every major platform to reach the right buyers." },
+              { "icon": "⚑", "title": "Negotiation & closing", "text": "We handle offers, counteroffers, inspections, and the paperwork — so you net the best price with the least stress." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Investment analysis", "text": "We run the numbers on rental yield, appreciation, and cash flow so you buy properties that perform, not just ones that look good." },
+              { "icon": "✦", "title": "Portfolio growth", "text": "From your first rental to a multi-property portfolio, we help you scale with the right financing and the right properties." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A clear path",
+            "title_accent": "from first call to closing",
+            "intro": "Buying or selling shouldn't feel like a maze. Here's the straightforward process we guide every client through.",
+            "steps": [
+              { "title": "Consultation", "text": "We sit down, learn your goals, and give you an honest read on the market — whether you're ready to move now or just exploring." },
+              { "title": "Search & showings", "text": "We curate homes that actually fit your list, book showings around your schedule, and give you the real story on each property." },
+              { "title": "Offer & negotiate", "text": "We craft a competitive offer or a smart counter, then negotiate the terms that matter to you — price, timeline, and contingencies." },
+              { "title": "Close & beyond", "text": "We manage inspections, financing, and closing so the keys land in your hand on schedule. And we stay a call away long after." }
+            ],
+            "note": "Most of our buyers are under contract within six weeks of their first showing. We'll give you a realistic timeline up front and keep you informed at every step."
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Harborline",
+            "title": "The difference is",
+            "title_accent": "in the follow-through",
+            "intro": "Anyone can put a sign in the yard. We win because we show up — with market data, honest advice, and a team that answers the phone.",
+            "features": [
+              { "number": "01", "title": "Local, not corporate", "text": "Our agents live in the neighborhoods they sell. They know the schools, the commute times, and the blocks that hold their value.", "detail": "Rooted in the market" },
+              { "number": "02", "title": "Data-driven pricing", "text": "Every listing is priced with a full market analysis — not a guess. That's why our homes sell fast and close at the number.", "detail": "Priced to sell" },
+              { "number": "03", "title": "One team, end to end", "text": "The agent who shows you the home is the one who negotiates and closes it. No hand-offs, no dropped balls.", "detail": "No hand-offs" },
+              { "number": "04", "title": "Transparent fees", "text": "You see every fee in writing before you sign. What we quote is what you pay — no surprise line items at closing.", "detail": "No hidden costs" },
+              { "number": "05", "title": "Full-service support", "text": "Lenders, inspectors, title companies, and movers — we've vetted the partners we recommend, so you don't have to.", "detail": "Vetted partners" },
+              { "number": "06", "title": "We stay in touch", "text": "Long after closing, we check in on your home's value and your next move. Most of our business is referrals from past clients.", "detail": "Clients for life" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "listings" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Featured homes",
+            "title": "A few of the",
+            "title_accent": "homes we love",
+            "intro": "A glimpse of the properties we've recently listed and sold — each one a story, each one a family's next chapter.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-159.png", "id": 0 }, "label": "The Craftsman on Maple", "alt": "A freshly painted craftsman home with a deep navy front door and warm brass hardware at golden hour" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-159.png", "id": 0 }, "label": "The Modern on Harbor", "alt": "A sleek modern home with clean lines and large windows overlooking the harbor at dusk" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-159.png", "id": 0 }, "label": "The Colonial on Elm", "alt": "A stately colonial home with a manicured lawn and a welcoming front porch in soft morning light" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "Recent sales",
+            "title": "Deals we're",
+            "title_accent": "proud of",
+            "intro": "A cross-section of recent transactions — each with a number attached, because results are the only thing that matters.",
+            "items": [
+              { "title": "Maple Street Craftsman", "tag": "Sold · 12 days on market", "text": "Priced at $485,000, sold for $512,000 with multiple offers. A family's first home, closed in under a month.", "url": { "url": "#contact" }, "link_label": "Work with us", "image": { "url": "" }, "alt": "" },
+              { "title": "Harborview Modern", "tag": "Sold · 9 days on market", "text": "A waterfront modern that sat with another agency for 60 days. We re-priced, re-staged, and closed at $1.2M.", "url": { "url": "#contact" }, "link_label": "Work with us", "image": { "url": "" }, "alt": "" },
+              { "title": "Elm Street Colonial", "tag": "Sold · 21 days on market", "text": "A 1920s colonial that needed the right buyer. We found a family who loved its character and closed above asking.", "url": { "url": "#contact" }, "link_label": "Work with us", "image": { "url": "" }, "alt": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client words",
+            "title": "What our",
+            "title_accent": "clients say",
+            "intro": "We've helped first-timers, growing families, and seasoned investors. Here's what a few of them told us after the keys changed hands.",
+            "reviews": [
+              { "quote": "As first-time buyers we were terrified of making a mistake. Our agent walked us through every step, talked us out of two bad offers, and got us a home we love at a price we can afford.", "author": "Maya & Dev Patel", "role": "First-time buyers", "stars": 5 },
+              { "quote": "We'd listed with a big national firm and got nothing but lowball offers. Harborline re-priced, re-staged, and had us under contract in two weeks for more than we'd hoped.", "author": "Carol Whitfield", "role": "Seller, Maple Street", "stars": 5 },
+              { "quote": "I've bought three rentals through Harborline. Their investment analysis is honest — they've talked me out of two properties that would have been money pits. That's worth more than any commission.", "author": "Tom Reyes", "role": "Investor, 3 properties", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions buyers",
+            "title_accent": "and sellers ask",
+            "intro": "Straight answers about fees, timing, and what it's really like to work with us.",
+            "items": [
+              { "question": "How much does it cost to work with you as a buyer?", "answer": "In most cases, nothing out of pocket. Buyer's agent commissions are typically paid by the seller at closing. We'll confirm the exact terms in writing before we start." },
+              { "question": "How do you price a home to sell?", "answer": "We run a full comparative market analysis — recent sales, active listings, and market conditions in your specific neighborhood. We price to attract real offers, not to sit on the market." },
+              { "question": "How long does it take to sell my home?", "answer": "Our average is 14 days on market, but it depends on your home, your price, and the season. We'll give you a realistic timeline up front and adjust as the market moves." },
+              { "question": "Do you work with first-time buyers?", "answer": "Absolutely — it's a big part of what we do. We'll walk you through pre-approval, showings, offers, and closing in plain language, and help you avoid the common first-time mistakes." },
+              { "question": "Can you help me invest in rental properties?", "answer": "Yes. We run the numbers on yield, cash flow, and appreciation, and we'll be honest when a deal doesn't make sense. We've helped clients build portfolios from a single rental to a dozen." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's find your",
+            "title_accent": "next home",
+            "intro": "Whether you're ready to move or just starting to explore, tell us a little about what you're looking for and we'll come back with an honest read on the market.",
+            "phone": "(555) 318-7742",
+            "email": "hello@harborlinerealty.com",
+            "location": "Harborline Realty · 12 Waterfront Plaza, Suite 200 — across from the marina",
+            "form_kicker": "Free consultation",
+            "form_title": "Tell us about your move",
+            "submit_cta": "Request a consultation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "re-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HARBORLINE",
+            "brand_tag": "REALTY",
+            "blurb": "A full-service real estate agency that treats every move like a once-in-a-lifetime decision — local agents, data-driven pricing, and one team for buying, selling, and investing.",
+            "copyright": "© Harborline Realty",
+            "columns": [
+              {
+                "heading": "Explore",
+                "links": [
+                  { "text": "Featured homes", "url": { "url": "#listings" } },
+                  { "text": "What we do", "url": { "url": "#services" } },
+                  { "text": "Why Harborline", "url": { "url": "#why" } },
+                  { "text": "Recent sales", "url": { "url": "#work" } }
+                ]
+              },
+              {
+                "heading": "Get started",
+                "links": [
+                  { "text": "Talk to an agent", "url": { "url": "#contact" } },
+                  { "text": "Free consultation", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
