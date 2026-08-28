@@ -1,0 +1,224 @@
+{
+  "title": "Kiln & Coil Pottery Studio",
+  "slug": "pottery-studio",
+  "kit": "pottery-studio",
+  "containers": [
+    {
+      "id": "ps-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "KILN & COIL",
+            "brand_tag": "POTTERY STUDIO",
+            "cta_text": "Book a class",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "How a piece is made", "url": { "url": "#process" } },
+              { "text": "Inside the studio", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-156.png", "id": 0 },
+            "eyebrow": "Kiln & Coil Pottery Studio · Wheel throwing · Hand-building · Glazing & firing",
+            "headline": "Shape the clay.<br><em>Find your hands.</em>",
+            "copy": "Kiln & Coil is a working pottery studio where beginners and practiced hands share the same wheel. Throw, hand-build, glaze, and fire in a warm, unhurried space — with a kiln that's always warm and a teacher who never rushes you.",
+            "primary_cta_text": "Book a class",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How a piece is made",
+            "secondary_cta_url": { "url": "#process" },
+            "trust_list": [
+              { "text": "Small classes — never more than six at a wheel" },
+              { "text": "All clay, glazes, and firings included in every session" },
+              { "text": "A kiln that fires every week, so your work comes home" },
+              { "text": "No experience needed — we start from the very first touch" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The studio in numbers",
+            "title": "A studio that",
+            "title_accent": "keeps its hands busy",
+            "intro": "We measure the studio in the work that leaves the shelves — and the people who keep coming back to the wheel.",
+            "stats": [
+              { "value": "12", "label": "Years of teaching pottery in this same warm room" },
+              { "value": "4000+", "label": "Pieces fired in our kilns and carried home by students" },
+              { "value": "6", "label": "Wheels, and never more than six students at a time" },
+              { "value": "0", "label": "Experience required to sit down and begin" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "From lump to finished piece",
+            "title": "How a piece",
+            "title_accent": "comes to life",
+            "intro": "Every pot you see on our shelves took the same patient journey. Here's the path from a lump of clay to a piece you can hold, drink from, and keep.",
+            "steps": [
+              { "title": "Throw or hand-build", "text": "You start at the wheel or at the slab table — centering the clay, opening it, and pulling the walls up. Beginners get a steady hand on theirs until the first cylinder stands." },
+              { "title": "Trim & refine", "text": "Once the piece firms up, we trim the foot, smooth the seams, and add handles or texture. This is where a pot starts to feel like yours." },
+              { "title": "Bisque fire", "text": "The first firing hardens the clay into bisque — strong enough to glaze. We load the kiln together and wait for the temperature to tell us it's ready." },
+              { "title": "Glaze & fire again", "text": "You choose from our glaze wall, dip or brush your piece, and it goes back into the kiln for its final firing. A week later, it's yours to take home." }
+            ],
+            "note": "Kiln & Coil is built on patience: if a piece cracks or slumps, we don't call it a failure — we call it a lesson, and we fire it again until you're proud of what you made."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Kiln & Coil",
+            "title": "A studio that",
+            "title_accent": "meets you where you are",
+            "intro": "Whether you've never touched clay or you're returning after years away, the studio is set up to let you work at your own pace — with real guidance, never hovering.",
+            "features": [
+              { "number": "01", "title": "Small, unhurried classes", "text": "Six wheels, six students, one teacher. You get the attention you need without feeling watched — and the room stays calm enough to actually focus.", "detail": "Max six per session" },
+              { "number": "02", "title": "Everything included", "text": "Clay, glazes, tools, and both firings are part of every session. You never pay extra to see your work finished — it's all in the price.", "detail": "No hidden costs" },
+              { "number": "03", "title": "A kiln that fires weekly", "text": "Our kilns run every week, so your pieces come home on a schedule you can count on — not whenever a batch happens to fill.", "detail": "Weekly firings" },
+              { "number": "04", "title": "For every level", "text": "From a first-ever pinch pot to advanced glaze chemistry, the studio has a place for you. Returning students get open-studio time and their own shelf.", "detail": "Beginner to advanced" },
+              { "number": "05", "title": "A teacher who stays", "text": "Our instructor has taught in this same room for twelve years. They know exactly when to step in and when to let a wobble become a lesson.", "detail": "12 years teaching" },
+              { "number": "06", "title": "Work you can keep", "text": "Every piece you make is yours — food-safe, dishwasher-safe, and fired to last. Your shelf at home grows with every class.", "detail": "Yours to keep" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the studio",
+            "title": "A room that",
+            "title_accent": "smells of clay and fire",
+            "intro": "Morning light on the wheel, a shelf of glazed mugs waiting for the kiln, and the slab table where hand-built pieces take shape. A few moments from a working pottery studio.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-156.png", "id": 0 }, "label": "The wheel room at morning", "alt": "A pottery studio with a row of potter's wheels catching soft morning light, a lump of clay centered on the nearest wheel" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-156.png", "id": 0 }, "label": "The glaze shelf", "alt": "A wooden shelf lined with freshly glazed mugs and bowls in terracotta and cream, waiting to be fired" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-156.png", "id": 0 }, "label": "The slab table", "alt": "A potter's slab table with hand-built plates, rolling pins, and a bowl of clay tools" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What students say",
+            "title": "The feeling of",
+            "title_accent": "making something real",
+            "intro": "People come for a class and stay for a season. Here's a little of what they tell us as they carry their work home.",
+            "reviews": [
+              { "quote": "I came in convinced I had no hand for it. Three months later I've got a shelf of mugs I actually use every morning. The teacher never once made me feel like I was behind.", "author": "Priya Raman", "role": "Beginner, now a regular", "stars": 5 },
+              { "quote": "The small classes are the whole difference. Six of us, one patient teacher, and a kiln that fires on schedule. My pieces actually come home — that's rarer than you'd think.", "author": "Marcus Bell", "role": "Wheel-throwing student", "stars": 5 },
+              { "quote": "I'd thrown in college and wanted to come back to it. This studio gave me open time, my own shelf, and zero pressure. It's the calmest two hours of my week.", "author": "Elena Ortiz", "role": "Returning potter", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Come make something",
+            "title": "Book a class or",
+            "title_accent": "just come watch",
+            "intro": "Drop in to see the studio, book a wheel-throwing class, or ask about open-studio time for returning students. We're warm, we're patient, and there's always a seat at the wheel.",
+            "phone": "(555) 318-4472",
+            "email": "hello@kilnandcoil.studio",
+            "location": "Kiln & Coil Pottery Studio · 14 Wheelwright Lane, Old Town — the brick building with the kiln chimney",
+            "form_kicker": "Class / open studio / visit",
+            "form_title": "Tell us what you'd like to make",
+            "submit_cta": "Send my message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ps-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "KILN & COIL",
+            "brand_tag": "POTTERY STUDIO",
+            "blurb": "A working pottery studio where beginners and practiced hands share the same wheel — throwing, hand-building, glazing, and firing in a warm, unhurried space with a kiln that's always warm.",
+            "copyright": "© Kiln & Coil Pottery Studio",
+            "columns": [
+              {
+                "heading": "The studio",
+                "links": [
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "How a piece is made", "url": { "url": "#process" } },
+                  { "text": "Inside the studio", "url": { "url": "#gallery" } },
+                  { "text": "What students say", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Book a class", "url": { "url": "#contact" } },
+                  { "text": "Open studio time", "url": { "url": "#contact" } },
+                  { "text": "Plan a visit", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
