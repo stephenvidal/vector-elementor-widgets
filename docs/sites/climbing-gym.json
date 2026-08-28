@@ -1,0 +1,273 @@
+{
+  "title": "Boulder & Grit",
+  "slug": "climbing-gym",
+  "kit": "climbing-gym",
+  "containers": [
+    {
+      "id": "bg-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "BOULDER & GRIT",
+            "brand_tag": "CLIMBING GYM",
+            "cta_text": "Book a first climb",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Climb", "url": { "url": "#climb" } },
+              { "text": "Why B&G", "url": { "url": "#why" } },
+              { "text": "Inside the gym", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-136.png", "id": 1497 },
+            "eyebrow": "Boulder & Grit Climbing Gym · 40+ ft of wall · All levels welcome",
+            "headline": "Strong hands,<br><em>calmer head.</em>",
+            "copy": "Boulder & Grit is a modern climbing gym built for people who climb for the problem, not the podium — forty feet of textured bouldering wall, a toprope arena, and a community that spots each other on the hard moves. You bring the stubbornness; we bring the chalk, the crash pads, and the coaching.",
+            "primary_cta_text": "Explore the gym",
+            "primary_cta_url": { "url": "#climb" },
+            "secondary_cta_text": "Why climb with us",
+            "secondary_cta_url": { "url": "#why" },
+            "trust_list": [
+              { "text": "40+ feet of bouldering wall, reset weekly" },
+              { "text": "Toprope and lead walls, all auto-belay ready" },
+              { "text": "First-timer sessions and kids' walls included" },
+              { "text": "Coaching, yoga, and a gear shop under one roof" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Boulder & Grit by the numbers",
+            "title": "Built for the",
+            "title_accent": "long grind",
+            "stats": [
+              { "value": "9,000", "label": "Square feet of climbing surface" },
+              { "value": "120", "label": "Problems reset every week" },
+              { "value": "40", "label": "Climbing coaches on staff" },
+              { "value": "18", "label": "Years in the climbing community" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-climb",
+      "content_width": "full",
+      "settings": { "_element_id": "climb" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Ways to climb",
+            "title": "Find your",
+            "title_accent": "grade of fun",
+            "intro": "Whether you're working a V0 on your first day or projecting a V8 at last call, there's a corner of B&G built for the effort you're ready to give.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Bouldering" },
+              { "key": "build", "label": "Toprope & Lead" },
+              { "key": "launch", "label": "Classes & Coaches" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Bouldering wall", "text": "Forty feet of textured wall with crash pads below and a fresh set of problems every week — from slab to overhang, graded and color-coded." },
+              { "icon": "◈", "title": "MoonBoard & Kilter", "text": "Two training boards for when you want the same problem as half the planet and a session that reads like a workout, not a wander." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Toprope arena", "text": "Auto-belays and partner lines from 30 to 55 feet, with routes that reward both endurance and technique. Walk up, clip in, climb." },
+              { "icon": "◈", "title": "Lead wall", "text": "A dedicated lead arena with draws already hung and a friendly staff that will belay-check you before you take the whip." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "First-climb session", "text": "A 90-minute coached intro that covers safety, footwork, and the confidence to finish your first problem. Gear rental included." },
+              { "icon": "◈", "title": "Coaching & camps", "text": "Small-group technique coaching, kids' after-school camps, and a women's-plus and trans night every week, run by climbers who teach." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why B&G",
+            "title": "Climbing is a",
+            "title_accent": "whole-body reset",
+            "intro": "Anyone can bolt up a wall. B&G exists to give you a wall worth bolting up — one where the holds stay interesting, the safety is second nature, and the person on the mat beside you is pulling for you.",
+            "features": [
+              { "number": "01", "title": "Walls that change", "text": "Every Monday the setters rebuild a full section of the bouldering wall. There's always a problem you haven't figured out yet.", "detail": "120 resets per week" },
+              { "number": "02", "title": "Safety as a habit", "text": "Staffed belay checks, daily equipment inspection, and pads deep enough that a fall is a non-event, not a negotiation.", "detail": "Certified staff on the floor" },
+              { "number": "03", "title": "Coaching, not gatekeeping", "text": "Our coaches climb with you. Whether it's your first V0 or your first lead fall, someone will talk you through the beta and the fear.", "detail": "120 coached sessions monthly" },
+              { "number": "04", "title": "A community that spots", "text": "Weekly social boulders, a lending-chalk bin, and a crew that celebrates your send as loudly as their own.", "detail": "18 social events a month" },
+              { "number": "05", "title": "Everything you need", "text": "A gear shop with rentals, a yoga studio, showers, and a cafe with better coffee than you expect from a climbing gym.", "detail": "Full gym + shop + cafe" },
+              { "number": "06", "title": "Your pace, your day", "text": "Open 7am to 11pm, with quiet weekday mornings for the focused and late nights for the after-work senders.", "detail": "16 hours a day, 365 days" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Your first session",
+            "title": "From the door",
+            "title_accent": "to your first send",
+            "intro": "New here? The path from the front desk to your first successful problem is short, friendly, and never embarrassing. Here's how it goes.",
+            "steps": [
+              { "title": "Check in & waive in", "text": "A quick sign-in at the desk, a rental-shoe fitting if you need them, and a five-minute chalk-up before you head to the floor." },
+              { "title": "Safety walkthrough", "text": "A staff member walks you through the zones, the crash-pad rules, and how to fall properly — under two minutes, and you'll feel it." },
+              { "title": "Try your first problem", "text": "Pick a V0 in the beginner bay. The holds match the color, the staff points, and the people on the mats cheer. Nobody watches, everybody helps." },
+              { "title": "Keep the streak going", "text": "Finish one and you'll want three. Your pass gets you all-day access, so grab a coffee, rest your forearms, and get back on the wall." }
+            ],
+            "note": "Boulder & Grit is an all-levels gym: beginners are the majority, and the only bad climb is the one you didn't try. Every session is covered by our gear, our pads, and our coaches."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-count",
+      "content_width": "full",
+      "settings": { "_element_id": "next" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "New wall drop",
+            "title": "Next set",
+            "title_accent": "goes live in",
+            "end": "2026-09-04 10:00",
+            "expired_text": "This week's wall reset is up — come see the new problems before the setters tear them down again on Monday."
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the gym",
+            "title": "Scenes from",
+            "title_accent": "the send",
+            "intro": "A look around Boulder & Grit — the wall, the light, and the people who make a gym feel like a home base.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-136.png", "id": 1497 }, "label": "The main wall at dusk", "alt": "A tall textured climbing wall lit in slate and amber tones" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-136.png", "id": 1497 }, "label": "A reach on the overhang", "alt": "A climber reaching for a hold on a steep overhanging section" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-136.png", "id": 1497 }, "label": "Chalk, coffee, community", "alt": "A warm, busy climbing gym with climbers resting between attempts" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Member stories",
+            "title": "Why they keep",
+            "title_accent": "coming back",
+            "intro": "We asked members why B&G is their wall. They said: the holds, the people, and the feeling of finishing something hard. Here's a few of their answers.",
+            "reviews": [
+              { "quote": "I started climbing at 41 with zero upper-body strength and a genuine fear of heights. Eighteen months later I've sent my first V4 and I honestly don't recognize the person I was. The coaches here climb WITH you, never at you.", "author": "Priya N.", "role": "Member, 18 months", "stars": 5 },
+              { "quote": "The Monday resets are my favorite part. I walk in, scan the new wall, and there's always a problem I didn't know I could do until I tried it. Best gym culture in the city.", "author": "Marcus T.", "role": "Bouldering regular", "stars": 5 },
+              { "quote": "My kids begged to come after school. Now it's the highlight of their week and mine — the staff are patient, the kids' wall is actually challenging, and the cafe makes it easy to stay.", "author": "Elena R.", "role": "Family member", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get started",
+            "title": "Come try the",
+            "title_accent": "wall",
+            "intro": "Drop in for a first climb, book a coaching session, or just grab a coffee and watch the wall for a while. Real staff reply within one business day.",
+            "phone": "(555) 314-8852",
+            "email": "hello@boulderandgrit.climb",
+            "location": "Boulder & Grit Climbing Gym · 1420 Foundry Way, Westside District, Climbing City",
+            "form_kicker": "New member / first visit",
+            "form_title": "Tell us about your first climb",
+            "submit_cta": "Book my first session"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bg-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "BOULDER & GRIT",
+            "brand_tag": "CLIMBING GYM",
+            "blurb": "A modern climbing gym for people who climb for the problem, not the podium — bouldering, toprope, lead, coaching, and a community that spots each other on the hard moves.",
+            "copyright": "© Boulder & Grit Climbing Gym",
+            "columns": [
+              {
+                "heading": "Climb",
+                "links": [
+                  { "text": "Ways to climb", "url": { "url": "#climb" } },
+                  { "text": "Why B&G", "url": { "url": "#why" } },
+                  { "text": "Your first session", "url": { "url": "#how" } },
+                  { "text": "Member stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Book a first climb", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
