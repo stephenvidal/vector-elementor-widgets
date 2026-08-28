@@ -1,0 +1,240 @@
+{
+  "title": "Meadowrest Organic Farm",
+  "slug": "organic-farm",
+  "kit": "organic-farm",
+  "containers": [
+    {
+      "id": "of-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "MEADOWREST",
+            "brand_tag": "ORGANIC FARM",
+            "cta_text": "Join the harvest box",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Our method", "url": { "url": "#why" } },
+              { "text": "The process", "url": { "url": "#how" } },
+              { "text": "Life on the farm", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-151.png", "id": 1529 },
+            "eyebrow": "Meadowrest Organic Farm · Certified organic · Pasture-raised eggs & heritage grains",
+            "headline": "Grown in soil, not in a lab.",
+            "copy": "We farm 42 acres the way food is supposed to be grown — rotating pastures, cover crops, and compost instead of chemical shortcuts. Every box we deliver is harvested that morning, so what lands on your table is a few hours from the field, not a few weeks from a warehouse.",
+            "primary_cta_text": "Join our harvest box",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "Visit the farm",
+            "secondary_cta_url": { "url": "#gallery" },
+            "trust_list": [
+              { "text": "Certified organic since 2011" },
+              { "text": "Harvested the morning of delivery" },
+              { "text": "Rotational pasture grazing" },
+              { "text": "Heirloom and heritage varieties, not commodity" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Meadowrest by the numbers",
+            "title": "A farm that",
+            "title_accent": "counts what matters",
+            "stats": [
+              { "value": "42", "label": "Certified-organic acres under cultivation" },
+              { "value": "340", "label": "Households on our weekly harvest box" },
+              { "value": "18", "label": "Heirloom and heritage crop varieties grown" },
+              { "value": "0", "label": "Synthetic pesticides or fertilizers used" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "From field to fork",
+            "title": "Four honest steps,",
+            "title_accent": "from seed to your doorstep",
+            "intro": "Here's exactly how your food gets from Meadowrest to your table — and why you can taste the difference in the very first bite.",
+            "steps": [
+              { "title": "Sow & rotate", "text": "Every field follows a multi-year rotation that rebuilds soil rather than depleting it. Cover crops and compost feed the ground so the plants feed you." },
+              { "title": "Grow, the slow way", "text": "No synthetic inputs, no forced ripening. Crops mature on their own schedule, which is why our tomatoes taste like tomatoes and our corn tastes like corn." },
+              { "title": "Harvest at dawn", "text": "Boxes are picked the morning of delivery — vegetables still carrying field dew, eggs gathered within the hour, grains milled in small batches." },
+              { "title": "Deliver same-day", "text": "Your harvest box goes from field to kitchen within the day. What you don't eat fresh, you freeze knowing exactly where it came from." }
+            ],
+            "note": "Meadowrest is built on transparency: visit any time, walk the fields, and ask us what's growing. We'll show you the soil, the seed, and the whole honest chain."
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Meadowrest",
+            "title": "Real food,",
+            "title_accent": "the honest way",
+            "intro": "Organic isn't a label we buy — it's a method we practice every day. Here's what actually happens on our farm, and why it matters for your family's table.",
+            "features": [
+              { "number": "01", "title": "Certified, not just claimed", "text": "Third-party certified organic since 2011, with every field, crop, and input documented and inspected — not a marketing word on a label.", "detail": "Certified organic 2011" },
+              { "number": "02", "title": "Soil-first farming", "text": "We grow the soil, not just the crop. Compost, cover crops, and rotation build the biology that makes our vegetables deep in flavor and nutrition.", "detail": "Rotational + cover crops" },
+              { "number": "03", "title": "Pasture-raised, truly", "text": "Our hens range on fresh pasture daily, rotated onto new ground each week. The eggs taste the difference — richer yolks, cleaner flavor.", "detail": "Daily pasture rotation" },
+              { "number": "04", "title": "Heritage, not hybrid", "text": "We grow open-pollinated and heritage varieties chosen for flavor and resilience, not shipping shelf life — so the produce is unforgettable.", "detail": "18 heritage varieties" },
+              { "number": "05", "title": "Delivered same-day", "text": "Boxes are packed and delivered the same morning they're harvested, skipping the cold-storage weeks most supermarket produce endures.", "detail": "Field-to-door in a day" },
+              { "number": "06", "title": "Know your farmer", "text": "We answer every question honestly — the good, the weather-dependent, and the occasionally awkward. No faceless supply chain here.", "detail": "Farm visits welcome" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Life on the farm",
+            "title": "The kind of",
+            "title_accent": "place worth knowing",
+            "intro": "Morning mist over the cover-cropped fields, a new batch of heritage tomatoes, and hens stepping onto fresh pasture. A few moments from a working organic farm.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-151.png", "id": 1529 }, "label": "Heritage tomato rows at first light", "alt": "Rows of heritage tomato plants catching the early morning sun on a certified-organic field" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-151.png", "id": 1529 }, "label": "Pasture-raised hens at dawn", "alt": "A flock of hens ranging freely across fresh pasture grass at sunrise" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-151.png", "id": 1529 }, "label": "The harvest cart", "alt": "A wooden cart loaded with freshly harvested root vegetables and greens in a barn doorway" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Harvest-box families",
+            "title": "What our",
+            "title_accent": "neighbors say",
+            "intro": "We asked a few of the 340 households on our weekly box what changed when they started eating from the farm. Their answers were about taste, trust, and knowing where dinner comes from.",
+            "reviews": [
+              { "quote": "I grew up on my grandparents' farm, and the first tomato I got from Meadowrest tasted like a memory I'd almost lost. You can't buy that in a grocery store, no matter the price.", "author": "Daniel R.", "role": "Weekly box, 4 years", "stars": 5 },
+              { "quote": "The eggs are unreal — rich yolks, no comparison to store-bought. And I love that I can visit, see the fields, and meet the people who grow my family's dinner.", "author": "Elena V.", "role": "Egg share + weekly box", "stars": 5 },
+              { "quote": "We tried a dozen CSAs before this one. Meadowrest is the only farm that tells you the honest truth about what's in season and what's not, then delivers it better than promised.", "author": "Marcus B.", "role": "Harvest box subscriber", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-news",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "The Meadowrest Post",
+            "title": "What's growing,",
+            "title_accent": "in your inbox",
+            "intro": "A short weekly letter from the farm — what's in season, what we're planting, and a recipe for the box. No spam, just honest food talk. Unsubscribe anytime.",
+            "placeholder": "your@email.com",
+            "button_text": "Sign me up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Come say hello",
+            "title": "Visit the",
+            "title_accent": "farm",
+            "intro": "Join the harvest box, arrange a farm visit, or just ask what's in season. We'd love to show you around — boots are welcome, schedules are flexible.",
+            "phone": "(555) 462-7714",
+            "email": "hello@meadowrestfarm.com",
+            "location": "Meadowrest Organic Farm · 210 Harvest Lane, Greenfield Valley, Farm County",
+            "form_kicker": "New box / farm visit",
+            "form_title": "Tell us how we can help",
+            "submit_cta": "Send my message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "of-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "MEADOWREST",
+            "brand_tag": "ORGANIC FARM",
+            "blurb": "A certified-organic family farm growing clean vegetables, pasture-raised eggs, and heritage grains — harvested at peak and delivered within the day.",
+            "copyright": "© Meadowrest Organic Farm",
+            "columns": [
+              {
+                "heading": "The farm",
+                "links": [
+                  { "text": "Our method", "url": { "url": "#why" } },
+                  { "text": "The process", "url": { "url": "#how" } },
+                  { "text": "Life on the farm", "url": { "url": "#gallery" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Weekly newsletter", "url": { "url": "#newsletter" } },
+                  { "text": "Join the harvest box", "url": { "url": "#contact" } },
+                  { "text": "Plan a visit", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
