@@ -1,0 +1,273 @@
+{
+  "title": "Northwind Sailing",
+  "slug": "sailing-charters",
+  "kit": "sailing-charters",
+  "containers": [
+    {
+      "id": "nw-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "NORTHWIND",
+            "brand_tag": "SAILING CHARTERS",
+            "cta_text": "Book a sail",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Charters", "url": { "url": "#charters" } },
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "Life aboard", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-135.png", "id": 1492 },
+            "eyebrow": "Northwind Sailing Charters · USCG-licensed crew · Private & day sails",
+            "headline": "Catch the wind,<br><em>leave the harbour.</em>",
+            "copy": "Northwind runs small-crew sailing charters along a coastline that rewards patience — quiet coves, steady trade winds, and a skipper who knows every anchorage by name. You bring the appetite for open water; we bring the boat, the crew, and the tide tables.",
+            "primary_cta_text": "Explore charters",
+            "primary_cta_url": { "url": "#charters" },
+            "secondary_cta_text": "Why sail with us",
+            "secondary_cta_url": { "url": "#why" },
+            "trust_list": [
+              { "text": "USCG-licensed skippers on every charter" },
+              { "text": "Fleets of 30' and 42' sloops, all current on safety" },
+              { "text": "Private, family, and couples-only departures" },
+              { "text": "Full provisioning and picnic lunches included" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Northwind by the numbers",
+            "title": "Twenty seasons on",
+            "title_accent": "the water",
+            "stats": [
+              { "value": "22", "label": "Years running the archipelago" },
+              { "value": "6,000+", "label": "Guests sailed with us, small crews only" },
+              { "value": "98%", "label": "Of departures sail on schedule" },
+              { "value": "5", "label": "Skippers, each with a decade of local water" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-charters",
+      "content_width": "full",
+      "settings": { "_element_id": "charters" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Charters & experiences",
+            "title": "Pick your",
+            "title_accent": "point of sail",
+            "intro": "Three ways to get out on the water with Northwind — from a relaxed half-day cruise to a week-long blue-water passage, with a full flotilla in between.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Day Sails" },
+              { "key": "build", "label": "Multi-Day & Overnight" },
+              { "key": "launch", "label": "Private & Crewed" }
+            ],
+            "design": [
+              { "icon": "⛵", "title": "Half-day harbour sail", "text": "Three unhurried hours out of the marina — past the lighthouse, through the channel, and back with a hot lunch aboard. Perfect for first-timers." },
+              { "icon": "⛵", "title": "Full-day island hop", "text": "A full day threading the islands — two anchorages, a swim stop, and a spread lunch on deck while the tide turns." }
+            ],
+            "build": [
+              { "icon": "⛵", "title": "Two-day coastal passage", "text": "Sail by day, anchor by night. Your skipper picks sheltered coves, and you wake to coffee on a still harbour." },
+              { "icon": "⛵", "title": "Five-day blue-water cruise", "text": "A proper passage — overnight watches, open water, and the deep quiet that only comes a day from shore." }
+            ],
+            "launch": [
+              { "icon": "⛵", "title": "Private charter", "text": "The whole boat for your family, friends, or crew. Your dates, your pace, a dedicated skipper and mate." },
+              { "icon": "⛵", "title": "Wedding & celebration sails", "text": "A champagne sail for your big day — sunset, string lights, and a crew that handles every detail while you toast." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why sail with Northwind",
+            "title": "Skippers who",
+            "title_accent": "know the water",
+            "intro": "Anybody can rent a boat. Northwind gives you a crew that has spent two decades learning this coast — where the wind fills in, which coves stay calm, and how to make guests feel like they've left land behind.",
+            "features": [
+              { "number": "01", "title": "Licensed, current skippers", "text": "Every charter is led by a USCG-licensed skipper with a decade or more on this stretch of water. Safety briefings are thorough, but never heavy-handed.", "detail": "USCG-licensed crew on board" },
+              { "number": "02", "title": "Small crews, real sailing", "text": "We cap every boat well below capacity and run under sail whenever conditions allow. You feel the boat move; you feel the wind work.", "detail": "Max 8 guests aboard" },
+              { "number": "03", "title": "Local anchorage knowledge", "text": "Our skippers know the quiet coves, the fish markets worth a detour, and the sunset spots tourists never find.", "detail": "Two decades of local water" },
+              { "number": "04", "title": "Safety without the fuss", "text": "All boats current on inspection, life jackets for every guest, and a mate aboard on every departure. Confidence comes standard.", "detail": "Fully inspected fleet" },
+              { "number": "05", "title": "Everything included", "text": "Provisioning, picnic lunches, fuel, and moorage are all in the fare. You show up with sunscreen and a camera.", "detail": "All-inclusive pricing" },
+              { "number": "06", "title": "Weather-kept promises", "text": "If the forecast turns against us, we rebook or refund. We'd rather reschedule than send you out into a blow.", "detail": "Fair-weather guarantee" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How a charter works",
+            "title": "From booking",
+            "title_accent": "to the breeze",
+            "intro": "Planning a sail should feel as easy as the day itself. Here's the simple path from your first enquiry to casting off.",
+            "steps": [
+              { "title": "Pick your charter", "text": "Choose a day sail or a passage, and let us know your dates and party size. We'll match you to the right boat and skipper." },
+              { "title": "We confirm the weather", "text": "We watch the forecast and confirm your departure a day ahead. If the wind won't cooperate, we offer a rebook or full refund." },
+              { "title": "Meet at the marina", "text": "Your skipper greets you at the dock, runs a friendly safety briefing, and has coffee on. Fifteen minutes later you're casting off." },
+              { "title": "Sail, swim, and unwind", "text": "The day is yours — sail, anchor, swim, or just sit on the rail and watch the water. We handle the boat; you handle the views." }
+            ],
+            "note": "Every Northwind departure is fully insured, crewed, and all-inclusive — our promise that your time aboard is unhurried, safe, and worth the wait for the right wind."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-count",
+      "content_width": "full",
+      "settings": { "_element_id": "next" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Next public sail",
+            "title": "Harbour & Islands",
+            "title_accent": "departs in",
+            "end": "2026-09-19 10:00",
+            "expired_text": "Our next public harbour sail has cast off — join the following departure before the good dates go."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Life aboard",
+            "title": "Scenes from",
+            "title_accent": "the water",
+            "intro": "A glimpse of what a Northwind day looks like — the sails up, the cove anchors, and the long quiet horizons our guests carry home.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-135.png", "id": 1492 }, "label": "Sails full in the channel", "alt": "A white-sailed sloop heeled over in a coastal channel" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-135.png", "id": 1492 }, "label": "Anchor down at dusk", "alt": "A yacht at anchor in a sheltered cove at golden hour" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-135.png", "id": 1492 }, "label": "Deck picnic at midday", "alt": "A spread lunch on a yacht deck with the horizon beyond" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Guest stories",
+            "title": "The water,",
+            "title_accent": "in their words",
+            "intro": "People tell us the same thing: they came for the sail and left planning the next one. Here's what a few guests had to say.",
+            "reviews": [
+              { "quote": "We've chartered boats on three oceans and Northwind is the first crew that felt like old friends by the end of day one. Our skipper knew every cove, read the wind perfectly, and made us feel completely safe. The full-day island hop was the best money we've spent in years.", "author": "Marta J.", "role": "Day-sail guest, Portland", "stars": 5 },
+              { "quote": "As someone who gets seasick in a bathtub, I was nervous. The crew had me settled with a calm briefing and the smoothest line down the channel — I didn't even think about it. The picnic at anchor was gorgeous.", "author": "Daniel R.", "role": "First-time sailor", "stars": 5 },
+              { "quote": "We booked the private charter for our engagement and it was flawless — sunset, string lights, a bottle of something cold, and a skipper who quietly handled every detail. Ten out of ten.", "author": "Sofia & Elena", "role": "Private charter guests", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book your sail",
+            "title": "Let's get you",
+            "title_accent": "on the water",
+            "intro": "Questions about a charter, a private booking, or a gift sail for someone special? Send us a note — a real crew member replies within one business day.",
+            "phone": "(555) 219-8842",
+            "email": "hello@northwindsailing.boats",
+            "location": "Northwind Sailing Charters · Pier 12, Harbourfront Marina, Coastal City",
+            "form_kicker": "New charter enquiry",
+            "form_title": "Tell us when you'd like to sail",
+            "submit_cta": "Request availability"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nw-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "NORTHWIND",
+            "brand_tag": "SAILING CHARTERS",
+            "blurb": "A USCG-licensed sailing charter company on the coast — small-crew, skipper-led day sails, overnight passages, and private charters, all under sail and all-inclusive.",
+            "copyright": "© Northwind Sailing Charters",
+            "columns": [
+              {
+                "heading": "Charters",
+                "links": [
+                  { "text": "Explore charters", "url": { "url": "#charters" } },
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Guest stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Book",
+                "links": [
+                  { "text": "Book a sail", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
