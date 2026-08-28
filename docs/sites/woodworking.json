@@ -1,0 +1,247 @@
+{
+  "title": "Hearth & Grain Woodworks",
+  "slug": "woodworking",
+  "kit": "woodworking",
+  "containers": [
+    {
+      "id": "ww-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HEARTH & GRAIN",
+            "brand_tag": "WOODWORKS",
+            "cta_text": "Commission a piece",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "The craft", "url": { "url": "#craft" } },
+              { "text": "Process", "url": { "url": "#process" } },
+              { "text": "Our work", "url": { "url": "#work" } },
+              { "text": "Restorations", "url": { "url": "#makeover" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-160.png", "id": 1575 },
+            "eyebrow": "Hearth & Grain Woodworks · custom furniture · restorations · classes",
+            "headline": "Wood, worked by hand,<br><em>for the long haul.</em>",
+            "copy": "Hearth & Grain is a working wood shop where solid oak and honest joinery meet a lifetime guarantee. We build custom furniture, bring heirloom pieces back to life, and teach the craft at the bench — one board, one joint, one piece at a time.",
+            "primary_cta_text": "Commission a piece",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See the craft",
+            "secondary_cta_url": { "url": "#craft" },
+            "trust_list": [
+              { "text": "Solid oak and walnut — milled and joined by hand in our shop" },
+              { "text": "Lifetime guarantee on every joint and finish" },
+              { "text": "One maker, one piece, start to finish" },
+              { "text": "Classes for every level, from first plane to fine joinery" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The shop in numbers",
+            "title": "Built to be",
+            "title_accent": "handed down",
+            "intro": "We measure our work in decades, not seasons. Here's what twenty-five years of honest making looks like.",
+            "stats": [
+              { "value": "25", "label": "Years working wood in the same shop" },
+              { "value": "3,200+", "label": "Pieces built, restored, and still in daily use" },
+              { "value": "100%", "label": "Solid timber — no veneers, no particle board" },
+              { "value": "Lifetime", "label": "Guarantee on every joint and finish we make" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-craft",
+      "content_width": "full",
+      "settings": { "_element_id": "craft" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "The craft, in",
+            "title_accent": "six honest steps",
+            "intro": "From a single board of oak to a piece your grandchildren will argue over — this is how a Hearth & Grain piece comes to be.",
+            "features": [
+              { "number": "01", "title": "Choose the timber", "text": "Every piece starts with a conversation about wood. We buy whole oak and walnut logs, mill them ourselves, and match each board to the life a piece will live — never to a catalog photo.", "detail": "Whole-log oak, milled in-house" },
+              { "number": "02", "title": "Draw it by hand", "text": "We sketch at full scale on the shop wall before any saw turns. Proportions get settled in pencil, in daylight, where a line that's wrong shows itself immediately.", "detail": "Full-scale hand drawings first" },
+              { "number": "03", "title": "Cut with patience", "text": "We rough-cut and then let the timber rest for weeks before final milling, so the wood settles into itself before we commit to the shape. Warp is our enemy; time is our tool.", "detail": "Timber is seasoned to the shop" },
+              { "number": "04", "title": "Join by hand", "text": "Mortise and tenon, dovetail, and sliding joints — joined with hide glue and clamped until the wood forgets it was ever two pieces. We don't use a single screw where a joint will do.", "detail": "Traditional joinery, hide glue" },
+              { "number": "05", "title": "Finish for the touch", "text": "We hand-rub three coats of hardwax oil into every surface until the oak takes on a depth you can feel before you see it. Brass hardware is waxed and lightly tarnished to match.", "detail": "Hand-rubbed hardwax oil finish" },
+              { "number": "06", "title": "Guarantee it for life", "text": "Every joint and finish carries our lifetime guarantee. If a piece ever fails to be what we promised, we repair it free — or build you a new one. No fine print.", "detail": "Lifetime guarantee, in writing" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "Your piece, start to finish",
+            "title": "From first talk",
+            "title_accent": "to front door",
+            "intro": "Whether it's a signature design or a fully bespoke commission, the path is the same — deliberate, transparent, and on time.",
+            "steps": [
+              { "title": "Talk", "text": "We sit down over the wood you're drawn to and talk about how you actually live with furniture — what you'll set on it, who'll use it, where it will sit in the light." },
+              { "title": "Propose", "text": "Within two weeks you get full-scale drawings, a real sample of the finish, and a fixed price. No estimates that balloon later." },
+              { "title": "Make", "text": "Your piece is built by one maker from start to finish, over six to twelve weeks. We send progress photos at every stage, and you're welcome in the shop any Friday." },
+              { "title": "Deliver", "text": "We deliver, place, and level your piece ourselves — and set the brass hardware with you. Most deliveries end with us sitting on it together, checking the light." },
+              { "title": "Live", "text": "Furniture should settle in and improve with use. If anything ever needs care, our lifetime guarantee means we're a phone call away, always." }
+            ],
+            "note": "Most of our work is now a referral — a client who bought one chair in 2004 and has furnished three homes with us since."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-makeover",
+      "content_width": "full",
+      "settings": { "_element_id": "makeover" },
+      "widgets": [
+        {
+          "type": "vew-before-after",
+          "settings": {
+            "eyebrow": "Before & after",
+            "title": "A table, brought",
+            "title_accent": "back to life",
+            "intro": "Drag the slider to see one of our favorite restorations — a 1950s oak dining table that arrived with a cracked top and years of neglect, returned to its maker's intent.",
+            "before_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-160.png", "id": 1575 },
+            "before_label": "2025 · found in a barn, cracked top",
+            "after_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-160.png", "id": 1575 },
+            "after_label": "2025 · restored in our shop",
+            "orientation": "horizontal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "From the shop floor",
+            "title": "Pieces we're",
+            "title_accent": "proud of",
+            "intro": "A glimpse of what's recently left our hands — and the stories that came with them.",
+            "gallery_style": "editorial",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-160.png", "id": 1575 }, "label": "The Founders Table", "alt": "A long solid oak dining table with brass legs in a bright shop, set for a family meal" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-160.png", "id": 1575 }, "label": "The Hearth Chair", "alt": "A sculptural oak lounge chair with a curved backrest beside a low brass side table" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-160.png", "id": 1575 }, "label": "The Archive Cabinet", "alt": "A tall oak cabinet with brass handles and dovetail drawers, standing against a warm shop wall" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What our clients say",
+            "title": "Passed down,",
+            "title_accent": "not passed on",
+            "intro": "The highest praise we get is a piece being fought over when someone moves house. A few of those stories.",
+            "reviews": [
+              { "quote": "We bought the Founders Table in 2012. It's been through three moves, two kids doing homework at it, and a thousand dinners — and it looks better now than the day it arrived. My daughter has already called dibs.", "author": "Helen Parrish", "role": "Founders Table owner, 2012", "stars": 5 },
+              { "quote": "Hearth & Grain restored my grandmother's oak dining table with a cracked top. They matched the timber so well you can't find the repair in daylight. That table holds four generations of our family's Sunday dinners now.", "author": "Marcus Feld", "role": "Restoration client", "stars": 5 },
+              { "quote": "I'm a maker myself, so I'm hard to impress. Their joinery is genuinely flawless — mortise and tenon, hide glue, no screws. The Hearth Chair is the most comfortable thing I own and I expect it to outlive me.", "author": "Anita Rao", "role": "Hearth Chair owner", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Visit the shop",
+            "title": "Come sit",
+            "title_accent": "on the furniture",
+            "intro": "Our shop and showroom are open Friday to Monday. Coffee's always on, and you're welcome to sit on every piece — that's the only way to judge a chair.",
+            "phone": "(555) 771-4418",
+            "email": "shop@hearthandgrain.com",
+            "location": "Hearth & Grain Woodworks · 12 Carver Lane, Timber District — look for the oak sawdust on the curb",
+            "form_kicker": "Commission or ask",
+            "form_title": "Tell us about the piece you're dreaming of",
+            "submit_cta": "Start a conversation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ww-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HEARTH & GRAIN",
+            "brand_tag": "WOODWORKS",
+            "blurb": "A working wood shop where solid oak and honest joinery meet a lifetime guarantee — custom furniture, heirloom restorations, and classes at the bench.",
+            "copyright": "© Hearth & Grain Woodworks",
+            "columns": [
+              {
+                "heading": "The shop",
+                "links": [
+                  { "text": "The craft", "url": { "url": "#craft" } },
+                  { "text": "Our process", "url": { "url": "#process" } },
+                  { "text": "From the shop floor", "url": { "url": "#work" } },
+                  { "text": "Restorations", "url": { "url": "#makeover" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Come sit on it", "url": { "url": "#contact" } },
+                  { "text": "Commission a piece", "url": { "url": "#contact" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
