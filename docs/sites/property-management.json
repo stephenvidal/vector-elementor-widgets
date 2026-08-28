@@ -1,0 +1,257 @@
+{
+  "title": "Harbor & Key Property Management",
+  "slug": "property-management",
+  "kit": "property-management",
+  "containers": [
+    {
+      "id": "pm-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HARBOR & KEY",
+            "brand_tag": "PROPERTY MANAGEMENT",
+            "cta_text": "Get a free quote",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we manage", "url": { "url": "#services" } },
+              { "text": "Why Harbor & Key", "url": { "url": "#why" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-152.png", "id": 1534 },
+            "eyebrow": "Harbor & Key Property Management · Full-service rentals · 98% occupancy",
+            "headline": "Your property,<br><em>run like a business.</em>",
+            "copy": "Owning a rental should be an investment, not a second job. Harbor & Key handles the tenants, the maintenance, the rent collection, and the reporting — so you get a clean statement every month and a property that actually appreciates.",
+            "primary_cta_text": "Get a free management quote",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "98% average occupancy across our portfolio" },
+              { "text": "Rent collected on time, every month" },
+              { "text": "24/7 maintenance response for tenants" },
+              { "text": "Transparent owner statements, no hidden fees" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Harbor & Key by the numbers",
+            "title": "Results you",
+            "title_accent": "can take to the bank",
+            "stats": [
+              { "value": "312", "label": "Units under management" },
+              { "value": "98", "label": "Percent average occupancy" },
+              { "value": "24", "label": "Hour maintenance response" },
+              { "value": "0", "label": "Hidden fees, ever" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we manage",
+            "title": "Full-service",
+            "title_accent": "property care",
+            "intro": "One team for the whole lifecycle of your rental — from finding the right tenant to keeping the property in shape and the numbers in order.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Tenant & Leasing" },
+              { "key": "build", "label": "Maintenance & Care" },
+              { "key": "launch", "label": "Finance & Reporting" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Tenant placement", "text": "We market your unit, screen applicants with credit, background, and reference checks, and place a tenant who pays on time and stays." },
+              { "icon": "◈", "title": "Lease management", "text": "Legally sound leases, renewals, and move-in/move-out inspections handled end to end. You never chase a signature or a clause." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "24/7 maintenance", "text": "Tenants reach our team around the clock. We dispatch vetted vendors, approve costs within your limits, and keep the property in shape." },
+              { "icon": "◈", "title": "Vendor network", "text": "A pre-vetted network of plumbers, electricians, and contractors at negotiated rates — so repairs are fast, fair, and documented." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Rent collection", "text": "Online payments, automatic late fees, and consistent enforcement. Rent lands in your account on time, every month." },
+              { "icon": "◈", "title": "Owner reporting", "text": "A clear monthly statement of income, expenses, and occupancy — plus a year-end summary for your accountant. No surprises, no spreadsheets." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "Onboarded in",
+            "title_accent": "four simple steps",
+            "intro": "Getting your property under management is fast and painless. Here's exactly what happens from first call to first statement.",
+            "steps": [
+              { "title": "Property review", "text": "We walk your unit, assess its condition and rental value, and give you an honest picture of what it can earn and what it needs." },
+              { "title": "Pricing & marketing", "text": "We set a market-smart rent, photograph the unit, and list it across the major platforms to attract qualified applicants fast." },
+              { "title": "Tenant placement", "text": "We screen, show, and place a vetted tenant, then handle the lease, the deposit, and the move-in inspection." },
+              { "title": "Ongoing management", "text": "We collect rent, coordinate maintenance, and send you a clear monthly statement. You watch the asset grow from your inbox." }
+            ],
+            "note": "Most properties are fully onboarded and listed within two weeks of the first walkthrough. We'll give you a firm timeline up front and stick to it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Harbor & Key",
+            "title": "The difference is",
+            "title_accent": "in the details",
+            "intro": "Anyone can collect rent. We run your property like a business — with the systems, the reporting, and the accountability that protect your investment.",
+            "features": [
+              { "number": "01", "title": "Transparent pricing", "text": "One flat management fee, no hidden charges. You see exactly what you pay and exactly what your property earns.", "detail": "Flat fee, no surprises" },
+              { "number": "02", "title": "Vetted tenants", "text": "Every applicant is screened for credit, criminal history, and references. We place tenants who pay and stay.", "detail": "Full background checks" },
+              { "number": "03", "title": "Proactive maintenance", "text": "We catch small issues before they become big bills — seasonal checks, vendor oversight, and documented repairs.", "detail": "Preventative care" },
+              { "number": "04", "title": "On-time rent", "text": "Online payments and consistent enforcement mean rent lands in your account on schedule, every single month.", "detail": "98% on-time collection" },
+              { "number": "05", "title": "Clear reporting", "text": "A monthly statement and a year-end summary your accountant will love. Every dollar accounted for.", "detail": "Full transparency" },
+              { "number": "06", "title": "Local expertise", "text": "We know the market, the codes, and the contractors. Your property is managed by people who live and work here.", "detail": "Deep local knowledge" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Owner stories",
+            "title": "What our",
+            "title_accent": "owners say",
+            "intro": "We manage everything from single condos to 40-unit buildings. Here's what the people who own them say about handing over the keys.",
+            "reviews": [
+              { "quote": "I own two condos across town and I've never once had to chase a tenant or a plumber. Harbor & Key sends me a clean statement every month and the units stay full. It's exactly what I signed up for.", "author": "Dana M.", "role": "Owner, 2 condos", "stars": 5 },
+              { "quote": "They raised my rent by $150 a month with a better tenant than I'd ever found myself. The screening is thorough and the reporting is honest. I stopped worrying about the property entirely.", "author": "Robert T.", "role": "Owner, single-family rental", "stars": 5 },
+              { "quote": "We handed them a 40-unit building that was bleeding money. Within a year occupancy went from 71% to 96% and the maintenance costs dropped. They run it like a real business.", "author": "Priya S.", "role": "Owner, 40-unit building", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions owners",
+            "title_accent": "ask us",
+            "intro": "Straight answers about fees, tenants, maintenance, and what it's like to hand over your property.",
+            "items": [
+              { "question": "How much does property management cost?", "answer": "We charge a flat management fee — typically 8–10% of monthly rent depending on the property. There are no hidden charges, no leasing fees on top, and no surprise line items. You'll see the exact fee in your agreement." },
+              { "question": "How do you screen tenants?", "answer": "Every applicant goes through a full screening: credit history, criminal background check, employment and income verification, and references from prior landlords. We only place tenants who meet our standards." },
+              { "question": "What happens when something breaks?", "answer": "Tenants reach our 24/7 line. We dispatch a vetted vendor, approve costs within the limit you set, and keep you informed. For larger repairs, we get your approval before spending." },
+              { "question": "How do I get paid?", "answer": "Rent is collected online and deposited to your account on a set schedule each month. You'll receive a clear statement showing income, expenses, and your net distribution." },
+              { "question": "Can I manage my own property and still use you?", "answer": "We offer full-service management only — it's how we keep quality high and protect your investment. If you'd rather stay hands-on, we're happy to point you to the right resources." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get a free quote",
+            "title": "Let's talk",
+            "title_accent": "about your property",
+            "intro": "Tell us about your unit or building and we'll give you an honest assessment of its rental value and what full-service management would look like. No obligation, no hard sell.",
+            "phone": "(555) 208-4471",
+            "email": "hello@harborandkey.com",
+            "location": "Harbor & Key Property Management · 88 Marina Way, Harbor District",
+            "form_kicker": "Free management quote",
+            "form_title": "Tell us about your property",
+            "submit_cta": "Request my quote"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HARBOR & KEY",
+            "brand_tag": "PROPERTY MANAGEMENT",
+            "blurb": "Full-service property management that runs your rental like a business — vetted tenants, proactive maintenance, on-time rent, and transparent reporting.",
+            "copyright": "© Harbor & Key Property Management",
+            "columns": [
+              {
+                "heading": "Manage",
+                "links": [
+                  { "text": "What we manage", "url": { "url": "#services" } },
+                  { "text": "Why Harbor & Key", "url": { "url": "#why" } },
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "Owner stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Start",
+                "links": [
+                  { "text": "Get a free quote", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
