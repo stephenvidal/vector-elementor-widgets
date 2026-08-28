@@ -1,0 +1,257 @@
+{
+  "title": "Meridian Precision",
+  "slug": "precision-machining",
+  "kit": "precision-machining",
+  "containers": [
+    {
+      "id": "mp-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "MERIDIAN PRECISION",
+            "brand_tag": "CNC MACHINING & MANUFACTURING",
+            "cta_text": "Request a quote",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we machine", "url": { "url": "#services" } },
+              { "text": "Why Meridian", "url": { "url": "#why" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-138.png", "id": 1507 },
+            "eyebrow": "Meridian Precision · CNC Machining · ISO 9001:2015",
+            "headline": "Tolerance is<br><em>everything.</em>",
+            "copy": "Meridian Precision is a CNC machining shop for engineers who can't afford a bad part. From one-off prototypes to production runs of fifty thousand, we hold tolerances to a tenth of a thousandth — and we prove it with a full inspection report on every single piece that leaves the floor.",
+            "primary_cta_text": "Explore our work",
+            "primary_cta_url": { "url": "#services" },
+            "secondary_cta_text": "Why Meridian",
+            "secondary_cta_url": { "url": "#why" },
+            "trust_list": [
+              { "text": "CNC milling, turning, and 5-axis machining in-house" },
+              { "text": "Tolerances to ±0.0001\" with full CMM inspection reports" },
+              { "text": "ISO 9001:2015 certified quality system" },
+              { "text": "Prototype to production, one shop, one point of contact" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Meridian by the numbers",
+            "title": "Built on",
+            "title_accent": "measured precision",
+            "stats": [
+              { "value": "22", "label": "Years in precision machining" },
+              { "value": "4.2M", "label": "Parts shipped defect-free" },
+              { "value": "0.0001", "label": "Inches, our tightest tolerance" },
+              { "value": "99.7", "label": "Percent on-time delivery" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we machine",
+            "title": "From prototype",
+            "title_accent": "to production",
+            "intro": "One shop for the whole journey. We take your part from a napkin sketch or a CAD file to a finished, inspected, ready-to-assemble component — at any volume.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "CNC Milling & Turning" },
+              { "key": "build", "label": "5-Axis & Complex Parts" },
+              { "key": "launch", "label": "Prototype & Production" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "CNC milling & turning", "text": "Vertical and horizontal machining centers plus CNC lathes with live tooling. We cut aluminum, steel, stainless, titanium, and engineering plastics to spec." },
+              { "icon": "◈", "title": "Tight-tolerance work", "text": "When the print calls for ±0.0001\", we hold it. Our CMM and surface-finish lab verify every critical dimension before the part ships." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "5-axis machining", "text": "For complex geometries that would take five setups on a 3-axis, our 5-axis centers cut them in one. Fewer setups, tighter accuracy, faster turnaround." },
+              { "icon": "◈", "title": "Hard materials", "text": "Inconel, titanium, hardened tool steel — we have the tooling, the speeds, and the feeds to machine the materials that break lesser shops." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Prototyping", "text": "Get a functional part in days, not weeks. We iterate fast so you can validate your design before you commit to tooling and volume." },
+              { "icon": "◈", "title": "Production runs", "text": "From a hundred to a hundred thousand, we run repeatable, documented production with in-process inspection and full traceability." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Meridian",
+            "title": "The part is",
+            "title_accent": "the promise",
+            "intro": "Anyone can quote a part. We deliver the part — measured, documented, and on time. Here's what that actually means for your project.",
+            "features": [
+              { "number": "01", "title": "Inspection on every part", "text": "Every piece gets a CMM or gauge inspection with a report you can hand to your own QA. No 'trust us' — just data.", "detail": "Full inspection reports" },
+              { "number": "02", "title": "Engineers who read prints", "text": "Our machinists are GD&T-literate. We catch tolerance and datum issues before they become scrap, and we flag them to you.", "detail": "GD&T-literate team" },
+              { "number": "03", "title": "One shop, no handoffs", "text": "Milling, turning, finishing, and inspection all under one roof. No parts lost between vendors, no finger-pointing.", "detail": "Vertically integrated" },
+              { "number": "04", "title": "On-time, every time", "text": "We quote realistic lead times and hit them. 99.7% on-time delivery, backed by a schedule we actually control.", "detail": "99.7% on-time" },
+              { "number": "05", "title": "Material traceability", "text": "Every lot is tied to its material certs. If you need to trace a part back to the bar it came from, we can.", "detail": "Full traceability" },
+              { "number": "06", "title": "ISO 9001:2015", "text": "A certified quality system means repeatable process, documented controls, and an audit trail your customers will appreciate.", "detail": "ISO 9001:2015 certified" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From print",
+            "title_accent": "to part",
+            "intro": "A disciplined, documented path that turns your drawing into a measured, shippable component. Here's what to expect at every step.",
+            "steps": [
+              { "title": "Quote & review", "text": "Send us your print or CAD. We review the geometry, flag any issues, and return a firm quote with a realistic lead time — usually within 24 hours." },
+              { "title": "Programming & setup", "text": "Our programmers write the toolpaths, select the tooling, and set up the machine. Fixtures are designed to hold your part rigid and repeatable." },
+              { "title": "Machining & inspection", "text": "The part is cut, then measured. Critical dimensions go to the CMM; every part gets a documented inspection before it's approved." },
+              { "title": "Finish & ship", "text": "Deburring, finishing, and packaging to your spec. The part ships with its inspection report and material certs, ready to assemble." }
+            ],
+            "note": "Most quotes are returned within one business day. Prototypes typically ship in 5–10 business days; production lead times depend on volume and material — we'll give you a firm date up front and hit it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What customers say",
+            "title": "Engineers who",
+            "title_accent": "trust the part",
+            "intro": "We work with design engineers, R&D teams, and production buyers who can't afford surprises. Here's what they say about working with Meridian.",
+            "reviews": [
+              { "quote": "We've had parts from three shops fail inspection this quarter. Meridian is the only one that ships a report with every batch — and the parts are always right. They've become our default.", "author": "Priya N.", "role": "Senior Design Engineer, aerospace supplier", "stars": 5 },
+              { "quote": "They caught a datum error on our print before we cut a single part. That conversation saved us a week and a lot of scrap. That's the kind of partner you keep.", "author": "Tom R.", "role": "R&D Manager, medical devices", "stars": 5 },
+              { "quote": "We needed 40,000 parts in six weeks and they hit the date with a 0.2% scrap rate. The inspection data made our own QA sign-off trivial.", "author": "Alicia M.", "role": "Production Buyer, industrial automation", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions we",
+            "title_accent": "hear a lot",
+            "intro": "Straight answers about tolerances, materials, lead times, and how to work with us.",
+            "items": [
+              { "question": "What tolerances can you actually hold?", "answer": "On most machined features we hold ±0.001\" as standard, and we routinely hold ±0.0001\" on critical dimensions. We'll confirm the achievable tolerance against your material and geometry before quoting." },
+              { "question": "What materials do you machine?", "answer": "Aluminum, steel, stainless, titanium, Inconel, brass, copper, and engineering plastics like PEEK, Delrin, and nylon. If you're unsure whether a material is machinable, send it to us and we'll tell you." },
+              { "question": "Do you work with prototypes and one-offs?", "answer": "Absolutely. Prototyping is a core part of our business. We'll machine a single functional part so you can validate your design before committing to production volume." },
+              { "question": "How fast can I get a quote?", "answer": "Most quotes are returned within one business day. For complex multi-part assemblies or exotic materials, allow up to two business days. We'll always give you a firm number, not a range." },
+              { "question": "Do you provide inspection reports?", "answer": "Yes — every part ships with a documented inspection report, and critical dimensions are verified on our CMM. Material certs and full traceability are available on request." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Start a project",
+            "title": "Send us",
+            "title_accent": "your print",
+            "intro": "Upload a print or CAD file and tell us about your project. We'll review the geometry and get back to you within one business day with a firm quote and lead time. No obligation, no hard sell.",
+            "phone": "(555) 314-8820",
+            "email": "quote@meridianprecision.mfg",
+            "location": "Meridian Precision · 42 Industrial Parkway, Fabrication District",
+            "form_kicker": "Request a quote",
+            "form_title": "Tell us about your part",
+            "submit_cta": "Request a quote"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mp-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "MERIDIAN PRECISION",
+            "brand_tag": "CNC MACHINING & MANUFACTURING",
+            "blurb": "A CNC machining shop for engineers who can't afford a bad part — tight tolerances, full inspection reports, and on-time delivery from prototype to production.",
+            "copyright": "© Meridian Precision",
+            "columns": [
+              {
+                "heading": "Machine",
+                "links": [
+                  { "text": "What we machine", "url": { "url": "#services" } },
+                  { "text": "Why Meridian", "url": { "url": "#why" } },
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "Customer stories", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Start",
+                "links": [
+                  { "text": "Request a quote", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
