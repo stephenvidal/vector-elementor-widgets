@@ -1,0 +1,280 @@
+{
+  "title": "Lumen & Wire — Smart Home Installer",
+  "slug": "smart-home-installer",
+  "kit": "smart-home-installer",
+  "containers": [
+    {
+      "id": "shi-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "LUMEN & WIRE",
+            "brand_tag": "SMART HOME INSTALLER",
+            "cta_text": "Book a walkthrough",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we install", "url": { "url": "#services" } },
+              { "text": "How we work", "url": { "url": "#process" } },
+              { "text": "Why Lumen & Wire", "url": { "url": "#why" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-154.png", "id": 1545 },
+            "eyebrow": "Lumen & Wire · Smart home design & installation · Whole-home automation",
+            "headline": "Your home,<br><em>wired to work for you.</em>",
+            "copy": "Lumen & Wire designs and installs smart-home systems that actually fit the way you live — lighting, climate, security, and entertainment, all working together from one calm app. No jargon, no abandoned gadgets, no subscriptions you didn't ask for.",
+            "primary_cta_text": "Book a home walkthrough",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See what we install",
+            "secondary_cta_url": { "url": "#services" },
+            "trust_list": [
+              { "text": "Design-first — we plan the system around your home, not a product list" },
+              { "text": "Certified installers, licensed and insured on every job" },
+              { "text": "One app, one account, everything working together" },
+              { "text": "No lock-in — we use open standards and explain every choice" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Lumen & Wire by the numbers",
+            "title": "Systems that",
+            "title_accent": "just work",
+            "intro": "We've wired hundreds of homes across the region. The numbers that matter are the ones our clients feel every day.",
+            "stats": [
+              { "value": "480+", "label": "Homes automated since 2019" },
+              { "value": "99", "label": "Percent of systems still running on the original install" },
+              { "value": "24", "label": "Hour support line for every client" },
+              { "value": "0", "label": "Gadgets we've installed that ended up in a drawer" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we install",
+            "title": "One system,",
+            "title_accent": "every room",
+            "intro": "We work across the whole home, so your lights, climate, security, and entertainment feel like one system — not a pile of separate apps.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Lighting & Climate" },
+              { "key": "build", "label": "Security & Access" },
+              { "key": "launch", "label": "Entertainment & Voice" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Smart lighting", "text": "Dimmers, scenes, and schedules that match your day — from a soft morning ramp to a movie-night dim. We choose fixtures that look like they belong." },
+              { "icon": "◈", "title": "Climate control", "text": "Thermostats and sensors that learn your routine, cut energy waste, and keep every room comfortable without you touching a thing." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Security & cameras", "text": "Doorbells, locks, and cameras that actually deter — with privacy-first storage and alerts that mean something, not a flood of noise." },
+              { "icon": "◈", "title": "Access & intercom", "text": "Keyless entry, video intercom, and guest codes you can revoke from your phone. Let the dog walker in without handing over a key." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Whole-home audio", "text": "Music that follows you from room to room, hidden speakers, and a setup that sounds as good in the kitchen as it does in the den." },
+              { "icon": "◈", "title": "Voice & automation", "text": "One voice assistant that controls the whole home, plus automations that run on their own — 'goodnight' turns off the lights, locks the doors, and arms the system." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From walkthrough",
+            "title_accent": "to wired home",
+            "intro": "A clear, four-step process that keeps you informed and in control — no surprises, no upselling, no half-finished installs.",
+            "steps": [
+              { "title": "Walkthrough & listen", "text": "We tour your home, learn how you actually live, and map what you want to control. We recommend only what fits — and explain what we'd skip." },
+              { "title": "Design the system", "text": "We draw up a plan with a clear budget, a list of every component, and a timeline. You approve it before we order a single part." },
+              { "title": "Install & configure", "text": "Our certified installers wire, mount, and configure everything — then walk you through it until you're comfortable using it yourself." },
+              { "title": "Support for life", "text": "Every system comes with a 24-hour support line, remote help, and a maintenance check. If something changes, we're a call away." }
+            ],
+            "note": "Most whole-home systems are designed, installed, and running within two to three weeks of the walkthrough. We give you a firm timeline up front and stick to it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Lumen & Wire",
+            "title": "The difference is",
+            "title_accent": "in the details",
+            "intro": "Anyone can sell you a smart speaker. We design a system that earns its place in your home — and keeps working for years.",
+            "features": [
+              { "number": "01", "title": "Design-first approach", "text": "We plan around your home and your habits, not a product catalog. The result is a system that feels obvious — because it was designed for you.", "detail": "Planned around you" },
+              { "number": "02", "title": "Certified installers", "text": "Licensed, insured, and background-checked on every job. We wire to code and stand behind the work.", "detail": "Licensed & insured" },
+              { "number": "03", "title": "Open standards", "text": "We use open protocols and avoid proprietary lock-in, so your system isn't held hostage to one brand or one subscription.", "detail": "No lock-in" },
+              { "number": "04", "title": "One calm app", "text": "Everything — lights, climate, security, audio — lives in one app with one account. No juggling five different apps to turn off a light.", "detail": "One app, one account" },
+              { "number": "05", "title": "Honest pricing", "text": "A clear quote before we start, no surprise line items, and no subscriptions you didn't ask for. You own your system.", "detail": "Transparent quotes" },
+              { "number": "06", "title": "Support that stays", "text": "A 24-hour line, remote help, and a maintenance check every year. We're still here long after the install is done.", "detail": "Support for life" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "rooms" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside our work",
+            "title": "Homes we've",
+            "title_accent": "wired",
+            "intro": "A few of the systems we've installed — each one a different home, a different brief, a different way of living.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-154.png", "id": 0 }, "label": "The open-plan kitchen", "alt": "A modern open-plan kitchen with under-cabinet lighting and a wall-mounted control panel" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-154.png", "id": 0 }, "label": "The media den", "alt": "A cozy media den with hidden speakers and a dimmed smart-lighting scene" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-154.png", "id": 0 }, "label": "The entry & security", "alt": "A modern entryway with a video doorbell and keyless smart lock" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What clients say",
+            "title": "The feeling of",
+            "title_accent": "a home that works",
+            "intro": "People tell us the same thing: the process felt calm, and the result felt like it had always been there. Here's a little of that.",
+            "reviews": [
+              { "quote": "I was worried it would be a bunch of gadgets I never used. Instead, Lumen & Wire designed a system around how we actually live. The lights, the heat, the security — it all just works, and I never touch a separate app.", "author": "Maya R.", "role": "Homeowner, full-home system", "stars": 5 },
+              { "quote": "They wired our whole house in two weeks, on budget, and walked us through every room until we were comfortable. A year later, the support line still answers in minutes. That's the difference.", "author": "Daniel & Sofia", "role": "Homeowners, renovation project", "stars": 5 },
+              { "quote": "The 'goodnight' scene alone is worth it — one word turns off the lights, locks the doors, and arms the cameras. It's the little things that make the whole system feel like magic.", "author": "Priya N.", "role": "Homeowner, security & lighting", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions people",
+            "title_accent": "ask us",
+            "intro": "Straight answers about cost, compatibility, and what it's like to live with a smart home.",
+            "items": [
+              { "question": "How much does a smart home system cost?", "answer": "It depends on the scope — a lighting-and-climate package might start around a few thousand dollars, while a full whole-home system runs more. We give you a clear, itemized quote before we start, and we'll always tell you what we'd skip if you're on a budget." },
+              { "question": "Will it work with the devices I already have?", "answer": "Often, yes. We use open standards and can usually integrate your existing smart devices into the system. During the walkthrough we'll check what you have and tell you honestly what will play nicely and what won't." },
+              { "question": "Do I need to be tech-savvy to use it?", "answer": "No. We design the system to be simple — one app, one account, and automations that run on their own. We also walk you through everything until you're comfortable, and our support line is there if you ever get stuck." },
+              { "question": "What happens if the internet goes down?", "answer": "Your lights, locks, and security keep working locally — they don't depend on the cloud. Some remote features pause until the connection returns, but your home stays safe and functional." },
+              { "question": "Do you offer ongoing support?", "answer": "Yes. Every system comes with a 24-hour support line, remote help, and an annual maintenance check. If you want to add a room or a feature later, we're a call away." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book a walkthrough",
+            "title": "Let's make your home",
+            "title_accent": "work for you",
+            "intro": "Tell us about your home and what you'd like to control, and we'll come back with an honest sense of what's possible. No obligation, no hard sell.",
+            "phone": "(555) 316-2290",
+            "email": "hello@lumenandwire.com",
+            "location": "Lumen & Wire · 42 Circuit Row, The Foundry District",
+            "form_kicker": "Free home walkthrough",
+            "form_title": "Tell us about your home",
+            "submit_cta": "Request my walkthrough"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shi-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "LUMEN & WIRE",
+            "brand_tag": "SMART HOME INSTALLER",
+            "blurb": "Design-first smart home installation — lighting, climate, security, and entertainment, all working together from one calm app.",
+            "copyright": "© Lumen & Wire — smart home design & installation",
+            "columns": [
+              {
+                "heading": "Explore",
+                "links": [
+                  { "text": "What we install", "url": { "url": "#services" } },
+                  { "text": "How we work", "url": { "url": "#process" } },
+                  { "text": "Why Lumen & Wire", "url": { "url": "#why" } },
+                  { "text": "What clients say", "url": { "url": "#stories" } }
+                ]
+              },
+              {
+                "heading": "Start",
+                "links": [
+                  { "text": "Book a walkthrough", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
