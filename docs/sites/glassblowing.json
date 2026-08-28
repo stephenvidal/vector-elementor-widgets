@@ -1,0 +1,224 @@
+{
+  "title": "Ember & Air Glass Studio",
+  "slug": "glassblowing",
+  "kit": "glassblowing",
+  "containers": [
+    {
+      "id": "gb-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "EMBER & AIR",
+            "brand_tag": "GLASS STUDIO",
+            "cta_text": "Book a class",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "How glass is made", "url": { "url": "#process" } },
+              { "text": "Inside the hot shop", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gb-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-158.png", "id": 0 },
+            "eyebrow": "Ember & Air Glass Studio · Hot shop · Flameworking · Classes & demos",
+            "headline": "Molten glass.<br><em>Made by hand.</em>",
+            "copy": "Ember & Air is a working glass studio where the furnace never goes cold. Watch a gather of molten glass become a bowl, a vase, or a paperweight — then try it yourself at the bench with a gaffer who's been at the pipe for twenty years.",
+            "primary_cta_text": "Book a class",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How glass is made",
+            "secondary_cta_url": { "url": "#process" },
+            "trust_list": [
+              { "text": "Small benches — never more than four at a time" },
+              { "text": "All glass, tools, and annealing included in every session" },
+              { "text": "A furnace that runs every day, so the shop is always warm" },
+              { "text": "No experience needed — we start from the very first gather" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gb-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The studio in numbers",
+            "title": "A shop that",
+            "title_accent": "keeps its furnace hot",
+            "intro": "We measure the studio in the pieces that cool in the annealer — and the people who keep coming back to the bench.",
+            "stats": [
+              { "value": "20", "label": "Years of blowing glass in this same hot shop" },
+              { "value": "9000+", "label": "Pieces annealed, cooled, and carried home by students" },
+              { "value": "4", "label": "Benches, and never more than four students at a time" },
+              { "value": "0", "label": "Experience required to pick up a pipe and begin" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gb-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "From gather to finished piece",
+            "title": "How a piece",
+            "title_accent": "takes its shape",
+            "intro": "Every piece on our shelves took the same patient journey through heat and air. Here's the path from a gather of molten glass to a piece you can hold, pour from, and keep.",
+            "steps": [
+              { "title": "Gather & blow", "text": "You dip the pipe into the furnace and gather a ball of molten glass, then blow the first bubble. Beginners get a steady hand on theirs until the first shape stands." },
+              { "title": "Shape & marver", "text": "Once the glass is on the bench, you roll it on the marver, shape it with blocks and jacks, and pull the walls where you want them. This is where a piece starts to feel like yours." },
+              { "title": "Add color & detail", "text": "You pick up frit, cane, or a second gather of color, then twist, trail, or blow it into the surface. The palette is yours to choose from our color wall." },
+              { "title": "Anneal & cool", "text": "The finished piece goes into the annealer to cool slowly over a day — so it comes out strong, clear, and ready to take home." }
+            ],
+            "note": "Ember & Air is built on patience: if a piece cracks or slumps in the annealer, we don't call it a failure — we call it a lesson, and we gather again until you're proud of what you made."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gb-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Ember & Air",
+            "title": "A studio that",
+            "title_accent": "meets you at the heat",
+            "intro": "Whether you've never touched a blowpipe or you're returning after years away, the studio is set up to let you work at your own pace — with real guidance, never hovering.",
+            "features": [
+              { "number": "01", "title": "Small, unhurried benches", "text": "Four benches, four students, one gaffer. You get the attention you need without feeling watched — and the shop stays calm enough to actually focus.", "detail": "Max four per session" },
+              { "number": "02", "title": "Everything included", "text": "Glass, color, tools, and annealing are part of every session. You never pay extra to see your work finished — it's all in the price.", "detail": "No hidden costs" },
+              { "number": "03", "title": "A furnace that never sleeps", "text": "Our furnace runs every day, so the shop is always warm and your pieces come home on a schedule you can count on.", "detail": "Daily firings" },
+              { "number": "04", "title": "For every level", "text": "From a first-ever paperweight to advanced color work, the studio has a place for you. Returning students get open-bench time and their own shelf.", "detail": "Beginner to advanced" },
+              { "number": "05", "title": "A gaffer who stays", "text": "Our lead gaffer has blown in this same room for twenty years. They know exactly when to step in and when to let a wobble become a lesson.", "detail": "20 years at the pipe" },
+              { "number": "06", "title": "Work you can keep", "text": "Every piece you make is yours — annealed, cooled, and ready to hold. Your shelf at home grows with every class.", "detail": "Yours to keep" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gb-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the hot shop",
+            "title": "A room that",
+            "title_accent": "glows with heat and color",
+            "intro": "Morning light on the bench, a shelf of colored glass waiting for the annealer, and the furnace mouth glowing amber. A few moments from a working glass studio.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-158.png", "id": 0 }, "label": "The bench at work", "alt": "A glassblower shaping a glowing gather of molten glass on a steel bench, amber light against a cool blue shop" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-158.png", "id": 0 }, "label": "The color wall", "alt": "A wall of glass rods and frit in ice blues and warm ambers, waiting to be picked up and melted in" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-158.png", "id": 0 }, "label": "The annealer shelf", "alt": "A shelf of freshly annealed glass bowls and vases in blue and amber, cooling slowly in the annealer" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gb-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What students say",
+            "title": "The feeling of",
+            "title_accent": "making something luminous",
+            "intro": "People come for a class and stay for a season. Here's a little of what they tell us as they carry their work home.",
+            "reviews": [
+              { "quote": "I came in convinced I had no hand for it. Three months later I've got a shelf of bowls I actually use every morning. The gaffer never once made me feel like I was behind.", "author": "Priya Raman", "role": "Beginner, now a regular", "stars": 5 },
+              { "quote": "The small benches are the whole difference. Four of us, one patient gaffer, and a furnace that runs every day. My pieces actually come home — that's rarer than you'd think.", "author": "Marcus Bell", "role": "Blowing student", "stars": 5 },
+              { "quote": "I'd blown in college and wanted to come back to it. This studio gave me open time, my own shelf, and zero pressure. It's the calmest two hours of my week.", "author": "Elena Ortiz", "role": "Returning glassblower", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gb-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Come make something",
+            "title": "Book a class or",
+            "title_accent": "just come watch",
+            "intro": "Drop in to see the hot shop, book a blowing class, or ask about open-bench time for returning students. We're warm, we're patient, and there's always a seat at the bench.",
+            "phone": "(555) 214-8830",
+            "email": "hello@emberandair.glass",
+            "location": "Ember & Air Glass Studio · 9 Furnace Row, Old Town — the brick building with the glowing chimney",
+            "form_kicker": "Class / open bench / visit",
+            "form_title": "Tell us what you'd like to make",
+            "submit_cta": "Send my message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gb-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "EMBER & AIR",
+            "brand_tag": "GLASS STUDIO",
+            "blurb": "A working glass studio where the furnace never goes cold — gathering, blowing, shaping, and annealing in a warm, unhurried hot shop with a gaffer who's been at the pipe for twenty years.",
+            "copyright": "© Ember & Air Glass Studio",
+            "columns": [
+              {
+                "heading": "The studio",
+                "links": [
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "How glass is made", "url": { "url": "#process" } },
+                  { "text": "Inside the hot shop", "url": { "url": "#gallery" } },
+                  { "text": "What students say", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Book a class", "url": { "url": "#contact" } },
+                  { "text": "Open bench time", "url": { "url": "#contact" } },
+                  { "text": "Plan a visit", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
