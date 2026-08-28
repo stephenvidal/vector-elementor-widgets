@@ -1,0 +1,278 @@
+{
+  "title": "Fairway Forge Golf Academy",
+  "slug": "golf-academy",
+  "kit": "golf-academy",
+  "containers": [
+    {
+      "id": "ga-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "FAIRWAY FORGE",
+            "brand_tag": "GOLF ACADEMY",
+            "cta_text": "Book an assessment",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Programs", "url": { "url": "#programs" } },
+              { "text": "Why Forge", "url": { "url": "#why" } },
+              { "text": "Coaches", "url": { "url": "#coaches" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-140.png", "id": 1517 },
+            "eyebrow": "Fairway Forge Golf Academy · Private coaching · Simulator + range",
+            "headline": "Every swing starts with a plan.",
+            "copy": "We don't sell you a swing. We build you one — frame by frame, from the grip to the follow-through, using launch-monitor data and coaches who have been there. Whether it's your first tee box or your fifth handicap, you'll leave every session knowing exactly what to work on.",
+            "primary_cta_text": "Book an assessment",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "Meet the coaches",
+            "secondary_cta_url": { "url": "#coaches" },
+            "trust_list": [
+              { "text": "Launch-monitor swing analysis on every visit" },
+              { "text": "Video review you can take home" },
+              { "text": "Simulator bays open 7 days a week" },
+              { "text": "Junior programs from age 7" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Fairway Forge by the numbers",
+            "title": "Built for players who",
+            "title_accent": "want to improve",
+            "stats": [
+              { "value": "15,000", "label": "Sessions coached since opening" },
+              { "value": "38", "label": "Years of combined teaching experience" },
+              { "value": "4.8", "label": "Average player rating across 900+ reviews" },
+              { "value": "7", "label": "Simulator bays, one for every mood" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-program",
+      "content_width": "full",
+      "settings": { "_element_id": "programs" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Programs",
+            "title": "Training built around",
+            "title_accent": "your game",
+            "intro": "No one-size fits-all lesson plans here. Pick the path that matches your goal — then we'll adjust it to your body, your tempo, and your schedule.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Private Lessons" },
+              { "key": "build", "label": "Junior & Group" },
+              { "key": "launch", "label": "Simulator + Fitting" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Private coaching", "text": "Hour-long, one-on-one sessions with a launch monitor and video, so every tweak is measurable — not just a feeling." },
+              { "icon": "◈", "title": "Game-plan series", "text": "A four-session arc that builds your swing from grip to full swing, ending with a round-plan you can actually follow." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Junior academy", "text": "Weekly clinics for ages 7–15 that teach the swing and the love of the game — small groups, patient coaches, real course days." },
+              { "icon": "◈", "title": "Group clinics", "text": "Six-player max clinics on short game, full swing, and course strategy. Enough feedback to matter, enough fun to keep coming back." }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Simulator leagues", "text": "Play 30 of the world's great courses on our trackman sims — solo practice, friend leagues, or a cold-weather round when it's snowing." },
+              { "icon": "◈", "title": "Club fitting", "text": "Data-driven fittings for irons, woods, and putters so your equipment stops fighting your swing." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Fairway Forge",
+            "title": "More than",
+            "title_accent": "a golf lesson",
+            "intro": "The difference between a golf academy and a place that sells time on a mat: the first one leaves you with a repeatable system. Here's what that looks like here.",
+            "features": [
+              { "number": "01", "title": "Data you can trust", "text": "Every lesson runs through a launch monitor and video. Your progress is measured in numbers and frames, not just 'feeling better.'", "detail": "Trackman + video on every bay" },
+              { "number": "02", "title": "Coaches who teach, not just play", "text": "Our coaches are certified instructors first, competitive players second. They explain the why behind every drill.", "detail": "38 years combined teaching" },
+              { "number": "03", "title": "A plan that travels", "text": "You leave with a written game plan and a drill card — so the work continues at the range or in your backyard between visits.", "detail": "Written plan every session" },
+              { "number": "04", "title": "Play in any weather", "text": "Seven simulator bays mean winter, rain, or a packed weekend never cancels your practice.", "detail": "30 courses in the sim library" },
+              { "number": "05", "title": "Real course connection", "text": "We partner with three local courses for on-course lessons, so what you learn in the bay carries to the fairway.", "detail": "3 partner courses" },
+              { "number": "06", "title": "A community that plays", "text": "Weekly leagues, demo days, and member socials keep the game social — improvement is more fun with a group.", "detail": "Leagues + events weekly" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "Your first month,",
+            "title_accent": "step by step",
+            "intro": "Here's what it looks like to get started at Fairway Forge — from first assessment to your first confident round.",
+            "steps": [
+              { "title": "Book your assessment", "text": "An hour with a coach, launch monitor, and video — we map your current swing and set a measurable target." },
+              { "title": "Build your plan", "text": "You get a written game plan: which sessions, which drills, and what 'success' looks like at each step." },
+              { "title": "Practice with purpose", "text": "Between lessons, use the sim bays and range with a drill card tailored to your session's takeaways." },
+              { "title": "Play the round", "text": "Take it to the course. We review your round on video and reset the plan for the next month of improvement." }
+            ],
+            "note": "Fairway Forge is built for consistency: measurable goals, a written plan, and coaches who follow your progress across every visit — not just the lesson."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the academy",
+            "title": "Where the",
+            "title_accent": "work happens",
+            "intro": "A look around Fairway Forge — the sim bays, the range, and the coaching that happens between the numbers.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-140.png", "id": 1517 }, "label": "The simulator bays", "alt": "A row of modern golf simulator bays lit in green and lime tones" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-140.png", "id": 1517 }, "label": "A coaching session on video", "alt": "A coach reviewing a player's swing on a large display in the sim bay" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-140.png", "id": 1517 }, "label": "The practice range at dusk", "alt": "A lush golf practice range glowing in the evening light" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Player stories",
+            "title": "What players",
+            "title_accent": "say about us",
+            "intro": "We asked our players what changed. Their answers were about confidence and consistency — the things you can't buy with a bigger driver.",
+            "reviews": [
+              { "quote": "I'd been stuck at a 14 handicap for three years, taking lessons that felt good but went nowhere. In four months at Fairway Forge I broke 90 twice. The launch-monitor feedback finally made my practice count.", "author": "Dana W.", "role": "Member, 8 months", "stars": 5 },
+              { "quote": "My son joined the junior academy at 11, still scared of the first tee. Two years later he's playing in his school's varsity lineup and, more importantly, he can't wait for Saturday practice.", "author": "Raj P.", "role": "Parent of junior player", "stars": 5 },
+              { "quote": "The simulator league saved my winter. I kept my swing all season and came into spring two months ahead of where I normally am. It's a genuine community, not just a place to hit balls.", "author": "Mara K.", "role": "Sim league regular", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-coaches",
+      "content_width": "full",
+      "settings": { "_element_id": "coaches" },
+      "widgets": [
+        {
+          "type": "vew-team-grid",
+          "settings": {
+            "eyebrow": "The team",
+            "title": "Coaches who",
+            "title_accent": "build players",
+            "intro": "Every coach here teaches full-time. No part-time pros, no 'hit a few balls and call it a lesson' — just certified instructors who study the game.",
+            "columns": "3",
+            "members": [
+              { "name": "Elena Marsh", "role": "Head Coach, PGA", "bio": "20 years teaching, LPGA pro. Elena designs every academy curriculum and still teaches a full private schedule.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Tom Okafor", "role": "Director of Juniors", "bio": "A former collegiate coach, Tom runs the junior academy and has developed three state-level junior champions.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Grace Liu", "role": "Simulator & Fitting Lead", "bio": "Grace heads our club-fitting program and sim leagues, pairing data with an eye for what fits a real player.", "twitter": { "url": "" }, "linkedin": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get started",
+            "title": "Book your",
+            "title_accent": "assessment",
+            "intro": "Come try a session, tour the bays, or just ask a question — a real coach replies within one business day.",
+            "phone": "(555) 208-4477",
+            "email": "hello@fairwayforge.golf",
+            "location": "Fairway Forge Golf Academy · 88 Fairway Lane, Green Meadows, Golf City",
+            "form_kicker": "New player / first visit",
+            "form_title": "Tell us about your game",
+            "submit_cta": "Book my assessment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ga-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "FAIRWAY FORGE",
+            "brand_tag": "GOLF ACADEMY",
+            "blurb": "A private golf academy where data, video, and world-class coaching turn your best round into a repeatable one — private lessons, junior programs, sim leagues, and club fitting.",
+            "copyright": "© Fairway Forge Golf Academy",
+            "columns": [
+              {
+                "heading": "Programs",
+                "links": [
+                  { "text": "Private Lessons", "url": { "url": "#programs" } },
+                  { "text": "Junior & Group", "url": { "url": "#programs" } },
+                  { "text": "Simulator + Fitting", "url": { "url": "#programs" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Meet the coaches", "url": { "url": "#coaches" } },
+                  { "text": "Book an assessment", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
