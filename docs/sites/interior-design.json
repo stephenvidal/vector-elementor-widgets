@@ -1,0 +1,244 @@
+{
+  "title": "Atelier Meridian — Interior Design Studio",
+  "slug": "interior-design",
+  "kit": "interior-design",
+  "containers": [
+    {
+      "id": "id-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "ATELIER MERIDIAN",
+            "brand_tag": "INTERIOR DESIGN STUDIO",
+            "cta_text": "Start your project",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#services" } },
+              { "text": "How we work", "url": { "url": "#process" } },
+              { "text": "Recent projects", "url": { "url": "#projects" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-153.png", "id": 1539 },
+            "eyebrow": "Atelier Meridian · Interior design studio · Full-service residential & hospitality",
+            "headline": "Rooms that feel<br><em>like they were always yours.</em>",
+            "copy": "Atelier Meridian is a full-service interior design studio for people who want a home that works as hard as they do — and still feels like a refuge. We design, source, and build rooms that are calm, considered, and unmistakably yours.",
+            "primary_cta_text": "Start your project",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See our process",
+            "secondary_cta_url": { "url": "#process" },
+            "trust_list": [
+              { "text": "Full-service design, sourcing, and project management" },
+              { "text": "Every room built around how you actually live" },
+              { "text": "Transparent budgets — no surprise line items" },
+              { "text": "A single point of contact from first sketch to final styling" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The studio in numbers",
+            "title": "Quiet rooms,",
+            "title_accent": "serious results",
+            "intro": "We measure success in rooms that get lived in — and clients who call us back for the next one.",
+            "stats": [
+              { "value": "120+", "label": "Rooms designed and delivered since 2016" },
+              { "value": "9", "label": "Designers, stylists, and project leads on the team" },
+              { "value": "94%", "label": "Of clients come back for a second room or refer a friend" },
+              { "value": "0", "label": "Rooms we've handed over that we wouldn't live in ourselves" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "One studio,",
+            "title_accent": "every room",
+            "intro": "From a single living room to a full home or a boutique hospitality space, we bring the same care to every square foot.",
+            "features": [
+              { "number": "01", "title": "Residential design", "text": "Living rooms, kitchens, bedrooms, and full homes — designed around how you live, not a magazine spread.", "detail": "Whole-home & single-room" },
+              { "number": "02", "title": "Hospitality & retail", "text": "Cafés, boutiques, and hotel lobbies that make people want to stay. We design for flow, comfort, and brand.", "detail": "Commercial spaces" },
+              { "number": "03", "title": "Furniture & sourcing", "text": "A curated network of makers and suppliers — from bespoke joinery to vintage finds — so every piece has a story.", "detail": "Bespoke & sourced" },
+              { "number": "04", "title": "Project management", "text": "One point of contact for every tradesperson, delivery, and deadline. You approve the big calls; we handle the rest.", "detail": "Single point of contact" },
+              { "number": "05", "title": "Styling & staging", "text": "The final layer that makes a room feel finished — art, textiles, and objects placed with intention.", "detail": "The finishing layer" },
+              { "number": "06", "title": "Renovation oversight", "text": "We work alongside your builder or architect to make sure the design intent survives the build.", "detail": "Design-through-build" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From blank room",
+            "title_accent": "to finished home",
+            "intro": "A clear, four-step process that keeps you informed and in control — without the overwhelm of a hundred decisions at once.",
+            "steps": [
+              { "title": "Listen & measure", "text": "We walk your space, learn how you actually live, and pin down the budget and timeline. No assumptions, no templates — just a clear brief." },
+              { "title": "Design & refine", "text": "We develop a concept, moodboards, and a floor plan. You react, we refine, until the direction feels exactly right." },
+              { "title": "Source & build", "text": "We source furniture, finishes, and lighting, and manage every tradesperson. You approve the big calls; we handle the rest." },
+              { "title": "Style & handover", "text": "We style the final room, walk you through it, and hand over a home that's ready to live in — plus a care guide for the pieces." }
+            ],
+            "note": "Most single-room projects run 8–12 weeks from first walkthrough to handover. We give you a firm timeline up front and stick to it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "rooms" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside our work",
+            "title": "Rooms we've",
+            "title_accent": "made our own",
+            "intro": "A few of the spaces we've designed — each one a different brief, a different client, a different way of living.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-153.png", "id": 0 }, "label": "The walnut living room", "alt": "A calm living room with a walnut media wall, blush linen sofa, and soft natural light from a tall window" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-153.png", "id": 0 }, "label": "The kitchen that works", "alt": "A minimalist kitchen with matte charcoal cabinetry, brass hardware, and a marble island under pendant lights" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-153.png", "id": 0 }, "label": "The hotel lobby", "alt": "A boutique hotel lobby with a curved blush velvet banquette, travertine floor, and warm ambient lighting" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-projects",
+      "content_width": "full",
+      "settings": { "_element_id": "projects" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "Recent projects",
+            "title": "Work that found",
+            "title_accent": "its home",
+            "intro": "A few of the rooms we've delivered this season — and the briefs that shaped them.",
+            "items": [
+              { "title": "The Hilltop Apartment — full redesign", "tag": "Residential · 12 weeks", "text": "A two-bedroom apartment reimagined around a single idea: a calm, light-filled home for a couple who work from home and entertain often.", "url": { "url": "#contact" }, "link_label": "See the project", "image": { "url": "" }, "alt": "" },
+              { "title": "The Foundry Café — hospitality", "tag": "Hospitality · 9 weeks", "text": "A former workshop turned into a neighborhood café with warm oak, terracotta, and a long communal table that anchors the room.", "url": { "url": "#contact" }, "link_label": "See the project", "image": { "url": "" }, "alt": "" },
+              { "title": "The Garden Studio — a first commission", "tag": "Residential · 6 weeks", "text": "A compact garden studio designed as a writer's retreat — a single room, a deep window seat, and a palette of quiet greens and creams.", "url": { "url": "#contact" }, "link_label": "Start your own project", "image": { "url": "" }, "alt": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What clients say",
+            "title": "The feeling of",
+            "title_accent": "coming home",
+            "intro": "People tell us the same thing: the process felt calm, and the result felt like them. Here's a little of that.",
+            "reviews": [
+              { "quote": "I was terrified of the whole thing — the budget, the decisions, the trades. Atelier Meridian made it feel easy. They listened, they pushed back when it mattered, and the room they handed over is the first one that's ever felt like mine.", "author": "Claire H.", "role": "Homeowner, Hilltop Apartment", "stars": 5 },
+              { "quote": "They designed our café around how people actually move through a room, not how it looks in a photo. Six months in, the flow still works and the space still feels warm. That's the craft.", "author": "Marcus & Lena", "role": "Owners, The Foundry Café", "stars": 5 },
+              { "quote": "The garden studio is the room I write in every day. It's quiet, it's beautiful, and it was delivered on time and on budget. I've already asked them to do the main house.", "author": "Priya N.", "role": "Writer, Garden Studio", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Start your project",
+            "title": "Let's make a room",
+            "title_accent": "feel like yours",
+            "intro": "Tell us about your space, your timeline, and your budget, and we'll come back with an honest sense of what's possible. No obligation, no hard sell.",
+            "phone": "(555) 402-8817",
+            "email": "hello@atelier-meridian.com",
+            "location": "Atelier Meridian · 14 Foundry Lane, Old Town — the studio with the blush door",
+            "form_kicker": "Free consultation",
+            "form_title": "Tell us about your space",
+            "submit_cta": "Request my consultation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "id-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "ATELIER MERIDIAN",
+            "brand_tag": "INTERIOR DESIGN STUDIO",
+            "blurb": "A full-service interior design studio for people who want a home that works as hard as they do — and still feels like a refuge.",
+            "copyright": "© Atelier Meridian — interior design studio",
+            "columns": [
+              {
+                "heading": "The studio",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#services" } },
+                  { "text": "How we work", "url": { "url": "#process" } },
+                  { "text": "Recent projects", "url": { "url": "#projects" } },
+                  { "text": "What clients say", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Start",
+                "links": [
+                  { "text": "Start your project", "url": { "url": "#contact" } },
+                  { "text": "Get in touch", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
