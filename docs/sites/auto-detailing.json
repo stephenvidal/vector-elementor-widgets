@@ -1,0 +1,277 @@
+{
+  "title": "Glossline Detailing",
+  "slug": "auto-detailing",
+  "kit": "auto-detailing",
+  "containers": [
+    {
+      "id": "ad-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "GLOSSLINE",
+            "brand_tag": "AUTO DETAILING",
+            "cta_text": "Book a detail",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Packages", "url": { "url": "#packages" } },
+              { "text": "Our work", "url": { "url": "#gallery" } },
+              { "text": "Before & After", "url": { "url": "#proof" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-150.png", "id": 1523 },
+            "eyebrow": "Glossline Detailing · Mobile + in-shop · Ceramic, correction & interior",
+            "headline": "Showroom shine, delivered to your driveway.",
+            "copy": "We're not a quick spray-and-wipe car wash. Every Glossline detail is a multi-stage process — decontamination, machine correction, coating, and a cabin so fresh it smells like the day you took delivery. Book in-shop or we'll bring the studio to your driveway.",
+            "primary_cta_text": "Book a detail",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See our work",
+            "secondary_cta_url": { "url": "#gallery" },
+            "trust_list": [
+              { "text": "Certified ceramic & PPF applicators" },
+              { "text": "Paint-correction specialists, not just washers" },
+              { "text": "Mobile service across the metro area" },
+              { "text": "Every car gets a written care plan" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Glossline by the numbers",
+            "title": "The results that",
+            "title_accent": "keep cars in the family",
+            "stats": [
+              { "value": "3,400", "label": "Vehicles detailed since we opened" },
+              { "value": "98", "label": "Average customer rating across 1,200+ reviews" },
+              { "value": "12", "label": "Certified ceramic and PPF technicians" },
+              { "value": "7", "label": "Year coating warranty on our flagship package" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-packages",
+      "content_width": "full",
+      "settings": { "_element_id": "packages" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "Packages",
+            "title": "One studio,",
+            "title_accent": "three levels of obsession",
+            "intro": "Every Glossline package starts with a full decontamination wash and a careful inspection. From there, choose how far you want to go — and we'll tell you honestly which package your paint actually needs.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "The Wash & Care" },
+              { "key": "build", "label": "The Correction" },
+              { "key": "launch", "label": "The Ceramic" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Exterior maintenance detail", "text": "A pH-neutral wash, clay-bar decontamination, wheel-and-tire work, and a hand-applied sealant. The perfect monthly reset for a car you actually drive." },
+              { "icon": "◈", "title": "Interior refresh", "text": "Steam extraction, leather conditioning, and every vent and seam vacuumed. We work around your schedule so you're never without a car for long." }
+            ],
+            "build": [
+              { "icon": "◈", "title": "Single-stage polish", "text": "Removes swirls, light scratches, and oxidation with one machine pass, restoring that wet-glass reflection without burning clear coat." },
+              { "icon": "◈", "title": "Two-stage paint correction", "text": "Cutting and polishing compounds to tackle deeper marks, followed by a finishing polish. This is the step that makes people ask, 'Is that the same car?'" }
+            ],
+            "launch": [
+              { "icon": "◈", "title": "Ceramic coating", "text": "A 5-year to 7-year coating that locks in your corrected paint, sheds water, and shrugs off bird droppings and bug acid. Includes surface prep and a full aftercare plan." },
+              { "icon": "◈", "title": "Paint protection film", "text": "Invisible self-healing film on the front bumper, hood, mirrors, and rockers — the armor behind the shine for daily drivers and weekend toys alike." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Glossline",
+            "title": "More than",
+            "title_accent": "a good wash",
+            "intro": "Anyone can make a car look clean for an afternoon. Glossline makes it look right for years — here's the difference you can't see in a parking-lot detail.",
+            "features": [
+              { "number": "01", "title": "Certified, not trained-on-the-job", "text": "Every technician holds current ceramic and PPF certifications and trains on a fleet of test panels before touching a customer car.", "detail": "12 certified technicians" },
+              { "number": "02", "title": "We measure, not guess", "text": "Gloss meters and paint-thickness gauges tell us what's actually happening to your clear coat — not just what looks shinier.", "detail": "Gloss & thickness logs" },
+              { "number": "03", "title": "Warranties we stand behind", "text": "Our coatings carry up to a 7-year manufacturer warranty, and we back every install in writing — not just with a handshake.", "detail": "Up to 7-year coating warranty" },
+              { "number": "04", "title": "Mobile, on your schedule", "text": "A fully equipped van brings the studio to your driveway or office lot, so you don't lose a day waiting at a shop.", "detail": "Full mobile service" },
+              { "number": "05", "title": "Interior done right", "text": "Steam, extraction, and correct products for leather and Alcantara — a cabin that feels new, without the chemical burn-off smell.", "detail": "Steam + extraction" },
+              { "number": "06", "title": "Honest condition reports", "text": "We tell you what your paint actually needs and what it doesn't. No inventing work to pad the ticket.", "detail": "No surprise upsells" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From 'needs help'",
+            "title_accent": "to 'don't touch it'",
+            "intro": "Here's what a Glossline detail looks like, start to finish — so you know exactly what we're doing to your car before we ever pick up a buffer.",
+            "steps": [
+              { "title": "Book & get a quote", "text": "Tell us your make, model, and condition. You get a firm quote and a window — no surprise upsells once the car is in the bay." },
+              { "title": "Decontamination wash", "text": "A thorough pre-wash, foam bath, and clay treatment strip the bonded grime so the paint is bare and ready to work." },
+              { "title": "The correction", "text": "Our technicians machine-polish to your package's target, measuring gloss and paint thickness at every stage." },
+              { "title": "Protect & deliver", "text": "Coating or sealant goes on, the cabin gets its final touch, and you receive a written care plan for keeping the finish." }
+            ],
+            "note": "Glossline is built on measurable results: gloss readings before and after, paint-thickness logs on every panel, and a walkaround with you before the keys go back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Recent work",
+            "title": "The kind of",
+            "title_accent": "shine that stops people",
+            "intro": "A few cars that came through the studio recently — ceramic finishes, two-stage corrections, and interiors brought back from the brink.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-150.png", "id": 1523 }, "label": "Two-stage correction on a black sedan", "alt": "A glossy black sedan reflecting a bright showroom, swirl-free after paint correction" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-150.png", "id": 1523 }, "label": "Ceramic-coated truck at the studio", "alt": "A freshly coated pickup truck beading water under studio lights" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-150.png", "id": 1523 }, "label": "Interior restoration detail", "alt": "A spotless leather interior with steam-conditioned seats and a clean dashboard" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-proof",
+      "content_width": "full",
+      "settings": { "_element_id": "proof" },
+      "widgets": [
+        {
+          "type": "vew-before-after",
+          "settings": {
+            "eyebrow": "The proof",
+            "title": "Before and after,",
+            "title_accent": "in one frame",
+            "intro": "Swirls, etching, and oxidation don't have to be permanent. Drag the slider to see what a two-stage correction does to neglected paint.",
+            "before_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/before-150.png", "id": 1522 },
+            "before_label": "Before correction",
+            "after_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-150.png", "id": 1523 },
+            "after_label": "After two-stage correction",
+            "orientation": "horizontal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Owner stories",
+            "title": "What drivers",
+            "title_accent": "say about the shine",
+            "intro": "We asked a few owners what changed after their Glossline detail. Their answers were about pride, resale, and the feeling of the first drive home.",
+            "reviews": [
+              { "quote": "I bought a 2014 truck that had been parked under a tree for two years. Two-stage correction and a ceramic coat later, a stranger at the gas station offered to buy it. I'm keeping it — it's like a new truck.", "author": "Marcus T.", "role": "Truck owner, ceramic package", "stars": 5 },
+              { "quote": "They came to my office parking lot and detailed my daily driver while I worked. The interior has never smelled this clean, and the paint is glossy a year later. Worth every penny.", "author": "Priya S.", "role": "Mobile interior + wash", "stars": 5 },
+              { "quote": "I was skeptical about the gloss-meter readings until I saw them pre- and post. My black car finally looks black again — no swirls at all. These people actually care about paint.", "author": "Jordan K.", "role": "Enthusiast, correction + PPF", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get started",
+            "title": "Book your",
+            "title_accent": "detail",
+            "intro": "Tell us about your car and we'll send a firm quote within one business day. In-shop or mobile — your choice.",
+            "phone": "(555) 317-8822",
+            "email": "hello@glosslinedetailing.com",
+            "location": "Glossline Detailing · 44 Mirror Way, Auto Park, Detailing City",
+            "form_kicker": "New detail / first visit",
+            "form_title": "Tell us about your vehicle",
+            "submit_cta": "Get my quote"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "GLOSSLINE",
+            "brand_tag": "AUTO DETAILING",
+            "blurb": "A mobile and in-shop auto detailing studio where ceramic coating, deep paint correction, and obsessive interior restoration turn your daily driver into the car you remember buying.",
+            "copyright": "© Glossline Detailing",
+            "columns": [
+              {
+                "heading": "Packages",
+                "links": [
+                  { "text": "The Wash & Care", "url": { "url": "#packages" } },
+                  { "text": "The Correction", "url": { "url": "#packages" } },
+                  { "text": "The Ceramic", "url": { "url": "#packages" } }
+                ]
+              },
+              {
+                "heading": "Studio",
+                "links": [
+                  { "text": "See our work", "url": { "url": "#gallery" } },
+                  { "text": "Before & After", "url": { "url": "#proof" } },
+                  { "text": "Book a detail", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
