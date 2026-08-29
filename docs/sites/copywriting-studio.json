@@ -1,0 +1,223 @@
+{
+  "title": "Quill & Vine — Copywriting Studio",
+  "slug": "copywriting-studio",
+  "kit": "copywriting-studio",
+  "containers": [
+    {
+      "id": "qv-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "QUILL & VINE",
+            "brand_tag": "COPYWRITING",
+            "cta_text": "Free copy audit",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#why" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "Selected work", "url": { "url": "#work" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qv-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-172.png", "id": 0 },
+            "eyebrow": "Quill & Vine · B2B copywriting studio · For founders who hate sounding generic",
+            "headline": "Copy that reads like you,<br><em>and sells like a pro.</em>",
+            "copy": "Quill & Vine is a B2B copywriting studio for founders and marketing teams who are tired of bland, forgettable words. We write website copy, landing pages, and email sequences that sound like your best self — and quietly do the selling for you.",
+            "primary_cta_text": "Get a free copy audit",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Every word written by a senior copywriter — no junior handoffs" },
+              { "text": "Free copy audit of your current site before you spend a cent" },
+              { "text": "Average 2.4x lift in conversion across audited pages" },
+              { "text": "You own every word, forever — no lock-in, no licensing games" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qv-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Quill & Vine by the numbers",
+            "title": "Measured in words,",
+            "title_accent": "proven in revenue",
+            "intro": "We don't sell pretty prose. We sell copy that moves a reader from 'interesting' to 'let's talk' — and we track the numbers to prove it.",
+            "stats": [
+              { "value": "2.4x", "label": "Average conversion lift across audited pages" },
+              { "value": "480+", "label": "Projects delivered for B2B brands since 2015" },
+              { "value": "97%", "label": "Of clients renew for a second engagement" },
+              { "value": "11 days", "label": "Median turnaround from brief to final draft" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qv-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A process that",
+            "title_accent": "respects your time",
+            "intro": "No endless discovery calls, no 40-page decks. We get to the words fast, with a process built for busy founders.",
+            "steps": [
+              { "title": "Brief", "text": "You tell us the goal, the audience, and the voice you're after. We send a short questionnaire — 15 minutes, tops — and a free copy audit of your current pages." },
+              { "title": "Draft", "text": "Our senior copywriter writes the first draft in your voice, not ours. You get clean, ready-to-publish copy with the strategy behind each choice explained." },
+              { "title": "Refine", "text": "Two rounds of revisions are included. We tighten, rework, and polish until the words sound unmistakably like you — and sell like a pro." },
+              { "title": "Ship", "text": "You get final files in the format you need — web, email, or docs — plus a short style guide so your team can keep the voice consistent." }
+            ],
+            "note": "Most projects go from brief to final draft in under two weeks. Rush turnaround is available when you need it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "qv-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Quill & Vine",
+            "title": "The studio that",
+            "title_accent": "sounds like you",
+            "intro": "Anyone can string words together. We write copy that sounds like your brand's best self — and we back it with a process built for results.",
+            "features": [
+              { "number": "01", "title": "Senior writers only", "text": "The person who scopes your project is the one who writes it. No junior handoffs, no 'team of interns' bait-and-switch after you sign.", "detail": "No handoffs" },
+              { "number": "02", "title": "Your voice, not ours", "text": "We study how you talk to customers and write in that voice — not a generic 'premium' template we reuse for everyone.", "detail": "On-brand, always" },
+              { "number": "03", "title": "Conversion-focused", "text": "Every page is written to move a reader to action. We structure copy around your offer, your proof, and the next step you want taken.", "detail": "Built to sell" },
+              { "number": "04", "title": "Free copy audit", "text": "Before you spend a cent, we audit your current site and show you exactly where the words are costing you conversions.", "detail": "Zero risk" },
+              { "number": "05", "title": "You own the words", "text": "Every draft is yours, forever. No licensing fees, no 'we retain the rights' games. Use it anywhere, any time.", "detail": "Full ownership" },
+              { "number": "06", "title": "Fast turnaround", "text": "A median of 11 days from brief to final draft. We respect that your launch date isn't flexible.", "detail": "On schedule" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qv-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "Selected work",
+            "title": "Words that",
+            "title_accent": "moved the needle",
+            "intro": "A cross-section of recent projects — each a different market, each with a number attached.",
+            "items": [
+              { "title": "Northgate Software", "tag": "B2B SaaS · Website", "text": "Rewrote the homepage and pricing page. Demo requests up 2.1x in the first quarter.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" },
+              { "title": "Meridian Logistics", "tag": "Logistics · Landing pages", "text": "New landing page copy lifted qualified quote requests 3.4x across three campaigns.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" },
+              { "title": "Fieldstone Financial", "tag": "Fintech · Email", "text": "A 12-email nurture sequence that turned a cold database into 31 booked calls a month.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qv-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client words",
+            "title": "Founders who",
+            "title_accent": "found their voice",
+            "intro": "What marketing leaders say after a project (or three) with Quill & Vine.",
+            "reviews": [
+              { "quote": "Our old site sounded like every other SaaS company. Quill & Vine rewrote it in a voice that finally sounds like us — and demo requests went up 2.1x. Worth every cent.", "author": "R. Hale", "role": "VP Marketing, B2B SaaS", "stars": 5 },
+              { "quote": "The free audit sold me. They showed me exactly where our copy was losing people, then fixed it. Fast, professional, and the words actually sound like our team wrote them.", "author": "D. Okafor", "role": "CRO, logistics", "stars": 5 },
+              { "quote": "I've used three copy agencies. Quill & Vine is the only one that nailed our voice on the first draft. The email sequence they wrote books us calls every single month.", "author": "S. Quinn", "role": "Head of Growth, fintech", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qv-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's find your",
+            "title_accent": "voice",
+            "intro": "Book a free copy audit. We'll review your current site and show you exactly where the words are costing you conversions — whether or not you hire us.",
+            "phone": "(555) 214-4470",
+            "email": "hello@quillandvine.co",
+            "location": "Remote-first · Serving B2B brands worldwide",
+            "form_kicker": "Start the conversation",
+            "form_title": "Tell us about your copy",
+            "submit_cta": "Get a free copy audit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "qv-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "QUILL & VINE",
+            "brand_tag": "COPYWRITING",
+            "blurb": "A B2B copywriting studio that writes words that sound like you and sell like a pro — website copy, landing pages, and email that move the needle.",
+            "copyright": "© Quill & Vine — copywriting studio",
+            "columns": [
+              {
+                "heading": "What we do",
+                "links": [
+                  { "text": "Website copy", "url": { "url": "#why" } },
+                  { "text": "Landing pages", "url": { "url": "#why" } },
+                  { "text": "Email sequences", "url": { "url": "#why" } },
+                  { "text": "How we work", "url": { "url": "#how" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Selected work", "url": { "url": "#work" } },
+                  { "text": "Client words", "url": { "url": "#voices" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
