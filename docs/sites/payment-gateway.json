@@ -1,0 +1,279 @@
+{
+  "title": "RelayPay",
+  "slug": "payment-gateway",
+  "kit": "payment-gateway",
+  "containers": [
+    {
+      "id": "pg-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "RELAYPAY",
+            "brand_tag": "",
+            "cta_text": "Get sandbox keys",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Capabilities", "url": { "url": "#services" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-161.png", "id": 0 },
+            "eyebrow": "RelayPay · Payments API · Developer-first · SOC 2",
+            "headline": "Take payments,<br><em>without the heavy lifting.</em>",
+            "copy": "RelayPay is a developer-first payments API that moves money and clears risk — so your team ships checkout, subscriptions, and payouts in days, not quarters.",
+            "primary_cta_text": "Start integrating",
+            "primary_cta_url": { "url": "#pricing" },
+            "secondary_cta_text": "Read the docs",
+            "secondary_cta_url": { "url": "#services" },
+            "trust_list": [
+              { "text": "One clean REST API for charges, subs, and payouts" },
+              { "text": "Approved in minutes — go live the same day" },
+              { "text": "Programmatic refunds, disputes, and reconciliation" },
+              { "text": "99.99% uptime with active-active redundancy" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "RelayPay by the numbers",
+            "title": "Built to be",
+            "title_accent": "relied on",
+            "intro": "We're not just a payment rail — we're the trust layer behind hundreds of growing businesses moving real money every day.",
+            "stats": [
+              { "value": "$2.1B", "label": "Processed safely in the last twelve months" },
+              { "value": "99.99", "label": "Percent uptime with our active-active gateway" },
+              { "value": "180+", "label": "Currencies and local payment methods supported" },
+              { "value": "38ms", "label": "Median authorization latency, worldwide" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What you can build",
+            "title": "One API, every",
+            "title_accent": "money flow you need",
+            "intro": "Whether it's a one-time charge, a recurring subscription, or a marketplace split-pay, RelayPay gives you the primitives to build on — and the docs to do it fast.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Payments" },
+              { "key": "build", "label": "Subscriptions" },
+              { "key": "launch", "label": "Payouts" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "One-time charges", "text": "Collect card, wallet, and bank payments with a single POST. Built-in 3-D Secure, AVS, and fraud scoring on every authorization." },
+              { "icon": "◈", "title": "Checkout hosted + embedded", "text": "Launch a hosted checkout page in ten minutes, or embed our rendered fields with a few lines of JS. PCI scope stays on us." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Recurring billing", "text": "Create, pause, and upgrade subscriptions with prorations handled automatically. Dunning and smart retries recover the revenue you'd otherwise lose." },
+              { "icon": "⚑", "title": "Usage & metered billing", "text": "Bill by seat, API call, or a custom event stream. Our metering engine keeps tallies accurate even at high volume." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Instant payouts", "text": "Send money to your sellers, creators, or contractors with fast settlement via bank transfer, instant card payout, or local rails." },
+              { "icon": "✦", "title": "Split & marketplace payments", "text": "Route each transaction to multiple destinations with configurable fees. Platform payout logic handled for you." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From signup to live in",
+            "title_accent": "four steps",
+            "intro": "We removed the procurement drag and the certification slog. Most teams process their first real transaction the same day they create an account.",
+            "steps": [
+              { "title": "Create your account", "text": "Sign up and get sandbox keys instantly. No sales call, no underwriting delay — approve your details in minutes." },
+              { "title": "Test in sandbox", "text": "Use our test cards and webhook simulator to build and verify your flows against a fully functional sandbox with no money at risk." },
+              { "title": "Go live", "text": "Flip the switch with your production keys. Our SDKs and drop-in elements mean most teams cut the ribbon in under a week." },
+              { "title": "Grow with payouts", "text": "Turn on subscriptions, split payments, or instant payouts as your product matures. The same API scales with you." }
+            ],
+            "note": "Typical teams are processing real transactions within 5 business days of their first signup — we get you past the boring parts fast."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why RelayPay",
+            "title": "The gateway your",
+            "title_accent": "engineers will thank you for",
+            "intro": "Payments should be your product's enabling layer, not its bottleneck. Here's what makes RelayPay different from the incumbent rails.",
+            "features": [
+              { "number": "01", "title": "Developer-first DX", "text": "Idempotent requests, typed SDKs, first-class webhooks, and a Postman collection out of the box. Our docs read like a design spec, not an apology.", "detail": "Build in hours" },
+              { "number": "02", "title": "Fraud built in", "text": "Machine-learned risk scoring on every transaction with customizable rules. Block the chargebacks before they reach your inbox.", "detail": "Fewer disputes" },
+              { "number": "03", "title": "Global by default", "text": "Accept 180+ currencies with automatic DCC and local payment methods — we handle FX, routing, and compliance on your behalf.", "detail": "Sell anywhere" },
+              { "number": "04", "title": "Active-active uptime", "text": "Our gateway runs across redundant regions with automatic failover. When a region sleeps, your traffic keeps flowing.", "detail": "99.99% SLA" },
+              { "number": "05", "title": "Transparent pricing", "text": "Flat interchange-plus pricing with no monthly minimums, no hidden gateway fees, and no surprise line items on your statement.", "detail": "Pay for value" },
+              { "number": "06", "title": "Instant, programmatic backoffice", "text": "Refunds, disputes, payouts, and reconciliation are all API-first. Your finance team gets clean exports without CSV archaeology.", "detail": "Operate at scale" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Who uses RelayPay",
+            "title": "Teams that switched",
+            "title_accent": "and stayed",
+            "intro": "From two-person SaaS companies to marketplaces processing millions a month, here's why teams build on RelayPay for the long haul.",
+            "reviews": [
+              { "quote": "We migrated off a legacy gateway in a single sprint. The idempotency keys alone saved us a class of bugs we didn't even know we had. RelayPay is what other payment APIs should aspire to.", "author": "Priya Natarajan", "role": "VP Engineering, Subly", "stars": 5 },
+              { "quote": "Our chargeback rate dropped by more than half after we turned on RelayPay's fraud scoring. It pays for itself in quiet nights alone.", "author": "Marcus Webb", "role": "Founder, CraftKart", "stars": 5 },
+              { "quote": "We run a 4,000-creator marketplace, and split payouts used to mean a whole reconciliation project. RelayPay handles it in the API call. It genuinely changed how our team works.", "author": "Aiko Tanaka", "role": "CTO, MakerSquare", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple pricing,",
+            "title_accent": "honest value",
+            "intro": "Transparent interchange-plus rates with no monthly minimum and no setup fee. You only pay for what moves through the gateway.",
+            "plans": [
+              { "plan": "Starter", "price": "2.9%", "unit": " + 30¢", "features": [ { "text": "Cards, Apple Pay, Google Pay" }, { "text": "Hosted + embedded checkout" }, { "text": "Refunds & dispute management" }, { "text": "Sandbox + production keys" }, { "text": "Email support" } ], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Growth", "price": "2.4%", "unit": " + 30¢", "featured": "yes", "features": [ { "text": "Everything in Starter" }, { "text": "Subscriptions & metered billing" }, { "text": "Fraud scoring & custom rules" }, { "text": "Instant payouts" }, { "text": "Priority chat support" }, { "text": "Customizable webhooks" } ], "cta": "Start 30-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Scale", "price": "2.0%", "unit": " + 30¢", "features": [ { "text": "Everything in Growth" }, { "text": "Split & marketplace payments" }, { "text": "Dedicated success manager" }, { "text": "Custom contract & SLAs" }, { "text": "ISO 27001 audit reports" }, { "text": "Volume pricing" } ], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions teams",
+            "title_accent": "ask before switching",
+            "intro": "Straight answers about fees, security, and what moving to RelayPay actually takes.",
+            "items": [
+              { "question": "How does RelayPay's pricing compare to the big gateways?", "answer": "We use transparent interchange-plus pricing with no monthly fee and no setup charge. Our goal is to be cheaper than the legacy providers once you factor in their hidden gateway, monthly, and per-transaction add-ons." },
+              { "question": "Is my card data secure and PCI compliant?", "answer": "Yes. RelayPay is a PCI DSS Level 1 service provider. With our hosted and embedded checkout, card data never touches your servers, which keeps your PCI scope minimal." },
+              { "question": "How long does it really take to integrate?", "answer": "Most teams process their first live transaction within a week. Our SDKs, drop-in elements, and Postman collection cover the common flows, and the docs walk you through edge cases." },
+              { "question": "Do you support subscriptions and recurring billing?", "answer": "Absolutely. Create, pause, upgrade, and cancel subscriptions with automatic prorations, dunning, and smart retries to recover failed payments." },
+              { "question": "Can I migrate from my current provider?", "answer": "Yes. We provide one-click card-holder migration, a webhook mapping guide, and a dedicated migration runbook. Our team will hold your hand through the cutover." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's move your",
+            "title_accent": "first transaction",
+            "intro": "Create an account for instant sandbox keys, or talk to our team about migrating, custom pricing, or an enterprise integration. We'll get back to you the same day.",
+            "phone": "(555) 902-4417",
+            "email": "hello@relaypay.dev",
+            "location": "Remote-first · Serving developers worldwide",
+            "form_kicker": "Get started today",
+            "form_title": "Tell us about your integration",
+            "submit_cta": "Request sandbox keys"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pg-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "RELAYPAY",
+            "brand_tag": "",
+            "blurb": "A developer-first payments API that moves money and clears risk — so your team ships checkout, subscriptions, and payouts in days, not quarters. SOC 2, 99.99% uptime.",
+            "copyright": "© RelayPay",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Capabilities", "url": { "url": "#services" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "Trust & security", "url": { "url": "#why" } }
+                ]
+              },
+              {
+                "heading": "Get started",
+                "links": [
+                  { "text": "Start integrating", "url": { "url": "#pricing" } },
+                  { "text": "Request sandbox keys", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
