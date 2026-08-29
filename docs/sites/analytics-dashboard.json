@@ -1,0 +1,282 @@
+{
+  "title": "Lumen Analytics — Business Analytics Suite",
+  "slug": "analytics-dashboard",
+  "kit": "analytics-dashboard",
+  "containers": [
+    {
+      "id": "ad-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "LUMEN ANALYTICS",
+            "brand_tag": "BUSINESS INTELLIGENCE",
+            "cta_text": "Start free trial",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Platform", "url": { "url": "#services" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-169.png", "id": 0 },
+            "eyebrow": "Lumen Analytics · Business intelligence · Self-serve · SOC 2",
+            "headline": "Every metric,<br><em>one source of truth.</em>",
+            "copy": "Lumen Analytics connects your warehouse, CRM, and product data into one governed model, then lets anyone on your team ask questions and get answers in seconds — with the trust of a finance-grade audit trail.",
+            "primary_cta_text": "Start a free trial",
+            "primary_cta_url": { "url": "#pricing" },
+            "secondary_cta_text": "See the platform",
+            "secondary_cta_url": { "url": "#services" },
+            "trust_list": [
+              { "text": "Connect 200+ sources in minutes — no data team required" },
+              { "text": "Governed metrics your whole company can trust" },
+              { "text": "Ask questions in plain English, get answers instantly" },
+              { "text": "SOC 2 Type II with full audit trail on every query" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The numbers behind the platform",
+            "title": "Built for speed,",
+            "title_accent": "trusted for accuracy",
+            "intro": "We obsess over two things: how fast your team gets answers, and how sure they can be that those answers are right.",
+            "stats": [
+              { "value": "200+", "label": "Native data source connectors" },
+              { "value": "3.2s", "label": "Median time from question to answer" },
+              { "value": "99.99%", "label": "Uptime across our managed cloud" },
+              { "value": "4.8/5", "label": "Average rating from 1,200+ teams" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What the platform does",
+            "title": "Three layers,",
+            "title_accent": "one answer",
+            "intro": "Lumen isn't a single dashboard — it's a full analytics stack that meets your team where they are, from governed reporting to ad-hoc exploration.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Connect" },
+              { "key": "build", "label": "Model" },
+              { "key": "launch", "label": "Explore" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Warehouse & app connectors", "text": "Native connectors for Snowflake, BigQuery, Postgres, Salesforce, HubSpot, and 200+ more. Point, click, and your data streams in — no pipelines to babysit." },
+              { "icon": "◈", "title": "Live sync & refresh", "text": "Data refreshes on your schedule, from every five minutes to nightly. Your dashboards always reflect the latest state of your business." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Governed metric layer", "text": "Define revenue, churn, and CAC once, in one place. Every team sees the same numbers with the same definitions — no more spreadsheet arguments." },
+              { "icon": "⚑", "title": "Row-level security", "text": "Control exactly who can see what, down to the row. Sales sees their region, finance sees everything, and the audit trail records it all." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Natural-language queries", "text": "Ask 'What was MRR last quarter by region?' and get a chart, a table, and the SQL behind it — in seconds, with no query language to learn." },
+              { "icon": "✦", "title": "Dashboards & alerts", "text": "Compose live dashboards from any metric and set alerts that ping Slack when a number crosses a threshold you care about." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From raw data to",
+            "title_accent": "confident decisions",
+            "intro": "Getting value from Lumen is a matter of days, not quarters. Here's the path from signup to a governed analytics practice.",
+            "steps": [
+              { "title": "Connect", "text": "Link your data sources in minutes. We auto-detect schemas and suggest joins, so most teams are live on day one." },
+              { "title": "Model", "text": "Define your core metrics once. Lumen builds a governed semantic layer that keeps every team on the same definitions." },
+              { "title": "Explore", "text": "Your team asks questions in plain English and gets answers instantly. No training, no tickets, no waiting on the data team." },
+              { "title": "Scale", "text": "Add alerts, embed dashboards, and roll out row-level security as your usage grows. Lumen scales with your ambition." }
+            ],
+            "note": "Most teams run their first live dashboard within a day and replace their weekly reporting spreadsheet within the first month."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why teams choose Lumen",
+            "title": "Analytics that",
+            "title_accent": "everyone can trust",
+            "intro": "The best analytics tool is the one people actually use. We built Lumen to remove every excuse not to look at the numbers.",
+            "features": [
+              { "number": "01", "title": "One source of truth", "text": "A governed metric layer means revenue means the same thing in marketing, sales, and finance. No more reconciling three different dashboards.", "detail": "Governed metrics" },
+              { "number": "02", "title": "Ask in plain English", "text": "Type a question, get an answer. Lumen translates natural language into SQL and shows you the query, so you can trust the result.", "detail": "NLQ built in" },
+              { "number": "03", "title": "Enterprise-grade security", "text": "SOC 2 Type II, SSO/SAML, row-level security, and a complete audit trail on every query. Your data stays yours.", "detail": "SOC 2 Type II" },
+              { "number": "04", "title": "No data team required", "text": "Connect sources, define metrics, and go. Lumen handles the modeling so your analysts can focus on insight, not plumbing.", "detail": "Self-serve" },
+              { "number": "05", "title": "Alerts that act", "text": "Set thresholds and Lumen pings Slack or email the moment a number moves. Catch problems before they become surprises.", "detail": "Proactive alerts" },
+              { "number": "06", "title": "Embed anywhere", "text": "Drop live dashboards into your product, portal, or client reports with a single embed. White-label it as your own.", "detail": "Embeddable" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Customer voices",
+            "title": "Teams that",
+            "title_accent": "stopped guessing",
+            "intro": "What data leaders say after moving their reporting to Lumen.",
+            "reviews": [
+              { "quote": "We had three teams reporting three different versions of churn. Lumen gave us one governed number everyone trusts — and killed the monthly reconciliation meeting for good.", "author": "M. Chen", "role": "VP Data, B2B SaaS", "stars": 5 },
+              { "quote": "The natural-language queries are the killer feature. Our sales team asks questions themselves now instead of filing tickets. The data team finally has time for real analysis.", "author": "A. Novak", "role": "Head of Analytics, fintech", "stars": 5 },
+              { "quote": "We embedded Lumen dashboards into our client portal and it's become a differentiator. Clients love seeing their own numbers live, and it cut our reporting workload in half.", "author": "R. Delgado", "role": "COO, agency", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple plans,",
+            "title_accent": "clear value",
+            "intro": "Start free, scale as you grow. Every paid plan includes unlimited viewers, governed metrics, and our full connector library.",
+            "plans": [
+              { "plan": "Starter", "price": "$0", "unit": "/mo", "features": [ { "text": "Up to 3 data sources" }, { "text": "5 dashboards" }, { "text": "Unlimited viewers" }, { "text": "Community support" } ], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Growth", "price": "$49", "unit": "/mo", "featured": "yes", "features": [ { "text": "Everything in Starter" }, { "text": "Unlimited data sources" }, { "text": "Natural-language queries" }, { "text": "Alerts & Slack notifications" }, { "text": "Row-level security" }, { "text": "Priority support" } ], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Enterprise", "price": "Custom", "unit": "", "features": [ { "text": "Everything in Growth" }, { "text": "SSO/SAML & SCIM" }, { "text": "Embedded dashboards" }, { "text": "Dedicated success manager" }, { "text": "Custom SLAs" }, { "text": "On-prem or VPC deployment" } ], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions teams",
+            "title_accent": "ask before switching",
+            "intro": "Straight answers about setup, security, and what moving to Lumen actually takes.",
+            "items": [
+              { "question": "How long does it take to get set up?", "answer": "Most teams connect their first data source and build a live dashboard within a day. The governed metric layer takes a few hours to define, and our team helps you model your core metrics during onboarding." },
+              { "question": "Do I need a data team to use Lumen?", "answer": "No. Lumen is built for self-serve. You connect sources with native connectors, define metrics in plain language, and your whole team can ask questions without writing SQL. Analysts can go deeper with the SQL editor when they want to." },
+              { "question": "How is my data kept secure?", "answer": "Lumen is SOC 2 Type II certified with SSO/SAML, row-level security, and a complete audit trail on every query. Your data is encrypted in transit and at rest, and we never train models on your data." },
+              { "question": "Can I embed dashboards in my own product?", "answer": "Yes. The Enterprise plan includes embeddable, white-label dashboards you can drop into your product, client portal, or reports with a single snippet. Your customers see your brand, not ours." },
+              { "question": "What happens if I outgrow my plan?", "answer": "You can upgrade or downgrade at any time, and we prorate automatically. If you need on-prem or VPC deployment, custom SLAs, or dedicated support, our Enterprise team will build a plan around you." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's talk about",
+            "title_accent": "your data",
+            "intro": "Start a free trial for instant access, or talk to our team about migrating from your current BI tool, embedding dashboards, or an enterprise deployment. We'll get back to you the same day.",
+            "phone": "(555) 318-7724",
+            "email": "hello@lumenanalytics.io",
+            "location": "Remote-first · Serving teams worldwide",
+            "form_kicker": "Get started today",
+            "form_title": "Tell us about your data stack",
+            "submit_cta": "Start a free trial"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ad-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "LUMEN ANALYTICS",
+            "brand_tag": "BUSINESS INTELLIGENCE",
+            "blurb": "A business analytics suite that unifies your data into one governed source of truth and puts live answers in front of every decision-maker.",
+            "copyright": "© Lumen Analytics — business analytics suite",
+            "columns": [
+              {
+                "heading": "Platform",
+                "links": [
+                  { "text": "Connect", "url": { "url": "#services" } },
+                  { "text": "Model", "url": { "url": "#services" } },
+                  { "text": "Explore", "url": { "url": "#services" } },
+                  { "text": "How it works", "url": { "url": "#how" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Why Lumen", "url": { "url": "#why" } },
+                  { "text": "Customer voices", "url": { "url": "#voices" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
