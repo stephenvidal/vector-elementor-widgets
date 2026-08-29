@@ -1,0 +1,281 @@
+{
+  "title": "Pipeline & Co. — Lead Generation Agency",
+  "slug": "leadgen-agency",
+  "kit": "leadgen-agency",
+  "containers": [
+    {
+      "id": "lg-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "PIPELINE & CO.",
+            "brand_tag": "LEAD GENERATION",
+            "cta_text": "Book a pipeline audit",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#services" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "Results", "url": { "url": "#results" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-168.png", "id": 0 },
+            "eyebrow": "B2B lead generation agency · Qualified meetings, not MQLs",
+            "headline": "A booked meeting is the<br><em>only metric that matters.</em>",
+            "copy": "Pipeline & Co. is a B2B lead generation agency that fills your calendar with qualified, sales-ready meetings — not vanity metrics. We own the outreach, the follow-up, and the pipeline, so your closers only ever talk to buyers.",
+            "primary_cta_text": "Book a pipeline audit",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Pay per qualified meeting — no retainers for activity" },
+              { "text": "Named SDRs on your account, not a shared bench" },
+              { "text": "Average 4.1x return on every dollar of outreach spend" },
+              { "text": "Full transparency: every touchpoint logged in your CRM" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The numbers we're judged on",
+            "title": "Meetings booked,",
+            "title_accent": "revenue closed",
+            "intro": "We don't report impressions or opens. We report the meetings that land on your calendar and the pipeline they create.",
+            "stats": [
+              { "value": "4.1x", "label": "Average return on outreach spend" },
+              { "value": "1,900+", "label": "Qualified meetings booked for clients" },
+              { "value": "38%", "label": "Average meeting-to-opportunity rate" },
+              { "value": "11 days", "label": "Median time from kickoff to first booked meeting" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Three engines,",
+            "title_accent": "one pipeline",
+            "intro": "Most agencies sell you a channel. We run the whole demand engine — so outbound, inbound, and nurture actually feed the same pipeline instead of working against each other.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Outbound" },
+              { "key": "build", "label": "Inbound" },
+              { "key": "launch", "label": "Nurture" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Cold email & LinkedIn", "text": "Sequences built on real research, not spray-and-pray. Every message is personalized to the prospect's role, company, and pain — and tested against reply rates." },
+              { "icon": "◈", "title": "List building & targeting", "text": "We build your ideal-customer list from verified data, then layer on intent signals so you only reach buyers who are actually in-market." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Landing pages & offers", "text": "High-converting pages and lead magnets engineered around one job: getting a qualified prospect to raise their hand and book a call." },
+              { "icon": "⚑", "title": "Paid & SEO demand", "text": "Search and paid campaigns that pull in buyers already looking for a solution like yours — and route them straight into your pipeline." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Lead qualification & routing", "text": "Every lead is scored, qualified, and routed to the right rep in minutes — so your team spends time on buyers, not on sorting noise." },
+              { "icon": "✦", "title": "Nurture & follow-up", "text": "Automated, human-sounding follow-up that keeps warm leads moving. We chase the ones worth chasing and retire the rest." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A process built on",
+            "title_accent": "accountability",
+            "intro": "No black boxes, no 'trust us' reporting. Here's how a typical engagement runs from first call to a full pipeline.",
+            "steps": [
+              { "title": "Audit", "text": "We review your offer, your ICP, and your current funnel — and tell you honestly whether we can move the needle before you spend a dollar." },
+              { "title": "Build", "text": "We assemble your target list, write the sequences, and set up the tracking. You approve the messaging before a single email goes out." },
+              { "title": "Launch", "text": "Outbound, inbound, and nurture go live together. You see every touchpoint in your CRM from day one — nothing hidden." },
+              { "title": "Optimize", "text": "We double down on what books meetings and cut what doesn't, every week. You get a pipeline report, not a vanity dashboard." }
+            ],
+            "note": "Most clients see their first qualified meeting within two weeks of launch. We stay on as long as we're earning our keep."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Pipeline & Co.",
+            "title": "The agency that",
+            "title_accent": "owns the outcome",
+            "intro": "Plenty of firms will sell you 'leads.' We sell booked meetings with the right buyers — and we structure our pay to prove it.",
+            "features": [
+              { "number": "01", "title": "Pay for meetings, not activity", "text": "Our core model is per-qualified-meeting. If we don't book, you don't pay for outreach. That keeps us honest and you protected.", "detail": "Outcome-based pricing" },
+              { "number": "02", "title": "Named SDRs, not a bench", "text": "The people who build your campaigns are the ones who run them. No handoff to juniors after the contract is signed.", "detail": "Dedicated team" },
+              { "number": "03", "title": "Full CRM transparency", "text": "Every email, call, and touchpoint is logged in your CRM. You see exactly what's happening, in real time, with zero spin.", "detail": "Nothing hidden" },
+              { "number": "04", "title": "ICP-first targeting", "text": "We build your list from verified data and intent signals, so your reps only ever talk to buyers who fit your ideal customer profile.", "detail": "Quality over volume" },
+              { "number": "05", "title": "Sales-aligned messaging", "text": "We write sequences with your closers, not in a silo. The language that books the meeting is the language your team already uses.", "detail": "Built with your team" },
+              { "number": "06", "title": "Weekly optimization", "text": "We review reply rates, meeting rates, and pipeline every week — and reallocate budget to what's actually working.", "detail": "Relentless iteration" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-results",
+      "content_width": "full",
+      "settings": { "_element_id": "results" },
+      "widgets": [
+        {
+          "type": "vew-portfolio",
+          "settings": {
+            "eyebrow": "Selected results",
+            "title": "Real pipelines,",
+            "title_accent": "measurable meetings",
+            "intro": "A cross-section of recent engagements — each a different market, each with a number attached.",
+            "items": [
+              { "title": "Northgate Software", "tag": "B2B SaaS · Outbound", "text": "Rebuilt the outbound engine and booked 47 qualified demos in the first quarter. CAC down 29%.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" },
+              { "title": "Meridian Logistics", "tag": "Logistics · Inbound", "text": "New landing pages and paid demand lifted qualified inbound meetings 3.1x in six months.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" },
+              { "title": "Fieldstone Financial", "tag": "Fintech · Nurture", "text": "A nurture engine that turned a cold database into 22 booked meetings a month — with no new spend.", "url": { "url": "#contact" }, "link_label": "Case study", "image": { "url": "" }, "alt": "" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client words",
+            "title": "The meetings",
+            "title_accent": "they booked",
+            "intro": "What revenue leaders say after a quarter (or three) with Pipeline & Co.",
+            "reviews": [
+              { "quote": "We'd burned money on two agencies that gave us 'leads' nobody wanted. Pipeline booked 47 qualified demos in a quarter, and our closers actually closed them. Night and day.", "author": "R. Hale", "role": "VP Sales, B2B SaaS", "stars": 5 },
+              { "quote": "The transparency is what sold me. Every touchpoint in our CRM, real-time. I could see exactly what was working and what wasn't — and they cut the losers themselves.", "author": "D. Okafor", "role": "CRO, logistics", "stars": 5 },
+              { "quote": "Finally an agency that ties its pay to the outcome. They booked meetings, we closed deals, and the math worked for everyone. We've renewed three years running.", "author": "S. Quinn", "role": "Head of Growth, fintech", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions buyers",
+            "title_accent": "ask before engaging",
+            "intro": "Straight answers about pricing, targeting, and what working with Pipeline & Co. actually looks like.",
+            "items": [
+              { "question": "How do you price your work?", "answer": "Our core model is per-qualified-meeting. You pay for meetings that land on your calendar and fit your ICP — not for activity, impressions, or 'leads' that go nowhere. We can also run blended retainers for larger programs." },
+              { "question": "What counts as a qualified meeting?", "answer": "A meeting with a decision-maker or economic buyer at a company that fits your ideal customer profile, who has confirmed they're open to a conversation about your solution. We agree the definition with you up front and report against it." },
+              { "question": "How fast will we see results?", "answer": "Most clients see their first qualified meeting within two weeks of launch. Building a consistent pipeline typically takes 60–90 days as we optimize messaging and targeting. We're transparent about the ramp from day one." },
+              { "question": "Do you work with any industry?", "answer": "We focus on B2B companies with a clear ICP and a sales team that can close. We're strongest in SaaS, fintech, logistics, manufacturing, and professional services — but we'll tell you honestly if we're not the right fit." },
+              { "question": "What do you need from us to start?", "answer": "A clear offer, access to your CRM, and a few hours with your sales team so we can learn how you sell. We handle the list building, messaging, and outreach from there." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's talk about",
+            "title_accent": "your pipeline",
+            "intro": "Book a free pipeline audit. We'll review your offer, your ICP, and your current funnel — and give you an honest read on whether we can fill your calendar with qualified meetings.",
+            "phone": "(555) 214-8890",
+            "email": "hello@pipelineand.co",
+            "location": "Serving B2B clients across North America & Europe",
+            "form_kicker": "Start the conversation",
+            "form_title": "Tell us about your pipeline",
+            "submit_cta": "Book a pipeline audit"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lg-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "PIPELINE & CO.",
+            "brand_tag": "LEAD GENERATION",
+            "blurb": "A B2B lead generation agency that fills your calendar with qualified, sales-ready meetings — and ties its pay to the outcome.",
+            "copyright": "© Pipeline & Co. — lead generation agency",
+            "columns": [
+              {
+                "heading": "What we do",
+                "links": [
+                  { "text": "Outbound", "url": { "url": "#services" } },
+                  { "text": "Inbound", "url": { "url": "#services" } },
+                  { "text": "Nurture", "url": { "url": "#services" } },
+                  { "text": "How we work", "url": { "url": "#how" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Selected results", "url": { "url": "#results" } },
+                  { "text": "Client words", "url": { "url": "#voices" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
