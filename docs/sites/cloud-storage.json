@@ -1,0 +1,222 @@
+{
+  "title": "Stratus",
+  "slug": "cloud-storage",
+  "kit": "cloud-storage",
+  "containers": [
+    {
+      "id": "cs-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "STRATUS",
+            "brand_tag": "CLOUD",
+            "cta_text": "Start free",
+            "cta_url": { "url": "#pricing" },
+            "links": [
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Why Stratus", "url": { "url": "#why" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-171.png", "id": 0 },
+            "eyebrow": "Stratus · Cloud storage & file sync · Built for teams and creators",
+            "headline": "Your files, everywhere.<br><em>Your data, always yours.</em>",
+            "copy": "Stratus is the cloud storage that keeps every file in sync across your devices, your team, and your life — with end-to-end encryption, version history, and a sync engine fast enough to forget it's there.",
+            "primary_cta_text": "Start free",
+            "primary_cta_url": { "url": "#pricing" },
+            "secondary_cta_text": "See how it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "2 TB free for your first 30 days — no card required" },
+              { "text": "End-to-end encrypted on every plan" },
+              { "text": "Syncs photos, docs, and folders in real time" },
+              { "text": "Works on Mac, Windows, iOS, Android, and the web" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Stratus by the numbers",
+            "title": "Built to hold",
+            "title_accent": "everything you make",
+            "intro": "We measure success the way you do: files that never disappear, teams that never lose work, and a service that's there the moment you need it.",
+            "stats": [
+              { "value": "2.4 PB", "label": "Of files synced every single day" },
+              { "value": "99.99%", "label": "Uptime across our global storage fleet" },
+              { "value": "38M+", "label": "People and teams storing with Stratus" },
+              { "value": "0", "label": "Data breaches in our ten-year history" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From install to",
+            "title_accent": "everything in sync",
+            "intro": "No migration marathon, no IT ticket. Stratus gets your files backed up and synced in the time it takes to make coffee.",
+            "steps": [
+              { "title": "Install the app", "text": "Download Stratus on your laptop, phone, and tablet. Sign in once and every device is connected in seconds." },
+              { "title": "Choose your folders", "text": "Point Stratus at the folders you care about — Documents, Photos, Projects — and it starts syncing instantly, in the background." },
+              { "title": "Invite your team", "text": "Share folders with granular permissions. Everyone sees the latest version, and edits merge without conflicts or lost work." },
+              { "title": "Forget it's there", "text": "Stratus runs quietly in the background, backing up as you work. When you need a file, it's on every device, always current." }
+            ],
+            "note": "Most people are fully backed up within 15 minutes of installing — no manual uploads, no waiting on a progress bar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Stratus",
+            "title": "Storage that works",
+            "title_accent": "the way you do",
+            "intro": "A cloud drive only helps if it's fast, safe, and effortless. Stratus is designed to be all three — so you never think about your files again.",
+            "features": [
+              { "number": "01", "title": "Real-time sync", "text": "Save a file and it's on every device within seconds. Our delta sync only uploads the changed bits, so it's fast even on slow connections.", "detail": "Fast by design" },
+              { "number": "02", "title": "End-to-end encryption", "text": "Your files are encrypted on your device before they ever leave it. Even we can't read them — only you and the people you share with can.", "detail": "Private by default" },
+              { "number": "03", "title": "Version history", "text": "Every change is saved. Accidentally overwrite a file? Roll back to any version from the last 30 days (or forever, on Pro).", "detail": "Never lose work" },
+              { "number": "04", "title": "Smart sharing", "text": "Share a link, a folder, or a whole workspace with granular permissions. Set expiry dates and password protection on any link.", "detail": "Control every share" },
+              { "number": "05", "title": "Offline access", "text": "Mark files as available offline and they're on your device, ready to open on a plane, in a tunnel, or anywhere the signal drops.", "detail": "Works anywhere" },
+              { "number": "06", "title": "Team workspaces", "text": "Shared folders with activity feeds, comments, and approvals. Your whole team works from one source of truth, not email attachments.", "detail": "Built for teams" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Customer voices",
+            "title": "Teams that switched",
+            "title_accent": "and never looked back",
+            "intro": "From solo creators to 500-person companies, here's why people trust Stratus with the files that matter most.",
+            "reviews": [
+              { "quote": "We moved our whole studio off a patchwork of drives and email attachments. Stratus just works — every edit is on every machine instantly, and the version history has saved us more than once.", "author": "Ava Lindqvist", "role": "Creative Director, Northlight Studio", "stars": 5 },
+              { "quote": "The encryption is what sold us. We handle client contracts and source files, and knowing they're encrypted before they leave our devices is a huge weight off. It's fast, too — faster than the big names.", "author": "Daniel Okafor", "role": "CTO, Fieldstone Media", "stars": 5 },
+              { "quote": "I've been burned by cloud drives that lost files or held them hostage. Stratus is the first one I actually trust. Ten years, zero breaches, and my photos are on every device without me lifting a finger.", "author": "Priya Raman", "role": "Photographer & Founder", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple plans,",
+            "title_accent": "honest storage",
+            "intro": "Every plan includes end-to-end encryption, version history, and sync across unlimited devices. Upgrade when you need more space — not before.",
+            "plans": [
+              { "plan": "Free", "price": "$0", "unit": "/mo", "features": [ { "text": "5 GB storage" }, { "text": "Sync across 3 devices" }, { "text": "30-day version history" }, { "text": "Link sharing" }, { "text": "Email support" } ], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Pro", "price": "$9", "unit": "/mo", "featured": "yes", "features": [ { "text": "2 TB storage" }, { "text": "Unlimited devices" }, { "text": "Unlimited version history" }, { "text": "Password-protected links" }, { "text": "Offline access" }, { "text": "Priority support" } ], "cta": "Start 30-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Team", "price": "$15", "unit": "/user/mo", "features": [ { "text": "Everything in Pro" }, { "text": "Shared workspaces" }, { "text": "Granular permissions" }, { "text": "Activity feeds & comments" }, { "text": "Admin console" }, { "text": "SSO & audit logs" } ], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's get your files",
+            "title_accent": "in one place",
+            "intro": "Start a free account in minutes, or talk to our team about migrating from another provider, custom storage, or an enterprise rollout. We'll get back to you the same day.",
+            "phone": "(555) 218-4470",
+            "email": "hello@stratuscloud.io",
+            "location": "Remote-first · Serving teams worldwide",
+            "form_kicker": "Start the conversation",
+            "form_title": "Tell us about your storage",
+            "submit_cta": "Start free"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cs-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "STRATUS",
+            "brand_tag": "CLOUD",
+            "blurb": "Stratus is the cloud storage that keeps every file in sync across your devices and your team — with end-to-end encryption, version history, and a sync engine fast enough to forget it's there.",
+            "copyright": "© Stratus Cloud",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Why Stratus", "url": { "url": "#why" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "Security", "url": { "url": "#why" } }
+                ]
+              },
+              {
+                "heading": "Get started",
+                "links": [
+                  { "text": "Start free", "url": { "url": "#pricing" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
