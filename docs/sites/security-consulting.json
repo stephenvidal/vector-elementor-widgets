@@ -1,0 +1,260 @@
+{
+  "title": "Vaultline — Cyber Security Consulting",
+  "slug": "security-consulting",
+  "kit": "security-consulting",
+  "containers": [
+    {
+      "id": "vs-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "VAULTLINE",
+            "brand_tag": "SECURITY",
+            "cta_text": "Get a threat assessment",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "How we secure", "url": { "url": "#how" } },
+              { "text": "Why Vaultline", "url": { "url": "#why" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-178.png", "id": 0 },
+            "eyebrow": "Vaultline · Cyber security consulting · For teams who can't afford an incident",
+            "headline": "Strong defenses,<br><em>without the jargon.</em>",
+            "copy": "Vaultline is a cyber security consulting firm that helps companies defend, detect, and recover — with clear advice and honest assessments, not fear-mongering or overpriced 'security theater'. We translate risk into decisions you actually understand.",
+            "primary_cta_text": "Get a threat assessment",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how we secure",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Independent — we sell assessments and fixes, not fear" },
+              { "text": "Plain-English reports your board can actually act on" },
+              { "text": "Average 4x return on security spend across clients" },
+              { "text": "Named senior consultants on every engagement, never juniors" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Vaultline by the numbers",
+            "title": "Measured in resilience,",
+            "title_accent": "not scare tactics",
+            "intro": "We don't just show you the risks — we close them. Here's the track record behind our recommendations.",
+            "stats": [
+              { "value": "98.2%", "label": "Average reduction in exploitable findings after remediation" },
+              { "value": "620+", "label": "Incidents investigated and resolved since 2014" },
+              { "value": "1.4m", "label": "Credentials of client data protected annually" },
+              { "value": "24/7", "label": "Monitoring and response across managed clients" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Security across the",
+            "title_accent": "whole attack surface",
+            "intro": "From a single penetration test to fully managed detection and response, Vaultline meets you where you are and scales as your risk profile grows.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Assess" },
+              { "key": "build", "label": "Defend" },
+              { "key": "launch", "label": "Respond" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Red team & pentesting", "text": "We attack your systems the way real adversaries do — then hand you a prioritised, jargon-free report of what we found and exactly how to fix it." },
+              { "icon": "◈", "title": "Risk assessments", "text": "A structured review of your people, processes, and technology, scored against industry frameworks and aligned to your tolerance — not a generic compliance checklist." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Security architecture", "text": "Network segmentation, identity controls, and zero-trust foundations designed to blunt the impact of any single compromise." },
+              { "icon": "⚑", "title": "Hardening & compliance", "text": "We close the gaps attackers actually exploit — MFA, patching, backups, and configuration — and help you demonstrate it to auditors and clients." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Managed detection & response", "text": "24/7 monitoring, alert triage, and a named incident responder who picks up the phone when something goes wrong." },
+              { "icon": "✦", "title": "Incident response", "text": "When it's already happened, we move fast to contain, investigate, and recover — and then help you prevent the sequel." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A process that",
+            "title_accent": "builds trust",
+            "intro": "No mystery boxes, no panic-selling. Here's how a Vaultline engagement runs from first call to lasting defenses.",
+            "steps": [
+              { "title": "Discover", "text": "We interview your team, review your architecture, and map your current exposure. You get a written findings brief — whether or not you hire us." },
+              { "title": "Prioritise", "text": "We rank risks by likelihood and business impact, not by severity alone. You get a clear, funded roadmap of what to fix first and why." },
+              { "title": "Remediate", "text": "Our senior consultants close the gaps in short, visible increments alongside your team. Every change is explained and documented." },
+              { "title": "Sustain", "text": "We hand over monitoring, playbooks, and training so security becomes operating-as-usual. You stay resilient long after we leave." }
+            ],
+            "note": "Every engagement ends with documentation you own and a team that understands it. We leave you stronger, not more dependent on us."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Vaultline",
+            "title": "The partner that",
+            "title_accent": "stops the noise",
+            "intro": "Security is full of vendors who profit from panic. We're built to be the calm, competent partner you can actually work with — here's what that means in practice.",
+            "features": [
+              { "number": "01", "title": "Plain language, always", "text": "No vendor acronym soup. Every report explains risk in terms of dollars, hours, and decisions — the way your board thinks.", "detail": "No jargon" },
+              { "number": "02", "title": "Independently honest", "text": "We don't sell hardware, software, or a subscription you don't need. If you already have the right tools, we say so.", "detail": "Vendor-neutral" },
+              { "number": "03", "title": "Senior people only", "text": "The consultant who scopes your engagement is the one who delivers it. No bait-and-switch to juniors after you sign.", "detail": "Named experts" },
+              { "number": "04", "title": "Business-aligned risk", "text": "We prioritise what actually threatens your goals — not the loudest alert. Expensive-but-redundant controls get flagged, not sold.", "detail": "Risk-based" },
+              { "number": "05", "title": "Your team stays capable", "text": "We bring your people along. Training and handover are core to every project, so security doesn't live in one vendor's head.", "detail": "Knowledge transfer" },
+              { "number": "06", "title": "Faster than attackers", "text": "From a 48-hour containment SLA to 24/7 monitoring, we're built for speed when it matters most.", "detail": "Built for incidents" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client voices",
+            "title": "Teams who",
+            "title_accent": "stopped worrying",
+            "intro": "We work with security-conscious teams across manufacturing, finance, healthcare, and tech. Here's what they say when the stress of 'am I next?' goes away.",
+            "reviews": [
+              { "quote": "After a near-miss with a phishing campaign, Vaultline assessed our whole estate in three weeks and closed every critical finding in two months. They explained each fix in terms our CFO actually understood. We've stayed with them ever since.", "author": "Amara Bello", "role": "CISO, Halcyon Logistics", "stars": 5 },
+              { "quote": "We'd been sold 'security packages' for years that turned out to be slide decks. Vaultline was different — they showed us what was real, what was noise, and what was worth spending on. The board finally trusts security reports.", "author": "R. Castellan", "role": "COO, Meridian Manufacturing", "stars": 5 },
+              { "quote": "The night our ERP flagged suspicious activity, Vaultline's team was on a call with us within minutes and contained it before any data left. That response alone paid for the year. I genuinely don't dread security reviews anymore.", "author": "L. Okonkwo", "role": "IT Director, Fieldstone Health", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions teams",
+            "title_accent": "ask before engaging",
+            "intro": "Straight answers about independence, scope, and what working with Vaultline actually looks like.",
+            "items": [
+              { "question": "Do you sell us software or a subscription we don't need?", "answer": "No. We're vendor-neutral and don't resell tools or take referral commissions. If you already own the right technology, we show you how to use it properly. If you genuinely need to buy something, we'll help you evaluate options on merit." },
+              { "question": "How is your work priced?", "answer": "Most assessments are fixed-scope with a clear price and defined deliverables. Managed detection and response is subscription-based. We agree the scope and success metrics up front and flag any change before spending a dollar." },
+              { "question": "We're a small team — are we really a target?", "answer": "Smaller teams are often bigger targets because attackers assume you have fewer defenses. Nearly half of all breaches hit SMBs. Our smallest clients start with a single risk assessment that shows exactly where you're exposed." },
+              { "question": "How fast can you respond to an active incident?", "answer": "We offer a 48-hour containment SLA for engagements with 24/7 monitoring, and typically reach the scene — remotely or on-site — within hours. Every managed client has a named responder they can call directly." },
+              { "question": "Will this disrupt our operations?", "answer": "We test and remediate in a way that minimises downtime. Where a fix could disrupt production, we schedule it with your team and test before, during, and after. Security shouldn't cost you your uptime." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's talk about",
+            "title_accent": "your exposure",
+            "intro": "Book a free, no-obligation threat assessment. We'll review your current security posture and give you an honest read on your two or three biggest risks — whether or not you hire us.",
+            "phone": "(555) 476-2291",
+            "email": "hello@vaultline.co",
+            "location": "Serving clients across North America & Europe",
+            "form_kicker": "Start the conversation",
+            "form_title": "Tell us about your security",
+            "submit_cta": "Get a threat assessment"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vs-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "VAULTLINE",
+            "brand_tag": "SECURITY",
+            "blurb": "Independent cyber security consulting that defends, detects, and recovers — with clear advice and honest assessments, never fear-mongering.",
+            "copyright": "© Vaultline — cyber security consulting",
+            "columns": [
+              {
+                "heading": "Services",
+                "links": [
+                  { "text": "Assessments", "url": { "url": "#services" } },
+                  { "text": "Defense & hardening", "url": { "url": "#services" } },
+                  { "text": "Managed detection", "url": { "url": "#services" } },
+                  { "text": "Incident response", "url": { "url": "#services" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "Why Vaultline", "url": { "url": "#why" } },
+                  { "text": "Client voices", "url": { "url": "#voices" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
