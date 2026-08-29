@@ -1,0 +1,279 @@
+{
+  "title": "RelayHub",
+  "slug": "api-marketplace",
+  "kit": "api-marketplace",
+  "containers": [
+    {
+      "id": "am-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "RELAYHUB",
+            "brand_tag": "",
+            "cta_text": "Get sandbox keys",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Catalog", "url": { "url": "#catalog" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-167.png", "id": 0 },
+            "eyebrow": "RelayHub · API Marketplace · One key · One bill",
+            "headline": "One key. Every API<br><em>you'll ever need.</em>",
+            "copy": "RelayHub is the marketplace where developers discover, subscribe to, and manage the world's best APIs — billing, keys, and docs in one place.",
+            "primary_cta_text": "Browse the catalog",
+            "primary_cta_url": { "url": "#catalog" },
+            "secondary_cta_text": "How it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "One API key for every service you use" },
+              { "text": "A single monthly bill, no vendor sprawl" },
+              { "text": "Live docs and sandbox keys in minutes" },
+              { "text": "2,400+ vetted APIs across every category" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "RelayHub by the numbers",
+            "title": "The marketplace",
+            "title_accent": "developers trust",
+            "intro": "We've turned API procurement from a month-long slog into a five-minute checkout. The numbers show how far that goes.",
+            "stats": [
+              { "value": "2,400+", "label": "Vetted APIs across 40 categories" },
+              { "value": "180k", "label": "Developers building on RelayHub" },
+              { "value": "99.99", "label": "Percent gateway uptime, worldwide" },
+              { "value": "38ms", "label": "Median time-to-first-key, end to end" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-services",
+      "content_width": "full",
+      "settings": { "_element_id": "catalog" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What you can do",
+            "title": "One marketplace,",
+            "title_accent": "every integration",
+            "intro": "Whether you need a payment rail, a mapping engine, or a language model, RelayHub connects you to the best provider in minutes — not months.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Discover" },
+              { "key": "build", "label": "Subscribe" },
+              { "key": "launch", "label": "Manage" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Search & compare", "text": "Filter 2,400+ APIs by category, pricing, latency, and reliability. Side-by-side comparisons make the right choice obvious." },
+              { "icon": "◈", "title": "Live sandbox keys", "text": "Every listing ships with instant sandbox credentials and interactive docs, so you can test before you commit to a single dollar." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "One-click subscribe", "text": "Add any API to your plan with a single click. No sales calls, no procurement forms, no per-vendor onboarding." },
+              { "icon": "⚑", "title": "Unified billing", "text": "Every API appears on one invoice with transparent usage metering. Your finance team gets a single line item, not a spreadsheet." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "One key, all APIs", "text": "A single RelayHub key authenticates every service you use. Rotate it once, and every integration updates together." },
+              { "icon": "✦", "title": "Usage & alerts", "text": "Track spend and latency across all your APIs in one dashboard, with budget alerts before a surprise bill lands." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From search to",
+            "title_accent": "shipping in minutes",
+            "intro": "RelayHub removes the friction between 'I need an API' and 'it's live in my codebase.' Here's the whole journey.",
+            "steps": [
+              { "title": "Search the catalog", "text": "Browse 2,400+ vetted APIs or search by what you're trying to build. Compare pricing, latency, and reliability side by side." },
+              { "title": "Test in sandbox", "text": "Grab instant sandbox keys and hit the interactive docs. Build and verify your integration with zero cost and zero commitment." },
+              { "title": "Subscribe in one click", "text": "Add the API to your plan. Billing, keys, and access are provisioned automatically — no vendor onboarding, no contracts to chase." },
+              { "title": "Ship and scale", "text": "Use your single RelayHub key across every integration. Monitor usage and spend in one dashboard as your product grows." }
+            ],
+            "note": "The median developer has their first live API call running within 38 minutes of creating a RelayHub account."
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why RelayHub",
+            "title": "The marketplace that",
+            "title_accent": "removes the busywork",
+            "intro": "APIs should be the fastest part of your stack, not the slowest. Here's what makes RelayHub different from a directory of links.",
+            "features": [
+              { "number": "01", "title": "One key to rule them all", "text": "A single RelayHub key authenticates every API you use. No more rotating a dozen vendor secrets or juggling per-service dashboards.", "detail": "One key, all APIs" },
+              { "number": "02", "title": "A single, honest bill", "text": "Every API lands on one invoice with transparent usage metering. No surprise line items, no per-vendor minimums, no procurement sprawl.", "detail": "One bill, no sprawl" },
+              { "number": "03", "title": "Vetted, not scraped", "text": "Every listing is reviewed for reliability, security, and honest pricing. We drop providers that don't meet the bar — so you don't have to.", "detail": "Quality you can trust" },
+              { "number": "04", "title": "Live docs & sandbox", "text": "Interactive docs and instant sandbox keys on every listing. Test a provider's real behavior before you spend a cent.", "detail": "Try before you buy" },
+              { "number": "05", "title": "Budget control built in", "text": "Set spend caps and latency alerts across all your APIs. Catch a runaway bill before it hits your statement.", "detail": "Stay in control" },
+              { "number": "06", "title": "One dashboard, everything", "text": "Usage, latency, keys, and billing for every API in a single view. Your whole integration surface, at a glance.", "detail": "Operate at scale" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Who uses RelayHub",
+            "title": "Teams that stopped",
+            "title_accent": "herding vendors",
+            "intro": "From indie hackers to platform teams at scale, here's why developers build on RelayHub for the long haul.",
+            "reviews": [
+              { "quote": "We replaced six separate vendor dashboards with one RelayHub key. Procurement went from a quarter-long project to a single afternoon. It's the best infrastructure decision we've made.", "author": "Dana Whitfield", "role": "CTO, Fieldnote", "stars": 5 },
+              { "quote": "The sandbox keys and live docs are what sold me. I tested three mapping APIs in an hour and shipped the winner the same day. No other marketplace comes close.", "author": "Ravi Menon", "role": "Staff Engineer, Cartwheel", "stars": 5 },
+              { "quote": "One bill for every API we use changed our finance team's life. No more reconciling a dozen invoices or chasing vendor minimums. RelayHub just works.", "author": "Elena Vasquez", "role": "Head of Platform, Brightloop", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Pay for the APIs",
+            "title_accent": "you actually use",
+            "intro": "RelayHub is free to join. You only pay for the API usage you consume, with transparent per-call pricing and no platform markup on most listings.",
+            "plans": [
+              { "plan": "Hobby", "price": "$0", "unit": "/mo", "features": [ { "text": "Up to 3 APIs" }, { "text": "Sandbox keys on every listing" }, { "text": "Community support" }, { "text": "Usage dashboard" }, { "text": "Single key access" } ], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Pro", "price": "$29", "unit": "/mo", "featured": "yes", "features": [ { "text": "Unlimited APIs" }, { "text": "Priority support" }, { "text": "Budget alerts & spend caps" }, { "text": "Team keys & roles" }, { "text": "Usage analytics" }, { "text": "No platform markup" } ], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Scale", "price": "Custom", "unit": "", "features": [ { "text": "Everything in Pro" }, { "text": "Dedicated success manager" }, { "text": "Custom contracts & SLAs" }, { "text": "Volume pricing" }, { "text": "SSO & audit logs" }, { "text": "On-prem gateway option" } ], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions teams",
+            "title_accent": "ask before switching",
+            "intro": "Straight answers about keys, billing, and what moving to RelayHub actually takes.",
+            "items": [
+              { "question": "How is RelayHub different from a directory of APIs?", "answer": "A directory just links you to vendors. RelayHub is a real marketplace: one key authenticates every API, one bill covers them all, and every listing is vetted for reliability and honest pricing." },
+              { "question": "Do I have to migrate my existing integrations?", "answer": "No. You can keep using your current providers and add RelayHub for new ones. When you're ready, our migration guide walks you through moving existing keys over in an afternoon." },
+              { "question": "How does billing work?", "answer": "You're billed monthly for the API usage you actually consumed, all on one invoice. There's no platform markup on most listings, and you can set spend caps to stay in control." },
+              { "question": "Is my data secure?", "answer": "Yes. RelayHub is SOC 2 Type II certified, and your API keys are encrypted at rest and in transit. We never see the payloads flowing between you and the providers you use." },
+              { "question": "Can my whole team use one account?", "answer": "Yes. Pro and Scale plans support team keys with granular roles, so each developer gets their own key while you keep a single bill and a single audit trail." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's get you",
+            "title_accent": "shipping faster",
+            "intro": "Create a free account for instant sandbox keys, or talk to our team about enterprise access, custom contracts, or migrating your existing integrations.",
+            "phone": "(555) 208-7741",
+            "email": "hello@relayhub.dev",
+            "location": "Remote-first · Serving developers worldwide",
+            "form_kicker": "Get started today",
+            "form_title": "Tell us what you're building",
+            "submit_cta": "Request sandbox keys"
+          }
+        }
+      ]
+    },
+    {
+      "id": "am-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "RELAYHUB",
+            "brand_tag": "",
+            "blurb": "The marketplace where developers discover, subscribe to, and manage the world's best APIs — billing, keys, and docs in one place. One key, one bill, every API.",
+            "copyright": "© RelayHub",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Catalog", "url": { "url": "#catalog" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "Why RelayHub", "url": { "url": "#why" } }
+                ]
+              },
+              {
+                "heading": "Get started",
+                "links": [
+                  { "text": "Browse the catalog", "url": { "url": "#catalog" } },
+                  { "text": "Request sandbox keys", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
