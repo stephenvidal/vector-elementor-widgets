@@ -1,0 +1,259 @@
+{
+  "title": "Cobalt Consulting",
+  "slug": "it-consulting",
+  "kit": "it-consulting",
+  "containers": [
+    {
+      "id": "ic-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "COBALT",
+            "brand_tag": "Consulting",
+            "cta_text": "Book a call",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "Why Cobalt", "url": { "url": "#why" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-163.png", "id": 0 },
+            "eyebrow": "Cobalt Consulting · IT Strategy & Delivery · Mid-market focus",
+            "headline": "IT strategy that<br><em>pays for itself.</em>",
+            "copy": "Cobalt Consulting helps mid-market companies turn technology from a cost centre into a competitive edge — with clear roadmaps, honest advice, and no vendor lock-in.",
+            "primary_cta_text": "Book a strategy call",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Independent advice — we don't resell hardware or software" },
+              { "text": "Fixed-scope engagements, no surprise invoices" },
+              { "text": "Average 3.2x ROI across completed projects" },
+              { "text": "Named senior consultants on every engagement" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Cobalt by the numbers",
+            "title": "Measured in outcomes,",
+            "title_accent": "not hours billed",
+            "intro": "We track the same thing you do: whether technology is making your business faster, safer, and more profitable.",
+            "stats": [
+              { "value": "3.2x", "label": "Average ROI across completed engagements" },
+              { "value": "140+", "label": "Mid-market clients advised since 2012" },
+              { "value": "38%", "label": "Average reduction in infrastructure spend" },
+              { "value": "99.98%", "label": "Uptime across systems we operate" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "One partner for your",
+            "title_accent": "entire technology stack",
+            "intro": "From a single audit to full managed operations, Cobalt meets you where you are and scales with you as you grow.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Strategy" },
+              { "key": "build", "label": "Delivery" },
+              { "key": "launch", "label": "Operations" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "IT strategy & roadmaps", "text": "A 12–18 month technology plan aligned to your business goals, with clear priorities, budgets, and a realistic timeline. No jargon, just decisions you can act on." },
+              { "icon": "◈", "title": "Cloud migration", "text": "Move to AWS, Azure, or Google Cloud on a plan that minimises downtime and risk. We right-size your estate so you only pay for what you use." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Infrastructure & networking", "text": "Design and build secure, resilient networks and server estates that scale. We document everything, so nothing lives in one person's head." },
+              { "icon": "⚑", "title": "Cybersecurity hardening", "text": "Assess, remediate, and monitor. We close the gaps attackers exploit — MFA, patching, backups, and incident response — before they become headlines." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Managed IT operations", "text": "24/7 monitoring, proactive maintenance, and a named support team. Your systems stay up, patched, and fast — without you managing a vendor." },
+              { "icon": "✦", "title": "Vendor & procurement", "text": "We negotiate, compare, and manage your software and hardware vendors so you get fair pricing and contracts that actually protect you." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "A process built on",
+            "title_accent": "clarity and trust",
+            "intro": "No black boxes, no bait-and-switch. Here's how a typical engagement runs from first call to lasting value.",
+            "steps": [
+              { "title": "Discover", "text": "We interview your team, review your stack, and map your current state. You get a written findings report — whether or not you hire us." },
+              { "title": "Design", "text": "We turn findings into a prioritised roadmap with costs, timelines, and expected ROI. You approve every phase before we start." },
+              { "title": "Deliver", "text": "Our senior consultants implement in short, visible increments. You see progress weekly, not in a big-bang reveal at the end." },
+              { "title": "Operate", "text": "We hand over clean documentation and, if you want, keep running it. Either way, you own the knowledge and the systems." }
+            ],
+            "note": "Every engagement includes a written handover. We leave you more capable, not more dependent on us."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Cobalt",
+            "title": "The partner you can",
+            "title_accent": "actually trust",
+            "intro": "Plenty of firms can sell you a project. We're built to be the technology partner you keep for years — and here's what that looks like in practice.",
+            "features": [
+              { "number": "01", "title": "Truly independent", "text": "We don't resell hardware, software, or cloud credits. Our advice is based on what's right for you, not on our commission.", "detail": "No vendor kickbacks" },
+              { "number": "02", "title": "Senior people, always", "text": "The consultant who scopes your project is the one who delivers it. No bait-and-switch to juniors after the contract is signed.", "detail": "Named experts" },
+              { "number": "03", "title": "Fixed, honest pricing", "text": "Fixed-scope engagements with clear deliverables. If the scope changes, we tell you before we spend a dollar — not after.", "detail": "No surprise invoices" },
+              { "number": "04", "title": "Security by default", "text": "Every system we touch gets MFA, patching, backups, and monitoring as standard. Security isn't an add-on, it's the baseline.", "detail": "Secure from day one" },
+              { "number": "05", "title": "Documentation you own", "text": "Every engagement ends with clean, current documentation. You're never held hostage by a single vendor or a single person.", "detail": "You own the knowledge" },
+              { "number": "06", "title": "Measured ROI", "text": "We agree success metrics up front and report against them. If we can't show value, we tell you — and we fix it.", "detail": "Outcomes, not hours" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Client voices",
+            "title": "Partners who",
+            "title_accent": "stayed",
+            "intro": "Most of our clients have worked with us for years. Here's why they keep coming back.",
+            "reviews": [
+              { "quote": "Cobalt migrated us to the cloud with zero downtime and cut our infrastructure bill by a third. They explained every step in plain English. It's the first IT partner our board actually trusts.", "author": "Marta Reyes", "role": "COO, Halcyon Logistics", "stars": 5 },
+              { "quote": "After a near-miss ransomware scare, Cobalt hardened our entire estate in six weeks. They found gaps our previous provider had missed for years. I sleep better now.", "author": "Devon Okafor", "role": "CFO, Meridian Manufacturing", "stars": 5 },
+              { "quote": "We'd been burned by big consultancies before. Cobalt is the opposite — senior people, fixed pricing, and they hand over documentation we actually understand. We've used them for four years straight.", "author": "Priya Natarajan", "role": "CEO, Fieldstone Retail Group", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions clients",
+            "title_accent": "ask before engaging",
+            "intro": "Straight answers about independence, pricing, and what working with Cobalt actually looks like.",
+            "items": [
+              { "question": "Are you really independent of vendors?", "answer": "Yes. We don't resell hardware, software, or cloud credits, and we don't take referral commissions. Our recommendations are based solely on what fits your business, budget, and risk profile." },
+              { "question": "How do you price your work?", "answer": "Most engagements are fixed-scope with a clear price and defined deliverables. We agree success metrics up front and report against them. If scope changes, we flag it before spending a dollar." },
+              { "question": "What size companies do you work with?", "answer": "We focus on mid-market companies — typically 50 to 1,000 employees — across manufacturing, logistics, retail, and professional services. We're big enough to handle complex estates, small enough to care." },
+              { "question": "Do we have to move to the cloud?", "answer": "No. We recommend cloud where it genuinely saves money or reduces risk, but we're equally comfortable optimising on-premises estates. The right answer depends on your situation, not our agenda." },
+              { "question": "What happens after the project ends?", "answer": "You get clean documentation and full ownership of your systems. If you'd like, we can also run ongoing managed operations. Either way, you're never locked in or left stranded." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's talk about",
+            "title_accent": "your technology",
+            "intro": "Book a free, no-obligation strategy call. We'll review your current state and give you an honest read on where you stand — whether or not you hire us.",
+            "phone": "(555) 318-7742",
+            "email": "hello@cobaltconsulting.com",
+            "location": "Serving clients across North America & Europe",
+            "form_kicker": "Start the conversation",
+            "form_title": "Tell us about your business",
+            "submit_cta": "Book a strategy call"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ic-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "COBALT",
+            "brand_tag": "Consulting",
+            "blurb": "Independent IT strategy, delivery, and operations for mid-market companies. Technology that pays for itself.",
+            "copyright": "© Cobalt Consulting",
+            "columns": [
+              {
+                "heading": "Services",
+                "links": [
+                  { "text": "Strategy & roadmaps", "url": { "url": "#services" } },
+                  { "text": "Cloud migration", "url": { "url": "#services" } },
+                  { "text": "Cybersecurity", "url": { "url": "#services" } },
+                  { "text": "Managed operations", "url": { "url": "#services" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "Why Cobalt", "url": { "url": "#why" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
