@@ -1,0 +1,259 @@
+{
+  "title": "ForgeKit",
+  "slug": "dev-tools",
+  "kit": "dev-tools",
+  "containers": [
+    {
+      "id": "fk-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "FORGEKIT",
+            "brand_tag": "Developer Tools",
+            "cta_text": "Start free",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Platform", "url": { "url": "#platform" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#contact" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-175.png", "id": 0 },
+            "eyebrow": "ForgeKit · Developer tools · CI/CD · Observability · One platform",
+            "headline": "Ship code with<br><em>confidence, not chaos.</em>",
+            "copy": "ForgeKit is the developer toolchain that brings your builds, tests, deploys, and monitoring into one place. Stop stitching together a dozen half-integrated tools — get a single platform your whole team actually enjoys using.",
+            "primary_cta_text": "Start building free",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See the platform",
+            "secondary_cta_url": { "url": "#platform" },
+            "trust_list": [
+              { "text": "Unlimited private repos on every paid plan" },
+              { "text": "2,000 free build minutes every month" },
+              { "text": "Zero-config deploys to any cloud" },
+              { "text": "SOC 2 Type II certified infrastructure" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "ForgeKit by the numbers",
+            "title": "Built for teams that",
+            "title_accent": "ship every day",
+            "intro": "We measure ourselves the way you measure your pipeline: speed, reliability, and time saved.",
+            "stats": [
+              { "value": "4.2M+", "label": "Builds run on ForgeKit every month" },
+              { "value": "38%", "label": "Faster average deploy time vs. prior toolchains" },
+              { "value": "99.99%", "label": "Platform uptime over the last 12 months" },
+              { "value": "61k+", "label": "Engineering teams building on ForgeKit" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-platform",
+      "content_width": "full",
+      "settings": { "_element_id": "platform" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "The platform",
+            "title": "Everything your pipeline",
+            "title_accent": "needs, in one place",
+            "intro": "ForgeKit replaces the patchwork of build servers, test runners, and monitoring dashboards with one coherent toolchain. Here's what's inside.",
+            "features": [
+              { "number": "01", "title": "Instant CI/CD", "text": "Push a branch and watch it build, test, and deploy in minutes. Parallel pipelines and smart caching mean your queue never becomes the bottleneck.", "detail": "Parallel by default" },
+              { "number": "02", "title": "Live observability", "text": "Traces, logs, and metrics in a single view. When something breaks, you see the exact commit and the exact line — not a wall of guesswork.", "detail": "One pane of glass" },
+              { "number": "03", "title": "Preview environments", "text": "Every pull request gets its own live URL. Review real UI, not screenshots, and merge with confidence that what you saw is what ships.", "detail": "URL per PR" },
+              { "number": "04", "title": "Secrets & config", "text": "Encrypted secrets, environment variables, and feature flags managed in one place — with audit logs and per-team access controls.", "detail": "Encrypted at rest" },
+              { "number": "05", "title": "Deploy to anything", "text": "One-click deploys to AWS, GCP, Azure, Vercel, or your own servers. Rollbacks are instant and every deploy is fully reversible.", "detail": "Zero-config targets" },
+              { "number": "06", "title": "Team workflows", "text": "Code review, approvals, and status checks wired into your git flow. Enforce your process without slowing your people down.", "detail": "Process that scales" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "How we help",
+            "title": "From first commit",
+            "title_accent": "to full-scale platform",
+            "intro": "Whether you're a two-person startup or a platform team at a hundred engineers, ForgeKit grows with you. Here's how teams typically start.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Start" },
+              { "key": "build", "label": "Scale" },
+              { "key": "launch", "label": "Enterprise" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Free tier for side projects", "text": "Unlimited private repos, 2,000 build minutes, and full observability — free forever for small projects. No credit card required to start." },
+              { "icon": "◈", "title": "Quickstart templates", "text": "Spin up a working pipeline for Node, Python, Go, or Rust in minutes with battle-tested templates. Your first deploy is an afternoon away." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Team plans", "text": "Unlimited build minutes, preview environments, and granular permissions. Add seats as you grow — pricing scales with your team, not your anxiety." },
+              { "icon": "⚑", "title": "Advanced caching", "text": "Smart dependency caching cuts build times by up to 70%. Your CI stops being the thing everyone waits on." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Enterprise security", "text": "SSO/SAML, SCIM provisioning, audit logs, and dedicated support. Compliance-ready from day one with SOC 2 and GDPR coverage." },
+              { "icon": "✦", "title": "Self-hosted option", "text": "Run ForgeKit inside your own VPC for air-gapped or regulated environments. Same experience, your infrastructure." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From signup to shipping",
+            "title_accent": "in under an hour",
+            "intro": "ForgeKit is designed to be adopted in an afternoon, not a quarter. Here's the path from first login to a live pipeline.",
+            "steps": [
+              { "title": "Connect your repos", "text": "Link your GitHub, GitLab, or Bitbucket account. ForgeKit imports your projects and detects your stack automatically." },
+              { "title": "Pick a template", "text": "Choose a starter pipeline for your language and framework. It just works — no YAML archaeology required." },
+              { "title": "Push and watch it build", "text": "Your first build runs in minutes. Add tests, preview environments, and deploy targets as you go." },
+              { "title": "Ship with confidence", "text": "Every merge is tested, reviewed, and deployable. Your team ships faster, and you finally see the whole pipeline in one place." }
+            ],
+            "note": "Most teams go from signup to their first production deploy in under an hour. If you get stuck, our docs and community have you covered — and real humans answer support."
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Team voices",
+            "title": "Loved by engineers,",
+            "title_accent": "trusted by leaders",
+            "intro": "From indie hackers to platform teams, here's what people say after switching to ForgeKit.",
+            "reviews": [
+              { "quote": "We replaced four tools with ForgeKit and our deploy time dropped by half. The preview environments alone are worth it — we catch UI bugs before they ever reach production.", "author": "Aisha Rahman", "role": "Engineering Lead, Lumen Health", "stars": 5 },
+              { "quote": "As a solo founder I can't babysit a pipeline. ForgeKit just works — I push, it builds, it deploys, and I get a notification. It's the first toolchain that felt like it was built for me.", "author": "Tomás Herrera", "role": "Founder, Driftline", "stars": 5 },
+              { "quote": "The observability view is the killer feature. When something breaks, I see the commit, the trace, and the log line together. Our on-call rotation went from stressful to boring — which is exactly what you want.", "author": "Priya Nair", "role": "Platform Engineer, Northwind", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions teams",
+            "title_accent": "ask before switching",
+            "intro": "Straight answers about pricing, migration, and what makes ForgeKit different.",
+            "items": [
+              { "question": "How hard is it to migrate from our current CI?", "answer": "Most teams migrate in a day. We import your repos, detect your stack, and generate a working pipeline from templates. You can run ForgeKit alongside your existing tooling until you're ready to switch fully." },
+              { "question": "Do you support our language and framework?", "answer": "We have first-class templates for Node, Python, Go, Rust, Java, and Ruby, plus Docker-based builds for anything else. If your stack runs in a container, it runs on ForgeKit." },
+              { "question": "What happens if we exceed our build minutes?", "answer": "Builds pause gracefully and resume when your quota resets — nothing is lost. On paid plans you can add burst minutes or move to unlimited. We never surprise you with overage charges." },
+              { "question": "Is our code and data secure?", "answer": "Yes. ForgeKit is SOC 2 Type II certified and GDPR compliant. Secrets are encrypted at rest and in transit, and enterprise plans add SSO, SCIM, and audit logs. You can also self-host entirely within your own VPC." },
+              { "question": "Can we try it before paying?", "answer": "Absolutely. The free tier includes unlimited private repos, 2,000 build minutes, and full observability — no credit card required. Upgrade only when you need more." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's build something",
+            "title_accent": "that ships",
+            "intro": "Start free, or talk to our team about migrating your existing toolchain. We'll help you get a working pipeline up in your first session.",
+            "phone": "(555) 318-8821",
+            "email": "hello@forgekit.dev",
+            "location": "Remote-first · Serving teams worldwide",
+            "form_kicker": "Start the conversation",
+            "form_title": "Tell us about your stack",
+            "submit_cta": "Get started"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fk-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "FORGEKIT",
+            "brand_tag": "Developer Tools",
+            "blurb": "The developer toolchain that brings builds, tests, deploys, and observability into one place. Ship code with confidence, not chaos.",
+            "copyright": "© ForgeKit",
+            "columns": [
+              {
+                "heading": "Platform",
+                "links": [
+                  { "text": "CI/CD", "url": { "url": "#platform" } },
+                  { "text": "Observability", "url": { "url": "#platform" } },
+                  { "text": "Preview environments", "url": { "url": "#platform" } },
+                  { "text": "Deploy targets", "url": { "url": "#platform" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#contact" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
