@@ -1,0 +1,236 @@
+{
+  "title": "Havenwood House",
+  "slug": "womens-shelter",
+  "kit": "womens-shelter",
+  "containers": [
+    {
+      "id": "ws-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HAVENWOOD",
+            "brand_tag": "HOUSE",
+            "cta_text": "Find help tonight",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ws-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-170.png", "id": 0 },
+            "eyebrow": "Havenwood House · Women's shelter · Safe & confidential · 24/7 intake",
+            "headline": "A safe place to land.<br><em>A steady path forward.</em>",
+            "copy": "Havenwood House is a confidential shelter and support center for women and their children fleeing domestic violence, housing insecurity, or a crisis. We offer a safe bed tonight, and the tools to rebuild lives over the months that follow.",
+            "primary_cta_text": "Find a bed tonight",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How we help",
+            "secondary_cta_url": { "url": "#services" },
+            "trust_list": [
+              { "text": "Confidential, 24/7 intake line — call any time" },
+              { "text": "No income, documents, or referral required" },
+              { "text": "Private bedrooms for every woman and child" },
+              { "text": "Free counseling, legal aid, and case management" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ws-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The difference we make",
+            "title": "Safety is only",
+            "title_accent": "the beginning",
+            "intro": "Every woman who walks through our doors has a different story. Ours is always the same: safety first, then stability, then a future with real options.",
+            "stats": [
+              { "value": "140+", "label": "Women and children housed each night" },
+              { "value": "92%", "label": "Of residents report feeling safe within 48 hours" },
+              { "value": "70%", "label": "Leave with stable housing in place" },
+              { "value": "1,100+", "label": "Hotline calls answered last year" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ws-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we offer",
+            "title": "A whole roof.",
+            "title_accent": "A whole plan.",
+            "intro": "A bed is the first night. Long-term safety takes shelter, support, and a road back to independence — we walk every step with you.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Safe shelter" },
+              { "key": "build", "label": "Counseling & legal" },
+              { "key": "launch", "label": "Rebuilding life" }
+            ],
+            "design": [
+              { "icon": "◫", "title": "Private bedrooms", "text": "Every woman and child has their own room with a locked door. You choose who knows what — your privacy and dignity come first." },
+              { "icon": "◫", "title": "Meals & essentials", "text": "Three warm meals a day, plus clothing, toiletries, diapers, and anything else you or your kids need. No fees, ever." },
+              { "icon": "◫", "title": "24/7 staffing", "text": "Trained advocates are on-site around the clock. You are never alone, and your children are always within reach." }
+            ],
+            "build": [
+              { "icon": "✦", "title": "Trauma-informed counseling", "text": "Free, confidential individual and group therapy with counselors who understand what it takes to start over." },
+              { "icon": "✦", "title": "Legal advocacy", "text": "Help with protective orders, custody, immigration, and housing court — with an advocate beside you every time." },
+              { "icon": "✦", "title": "Child & teen services", "text": "Therapists, tutors, and play groups help your kids heal and keep up at school while you rebuild." }
+            ],
+            "launch": [
+              { "icon": "⚑", "title": "Case management", "text": "One advocate works with you from day one to map income, benefits, housing, and goals — at your pace, never on a clock." },
+              { "icon": "⚑", "title": "Job & housing help", "text": "Resume support, interview prep, childcare, and applications help for apartments, vouchers, and first-month costs." },
+              { "icon": "⚑", "title": "Move-out & aftercare", "text": "We help you furnish a new home and keep checking in for a year after you leave, so stability lasts." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ws-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How to get help",
+            "title": "We meet you",
+            "title_accent": "where you are",
+            "intro": "Reaching out is the hardest step — and the strongest one. Here's exactly what happens when you call or walk in.",
+            "steps": [
+              { "title": "Call or walk in", "text": "Call our 24/7 line or walk in anytime. A live advocate answers — never an automated system — and we assess your safety right away." },
+              { "title": "We make space", "text": "If we have room, we bring you in that night, no paperwork required. If we don't, we get you somewhere safe with a warm connection." },
+              { "title": "You settle in", "text": "You get your own room, we meet your immediate needs, and you decide how much you want to share. There are no deadlines." },
+              { "title": "You build your plan", "text": "When you're ready, an advocate helps you map the next weeks and months — housing, income, legal, family — and we move at your pace." }
+            ],
+            "note": "You are never turned away for lack of capacity. If our beds are full, our advocates find you safe alternative housing that same night."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ws-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support Havenwood",
+            "title": "Be the reason someone",
+            "title_accent": "chooses safety",
+            "intro": "Your gift pays for beds, meals, counseling, and the legal advocates who stand beside survivors. Every dollar moves a woman closer to independence.",
+            "quote": "She came to us with nothing but her children and the courage to walk through the door. Today she has a job, a key of her own, and a future that belongs to her.",
+            "verse_ref": "— Hana, former resident",
+            "cta_text": "Give a woman a way forward",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ws-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "In their words",
+            "title": "Safety sounds",
+            "title_accent": "like this",
+            "intro": "Survivors and supporters on what a safe door can change.",
+            "reviews": [
+              { "quote": "The night I walked in, I had twenty dollars and nowhere to be. They gave me a locked door, a hot meal, and a woman who didn't once ask what I did wrong. That was the first time I believed I could start over.", "author": "Maya", "role": "Former resident", "stars": 5 },
+              { "quote": "Their legal advocate stood beside me in court through every protective order and custody hearing. I never had to face him alone. That presence was worth more than I can say.", "author": "Danielle", "role": "Former resident", "stars": 5 },
+              { "quote": "We fund Havenwood every quarter. They don't just shelter — they move women all the way to keys and careers. That's where our dollars go, and we see it happen.", "author": "T. Welling", "role": "Corporate partner", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ws-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Reach Havenwood",
+            "title": "Call us. Walk in.",
+            "title_accent": "We're here 24/7.",
+            "intro": "Reaching out is confidential and free. An advocate answers every call — day or night — and you never need a referral, ID, or proof of income to get help.",
+            "phone": "(555) 204-1190 · 24/7 hotline",
+            "email": "intake@havenwoodhouse.org",
+            "location": "Confidential address · Revealed upon intake",
+            "form_kicker": "Request support or connect",
+            "form_title": "We'll reach you safely",
+            "submit_cta": "Send a confidential message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ws-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HAVENWOOD",
+            "brand_tag": "HOUSE",
+            "blurb": "Havenwood House is a confidential women's shelter and support center offering safety, healing, and a path to independence for women and children in crisis.",
+            "copyright": "© Havenwood House",
+            "columns": [
+              {
+                "heading": "Get help",
+                "links": [
+                  { "text": "24/7 hotline", "url": { "url": "#contact" } },
+                  { "text": "Our services", "url": { "url": "#services" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Support us",
+                "links": [
+                  { "text": "Give", "url": { "url": "#give" } },
+                  { "text": "Volunteer", "url": { "url": "#contact" } },
+                  { "text": "Corporate partners", "url": { "url": "#contact" } },
+                  { "text": "In-kind donations", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
