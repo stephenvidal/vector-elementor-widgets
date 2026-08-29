@@ -1,0 +1,279 @@
+{
+  "title": "Trellis",
+  "slug": "project-mgmt-tool",
+  "kit": "project-mgmt-tool",
+  "containers": [
+    {
+      "id": "pm-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "TRELLIS",
+            "brand_tag": "",
+            "cta_text": "Start free",
+            "cta_url": { "url": "#pricing" },
+            "links": [
+              { "text": "Features", "url": { "url": "#features" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-162.png", "id": 0 },
+            "eyebrow": "Trellis · Project Management · Teams of 3 to 300 · Free to start",
+            "headline": "Stop herding tasks.<br><em>Start shipping.</em>",
+            "copy": "Trellis is the project workspace that turns scattered tasks, deadlines, and decisions into one calm, shared plan — so your team spends less time managing work and more time doing it.",
+            "primary_cta_text": "Start free",
+            "primary_cta_url": { "url": "#pricing" },
+            "secondary_cta_text": "See how it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Boards, lists, and timelines in one workspace" },
+              { "text": "Set up in minutes — no training required" },
+              { "text": "Real-time sync across every device" },
+              { "text": "Free for teams up to 10" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Trellis by the numbers",
+            "title": "Built to keep",
+            "title_accent": "teams moving",
+            "intro": "We're not just another task list. Trellis is the operating system behind teams that ship on time, every time.",
+            "stats": [
+              { "value": "2.4M", "label": "Tasks completed in Trellis every day" },
+              { "value": "38%", "label": "Average reduction in status meetings" },
+              { "value": "120+", "label": "Countries with active Trellis teams" },
+              { "value": "4.9/5", "label": "Average rating across 12,000+ reviews" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "One workspace, every workflow",
+            "title": "Plan the way your",
+            "title_accent": "team actually works",
+            "intro": "Whether you run sprints, track a launch, or manage a client portfolio, Trellis adapts to your process — not the other way around.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Boards" },
+              { "key": "build", "label": "Timelines" },
+              { "key": "launch", "label": "Portfolios" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Kanban boards", "text": "Drag cards across columns, set WIP limits, and see bottlenecks at a glance. Custom fields keep every card exactly as detailed as your team needs." },
+              { "icon": "◈", "title": "List & calendar views", "text": "Flip any board into a list, calendar, or table with one click. The same data, the view your team prefers." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Gantt timelines", "text": "Map dependencies, spot the critical path, and drag to reschedule. When a date slips, Trellis shows you exactly what it affects." },
+              { "icon": "⚑", "title": "Sprint planning", "text": "Plan sprints from a shared backlog, estimate with story points, and track velocity across the whole team." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Portfolio dashboards", "text": "Roll up every project into one executive view. Spot at-risk work before it becomes a fire, and report progress in seconds." },
+              { "icon": "✦", "title": "Resource planning", "text": "See who's over-allocated and who has capacity. Balance the load across projects without the spreadsheet gymnastics." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From signup to shipped in",
+            "title_accent": "four steps",
+            "intro": "Trellis is designed to be adopted in an afternoon, not rolled out over a quarter. Here's how a typical team gets going.",
+            "steps": [
+              { "title": "Create your workspace", "text": "Sign up free and invite your team. Trellis auto-creates a starter board so you can see the value before you configure anything." },
+              { "title": "Import your work", "text": "Bring in existing projects from spreadsheets, other tools, or a blank slate. Our importer maps your columns in minutes." },
+              { "title": "Build your workflow", "text": "Set up statuses, custom fields, and automations that match how your team already works. No rigid templates to fight." },
+              { "title": "Ship and scale", "text": "Add timelines, portfolios, and reporting as your team grows. Trellis scales from a two-person startup to a 300-person org." }
+            ],
+            "note": "Most teams are running their real work in Trellis within the first hour — no training sessions, no consultants required."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-features",
+      "content_width": "full",
+      "settings": { "_element_id": "features" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Trellis",
+            "title": "The workspace your",
+            "title_accent": "team will actually use",
+            "intro": "Plenty of tools look good in a demo. Trellis is built for the messy, real-world way teams work — and it shows up in the details.",
+            "features": [
+              { "number": "01", "title": "Fast by default", "text": "Every action is instant, even on huge boards. No waiting for the spinner between drags, comments, or status changes.", "detail": "Sub-100ms interactions" },
+              { "number": "02", "title": "Automations that just work", "text": "Set rules like 'when a card moves to Done, notify the client' without writing a line of code. Trigger actions across your whole workspace.", "detail": "No-code rules" },
+              { "number": "03", "title": "Real-time collaboration", "text": "See teammates' cursors, comments, and edits live. Async or in-sync, everyone is always on the same page.", "detail": "Live presence" },
+              { "number": "04", "title": "Powerful search", "text": "Find any task, comment, or file across every project in seconds. Saved views keep your most-used filters one click away.", "detail": "Search everything" },
+              { "number": "05", "title": "Integrations that connect", "text": "Two-way sync with Slack, GitHub, Google Drive, and 80+ tools. Your work stays in Trellis, your tools stay connected.", "detail": "80+ integrations" },
+              { "number": "06", "title": "Enterprise-grade security", "text": "SSO, SCIM, granular permissions, and audit logs. SOC 2 Type II certified and GDPR compliant out of the box.", "detail": "SOC 2 Type II" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Who uses Trellis",
+            "title": "Teams that switched",
+            "title_accent": "and never looked back",
+            "intro": "From scrappy startups to global product teams, here's why people make Trellis the home for their work.",
+            "reviews": [
+              { "quote": "We replaced three tools with Trellis. Our standups went from 45 minutes of status updates to 10 minutes of real problem-solving. It's the first tool the whole team actually likes.", "author": "Dana Whitfield", "role": "Head of Product, Lumen Labs", "stars": 5 },
+              { "quote": "The timeline view is a game-changer. When a launch date slips, I can see the ripple effect instantly and re-plan before anyone panics. It paid for itself in the first sprint.", "author": "Rafael Ortiz", "role": "Engineering Manager, Northbeam", "stars": 5 },
+              { "quote": "We run a distributed team across four time zones. Trellis is the single source of truth that keeps us aligned without endless meetings. I can't imagine running the company without it.", "author": "Sofia Lindqvist", "role": "COO, Fieldnote", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple plans,",
+            "title_accent": "honest value",
+            "intro": "Start free and upgrade when your team needs more. No credit card required, no surprise fees, cancel anytime.",
+            "plans": [
+              { "plan": "Free", "price": "$0", "unit": " /mo", "features": [ { "text": "Up to 10 users" }, { "text": "Unlimited boards & tasks" }, { "text": "List, board & calendar views" }, { "text": "10 automations" }, { "text": "Community support" } ], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Pro", "price": "$12", "unit": " /user/mo", "featured": "yes", "features": [ { "text": "Everything in Free" }, { "text": "Unlimited users" }, { "text": "Timeline & portfolio views" }, { "text": "Unlimited automations" }, { "text": "Guest access & permissions" }, { "text": "Priority support" } ], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Business", "price": "$24", "unit": " /user/mo", "features": [ { "text": "Everything in Pro" }, { "text": "SSO & SAML" }, { "text": "Advanced reporting" }, { "text": "Audit logs & SCIM" }, { "text": "Dedicated success manager" }, { "text": "99.9% uptime SLA" } ], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions teams",
+            "title_accent": "ask before switching",
+            "intro": "Straight answers about migration, pricing, and what moving to Trellis actually takes.",
+            "items": [
+              { "question": "How long does it take to migrate from our current tool?", "answer": "Most teams import their projects and are up and running in under an hour. Our importer maps columns, assignees, and due dates automatically, and our team is on hand to help with anything tricky." },
+              { "question": "Is my data secure?", "answer": "Yes. Trellis is SOC 2 Type II certified and GDPR compliant. Data is encrypted in transit and at rest, and Business plans add SSO, SCIM, and audit logs for full control." },
+              { "question": "Can we really use it free forever?", "answer": "Yes. The Free plan supports up to 10 users with unlimited boards and tasks, and it's genuinely free — no trial clock, no credit card. Upgrade only when your team outgrows it." },
+              { "question": "Does Trellis work for non-technical teams?", "answer": "Absolutely. Marketing, HR, operations, and design teams use Trellis every day. The interface is intuitive, and automations let anyone build powerful workflows without code." },
+              { "question": "What happens if we need more than the Business plan?", "answer": "We offer custom Enterprise plans with volume pricing, dedicated infrastructure options, and a named success manager. Talk to our sales team and we'll build a plan around your needs." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's get your team",
+            "title_accent": "on the same page",
+            "intro": "Start free in minutes, or talk to our team about migrating, enterprise plans, or a custom rollout. We'll get back to you the same day.",
+            "phone": "(555) 214-8890",
+            "email": "hello@trellis.work",
+            "location": "Remote-first · Serving teams worldwide",
+            "form_kicker": "Get started today",
+            "form_title": "Tell us about your team",
+            "submit_cta": "Start free"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pm-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "TRELLIS",
+            "brand_tag": "",
+            "blurb": "The project workspace that turns scattered tasks, deadlines, and decisions into one calm, shared plan. Free for teams up to 10.",
+            "copyright": "© Trellis",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Features", "url": { "url": "#features" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "Integrations", "url": { "url": "#features" } }
+                ]
+              },
+              {
+                "heading": "Get started",
+                "links": [
+                  { "text": "Start free", "url": { "url": "#pricing" } },
+                  { "text": "Talk to sales", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
