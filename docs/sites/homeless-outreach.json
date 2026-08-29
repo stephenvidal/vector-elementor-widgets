@@ -1,0 +1,240 @@
+{
+  "title": "The Open Door Collective",
+  "slug": "homeless-outreach",
+  "kit": "homeless-outreach",
+  "containers": [
+    {
+      "id": "odc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "OPEN DOOR",
+            "brand_tag": "COLLECTIVE",
+            "cta_text": "Get help tonight",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#work" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-174.png", "id": 0 },
+            "eyebrow": "The Open Door Collective · Street outreach · Housing first · No wrong door",
+            "headline": "Nobody should have to<br><em>sleep rough tonight.</em>",
+            "copy": "The Open Door Collective is a street-outreach and housing-first organization. Our teams walk the sidewalks, underpasses, and encampments of our city every night — building trust, meeting basic needs, and moving people from the street into a home of their own.",
+            "primary_cta_text": "Get help tonight",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Outreach teams on the street 365 nights a year" },
+              { "text": "Housing first — a home before any other requirement" },
+              { "text": "No ID, no sobriety test, no judgement to get help" },
+              { "text": "Free food, water, blankets, and harm-reduction supplies" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The difference we make",
+            "title": "A door opened is",
+            "title_accent": "a life changed",
+            "intro": "We measure success in people, not numbers — but the numbers show what steady, patient outreach can do.",
+            "stats": [
+              { "value": "1,900+", "label": "People housed since we started" },
+              { "value": "87%", "label": "Still housed after one year" },
+              { "value": "4,200+", "label": "Street contacts made last year" },
+              { "value": "120+", "label": "Volunteers on the night teams" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "From the sidewalk",
+            "title_accent": "to a front door",
+            "intro": "We meet people exactly where they are — physically and in their lives — and we never ask them to become someone else before we help.",
+            "features": [
+              { "number": "01", "title": "Night outreach", "text": "Our teams walk the same routes every night so people come to know us. Trust is built one conversation, one blanket, one shared meal at a time.", "detail": "365 nights a year" },
+              { "number": "02", "title": "Basic needs first", "text": "Hot food, water, clean socks, blankets, and harm-reduction supplies — no questions, no forms. You can't plan a future on an empty stomach.", "detail": "No conditions attached" },
+              { "number": "03", "title": "Housing first", "text": "We move people into a home of their own first, then wrap support around them. A stable address is the foundation everything else is built on.", "detail": "Home before requirements" },
+              { "number": "04", "title": "Case management", "text": "One worker stays with each person through benefits, ID, healthcare, and employment — at their pace, for as long as it takes.", "detail": "One worker, no handoffs" },
+              { "number": "05", "title": "Rapid re-housing", "text": "When someone is ready, we move fast — deposits, first month's rent, furniture, and a warm handoff to a landlord who says yes.", "detail": "From street to keys in weeks" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "We walk with you,",
+            "title_accent": "not ahead of you",
+            "intro": "There is no wrong door and no wrong time. Here's what the journey from the street to a home looks like with us.",
+            "steps": [
+              { "title": "We meet you", "text": "Our team finds you where you are — a sidewalk, a shelter, a hospital, a bus stop. We introduce ourselves, share a meal, and listen. No pressure, no pitch." },
+              { "title": "We earn your trust", "text": "We keep showing up, night after night, until you know our faces. We help with what you ask for first — a blanket, a phone call, a ride — and we never judge." },
+              { "title": "We find you a home", "text": "When you're ready, we move you into a place of your own. We cover the deposit and first months, furnish it, and get your benefits and ID sorted." },
+              { "title": "We stay", "text": "We keep checking in for as long as you want us to — groceries, healthcare, a job lead, or just a coffee. A home is the start, not the finish." }
+            ],
+            "note": "You never have to be sober, employed, or 'ready' to get our help. Housing first means we help you get a home, and then we help you build the life you want inside it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support the Collective",
+            "title": "Be the reason someone",
+            "title_accent": "sleeps inside tonight",
+            "intro": "Your gift buys blankets, hot meals, harm-reduction supplies, and the deposits that turn a street corner into a front door. Every dollar moves someone closer to a home.",
+            "quote": "I'd been on the street for eleven years. They didn't ask me to get clean or get a job first. They just found me an apartment, and then they helped me keep it. That's the whole secret — someone believed I could.",
+            "verse_ref": "— Marcus, housed after 11 years",
+            "cta_text": "Give someone a door",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "In their words",
+            "title": "A home changes",
+            "title_accent": "everything",
+            "intro": "The people we serve, and the people who serve with us, on what a door and a key can do.",
+            "reviews": [
+              { "quote": "They found me under a bridge in January and just kept coming back. By spring I had keys to my own place. I still can't believe it's real, but I'm sitting in it right now.", "author": "Rosa", "role": "Formerly unhoused", "stars": 5 },
+              { "quote": "I volunteer on the night team. We don't fix anyone — we just show up and care. And somehow, that's exactly what people need to start believing in themselves again.", "author": "Devon", "role": "Night outreach volunteer", "stars": 5 },
+              { "quote": "As a landlord I was nervous at first. The Collective guaranteed the rent, furnished the place, and stayed involved. Two years later my tenant is still there and thriving. I'd do it again in a heartbeat.", "author": "P. Okafor", "role": "Housing partner", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-newsletter",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "Stay connected",
+            "title": "One email a month,",
+            "title_accent": "one door at a time",
+            "intro": "A short monthly note on our night teams, the people we've housed, and the simple ways you can help. No guilt, no spam, unsubscribe anytime.",
+            "placeholder": "you@email.com",
+            "button_text": "Join the circle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Reach the Collective",
+            "title": "Call us. Find us.",
+            "title_accent": "We're out every night.",
+            "intro": "If you or someone you know is sleeping rough, call our 24/7 line and we'll send a team out to meet you. If you want to help, we'd love to hear from you too.",
+            "phone": "(555) 318-4470 · 24/7 outreach line",
+            "email": "hello@opendoorscollective.org",
+            "location": "412 Harbor Street · Night teams citywide",
+            "form_kicker": "Get help or get involved",
+            "form_title": "We'll reach you today",
+            "submit_cta": "Send a message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "odc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "OPEN DOOR",
+            "brand_tag": "COLLECTIVE",
+            "blurb": "The Open Door Collective is a street-outreach and housing-first organization meeting people where they are and walking with them from the street to a home of their own.",
+            "copyright": "© The Open Door Collective",
+            "columns": [
+              {
+                "heading": "Get help",
+                "links": [
+                  { "text": "24/7 outreach line", "url": { "url": "#contact" } },
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "What we do", "url": { "url": "#work" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Support us",
+                "links": [
+                  { "text": "Give", "url": { "url": "#give" } },
+                  { "text": "Volunteer", "url": { "url": "#contact" } },
+                  { "text": "Newsletter", "url": { "url": "#newsletter" } },
+                  { "text": "Housing partners", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
