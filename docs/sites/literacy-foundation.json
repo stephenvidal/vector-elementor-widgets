@@ -1,0 +1,241 @@
+{
+  "title": "WordBridge — Literacy Foundation",
+  "slug": "literacy-foundation",
+  "kit": "literacy-foundation",
+  "containers": [
+    {
+      "id": "wb-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "WORDBRIDGE",
+            "brand_tag": "LITERACY",
+            "cta_text": "Give a child a book",
+            "cta_url": { "url": "#give" },
+            "links": [
+              { "text": "What we do", "url": { "url": "#work" } },
+              { "text": "How we teach", "url": { "url": "#how" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-179.png", "id": 0 },
+            "eyebrow": "WordBridge · Literacy Foundation · Reading is the door to everything else",
+            "headline": "A child who reads<br><em>can go anywhere.</em>",
+            "copy": "WordBridge is a literacy foundation that puts books, tutors, and reading programs into the hands of children who need them most. We believe the ability to read is the single most powerful lever we can pull — for a child's confidence, their schooling, and their whole future.",
+            "primary_cta_text": "Give a child a book",
+            "primary_cta_url": { "url": "#give" },
+            "secondary_cta_text": "How we teach reading",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "One-on-one reading tutors for every child in our programs" },
+              { "text": "Free books placed in homes, schools, and shelters" },
+              { "text": "92% of our kids gain a full grade level in a year" },
+              { "text": "Programs in English and Spanish, from age 3 to 12" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "WordBridge by the numbers",
+            "title": "Measured in pages turned,",
+            "title_accent": "not promises",
+            "intro": "We track reading growth the way it matters — in grade levels gained, books finished, and children who discover they love to read.",
+            "stats": [
+              { "value": "14,000+", "label": "Children tutored since we began" },
+              { "value": "92%", "label": "Gain a full grade level in reading within a year" },
+              { "value": "310,000", "label": "Books placed in homes, schools, and shelters" },
+              { "value": "1,200+", "label": "Volunteer reading tutors across 40 cities" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "More than handing out",
+            "title_accent": "books",
+            "intro": "A book in a child's hand is a start. A tutor who shows up every week is how reading actually takes hold. WordBridge does both — and everything in between.",
+            "features": [
+              { "number": "01", "title": "One-on-one tutoring", "text": "Every child in our core program gets a dedicated reading tutor who meets them weekly, at their pace, with books they actually want to read.", "detail": "Weekly, in person" },
+              { "number": "02", "title": "Books that go home", "text": "We send children home with books of their own to keep — because a home with books is the strongest predictor of a child who reads.", "detail": "Ownership builds readers" },
+              { "number": "03", "title": "Family literacy", "text": "We teach parents and caregivers to read alongside their kids, turning bedtime into a reading ritual that lasts a lifetime.", "detail": "Reading starts at home" },
+              { "number": "04", "title": "School partnerships", "text": "We work inside under-resourced schools, training teachers and stocking classroom libraries so reading support reaches kids where they already are.", "detail": "In the classroom" },
+              { "number": "05", "title": "Bilingual programs", "text": "English and Spanish reading tracks, so no child is left behind because of the language they speak at home.", "detail": "English & Spanish" },
+              { "number": "06", "title": "Summer reading camps", "text": "Six-week camps that stop the 'summer slide' and send kids back to school reading ahead of where they left off.", "detail": "Beat the summer slide" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From first page",
+            "title_accent": "to lifelong reader",
+            "intro": "Our model is simple and proven: meet the child where they are, give them a book they love, and never stop showing up.",
+            "steps": [
+              { "title": "Assess", "text": "We meet each child and find their reading level and their interests. No two readers are the same, and neither are our plans for them." },
+              { "title": "Match", "text": "We pair the child with a trained tutor and a stack of books chosen just for them — the ones that make them forget they're 'practicing'." },
+              { "title": "Read together", "text": "Tutor and child read together weekly, building fluency, confidence, and the habit of picking up a book on their own." },
+              { "title": "Grow & celebrate", "text": "We track progress, celebrate every milestone, and hand the child a library of their own as they grow into independent readers." }
+            ],
+            "note": "We stay with a child for as long as it takes — often years. Reading is a skill that compounds, and so does our commitment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support WordBridge",
+            "title": "Your gift turns a page",
+            "title_accent": "in a child's story",
+            "intro": "A $25 gift puts a stack of books in a child's hands. A $50 gift funds a month of one-on-one tutoring. Every dollar moves a child closer to reading on their own.",
+            "quote": "I couldn't read a single word when I started. My tutor, Ms. Rivera, never gave up on me. Last year I read forty books on my own. Now I want to be a writer.",
+            "verse_ref": "— Elena, age 11, WordBridge reader",
+            "cta_text": "Give a child the gift of reading",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "In their words",
+            "title": "Reading changes",
+            "title_accent": "everything",
+            "intro": "The children we serve, their parents, and the tutors who show up every week — on what learning to read really unlocks.",
+            "reviews": [
+              { "quote": "My son used to hide his books and say he was 'dumb'. After a year with his WordBridge tutor, he reads to me at bedtime — and he's the one who picks the books now. I cried the first time he read me a whole page.", "author": "Marisol G.", "role": "Parent of a WordBridge reader", "stars": 5 },
+              { "quote": "I volunteer as a tutor because I remember what it felt like to be the kid who couldn't keep up. Watching a child's face light up when they read their first full sentence on their own — there's nothing like it.", "author": "James T.", "role": "Volunteer reading tutor", "stars": 5 },
+              { "quote": "Our school serves families who can't always afford books or tutoring. WordBridge came in, stocked our library, and trained our teachers. Reading scores are up across every grade. They're a true partner.", "author": "Principal D. Whitfield", "role": "Elementary school partner", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-newsletter",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "Stay in the loop",
+            "title": "One story a month,",
+            "title_accent": "one reader at a time",
+            "intro": "A short monthly letter with a child's reading milestone, a book recommendation, and the simple ways you can help. No guilt, no spam, unsubscribe anytime.",
+            "placeholder": "you@email.com",
+            "button_text": "Join the reading circle"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Read with us.",
+            "title_accent": "Give. Tutor. Volunteer.",
+            "intro": "Whether you want to donate, become a reading tutor, or enroll a child in our program, we'd love to hear from you. Every reader starts with someone who showed up.",
+            "phone": "(555) 209-8841",
+            "email": "hello@wordbridge.org",
+            "location": "Serving 40 cities · Programs nationwide",
+            "form_kicker": "Start a conversation",
+            "form_title": "Tell us how you'd like to help",
+            "submit_cta": "Send a message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wb-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "WORDBRIDGE",
+            "brand_tag": "LITERACY FOUNDATION",
+            "blurb": "WordBridge is a literacy foundation putting books, tutors, and reading programs into the hands of children who need them most — because a child who reads can go anywhere.",
+            "copyright": "© WordBridge Literacy Foundation",
+            "columns": [
+              {
+                "heading": "Our work",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#work" } },
+                  { "text": "How we teach", "url": { "url": "#how" } },
+                  { "text": "Our impact", "url": { "url": "#impact" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Give", "url": { "url": "#give" } },
+                  { "text": "Become a tutor", "url": { "url": "#contact" } },
+                  { "text": "Newsletter", "url": { "url": "#newsletter" } },
+                  { "text": "School partnerships", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
