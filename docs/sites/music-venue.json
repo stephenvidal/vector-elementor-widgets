@@ -1,0 +1,241 @@
+{
+  "title": "Voltage Live",
+  "slug": "music-venue",
+  "kit": "music-venue",
+  "containers": [
+    {
+      "id": "mv-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "VOLTAGE",
+            "brand_tag": "LIVE",
+            "cta_text": "See what's on",
+            "cta_url": { "url": "#menu" },
+            "links": [
+              { "text": "Bar & kitchen", "url": { "url": "#menu" } },
+              { "text": "Why Voltage", "url": { "url": "#why" } },
+              { "text": "Inside the room", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-166.png", "id": 0 },
+            "eyebrow": "Voltage Live · Independent Music Venue · Downtown District",
+            "headline": "Where the city<br><em>comes to listen.</em>",
+            "copy": "Voltage Live is the independent venue where rising acts, late-night sets, and a crowd that actually listens meet under one roof — 400 seats, zero bad sightlines, and sound that hits you in the chest.",
+            "primary_cta_text": "See what's on",
+            "primary_cta_url": { "url": "#menu" },
+            "secondary_cta_text": "Book a table",
+            "secondary_cta_url": { "url": "#contact" },
+            "trust_list": [
+              { "text": "400-capacity room with no bad sightlines" },
+              { "text": "House-tuned PA and a stage that touring acts love" },
+              { "text": "Full bar, kitchen, and late-night kitchen till close" },
+              { "text": "Named one of the city's best small venues three years running" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Voltage by the numbers",
+            "title": "A room built",
+            "title_accent": "for the music",
+            "intro": "We measure a good night by the same things you do: great sound, a full room, and a crowd that stays till the last song.",
+            "stats": [
+              { "value": "400", "label": "Seats, every one with a clear view of the stage" },
+              { "value": "180+", "label": "Live shows hosted every year" },
+              { "value": "12", "label": "Years as an independent, locally owned venue" },
+              { "value": "4.9", "label": "Average rating across 3,200+ reviews" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-menu",
+      "content_width": "full",
+      "settings": { "_element_id": "menu" },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "Bar & kitchen",
+            "title": "Drinks and plates",
+            "title_accent": "worth the ticket",
+            "intro": "A proper bar and a kitchen that stays open late. Local taps, a tight cocktail list, and bar food that's actually good — not just 'venue food'.",
+            "items": [
+              { "name": "Voltage IPA", "description": "Local hazy IPA, citrus-forward, on tap from a neighborhood brewery.", "price": "$8", "tag": "House pour" },
+              { "name": "Smoked Old Fashioned", "description": "Bourbon, smoked maple, bitters, orange oil. Our signature late-night pour.", "price": "$13", "tag": "Signature" },
+              { "name": "Loaded Nacho Board", "description": "House chips, three-cheese sauce, jalapeño, crema, pickled onion. Feeds two.", "price": "$16", "tag": "Crowd favorite" },
+              { "name": "Voltage Burger", "description": "Half-pound patty, cheddar, house sauce, brioche bun, fries.", "price": "$15", "tag": "" },
+              { "name": "Late-Night Poutine", "description": "Crispy fries, gravy, cheese curds, scallion. Served till close.", "price": "$12", "tag": "Till close" },
+              { "name": "Zero-Proof Spritz", "description": "Seedlip, grapefruit, rosemary, soda. For the designated drivers.", "price": "$7", "tag": "Non-alc" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-next",
+      "content_width": "full",
+      "settings": { "_element_id": "next" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Next up",
+            "title": "Friday Night Headliner",
+            "title_accent": "doors in",
+            "end": "2026-09-11 20:00",
+            "expired_text": "That show's wrapped — check the calendar for what's coming next at Voltage Live."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Voltage",
+            "title": "Built for the",
+            "title_accent": "live experience",
+            "intro": "From the moment you walk in to the last encore, every detail is tuned for one thing: a night of live music you'll actually remember.",
+            "features": [
+              { "number": "01", "title": "Sound that lands", "text": "A house-tuned PA and a room designed for acoustics, not capacity. Every seat hears the mix the way the artist intended.", "detail": "Touring-grade audio" },
+              { "number": "02", "title": "No bad seats", "text": "A gently raked floor and sightlines from every angle. Whether you're at the rail or the back bar, you see the stage.", "detail": "400 seats, all good" },
+              { "number": "03", "title": "A stage artists love", "text": "A proper backline, a real green room, and a crew that treats touring acts like people. That's why they come back.", "detail": "Artist-first backstage" },
+              { "number": "04", "title": "Late-night kitchen", "text": "The kitchen runs till close, so the show doesn't end when your stomach starts talking. Real food, not just pretzels.", "detail": "Eat after the encore" },
+              { "number": "05", "title": "Local at heart", "text": "Independently owned for 12 years. We book local openers, pour local beer, and give back to the scene that built us.", "detail": "Rooted in the scene" },
+              { "number": "06", "title": "Easy in, easy out", "text": "Fast entry, a coat check that works, and a bar that doesn't make you miss the opener. We've thought about the details.", "detail": "Details handled" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the room",
+            "title": "Nights at",
+            "title_accent": "Voltage",
+            "intro": "A glimpse of the room in its element — packed floors, stage lights, and the energy that only a live crowd can make.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-166.png", "id": 0 }, "label": "The stage, lit", "alt": "A lone microphone on a dark stage with acid-lime neon lighting and haze" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-166.png", "id": 0 }, "label": "The floor, packed", "alt": "A silhouetted crowd facing a brightly lit stage in a dark venue" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-166.png", "id": 0 }, "label": "The bar, late", "alt": "A moody venue bar with neon accents and bottles backlit at night" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word on the floor",
+            "title": "What the crowd",
+            "title_accent": "is saying",
+            "intro": "From first-time ticket buyers to touring bands, here's what people say about a night at Voltage.",
+            "reviews": [
+              { "quote": "I've seen bands here that I'd have to fly to another city to catch anywhere else. The sound is unreal for a room this size, and the staff actually care about the music.", "author": "Maya R.", "role": "Regular since 2019", "stars": 5 },
+              { "quote": "We've played bigger rooms, but Voltage is the one we look forward to. The crew is professional, the green room is real, and the crowd listens. That's rare.", "author": "Theo Grant", "role": "Touring artist", "stars": 5 },
+              { "quote": "Came for a show, stayed for the poutine and the vibe. It's the rare venue that feels like a neighborhood spot and a proper music room at the same time.", "author": "Priya S.", "role": "First-time visitor", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Come see a show,",
+            "title_accent": "or book one",
+            "intro": "Grab tickets for an upcoming night, or reach out about booking your band, hosting a private event, or renting the room. We'll get back to you fast.",
+            "phone": "(555) 902-4410",
+            "email": "hello@voltagelive.com",
+            "location": "214 Neon Row, Downtown District · Doors at 7pm on show nights",
+            "form_kicker": "Tickets & bookings",
+            "form_title": "Tell us what you're after",
+            "submit_cta": "Send it over"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mv-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "VOLTAGE",
+            "brand_tag": "LIVE",
+            "blurb": "The independent venue where rising acts, late-night sets, and a crowd that actually listens meet under one roof — 400 seats, zero bad sightlines, and sound that hits you in the chest.",
+            "copyright": "© Voltage Live",
+            "columns": [
+              {
+                "heading": "The venue",
+                "links": [
+                  { "text": "Bar & kitchen", "url": { "url": "#menu" } },
+                  { "text": "Why Voltage", "url": { "url": "#why" } },
+                  { "text": "Inside the room", "url": { "url": "#gallery" } },
+                  { "text": "Word on the floor", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "Next show", "url": { "url": "#next" } },
+                  { "text": "Tickets & bookings", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
