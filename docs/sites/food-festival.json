@@ -1,0 +1,242 @@
+{
+  "title": "Harvest & Flame — Food Festival",
+  "slug": "food-festival",
+  "kit": "food-festival",
+  "containers": [
+    {
+      "id": "ff-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HARVEST & FLAME",
+            "brand_tag": "FOOD FESTIVAL",
+            "cta_text": "Get tickets",
+            "cta_url": { "url": "#tickets" },
+            "links": [
+              { "text": "The lineup", "url": { "url": "#lineup" } },
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "Last year", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-173.png", "id": 0 },
+            "eyebrow": "Harvest & Flame · Annual Food Festival · Riverside Park, Sept 19–21",
+            "headline": "Three days of fire,<br><em>flavor, and friends.</em>",
+            "copy": "Harvest & Flame is the city's biggest open-air food festival — 60+ vendors, live-fire cooking, chef demos, and a riverfront stage that runs from noon till the last plate is cleared. Come hungry. Leave full.",
+            "primary_cta_text": "Get tickets",
+            "primary_cta_url": { "url": "#tickets" },
+            "secondary_cta_text": "See the lineup",
+            "secondary_cta_url": { "url": "#lineup" },
+            "trust_list": [
+              { "text": "60+ food vendors across 12 cuisines, all in one park" },
+              { "text": "Live-fire demos from award-winning local chefs" },
+              { "text": "Family-friendly all weekend — kids under 12 get in free" },
+              { "text": "Rain or shine: covered stages and heated tents" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Harvest & Flame by the numbers",
+            "title": "A festival built",
+            "title_accent": "to feed a city",
+            "intro": "We measure success the way any good cook does — by how many people leave happy, full, and already planning next year.",
+            "stats": [
+              { "value": "60+", "label": "Food vendors across 12 cuisines" },
+              { "value": "40k", "label": "Plates served over the three days" },
+              { "value": "18", "label": "Chef demos and live-fire workshops" },
+              { "value": "9", "label": "Years running in Riverside Park" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-lineup",
+      "content_width": "full",
+      "settings": { "_element_id": "lineup" },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "The lineup",
+            "title": "What's on",
+            "title_accent": "the menu",
+            "intro": "From wood-fired pizza to hand-pulled noodles, here's a taste of the vendors and stages you'll find across the park this September.",
+            "items": [
+              { "name": "Ember & Oak Wood-Fired Pizza", "description": "Blistered Neapolitan pies from a 900° wood oven, topped with seasonal produce.", "price": "$12", "tag": "Flagship" },
+              { "name": "Noodle & Knife", "description": "Hand-pulled noodles, slow-braised broths, and chili oil made in-house.", "price": "$11", "tag": "Crowd favorite" },
+              { "name": "The Smokehouse", "description": "Twelve-hour brisket, burnt ends, and house pickles. Worth the line.", "price": "$16", "tag": "Live-fire" },
+              { "name": "Coastal Catch", "description": "Fresh oysters, ceviche, and grilled whole fish from the day's catch.", "price": "$14", "tag": "" },
+              { "name": "Sweet Meadow", "description": "Hand-churned ice cream, honeycomb, and warm cobblers from local farms.", "price": "$7", "tag": "Dessert" },
+              { "name": "The Green Table", "description": "Plant-forward plates and seasonal salads from a farm-to-fork kitchen.", "price": "$10", "tag": "Veg" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "countdown" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Mark your calendar",
+            "title": "Gates open",
+            "title_accent": "in",
+            "end": "2026-09-19 11:00",
+            "expired_text": "The festival is on! Head to Riverside Park — gates are open and the fires are lit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Harvest & Flame",
+            "title": "More than",
+            "title_accent": "a food court",
+            "intro": "Anyone can line up food trucks. We build a weekend — with stages, demos, and a community that shows up for all of it.",
+            "features": [
+              { "number": "01", "title": "Live-fire cooking", "text": "Watch chefs work over open flames — whole-animal roasts, wood-fired ovens, and grills that never go cold all weekend.", "detail": "Fire is the star" },
+              { "number": "02", "title": "Chef demos & workshops", "text": "Eighteen hands-on demos across three days, from knife skills to sourdough. Learn something, then go eat it.", "detail": "Learn, then eat" },
+              { "number": "03", "title": "A riverfront stage", "text": "Local bands and DJs play from noon till close. Good food deserves good music, and we bring both.", "detail": "Music all day" },
+              { "number": "04", "title": "Family-friendly", "text": "Kids under 12 get in free, with a dedicated family zone, face painting, and plenty of lawn to run around on.", "detail": "Bring the whole crew" },
+              { "number": "05", "title": "Local first", "text": "Most of our vendors and all of our produce come from within 100 miles. You're eating the region, literally.", "detail": "Rooted in the region" },
+              { "number": "06", "title": "Rain or shine", "text": "Covered stages, heated tents, and a plan for the weather. The fires don't go out for a little rain.", "detail": "Weather-proof" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Last year",
+            "title": "Moments from",
+            "title_accent": "the park",
+            "intro": "A look at the smoke, the crowds, and the plates that made last year's festival one for the books.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-173.png", "id": 0 }, "label": "The fires, lit", "alt": "A wood-fired grill glowing with embers at a riverside food festival at dusk" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-173.png", "id": 0 }, "label": "The crowd, hungry", "alt": "A lively crowd gathered around food stalls under string lights in a park" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-173.png", "id": 0 }, "label": "The plates, gone", "alt": "A table of empty plates and satisfied diners at a long communal table" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word from the park",
+            "title": "What regulars",
+            "title_accent": "are saying",
+            "intro": "We've been doing this for nine years, and the best part is still hearing people talk about their favorite plate.",
+            "reviews": [
+              { "quote": "We've been every year since the first one. The brisket line is worth it, the music is great, and the kids actually have stuff to do. It's our family's September tradition.", "author": "Marta L.", "role": "Attended all 9 years", "stars": 5 },
+              { "quote": "As a vendor, this is the best-run festival we do all year. The crowds are huge, the organizers are on top of everything, and we sell out by Sunday afternoon.", "author": "D. Reyes", "role": "Vendor, The Smokehouse", "stars": 5 },
+              { "quote": "Came for the pizza, stayed for the chef demos. Learned how to make the sourdough I now bake every weekend. Worth every penny of the ticket.", "author": "Priya N.", "role": "First-time attendee", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Come hungry,",
+            "title_accent": "leave full",
+            "intro": "Questions about tickets, accessibility, or vending? Want to bring your food truck or band next year? We'd love to hear from you.",
+            "phone": "(555) 318-7740",
+            "email": "hello@harvestandflame.co",
+            "location": "Riverside Park, 400 Riverfront Way · Gates open 11am daily, Sept 19–21",
+            "form_kicker": "Tickets & vending",
+            "form_title": "Tell us what you need",
+            "submit_cta": "Send it over"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HARVEST & FLAME",
+            "brand_tag": "FOOD FESTIVAL",
+            "blurb": "The city's biggest open-air food festival — 60+ vendors, live-fire cooking, chef demos, and a riverfront stage, every September in Riverside Park.",
+            "copyright": "© Harvest & Flame Food Festival",
+            "columns": [
+              {
+                "heading": "The festival",
+                "links": [
+                  { "text": "What's on the menu", "url": { "url": "#lineup" } },
+                  { "text": "Why Harvest & Flame", "url": { "url": "#why" } },
+                  { "text": "Last year", "url": { "url": "#gallery" } },
+                  { "text": "Word from the park", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Plan your visit",
+                "links": [
+                  { "text": "Get tickets", "url": { "url": "#tickets" } },
+                  { "text": "Gates open in", "url": { "url": "#countdown" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
