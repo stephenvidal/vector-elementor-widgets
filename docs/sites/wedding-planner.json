@@ -1,0 +1,222 @@
+{
+  "title": "Everly & Co. — Wedding Planning Studio",
+  "slug": "wedding-planner",
+  "kit": "wedding-planner",
+  "containers": [
+    {
+      "id": "wp-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "EVERLY & CO.",
+            "brand_tag": "WEDDING PLANNING",
+            "cta_text": "Start planning",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "How we work", "url": { "url": "#how" } },
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "Recent weddings", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wp-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-180.png", "id": 0 },
+            "eyebrow": "Everly & Co. · Full-service wedding planning · Est. 2014",
+            "headline": "Your wedding, planned with care —<br><em>and zero stress.</em>",
+            "copy": "Everly & Co. is a full-service wedding planning studio. From the first venue tour to the last dance, we handle the details so you can be fully present for the moments that matter. No spreadsheets on your honeymoon. No vendor chasing at 11pm. Just a wedding that feels unmistakably yours.",
+            "primary_cta_text": "Start planning",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How we work",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "200+ weddings planned since 2014" },
+              { "text": "One dedicated planner from day one" },
+              { "text": "Transparent, all-inclusive packages" },
+              { "text": "Design, logistics, and day-of coordination" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wp-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Everly & Co. by the numbers",
+            "title": "A decade of",
+            "title_accent": "beautiful weddings",
+            "intro": "We've planned everything from intimate elopements to 300-guest celebrations. The numbers tell the story of the trust couples place in us.",
+            "stats": [
+              { "value": "200+", "label": "Weddings planned since 2014" },
+              { "value": "98%", "label": "Couples who'd recommend us" },
+              { "value": "40+", "label": "Trusted vendor partners" },
+              { "value": "12", "label": "Years of full-service planning" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wp-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From first hello",
+            "title_accent": "to the last dance",
+            "intro": "A clear, calm process that keeps you in control without the overwhelm. You'll always know what's next and who's handling it.",
+            "steps": [
+              { "title": "Discover", "text": "We start with a coffee and a conversation about your vision, your budget, and the kind of day you want. No pressure, just clarity." },
+              { "title": "Design", "text": "We build a moodboard, a venue shortlist, and a realistic budget that reflects your priorities — not a template." },
+              { "title": "Plan", "text": "We book and manage every vendor, negotiate contracts, and build a detailed timeline so nothing slips through the cracks." },
+              { "title": "Coordinate", "text": "In the final weeks we run rehearsals, confirm every detail, and take over day-of logistics so you can simply enjoy it." },
+              { "title": "Celebrate", "text": "You dance, you toast, you soak it in. We handle the hiccups quietly in the background and make sure the day runs on time." }
+            ],
+            "note": "Most couples tell us the same thing after the wedding: they were more relaxed than they ever expected to be."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wp-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why couples choose us",
+            "title": "Planning that feels",
+            "title_accent": "like a partnership",
+            "intro": "We're not a factory. Every wedding is designed around the two of you — your story, your style, your people.",
+            "features": [
+              { "number": "01", "title": "One dedicated planner", "text": "You work with the same person from the first call to the last dance. No hand-offs, no repeating your story.", "detail": "Personal" },
+              { "number": "02", "title": "Budget that's honest", "text": "We show you exactly where every dollar goes and help you spend on what you'll actually remember.", "detail": "Transparent" },
+              { "number": "03", "title": "Vendors we trust", "text": "A vetted network of photographers, florists, caterers, and venues we've worked with for years.", "detail": "Curated" },
+              { "number": "04", "title": "Day-of calm", "text": "On the big day, we run the show. You're a guest at your own wedding — the best kind of guest.", "detail": "Stress-free" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wp-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Recent weddings",
+            "title": "Moments we've",
+            "title_accent": "helped create",
+            "intro": "A glimpse of the celebrations we've designed — from garden ceremonies to grand ballrooms.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-180.png", "id": 0 }, "label": "The ceremony", "alt": "An outdoor garden wedding ceremony with an arch of white flowers and rows of guests" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-180.png", "id": 0 }, "label": "The first dance", "alt": "A couple's first dance under string lights in a warmly lit reception tent" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-180.png", "id": 0 }, "label": "The table", "alt": "An elegantly set wedding reception table with candles, greenery, and place settings" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wp-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word from our couples",
+            "title": "What couples",
+            "title_accent": "are saying",
+            "intro": "The best part of our job is hearing how couples felt on their day — and long after.",
+            "reviews": [
+              { "quote": "Everly & Co. made our wedding feel effortless. We never once felt stressed, and the day was more beautiful than we imagined. Worth every penny.", "author": "Maya & Jordan", "role": "Married June 2026", "stars": 5 },
+              { "quote": "Our planner was a calm, brilliant force. She handled a vendor emergency mid-reception and we didn't even notice until she told us after. Unreal.", "author": "Priya & Sam", "role": "Married April 2026", "stars": 5 },
+              { "quote": "We came in with a tight budget and a big vision. Everly & Co. made it work — and made it feel like a million bucks. We can't recommend them enough.", "author": "Elena & Marcus", "role": "Married September 2025", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "wp-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's plan",
+            "title_accent": "your day",
+            "intro": "Tell us a little about your wedding and we'll be in touch within a day to set up a free consultation. No obligation, just a conversation.",
+            "phone": "(555) 318-7742",
+            "email": "hello@everlyandco.com",
+            "location": "Studio 4, The Atrium · 88 Willow Lane · By appointment",
+            "form_kicker": "Free consultation",
+            "form_title": "Tell us about your wedding",
+            "submit_cta": "Request a call"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wp-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "EVERLY & CO.",
+            "brand_tag": "WEDDING PLANNING",
+            "blurb": "A full-service wedding planning studio. From the first venue tour to the last dance, we handle the details so you can be fully present for the moments that matter.",
+            "copyright": "© Everly & Co. · Wedding planning studio",
+            "columns": [
+              {
+                "heading": "Explore",
+                "links": [
+                  { "text": "How we work", "url": { "url": "#how" } },
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "Recent weddings", "url": { "url": "#gallery" } }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  { "text": "Start planning", "url": { "url": "#contact" } },
+                  { "text": "Word from our couples", "url": { "url": "#voices" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
