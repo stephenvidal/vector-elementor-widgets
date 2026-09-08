@@ -1,0 +1,260 @@
+{
+  "title": "Quillcraft — AI Writing Assistant",
+  "slug": "ai-writing-assistant",
+  "kit": "ai-writing-assistant",
+  "containers": [
+    {
+      "id": "qc-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "QUILLCRAFT",
+            "brand_tag": "AI WRITING ASSISTANT",
+            "cta_text": "Start writing",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Features", "url": { "url": "#features" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-18.png", "id": 391 },
+            "eyebrow": "The AI writing assistant that matches your voice · SOC 2 Type II",
+            "headline": "Writing that reads<br><em>like you wrote it.</em>",
+            "copy": "Quillcraft learns your voice from your own writing, then drafts the emails, posts, and pages you've been putting off — in your tone, in minutes, ready to send.",
+            "primary_cta_text": "Start writing free",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how it works",
+            "secondary_cta_url": { "url": "#features" },
+            "trust_list": [
+              { "text": "Learns your actual voice" },
+              { "text": "Plays nicely with your tools" },
+              { "text": "No prompt engineering required" },
+              { "text": "Your drafts stay yours" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The proof is in the prose",
+            "title": "Fewer rewrites,",
+            "title_accent": "more done",
+            "stats": [
+              { "value": "11x", "label": "Faster to a publish-ready draft" },
+              { "value": "93%", "label": "Keep your draft without heavy edits" },
+              { "value": "2.1M", "label": "Drafts written with Quillcraft" },
+              { "value": "38k", "label": "Writers using Quillcraft daily" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "features" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What you can do",
+            "title": "Every piece of writing,",
+            "title_accent": "handled",
+            "intro": "From a quick reply to a long-form post, Quillcraft covers the whole writing journey in your voice — without forcing you into a rigid template.",
+            "features": [
+              { "number": "01", "title": "Voice training that's instant", "text": "Paste in samples of your best writing. Quillcraft studies your rhythm, vocabulary, and phrasing, then matches it from the first draft.", "detail": "Learns your voice" },
+              { "number": "02", "title": "Drafts in your tone", "text": "Tell Quillcraft the audience and the goal. It produces copy that sounds like you wrote it on a good day — not like a robot.", "detail": "On-brand writing" },
+              { "number": "03", "title": "Rewrites with one click", "text": "Too long, too short, too casual, too formal. Quillcraft reworks any paragraph to hit the tone you're after, instantly.", "detail": "Instant revisions" },
+              { "number": "04", "title": "Works where you write", "text": "Draft in our editor, or call Quillcraft from your email, docs, and CMS through a browser extension and API.", "detail": "Your tools, extended" },
+              { "number": "05", "title": "Fact-checks your claims", "text": "Quillcraft flags statements that need a source and suggests where to add proof, so your drafts are credible before they ship.", "detail": "Built-in accuracy" },
+              { "number": "06", "title": "Style guide that sticks", "text": "Set your brand's voice rules once. Every draft respects them — no more scrubbing jargon or fixing passive voice by hand.", "detail": "Consistent brand" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From blank page to",
+            "title_accent": "publish, four steps",
+            "steps": [
+              { "title": "Teach it your voice", "text": "Share a few pieces of writing you love. Quillcraft builds your voice profile in seconds and keeps it private to your account." },
+              { "title": "Describe what you need", "text": "Tell it the piece, the audience, and the goal — an email, a blog post, a product page. No prompt formulas required." },
+              { "title": "Get a first draft", "text": "Quillcraft drafts in your tone. Read it, keep what works, and ask for rewrites where it misses." },
+              { "title": "Polish and publish", "text": "Run the built-in fact-check and style pass, then send it to your tools. You're done before your coffee's cold." }
+            ],
+            "note": "Most people write their first on-voice piece within ten minutes of signing up. No prompt engineering degree, no guessing, no blank-page dread."
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple pricing,",
+            "title_accent": "honest about limits",
+            "intro": "Every plan includes voice training, unlimited drafts in your voice, and the core rewrite tools. Upgrade for more advanced features and seats.",
+            "plans": [
+              { "plan": "Starter", "price": "$0", "unit": "/ month", "features": [{ "text": "20 drafts / month" }, { "text": "Voice training (1 voice)" }, { "text": "Core rewrite tools" }, { "text": "Browser extension" }, { "text": "Community support" }], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Pro", "price": "$24", "unit": "/ month", "featured": "yes", "features": [{ "text": "Unlimited drafts" }, { "text": "Unlimited voices" }, { "text": "Style guides & fact-check" }, { "text": "Team collaboration" }, { "text": "Priority support" }], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Team", "price": "$79", "unit": "/ month", "features": [{ "text": "Everything in Pro" }, { "text": "5 seats included" }, { "text": "Admin console & audit logs" }, { "text": "SSO / SAML" }, { "text": "Dedicated onboarding" }], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What writers say",
+            "title": "Words people",
+            "title_accent": "finally recognize",
+            "intro": "Real words from people who stopped fighting their drafts and started sounding like themselves.",
+            "reviews": [
+              { "quote": "I pasted in three of my old blog posts and Quillcraft nailed my voice on the very first draft. It's the only tool that makes my writing sound like me, not like everyone else.", "author": "Marta L.", "role": "Content lead", "stars": 5 },
+              { "quote": "We use it for every client email now. It respects our style guide, flags the claims we need to back up, and the drafts actually read like our brand.", "author": "Devon P.", "role": "Agency founder", "stars": 5 },
+              { "quote": "I've tried every AI writer. Quillcraft is the first one that doesn't need a prompt manual — you just describe what you need and it gets the tone right.", "author": "Nadia S.", "role": "Indie creator", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "The honest answers people ask before moving their writing to Quillcraft.",
+            "items": [
+              { "question": "Will the writing actually sound like me?", "answer": "That's the whole point. Quillcraft builds a voice profile from your own samples and matches your rhythm and phrasing. The more you write with it, the closer it gets." },
+              { "question": "Do I need to learn prompt engineering?", "answer": "No. You describe what you need in plain language. Quillcraft handles the rest — no formulas, no token math, no jargon." },
+              { "question": "Who owns my drafts and voice data?", "answer": "You do. Your drafts and voice profile are yours, exportable anytime. We never train shared models on your private content, and we delete your samples on request." },
+              { "question": "Can it replace my editor?", "answer": "No tool should. Quillcraft gets you a strong, on-voice first draft faster. You keep final say — and the fact-check and style pass make the edit lighter." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-news",
+      "content_width": "full",
+      "settings": { "_element_id": "newsletter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "Stay sharp",
+            "title": "Writing tips,",
+            "title_accent": "twice a month",
+            "intro": "One short email with practical writing tactics and new Quillcraft features. No fluff, no spam — unsubscribe anytime.",
+            "placeholder": "you@company.com",
+            "button_text": "Subscribe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "Start writing in your voice",
+            "intro": "Try Quillcraft free, ask us anything, or bring your whole team. We're here to make your writing sound like you again.",
+            "phone": "(555) 042-7711",
+            "email": "hello@quillcraft.ai",
+            "location": "Remote-first · Global",
+            "form_kicker": "Request a demo",
+            "form_title": "Get started with Quillcraft",
+            "submit_cta": "Send request"
+          }
+        }
+      ]
+    },
+    {
+      "id": "qc-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "QUILLCRAFT",
+            "brand_tag": "AI WRITING ASSISTANT",
+            "blurb": "The AI writing assistant that learns your voice and drafts the copy, email, and content you used to lose afternoons to.",
+            "copyright": "© Quillcraft — AI writing",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Features", "url": { "url": "#features" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Newsletter", "url": { "url": "#newsletter" } },
+                  { "text": "Security", "url": { "url": "#features" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

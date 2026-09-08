@@ -1,0 +1,258 @@
+{
+  "title": "Pressworks — Commercial Print Shop",
+  "slug": "commercial-print",
+  "kit": "commercial-print",
+  "containers": [
+    {
+      "id": "cp-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "PRESSWORKS",
+            "brand_tag": "COMMERCIAL PRINT",
+            "cta_text": "Get a quote",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "What we print", "url": { "url": "#services" } },
+              { "text": "How it works", "url": { "url": "#process" } },
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "Recent work", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-181.png", "id": 0 },
+            "eyebrow": "Pressworks · Commercial print · Est. 1998",
+            "headline": "Print that makes your brand<br><em>look as good as it sounds.</em>",
+            "copy": "Pressworks is a full-service commercial print shop. From business cards to billboards, we turn your digital files into crisp, color-accurate print that lands in your customers' hands. No washed-out colors, no blurry edges, no 'it looked fine on screen' — just print that does your brand justice.",
+            "primary_cta_text": "Get a quote",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "What we print",
+            "secondary_cta_url": { "url": "#services" },
+            "trust_list": [
+              { "text": "Same-day turnaround on most orders" },
+              { "text": "Pantone-accurate color matching" },
+              { "text": "Free design review on every job" },
+              { "text": "Eco-friendly inks and papers" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Pressworks by the numbers",
+            "title": "A quarter century",
+            "title_accent": "of ink on paper",
+            "intro": "We've printed everything from a single business card to a million-piece direct mail run. The numbers show the scale and trust behind the press.",
+            "stats": [
+              { "value": "25+", "label": "Years in commercial print" },
+              { "value": "12M+", "label": "Pieces printed last year" },
+              { "value": "99.2%", "label": "On-time delivery rate" },
+              { "value": "4,800+", "label": "Active business clients" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-services",
+      "content_width": "full",
+      "settings": { "_element_id": "services" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "What we print",
+            "title": "From pocket-sized",
+            "title_accent": "to billboard-sized",
+            "intro": "Whatever your business needs in print, we have the press, the paper, and the people to make it happen. Here's how we typically work with clients.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "Marketing" },
+              { "key": "build", "label": "Packaging" },
+              { "key": "launch", "label": "Large format" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "Business cards & stationery", "text": "Thick stocks, spot UV, foil stamping, and rounded corners. A card that feels as premium as your pitch." },
+              { "icon": "◈", "title": "Brochures & catalogs", "text": "Multi-page, saddle-stitched or perfect-bound. We handle the imposition so your spreads line up perfectly." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "Boxes & folding cartons", "text": "Custom die-cut packaging with your brand printed right on the board. From short runs to full production." },
+              { "icon": "⚑", "title": "Labels & stickers", "text": "Waterproof, scratch-resistant labels for products, shipping, and events. Kiss-cut or die-cut, any shape." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Banners & signage", "text": "Vinyl banners, mesh, and rigid boards for storefronts, trade shows, and events. Weatherproof and vibrant." },
+              { "icon": "✦", "title": "Vehicle & window graphics", "text": "Full-wrap or spot graphics that turn your fleet and storefront into moving billboards." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From file",
+            "title_accent": "to finished piece",
+            "intro": "A simple, transparent process that keeps you in the loop at every step. You'll always know where your job is and when it ships.",
+            "steps": [
+              { "title": "Upload", "text": "Send us your files through our portal or email. We accept PDF, AI, INDD, and most common formats." },
+              { "title": "Proof", "text": "We run a free preflight check and send you a digital proof. We flag issues before they cost you money." },
+              { "title": "Print", "text": "Your job goes on the press with color-accurate calibration. We check every sheet as it runs." },
+              { "title": "Finish", "text": "Cutting, folding, binding, and packaging — all in-house. We quality-check every piece before it ships." },
+              { "title": "Deliver", "text": "We ship nationwide or deliver locally. Most orders are in your hands within 48 hours of approval." }
+            ],
+            "note": "Most clients tell us the same thing: the proofing step alone saves them more than the print costs."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why businesses choose us",
+            "title": "Print that's",
+            "title_accent": "worth the paper",
+            "intro": "We're not a faceless print-on-demand service. Every job gets a real human who knows your account and cares about the result.",
+            "features": [
+              { "number": "01", "title": "Color you can trust", "text": "Pantone matching and calibrated presses mean what you approve is exactly what you get. No surprises.", "detail": "Color-accurate" },
+              { "number": "02", "title": "Real humans, real help", "text": "A dedicated account manager who knows your brand, your files, and your deadlines. Not a ticket queue.", "detail": "Personal service" },
+              { "number": "03", "title": "Fast, reliable turnaround", "text": "Same-day on most orders, 48-hour standard. When your launch date is fixed, we hit it.", "detail": "On-time, every time" },
+              { "number": "04", "title": "Sustainable by default", "text": "FSC-certified papers, soy-based inks, and a recycling program for every run. Print that's kind to the planet.", "detail": "Eco-friendly" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Recent work",
+            "title": "Print we're",
+            "title_accent": "proud of",
+            "intro": "A look at recent jobs off our presses — from boutique packaging to bold storefront signage.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-181.png", "id": 0 }, "label": "The packaging", "alt": "Custom die-cut folding cartons with a brand printed in royal blue and cyan on the board" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-181.png", "id": 0 }, "label": "The signage", "alt": "A large-format vinyl banner being installed on a storefront with bold blue graphics" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-181.png", "id": 0 }, "label": "The stationery", "alt": "A stack of premium business cards with spot UV and foil stamping on a press table" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word from our clients",
+            "title": "What businesses",
+            "title_accent": "are saying",
+            "intro": "The best part of our job is hearing how a well-printed piece moved the needle for a client.",
+            "reviews": [
+              { "quote": "Pressworks printed our launch brochures and they came out better than the mockup. The color was spot-on and they hit our deadline with a day to spare. We've moved all our print to them.", "author": "Dana Whitfield", "role": "Marketing Director, Northwind Foods", "stars": 5 },
+              { "quote": "We needed 50,000 direct mail pieces in two weeks. Pressworks delivered on time, on budget, and the response rate was the best we've ever had. The proofing process is genuinely excellent.", "author": "Marcus Bell", "role": "Founder, Bell & Co. Realty", "stars": 5 },
+              { "quote": "The packaging they designed and printed for our product line completely changed how customers perceive the brand. People comment on the boxes constantly. Worth every penny.", "author": "Priya Raman", "role": "CEO, Ember Skincare", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's get",
+            "title_accent": "your job on press",
+            "intro": "Tell us what you need printed and we'll send a quote within one business day. Free preflight check on every job, no obligation.",
+            "phone": "(555) 318-9914",
+            "email": "hello@pressworksprint.com",
+            "location": "1400 Inkwell Avenue · Print District · Mon–Fri 8am–6pm",
+            "form_kicker": "Free quote",
+            "form_title": "Tell us about your print job",
+            "submit_cta": "Request a quote"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cp-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "PRESSWORKS",
+            "brand_tag": "COMMERCIAL PRINT",
+            "blurb": "A full-service commercial print shop. From business cards to billboards, we turn your digital files into crisp, color-accurate print that lands in your customers' hands.",
+            "copyright": "© Pressworks · Commercial print shop",
+            "columns": [
+              {
+                "heading": "Explore",
+                "links": [
+                  { "text": "What we print", "url": { "url": "#services" } },
+                  { "text": "How it works", "url": { "url": "#process" } },
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "Recent work", "url": { "url": "#gallery" } }
+                ]
+              },
+              {
+                "heading": "Get in touch",
+                "links": [
+                  { "text": "Get a quote", "url": { "url": "#contact" } },
+                  { "text": "Word from our clients", "url": { "url": "#voices" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

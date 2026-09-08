@@ -1,0 +1,245 @@
+{
+  "title": "Northbeam CRM",
+  "slug": "crm-platform",
+  "kit": "crm-platform",
+  "containers": [
+    {
+      "id": "nb-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "NORTHBEAM",
+            "brand_tag": "CRM",
+            "cta_text": "Start free trial",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Why Northbeam", "url": { "url": "#why" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-165.png", "id": 0 },
+            "eyebrow": "Northbeam CRM · Sales & Relationship Platform · Built for growing teams",
+            "headline": "Every customer,<br><em>one clear view.</em>",
+            "copy": "Northbeam is the CRM that turns scattered contacts, deals, and follow-ups into a single source of truth — so your team sells faster and never drops a ball again.",
+            "primary_cta_text": "Start free trial",
+            "primary_cta_url": { "url": "#pricing" },
+            "secondary_cta_text": "See how it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Set up in an afternoon — no consultants required" },
+              { "text": "Unlimited contacts and pipelines on every plan" },
+              { "text": "Native email, calls, and meeting sync" },
+              { "text": "Trusted by 4,000+ sales teams worldwide" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Northbeam by the numbers",
+            "title": "Built to move",
+            "title_accent": "your pipeline",
+            "intro": "We measure success the way you do: more deals closed, less time wasted, and a team that actually wants to log in every morning.",
+            "stats": [
+              { "value": "4,000+", "label": "Sales teams running on Northbeam" },
+              { "value": "31%", "label": "Average lift in deals closed within 6 months" },
+              { "value": "2.1h", "label": "Saved per rep, per day, on admin work" },
+              { "value": "99.99%", "label": "Uptime across our global infrastructure" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From signup to",
+            "title_accent": "selling in four steps",
+            "intro": "No data migration marathon, no six-week onboarding. Northbeam gets your team productive in a single afternoon.",
+            "steps": [
+              { "title": "Import your data", "text": "Bring in contacts, deals, and history from a spreadsheet, another CRM, or your inbox. Our importer cleans and dedupes as it goes." },
+              { "title": "Map your pipeline", "text": "Set up stages that match how you actually sell. Drag, drop, and rename — no code, no IT ticket required." },
+              { "title": "Connect your tools", "text": "Sync email, calendar, and calls in a few clicks. Every conversation lands in the timeline automatically." },
+              { "title": "Sell with context", "text": "Your team opens Northbeam and sees exactly who to call next, what they said last, and what's due. No more digging through inboxes." }
+            ],
+            "note": "Most teams are running their first tracked deal within 90 minutes of signing up."
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Northbeam",
+            "title": "The CRM your team",
+            "title_accent": "will actually use",
+            "intro": "A CRM only works if people use it. Northbeam is designed to be fast, obvious, and genuinely helpful — so adoption isn't a battle.",
+            "features": [
+              { "number": "01", "title": "Effortless data entry", "text": "Log calls, emails, and notes in seconds with keyboard-first shortcuts and smart autofill. If it takes more than a tap, we've failed.", "detail": "Fast by design" },
+              { "number": "02", "title": "Pipelines that flex", "text": "Multiple pipelines, custom stages, and deal fields that match your process — not a rigid template you have to bend around.", "detail": "Fits your process" },
+              { "number": "03", "title": "Native email & calendar", "text": "Two-way sync with Gmail and Outlook. Emails, meetings, and calls land in the timeline automatically, so nothing slips through.", "detail": "Everything in one place" },
+              { "number": "04", "title": "Smart follow-up nudges", "text": "Northbeam tells you which deals are going quiet and who's overdue. Your best next action is always one click away.", "detail": "Never drop a ball" },
+              { "number": "05", "title": "Reports that make sense", "text": "Pipeline health, win rates, and rep activity in clean dashboards. Export to your finance team without a data scientist.", "detail": "See what matters" },
+              { "number": "06", "title": "Security you can trust", "text": "SOC 2 Type II, SSO, granular permissions, and full audit logs. Your customer data stays yours, always.", "detail": "Enterprise-grade" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Customer voices",
+            "title": "Teams that switched",
+            "title_accent": "and stayed",
+            "intro": "From scrappy startups to 200-person sales orgs, here's why teams build their pipeline on Northbeam for the long haul.",
+            "reviews": [
+              { "quote": "We came from a spreadsheet and a prayer. Northbeam gave us a real pipeline in an afternoon, and our close rate jumped within a quarter. It's the first tool our reps actually open without being asked.", "author": "Elena Vasquez", "role": "Head of Sales, Brightline", "stars": 5 },
+              { "quote": "The email sync alone is worth it. Every conversation lands in the timeline automatically, so handoffs are clean and nobody has to ask 'what happened last week?' It just works.", "author": "Marcus Chen", "role": "Founder, Loopwork", "stars": 5 },
+              { "quote": "We evaluated the big enterprise CRMs and they were overkill and overpriced. Northbeam gives us the same power without the six-month rollout. Our team adopted it in days.", "author": "Priya Raman", "role": "COO, Fieldstone Retail", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple plans,",
+            "title_accent": "no surprises",
+            "intro": "Every plan includes unlimited contacts, unlimited pipelines, and email sync. Upgrade when you need more automation and seats — not before.",
+            "plans": [
+              { "plan": "Starter", "price": "$19", "unit": "/user/mo", "features": [ { "text": "Unlimited contacts & pipelines" }, { "text": "Email & calendar sync" }, { "text": "Mobile app" }, { "text": "Basic reports" }, { "text": "Email support" } ], "cta": "Start free", "cta_url": { "url": "#contact" } },
+              { "plan": "Growth", "price": "$39", "unit": "/user/mo", "featured": "yes", "features": [ { "text": "Everything in Starter" }, { "text": "Automation & workflows" }, { "text": "Smart follow-up nudges" }, { "text": "Advanced reports & dashboards" }, { "text": "Custom fields & pipelines" }, { "text": "Priority support" } ], "cta": "Start 14-day trial", "cta_url": { "url": "#contact" } },
+              { "plan": "Scale", "price": "$69", "unit": "/user/mo", "features": [ { "text": "Everything in Growth" }, { "text": "SSO & advanced permissions" }, { "text": "API & webhooks" }, { "text": "Dedicated success manager" }, { "text": "Custom onboarding" }, { "text": "SLA & audit logs" } ], "cta": "Talk to sales", "cta_url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions teams",
+            "title_accent": "ask before switching",
+            "intro": "Straight answers about migration, pricing, and what moving to Northbeam actually takes.",
+            "items": [
+              { "question": "How long does it take to migrate from our current CRM?", "answer": "Most teams import their data and are fully set up within a day. Our importer handles contacts, deals, and history from spreadsheets or other CRMs, and cleans up duplicates as it goes." },
+              { "question": "Is there a limit on contacts or pipelines?", "answer": "No. Every plan includes unlimited contacts and unlimited pipelines. We believe you shouldn't be punished for growing your business." },
+              { "question": "Does Northbeam sync with Gmail and Outlook?", "answer": "Yes. Two-way email and calendar sync is built into every plan. Emails, meetings, and calls land in the deal timeline automatically, so nothing slips through the cracks." },
+              { "question": "How is my customer data protected?", "answer": "Northbeam is SOC 2 Type II certified with SSO, granular permissions, and full audit logs on higher plans. Your data is encrypted in transit and at rest, and it's always yours." },
+              { "question": "Can I cancel anytime?", "answer": "Absolutely. Plans are month-to-month with no long-term contract. If Northbeam isn't the right fit, export your data in one click and cancel — no retention calls, no guilt trips." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's build your",
+            "title_accent": "pipeline together",
+            "intro": "Start a free trial in minutes, or talk to our team about migrating, custom pricing, or an enterprise rollout. We'll get back to you the same day.",
+            "phone": "(555) 214-8890",
+            "email": "hello@northbeamcrm.com",
+            "location": "Remote-first · Serving teams worldwide",
+            "form_kicker": "Start the conversation",
+            "form_title": "Tell us about your team",
+            "submit_cta": "Start free trial"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nb-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "NORTHBEAM",
+            "brand_tag": "CRM",
+            "blurb": "The CRM that turns scattered contacts, deals, and follow-ups into a single source of truth — so your team sells faster and never drops a ball again.",
+            "copyright": "© Northbeam CRM",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Why Northbeam", "url": { "url": "#why" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "Security", "url": { "url": "#why" } }
+                ]
+              },
+              {
+                "heading": "Get started",
+                "links": [
+                  { "text": "Start free trial", "url": { "url": "#pricing" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

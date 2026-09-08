@@ -1,0 +1,304 @@
+{
+  "title": "LintLine — AI Code Review",
+  "slug": "code-review-ai",
+  "kit": "code-review-ai",
+  "containers": [
+    {
+      "id": "cra-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "LINTLINE",
+            "brand_tag": "AI CODE REVIEW",
+            "cta_text": "Start free",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Product", "url": { "url": "#product" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Pricing", "url": { "url": "#pricing" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-1.png", "id": 318 },
+            "eyebrow": "Catch every bug before your pull request does",
+            "headline": "Code review,<br><em>without the backlog.</em>",
+            "copy": "LintLine drops an AI reviewer into your pipeline that reads every diff for security holes, logic errors, and style drift — in seconds, not days. Your humans review the interesting stuff.",
+            "primary_cta_text": "Try LintLine free",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See how it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "Works with GitHub, GitLab & Bitbucket" },
+              { "text": "Setup in 3 minutes" },
+              { "text": "No card required" },
+              { "text": "SOC 2 compliant" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "stats" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The impact",
+            "title": "Teams that ship faster",
+            "title_accent": "and safer",
+            "stats": [
+              { "value": "38%", "label": "Fewer production bugs on review" },
+              { "value": "4.2x", "label": "Faster review turnaround" },
+              { "value": "62%", "label": "Of reviews are auto-approved" },
+              { "value": "1.9M", "label": "Lines reviewed last month" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-feat",
+      "content_width": "full",
+      "settings": { "_element_id": "product" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Product",
+            "title": "Everything a senior reviewer",
+            "title_accent": "would catch",
+            "intro": "LintLine combines static analysis with a reasoning model that understands intent, so it flags real problems instead of style nitpicks.",
+            "features": [
+              { "number": "01", "title": "Security scanning", "text": "OWASP-aware checks for injection, auth bypasses, secrets in code, and dependency vulnerabilities — surfaced inline on the diff.", "detail": "Secrets & dependency checks" },
+              { "number": "02", "title": "Logic & edge-case review", "text": "The model traces control flow to find off-by-one errors, null dereferences, and race conditions that linters miss entirely.", "detail": "Reasoning over rules" },
+              { "number": "03", "title": "Style & consistency", "text": "Enforces your team's conventions across every file, so reviewers stop arguing about formatting and start about architecture.", "detail": "Custom rulesets" },
+              { "number": "04", "title": "Inline suggestions", "text": "Every finding comes with a concrete, merge-ready suggestion and a one-line explanation of why it matters.", "detail": "Click-to-fix" },
+              { "number": "05", "title": "Auto-approve safe changes", "text": "Trivial refactors and docs get approved automatically, routing only meaningful changes to a human.", "detail": "Triage engine" },
+              { "number": "06", "title": "Team coverage reports", "text": "See review velocity, recurring issue patterns, and where senior time is actually going — weekly, on your dashboard.", "detail": "Insights" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From push to reviewed",
+            "title_accent": "in minutes",
+            "steps": [
+              { "title": "Connect your repo", "text": "Install the LintLine GitHub/GitLab app and pick the repositories you want reviewed. No changes to your CI required." },
+              { "title": "We read the diff", "text": "On every pull request, LintLine fetches the changed files and runs its security + reasoning review against your ruleset." },
+              { "title": "Comments appear inline", "text": "Findings post directly on the diff with severity, a suggested fix, and a plain-English explanation." },
+              { "title": "Safe changes auto-approve", "text": "Trivial work merges itself. Anything meaningful waits for your team's human review, already triaged." },
+              { "title": "Your team learns faster", "text": "Repeated patterns surface in the insights dashboard, so the whole team stops making the same mistakes." }
+            ],
+            "note": "LintLine never stores your code. It analyzes in-memory and keeps only the findings and statistics."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-split",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "eyebrow": "Why LintLine",
+            "title": "Your reviewers should be doing",
+            "title_accent": "architecture",
+            "title_after": "— not catching typos.",
+            "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-1.png", "id": 318 },
+            "image_caption": "Review findings surfaced inline, triaged by severity",
+            "paragraphs": [
+              { "text": "Most review time is spent on things a machine should catch: formatting, missing null checks, a secret that slipped into a config file. Every minute on that is a minute not spent on design and architecture." },
+              { "text": "LintLine absorbs the mechanical 70% so your senior engineers review only what actually needs their judgment. The result is faster merges, fewer escapes, and a review process people stop dreading." }
+            ],
+            "quote": "The best reviewer is the one who only shows up for the hard parts.",
+            "signature": "LintLine",
+            "signature_role": "AI code review"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-pricing",
+      "content_width": "full",
+      "settings": { "_element_id": "pricing" },
+      "widgets": [
+        {
+          "type": "vew-pricing",
+          "settings": {
+            "eyebrow": "Pricing",
+            "title": "Simple plans",
+            "title_accent": "that scale with you",
+            "intro": "Start free, upgrade when the review volume justifies it.",
+            "plans": [
+              {
+                "plan": "Solo",
+                "price": "$0",
+                "unit": "/ month",
+                "features": [
+                  { "text": "1 private repository" },
+                  { "text": "100 reviews / month" },
+                  { "text": "Security + logic scanning" },
+                  { "text": "Community support" }
+                ],
+                "cta": "Start free",
+                "cta_url": { "url": "#contact" }
+              },
+              {
+                "plan": "Team",
+                "price": "$49",
+                "unit": "/ month",
+                "featured": "yes",
+                "features": [
+                  { "text": "Unlimited repositories" },
+                  { "text": "Unlimited reviews" },
+                  { "text": "Custom rulesets" },
+                  { "text": "Auto-approve triage" },
+                  { "text": "Priority support" }
+                ],
+                "cta": "Start 14-day trial",
+                "cta_url": { "url": "#contact" }
+              },
+              {
+                "plan": "Enterprise",
+                "price": "Custom",
+                "unit": "",
+                "features": [
+                  { "text": "Self-hosted or cloud" },
+                  { "text": "SSO / SAML" },
+                  { "text": "Audit logs" },
+                  { "text": "Dedicated review pool" },
+                  { "text": "SLA & onboarding" }
+                ],
+                "cta": "Talk to sales",
+                "cta_url": { "url": "#contact" }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "The honest answers to what teams ask before adopting LintLine.",
+            "items": [
+              { "question": "Does LintLine replace human code review?", "answer": "No. It absorbs the mechanical 70% — security, style, obvious logic errors — so your humans spend their time on architecture and design. Your senior reviewers are the gate on anything that matters." },
+              { "question": "Is our code stored or used to train models?", "answer": "No. LintLine analyzes each diff in-memory and retains only findings and statistics. We never train on your proprietary code and never store source." },
+              { "question": "Which git hosts do you support?", "answer": "GitHub, GitLab, and Bitbucket — both cloud and self-hosted. Enterprise can run LintLine fully inside their own VPC." },
+              { "question": "How is this different from a linter?", "answer": "A linter checks rules. LintLine reasons about intent — it traces control flow to catch logic errors and security issues that no rule list covers. It's a reviewer, not a formatter." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-cta",
+      "content_width": "full",
+      "settings": { "_element_id": "concept-cta" },
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Stop babysitting pull requests.",
+            "description": "Connect your repo and let LintLine handle the mechanical review. Free to start, live in minutes.",
+            "primary_text": "Try it free",
+            "primary_url": { "url": "#contact" },
+            "secondary_text": "See pricing",
+            "secondary_url": { "url": "#pricing" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Contact",
+            "title": "Get LintLine on your team",
+            "intro": "Tell us about your stack and we'll get you set up — or answer any questions first.",
+            "phone": "(555) 014-2200",
+            "email": "hello@lintline.dev",
+            "location": "Remote-first · Global",
+            "form_kicker": "Request access",
+            "form_title": "Start your free trial",
+            "submit_cta": "Send request"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cra-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "LINTLINE",
+            "brand_tag": "AI CODE REVIEW",
+            "blurb": "The AI reviewer that catches the mechanical 70% so your humans can review the architecture.",
+            "copyright": "© LintLine — AI code review",
+            "columns": [
+              {
+                "heading": "Product",
+                "links": [
+                  { "text": "Features", "url": { "url": "#product" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Pricing", "url": { "url": "#pricing" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "Contact", "url": { "url": "#contact" } },
+                  { "text": "Security", "url": { "url": "#product" } },
+                  { "text": "Privacy", "url": { "url": "#faq" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
