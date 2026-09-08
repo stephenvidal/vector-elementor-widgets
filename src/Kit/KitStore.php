@@ -46,6 +46,7 @@ class KitStore {
 
 		$args = array(
 			'post_title'  => $kit->label(),
+			'post_name'   => $kit->slug(),
 			'post_status' => 'publish',
 			'post_type'   => KitPostType::POST_TYPE,
 		);
