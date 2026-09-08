@@ -1,0 +1,250 @@
+{
+  "title": "The Red Door — Escape Rooms",
+  "slug": "escape-rooms",
+  "kit": "escape-rooms",
+  "containers": [
+    {
+      "id": "er-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE RED DOOR",
+            "brand_tag": "ESCAPE ROOMS",
+            "cta_text": "Book a room",
+            "cta_url": { "url": "#book" },
+            "links": [
+              { "text": "The Rooms", "url": { "url": "#rooms" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Reviews", "url": { "url": "#reviews" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-5.png", "id": 322 },
+            "eyebrow": "60 minutes. One locked room. Your wits.",
+            "headline": "The clock is ticking.<br><em>Can you escape?</em>",
+            "copy": "The Red Door is a cinematic escape room experience with three fully themed rooms, live puzzles, and immersive storylines. Gather your team and see if you've got what it takes.",
+            "primary_cta_text": "Book your escape",
+            "primary_cta_url": { "url": "#book" },
+            "secondary_cta_text": "Explore the rooms",
+            "secondary_cta_url": { "url": "#rooms" },
+            "trust_list": [
+              { "text": "3 immersive themed rooms" },
+              { "text": "2–8 players per room" },
+              { "text": "Family & corporate friendly" },
+              { "text": "No experience needed" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "By the numbers",
+            "title": "Adrenaline, measured",
+            "title_accent": "in escapes",
+            "stats": [
+              { "value": "3", "label": "Themed escape rooms" },
+              { "value": "60", "label": "Minutes on the clock" },
+              { "value": "38%", "label": "Of teams escape in time" },
+              { "value": "4.9/5", "label": "Average guest rating" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-rooms",
+      "content_width": "full",
+      "settings": { "_element_id": "rooms" },
+      "widgets": [
+        {
+          "type": "vew-services",
+          "settings": {
+            "eyebrow": "The rooms",
+            "title": "Three doors.",
+            "title_accent": "One chance to choose.",
+            "intro": "Each room is a fully themed, story-driven puzzle world. Pick your difficulty and step inside.",
+            "variant": "design",
+            "tab_labels": [
+              { "key": "design", "label": "The Rooms" },
+              { "key": "build", "label": "Good to know" },
+              { "key": "launch", "label": "The Goal" }
+            ],
+            "design": [
+              { "icon": "◈", "title": "The Alchemist's Vault", "text": "Beginner-friendly. A Victorian alchemist vanished, and his vault holds the secret. Solve the symbols and unlock it before time runs out." },
+              { "icon": "◈", "title": "The Drowned Submarine", "text": "Medium. Floodwaters are rising on a sunken sub. Fix the systems, decode the coordinates, and surface — or be sealed in forever." },
+              { "icon": "◈", "title": "The Midnight Carnival", "text": "Hard. A cursed carnival that only appears after dark. Break the ringmaster's spell and find your way out before the lights go out." }
+            ],
+            "build": [
+              { "icon": "⚑", "title": "60 minutes", "text": "Every room gives you exactly one hour. Watch the clock, work as a team, and don't waste a second." },
+              { "icon": "⚑", "title": "Live hints", "text": "Stuck? Our game master drops subtle clues through the room's intercom to keep you moving." },
+              { "icon": "⚑", "title": "2–8 players", "text": "Rooms fit small teams to bigger groups. Bring friends, family, or your whole office." }
+            ],
+            "launch": [
+              { "icon": "✦", "title": "Escape & win", "text": "Escape in time and your team earns a spot on our wall of fame — plus bragging rights for the week." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "Your escape, step by step",
+            "title_accent": "",
+            "steps": [
+              { "title": "Pick your room", "text": "Choose a theme and difficulty that fits your group. Not sure? Our team will recommend one." },
+              { "title": "Book your time", "text": "Reserve a slot online or call ahead. Rooms run every hour, seven days a week." },
+              { "title": "Hear the briefing", "text": "Our game master explains the story and the rules. Then the door locks and the clock starts." },
+              { "title": "Solve the puzzles", "text": "Work together to find clues, crack codes, and unlock the way out. Hint button available if you need it." },
+              { "title": "Escape (or not!)", "text": "Make it out and celebrate. If the clock wins, you'll still want to come back and conquer it next time." }
+            ],
+            "note": "No prior experience needed — every room has a learning curve and live hints to keep you in the game."
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "book" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Weekend rush",
+            "title": "Book before this week's slots",
+            "title_accent": "sell out",
+            "end": "2026-08-28 20:00",
+            "expired_text": "This week's slots are full — book ahead for next weekend."
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-reviews",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Reviews",
+            "title": "What escaping teams",
+            "title_accent": "are saying",
+            "intro": "Real words from players who made it out — and a few who didn't.",
+            "reviews": [
+              { "quote": "The Drowned Submarine had us on edge the whole hour. Great puzzles, fair hints, and we escaped with four minutes to spare!", "author": "Nate W.", "role": "Escaped", "stars": 5 },
+              { "quote": "We've done a lot of escape rooms and this is easily the most immersive. The set design alone is worth it.", "author": "Priya S.", "role": "Escape enthusiast", "stars": 5 },
+              { "quote": "Took my whole team as a teambuilder. Great communication, tough puzzles, and everyone got to contribute. Highly recommend.", "author": "Marcus B.", "role": "Team lead", "stars": 4 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "Everything you need to know before you lock the door behind you.",
+            "items": [
+              { "question": "What if we can't escape in time?", "answer": "No one is trapped! The game master lets you out at the end of your hour. About 38% of teams escape — the rest leave with a story and a reason to come back." },
+              { "question": "What's the minimum age?", "answer": "Most rooms are best for ages 12 and up, though younger kids can join family-friendly rooms with an adult. Contact us if you're unsure." },
+              { "question": "Can we book a private session?", "answer": "Yes. You can book an entire room for just your group at any time. Corporate events and birthdays are our specialties." },
+              { "question": "Is it safe?", "answer": "Absolutely. Rooms are fully monitored, exits are never truly locked, and our game masters are trained to intervene if anyone needs to leave early." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book & contact",
+            "title": "Your time starts now",
+            "intro": "Reserve a slot online or reach out with questions. Groups of 10+ get a dedicated booking line.",
+            "phone": "(555) 031-7700",
+            "email": "escape@thereddoor.com",
+            "location": "77 Midnight Ave · Open daily 10am–10pm",
+            "form_kicker": "Booking request",
+            "form_title": "Reserve your escape",
+            "submit_cta": "Request booking"
+          }
+        }
+      ]
+    },
+    {
+      "id": "er-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE RED DOOR",
+            "brand_tag": "ESCAPE ROOMS",
+            "blurb": "Cinematic escape rooms where your team's wits are the only way out. 60 minutes. One door. Can you escape?",
+            "copyright": "© The Red Door — escape rooms",
+            "columns": [
+              {
+                "heading": "Play",
+                "links": [
+                  { "text": "The rooms", "url": { "url": "#rooms" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Book now", "url": { "url": "#book" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Info",
+                "links": [
+                  { "text": "Reviews", "url": { "url": "#reviews" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Private events", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

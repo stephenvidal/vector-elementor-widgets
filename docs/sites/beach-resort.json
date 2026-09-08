@@ -1,0 +1,241 @@
+{
+  "title": "Azure Bay — Beach Resort",
+  "slug": "beach-resort",
+  "kit": "beach-resort",
+  "containers": [
+    {
+      "id": "br-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "AZURE BAY",
+            "brand_tag": "BEACH RESORT",
+            "cta_text": "Book now",
+            "cta_url": { "url": "#book" },
+            "links": [
+              { "text": "Stay", "url": { "url": "#stay" } },
+              { "text": "Experiences", "url": { "url": "#experiences" } },
+              { "text": "Gallery", "url": { "url": "#gallery" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-4.png", "id": 321 },
+            "eyebrow": "Your escape on the Azure Coast",
+            "headline": "Wake up to<br><em>waves, not alarms.</em>",
+            "copy": "Azure Bay is an all-inclusive beachfront resort where the sand is steps from your door and every sunset ends in a toast. Relax, reconnect, and let the ocean set the pace.",
+            "primary_cta_text": "Book your stay",
+            "primary_cta_url": { "url": "#book" },
+            "secondary_cta_text": "Explore experiences",
+            "secondary_cta_url": { "url": "#experiences" },
+            "trust_list": [
+              { "text": "All-inclusive packages" },
+              { "text": "Beachfront suites & villas" },
+              { "text": "Family & couples friendly" },
+              { "text": "Free cancellation" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "At a glance",
+            "title": "The Azure Bay",
+            "title_accent": "by the numbers",
+            "stats": [
+              { "value": "3", "label": "Beaches to yourself" },
+              { "value": "120", "label": "Suites & villas" },
+              { "value": "4", "label": "Restaurants & bars" },
+              { "value": "98%", "label": "Guests who return" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-stay",
+      "content_width": "full",
+      "settings": { "_element_id": "stay" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Accommodations",
+            "title": "A place to stay",
+            "title_accent": "that becomes home",
+            "intro": "Every room faces the water. Wake to the sun rising over the bay and fall asleep to the tide.",
+            "features": [
+              { "number": "01", "title": "Ocean-view suites", "text": "Floor-to-ceiling windows, a private balcony, and a king bed that makes leaving hard.", "detail": "From $249 / night" },
+              { "number": "02", "title": "Beachfront villas", "text": "Your own pool, direct beach access, and a dedicated concierge for the ultimate escape.", "detail": "From $549 / night" },
+              { "number": "03", "title": "Family bungalows", "text": "Two bedrooms, a kitchenette, and plenty of room for the kids to run around.", "detail": "From $319 / night" },
+              { "number": "04", "title": "All-inclusive dining", "text": "Four restaurants and two bars — from fresh seafood to wood-fired pizza — all included.", "detail": "No hidden fees" },
+              { "number": "05", "title": "Pools & spa", "text": "Infinity pools, a kids' splash zone, and a full-service spa for some serious R&R.", "detail": "Complimentary for guests" },
+              { "number": "06", "title": "Water sports", "text": "Paddleboarding, snorkeling, sailing, and jet-ski rentals right on our beach.", "detail": "On-site equipment" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "book" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Summer escape",
+            "title": "Early-bird offer ends",
+            "title_accent": "soon",
+            "end": "2026-09-15 23:59",
+            "expired_text": "The early-bird offer has ended — book now for the best remaining rates."
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-exp",
+      "content_width": "full",
+      "settings": { "_element_id": "experiences" },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "eyebrow": "Experiences",
+            "title": "Days you'll talk about",
+            "title_accent": "for years",
+            "title_after": "",
+            "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-4.png", "id": 321 },
+            "image_caption": "Sunset catamaran cruise — our most-booked excursion",
+            "paragraphs": [
+              { "text": "Beyond the beach, Azure Bay curates a calendar of experiences: sunset catamaran cruises, guided reef snorkeling, cooking classes with our chefs, and kids' adventure camps." },
+              { "text": "Prefer to do nothing at all? We've perfected that too. Lounge under a palm, order from the swim-up bar, and let the day dissolve into evening." }
+            ],
+            "quote": "The best days here are the ones you plan the least.",
+            "signature": "Azure Bay",
+            "signature_role": "Resort experiences"
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Gallery",
+            "title": "A glimpse of",
+            "title_accent": "paradise",
+            "gallery_style": "editorial",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/gallery-pool.png", "id": 339 }, "label": "Infinity pool at golden hour", "alt": "Resort infinity pool overlooking the ocean" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/gallery-dining.png", "id": 337 }, "label": "Sunset dining", "alt": "Outdoor dining at sunset" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-4.png", "id": 321 }, "label": "The beach at sunrise", "alt": "Azure Bay beach at sunrise" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "The details guests ask about most before booking.",
+            "items": [
+              { "question": "What's included in an all-inclusive stay?", "answer": "All meals at our four restaurants, drinks at the bars, daily activities, and use of the pools and beach equipment. Spa treatments and premium excursions are extra." },
+              { "question": "Is Azure Bay family-friendly?", "answer": "Absolutely. We have family bungalows, a kids' splash zone, supervised adventure camps, and high chairs and cribs available in every family room." },
+              { "question": "What's the cancellation policy?", "answer": "Free cancellation up to 7 days before arrival. Within 7 days, a one-night charge applies. Peak-season bookings have slightly different terms." },
+              { "question": "How do I get to the resort?", "answer": "We're a 40-minute drive from the airport. Airport transfers can be arranged through our concierge for a small fee." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Book your stay",
+            "title": "Let's plan your escape",
+            "intro": "Tell us your dates and how many are coming — our team will send you a tailored quote within a day.",
+            "phone": "(555) 027-4400",
+            "email": "stay@azurebay.com",
+            "location": "1 Coast Road, Azure Bay",
+            "form_kicker": "Reservation request",
+            "form_title": "Start your booking",
+            "submit_cta": "Request a quote"
+          }
+        }
+      ]
+    },
+    {
+      "id": "br-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "AZURE BAY",
+            "brand_tag": "BEACH RESORT",
+            "blurb": "An all-inclusive beachfront resort where the sand is steps from your door and every sunset ends in a toast.",
+            "copyright": "© Azure Bay — beach resort",
+            "columns": [
+              {
+                "heading": "Stay",
+                "links": [
+                  { "text": "Accommodations", "url": { "url": "#stay" } },
+                  { "text": "Gallery", "url": { "url": "#gallery" } },
+                  { "text": "Book now", "url": { "url": "#book" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "Explore",
+                "links": [
+                  { "text": "Experiences", "url": { "url": "#experiences" } },
+                  { "text": "Dining", "url": { "url": "#stay" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

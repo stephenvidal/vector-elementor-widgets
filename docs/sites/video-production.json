@@ -1,0 +1,246 @@
+{
+  "title": "Reelhouse",
+  "slug": "video-production",
+  "kit": "video-production",
+  "containers": [
+    {
+      "id": "vp-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "REELHOUSE",
+            "brand_tag": "Video Production",
+            "cta_text": "Start a project",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Work", "url": { "url": "#work" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "The crew", "url": { "url": "#crew" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-176.png", "id": 0 },
+            "eyebrow": "Reelhouse · Video production · Brand films · Commercials · Documentaries",
+            "headline": "Your story,<br><em>shot like it matters.</em>",
+            "copy": "Reelhouse is a full-service video production company. From a 30-second spot to a feature-length documentary, we write, shoot, and cut films that make audiences feel something — and make your brand impossible to ignore.",
+            "primary_cta_text": "Start a project",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "See our work",
+            "secondary_cta_url": { "url": "#work" },
+            "trust_list": [
+              { "text": "120+ films delivered across 14 industries" },
+              { "text": "In-house writers, directors, and editors" },
+              { "text": "4K / HDR / cinema-grade finishing" },
+              { "text": "On-time, on-budget, every shoot" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Reelhouse by the numbers",
+            "title": "A decade of",
+            "title_accent": "stories well told",
+            "intro": "We measure success the way our clients do: in views, in conversions, and in the quiet confidence of a brand that finally sounds like itself.",
+            "stats": [
+              { "value": "120+", "label": "Films produced since 2016" },
+              { "value": "38", "label": "Industry awards and nominations" },
+              { "value": "4.2M+", "label": "Combined views across our campaigns" },
+              { "value": "92%", "label": "Clients who return for a second project" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "Every frame,",
+            "title_accent": "built to perform",
+            "intro": "We're not a crew-for-hire. We're a creative partner that owns the whole journey — from the first blank page to the final master. Here's what we bring to every project.",
+            "features": [
+              { "number": "01", "title": "Brand films", "text": "The film that lives on your homepage and sets the tone for everything else. We find the emotional core of your brand and put it on screen.", "detail": "60–120s hero films" },
+              { "number": "02", "title": "Commercials", "text": "Spots built for broadcast, social, and pre-roll. Tight, memorable, and engineered to convert — not just to be watched.", "detail": "15s to 60s cuts" },
+              { "number": "03", "title": "Documentaries", "text": "Long-form storytelling that builds trust and authority. We embed with your team, your customers, and your craft to tell the real story.", "detail": "10–40 min features" },
+              { "number": "04", "title": "Product & explainer", "text": "Clear, confident films that make complex products feel simple. Scripted, storyboarded, and animated or live-action to fit your brand.", "detail": "Script-first approach" },
+              { "number": "05", "title": "Social content", "text": "A steady stream of short-form cutdowns, teasers, and verticals that keep your brand in the feed. Built for the platform, not repurposed.", "detail": "Vertical + square formats" },
+              { "number": "06", "title": "Live events", "text": "Multi-camera coverage of launches, conferences, and keynotes. Same-day edits and highlight reels while the energy is still fresh.", "detail": "Multi-cam + same-day cuts" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How we work",
+            "title": "From brief to",
+            "title_accent": "broadcast-ready",
+            "intro": "A clear process means no surprises. You always know what's happening, what's next, and what it costs. Here's the path from first call to final delivery.",
+            "steps": [
+              { "title": "Discover", "text": "We start with a conversation, not a contract. We learn your goals, your audience, and the story only you can tell — then we write the creative brief together." },
+              { "title": "Develop", "text": "Script, storyboard, and shot list. You see the film on paper before we ever pick up a camera, so we're aligned on the vision before a single frame is shot." },
+              { "title": "Produce", "text": "Our crew shoots with cinema-grade cameras and lights. You get a dedicated producer on set, daily updates, and full creative control throughout." },
+              { "title": "Deliver", "text": "We edit, color-grade, and mix to broadcast standard. You get masters in every format you need — plus cutdowns for social, web, and paid media." }
+            ],
+            "note": "Most projects go from first call to final delivery in 4–6 weeks. Need it faster? Our express track can turn a brief into a finished spot in 10 business days."
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Selected work",
+            "title": "Films we're",
+            "title_accent": "proud of",
+            "intro": "A few frames from recent projects across brand, commercial, and documentary work.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-176.png", "id": 0 }, "label": "Brand film — Meridian", "alt": "A cinematic wide shot of a modern office at golden hour, a lone figure walking through shafts of light" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-176.png", "id": 0 }, "label": "Commercial — Atlas Coffee", "alt": "A close-up of coffee being poured into a ceramic cup, steam rising against a dark amber backdrop" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-176.png", "id": 0 }, "label": "Documentary — The Long Road", "alt": "A documentary-style shot of a weathered truck driver looking out over a mountain highway at dusk" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-watch",
+      "content_width": "full",
+      "settings": { "_element_id": "watch" },
+      "widgets": [
+        {
+          "type": "vew-video-embed",
+          "settings": {
+            "eyebrow": "Watch",
+            "title": "A look behind",
+            "title_accent": "the lens",
+            "video_url": { "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
+            "autoplay": "",
+            "controls": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-crew",
+      "content_width": "full",
+      "settings": { "_element_id": "crew" },
+      "widgets": [
+        {
+          "type": "vew-team-grid",
+          "settings": {
+            "eyebrow": "The people",
+            "title": "The crew behind",
+            "title_accent": "the camera",
+            "intro": "No freelancers, no revolving door. Everyone you meet is a full-time part of Reelhouse, and every film carries all of our names.",
+            "columns": "3",
+            "members": [
+              { "name": "Mara Ellison", "role": "Founder & Director", "bio": "Directed forty of our films. Believes a story is finished when it's honest, not when it's safe.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Devon Park", "role": "Head of Production", "bio": "Keeps the schedules honest and the budgets real. Has never missed a call time in twelve years.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Sofia Reyes", "role": "Writer-in-Residence", "bio": "Wrote the scripts for our Atlas and Meridian campaigns. A former journalist who still chases the truth in every draft.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Jonas Weber", "role": "Director of Photography", "bio": "Shoots on cinema glass whenever the budget allows. Obsessed with light, shadow, and the space between actors.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Priya Nair", "role": "Editor", "bio": "The final cut is hers. Known for finding the film in the footage everyone else thought was unusable.", "twitter": { "url": "" }, "linkedin": { "url": "" } },
+              { "name": "Theo Marsh", "role": "Sound Designer", "bio": "Builds the worlds you hear. Every room, every silence, every breath is placed with intent.", "twitter": { "url": "" }, "linkedin": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Let's make something",
+            "title_accent": "worth watching",
+            "intro": "Tell us about your project and we'll come back with a creative approach and a clear budget — usually within two business days.",
+            "phone": "(555) 214-8890",
+            "email": "hello@reelhouse.film",
+            "location": "Studio 4, 1180 Harbor Way · Serving clients worldwide",
+            "form_kicker": "Start the conversation",
+            "form_title": "Tell us about your film",
+            "submit_cta": "Request a proposal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vp-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "REELHOUSE",
+            "brand_tag": "Video Production",
+            "blurb": "A full-service video production company. We write, shoot, and cut films that make audiences feel something — and make your brand impossible to ignore.",
+            "copyright": "© Reelhouse",
+            "columns": [
+              {
+                "heading": "Services",
+                "links": [
+                  { "text": "Brand films", "url": { "url": "#work" } },
+                  { "text": "Commercials", "url": { "url": "#work" } },
+                  { "text": "Documentaries", "url": { "url": "#work" } },
+                  { "text": "Social content", "url": { "url": "#work" } }
+                ]
+              },
+              {
+                "heading": "Company",
+                "links": [
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "The crew", "url": { "url": "#crew" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

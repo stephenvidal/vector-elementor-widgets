@@ -1,0 +1,218 @@
+{
+  "title": "Holloway & Page — Independent Bookstore",
+  "slug": "independent-bookstore",
+  "kit": "independent-bookstore",
+  "containers": [
+    {
+      "id": "hb-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HOLLOWAY & PAGE",
+            "brand_tag": "BOOKS · INDEPENDENT SINCE 1978",
+            "cta_text": "Visit the shop",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "The shelves", "url": { "url": "#shelves" } },
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "Our story", "url": { "url": "#story" } },
+              { "text": "The letter", "url": { "url": "#letter" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hb-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-127.png", "id": 1452 },
+            "eyebrow": "Holloway & Page · Independent since 1978 · Old Town, Main Street",
+            "headline": "Books with<br><em>a spine.</em>",
+            "copy": "A real bookshop is a conversation, not a transaction. Holloway & Page has spent nearly fifty years matching curious readers with the books they didn't know they were looking for — new hardcovers, dog-eared paperbacks, and a staff who read on their lunch breaks.",
+            "primary_cta_text": "Browse the shelves",
+            "primary_cta_url": { "url": "#shelves" },
+            "secondary_cta_text": "Our story",
+            "secondary_cta_url": { "url": "#story" },
+            "trust_list": [
+              { "text": "Independent & family-run since 1978" },
+              { "text": "Hand-picked by readers, not algorithms" },
+              { "text": "Rare & out-of-print editions stocked" },
+              { "text": "Every staff pick finished — or admitted otherwise" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hb-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "numbers" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Forty-eight years on Main Street",
+            "title": "The numbers",
+            "title_accent": "behind the shelves",
+            "stats": [
+              { "value": "48", "label": "Years as an independent bookseller" },
+              { "value": "26,000+", "label": "Titles on our shelves right now" },
+              { "value": "9", "label": "Staff members who read on the job" },
+              { "value": "1,200+", "label": "Reader-club members who trust our picks" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hb-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Holloway & Page",
+            "title": "More than",
+            "title_accent": "a shop",
+            "intro": "Anyone can sell you a book. We'd rather hand you the right one. Here's what that means in practice.",
+            "features": [
+              { "number": "01", "title": "Staff picks with opinions", "text": "Every recommendation card on our shelves is written by someone who actually read the book. If we disliked it, we say so. No ghostwritten blurbs, no paid placement.", "detail": "Handwritten notes on every pick" },
+              { "number": "02", "title": "Small presses first", "text": "We champion independent and translated publishers the big chains overlook. Half our front table is given over to voices you won't find in a supermarket aisle.", "detail": "Over 80 independent publishers stocked" },
+              { "number": "03", "title": "The rare & out-of-print", "text": "A corner of the shop is given to first editions, out-of-print titles, and signed copies. If we don't have it, we'll hunt it down for you.", "detail": "Worldwide search for the unusual" },
+              { "number": "04", "title": "Readers, not just customers", "text": "Our reader-club, book groups, and author evenings mean the shop is a meeting place, not a warehouse. Come for the stock, stay for the conversation.", "detail": "Monthly author events in our reading room" },
+              { "number": "05", "title": "Order it, we'll find it", "text": "Can't see it? Tell us the title and we'll order it, usually within a week — at the list price, no markup, no fuss.", "detail": "Free in-shop pickup on all orders" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hb-story",
+      "content_width": "full",
+      "settings": { "_element_id": "story" },
+      "widgets": [
+        {
+          "type": "vew-timeline",
+          "settings": {
+            "eyebrow": "Our story",
+            "title": "Forty-eight years",
+            "title_accent": "in the making",
+            "intro": "Holloway & Page has changed hands once and kept its soul twice. Here's how we got here.",
+            "orientation": "alternating",
+            "events": [
+              { "year": "1978", "title": "A shop opens on Main Street", "text": "Margaret Holloway takes over a bankrupt newsagent's and fills it, floor to ceiling, with paperbacks. The shop has its first paying customer before the sign goes up.", "link": { "url": "" } },
+              { "year": "1993", "title": "The rare-books corner", "text": "A customer brings in a box of first editions and refuses to sell them to anyone but Margaret. The glass-fronted corner is born — and never empty again.", "link": { "url": "" } },
+              { "year": "2006", "title": "A second generation", "text": "Margaret's daughter, Ellen Page, takes over the shop and the name becomes Holloway & Page. The handover happens over a pot of tea at the back counter.", "link": { "url": "" } },
+              { "year": "2014", "title": "The reading room opens", "text": "We knock through into the next-door building to add a wood-panelled reading room for book groups, author evenings, and the slow act of finishing a chapter.", "link": { "url": "" } },
+              { "year": "2024", "title": "Still independent", "text": "Two chains have opened across the street and we're still here, ordering small presses, writing notes by hand, and selling the right book to the right reader.", "link": { "url": "" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hb-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "shelves" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the shop",
+            "title": "Wander the",
+            "title_accent": "stacks",
+            "intro": "A look at the nooks, shelves, and corners that make Holloway & Page feel less like a store and more like a very large, very well-read living room.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-127.png", "id": 1452 }, "label": "The front bay window", "alt": "A shop bay window full of stacked new releases in warm afternoon light" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-127.png", "id": 1452 }, "label": "The rare-books corner", "alt": "A quiet corner with glass-fronted cabinets of first editions and signed copies" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-127.png", "id": 1452 }, "label": "The reading room", "alt": "A wood-panelled reading room with armchairs and shelves to the ceiling" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "hb-letter",
+      "content_width": "full",
+      "settings": { "_element_id": "letter" },
+      "widgets": [
+        {
+          "type": "vew-newsletter",
+          "settings": {
+            "eyebrow": "The Holloway Post",
+            "title": "One letter,",
+            "title_accent": "every month",
+            "intro": "A monthly note from the shop — one book we can't stop thinking about, one event you shouldn't miss, and one staff confession we probably shouldn't print. No spam, unsubscribe anytime.",
+            "placeholder": "you@example.com",
+            "button_text": "Join the readers"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hb-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Visit the shop",
+            "title": "Come say",
+            "title_accent": "hello",
+            "intro": "Open every day except Tuesday. Bring your reading list, or leave it to us — we'll point you somewhere good either way.",
+            "phone": "(555) 019-8842",
+            "email": "hello@hollowayandpage.books",
+            "location": "Holloway & Page · 17 Main Street, Old Town",
+            "form_kicker": "Book an order",
+            "form_title": "Tell us what you're looking for",
+            "submit_cta": "Send my request"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hb-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HOLLOWAY & PAGE",
+            "brand_tag": "BOOKS · INDEPENDENT SINCE 1978",
+            "blurb": "A fiercely independent bookshop in the old town — new hardcovers, dog-eared paperbacks, rare editions, and staff who have actually read what they recommend.",
+            "copyright": "© Holloway & Page",
+            "columns": [
+              {
+                "heading": "The shop",
+                "links": [
+                  { "text": "Browse the shelves", "url": { "url": "#shelves" } },
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "Our story", "url": { "url": "#story" } }
+                ]
+              },
+              {
+                "heading": "Connect",
+                "links": [
+                  { "text": "The Holloway Post", "url": { "url": "#letter" } },
+                  { "text": "Visit us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "title": "Hearth & Harvest — Farm to Table",
+  "slug": "farm-to-table",
+  "kit": "farm-to-table",
+  "containers": [
+    {
+      "id": "ft-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "HEARTH & HARVEST",
+            "brand_tag": "FARM TO TABLE",
+            "cta_text": "Reserve",
+            "cta_url": { "url": "#reserve" },
+            "links": [
+              { "text": "The Farm", "url": { "url": "#farm" } },
+              { "text": "Menu", "url": { "url": "#menu" } },
+              { "text": "Our Story", "url": { "url": "#story" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-3.png", "id": 320 },
+            "eyebrow": "Sourced within 50 miles, served the same week",
+            "headline": "From our farm to<br><em>your table.</em>",
+            "copy": "Hearth & Harvest is a farm-to-table restaurant where the menu changes with the season. We grow what we can on our own land and buy the rest from the farmers next door.",
+            "primary_cta_text": "See this season's menu",
+            "primary_cta_url": { "url": "#menu" },
+            "secondary_cta_text": "Visit the farm",
+            "secondary_cta_url": { "url": "#farm" },
+            "trust_list": [
+              { "text": "Owned & operated by farmers" },
+              { "text": "Menu changes weekly" },
+              { "text": "Zero-waste kitchen" },
+              { "text": "Dinner only · Wed–Sun" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "From the ground up",
+            "title": "Measured in",
+            "title_accent": "miles and harvests",
+            "stats": [
+              { "value": "50 mi", "label": "Average food-miles" },
+              { "value": "90%", "label": "Ingredients from local farms" },
+              { "value": "12", "label": "Partner farms we work with" },
+              { "value": "0", "label": "Food waste to landfill" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-farm",
+      "content_width": "full",
+      "settings": { "_element_id": "farm" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "The farm",
+            "title": "We grow, raise, and",
+            "title_accent": "harvest with care",
+            "intro": "Forty acres of vegetables, orchards, and pasture — worked by the same hands that cook your dinner.",
+            "features": [
+              { "number": "01", "title": "Vegetable gardens", "text": "Heirloom tomatoes, greens, roots, and herbs planted in rotation for peak flavor, not shelf life.", "detail": "Seasonal & organic methods" },
+              { "number": "02", "title": "Orchard & berries", "text": "Stone fruit, apples, and berries that go from branch to plate in under 48 hours.", "detail": "Small-batch harvests" },
+              { "number": "03", "title": "Pasture-raised animals", "text": "Heritage-breed chickens, pigs, and lamb raised on open pasture with a humane, stress-free life.", "detail": "Rotational grazing" },
+              { "number": "04", "title": "Local partners", "text": "What we don't grow, we buy from neighbors: cheese, grain, seafood, and wine from within 50 miles.", "detail": "12 partner farms" },
+              { "number": "05", "title": "Compost & soil", "text": "Every scrap returns to the fields. Our zero-waste kitchen feeds the soil that feeds us.", "detail": "Closed nutrient loop" },
+              { "number": "06", "title": "Seasonal menu", "text": "The chef writes the menu from what's ripe this week — so you always taste the season at its peak.", "detail": "Changes every Wednesday" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-split",
+      "content_width": "full",
+      "settings": { "_element_id": "story" },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "eyebrow": "Our story",
+            "title": "We didn't start a restaurant.",
+            "title_accent": "We grew one.",
+            "title_after": "",
+            "image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-3.png", "id": 320 },
+            "image_caption": "Morning harvest — picked for tonight's menu",
+            "paragraphs": [
+              { "text": "Hearth & Harvest began as a family farm selling at a roadside stand. The natural next step wasn't a bigger stand — it was a kitchen that could show off what we grow the way it deserves." },
+              { "text": "Today we seat forty guests a night, and every plate tells the story of the season: where it grew, who raised it, and how it got from the ground to your table in a matter of days." }
+            ],
+            "quote": "If you can taste the sun, we've done our job.",
+            "signature": "The Rivera Family",
+            "signature_role": "Farmers & owners"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-menu",
+      "content_width": "full",
+      "settings": { "_element_id": "menu" },
+      "widgets": [
+        {
+          "type": "vew-menu",
+          "settings": {
+            "eyebrow": "This week's menu",
+            "title": "What's ripe right now",
+            "intro": "A taste of the current harvest. The full menu changes every Wednesday.",
+            "items": [
+              { "name": "Heirloom tomato salad", "description": "Stone fruit, whipped goat cheese, basil, aged balsamic", "price": "$16", "tag": "vegetarian" },
+              { "name": "Grilled corn & charred leek", "description": "Brown butter, smoked paprika, microgreens from our greenhouse", "price": "$14", "tag": "vegetarian" },
+              { "name": "Pasture-raised chicken", "description": "Herb-roasted, root vegetables, verjus pan sauce", "price": "$29", "tag": "" },
+              { "name": "Wood-fired pork chop", "description": "Apple cider glaze, charred cabbage, stone-ground polenta", "price": "$32", "tag": "house favorite" },
+              { "name": "Heritage lamb ragù", "description": "Pappardelle, pecorino, gremolata from our herb garden", "price": "$34", "tag": "" },
+              { "name": "Baked berry crumble", "description": "Fresh orchard berries, oat topping, whipped cream", "price": "$12", "tag": "dessert" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-testimonials",
+      "content_width": "full",
+      "settings": { "_element_id": "reviews" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What guests say",
+            "title": "Loved by",
+            "title_accent": "neighbors & travelers",
+            "intro": "A few words from the table.",
+            "reviews": [
+              { "quote": "The tomato salad tasted like the farm stand from my childhood, but elevated. This is what local food should be.", "author": "Elena P.", "role": "Regular guest", "stars": 5 },
+              { "quote": "You can tell everything is grown with intention. The pork chop was the best I've had in years.", "author": "Marcus T.", "role": "Dinner guest", "stars": 5 },
+              { "quote": "Worth the drive from the city every time. The seasonal menu keeps me coming back to see what's new.", "author": "Sofia R.", "role": "Weekend visitor", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-reserve",
+      "content_width": "full",
+      "settings": { "_element_id": "reserve" },
+      "widgets": [
+        {
+          "type": "vew-cta-banner",
+          "settings": {
+            "heading": "Taste the season.",
+            "description": "We seat forty guests a night, Wednesday through Sunday. Book ahead to make sure there's a spot at the table.",
+            "primary_text": "Make a reservation",
+            "primary_url": { "url": "#contact" },
+            "secondary_text": "See the menu",
+            "secondary_url": { "url": "#menu" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Find us",
+            "title": "At the edge of the farm",
+            "intro": "We're open Wednesday through Sunday for dinner. Walk-ins welcome when we have room.",
+            "phone": "(555) 022-8800",
+            "email": "table@hearthandharvest.com",
+            "location": "88 Orchard Lane · Wed–Sun, 5pm–10pm",
+            "form_kicker": "Reservations & questions",
+            "form_title": "Book your table",
+            "submit_cta": "Request reservation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ft-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "HEARTH & HARVEST",
+            "brand_tag": "FARM TO TABLE",
+            "blurb": "A farm-to-table restaurant growing, raising, and cooking the best of the season — sourced within 50 miles.",
+            "copyright": "© Hearth & Harvest — farm to table",
+            "columns": [
+              {
+                "heading": "Visit",
+                "links": [
+                  { "text": "The farm", "url": { "url": "#farm" } },
+                  { "text": "Menu", "url": { "url": "#menu" } },
+                  { "text": "Reserve", "url": { "url": "#reserve" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              },
+              {
+                "heading": "About",
+                "links": [
+                  { "text": "Our story", "url": { "url": "#story" } },
+                  { "text": "Partner farms", "url": { "url": "#farm" } },
+                  { "text": "Reviews", "url": { "url": "#reviews" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
