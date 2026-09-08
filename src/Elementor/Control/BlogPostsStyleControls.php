@@ -11,6 +11,7 @@ namespace Vector\ElementorWidgets\Elementor\Control;
 
 use Elementor\Controls_Manager;
 use Elementor\Widget_Base;
+use Vector\ElementorWidgets\Elementor\Component\SectionHeading;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -96,6 +97,8 @@ final class BlogPostsStyleControls {
 				),
 			)
 		);
+
+		SectionHeading::register_style_controls( $widget );
 
 		$widget->end_controls_section();
 	}

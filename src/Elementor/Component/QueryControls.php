@@ -4,9 +4,8 @@
  *
  * Additive controls and a sanitized WP_Query args builder for widgets that
  * render a dynamic list of posts (blog feed, post gallery, related posts).
- * Recurrence is now demonstrated across PostsFeed, PortfolioIndex, and the
- * new dynamic widgets, so the query contract is extracted here per the
- * framework-refinement abstraction threshold.
+ * The query contract is extracted here so future dynamic widgets share one
+ * sanitized query path instead of hand-rolling WP_Query args.
  *
  * @package Vector\ElementorWidgets\Elementor\Component
  */
@@ -105,7 +104,8 @@ final class QueryControls {
 				'options'     => self::category_options(),
 				'multiple'    => true,
 				'label_block' => true,
-				'description' => __( 'Leave empty to show all categories.', 'vector-elementor-widgets' ),
+				'description' => __( 'Leave empty to show all categories. Applies to the built-in post type.', 'vector-elementor-widgets' ),
+				'condition'   => array( 'query_post_type' => 'post' ),
 			)
 		);
 
@@ -142,11 +142,12 @@ final class QueryControls {
 	/**
 	 * Build a sanitized WP_Query args array from sanitized settings.
 	 *
-	 * @param array<string, mixed> $safe Sanitized settings (whitelisted + coerced).
+	 * @param array<string, mixed> $safe          Sanitized settings (whitelisted + coerced).
+	 * @param bool                 $require_images When true, only return posts with a featured image.
 	 *
 	 * @return array<string, mixed> WP_Query args.
 	 */
-	public static function query_args( array $safe ): array {
+	public static function query_args( array $safe, bool $require_images = false ): array {
 		$post_type = isset( $safe['query_post_type'] ) ? sanitize_key( (string) $safe['query_post_type'] ) : 'post';
 		$post_type = post_type_exists( $post_type ) ? $post_type : 'post';
 
@@ -161,11 +162,12 @@ final class QueryControls {
 		$ignore_sticky = ( isset( $safe['query_ignore_sticky'] ) && 'yes' === $safe['query_ignore_sticky'] );
 
 		$args = array(
-			'post_type'      => $post_type,
-			'posts_per_page' => $count,
-			'orderby'        => $orderby,
-			'order'          => $order,
+			'post_type'           => $post_type,
+			'posts_per_page'      => $count,
+			'orderby'             => $orderby,
+			'order'               => $order,
 			'ignore_sticky_posts' => $ignore_sticky,
+			'no_found_rows'       => true,
 		);
 
 		// Category filter (term include) via tax_query.
@@ -190,6 +192,16 @@ final class QueryControls {
 			$args['author__in'] = array_values( $authors );
 		}
 
+		// Only posts with a featured image (post gallery).
+		if ( $require_images ) {
+			$args['meta_query'] = array( // phpcs:ignore WordPress.DB.SlowDBQuery -- exact-meta, low cardinality.
+				array(
+					'key'     => '_thumbnail_id',
+					'compare' => 'EXISTS',
+				),
+			);
+		}
+
 		return $args;
 	}
 
@@ -206,7 +218,8 @@ final class QueryControls {
 			if ( in_array( $type->name, array( 'post', 'page' ), true ) ) {
 				continue;
 			}
-			$options[ $type->name ] = $type->name;
+			$label = isset( $type->labels->singular_name ) ? (string) $type->labels->singular_name : $type->name;
+			$options[ $type->name ] = $label;
 		}
 
 		return $options;
@@ -224,6 +237,8 @@ final class QueryControls {
 			array(
 				'taxonomy'   => 'category',
 				'hide_empty' => false,
+				'number'     => 200,
+				'fields'     => 'id=>name',
 			)
 		);
 
@@ -231,8 +246,8 @@ final class QueryControls {
 			return $options;
 		}
 
-		foreach ( $terms as $term ) {
-			$options[ (string) $term->term_id ] = (string) $term->name;
+		foreach ( $terms as $term_id => $name ) {
+			$options[ (string) $term_id ] = (string) $name;
 		}
 
 		return $options;
@@ -249,6 +264,8 @@ final class QueryControls {
 		$users = get_users(
 			array(
 				'capability' => array( 'edit_posts' ),
+				'number'     => 100,
+				'fields'     => array( 'ID', 'display_name' ),
 			)
 		);
 

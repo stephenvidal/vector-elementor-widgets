@@ -117,7 +117,7 @@ final class PostGallery extends BaseWidget {
 			array( 'block_class' => 'vew-post-gallery' )
 		);
 
-		$query = new \WP_Query( QueryControls::query_args( $safe ) );
+		$query = new \WP_Query( QueryControls::query_args( $safe, true ) );
 
 		// Collect featured-image items (only posts with a thumbnail).
 		$items = array();
@@ -140,7 +140,7 @@ final class PostGallery extends BaseWidget {
 		$modifier = 'grid' === $style ? ' vew-post-gallery--grid' : ( 'carousel' === $style ? ' vew-post-gallery--carousel' : ' vew-post-gallery--mosaic' );
 		$last     = count( $items ) - 1;
 		?>
-		<section class="vew-post-gallery<?php echo $modifier; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- $modifier is a whitelist-safe static string. ?> vew-post-gallery--<?php echo esc_attr( $columns ); ?>" aria-label="<?php echo esc_attr__( 'Post gallery', 'vector-elementor-widgets' ); ?>">
+		<section class="vew-post-gallery<?php echo $modifier; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- $modifier is a whitelist-safe static string. ?> vew-post-gallery--<?php echo esc_attr( $columns ); ?>" aria-label="<?php echo esc_attr__( 'Post gallery', 'vector-elementor-widgets' ); ?>" data-i18n-viewer="<?php echo esc_attr__( 'Post image viewer', 'vector-elementor-widgets' ); ?>" data-i18n-close="<?php echo esc_attr__( 'Close image viewer', 'vector-elementor-widgets' ); ?>" data-i18n-prev="<?php echo esc_attr__( 'Previous image', 'vector-elementor-widgets' ); ?>" data-i18n-next="<?php echo esc_attr__( 'Next image', 'vector-elementor-widgets' ); ?>" data-i18n-view-post="<?php echo esc_attr__( 'View post', 'vector-elementor-widgets' ); ?>" data-i18n-go-to-image="<?php echo esc_attr__( 'Go to image', 'vector-elementor-widgets' ); ?>">
 			<div class="vew-post-gallery__inner">
 				<?php
 				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- component escapes all values.

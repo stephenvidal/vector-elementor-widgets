@@ -7,6 +7,9 @@
  * so the lightbox is opened on the anchor's click (preventDefault) and the
  * post link is preserved as the lightbox caption link.
  *
+ * Translatable strings are read from data-* attributes emitted by render()
+ * (the plugin's escaping-safe path), never hardcoded English.
+ *
  * @package Vector\ElementorWidgets
  */
 ( function () {
@@ -16,6 +19,14 @@
 	var lightboxIndex = 0;
 	var currentItems = [];
 	var lastTrigger = null;
+	var i18n = {
+		viewer: 'Post image viewer',
+		close: 'Close image viewer',
+		prev: 'Previous image',
+		next: 'Next image',
+		viewPost: 'View post \u2192',
+		goToImage: 'Go to image'
+	};
 
 	/**
 	 * Build the lightbox overlay DOM using createElement + textContent only
@@ -28,24 +39,25 @@
 		overlay.className = 'vew-post-gallery__lightbox';
 		overlay.setAttribute( 'role', 'dialog' );
 		overlay.setAttribute( 'aria-modal', 'true' );
-		overlay.setAttribute( 'aria-label', 'Post image viewer' );
+		overlay.setAttribute( 'aria-label', i18n.viewer );
+		overlay.setAttribute( 'tabindex', '-1' );
 
 		var close = document.createElement( 'button' );
 		close.type = 'button';
 		close.className = 'vew-post-gallery__lightbox-close';
-		close.setAttribute( 'aria-label', 'Close image viewer' );
+		close.setAttribute( 'aria-label', i18n.close );
 		close.textContent = '\u00d7';
 
 		var prev = document.createElement( 'button' );
 		prev.type = 'button';
 		prev.className = 'vew-post-gallery__lightbox-prev';
-		prev.setAttribute( 'aria-label', 'Previous image' );
+		prev.setAttribute( 'aria-label', i18n.prev );
 		prev.textContent = '\u2190';
 
 		var next = document.createElement( 'button' );
 		next.type = 'button';
 		next.className = 'vew-post-gallery__lightbox-next';
-		next.setAttribute( 'aria-label', 'Next image' );
+		next.setAttribute( 'aria-label', i18n.next );
 		next.textContent = '\u2192';
 
 		var figure = document.createElement( 'figure' );
@@ -81,7 +93,7 @@
 		img.alt = item.title || '';
 		caption.textContent = item.title || '';
 		link.href = item.permalink || '#';
-		link.textContent = item.title ? 'View post \u2192' : '';
+		link.textContent = item.title ? i18n.viewPost : '';
 
 		document.body.appendChild( overlay );
 		document.body.style.overflow = 'hidden';
@@ -113,7 +125,7 @@
 			var link = lightbox.querySelector( 'a' );
 			if ( img ) { img.src = item.src; img.alt = item.title || ''; }
 			if ( cap ) { cap.textContent = item.title || ''; }
-			if ( link ) { link.href = item.permalink || '#'; link.textContent = item.title ? 'View post \u2192' : ''; }
+			if ( link ) { link.href = item.permalink || '#'; link.textContent = item.title ? i18n.viewPost : ''; }
 		}
 	}
 
@@ -171,8 +183,14 @@
 				var first = focusable[ 0 ];
 				var last = focusable[ focusable.length - 1 ];
 				var active = document.activeElement;
+				// If focus has escaped the dialog (e.g. clicked the image), pull it back in.
+				if ( ! lightbox.contains( active ) ) {
+					e.preventDefault();
+					first.focus();
+					return;
+				}
 				if ( e.shiftKey ) {
-					if ( active === first || active === lightbox ) {
+					if ( active === first ) {
 						e.preventDefault();
 						last.focus();
 					}
@@ -189,12 +207,16 @@
 		if ( ! nav ) { return; }
 		var dots = nav.querySelector( '[data-vew-carousel-dots]' );
 		var items = Array.prototype.slice.call( grid.children );
+		var reduceMotion = window.matchMedia && window.matchMedia( '(prefers-reduced-motion: reduce)' ).matches;
+
+		// Make the scroll container keyboard-focusable (WCAG 2.1.1).
+		grid.setAttribute( 'tabindex', '0' );
 
 		items.forEach( function ( item, i ) {
 			var dot = document.createElement( 'button' );
 			dot.type = 'button';
 			dot.className = 'vew-post-gallery__dot';
-			dot.setAttribute( 'aria-label', 'Go to image ' + ( i + 1 ) );
+			dot.setAttribute( 'aria-label', i18n.goToImage + ' ' + ( i + 1 ) );
 			dot.addEventListener( 'click', function () { scrollToItem( i ); } );
 			dots.appendChild( dot );
 		} );
@@ -202,13 +224,18 @@
 		function scrollToItem( i ) {
 			var item = items[ i ];
 			if ( ! item ) { return; }
-			grid.scrollTo( { left: item.offsetLeft - grid.offsetLeft, behavior: 'smooth' } );
+			grid.scrollTo( { left: item.offsetLeft - grid.offsetLeft, behavior: reduceMotion ? 'auto' : 'smooth' } );
 			updateDots( i );
 		}
 
 		function updateDots( i ) {
 			Array.prototype.forEach.call( dots.children, function ( d, di ) {
 				d.classList.toggle( 'is-active', di === i );
+				if ( di === i ) {
+					d.setAttribute( 'aria-current', 'true' );
+				} else {
+					d.removeAttribute( 'aria-current' );
+				}
 			} );
 		}
 
@@ -233,6 +260,17 @@
 	}
 
 	function init() {
+		// Read translatable strings from the section's data attributes.
+		var root = document.querySelector( '.vew-post-gallery' );
+		if ( root ) {
+			i18n.viewer = root.getAttribute( 'data-i18n-viewer' ) || i18n.viewer;
+			i18n.close = root.getAttribute( 'data-i18n-close' ) || i18n.close;
+			i18n.prev = root.getAttribute( 'data-i18n-prev' ) || i18n.prev;
+			i18n.next = root.getAttribute( 'data-i18n-next' ) || i18n.next;
+			i18n.viewPost = root.getAttribute( 'data-i18n-view-post' ) || i18n.viewPost;
+			i18n.goToImage = root.getAttribute( 'data-i18n-go-to-image' ) || i18n.goToImage;
+		}
+
 		document.querySelectorAll( '.vew-post-gallery__grid' ).forEach( function ( grid ) {
 			collectGallery( grid );
 		} );

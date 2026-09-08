@@ -171,7 +171,7 @@ final class BlogPosts extends BaseWidget {
 						<?php endforeach; ?>
 					</div>
 					<?php if ( $has_more ) : ?>
-						<button type="button" class="vew-blog-posts__more" data-vew-blog-more aria-expanded="false" aria-controls="<?php echo esc_attr( $slot_id ); ?>-grid">
+						<button type="button" class="vew-blog-posts__load-more" data-vew-blog-more aria-expanded="false" aria-controls="<?php echo esc_attr( $slot_id ); ?>-grid">
 							<?php echo esc_html__( 'Load more', 'vector-elementor-widgets' ); ?>
 						</button>
 					<?php endif; ?>

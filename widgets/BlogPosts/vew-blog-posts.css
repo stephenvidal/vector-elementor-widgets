@@ -112,7 +112,7 @@
 	display: none;
 }
 
-.vew-blog-posts__more[data-vew-blog-more] {
+.vew-blog-posts__load-more[data-vew-blog-more] {
 	display: inline-block;
 	margin-top: 32px;
 	padding: 12px 28px;
@@ -126,8 +126,13 @@
 	transition: background 0.2s ease, border-color 0.2s ease;
 }
 
-.vew-blog-posts__more[data-vew-blog-more]:hover,
-.vew-blog-posts__more[data-vew-blog-more]:focus-visible {
+/* The hidden attribute must beat the author display rule above. */
+.vew-blog-posts__load-more[data-vew-blog-more][hidden] {
+	display: none;
+}
+
+.vew-blog-posts__load-more[data-vew-blog-more]:hover,
+.vew-blog-posts__load-more[data-vew-blog-more]:focus-visible {
 	background: var(--brand, #4a2c8a);
 	border-color: var(--brand, #4a2c8a);
 	color: var(--on-brand, #fff);
