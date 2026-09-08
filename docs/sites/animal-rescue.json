@@ -1,0 +1,262 @@
+{
+  "title": "Paws & Harbor — Animal Rescue",
+  "slug": "animal-rescue",
+  "kit": "animal-rescue",
+  "containers": [
+    {
+      "id": "ar-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "PAWS & HARBOR",
+            "brand_tag": "ANIMAL RESCUE",
+            "cta_text": "Adopt",
+            "cta_url": { "url": "#adopt" },
+            "links": [
+              { "text": "Our Work", "url": { "url": "#work" } },
+              { "text": "Adopt", "url": { "url": "#adopt" } },
+              { "text": "Donate", "url": { "url": "#donate" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-2.png", "id": 319 },
+            "eyebrow": "Every animal deserves a second chance",
+            "headline": "A safe harbor for<br><em>every stray.</em>",
+            "copy": "Paws & Harbor rescues, rehabilitates, and rehomes abandoned animals across the county. We've given thousands of dogs and cats a fresh start — and we're just getting started.",
+            "primary_cta_text": "Meet our animals",
+            "primary_cta_url": { "url": "#adopt" },
+            "secondary_cta_text": "Support the shelter",
+            "secondary_cta_url": { "url": "#donate" },
+            "trust_list": [
+              { "text": "Non-profit, no-kill shelter" },
+              { "text": "1,200+ adoptions a year" },
+              { "text": "Fully vetted & vaccinated" },
+              { "text": "Open 7 days a week" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "Our impact",
+            "title": "The numbers behind",
+            "title_accent": "the mission",
+            "stats": [
+              { "value": "1,200+", "label": "Adoptions this year" },
+              { "value": "3,400", "label": "Animals rescued" },
+              { "value": "140", "label": "Volunteers" },
+              { "value": "92%", "label": "Adoption success rate" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-work",
+      "content_width": "full",
+      "settings": { "_element_id": "work" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "More than a shelter —",
+            "title_accent": "a full circle of care",
+            "intro": "From the moment an animal arrives to the day they find their forever home, we're there at every step.",
+            "features": [
+              { "number": "01", "title": "Rescue & intake", "text": "We pull animals from high-kill shelters, the streets, and neglectful situations — no matter their age or condition.", "detail": "Emergency response team" },
+              { "number": "02", "title": "Veterinary care", "text": "Every animal receives exams, vaccinations, spay/neuter surgery, and treatment for any condition they arrived with.", "detail": "On-site clinic" },
+              { "number": "03", "title": "Rehabilitation", "text": "Scared or injured animals get time, training, and patience until they're ready to trust people again.", "detail": "Behavior + foster program" },
+              { "number": "04", "title": "Fostering", "text": "Our foster network gives animals a home while they wait to be adopted — socializing them and freeing shelter space.", "detail": "140 active fosters" },
+              { "number": "05", "title": "Adoption matching", "text": "We match animals to the right families, with meet-and-greets and post-adoption support to make it stick.", "detail": "Lifetime return policy" },
+              { "number": "06", "title": "Community education", "text": "Free spay/neuter clinics and pet-care workshops that keep more animals out of shelters in the first place.", "detail": "Outreach programs" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-process",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How adoption works",
+            "title": "From application to",
+            "title_accent": "welcome home",
+            "steps": [
+              { "title": "Browse our animals", "text": "Visit us or see our adoptable pets online to find one that sparks a connection." },
+              { "title": "Apply to adopt", "text": "Submit a short application so we can understand your home and lifestyle." },
+              { "title": "Meet & greet", "text": "We'll arrange a meet-and-greet so you and the animal can get to know each other." },
+              { "title": "Home check", "text": "A quick home visit confirms a safe, happy environment for your new family member." },
+              { "title": "Welcome home!", "text": "Sign the adoption papers, take them home, and start your life together. We're here if you need us." }
+            ],
+            "note": "Adoption fees cover spay/neuter, vaccinations, and microchipping — every animal leaves fully prepared."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "animals" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Looking for a friend",
+            "title": "Meet some of our",
+            "title_accent": "adoptable animals",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/gallery-puppy.png", "id": 334 }, "label": "Meet Charlie", "alt": "Charlie the puppy with a volunteer" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/gallery-cat.png", "id": 335 }, "label": "Meet Luna", "alt": "Luna the cat in the shelter" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-2.png", "id": 319 }, "label": "Meet Bella", "alt": "Bella the dog with a volunteer" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-give",
+      "content_width": "full",
+      "settings": { "_element_id": "donate" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support the shelter",
+            "title": "Your gift gives them a tomorrow",
+            "title_accent": "",
+            "quote": "Until one has loved an animal, a part of one's soul remains unawakened.",
+            "verse_ref": "— Anatole France",
+            "cta_text": "Donate now",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-testimonials",
+      "content_width": "full",
+      "settings": { "_element_id": "stories" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Happy tails",
+            "title": "Stories from",
+            "title_accent": "our families",
+            "intro": "Adopters, fosters, and volunteers share what Paws & Harbor means to them.",
+            "reviews": [
+              { "quote": "We adopted our dog Charlie from Paws & Harbor and the team was there for us every step of the way. He's been the best thing that ever happened to our family.", "author": "Maria G.", "role": "Adopter", "stars": 5 },
+              { "quote": "Fostering has changed my life. The shelter gives you all the support you need, and seeing a scared rescue blossom into a confident pet is pure magic.", "author": "David L.", "role": "Foster parent", "stars": 5 },
+              { "quote": "They don't just find animals homes — they truly care about each one. I volunteer every weekend and it's the highlight of my week.", "author": "Aisha K.", "role": "Volunteer", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "FAQ",
+            "title": "Questions, answered",
+            "intro": "Everything you need to know about adopting, donating, and volunteering with us.",
+            "items": [
+              { "question": "What does the adoption fee cover?", "answer": "Your adoption fee covers spay/neuter surgery, up-to-date vaccinations, microchipping, and a starter pack of food and supplies. It helps us rescue the next animal in need." },
+              { "question": "Can I foster an animal?", "answer": "Absolutely! Fostering is one of the most impactful things you can do. We provide all supplies, medical care, and support — you provide a loving home and a bit of your time." },
+              { "question": "Do you accept surrenders?", "answer": "Yes. If you can no longer care for your pet, we work with you to rehome them responsibly rather than leaving them at risk. Contact us to discuss the process." },
+              { "question": "How do my donations get used?", "answer": "Over 90% of donations go directly to animal care — food, veterinary bills, and shelter operations. The rest keeps our lights on and our team running." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Visit us or reach out",
+            "intro": "Stop by to meet the animals, ask about fostering, or drop off supplies. We'd love to see you.",
+            "phone": "(555) 018-3300",
+            "email": "hello@pawsharbor.org",
+            "location": "142 Green Hollow Rd · Open daily 9am–6pm",
+            "form_kicker": "Send a message",
+            "form_title": "We'll get back to you",
+            "submit_cta": "Send message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ar-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "PAWS & HARBOR",
+            "brand_tag": "ANIMAL RESCUE",
+            "blurb": "A no-kill shelter giving abandoned animals a safe harbor and a second chance at a loving home.",
+            "copyright": "© Paws & Harbor — animal rescue",
+            "columns": [
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Adopt", "url": { "url": "#adopt" } },
+                  { "text": "Foster", "url": { "url": "#work" } },
+                  { "text": "Volunteer", "url": { "url": "#contact" } },
+                  { "text": "Donate", "url": { "url": "#donate" } }
+                ]
+              },
+              {
+                "heading": "Learn more",
+                "links": [
+                  { "text": "Our work", "url": { "url": "#work" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Contact", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

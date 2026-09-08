@@ -1,0 +1,244 @@
+{
+  "title": "Northstar Mentors",
+  "slug": "youth-mentoring",
+  "kit": "youth-mentoring",
+  "containers": [
+    {
+      "id": "ns-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "NORTHSTAR",
+            "brand_tag": "MENTORS",
+            "cta_text": "Become a mentor",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Programs", "url": { "url": "#programs" } },
+              { "text": "How it works", "url": { "url": "#how" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-164.png", "id": 0 },
+            "eyebrow": "Northstar Mentors · Youth mentoring · Ages 10–18 · Free for families",
+            "headline": "Every young person deserves<br><em>a steady hand.</em>",
+            "copy": "Northstar Mentors pairs young people with caring, vetted adult mentors who show up every week — to listen, to guide, and to help them see how far they can go.",
+            "primary_cta_text": "Become a mentor",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "How it works",
+            "secondary_cta_url": { "url": "#how" },
+            "trust_list": [
+              { "text": "One-on-one mentoring, every single week" },
+              { "text": "Every mentor fully vetted and trained" },
+              { "text": "Free for every family, no income required" },
+              { "text": "Serving 1,200+ young people across the region" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The difference we make",
+            "title": "A mentor changes",
+            "title_accent": "a young person's path",
+            "intro": "The numbers tell a story of steady, compounding hope — what happens when a young person knows someone is in their corner.",
+            "stats": [
+              { "value": "1,200+", "label": "Young people matched with a mentor" },
+              { "value": "92%", "label": "Of mentees report higher confidence in school" },
+              { "value": "4 yrs", "label": "Average length of a mentoring match" },
+              { "value": "600+", "label": "Active volunteer mentors giving their time" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-programs",
+      "content_width": "full",
+      "settings": { "_element_id": "programs" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "What we do",
+            "title": "More than a",
+            "title_accent": "check-in",
+            "intro": "Mentoring isn't a lecture or a program to sit through. It's a real relationship built on trust, consistency, and showing up — week after week.",
+            "features": [
+              { "number": "01", "title": "One-on-one matches", "text": "We pair each young person with a mentor chosen for shared interests and a compatible personality. No group sessions, no one-size-fits-all — just a real connection.", "detail": "Personalized matching" },
+              { "number": "02", "title": "Weekly consistency", "text": "Mentors and mentees meet every week, in person or online, for a couple of hours. It's the steady rhythm that builds trust and lets real conversations happen.", "detail": "52 weeks a year" },
+              { "number": "03", "title": "Goal-setting together", "text": "Mentors help mentees set and reach goals — school, hobbies, confidence, or just figuring out the next step. Small wins stack into big momentum.", "detail": "Mentee-led goals" },
+              { "number": "04", "title": "Family involvement", "text": "We keep parents and guardians in the loop with regular updates and family events, so the whole support network grows stronger together.", "detail": "Families included" },
+              { "number": "05", "title": "Life-skills workshops", "text": "Quarterly workshops on money, careers, communication, and wellbeing give mentees practical tools for the road ahead.", "detail": "4 workshops a year" },
+              { "number": "06", "title": "A community that lasts", "text": "Matches don't end at 18. Alumni stay connected through events and can become mentors themselves — the circle keeps growing.", "detail": "Lifelong community" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-how",
+      "content_width": "full",
+      "settings": { "_element_id": "how" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "How it works",
+            "title": "From first hello to",
+            "title_accent": "a lasting match",
+            "intro": "We take matching seriously — for the young person and the mentor. Here's how a relationship gets started and grows.",
+            "steps": [
+              { "title": "Apply", "text": "A family or a young person applies online, or a school refers them. It takes ten minutes and costs nothing." },
+              { "title": "We get to know you", "text": "Our team meets the young person and their family to understand their interests, needs, and what kind of mentor would be the best fit." },
+              { "title": "We find the right mentor", "text": "We match them with a vetted, trained volunteer whose personality and interests align. Both sides meet and decide together." },
+              { "title": "The match grows", "text": "Weekly meetings begin, supported by our coordinators. We check in regularly to make sure the relationship is thriving — and step in if it needs support." }
+            ],
+            "note": "Most matches are up and running within six weeks of the first application. We don't rush a match — the right fit is worth the wait."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-give",
+      "content_width": "full",
+      "settings": { "_element_id": "give" },
+      "widgets": [
+        {
+          "type": "vew-give",
+          "settings": {
+            "eyebrow": "Support Northstar",
+            "title": "Be the steady hand a",
+            "title_accent": "young person needs",
+            "quote": "A young person who knows someone believes in them will surprise everyone — most of all themselves.",
+            "verse_ref": "— Northstar Mentors founding note",
+            "cta_text": "Give a young person a mentor",
+            "cta_url": { "url": "#contact" }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "In their words",
+            "title": "What a mentor",
+            "title_accent": "really means",
+            "intro": "Mentees, parents, and mentors on what the relationship has meant to them.",
+            "reviews": [
+              { "quote": "Before my mentor, I thought nobody cared whether I showed up. Now I have someone who asks how my week went and actually listens. It changed everything about how I see myself.", "author": "Jasmine, 16", "role": "Mentee for 2 years", "stars": 5 },
+              { "quote": "My son went from dreading school to talking about his goals at the dinner table. His mentor didn't fix everything — he just showed up, and that was enough to turn things around.", "author": "D. Reyes", "role": "Parent of a mentee", "stars": 5 },
+              { "quote": "I signed up to give back and ended up getting so much more. Watching a kid find their confidence is the most rewarding thing I've ever done. Northstar supports mentors every step of the way.", "author": "Marcus T.", "role": "Mentor for 3 years", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-faq",
+      "content_width": "full",
+      "settings": { "_element_id": "faq" },
+      "widgets": [
+        {
+          "type": "vew-faq",
+          "settings": {
+            "eyebrow": "Good to know",
+            "title": "Questions we",
+            "title_accent": "hear often",
+            "intro": "Straight answers about mentoring, matching, and how to get involved.",
+            "items": [
+              { "question": "How much does mentoring cost for families?", "answer": "Nothing. Northstar Mentors is completely free for every family and young person. We're funded by donations, grants, and community partners — never by the families we serve." },
+              { "question": "Who can become a mentor?", "answer": "Any responsible adult 21 or older who can commit to one weekly meeting for at least a year. We look for reliability, empathy, and a genuine interest in young people — not any particular background or profession." },
+              { "question": "How are mentors vetted?", "answer": "Every mentor completes a thorough background check, multiple interviews, and a training program before being matched. We also check in with mentors and mentees regularly to keep every relationship safe and healthy." },
+              { "question": "What if a match isn't working?", "answer": "It happens, and it's not a failure. Our coordinators check in regularly and can adjust the match, provide extra support, or make a new pairing if needed. The young person's wellbeing always comes first." },
+              { "question": "Can I volunteer without being a full mentor?", "answer": "Yes. We need event helpers, workshop facilitators, and behind-the-scenes support too. If you're not ready to commit to a weekly match, there are plenty of other ways to help." }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get involved",
+            "title": "Mentor, refer, or",
+            "title_accent": "just ask",
+            "intro": "Whether you want to become a mentor, refer a young person, or bring your company on board as a partner, we'd love to hear from you.",
+            "phone": "(555) 314-8820",
+            "email": "hello@northstarmentors.org",
+            "location": "Northstar House · 22 Beacon Street",
+            "form_kicker": "Reach the team",
+            "form_title": "We'll point you the right way",
+            "submit_cta": "Send a message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ns-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "NORTHSTAR",
+            "brand_tag": "MENTORS",
+            "blurb": "Northstar Mentors pairs young people with caring, vetted adult mentors who show up every week — to listen, to guide, and to help them see how far they can go.",
+            "copyright": "© Northstar Mentors",
+            "columns": [
+              {
+                "heading": "Programs",
+                "links": [
+                  { "text": "What we do", "url": { "url": "#programs" } },
+                  { "text": "How it works", "url": { "url": "#how" } },
+                  { "text": "Become a mentor", "url": { "url": "#contact" } },
+                  { "text": "Support us", "url": { "url": "#give" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Refer a young person", "url": { "url": "#contact" } },
+                  { "text": "Volunteer", "url": { "url": "#contact" } },
+                  { "text": "Partner with us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

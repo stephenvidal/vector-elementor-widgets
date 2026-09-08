@@ -1,0 +1,214 @@
+{
+  "title": "The Gilded Gala — Charity Gala",
+  "slug": "charity-gala",
+  "kit": "charity-gala",
+  "containers": [
+    {
+      "id": "cg-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "THE GILDED GALA",
+            "brand_tag": "CHARITY GALA",
+            "cta_text": "Reserve a table",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Why we gather", "url": { "url": "#why" } },
+              { "text": "Last year", "url": { "url": "#gallery" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cg-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-177.png", "id": 0 },
+            "eyebrow": "The Gilded Gala · Grand Ballroom, The Meridian Hotel · Nov 14, 2026",
+            "headline": "One night. One cause.<br><em>A city that shows up.</em>",
+            "copy": "The Gilded Gala is the city's signature black-tie fundraiser — an evening of dinner, live auction, and music that raises real money for the families who need it most. Every ticket, every paddle, every toast goes straight to our community programs.",
+            "primary_cta_text": "Reserve a table",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "Why we gather",
+            "secondary_cta_url": { "url": "#why" },
+            "trust_list": [
+              { "text": "100% of proceeds fund local family-support programs" },
+              { "text": "Live auction with once-in-a-year experiences" },
+              { "text": "Three-course dinner by Chef Amara Osei" },
+              { "text": "Black-tie, but warm — come as you are, dressed up" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cg-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The Gilded Gala by the numbers",
+            "title": "A night that",
+            "title_accent": "adds up",
+            "intro": "We don't host a gala for the sake of a gala. We host it because the numbers move the needle for real families.",
+            "stats": [
+              { "value": "$1.2M", "label": "Raised at last year's gala" },
+              { "value": "480", "label": "Guests across the ballroom" },
+              { "value": "37", "label": "Community programs funded" },
+              { "value": "14", "label": "Years of the Gilded Gala" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cg-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why we gather",
+            "title": "More than",
+            "title_accent": "a night out",
+            "intro": "A gala is only as good as what it funds. Here's what your ticket and your paddle make possible.",
+            "features": [
+              { "number": "01", "title": "Family support programs", "text": "Emergency housing, food security, and after-school care for families navigating hard seasons.", "detail": "Direct impact" },
+              { "number": "02", "title": "Youth mentorship", "text": "One-to-one mentoring that pairs young people with adults who show up, week after week.", "detail": "Long-term change" },
+              { "number": "03", "title": "Health & wellness access", "text": "Free clinics, mental-health support, and wellness check-ins for those who can't afford care.", "detail": "Care for all" },
+              { "number": "04", "title": "Every dollar accounted for", "text": "We publish an annual impact report. You'll see exactly where every gift lands.", "detail": "Radical transparency" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cg-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "countdown" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Mark your calendar",
+            "title": "The ballroom opens",
+            "title_accent": "in",
+            "end": "2026-11-14 18:00",
+            "expired_text": "The Gilded Gala is on! Head to the Grand Ballroom at The Meridian Hotel — doors are open and the toasts are pouring."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cg-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Last year",
+            "title": "Moments from",
+            "title_accent": "the ballroom",
+            "intro": "A look at the toasts, the paddles, and the dancing that made last year's gala one for the books.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-177.png", "id": 0 }, "label": "The toasts, raised", "alt": "Guests raising champagne glasses at a black-tie gala in a grand ballroom" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-177.png", "id": 0 }, "label": "The paddles, up", "alt": "A live auctioneer on stage with guests holding up bidding paddles" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-177.png", "id": 0 }, "label": "The floor, full", "alt": "Couples dancing on a ballroom floor under warm chandelier light" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cg-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "Word from the floor",
+            "title": "What guests",
+            "title_accent": "are saying",
+            "intro": "We've been doing this for fourteen years, and the best part is still hearing people talk about the night — and the difference it made.",
+            "reviews": [
+              { "quote": "I've been to a lot of fundraisers, and this is the one that actually feels like a party. The auction is electric, the dinner is incredible, and you leave knowing exactly what your money did.", "author": "Elena V.", "role": "Attended 6 years", "stars": 5 },
+              { "quote": "As a sponsor, this is the best-run gala we support all year. The team is meticulous, the impact reporting is honest, and our guests genuinely look forward to it.", "author": "Marcus T.", "role": "Corporate sponsor", "stars": 5 },
+              { "quote": "Came for the cause, stayed for the dancing. The live auction alone is worth the ticket — I won a weekend away and funded a family's housing for a month.", "author": "Priya S.", "role": "First-time guest", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cg-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Get in touch",
+            "title": "Questions,",
+            "title_accent": "tables, or sponsorships",
+            "intro": "Want to reserve a table, donate an auction item, or sponsor the gala? We'd love to talk. Reach out and we'll get back to you within a day.",
+            "phone": "(555) 214-8890",
+            "email": "gala@gildedgala.org",
+            "location": "The Meridian Hotel, Grand Ballroom · 1200 Grand Ave · Nov 14, 2026, 6:00 PM",
+            "form_kicker": "Tables & sponsorships",
+            "form_title": "Tell us how you'd like to help",
+            "submit_cta": "Send it over"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cg-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "THE GILDED GALA",
+            "brand_tag": "CHARITY GALA",
+            "blurb": "The city's signature black-tie fundraiser — an evening of dinner, live auction, and music that raises real money for the families who need it most.",
+            "copyright": "© The Gilded Gala · A benefit for community family programs",
+            "columns": [
+              {
+                "heading": "The evening",
+                "links": [
+                  { "text": "Why we gather", "url": { "url": "#why" } },
+                  { "text": "Last year", "url": { "url": "#gallery" } },
+                  { "text": "Word from the floor", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Get involved",
+                "links": [
+                  { "text": "Reserve a table", "url": { "url": "#contact" } },
+                  { "text": "The ballroom opens in", "url": { "url": "#countdown" } },
+                  { "text": "Contact us", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

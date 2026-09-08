@@ -1,0 +1,241 @@
+{
+  "title": "Meridian Point Observatory",
+  "slug": "observatory",
+  "kit": "observatory",
+  "containers": [
+    {
+      "id": "ob-hdr",
+      "content_width": "full",
+      "settings": { "_element_id": "top" },
+      "widgets": [
+        {
+          "type": "vew-header",
+          "settings": {
+            "brand_name": "MERIDIAN POINT",
+            "brand_tag": "OBSERVATORY",
+            "cta_text": "Book a night",
+            "cta_url": { "url": "#contact" },
+            "links": [
+              { "text": "Why us", "url": { "url": "#why" } },
+              { "text": "A night at the dome", "url": { "url": "#process" } },
+              { "text": "Inside the dome", "url": { "url": "#gallery" } },
+              { "text": "What visitors say", "url": { "url": "#voices" } }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-hero",
+      "content_width": "full",
+      "settings": { "_element_id": "home" },
+      "widgets": [
+        {
+          "type": "vew-hero",
+          "settings": {
+            "hero_background_image": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-157.png", "id": 0 },
+            "eyebrow": "Meridian Point Observatory · Public telescope nights · Guided sky tours · Dark-sky ridge",
+            "headline": "Look up.<br><em>See further.</em>",
+            "copy": "Meridian Point is a working public observatory perched above the valley. On clear nights we open the dome, aim the big telescope, and hand the eyepiece to whoever's next in line. No astronomy degree required — just curiosity and a warm coat.",
+            "primary_cta_text": "Book a telescope night",
+            "primary_cta_url": { "url": "#contact" },
+            "secondary_cta_text": "What you'll see",
+            "secondary_cta_url": { "url": "#process" },
+            "trust_list": [
+              { "text": "A 20-inch telescope under a genuinely dark sky" },
+              { "text": "Guided tours led by real astronomers, not scripts" },
+              { "text": "Open every clear night, all year round" },
+              { "text": "Kids welcome — the dome is built for wonder" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-stats",
+      "content_width": "full",
+      "settings": { "_element_id": "impact" },
+      "widgets": [
+        {
+          "type": "vew-stats",
+          "settings": {
+            "eyebrow": "The observatory in numbers",
+            "title": "A dome that",
+            "title_accent": "turns with the stars",
+            "intro": "We measure the observatory in clear nights, in first-time views of Saturn, and in the people who come back with their own telescope and a thousand questions.",
+            "stats": [
+              { "value": "20", "label": "Inches of aperture on our main telescope" },
+              { "value": "300+", "label": "Clear nights we open the dome each year" },
+              { "value": "40k", "label": "Visitors who've looked through our eyepieces" },
+              { "value": "0", "label": "Experience needed to see something amazing" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-process",
+      "content_width": "full",
+      "settings": { "_element_id": "process" },
+      "widgets": [
+        {
+          "type": "vew-process",
+          "settings": {
+            "eyebrow": "A night at the dome",
+            "title": "How a clear night",
+            "title_accent": "unfolds",
+            "intro": "Every open night follows the same patient rhythm — from the first glimpse of the sky to the last look before the dome closes. Here's what happens when you come up the ridge.",
+            "steps": [
+              { "title": "Arrive as the light fades", "text": "You park at the ridge and walk up as the sky deepens. We meet you at the door, hand you a warm drink, and let your eyes adjust to the dark before the dome opens." },
+              { "title": "Tour the sky by eye", "text": "Before the telescope, we point out the constellations, the planets, and the satellites crossing overhead — a guided tour of the sky you can see with nothing but your own eyes." },
+              { "title": "Look through the big scope", "text": "The 20-inch telescope swings into position and we aim it at the night's best targets. Saturn's rings, the craters of the Moon, a nebula that looks like a photograph — you get the eyepiece and time to really look." },
+              { "title": "Ask anything", "text": "Our astronomers stay until the last visitor leaves. Bring your questions, your kids, or your own telescope for a second opinion. The dome closes when the sky does, not on a schedule." }
+            ],
+            "note": "Meridian Point is built on patience: if clouds roll in, we don't call it a wasted night — we run the indoor planetarium show and reschedule your telescope time for the next clear evening."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-why",
+      "content_width": "full",
+      "settings": { "_element_id": "why" },
+      "widgets": [
+        {
+          "type": "vew-feature-grid",
+          "settings": {
+            "eyebrow": "Why Meridian Point",
+            "title": "A place built",
+            "title_accent": "for looking up",
+            "intro": "There are closer places to see the stars, but none that do it like this. Here's what makes a night at the ridge worth the drive.",
+            "features": [
+              { "number": "01", "title": "A genuinely dark sky", "text": "We sit above the valley's light dome, on a ridge where the Milky Way is visible on clear nights. The darkness is the whole point — and we protect it.", "detail": "Dark-sky ridge" },
+              { "number": "02", "title": "A serious telescope", "text": "Our 20-inch reflector gathers enough light to show you Saturn's rings, the bands of Jupiter, and nebulae that look like photographs. It's the real thing.", "detail": "20-inch reflector" },
+              { "number": "03", "title": "Astronomers, not scripts", "text": "The people at the eyepiece are working astronomers who love to talk. They'll answer the question you were too shy to ask — and the one you didn't know you had.", "detail": "Real astronomers" },
+              { "number": "04", "title": "Open every clear night", "text": "No seasonal schedule, no 'closed for the month.' If the sky is clear, the dome is open — all year, rain or shine (well, shine).", "detail": "Year-round" },
+              { "number": "05", "title": "Built for wonder", "text": "Kids get their own step stool at the eyepiece and their own patient guide. We've seen a hundred first-time 'whoa's — and we never get tired of them.", "detail": "Family friendly" },
+              { "number": "06", "title": "A planetarium for cloudy nights", "text": "When the sky won't cooperate, the indoor dome takes over with a full-sky show. You still get a night of astronomy — just under a different roof.", "detail": "Indoor backup" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-gallery",
+      "content_width": "full",
+      "settings": { "_element_id": "gallery" },
+      "widgets": [
+        {
+          "type": "vew-gallery",
+          "settings": {
+            "eyebrow": "Inside the dome",
+            "title": "A night at",
+            "title_accent": "the ridge",
+            "intro": "The dome silhouetted against a star-filled sky, the big telescope swinging into position, and the warm glow of the control room where the night's targets are chosen. A few moments from Meridian Point.",
+            "gallery_style": "mosaic",
+            "images": [
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-157.png", "id": 0 }, "label": "The dome at dusk", "alt": "A white observatory dome silhouetted against a deepening blue dusk sky with the first stars appearing" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-157.png", "id": 0 }, "label": "The big telescope", "alt": "A large reflecting telescope inside an observatory dome, aimed at an open shutter revealing the night sky" },
+              { "url": { "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-157.png", "id": 0 }, "label": "The control room", "alt": "A warm-lit observatory control room with monitors, star charts, and a telescope control console" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-countdown",
+      "content_width": "full",
+      "settings": { "_element_id": "countdown" },
+      "widgets": [
+        {
+          "type": "vew-countdown",
+          "settings": {
+            "eyebrow": "Mark your calendar",
+            "title": "Next public night",
+            "title_accent": "is coming",
+            "end": "2026-09-05 20:00",
+            "expired_text": "Tonight's dome is open — come up the ridge and look through the big telescope before the sky turns."
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-voices",
+      "content_width": "full",
+      "settings": { "_element_id": "voices" },
+      "widgets": [
+        {
+          "type": "vew-testimonials",
+          "settings": {
+            "eyebrow": "What visitors say",
+            "title": "The moment the",
+            "title_accent": "sky opens up",
+            "intro": "People come up the ridge expecting a look at the stars and leave with a story. Here's a little of what they tell us on the way back down.",
+            "reviews": [
+              { "quote": "I've seen Saturn's rings in photos my whole life. Seeing them through that telescope, with my own eye, was genuinely one of the best moments of my year. The astronomer didn't rush me at all.", "author": "Dana Whitfield", "role": "First-time visitor", "stars": 5 },
+              { "quote": "We brought our two kids expecting twenty minutes of patience. They stayed two hours, asked a hundred questions, and talked about the nebula for a week. Worth every minute of the drive.", "author": "Tom & Aisha Grant", "role": "Family night", "stars": 5 },
+              { "quote": "I brought my own small telescope for a second opinion and the astronomer spent half an hour helping me collimate it. The sky up there is unreal — the Milky Way is actually visible.", "author": "Ravi Menon", "role": "Amateur astronomer", "stars": 5 }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-contact",
+      "content_width": "full",
+      "settings": { "_element_id": "contact" },
+      "widgets": [
+        {
+          "type": "vew-contact",
+          "settings": {
+            "eyebrow": "Come up the ridge",
+            "title": "Book a night or",
+            "title_accent": "just ask a question",
+            "intro": "Reserve a telescope night, ask about school groups and private events, or check tonight's forecast before you drive. We'll tell you honestly whether the sky is worth the trip.",
+            "phone": "(555) 402-8817",
+            "email": "hello@meridianpoint.observatory",
+            "location": "Meridian Point Observatory · 1 Ridge Road, above the valley — follow the signs past the last streetlight",
+            "form_kicker": "Telescope night / school group / private event",
+            "form_title": "Tell us when you'd like to look up",
+            "submit_cta": "Send my message"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ob-foot",
+      "content_width": "full",
+      "settings": { "_element_id": "footer" },
+      "widgets": [
+        {
+          "type": "vew-footer",
+          "settings": {
+            "brand_name": "MERIDIAN POINT",
+            "brand_tag": "OBSERVATORY",
+            "blurb": "A public observatory on the ridge where the city's lights fall away and the sky opens up — telescopes, guided nights, and a dome that turns with the stars.",
+            "copyright": "© Meridian Point Observatory",
+            "columns": [
+              {
+                "heading": "The observatory",
+                "links": [
+                  { "text": "Why us", "url": { "url": "#why" } },
+                  { "text": "A night at the dome", "url": { "url": "#process" } },
+                  { "text": "Inside the dome", "url": { "url": "#gallery" } },
+                  { "text": "What visitors say", "url": { "url": "#voices" } }
+                ]
+              },
+              {
+                "heading": "Plan a visit",
+                "links": [
+                  { "text": "Book a telescope night", "url": { "url": "#contact" } },
+                  { "text": "School groups", "url": { "url": "#contact" } },
+                  { "text": "Private events", "url": { "url": "#contact" } }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
