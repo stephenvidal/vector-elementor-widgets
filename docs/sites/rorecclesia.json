@@ -16,58 +16,15 @@
             "brand_name": "REALMS OF REVELATION ECCLESIA",
             "brand_tag": "MYRTLE BEACH, SC",
             "cta_text": "Plan Your Visit",
-            "cta_url": {
-              "url": "#contact"
-            },
+            "cta_url": { "url": "#contact" },
             "links": [
-              {
-                "text": "About",
-                "url": {
-                  "url": "#message"
-                }
-              },
-              {
-                "text": "Ministries",
-                "url": {
-                  "url": "#ministries"
-                }
-              },
-              {
-                "text": "Services",
-                "url": {
-                  "url": "#services"
-                }
-              },
-              {
-                "text": "Events",
-                "url": {
-                  "url": "#events"
-                }
-              },
-              {
-                "text": "Messages",
-                "url": {
-                  "url": "#messages"
-                }
-              },
-              {
-                "text": "Give",
-                "url": {
-                  "url": "#give"
-                }
-              },
-              {
-                "text": "FAQ",
-                "url": {
-                  "url": "#faq"
-                }
-              },
-              {
-                "text": "Contact",
-                "url": {
-                  "url": "#contact"
-                }
-              }
+              { "text": "Message", "url": { "url": "#message" } },
+              { "text": "Watch", "url": { "url": "#watch" } },
+              { "text": "Ministries", "url": { "url": "#ministries" } },
+              { "text": "Services", "url": { "url": "#services" } },
+              { "text": "Give", "url": { "url": "#give" } },
+              { "text": "FAQ", "url": { "url": "#faq" } },
+              { "text": "Contact", "url": { "url": "#contact" } }
             ]
           }
         }
@@ -85,32 +42,52 @@
           "settings": {
             "eyebrow": "A church where faith becomes life",
             "headline": "Encounter God.<br><em>Find your place.</em>",
-            "copy": "Come as you are and discover a vibrant church family committed to biblical truth, authentic worship, meaningful relationships, and a life of purpose.",
-            "primary_cta_text": "Plan Your First Visit",
-            "primary_cta_url": {
-              "url": "#contact"
-            },
-            "secondary_cta_text": "Watch a Message",
-            "secondary_cta_url": {
-              "url": "#messages"
-            },
+            "copy": "Come as you are and discover a vibrant church family committed to biblical truth, authentic worship, meaningful relationships, and a life of purpose. Under Bishop Marlon Curtis, we gather as the Tribe of Fire — consecrated, Spirit-led, and rooted in God's Word.",
+            "primary_cta_text": "Watch the Message",
+            "primary_cta_url": { "url": "#watch" },
+            "secondary_cta_text": "Plan Your First Visit",
+            "secondary_cta_url": { "url": "#contact" },
             "trust_list": [
-              {
-                "text": "Warm, family-focused community"
-              },
-              {
-                "text": "Biblical and Spirit-led"
-              },
-              {
-                "text": "Meaningful relationships"
-              },
-              {
-                "text": "A life of purpose"
-              }
+              { "text": "Warm, family-focused community" },
+              { "text": "Biblical and Spirit-led" },
+              { "text": "The Tribe of Fire" },
+              { "text": "A life of purpose" }
             ],
             "hero_background_image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/hero-37.png"
+              "url": "https://rorecclesia.nsystems.live/wp-content/uploads/rorecclesia/svc-bishop-1.jpg"
             }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcmessage",
+      "content_width": "full",
+      "settings": {
+        "_element_id": "message"
+      },
+      "widgets": [
+        {
+          "type": "vew-split",
+          "settings": {
+            "image": {
+              "url": "https://rorecclesia.nsystems.live/wp-content/uploads/rorecclesia/svc-bishop-3.jpg"
+            },
+            "image_caption": "Bishop Marlon Curtis — Tribe of Fire",
+            "eyebrow": "A firm foundation",
+            "title": "Make your calling",
+            "title_accent": "and election sure.",
+            "paragraphs": [
+              {
+                "text": "God is preparing His people for the last hour. In a stirring word from 2 Peter 1:10, we are challenged to give diligence to make our calling and election sure — to move beyond religion into a living, consecrated walk in the Holy Spirit."
+              },
+              {
+                "text": "As the Tribe of Fire, we are called to be doers of the Word, not hearers only — denouncing the works of darkness, standing steadfast and unmovable, and living as a reflection of holiness and righteousness."
+              }
+            ],
+            "quote": "\"Come and visit us, or join us online — experience the love and grace of God in person. God did not give us the spirit of fear, but of power, and of love, and of a sound mind.\"",
+            "signature": "— Bishop Marlon Curtis",
+            "signature_role": "BISHOP · REALMS OF REVELATION ECCLESIA"
           }
         }
       ]
@@ -126,8 +103,8 @@
           "type": "vew-feature-grid",
           "settings": {
             "eyebrow": "A personal welcome",
-            "title": "You were never meant to walk in faith",
-            "title_accent": "alone.",
+            "title": "You were never meant to walk",
+            "title_accent": "in faith alone.",
             "intro": "Realms Of Revelation Ecclesia is a place to meet God, build genuine relationships, deepen your understanding of Scripture, and become equipped to live with spiritual clarity and purpose.",
             "features": [
               {
@@ -164,56 +141,34 @@
             "title": "A firm foundation,",
             "title_accent": "built in community.",
             "stats": [
-              {
-                "value": "WORD",
-                "label": "Rooted in Scripture"
-              },
-              {
-                "value": "GRACE",
-                "label": "Freely given"
-              },
-              {
-                "value": "FAMILY",
-                "label": "Built in community"
-              },
-              {
-                "value": "ALL",
-                "label": "Are welcome"
-              }
+              { "value": "WORD", "label": "Rooted in Scripture" },
+              { "value": "GRACE", "label": "Freely given" },
+              { "value": "FAMILY", "label": "Built in community" },
+              { "value": "ALL", "label": "Are welcome" }
             ]
           }
         }
       ]
     },
     {
-      "id": "rcfirm",
+      "id": "rcwatch",
       "content_width": "full",
       "settings": {
-        "_element_id": "message"
+        "_element_id": "watch"
       },
       "widgets": [
         {
-          "type": "vew-split",
+          "type": "vew-video-embed",
           "settings": {
-            "image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/g3_v2.webp",
-              "id": 222
+            "eyebrow": "Featured message",
+            "title": "The Elected and Selected",
+            "title_accent": "— 2 Peter 1:10",
+            "intro": "Bishop Marlon Curtis calls the Tribe of Fire to make their calling and election sure. Watch the full message on our YouTube broadcast, The Way of Holiness.",
+            "video_url": {
+              "url": "https://www.youtube.com/@thewayofholinessbroadcast4551"
             },
-            "image_caption": "Realms of Revelation Ecclesia",
-            "eyebrow": "The message",
-            "title": "End time word,",
-            "title_accent": "for an end time people.",
-            "paragraphs": [
-              {
-                "text": "In a world filled with despair and uncertainty, we stand firm trusting in the one true God, Jesus Christ. We offer a range of opportunities for our members to deepen their relationship with God and grow together in faith."
-              },
-              {
-                "text": "Realms of Revelation Ecclesia fosters strong community relationships and promotes positive change through faith."
-              }
-            ],
-            "quote": "\"Please come and visit us to experience the love and grace of God in person!\"",
-            "signature": "— Bishop Marlon Curtis",
-            "signature_role": "BISHOP · REALMS OF REVELATION ECCLESIA"
+            "autoplay": "",
+            "controls": "yes"
           }
         }
       ]
@@ -310,90 +265,11 @@
             "title_accent": "what matters most.",
             "note": "Whether you join us for worship, teaching, or conversation, every gathering is designed to help you grow closer to God and others.",
             "steps": [
-              {
-                "title": "Saturday",
-                "text": "Worship service — 9:00 AM – 12:30 PM"
-              },
-              {
-                "title": "Tuesday",
-                "text": "Bible study — 7:30 PM – 8:30 PM"
-              },
-              {
-                "title": "Weekday",
-                "text": "Prayer meetings & fellowship"
-              },
-              {
-                "title": "Every Day",
-                "text": "Grow in relationship with God"
-              }
+              { "title": "Saturday", "text": "Worship service — 9:00 AM – 12:30 PM" },
+              { "title": "Tuesday", "text": "Bible study — 7:30 PM – 8:30 PM" },
+              { "title": "Weekday", "text": "Prayer meetings & fellowship" },
+              { "title": "Every Day", "text": "Grow in relationship with God" }
             ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "rcevents",
-      "content_width": "full",
-      "settings": {
-        "_element_id": "events"
-      },
-      "widgets": [
-        {
-          "type": "vew-feature-grid",
-          "settings": {
-            "eyebrow": "Gatherings",
-            "title": "More than a service.",
-            "title_accent": "A life shared.",
-            "features": [
-              {
-                "title": "Weekly Gatherings",
-                "text": "Corporate praise, biblical teaching, prayer, and fellowship.",
-                "detail": "WEEKLY",
-                "number": "01"
-              },
-              {
-                "title": "Study & Discussion",
-                "text": "Thoughtful teaching and open discussion rooted in Scripture.",
-                "detail": "MIDWEEK",
-                "number": "02"
-              },
-              {
-                "title": "Community Gatherings",
-                "text": "Fellowship, family moments, outreach, and special celebrations.",
-                "detail": "SEASON",
-                "number": "03"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "rcwatch",
-      "content_width": "full",
-      "settings": {
-        "_element_id": "messages"
-      },
-      "widgets": [
-        {
-          "type": "vew-watch",
-          "settings": {
-            "eyebrow": "Featured message",
-            "title": "When faith finds",
-            "title_accent": "its footing.",
-            "intro": "Discover how to remain grounded, discerning, and full of hope when life feels uncertain and the next step is not yet clear.",
-            "image": {
-              "url": "https://wppt.nsystems.live/wp-content/uploads/2026/08/message.webp",
-              "id": 223
-            },
-            "cta_text": "Watch the Message",
-            "cta_url": {
-              "url": "https://www.youtube.com/@thewayofholinessbroadcast4551"
-            },
-            "secondary_text": "Get in touch",
-            "secondary_url": {
-              "url": "#contact"
-            }
           }
         }
       ]
@@ -412,11 +288,9 @@
             "title": "Generosity makes",
             "title_accent": "ministry possible.",
             "quote": "Your giving supports worship, discipleship, outreach, care, and the practical work of serving people throughout our community.",
-            "verse_ref": "",
+            "verse_ref": "2 Corinthians 9:7 — God loves a cheerful giver.",
             "cta_text": "Learn about giving",
-            "cta_url": {
-              "url": "#contact"
-            }
+            "cta_url": { "url": "#contact" }
           }
         }
       ]
@@ -446,7 +320,11 @@
               },
               {
                 "question": "Can I watch online?",
-                "answer": "Yes. We broadcast our services live — find us on YouTube to join the gathering from anywhere."
+                "answer": "Yes. We broadcast our services live on The Way of Holiness broadcast — find us on YouTube to join the gathering from anywhere."
+              },
+              {
+                "question": "What is the Tribe of Fire?",
+                "answer": "Tribe of Fire is our family name for the church — a Spirit-led people who are the elected and selected of God, living consecrated lives and standing firm in the last hour."
               },
               {
                 "question": "How can I get involved?",
@@ -501,81 +379,31 @@
           "settings": {
             "brand_name": "REALMS OF REVELATION ECCLESIA",
             "brand_tag": "MYRTLE BEACH, SC",
-            "blurb": "A vibrant church family in Myrtle Beach, South Carolina — committed to biblical truth, authentic worship, and a life of purpose.",
+            "blurb": "A vibrant church family in Myrtle Beach, South Carolina — the Tribe of Fire, committed to biblical truth, authentic worship, and a life of purpose.",
             "columns": [
               {
                 "heading": "Navigate",
                 "links": [
-                  {
-                    "text": "About",
-                    "url": {
-                      "url": "#message"
-                    }
-                  },
-                  {
-                    "text": "Ministries",
-                    "url": {
-                      "url": "#ministries"
-                    }
-                  },
-                  {
-                    "text": "Services",
-                    "url": {
-                      "url": "#services"
-                    }
-                  },
-                  {
-                    "text": "Events",
-                    "url": {
-                      "url": "#events"
-                    }
-                  },
-                  {
-                    "text": "Messages",
-                    "url": {
-                      "url": "#messages"
-                    }
-                  }
+                  { "text": "Message", "url": { "url": "#message" } },
+                  { "text": "Watch", "url": { "url": "#watch" } },
+                  { "text": "Ministries", "url": { "url": "#ministries" } },
+                  { "text": "Services", "url": { "url": "#services" } },
+                  { "text": "Give", "url": { "url": "#give" } }
                 ]
               },
               {
                 "heading": "Get involved",
                 "links": [
-                  {
-                    "text": "Give",
-                    "url": {
-                      "url": "#give"
-                    }
-                  },
-                  {
-                    "text": "FAQ",
-                    "url": {
-                      "url": "#faq"
-                    }
-                  },
-                  {
-                    "text": "Plan a visit",
-                    "url": {
-                      "url": "#contact"
-                    }
-                  }
+                  { "text": "Give", "url": { "url": "#give" } },
+                  { "text": "FAQ", "url": { "url": "#faq" } },
+                  { "text": "Plan a visit", "url": { "url": "#contact" } }
                 ]
               },
               {
                 "heading": "Get in touch",
                 "links": [
-                  {
-                    "text": "(555) 010-0555",
-                    "url": {
-                      "url": "tel:+15550100555"
-                    }
-                  },
-                  {
-                    "text": "hello@example.com",
-                    "url": {
-                      "url": "mailto:hello@example.com"
-                    }
-                  }
+                  { "text": "(555) 010-0555", "url": { "url": "tel:+15550100555" } },
+                  { "text": "hello@example.com", "url": { "url": "mailto:hello@example.com" } }
                 ]
               }
             ],
