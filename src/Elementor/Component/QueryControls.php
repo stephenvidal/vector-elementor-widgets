@@ -248,7 +248,7 @@ final class QueryControls {
 
 		$users = get_users(
 			array(
-				'who' => 'authors',
+				'capability' => array( 'edit_posts' ),
 			)
 		);
 
