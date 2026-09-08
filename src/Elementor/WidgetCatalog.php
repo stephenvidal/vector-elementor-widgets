@@ -29,6 +29,7 @@ use Vector\ElementorWidgets\Elementor\Widget\Pricing;
 use Vector\ElementorWidgets\Elementor\Widget\Process;
 use Vector\ElementorWidgets\Elementor\Widget\Services;
 use Vector\ElementorWidgets\Elementor\Widget\Testimonials;
+use Vector\ElementorWidgets\Elementor\Widget\PostGallery;
 use Vector\ElementorWidgets\Elementor\Widget\BlogPosts;
 use Vector\ElementorWidgets\Elementor\Widget\PortfolioIndex;
 use Vector\ElementorWidgets\Elementor\Widget\Timeline;
@@ -294,6 +295,13 @@ final class WidgetCatalog {
 				'title'       => __( 'Blog Posts', 'vector-elementor-widgets' ),
 				'description' => __( 'A Blog Posts component.', 'vector-elementor-widgets' ),
 				'icon'        => 'eicon-post-list',
+			),
+			array(
+				'slug'        => 'vew-post-gallery',
+				'class'       => PostGallery::class,
+				'title'       => __( 'Post Gallery', 'vector-elementor-widgets' ),
+				'description' => __( 'A Post Gallery component.', 'vector-elementor-widgets' ),
+				'icon'        => 'eicon-gallery-grid',
 			),
 		);
 	}
