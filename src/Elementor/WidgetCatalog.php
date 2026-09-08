@@ -29,6 +29,7 @@ use Vector\ElementorWidgets\Elementor\Widget\Pricing;
 use Vector\ElementorWidgets\Elementor\Widget\Process;
 use Vector\ElementorWidgets\Elementor\Widget\Services;
 use Vector\ElementorWidgets\Elementor\Widget\Testimonials;
+use Vector\ElementorWidgets\Elementor\Widget\BlogPosts;
 use Vector\ElementorWidgets\Elementor\Widget\PortfolioIndex;
 use Vector\ElementorWidgets\Elementor\Widget\Timeline;
 use Vector\ElementorWidgets\Elementor\Widget\BeforeAfter;
@@ -286,6 +287,13 @@ final class WidgetCatalog {
 				'title'       => __( 'Portfolio Index (Auto)', 'vector-elementor-widgets' ),
 				'description' => __( 'A dynamic, auto-updating grid of the website-factory portfolio pages, each with a kit colour swatch.', 'vector-elementor-widgets' ),
 				'icon'        => 'eicon-gallery-grid',
+			),
+			array(
+				'slug'        => 'vew-blog-posts',
+				'class'       => BlogPosts::class,
+				'title'       => __( 'Blog Posts', 'vector-elementor-widgets' ),
+				'description' => __( 'A Blog Posts component.', 'vector-elementor-widgets' ),
+				'icon'        => 'eicon-post-list',
 			),
 		);
 	}

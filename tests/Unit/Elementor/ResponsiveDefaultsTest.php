@@ -47,6 +47,7 @@ final class ResponsiveDefaultsTest extends TestCase {
 			'CtaBanner' => array( 'src/Elementor/Widget/CtaBanner.php', 'widgets/CtaBanner/cta-banner.css', 'vew-cta__inner' ),
 			'FeatureGrid' => array( 'src/Elementor/Widget/FeatureGrid.php', 'widgets/FeatureGrid/feature-grid.css', 'vew-feature-grid__inner' ),
 			'Testimonials' => array( 'src/Elementor/Widget/Testimonials.php', 'widgets/Testimonials/testimonials.css', 'vew-testimonials__inner' ),
+			'BlogPosts' => array( 'src/Elementor/Widget/BlogPosts.php', 'widgets/BlogPosts/vew-blog-posts.css', 'vew-blog-posts__inner' ),
 		);
 	}
 
@@ -81,6 +82,7 @@ final class ResponsiveDefaultsTest extends TestCase {
 		return array(
 			'FeatureGrid' => array( 'widgets/FeatureGrid/feature-grid.css' ),
 			'Testimonials' => array( 'widgets/Testimonials/testimonials.css' ),
+			'BlogPosts'  => array( 'widgets/BlogPosts/vew-blog-posts.css' ),
 			'Services'   => array( 'widgets/Services/vew-services.css' ),
 			'Portfolio'  => array( 'widgets/Portfolio/vew-portfolio.css' ),
 			'Pricing'    => array( 'widgets/Pricing/vew-pricing.css' ),
