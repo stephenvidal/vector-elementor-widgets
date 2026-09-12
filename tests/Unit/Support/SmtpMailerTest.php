@@ -41,6 +41,9 @@ final class SmtpMailerTest extends TestCase {
 		Functions\when( 'is_email' )->alias( static fn ( string $e ): bool => (bool) filter_var( $e, FILTER_VALIDATE_EMAIL ) );
 		Functions\when( 'add_action' )->justReturn( true );
 		Functions\when( 'remove_action' )->justReturn( true );
+		// The transport pre-flight opens a real socket; stub it so unit tests
+		// stay hermetic. A truthy resource means "reachable".
+		Functions\when( 'fsockopen' )->alias( static fn ( ...$a ) => fopen( 'php://memory', 'r' ) );
 	}
 
 	/**
@@ -315,7 +318,7 @@ final class SmtpMailerTest extends TestCase {
 		Functions\when( 'get_option' )->alias(
 			static function ( string $name, $default = false ) {
 				return SmtpMailer::OPTION === $name
-					? array( 'enabled' => true, 'host' => 'mail.example.test', 'from_email' => 'contact@rorecclesia.com' )
+					? array( 'enabled' => true, 'host' => '127.0.0.1', 'port' => 465, 'encryption' => 'ssl', 'from_email' => 'contact@rorecclesia.com' )
 					: $default;
 			}
 		);
@@ -336,7 +339,7 @@ final class SmtpMailerTest extends TestCase {
 		Functions\when( 'get_option' )->alias(
 			static function ( string $name, $default = false ) {
 				return SmtpMailer::OPTION === $name
-					? array( 'enabled' => true, 'host' => 'mail.example.test', 'from_email' => 'contact@rorecclesia.com' )
+					? array( 'enabled' => true, 'host' => '127.0.0.1', 'port' => 465, 'encryption' => 'ssl', 'from_email' => 'contact@rorecclesia.com' )
 					: $default;
 			}
 		);
@@ -355,6 +358,58 @@ final class SmtpMailerTest extends TestCase {
 
 		$this->assertFalse( $result['success'] );
 		$this->assertStringContainsString( 'SMTP connect() failed', $result['message'] );
+	}
+
+	/**
+	 * The classic mismatch (465 + tls) is reported before any network wait.
+	 *
+	 * @return void
+	 */
+	public function test_send_test_rejects_465_with_tls(): void {
+		Functions\when( 'get_option' )->alias(
+			static function ( string $name, $default = false ) {
+				return SmtpMailer::OPTION === $name
+					? array(
+						'enabled'    => true,
+						'host'       => 'mail.example.test',
+						'port'       => 465,
+						'encryption' => 'tls',
+						'from_email' => 'contact@example.test',
+					)
+					: $default;
+			}
+		);
+
+		$result = SmtpMailer::send_test( 'someone@example.test' );
+
+		$this->assertFalse( $result['success'] );
+		$this->assertStringContainsString( '465', $result['message'] );
+	}
+
+	/**
+	 * The mirror mismatch (587 + ssl) is reported too.
+	 *
+	 * @return void
+	 */
+	public function test_send_test_rejects_587_with_ssl(): void {
+		Functions\when( 'get_option' )->alias(
+			static function ( string $name, $default = false ) {
+				return SmtpMailer::OPTION === $name
+					? array(
+						'enabled'    => true,
+						'host'       => 'mail.example.test',
+						'port'       => 587,
+						'encryption' => 'ssl',
+						'from_email' => 'contact@example.test',
+					)
+					: $default;
+			}
+		);
+
+		$result = SmtpMailer::send_test( 'someone@example.test' );
+
+		$this->assertFalse( $result['success'] );
+		$this->assertStringContainsString( '587', $result['message'] );
 	}
 
 	/**
@@ -419,6 +474,20 @@ final class SmtpMailerTest extends TestCase {
 			 * @var bool
 			 */
 			public $SMTPAutoTLS = true;
+
+			/**
+			 * Connect timeout in seconds.
+			 *
+			 * @var int
+			 */
+			public $Timeout = 300;
+
+			/**
+			 * Keep-alive flag.
+			 *
+			 * @var bool
+			 */
+			public $SMTPKeepAlive = false;
 
 			/**
 			 * Captured setFrom() args.

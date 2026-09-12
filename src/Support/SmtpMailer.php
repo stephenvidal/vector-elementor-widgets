@@ -186,6 +186,14 @@ final class SmtpMailer {
 		$phpmailer->Host = (string) $settings['host'];
 		$phpmailer->Port = (int) $settings['port'];
 
+		// PHPMailer defaults to a 300-second connect timeout, so a blocked or
+		// mismatched port leaves the admin staring at a spinner for five
+		// minutes. Fail fast instead and surface the error as a notice.
+		$phpmailer->Timeout = 15;
+		if ( isset( $phpmailer->SMTPKeepAlive ) ) {
+			$phpmailer->SMTPKeepAlive = false;
+		}
+
 		$auth             = ! empty( $settings['auth'] );
 		$phpmailer->SMTPAuth = $auth;
 		if ( $auth ) {
@@ -216,6 +224,47 @@ final class SmtpMailer {
 	}
 
 	/**
+	 * Quick socket pre-flight.
+	 *
+	 * Verifies the transport can be reached with the configured encryption
+	 * before handing off to wp_mail(), so a bad host/port/encryption combination
+	 * reports a specific reason instead of hanging on PHPMailer's timeout.
+	 *
+	 * @return string|null Null when the transport looks reachable, else a reason.
+	 */
+	private static function preflight(): ?string {
+		$settings = self::settings();
+		$host     = (string) $settings['host'];
+		$port     = (int) $settings['port'];
+		$enc      = (string) $settings['encryption'];
+
+		// Catches the classic mismatch: implicit-SSL port 465 paired with the
+		// STARTTLS option (or vice versa), which cannot complete a handshake.
+		if ( 465 === $port && 'tls' === $enc ) {
+			return __( 'Port 465 is implicit SSL. Set Encryption to "SSL (usually port 465)" — with "TLS" PHPMailer waits for a STARTTLS handshake that never arrives.', 'vector-elementor-widgets' );
+		}
+		if ( 587 === $port && 'ssl' === $enc ) {
+			return __( 'Port 587 uses STARTTLS, not implicit SSL. Set Encryption to "TLS (STARTTLS — usually port 587)", or switch the port to 465.', 'vector-elementor-widgets' );
+		}
+
+		$errno  = 0;
+		$errstr = '';
+		$conn   = @fsockopen( $host, $port, $errno, $errstr, 8 ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged -- a failed connect is the expected path; the error is reported below.
+		if ( ! is_resource( $conn ) ) {
+			return sprintf(
+				/* translators: 1: host, 2: port, 3: error detail. */
+				__( 'Could not connect to %1$s:%2$s — %3$s', 'vector-elementor-widgets' ),
+				$host,
+				(string) $port,
+				'' !== $errstr ? $errstr : __( 'connection refused or timed out', 'vector-elementor-widgets' )
+			);
+		}
+		fclose( $conn );
+
+		return null;
+	}
+
+	/**
 	 * Send a test email through the configured transport.
 	 *
 	 * @param string $to Recipient. Defaults to the configured From address.
@@ -239,6 +288,16 @@ final class SmtpMailer {
 			return array(
 				'success' => false,
 				'message' => __( 'A valid recipient email address is required.', 'vector-elementor-widgets' ),
+			);
+		}
+
+		// Pre-flight: catch an unreachable/mismatched transport in seconds with a
+		// clear reason, instead of letting wp_mail() block on a socket timeout.
+		$preflight = self::preflight();
+		if ( null !== $preflight ) {
+			return array(
+				'success' => false,
+				'message' => $preflight,
 			);
 		}
 

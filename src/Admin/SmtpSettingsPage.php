@@ -170,12 +170,12 @@ final class SmtpSettingsPage {
 
 		$action = isset( $_POST['vew_smtp_action'] ) ? sanitize_key( wp_unslash( $_POST['vew_smtp_action'] ) ) : 'save';
 
+		// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized -- sanitized in SmtpMailer::sanitize().
+		$raw = isset( $_POST['vew_smtp'] ) && is_array( $_POST['vew_smtp'] ) ? wp_unslash( $_POST['vew_smtp'] ) : array();
+		SmtpMailer::save( $raw );
+
 		if ( 'test' === $action ) {
 			// Save first so a test reflects what is on screen.
-			// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized -- sanitized in SmtpMailer::sanitize().
-			$raw = isset( $_POST['vew_smtp'] ) && is_array( $_POST['vew_smtp'] ) ? wp_unslash( $_POST['vew_smtp'] ) : array();
-			SmtpMailer::save( $raw );
-
 			$to     = isset( $_POST['vew_smtp_test_to'] ) ? sanitize_email( wp_unslash( (string) $_POST['vew_smtp_test_to'] ) ) : '';
 			$result = SmtpMailer::send_test( $to );
 
@@ -184,10 +184,6 @@ final class SmtpSettingsPage {
 			);
 			return;
 		}
-
-		// phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized -- sanitized in SmtpMailer::sanitize().
-		$raw = isset( $_POST['vew_smtp'] ) && is_array( $_POST['vew_smtp'] ) ? wp_unslash( $_POST['vew_smtp'] ) : array();
-		SmtpMailer::save( $raw );
 
 		$this->redirect( $this->status_url( 'saved', '' ) );
 	}
