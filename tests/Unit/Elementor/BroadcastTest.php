@@ -200,6 +200,39 @@ final class BroadcastTest extends TestCase {
 	}
 
 	/**
+	 * The play button must be visible in the LIVE state server-side.
+	 *
+	 * Recomputing state client-side is not enough: with `hidden` baked into the
+	 * markup for every state (the original implementation), the button stayed
+	 * display:none even while live. It also means the control works with JS
+	 * disabled, and for crawlers.
+	 *
+	 * @return void
+	 */
+	public function test_watch_and_secondary_render_visible_when_live(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		$this->assertStringContainsString( '$is_live = Segment::STATE_LIVE === $state;', $widget );
+		$this->assertStringContainsString( "echo \$is_live ? '' : ' hidden';", $widget );
+		$this->assertSame(
+			2,
+			substr_count( $widget, "echo \$is_live ? '' : ' hidden';" ),
+			'Both the watch and secondary stream links must honour the live state.'
+		);
+	}
+
+	/**
+	 * An empty stream URL must not render a dead "Watch now" button.
+	 *
+	 * @return void
+	 */
+	public function test_watch_button_requires_a_stream_url(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		$this->assertStringContainsString( "if ( '' !== \$segment->stream_url() ) :", $widget );
+	}
+
+	/**
 	 * A calendar link is offered for the next segment.
 	 *
 	 * @return void
@@ -278,5 +311,92 @@ final class BroadcastTest extends TestCase {
 			$widget,
 			'Countdown must emit ISO-8601 (format "c") so the offset is explicit.'
 		);
+	}
+
+	/**
+	 * The calendar link survives escaping.
+	 *
+	 * The .ics payload is a data: URL, and esc_url() strips it (its protocol
+	 * allow-list excludes data:). Escaping it with esc_url() shipped an empty
+	 * href — the link rendered but did nothing.
+	 *
+	 * @return void
+	 */
+	public function test_calendar_href_is_not_escaped_through_esc_url(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		$this->assertStringNotContainsString(
+			'esc_url( $this->calendar_url(',
+			$widget,
+			'esc_url() strips data: URLs, emptying the .ics href.'
+		);
+		$this->assertStringContainsString( 'href="<?php echo esc_attr( $calendar_href ); ?>"', $widget );
+	}
+
+	/**
+	 * The site-time line must be formatted in the SITE timezone.
+	 *
+	 * Formatting it in the visitor's zone contradicted the widget's own
+	 * "times shown in Eastern Time" note and disagreed with the countdown
+	 * (which targets the site-time instant). Live check: a UTC viewer saw
+	 * "3:00 PM" for an 11:00 AM ET service.
+	 *
+	 * @return void
+	 */
+	public function test_primary_time_line_uses_site_timezone(): void {
+		$js     = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		$this->assertStringContainsString( 'data-site-timezone', $widget, 'site zone must reach the client' );
+		$this->assertStringContainsString( 'data-site-timezone', $js );
+		$this->assertStringContainsString( 'whenOpts.timeZone = siteZone', $js,
+			'The primary time line must be formatted in the site timezone.' );
+	}
+
+	/**
+	 * In preview mode the client must not recompute state from the real clock,
+	 * or the server's deliberately shifted preview would be undone in the
+	 * browser and no state could ever be previewed.
+	 *
+	 * @return void
+	 */
+	public function test_preview_mode_is_not_overridden_by_the_client_clock(): void {
+		$js     = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		$this->assertStringContainsString( 'data-preview', $widget, 'the flag must reach the client' );
+		$this->assertStringContainsString( 'data-preview', $js );
+		$this->assertStringContainsString( 'if ( previewActive )', $js, 'preview must short-circuit the tick loop' );
+	}
+
+	/**
+	 * Preview offsets must anchor to the NEXT SEGMENT START, not to "now".
+	 *
+	 * Anchored to now, a relative offset is useless for verification: the
+	 * service is normally hours away, so "+5 min" never reaches the start and
+	 * every preview renders identically to "upcoming".
+	 *
+	 * @return void
+	 */
+	public function test_preview_offsets_anchor_to_next_start(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		$this->assertStringContainsString( 'function next_start(', $widget );
+		$this->assertStringContainsString( 'return $anchor->modify( $preview_offset );', $widget );
+		$this->assertStringNotContainsString( 'return $now->modify( $preview_offset );', $widget );
+	}
+
+	/**
+	 * Visitor-local time complements the site line rather than replacing it,
+	 * and is suppressed when the viewer is already in the site zone.
+	 *
+	 * @return void
+	 */
+	public function test_visitor_local_time_is_supplementary(): void {
+		$js = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+
+		$this->assertStringContainsString( 'function renderLocalTime(', $js );
+		$this->assertStringContainsString( "node.hidden = true", $js, 'suppress when redundant' );
+		$this->assertStringContainsString( "'data-local-prefix'", $js );
 	}
 }

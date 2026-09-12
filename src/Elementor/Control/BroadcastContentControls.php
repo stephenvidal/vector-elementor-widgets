@@ -235,6 +235,17 @@ final class BroadcastContentControls {
 		);
 
 		$widget->add_control(
+			'secondary_label',
+			array(
+				'label'       => __( 'Second Stream Label', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => __( 'Also on Facebook', 'vector-elementor-widgets' ),
+				'description' => __( 'Shown for the optional second destination when live.', 'vector-elementor-widgets' ),
+				'label_block' => true,
+			)
+		);
+
+		$widget->add_control(
 			'calendar_label',
 			array(
 				'label'       => __( 'Calendar Link Label', 'vector-elementor-widgets' ),
@@ -263,13 +274,13 @@ final class BroadcastContentControls {
 				'default'     => 'off',
 				'options'     => array(
 					'off'      => __( '— Off (real time) —', 'vector-elementor-widgets' ),
-					'-1 day'   => __( '1 day before start', 'vector-elementor-widgets' ),
-					'-1 hour'  => __( '1 hour before start', 'vector-elementor-widgets' ),
-					'-5 min'   => __( '5 minutes before start', 'vector-elementor-widgets' ),
-					'+5 min'   => __( '5 minutes after start (live)', 'vector-elementor-widgets' ),
-					'+2 hours' => __( '2 hours after start (ended)', 'vector-elementor-widgets' ),
+					'-1 day'   => __( 'Countdown — 1 day before', 'vector-elementor-widgets' ),
+					'-1 hour'  => __( 'Countdown — 1 hour before', 'vector-elementor-widgets' ),
+					'-5 min'   => __( 'Starting soon — 5 min before', 'vector-elementor-widgets' ),
+					'+5 min'   => __( 'LIVE — 5 min after start', 'vector-elementor-widgets' ),
+					'+2 hours' => __( 'ENDED — rolls to the next segment', 'vector-elementor-widgets' ),
 				),
-				'description' => __( 'Shifts the clock so you can verify each state without waiting. Only editors and admins see this.', 'vector-elementor-widgets' ),
+				'description' => __( 'Moves the clock relative to the NEXT service start, so you can verify each state without waiting. Only editors and admins see this.', 'vector-elementor-widgets' ),
 			)
 		);
 

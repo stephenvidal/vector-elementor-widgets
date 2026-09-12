@@ -219,7 +219,9 @@
 	border-radius: 4px;
 	overflow: hidden;
 	background: var(--brand-dark, #214a66);
-	aspect-ratio: 16 / 10;
+	/* 16:9 to match the promotional stills, which carry their own text and
+	   branding edge to edge. A taller ratio would crop that copy. */
+	aspect-ratio: 16 / 9;
 }
 
 .vew-broadcast__thumb {

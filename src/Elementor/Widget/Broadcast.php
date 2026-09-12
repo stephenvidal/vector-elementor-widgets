@@ -43,6 +43,13 @@ final class Broadcast extends BaseWidget {
 	private string $current_state = Segment::STATE_UPCOMING;
 
 	/**
+	 * Whether the editor preview offset is in force for this render.
+	 *
+	 * @var bool
+	 */
+	private bool $preview_active = false;
+
+	/**
 	 * Widget slug — stable forever.
 	 *
 	 * @return string
@@ -120,6 +127,7 @@ final class Broadcast extends BaseWidget {
 					'upcoming_label'        => 'string',
 					'starting_soon_label'   => 'string',
 					'watch_label'           => 'string',
+					'secondary_label'       => 'string',
 					'calendar_label'        => 'string',
 					'empty_text'            => 'string',
 					'preview_offset'        => 'string',
@@ -132,7 +140,7 @@ final class Broadcast extends BaseWidget {
 		$starting_soon_minutes = isset( $safe['starting_soon_minutes'] ) ? (int) $safe['starting_soon_minutes'] : 10;
 		$schedule              = new Schedule( $segments, null, $starting_soon_minutes );
 
-		$now      = $this->reference_time( $safe['preview_offset'] ?? 'off' );
+		$now      = $this->reference_time( $safe['preview_offset'] ?? 'off', $schedule );
 		$active   = $schedule->active( $now );
 		$upcoming = $schedule->upcoming_payload( $now );
 
@@ -143,6 +151,7 @@ final class Broadcast extends BaseWidget {
 			'upcoming'      => $this->label( $safe, 'upcoming_label', __( 'Begins in', 'vector-elementor-widgets' ) ),
 			'starting_soon' => $this->label( $safe, 'starting_soon_label', __( 'Starting soon', 'vector-elementor-widgets' ) ),
 			'watch'         => $this->label( $safe, 'watch_label', __( 'Watch now', 'vector-elementor-widgets' ) ),
+			'secondary'     => $this->label( $safe, 'secondary_label', __( 'Also on Facebook', 'vector-elementor-widgets' ) ),
 			'calendar'      => $this->label( $safe, 'calendar_label', __( 'Add to calendar', 'vector-elementor-widgets' ) ),
 		);
 
@@ -157,11 +166,17 @@ final class Broadcast extends BaseWidget {
 		$this->current_state = $state;
 
 		// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped -- every value below is escaped or pre-sanitised in Segment/this method.
+		// The play action is revealed server-side in the live state so the button
+		// is actionable before JS runs (and without JS at all). It stays hidden
+		// for every other state.
+		$is_live = Segment::STATE_LIVE === $state;
 		?>
 		<section class="vew-broadcast" data-vew-broadcast
 			data-state="<?php echo esc_attr( $state ); ?>"
 			data-starting-soon-minutes="<?php echo esc_attr( (string) $starting_soon_minutes ); ?>"
 			data-visitor-time="<?php echo esc_attr( $show_visitor ? '1' : '0' ); ?>"
+			data-site-timezone="<?php echo esc_attr( wp_timezone_string() ); ?>"
+			data-preview="<?php echo esc_attr( $this->is_preview() ? '1' : '0' ); ?>"
 			data-labels="<?php echo esc_attr( wp_json_encode( $labels ) ); ?>"
 			data-segments="<?php echo esc_attr( wp_json_encode( $upcoming ) ); ?>"
 			aria-label="<?php echo esc_attr__( 'Upcoming broadcast', 'vector-elementor-widgets' ); ?>">
@@ -197,23 +212,34 @@ final class Broadcast extends BaseWidget {
 							<span class="vew-screen-reader-text" data-broadcast-announce role="status" aria-live="polite"></span>
 
 							<div class="vew-broadcast__actions" data-broadcast-actions>
-								<a class="vew-broadcast__watch" data-broadcast-watch hidden
+								<?php // No URL means no button: an empty "Watch now" link is worse than none. ?>
+								<?php if ( '' !== $segment->stream_url() ) : ?>
+								<a class="vew-broadcast__watch" data-broadcast-watch<?php echo $is_live ? '' : ' hidden'; ?>
 									href="<?php echo esc_url( $segment->stream_url() ); ?>"
 									target="_blank" rel="noopener">
 									<span class="vew-broadcast__play" aria-hidden="true"></span>
 									<?php echo esc_html( $labels['watch'] ); ?>
 								</a>
+								<?php endif; ?>
 
 								<?php if ( '' !== $segment->secondary_url() ) : ?>
-									<a class="vew-broadcast__secondary" data-broadcast-secondary hidden
+									<a class="vew-broadcast__secondary" data-broadcast-secondary<?php echo $is_live ? '' : ' hidden'; ?>
 										href="<?php echo esc_url( $segment->secondary_url() ); ?>"
-										target="_blank" rel="noopener"><?php echo esc_html__( 'Alternate stream', 'vector-elementor-widgets' ); ?></a>
+										target="_blank" rel="noopener"><?php echo esc_html( $labels['secondary'] ); ?></a>
 								<?php endif; ?>
 
 								<?php if ( $show_calendar && null !== $active['starts_at'] ) : ?>
-									<a class="vew-broadcast__calendar"
-										href="<?php echo esc_url( $this->calendar_url( $segment->label(), $active['starts_at'], $active['ends_at'] ) ); ?>"
-										download="<?php echo esc_attr( 'service.ics' ); ?>"><?php echo esc_html( $labels['calendar'] ); ?></a>
+									<?php
+									// The .ics payload is a data: URL, which esc_url() strips
+									// (its protocol allow-list excludes data:), so it is emitted
+									// through a dedicated escaper instead.
+									$calendar_href = $this->calendar_url( $segment->label(), $active['starts_at'], $active['ends_at'] );
+									?>
+									<?php if ( '' !== $calendar_href ) : ?>
+										<a class="vew-broadcast__calendar"
+											href="<?php echo esc_attr( $calendar_href ); ?>"
+											download="<?php echo esc_attr( 'service.ics' ); ?>"><?php echo esc_html( $labels['calendar'] ); ?></a>
+									<?php endif; ?>
 								<?php endif; ?>
 							</div>
 
@@ -301,16 +327,28 @@ final class Broadcast extends BaseWidget {
 	}
 
 	/**
+	 * Whether the active preview offset is in force for this request.
+	 *
+	 * @return bool
+	 */
+	private function is_preview(): bool {
+		return $this->preview_active;
+	}
+
+	/**
 	 * The instant the widget should treat as "now".
 	 *
-	 * Applies the editor-only preview offset so each state can be verified
-	 * without waiting for the real schedule.
+	 * In preview, the offset is anchored to the NEXT SEGMENT START rather than
+	 * to the current time. A relative offset from "now" is useless for
+	 * verification: the service is usually hours away, so "+5 min" never
+	 * reaches the start and every preview looks identical to upcoming.
 	 *
-	 * @param string $preview_offset Raw preview offset.
+	 * @param string   $preview_offset Raw preview offset.
+	 * @param Schedule $schedule       Schedule, for the anchor.
 	 *
 	 * @return \DateTimeImmutable
 	 */
-	private function reference_time( string $preview_offset ): \DateTimeImmutable {
+	private function reference_time( string $preview_offset, Schedule $schedule ): \DateTimeImmutable {
 		$now = new \DateTimeImmutable( 'now', wp_timezone() );
 
 		if ( 'off' === $preview_offset || '' === $preview_offset ) {
@@ -327,7 +365,38 @@ final class Broadcast extends BaseWidget {
 			return $now;
 		}
 
-		return $now->modify( $preview_offset );
+		// Anchor to the soonest upcoming start so each offset demonstrates a
+		// distinct state regardless of when the editor looks.
+		$anchor = $this->next_start( $schedule, $now );
+		if ( null === $anchor ) {
+			return $now;
+		}
+
+		$this->preview_active = true;
+
+		return $anchor->modify( $preview_offset );
+	}
+
+	/**
+	 * The soonest upcoming segment start at or after an instant.
+	 *
+	 * @param Schedule           $schedule Schedule.
+	 * @param \DateTimeImmutable $now      Reference instant.
+	 *
+	 * @return \DateTimeImmutable|null
+	 */
+	private function next_start( Schedule $schedule, \DateTimeImmutable $now ): ?\DateTimeImmutable {
+		foreach ( $schedule->upcoming_payload( $now, 1 ) as $row ) {
+			if ( ! empty( $row['starts_at'] ) ) {
+				try {
+					return new \DateTimeImmutable( (string) $row['starts_at'] );
+				} catch ( \Exception $e ) {
+					continue;
+				}
+			}
+		}
+
+		return null;
 	}
 
 	/**

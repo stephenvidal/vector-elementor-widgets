@@ -3,7 +3,7 @@
  * Plugin Name:       Vector Elementor Widgets
  * Plugin URI:        https://vector.example/vector-elementor-widgets
  * Description:       A reusable production UI component library for Elementor — the Derby-standard component system as native Elementor widgets.
- * Version:           0.5.1
+ * Version:           0.6.4
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * Author:            Stephen Vidal
@@ -59,7 +59,7 @@ if ( file_exists( $vew_autoload ) ) {
 // when the autoloader is not installed (e.g. WP admin screen activation
 // before vendor/ is present on first install).
 if ( ! defined( 'VEW_VERSION' ) ) {
-	define( 'VEW_VERSION', '0.5.1' );
+	define( 'VEW_VERSION', '0.6.4' );
 }
 if ( ! defined( 'VEW_PLUGIN_FILE' ) ) {
 	define( 'VEW_PLUGIN_FILE', __FILE__ );

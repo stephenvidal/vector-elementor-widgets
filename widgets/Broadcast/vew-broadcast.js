@@ -166,11 +166,15 @@
 	/**
 	 * Render the visitor's local equivalent of the start time.
 	 *
-	 * @param {Element} node Target node.
-	 * @param {string}  iso  ISO-8601 start.
+	 * Complements the site-time line rather than replacing it: the widget
+	 * documents times in site time, so a remote viewer gets both.
+	 *
+	 * @param {Element} node     Target node.
+	 * @param {string}  iso      ISO-8601 start.
+	 * @param {string}  siteZone IANA zone of the site.
 	 * @return {void}
 	 */
-	function renderLocalTime( node, iso ) {
+	function renderLocalTime( node, iso, siteZone ) {
 		if ( ! node ) {
 			return;
 		}
@@ -186,10 +190,9 @@
 			visitorZone = '';
 		}
 
-		// Skip the line entirely when the viewer is already in the site's zone.
-		var siteOffset = new Date( iso ).getTimezoneOffset();
-		var hereOffset = new Date().getTimezoneOffset();
-		if ( visitorZone === '' && siteOffset === hereOffset ) {
+		// Nothing to add when the viewer is already in the site's zone.
+		if ( visitorZone && siteZone && visitorZone === siteZone ) {
+			node.hidden = true;
 			return;
 		}
 
@@ -203,6 +206,30 @@
 			} ).format( date );
 		} catch ( e ) {
 			return;
+		}
+
+		// Skip when the local rendering already matches the site clock (e.g. an
+		// unnamed zone at the same offset), so we never print a duplicate.
+		if ( siteZone ) {
+			try {
+				var siteClock = new Intl.DateTimeFormat( 'en-US', {
+					weekday: 'short',
+					hour: 'numeric',
+					minute: '2-digit',
+					timeZone: siteZone
+				} ).format( date );
+				var localClock = new Intl.DateTimeFormat( 'en-US', {
+					weekday: 'short',
+					hour: 'numeric',
+					minute: '2-digit'
+				} ).format( date );
+				if ( siteClock === localClock ) {
+					node.hidden = true;
+					return;
+				}
+			} catch ( e ) {
+				// Fall through and show the line.
+			}
 		}
 
 		var prefix = node.getAttribute( 'data-local-prefix' );
@@ -221,6 +248,11 @@
 		var soonWindowMs = ( parseInt( root.getAttribute( 'data-starting-soon-minutes' ), 10 ) || 0 ) * 60000;
 		var wantVisitorTime = root.getAttribute( 'data-visitor-time' ) === '1';
 		var useVisitorTime = wantVisitorTime;
+		var siteZone = root.getAttribute( 'data-site-timezone' ) || '';
+		// In editor preview the server renders a deliberately shifted state. The
+		// client must NOT recompute from the real clock, or previewing a state
+		// would be impossible.
+		var previewActive = root.getAttribute( 'data-preview' ) === '1';
 
 		var badge = root.querySelector( '[data-broadcast-badge]' );
 		var title = root.querySelector( '[data-broadcast-label]' );
@@ -264,13 +296,25 @@
 			if ( when ) {
 				var startDate = new Date( row.starts_at );
 				if ( ! isNaN( startDate.getTime() ) ) {
-					when.textContent = new Intl.DateTimeFormat( undefined, {
+					// Format in the SITE timezone, not the visitor's. The widget
+					// states the times are in site time, so rendering them in the
+					// visitor's zone here would contradict that note (and the
+					// countdown, which targets the site-time instant).
+					var whenOpts = {
 						weekday: 'long',
 						month: 'long',
 						day: 'numeric',
 						hour: 'numeric',
 						minute: '2-digit'
-					} ).format( startDate );
+					};
+					if ( siteZone ) {
+						whenOpts.timeZone = siteZone;
+					}
+					try {
+						when.textContent = new Intl.DateTimeFormat( undefined, whenOpts ).format( startDate );
+					} catch ( e ) {
+						when.textContent = startDate.toString();
+					}
 				}
 			}
 
@@ -296,7 +340,7 @@
 			}
 
 			if ( useVisitorTime && localNode ) {
-				renderLocalTime( localNode, row.starts_at );
+				renderLocalTime( localNode, row.starts_at, siteZone );
 			}
 		}
 
@@ -362,6 +406,12 @@
 				announcedFor = 'live:' + active.starts_at;
 				announce.textContent = ( active.label || 'The broadcast' ) + ' ' + ( labels.live || 'is live now' );
 			}
+		}
+
+		if ( previewActive ) {
+			// Leave the server-rendered state exactly as-is and do not tick.
+			active = pickActive( segments, soonWindowMs, Date.now() );
+			return;
 		}
 
 		active = pickActive( segments, soonWindowMs, Date.now() );
