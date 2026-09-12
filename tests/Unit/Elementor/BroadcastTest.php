@@ -387,6 +387,18 @@ final class BroadcastTest extends TestCase {
 	}
 
 	/**
+	 * A preview must still show a countdown duration rather than a placeholder.
+	 *
+	 * @return void
+	 */
+	public function test_preview_fills_the_countdown(): void {
+		$js = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+
+		$this->assertStringContainsString( "'upcoming' === previewState", $js );
+		$this->assertStringContainsString( 'clockValue.textContent = humanise(', $js );
+	}
+
+	/**
 	 * Visitor-local time complements the site line rather than replacing it,
 	 * and is suppressed when the viewer is already in the site zone.
 	 *

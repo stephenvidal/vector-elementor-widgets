@@ -410,7 +410,15 @@
 
 		if ( previewActive ) {
 			// Leave the server-rendered state exactly as-is and do not tick.
+			// Still fill the countdown once so a preview does not show a
+			// placeholder dash where a reviewer expects a duration.
 			active = pickActive( segments, soonWindowMs, Date.now() );
+			if ( active && clockValue ) {
+				var previewState = root.getAttribute( 'data-state' );
+				if ( 'upcoming' === previewState ) {
+					clockValue.textContent = humanise( msUntil( active.starts_at ) );
+				}
+			}
 			return;
 		}
 
