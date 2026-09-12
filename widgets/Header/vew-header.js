@@ -93,6 +93,11 @@
 	// Publish the real header height so anchor jumps offset by exactly the
 	// sticky bar's height. A hardcoded offset is wrong the moment the header
 	// wraps, the announcement bar is added/removed, or the logo resizes.
+	//
+	// The announcement strip scrolls away (the host is pinned above the
+	// viewport by the strip's height), so the bar that remains pinned is the
+	// header WITHOUT the strip. Publishing the full host height here would
+	// leave every anchor jump a strip-height too low.
 	( function () {
 		var hosts = document.querySelectorAll( '.vew-header-host' );
 		if ( ! hosts.length ) {
@@ -101,16 +106,39 @@
 
 		var root = document.documentElement;
 
+		/**
+		 * Height of the announcement strip inside a host, or 0 when absent.
+		 *
+		 * @param {Element} host The sticky host element.
+		 * @return {number} Strip height in pixels.
+		 */
+		function bannerHeight( host ) {
+			var banner = host.querySelector( '.vew-header__announcement' );
+			return banner ? banner.getBoundingClientRect().height : 0;
+		}
+
 		function measure() {
-			var max = 0;
+			var maxBar = 0;
 			hosts.forEach( function ( host ) {
-				var h = host.getBoundingClientRect().height;
-				if ( h > max ) {
-					max = h;
+				var banner = bannerHeight( host );
+				// Only a strip that scrolls away may be discounted: the
+				// pinned bar is then header-only.
+				var bar = host.getBoundingClientRect().height - banner;
+				if ( banner > 0 ) {
+					root.style.setProperty(
+						'--vew-header-banner-height',
+						Math.ceil( banner ) + 'px'
+					);
+				} else {
+					root.style.removeProperty( '--vew-header-banner-height' );
+				}
+				if ( bar > maxBar ) {
+					maxBar = bar;
 				}
 			} );
-			if ( max > 0 ) {
-				root.style.setProperty( '--header-offset', Math.ceil( max ) + 'px' );
+			if ( maxBar > 0 ) {
+				root.style.setProperty( '--header-offset', Math.ceil( maxBar ) + 'px' );
+				root.style.setProperty( '--header-offset-mobile', Math.ceil( maxBar ) + 'px' );
 			}
 		}
 
@@ -123,7 +151,9 @@
 	} )();
 
 	// Add a subtle lift once the bar is actually pinned, so the header reads as
-	// floating above the content rather than blending into it.
+	// floating above the content rather than blending into it. "Pinned" means
+	// the announcement strip has finished scrolling away — applying the shadow
+	// while the strip is still on screen would lift a bar that is not stuck yet.
 	( function () {
 		var hosts = document.querySelectorAll( '.vew-header-host' );
 		if ( ! hosts.length ) {
@@ -134,7 +164,15 @@
 
 		function update() {
 			ticking = false;
-			var scrolled = window.scrollY > 8;
+			var banner = parseFloat(
+				document.documentElement.style.getPropertyValue(
+					'--vew-header-banner-height'
+				)
+			);
+			if ( isNaN( banner ) ) {
+				banner = 0;
+			}
+			var scrolled = window.scrollY > Math.max( 8, banner );
 			hosts.forEach( function ( host ) {
 				host.classList.toggle( 'vew-header-host--scrolled', scrolled );
 			} );

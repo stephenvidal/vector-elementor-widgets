@@ -15,10 +15,19 @@
 /* Elementor constrains a sticky widget to its header-height container. The
    runtime marks that top-level host so the container itself owns stickiness.
    The frosted layer lives on the full-width host so the translucent
-   background spans the whole viewport, not just the boxed inner shell. */
+   background spans the whole viewport, not just the boxed inner shell.
+
+   Only the HEADER should stay pinned — the announcement strip sits above it
+   and must scroll away with the page. A sticky element cannot partially
+   unstick, so the host is pinned `--vew-header-banner-height` ABOVE the
+   viewport top (exactly the strip's height): the strip rides off-screen and
+   the header ends up flush with the top edge. The runtime publishes the
+   MEASURED strip height, so an empty announcement, a strip that wraps to two
+   lines on a narrow screen, or a resized logo all stay correct. The 0px
+   fallback (no announcement, or no JS) pins the whole bar as before. */
 .vew-header-host {
 	position: sticky !important;
-	top: 0;
+	top: calc(-1 * var(--vew-header-banner-height, 0px));
 	z-index: 400 !important;
 	overflow: visible !important;
 	background: color-mix(in srgb, var(--surface, #fffdf9) 88%, transparent);
