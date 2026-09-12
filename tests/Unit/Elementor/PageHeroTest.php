@@ -36,7 +36,9 @@ final class PageHeroTest extends TestCase {
 		$css    = $this->source( 'widgets/PageHero/vew-page-hero.css' );
 
 		$this->assertStringContainsString( 'class="vew-page-hero__inner"', $widget );
-		$this->assertStringContainsString( 'width: 100vw;', $css );
+		// The breakout must subtract the classic-scrollbar width (--vew-sb) or it
+		// overshoots the viewport; see FullBleedBreakoutTest.
+		$this->assertStringContainsString( 'calc(100vw - var(--vew-sb, 0px))', $css );
 		$this->assertStringContainsString( 'width: min(100%, 1288px);', $css );
 		$this->assertStringContainsString( 'padding: clamp(52px, 8vw, 96px) 24px 48px;', $css );
 		$this->assertStringContainsString( 'padding: 44px 20px 36px;', $css );

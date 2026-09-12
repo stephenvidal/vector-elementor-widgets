@@ -183,5 +183,24 @@ final class SiteKit {
 			);
 			wp_enqueue_style( 'vew-a11y' );
 		}
+
+		// Publish --vew-sb (the classic-scrollbar width) so the full-bleed widgets
+		// can size themselves as calc(100vw - var(--vew-sb)) instead of a bare
+		// 100vw, which overshoots the viewport by the scrollbar width. Loaded
+		// globally because the metric is page-wide, not per widget.
+		$script = $this->base_dir . 'assets/js/scrollbar-metric.js';
+		if ( file_exists( $script ) ) {
+			wp_register_script(
+				'vew-scrollbar-metric',
+				$this->base_url . 'assets/js/scrollbar-metric.js',
+				array(),
+				(string) filemtime( $script ),
+				array(
+					'strategy'  => 'defer',
+					'in_footer' => false,
+				)
+			);
+			wp_enqueue_script( 'vew-scrollbar-metric' );
+		}
 	}
 }

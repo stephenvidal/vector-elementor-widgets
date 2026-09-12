@@ -38,6 +38,9 @@ final class SiteKitTest extends TestCase {
 		Functions\when( 'wp_enqueue_style' )->returnArg();
 		Functions\when( 'wp_add_inline_style' )->returnArg();
 		Functions\when( 'wp_register_style' )->returnArg();
+		// The scrollbar metric script is enqueued alongside the a11y stylesheet.
+		Functions\when( 'wp_register_script' )->returnArg();
+		Functions\when( 'wp_enqueue_script' )->returnArg();
 		Functions\when( 'get_the_ID' )->alias( static fn (): int => 0 );
 		Functions\when( 'get_post_meta' )->alias( static fn ( int $id, string $key, bool $single = false ): string => '' );
 		Functions\when( 'get_option' )->alias( static fn ( string $o, $d = false ) => $d );

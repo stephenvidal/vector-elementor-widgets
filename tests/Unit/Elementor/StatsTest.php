@@ -38,7 +38,9 @@ final class StatsTest extends TestCase {
 		$css    = $this->source( 'widgets/Stats/vew-stats.css' );
 
 		$this->assertStringContainsString( 'class="vew-stats__inner"', $widget );
-		$this->assertStringContainsString( 'width: 100vw;', $css );
+		// The breakout must subtract the classic-scrollbar width (--vew-sb) or it
+		// overshoots the viewport; see FullBleedBreakoutTest.
+		$this->assertStringContainsString( 'calc(100vw - var(--vew-sb, 0px))', $css );
 		$this->assertStringContainsString( 'width: min(100%, 1288px);', $css );
 		$this->assertStringContainsString( 'padding-inline: 24px;', $css );
 		$this->assertStringContainsString( 'padding-inline: 20px;', $css );

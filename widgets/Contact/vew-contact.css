@@ -5,8 +5,15 @@
 
 .vew-contact {
 	box-sizing: border-box;
-	width: 100vw;
-	margin-inline: calc(50% - 50vw);
+	/* Full-bleed breakout.
+	   `100vw` includes the classic scrollbar, `clientWidth` does not, so a bare
+	   `width: 100vw` overshoots the viewport by the scrollbar width and produces
+	   a horizontal scrollbar. `--vew-sb` is published by the widget runtime as
+	   `window.innerWidth - document.documentElement.clientWidth` and defaults to
+	   0px, so overlay-scrollbar browsers (mobile, macOS) are unaffected. The
+	   negative inline margin still escapes a boxed Elementor container. */
+	width: calc(100vw - var(--vew-sb, 0px));
+	margin-inline: calc(50% - (100vw - var(--vew-sb, 0px)) / 2);
 }
 
 .vew-contact__inner{

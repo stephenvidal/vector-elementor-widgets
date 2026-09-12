@@ -68,7 +68,9 @@ final class ResponsiveDefaultsTest extends TestCase {
 
 		$this->assertStringContainsString( 'class="' . $shell_class . '"', $widget );
 		$this->assertStringContainsString( '.' . $shell_class, $css );
-		$this->assertStringContainsString( 'width: 100vw;', $css );
+		// The breakout must subtract the classic-scrollbar width (--vew-sb) or it
+		// overshoots the viewport; see FullBleedBreakoutTest.
+		$this->assertStringContainsString( 'calc(100vw - var(--vew-sb, 0px))', $css );
 		$this->assertStringContainsString( '24px', $css );
 		$this->assertStringContainsString( '20px', $css );
 	}
@@ -123,7 +125,9 @@ final class ResponsiveDefaultsTest extends TestCase {
 		$css    = $this->source( 'widgets/Faq/faq.css' );
 
 		$this->assertStringContainsString( 'vew-faq__question-text', $widget );
-		$this->assertStringContainsString( 'width: 100vw;', $css );
+		// The breakout must subtract the classic-scrollbar width (--vew-sb) or it
+		// overshoots the viewport; see FullBleedBreakoutTest.
+		$this->assertStringContainsString( 'calc(100vw - var(--vew-sb, 0px))', $css );
 		$this->assertStringContainsString( 'padding-inline: 24px;', $css );
 		$this->assertStringContainsString( 'padding-inline: 20px;', $css );
 		$this->assertStringContainsString( 'min-width: 0;', $css );
