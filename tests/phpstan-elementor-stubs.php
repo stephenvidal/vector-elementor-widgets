@@ -179,6 +179,7 @@ namespace Elementor {
 			public const SLIDER           = 'slider';
 			public const DATE_TIME        = 'date_time';
 			public const HIDDEN           = 'hidden';
+			public const HEADING          = 'heading';
 			public const URL              = 'url';
 			public const COLOR            = 'color';
 			public const MEDIA            = 'media';

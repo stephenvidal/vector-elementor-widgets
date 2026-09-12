@@ -133,6 +133,85 @@ final class ContactContentControls {
 			)
 		);
 
+		$widget->add_control(
+			'form_labels_heading',
+			array(
+				'label'     => __( 'Form Field Labels', 'vector-elementor-widgets' ),
+				'type'      => \Elementor\Controls_Manager::HEADING,
+				'separator' => 'before',
+			)
+		);
+
+		$widget->add_control(
+			'label_name',
+			array(
+				'label'       => __( 'Name Label', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => __( 'Your name', 'vector-elementor-widgets' ),
+				'label_block' => true,
+			)
+		);
+
+		$widget->add_control(
+			'label_secondary',
+			array(
+				'label'       => __( 'Second Field Label', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => __( 'Business name', 'vector-elementor-widgets' ),
+				'label_block' => true,
+			)
+		);
+
+		$widget->add_control(
+			'label_email',
+			array(
+				'label'       => __( 'Email Label', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => __( 'Email', 'vector-elementor-widgets' ),
+				'label_block' => true,
+			)
+		);
+
+		$widget->add_control(
+			'label_phone',
+			array(
+				'label'       => __( 'Phone Label', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => __( 'Phone', 'vector-elementor-widgets' ),
+				'label_block' => true,
+			)
+		);
+
+		$widget->add_control(
+			'label_message',
+			array(
+				'label'       => __( 'Message Label', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => __( 'Tell me about your project', 'vector-elementor-widgets' ),
+				'label_block' => true,
+			)
+		);
+
+		$widget->add_control(
+			'required_note',
+			array(
+				'label'       => __( 'Required Fields Note', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => __( 'Fields marked * are required', 'vector-elementor-widgets' ),
+				'label_block' => true,
+			)
+		);
+
+		$widget->add_control(
+			'privacy_note',
+			array(
+				'label'       => __( 'Privacy Note', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => __( 'No spam. Your information is used only to respond to this request.', 'vector-elementor-widgets' ),
+				'label_block' => true,
+			)
+		);
+
 		$widget->end_controls_section();
 	}
 }

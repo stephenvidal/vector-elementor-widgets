@@ -70,15 +70,21 @@ final class KitCssCompiler {
 		$css .= "\tline-height: 1.6;\n";
 		$css .= "\t-webkit-font-smoothing: antialiased;\n";
 		$css .= "}\n\n";
-		$css .= ":where(#top, #home, #services, #portfolio, #process, #pricing, #faq, #contact, #footer) {\n";
-		$css .= "\tscroll-margin-top: 88px;\n";
+		// Offset anchor jumps so the target heading clears the sticky header.
+		// Target any identified SECTION rather than a hardcoded id allow-list:
+		// a list can never anticipate the section ids an editor invents, and a
+		// missed id silently lands its heading *underneath* the sticky bar.
+		// Elementor's Menu Anchor widget is a bare <div> (not a section), so it
+		// needs an explicit entry or those links land behind the header.
+		$anchor_selector = ':where(section[id], .elementor-section[id], .e-con[id], .elementor-menu-anchor[id])';
+		$css .= $anchor_selector . " {\n";
+		$css .= "	scroll-margin-top: var(--header-offset, 88px);\n";
 		$css .= "}\n\n";
 		$css .= "@media (max-width: 820px) {\n";
-		$css .= "\t:where(#top, #home, #services, #portfolio, #process, #pricing, #faq, #contact, #footer) {\n";
-		$css .= "\t\tscroll-margin-top: 72px;\n";
-		$css .= "\t}\n";
+		$css .= "	" . $anchor_selector . " {\n";
+		$css .= "		scroll-margin-top: var(--header-offset-mobile, 72px);\n";
+		$css .= "	}\n";
 		$css .= "}\n";
-
 		return rtrim( $css, "\n" );
 	}
 }

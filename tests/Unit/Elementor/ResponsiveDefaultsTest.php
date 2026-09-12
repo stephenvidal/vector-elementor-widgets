@@ -133,12 +133,18 @@ final class ResponsiveDefaultsTest extends TestCase {
 
 	/**
 	 * Elementor's top-level container, not the constrained widget, owns sticky.
+	 *
+	 * The wrapper differs by Elementor version: newer builds emit `.e-con` flex
+	 * containers, older/legacy builds emit `.elementor-section`. Resolving only
+	 * `.e-con` left the header scrolled away on legacy-structure pages, so the
+	 * runtime must handle both.
 	 */
 	public function test_header_promotes_sticky_ownership_to_elementor_host(): void {
 		$css = $this->source( 'widgets/Header/vew-header.css' );
 		$js  = $this->source( 'widgets/Header/vew-header.js' );
 
-		$this->assertStringContainsString( "root.closest( '.e-con' )", $js );
+		$this->assertStringContainsString( "'.e-con'", $js );
+		$this->assertStringContainsString( "'.elementor-section'", $js );
 		$this->assertStringContainsString( "root.querySelector( '.vew-header__brand' )", $js );
 		$this->assertStringContainsString( "host.classList.add( 'vew-header-host' )", $js );
 		$this->assertStringContainsString( "brand.addEventListener( 'click'", $js );

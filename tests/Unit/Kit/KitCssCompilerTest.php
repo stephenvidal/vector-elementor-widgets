@@ -59,7 +59,7 @@ final class KitCssCompilerTest extends TestCase {
 		$this->assertStringContainsString( '--gutter: 24px', $css );
 		$this->assertStringContainsString( 'body {', $css );
 		$this->assertStringContainsString( 'background-color: var(--paper, #f5f7f9)', $css );
-		$this->assertStringContainsString( 'scroll-margin-top: 88px', $css );
+		$this->assertMatchesRegularExpression( '/scroll-margin-top:\s*var\(--header-offset, 88px\)/', $css );
 	}
 
 	/**

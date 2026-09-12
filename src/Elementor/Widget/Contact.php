@@ -107,6 +107,13 @@ final class Contact extends BaseWidget {
 				'form_kicker' => 'string',
 				'form_title'  => 'string',
 				'submit_cta'  => 'string',
+				'label_name'      => 'string',
+				'label_secondary' => 'string',
+				'label_email'     => 'string',
+				'label_phone'     => 'string',
+				'label_message'   => 'string',
+				'required_note'   => 'string',
+				'privacy_note'    => 'string',
 			)
 		);
 
@@ -120,6 +127,23 @@ final class Contact extends BaseWidget {
 		$form_title  = $safe['form_title'] ?? '';
 		$submit_cta  = $safe['submit_cta'] ?? '';
 		$submit_cta  = '' !== $submit_cta ? $submit_cta : __( 'Send message', 'vector-elementor-widgets' );
+
+		// Editable form copy. Each falls back to the previous hardcoded string so
+		// existing pages render identically until an editor customizes them.
+		$label_name      = $safe['label_name'] ?? '';
+		$label_name      = '' !== $label_name ? $label_name : __( 'Your name', 'vector-elementor-widgets' );
+		$label_secondary = $safe['label_secondary'] ?? '';
+		$label_secondary = '' !== $label_secondary ? $label_secondary : __( 'Business name', 'vector-elementor-widgets' );
+		$label_email     = $safe['label_email'] ?? '';
+		$label_email     = '' !== $label_email ? $label_email : __( 'Email', 'vector-elementor-widgets' );
+		$label_phone     = $safe['label_phone'] ?? '';
+		$label_phone     = '' !== $label_phone ? $label_phone : __( 'Phone', 'vector-elementor-widgets' );
+		$label_message   = $safe['label_message'] ?? '';
+		$label_message   = '' !== $label_message ? $label_message : __( 'Tell me about your project', 'vector-elementor-widgets' );
+		$required_note   = $safe['required_note'] ?? '';
+		$required_note   = '' !== $required_note ? $required_note : __( 'Fields marked * are required', 'vector-elementor-widgets' );
+		$privacy_note    = $safe['privacy_note'] ?? '';
+		$privacy_note    = '' !== $privacy_note ? $privacy_note : __( 'No spam. Your information is used only to respond to this request.', 'vector-elementor-widgets' );
 
 		// Unique per-instance prefix so multiple Contact widgets never collide
 		// on id/for attributes.
@@ -175,32 +199,32 @@ final class Contact extends BaseWidget {
 					<?php if ( '' !== $form_title ) : ?>
 						<strong><?php echo esc_html( $form_title ); ?></strong>
 					<?php endif; ?>
-					<small><?php echo esc_html__( 'Fields marked * are required', 'vector-elementor-widgets' ); ?></small>
+					<small><?php echo esc_html( $required_note ); ?></small>
 				</div>
 				<div class="vew-contact__form-grid">
 					<div class="vew-contact__field">
-						<label for="<?php echo esc_attr( $uid ); ?>name"><?php echo esc_html__( 'Your name', 'vector-elementor-widgets' ); ?> *</label>
+						<label for="<?php echo esc_attr( $uid ); ?>name"><?php echo esc_html( $label_name ); ?> *</label>
 						<input type="text" id="<?php echo esc_attr( $uid ); ?>name" name="name" required>
 					</div>
 					<div class="vew-contact__field">
-						<label for="<?php echo esc_attr( $uid ); ?>business"><?php echo esc_html__( 'Business name', 'vector-elementor-widgets' ); ?></label>
+						<label for="<?php echo esc_attr( $uid ); ?>business"><?php echo esc_html( $label_secondary ); ?></label>
 						<input type="text" id="<?php echo esc_attr( $uid ); ?>business" name="business">
 					</div>
 					<div class="vew-contact__field">
-						<label for="<?php echo esc_attr( $uid ); ?>email"><?php echo esc_html__( 'Email', 'vector-elementor-widgets' ); ?> *</label>
+						<label for="<?php echo esc_attr( $uid ); ?>email"><?php echo esc_html( $label_email ); ?> *</label>
 						<input type="email" id="<?php echo esc_attr( $uid ); ?>email" name="email" required>
 					</div>
 					<div class="vew-contact__field">
-						<label for="<?php echo esc_attr( $uid ); ?>phone"><?php echo esc_html__( 'Phone', 'vector-elementor-widgets' ); ?></label>
+						<label for="<?php echo esc_attr( $uid ); ?>phone"><?php echo esc_html( $label_phone ); ?></label>
 						<input type="tel" id="<?php echo esc_attr( $uid ); ?>phone" name="phone">
 					</div>
 					<div class="vew-contact__field vew-contact__field--full">
-						<label for="<?php echo esc_attr( $uid ); ?>message"><?php echo esc_html__( 'Tell me about your project', 'vector-elementor-widgets' ); ?> *</label>
+						<label for="<?php echo esc_attr( $uid ); ?>message"><?php echo esc_html( $label_message ); ?> *</label>
 						<textarea id="<?php echo esc_attr( $uid ); ?>message" name="message" required></textarea>
 					</div>
 				</div>
 				<button class="vew-contact__submit" type="submit"><?php echo esc_html( $submit_cta ); ?> <span aria-hidden="true">→</span></button>
-				<p class="vew-contact__privacy"><?php echo esc_html__( 'No spam. Your information is used only to respond to this request.', 'vector-elementor-widgets' ); ?></p>
+				<p class="vew-contact__privacy"><?php echo esc_html( $privacy_note ); ?></p>
 			</form>
 			</div>
 		</section>

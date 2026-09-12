@@ -23,6 +23,19 @@
 	overflow: visible !important;
 	background: color-mix(in srgb, var(--surface, #fffdf9) 88%, transparent);
 	backdrop-filter: blur(12px);
+	transition: box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+/* Pinned state (toggled by the header runtime): lift the bar off the content. */
+.vew-header-host--scrolled {
+	box-shadow: 0 10px 28px rgba(23, 50, 74, 0.14);
+	background: color-mix(in srgb, var(--surface, #fffdf9) 96%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.vew-header-host {
+		transition: none;
+	}
 }
 
 .vew-header-host .vew-header {
