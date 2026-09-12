@@ -29,6 +29,7 @@ use Vector\ElementorWidgets\Elementor\Widget\Pricing;
 use Vector\ElementorWidgets\Elementor\Widget\Process;
 use Vector\ElementorWidgets\Elementor\Widget\Services;
 use Vector\ElementorWidgets\Elementor\Widget\Testimonials;
+use Vector\ElementorWidgets\Elementor\Widget\Broadcast;
 use Vector\ElementorWidgets\Elementor\Widget\PostGallery;
 use Vector\ElementorWidgets\Elementor\Widget\BlogPosts;
 use Vector\ElementorWidgets\Elementor\Widget\PortfolioIndex;
@@ -302,6 +303,13 @@ final class WidgetCatalog {
 				'title'       => __( 'Post Gallery', 'vector-elementor-widgets' ),
 				'description' => __( 'A Post Gallery component.', 'vector-elementor-widgets' ),
 				'icon'        => 'eicon-gallery-grid',
+			),
+			array(
+				'slug'        => 'vew-broadcast',
+				'class'       => Broadcast::class,
+				'title'       => __( 'Broadcast', 'vector-elementor-widgets' ),
+				'description' => __( 'Counts down to the next recurring service time and reveals a watch link when it airs.', 'vector-elementor-widgets' ),
+				'icon'        => 'eicon-countdown',
 			),
 		);
 	}

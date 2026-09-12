@@ -109,6 +109,22 @@ final class Countdown extends BaseWidget {
 			return;
 		}
 
+		// Resolve the stored wall-clock value in the SITE timezone and re-emit it
+		// as ISO-8601 with an explicit offset. Emitting the raw 'Y-m-d H:i' string
+		// is a silent correctness bug: JavaScript's `new Date()` parses a
+		// zone-less string in the VISITOR's timezone, so a 11:00 ET target reads
+		// as 11:00 local for someone in Chicago (+1h) or Los Angeles (+3h).
+		$zone = wp_timezone();
+		$dt   = \DateTimeImmutable::createFromFormat( 'Y-m-d H:i', $end, $zone );
+		if ( false === $dt ) {
+			try {
+				$dt = new \DateTimeImmutable( $end, $zone );
+			} catch ( \Exception $e ) {
+				return;
+			}
+		}
+		$end = $dt->format( 'c' );
+
 		$heading = SectionHeading::render(
 			$safe,
 			array( 'block_class' => 'vew-countdown' )

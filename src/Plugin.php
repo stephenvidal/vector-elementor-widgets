@@ -26,6 +26,7 @@ use Vector\ElementorWidgets\Elementor\Widget\Faq;
 use Vector\ElementorWidgets\Elementor\Widget\FeatureGrid;
 use Vector\ElementorWidgets\Elementor\Widget\Hero;
 use Vector\ElementorWidgets\Elementor\Widget\Testimonials;
+use Vector\ElementorWidgets\Elementor\Widget\Broadcast;
 use Vector\ElementorWidgets\Elementor\Widget\PostGallery;
 use Vector\ElementorWidgets\Elementor\Widget\BlogPosts;
 use Vector\ElementorWidgets\Elementor\Widget\PortfolioIndex;
@@ -171,6 +172,7 @@ final class Plugin {
 		$this->container->get( 'widget_registry' )->register( FeatureGrid::class );
 		$this->container->get( 'widget_registry' )->register( Testimonials::class );
 		$this->container->get( 'widget_registry' )->register( Faq::class );
+		$this->container->get( 'widget_registry' )->register( Broadcast::class );
 		$this->container->get( 'widget_registry' )->register( PostGallery::class );
 		$this->container->get( 'widget_registry' )->register( BlogPosts::class );
 		$this->container->get( 'widget_registry' )->register( PortfolioIndex::class );
@@ -321,6 +323,8 @@ final class Plugin {
 		$assets->register_style( 'vew-testimonials', 'widgets/Testimonials/testimonials.css' );
 		$assets->register_style( 'vew-faq', 'widgets/Faq/faq.css' );
 		$assets->register_script( 'vew-faq', 'widgets/Faq/faq.js' );
+		$assets->register_style( 'vew-broadcast', 'widgets/Broadcast/vew-broadcast.css' );
+		$assets->register_script( 'vew-broadcast', 'widgets/Broadcast/vew-broadcast.js' );
 		$assets->register_style( 'vew-post-gallery', 'widgets/PostGallery/vew-post-gallery.css' );
 		$assets->register_script( 'vew-post-gallery', 'widgets/PostGallery/vew-post-gallery.js' );
 		$assets->register_style( 'vew-blog-posts', 'widgets/BlogPosts/vew-blog-posts.css' );

@@ -81,7 +81,7 @@ final class KitCssCompiler {
 		$css .= "	scroll-margin-top: var(--header-offset, 88px);\n";
 		$css .= "}\n\n";
 		$css .= "@media (max-width: 820px) {\n";
-		$css .= "	" . $anchor_selector . " {\n";
+		$css .= '	' . $anchor_selector . " {\n";
 		$css .= "		scroll-margin-top: var(--header-offset-mobile, 72px);\n";
 		$css .= "	}\n";
 		$css .= "}\n";

@@ -7,8 +7,49 @@
 ( function () {
 	'use strict';
 
+	/**
+	 * Parse a countdown target into epoch milliseconds.
+	 *
+	 * New markup emits ISO-8601 with an explicit offset, which `new Date()`
+	 * handles correctly. Pages saved before that fix still carry a zone-less
+	 * 'YYYY-MM-DD HH:MM' string, which `new Date()` would parse in the
+	 * VISITOR's timezone — hours out for anyone outside the site timezone.
+	 * Treat such a string as UTC-anchored is wrong too, so the server-rendered
+	 * offset is required; for legacy values fall back to local parsing (the
+	 * previous behaviour) rather than inventing an offset.
+	 *
+	 * @param {string} raw Attribute value.
+	 * @return {number} Epoch milliseconds, or NaN when unparseable.
+	 */
+	function parseTarget( raw ) {
+		if ( ! raw ) {
+			return NaN;
+		}
+
+		var parsed = Date.parse( raw );
+		if ( ! isNaN( parsed ) ) {
+			return parsed;
+		}
+
+		// Legacy 'YYYY-MM-DD HH:MM' (no zone): normalise the separator so
+		// engines with strict ISO parsing still accept it.
+		var legacy = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/.exec( raw );
+		if ( legacy ) {
+			return new Date(
+				Number( legacy[ 1 ] ),
+				Number( legacy[ 2 ] ) - 1,
+				Number( legacy[ 3 ] ),
+				Number( legacy[ 4 ] ),
+				Number( legacy[ 5 ] )
+			).getTime();
+		}
+
+		return NaN;
+	}
+
 	document.querySelectorAll( '.vew-countdown__clock[data-end]' ).forEach( function ( clock ) {
-		var target = new Date( clock.getAttribute( 'data-end' ) ).getTime();
+		var raw = clock.getAttribute( 'data-end' ) || '';
+		var target = parseTarget( raw );
 		if ( isNaN( target ) ) {
 			return;
 		}
