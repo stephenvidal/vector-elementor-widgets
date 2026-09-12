@@ -40,6 +40,18 @@ final class FooterContentControls {
 		);
 
 		$widget->add_control(
+			'logo',
+			array(
+				'label'       => __( 'Brand Logo', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::MEDIA,
+				'default'     => array(
+					'url' => '',
+				),
+				'description' => __( 'Optional brand logo image. Leave empty to use the built-in shield mark.', 'vector-elementor-widgets' ),
+			)
+		);
+
+		$widget->add_control(
 			'brand_name',
 			array(
 				'label'       => __( 'Brand Name', 'vector-elementor-widgets' ),

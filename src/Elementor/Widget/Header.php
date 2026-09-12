@@ -92,11 +92,15 @@ final class Header extends BaseWidget {
 		$safe     = $this->sanitize_settings(
 			$settings,
 			array(
-				'brand_name' => 'string',
-				'brand_tag'  => 'string',
-				'cta_text'   => 'string',
-				'cta_url'    => 'url',
-				'links'      => 'array',
+				'brand_name'      => 'string',
+				'brand_tag'       => 'string',
+				'cta_text'        => 'string',
+				'cta_url'         => 'url',
+				'links'           => 'array',
+				'logo'            => 'array',
+				'announcement'    => 'string',
+				'announcement_url' => 'url',
+				'mobile_links'    => 'array',
 			)
 		);
 
@@ -105,15 +109,37 @@ final class Header extends BaseWidget {
 		$cta_text   = $safe['cta_text'] ?? '';
 		$cta_url    = $safe['cta_url'] ?? '';
 		$links      = $safe['links'] ?? array();
+		$logo       = $safe['logo'] ?? array();
+		$announcement = $safe['announcement'] ?? '';
+		$announcement_url = $safe['announcement_url'] ?? '';
+		$mobile_links = $safe['mobile_links'] ?? array();
+		// Independent mobile links override the shared desktop links when set.
+		$mobile_links_defined = is_array( $mobile_links ) && count( $mobile_links ) > 0;
+		$mobile_nav = $mobile_links_defined ? $mobile_links : $links;
+
+		$logo_url = is_array( $logo ) && isset( $logo['url'] ) ? (string) $logo['url'] : '';
+		$logo_alt = is_array( $logo ) && isset( $logo['alt'] ) ? (string) $logo['alt'] : $brand_name;
 
 		$instance_id = wp_unique_id( 'vew-header-' );
 
 		?>
 		<header class="vew-header" data-vew-header data-instance="<?php echo esc_attr( $instance_id ); ?>">
+			<?php if ( '' !== $announcement ) : ?>
+				<div class="vew-header__announcement">
+					<span><?php echo esc_html( $announcement ); ?></span>
+					<?php if ( '' !== $announcement_url ) : ?>
+						<a href="<?php echo esc_url( $announcement_url ); ?>"><?php echo esc_html__( 'See service times', 'vector-elementor-widgets' ); ?> <span aria-hidden="true">→</span></a>
+					<?php endif; ?>
+				</div>
+			<?php endif; ?>
 			<div class="vew-header__shell">
 				<a class="vew-header__brand" href="#home" aria-label="<?php echo esc_attr( $brand_name ); ?> home">
 					<span class="vew-header__mark" aria-hidden="true">
-						<svg viewBox="0 0 44 44" aria-hidden="true"><path d="M22 3 38 9v11c0 10-6.5 17.2-16 21C12.5 37.2 6 30 6 20V9l16-6Z"/><path class="vew-header__mark-detail" d="M14 15 22 9l8 6-4 14h-8l-4-14Z"/></svg>
+						<?php if ( '' !== $logo_url ) : ?>
+							<img src="<?php echo esc_url( $logo_url ); ?>" alt="<?php echo esc_attr( $logo_alt ); ?>">
+						<?php else : ?>
+							<svg viewBox="0 0 44 44" aria-hidden="true"><path d="M22 3 38 9v11c0 10-6.5 17.2-16 21C12.5 37.2 6 30 6 20V9l16-6Z"/><path class="vew-header__mark-detail" d="M14 15 22 9l8 6-4 14h-8l-4-14Z"/></svg>
+						<?php endif; ?>
 					</span>
 					<span class="vew-header__brand-text">
 						<strong><?php echo esc_html( $brand_name ); ?></strong>
@@ -147,9 +173,9 @@ final class Header extends BaseWidget {
 			</div>
 
 			<div class="vew-header__mobile" id="<?php echo esc_attr( $instance_id ); ?>-menu" hidden>
-				<?php if ( is_array( $links ) && count( $links ) > 0 ) : ?>
+				<?php if ( is_array( $mobile_nav ) && count( $mobile_nav ) > 0 ) : ?>
 					<nav aria-label="<?php echo esc_attr__( 'Mobile navigation', 'vector-elementor-widgets' ); ?>">
-						<?php foreach ( $links as $link ) : ?>
+						<?php foreach ( $mobile_nav as $link ) : ?>
 							<?php
 							$l_text = isset( $link['text'] ) ? sanitize_text_field( (string) $link['text'] ) : '';
 							$l_url  = isset( $link['url'] ) ? ( is_array( $link['url'] ) ? ( $link['url']['url'] ?? '' ) : $link['url'] ) : '';

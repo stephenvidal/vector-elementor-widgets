@@ -98,6 +98,7 @@ final class Footer extends BaseWidget {
 				'blurb'      => 'string',
 				'columns'    => 'array',
 				'copyright'  => 'string',
+				'logo'       => 'array',
 			)
 		);
 
@@ -106,6 +107,10 @@ final class Footer extends BaseWidget {
 		$blurb      = $safe['blurb'] ?? '';
 		$columns    = $safe['columns'] ?? array();
 		$copyright  = $safe['copyright'] ?? '';
+		$logo       = $safe['logo'] ?? array();
+
+		$logo_url = is_array( $logo ) && isset( $logo['url'] ) ? (string) $logo['url'] : '';
+		$logo_alt = is_array( $logo ) && isset( $logo['alt'] ) ? (string) $logo['alt'] : $brand_name;
 
 		?>
 		<footer class="vew-footer">
@@ -114,7 +119,11 @@ final class Footer extends BaseWidget {
 				<div class="vew-footer__brand-col">
 					<a class="vew-footer__brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="<?php echo esc_attr( $brand_name ); ?> home">
 						<span class="vew-footer__mark" aria-hidden="true">
-							<svg viewBox="0 0 44 44" aria-hidden="true"><path d="M22 3 38 9v11c0 10-6.5 17.2-16 21C12.5 37.2 6 30 6 20V9l16-6Z"/><path class="vew-footer__mark-detail" d="M14 15 22 9l8 6-4 14h-8l-4-14Z"/></svg>
+							<?php if ( '' !== $logo_url ) : ?>
+								<img src="<?php echo esc_url( $logo_url ); ?>" alt="<?php echo esc_attr( $logo_alt ); ?>">
+							<?php else : ?>
+								<svg viewBox="0 0 44 44" aria-hidden="true"><path d="M22 3 38 9v11c0 10-6.5 17.2-16 21C12.5 37.2 6 30 6 20V9l16-6Z"/><path class="vew-footer__mark-detail" d="M14 15 22 9l8 6-4 14h-8l-4-14Z"/></svg>
+							<?php endif; ?>
 						</span>
 						<span class="vew-footer__brand-text">
 							<strong><?php echo esc_html( $brand_name ); ?></strong>

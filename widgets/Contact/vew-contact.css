@@ -198,24 +198,65 @@
 	margin: 1rem 0 0;
 }
 
+/* Submission notice — floating toast.
+   `position: fixed` takes it out of the grid flow so a success/failure message
+   never occupies a grid cell and pushes the form down. Auto-dismisses. */
 .vew-contact__notice {
-	padding: 0.9rem 1rem;
-	border-radius: 3px;
-	margin-bottom: 1rem;
+	position: fixed;
+	left: 50%;
+	bottom: clamp(16px, 4vw, 32px);
+	transform: translateX(-50%);
+	z-index: 9999;
+	box-sizing: border-box;
+	width: min(calc(100vw - 32px), 460px);
+	padding: 0.9rem 1.15rem;
+	border-radius: 4px;
+	margin: 0;
 	font-size: 0.9rem;
 	font-weight: 600;
+	line-height: 1.35;
+	text-align: center;
+	pointer-events: none;
+	box-shadow: 0 12px 32px rgba(23, 50, 74, 0.28);
+	animation: vew-contact-toast 8s ease forwards;
+}
+
+@keyframes vew-contact-toast {
+	0% {
+		opacity: 0;
+		transform: translate(-50%, 12px);
+	}
+	5% {
+		opacity: 1;
+		transform: translate(-50%, 0);
+	}
+	90% {
+		opacity: 1;
+		transform: translate(-50%, 0);
+	}
+	100% {
+		opacity: 0;
+		transform: translate(-50%, 8px);
+		visibility: hidden;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.vew-contact__notice {
+		animation: none;
+	}
 }
 
 .vew-contact__notice--success {
-	background: var(--soft, #ece7f5);
-	color: var(--ink, #201a2e);
-	border: 1px solid var(--line, rgba(32, 26, 46, 0.14));
+	background: var(--brand, #2b6a94);
+	color: var(--on-brand, #ffffff);
+	border: 1px solid color-mix(in srgb, var(--on-brand, #ffffff) 22%, transparent);
 }
 
 .vew-contact__notice--error {
-	background: color-mix(in srgb, #d14343 14%, transparent);
-	color: var(--ink, #201a2e);
-	border: 1px solid color-mix(in srgb, #d14343 45%, transparent);
+	background: #b3261e;
+	color: #ffffff;
+	border: 1px solid color-mix(in srgb, #ffffff 22%, transparent);
 }
 
 /* Responsive collapse at 820px (component CSS owns the layout collapse). */

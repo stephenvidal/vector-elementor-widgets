@@ -75,6 +75,7 @@ final class SiteKitManagerView {
 			'<h2>%1$s</h2>
 			<form method="post" action="%2$s" class="vew-site-kits__import" enctype="multipart/form-data">
 				%3$s
+				<input type="hidden" name="action" value="%6$s" />
 				<input type="hidden" name="vew_site_kit_action" value="import" />
 				<label for="vew_site_kit_import">%4$s</label>
 				<input type="file" id="vew_site_kit_import" name="vew_site_kit_import" accept="application/json" />
@@ -84,7 +85,8 @@ final class SiteKitManagerView {
 			esc_url( admin_url( 'admin-post.php' ) ),
 			wp_nonce_field( $action, '_vew_site_kit_nonce', true, false ),
 			esc_html__( 'JSON file', 'vector-elementor-widgets' ),
-			esc_html__( 'Import kit', 'vector-elementor-widgets' )
+			esc_html__( 'Import kit', 'vector-elementor-widgets' ),
+			esc_attr( $action )
 		);
 	}
 
@@ -125,6 +127,7 @@ final class SiteKitManagerView {
 			'<h2>%1$s</h2>
 			<form method="post" action="%2$s" class="vew-site-kits__global">
 				%3$s
+				<input type="hidden" name="action" value="%11$s" />
 				<input type="hidden" name="vew_site_kit_action" value="set_global" />
 				<label for="vew_global_site_kit">%4$s</label>
 				<select id="vew_global_site_kit" name="vew_global_site_kit">%5$s</select>
@@ -143,7 +146,8 @@ final class SiteKitManagerView {
 			esc_html__( 'Slug', 'vector-elementor-widgets' ),
 			esc_html__( 'Label', 'vector-elementor-widgets' ),
 			esc_html__( 'Actions', 'vector-elementor-widgets' ),
-			$rows // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- each row escaped in self::row().
+			$rows, // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- each row escaped in self::row().
+			esc_attr( $action )
 		);
 	}
 
@@ -163,6 +167,7 @@ final class SiteKitManagerView {
 		$export = sprintf(
 			'<form method="post" action="%1$s" style="display:inline">
 				%2$s
+				<input type="hidden" name="action" value="%5$s" />
 				<input type="hidden" name="vew_site_kit_action" value="export" />
 				<input type="hidden" name="vew_site_kit_slug" value="%3$s" />
 				<button type="submit" class="button">%4$s</button>
@@ -170,11 +175,13 @@ final class SiteKitManagerView {
 			esc_url( admin_url( 'admin-post.php' ) ),
 			wp_nonce_field( $action, '_vew_site_kit_nonce', true, false ),
 			esc_attr( $slug ),
-			esc_html__( 'Export', 'vector-elementor-widgets' )
+			esc_html__( 'Export', 'vector-elementor-widgets' ),
+			esc_attr( $action )
 		);
 		$delete = sprintf(
 			'<form method="post" action="%1$s" style="display:inline" onsubmit="return confirm(\'%2$s\')">
 				%3$s
+				<input type="hidden" name="action" value="%6$s" />
 				<input type="hidden" name="vew_site_kit_action" value="delete" />
 				<input type="hidden" name="vew_site_kit_slug" value="%4$s" />
 				<button type="submit" class="button">%5$s</button>
@@ -183,7 +190,8 @@ final class SiteKitManagerView {
 			esc_js( __( 'Delete this site kit?', 'vector-elementor-widgets' ) ),
 			wp_nonce_field( $action, '_vew_site_kit_nonce', true, false ),
 			esc_attr( $slug ),
-			esc_html__( 'Delete', 'vector-elementor-widgets' )
+			esc_html__( 'Delete', 'vector-elementor-widgets' ),
+			esc_attr( $action )
 		);
 
 		return sprintf(
@@ -234,6 +242,7 @@ final class SiteKitManagerView {
 			'<h2>%1$s</h2>
 			<form method="post" action="%2$s" class="vew-site-kits__form">
 				%3$s
+				<input type="hidden" name="action" value="%14$s" />
 				<input type="hidden" name="vew_site_kit_action" value="save" />
 				<p><label for="vew_kit_label">%4$s</label><br />
 					<input type="text" id="vew_kit_label" name="vew_kit[label]" class="regular-text" value="%5$s" /></p>
@@ -257,7 +266,8 @@ final class SiteKitManagerView {
 			$fonts,
 			$layout,
 			esc_html__( 'Save Kit', 'vector-elementor-widgets' ),
-			'' !== $list_url ? '<a class="button" href="' . esc_url( $list_url ) . '">' . esc_html__( 'Cancel', 'vector-elementor-widgets' ) . '</a>' : ''
+			'' !== $list_url ? '<a class="button" href="' . esc_url( $list_url ) . '">' . esc_html__( 'Cancel', 'vector-elementor-widgets' ) . '</a>' : '',
+			esc_attr( $action )
 		);
 	}
 

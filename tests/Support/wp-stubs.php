@@ -101,4 +101,54 @@ namespace { // phpcs:ignore -- support-only stand-ins, not plugin code.
 			}
 		}
 	}
+
+	if ( ! class_exists( 'WP_Error' ) ) {
+		/**
+		 * Minimal WP_Error stand-in — only the subset the plugin reads.
+		 */
+		class WP_Error {
+			/**
+			 * Error code.
+			 *
+			 * @var string
+			 */
+			private $code;
+
+			/**
+			 * Error message.
+			 *
+			 * @var string
+			 */
+			private $message;
+
+			/**
+			 * Constructor.
+			 *
+			 * @param string $code    Error code.
+			 * @param string $message Error message.
+			 */
+			public function __construct( string $code = '', string $message = '' ) {
+				$this->code    = $code;
+				$this->message = $message;
+			}
+
+			/**
+			 * Error code.
+			 *
+			 * @return string
+			 */
+			public function get_error_code(): string {
+				return $this->code;
+			}
+
+			/**
+			 * Error message.
+			 *
+			 * @return string
+			 */
+			public function get_error_message(): string {
+				return $this->message;
+			}
+		}
+	}
 }

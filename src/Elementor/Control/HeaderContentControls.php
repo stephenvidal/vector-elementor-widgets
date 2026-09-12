@@ -40,6 +40,39 @@ final class HeaderContentControls {
 		);
 
 		$widget->add_control(
+			'logo',
+			array(
+				'label'   => __( 'Brand Logo', 'vector-elementor-widgets' ),
+				'type'    => \Elementor\Controls_Manager::MEDIA,
+				'default' => array(
+					'url' => '',
+				),
+				'description' => __( 'Optional brand logo image. Leave empty to use the built-in shield mark.', 'vector-elementor-widgets' ),
+			)
+		);
+
+		$widget->add_control(
+			'announcement',
+			array(
+				'label'       => __( 'Announcement Text', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::TEXT,
+				'default'     => '',
+				'label_block' => true,
+			)
+		);
+
+		$widget->add_control(
+			'announcement_url',
+			array(
+				'label'   => __( 'Announcement Link', 'vector-elementor-widgets' ),
+				'type'    => \Elementor\Controls_Manager::URL,
+				'default' => array(
+					'url' => '',
+				),
+			)
+		);
+
+		$widget->add_control(
 			'brand_name',
 			array(
 				'label'       => __( 'Brand Name', 'vector-elementor-widgets' ),
@@ -126,6 +159,32 @@ final class HeaderContentControls {
 					array(
 						'text' => __( 'Contact', 'vector-elementor-widgets' ),
 						'url'  => array( 'url' => '#contact' ),
+					),
+				),
+				'title_field' => '{{{ text }}}',
+			)
+		);
+
+		$widget->add_control(
+			'mobile_links',
+			array(
+				'label'       => __( 'Mobile Navigation Links (optional, overrides desktop links in mobile menu)', 'vector-elementor-widgets' ),
+				'type'        => \Elementor\Controls_Manager::REPEATER,
+				'fields'      => array(
+					array(
+						'name'        => 'text',
+						'label'       => __( 'Label', 'vector-elementor-widgets' ),
+						'type'        => \Elementor\Controls_Manager::TEXT,
+						'default'     => __( 'Link', 'vector-elementor-widgets' ),
+						'label_block' => true,
+					),
+					array(
+						'name'        => 'url',
+						'label'       => __( 'URL', 'vector-elementor-widgets' ),
+						'type'        => \Elementor\Controls_Manager::URL,
+						'default'     => array(
+							'url' => '#',
+						),
 					),
 				),
 				'title_field' => '{{{ text }}}',

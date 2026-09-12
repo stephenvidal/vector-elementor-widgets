@@ -53,6 +53,13 @@
 	stroke-width: 1.7;
 }
 
+.vew-footer__mark img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
 .vew-footer__mark-detail {
 	fill: none;
 	stroke-width: 1.5;

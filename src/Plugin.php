@@ -16,6 +16,7 @@ namespace Vector\ElementorWidgets;
 use Vector\ElementorWidgets\Admin\WidgetManagerPage;
 use Vector\ElementorWidgets\Admin\SiteKitManagerPage;
 use Vector\ElementorWidgets\Admin\SiteKitMetaBox;
+use Vector\ElementorWidgets\Admin\SmtpSettingsPage;
 use Vector\ElementorWidgets\Elementor\AssetManager;
 use Vector\ElementorWidgets\Elementor\Detector as ElementorDetector;
 use Vector\ElementorWidgets\Elementor\Plugin as ElementorPlugin;
@@ -59,6 +60,7 @@ use Vector\ElementorWidgets\Kit\KitStore;
 use Vector\ElementorWidgets\Support\Compatibility;
 use Vector\ElementorWidgets\Support\ContactFormHandler;
 use Vector\ElementorWidgets\Support\NewsletterFormHandler;
+use Vector\ElementorWidgets\Support\SmtpMailer;
 use Vector\ElementorWidgets\Support\ServiceContainer;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -250,6 +252,14 @@ final class Plugin {
 			'newsletter_form_handler',
 			static fn (): NewsletterFormHandler => new NewsletterFormHandler()
 		);
+		$this->container->register(
+			'smtp_mailer',
+			static fn (): SmtpMailer => new SmtpMailer()
+		);
+		$this->container->register(
+			'smtp_settings_page',
+			static fn (): SmtpSettingsPage => new SmtpSettingsPage()
+		);
 	}
 
 	/**
@@ -285,11 +295,15 @@ final class Plugin {
 		// Newsletter signup handler (admin-post).
 		$this->container->get( 'newsletter_form_handler' )->register_hooks();
 
+		// Route wp_mail() through the configured SMTP server (no-op until set up).
+		$this->container->get( 'smtp_mailer' )->register_hooks();
+
 		// Register the admin Widget Manager + Site Kit screens (admin context only).
 		if ( is_admin() ) {
 			$this->container->get( 'widget_manager_page' )->register_hooks();
 			$this->container->get( 'site_kit_manager_page' )->register_hooks();
 			$this->container->get( 'site_kit_meta_box' )->register_hooks();
+			$this->container->get( 'smtp_settings_page' )->register_hooks();
 		}
 	}
 

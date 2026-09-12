@@ -45,6 +45,7 @@ final class WidgetManagerView {
 			'<div class="vew-widget-manager" data-vew-widget-manager>
 				<form method="post" action="%1$s">
 					%2$s
+					<input type="hidden" name="action" value="%3$s" />
 					<input type="hidden" name="vew_widget_manager_action" value="%3$s" />
 					<div class="vew-widget-manager__list" role="list">
 						%4$s

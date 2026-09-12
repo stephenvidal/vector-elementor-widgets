@@ -29,6 +29,28 @@
 	position: relative;
 }
 
+.vew-header__announcement {
+	min-height: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	padding: 6px 20px;
+	background: var(--brand-dark, #2a174f);
+	color: #fff;
+	font-size: 0.7rem;
+	letter-spacing: 0.035em;
+	text-align: center;
+}
+
+.vew-header__announcement a {
+	padding-left: 16px;
+	border-left: 1px solid rgba(255, 255, 255, 0.35);
+	font-weight: 800;
+	color: #fff;
+	text-decoration: none;
+}
+
 .vew-header__shell {
 	max-width: 1240px;
 	margin: 0 auto;
@@ -64,6 +86,13 @@
 	fill: none;
 	stroke: currentColor;
 	stroke-width: 1.7;
+}
+
+.vew-header__mark img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
 
 .vew-header__mark-detail {
