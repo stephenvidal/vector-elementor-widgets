@@ -3,7 +3,7 @@
  * Plugin Name:       Vector Elementor Widgets
  * Plugin URI:        https://vector.example/vector-elementor-widgets
  * Description:       A reusable production UI component library for Elementor — the Derby-standard component system as native Elementor widgets.
- * Version:           0.9.0
+ * Version:           0.9.1
  * Requires at least: 6.5
  * Requires PHP:      8.1
  * Author:            Stephen Vidal
