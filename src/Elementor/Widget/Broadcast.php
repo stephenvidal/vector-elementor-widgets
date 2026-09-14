@@ -145,6 +145,37 @@ final class Broadcast extends BaseWidget {
 		$active   = $schedule->active( $now );
 		$upcoming = $schedule->upcoming_payload( $now );
 
+		// When a segment is live (or starting soon), the client re-resolves the
+		// active row from `data-segments`. upcoming_payload() only includes future
+		// occurrences, so a mid-stream reload would otherwise recompute this to
+		// "upcoming" and never start the player. Prepend the authoritative active
+		// row (resolved start/end) so a cached page and a fresh page agree and the
+		// live state survives the client's pickActive().
+		if ( Segment::STATE_LIVE === ( $active['state'] ?? '' ) && null !== $active['segment'] ) {
+			$live_row = array(
+				'index'        => $this->segment_payload_index( $active['segment'], $segments ),
+				'label'        => $active['segment']->label(),
+				'starts_at'    => $active['starts_at'],
+				'ends_at'      => $active['ends_at'],
+				'duration'     => $active['segment']->duration(),
+				'thumbnail'    => $active['segment']->thumbnail_url(),
+				'thumbnailAlt' => $active['segment']->thumbnail_alt(),
+				'stream'       => $active['segment']->stream_url(),
+				'secondary'    => $active['segment']->secondary_url(),
+			);
+			$active_row_key = (string) $active['starts_at'] . '|' . (string) $active['segment']->label();
+			$already        = false;
+			foreach ( $upcoming as $row ) {
+				if ( (string) ( $row['starts_at'] ?? '' ) . '|' . (string) ( $row['label'] ?? '' ) === $active_row_key ) {
+					$already = true;
+					break;
+				}
+			}
+			if ( ! $already ) {
+				array_unshift( $upcoming, $live_row );
+			}
+		}
+
 		$heading = SectionHeading::render( $safe, array( 'block_class' => 'vew-broadcast' ) );
 
 		$labels = array(
@@ -329,6 +360,35 @@ final class Broadcast extends BaseWidget {
 		// HLS is always embeddable in-page; a direct webm/mp4 also plays in a
 		// <video>. Anything else (e.g. a YouTube page URL) is not.
 		return $segment->is_hls() || preg_match( '/\.(mp4|webm)(\?.*)?$/i', $segment->stream_url() ) === 1;
+	}
+
+	/**
+	 * Payload index for a segment, matching the index upcoming_payload() assigns
+	 * to each segment in build order.
+	 *
+	 * @param Segment             $segment  Active segment.
+	 * @param array<int, Segment> $built    Segments built by build_segments().
+	 *
+	 * @return int
+	 */
+	private function segment_payload_index( Segment $segment, array $built ): int {
+		$needle = array(
+			(string) $segment->label(),
+			(string) $segment->time(),
+			$segment->duration(),
+		);
+		$idx    = 0;
+		foreach ( $built as $i => $candidate ) {
+			if (
+				(string) $candidate->label() === $needle[0]
+				&& (string) $candidate->time() === $needle[1]
+				&& $candidate->duration() === $needle[2]
+			) {
+				$idx = $i;
+				break;
+			}
+		}
+		return $idx;
 	}
 
 	/**

@@ -440,6 +440,23 @@ final class BroadcastTest extends TestCase {
 	 *
 	 * @return void
 	 */
+	public function test_live_segment_is_prepended_to_payload_for_client_resolution(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		// A live segment must ride in `data-segments` so a cached page's client
+		// re-resolve keeps it live instead of recomputing it to "upcoming".
+		$this->assertStringContainsString( 'upcoming_payload( $now )', $widget );
+		$this->assertStringContainsString( "STATE_LIVE === ( \$active['state'] ?? '' )", $widget );
+		$this->assertStringContainsString( 'array_unshift( $upcoming, $live_row )', $widget );
+		$this->assertStringContainsString( "=> \$active['starts_at']", $widget );
+	}
+
+	/**
+	 * hls.js is self-hosted (tracked in assets/) and registered so the
+	 * broadcast JS can inject it lazily, rather than a fragile external CDN.
+	 *
+	 * @return void
+	 */
 	public function test_hls_library_is_self_hosted_and_registered(): void {
 		$this->assertFileExists(
 			dirname( __DIR__, 3 ) . '/assets/js/hls.min.js',
