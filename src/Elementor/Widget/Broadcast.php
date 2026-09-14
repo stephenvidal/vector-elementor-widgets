@@ -178,10 +178,10 @@ final class Broadcast extends BaseWidget {
 			data-visitor-time="<?php echo esc_attr( $show_visitor ? '1' : '0' ); ?>"
 			data-site-timezone="<?php echo esc_attr( wp_timezone_string() ); ?>"
 			data-preview="<?php echo esc_attr( $this->is_preview() ? '1' : '0' ); ?>"
-			data-labels="< ?php echo esc_attr( wp_json_encode( $labels ) ); ?>"
-			data-segments="< ?php echo esc_attr( wp_json_encode( $upcoming ) ); ?>"
-			data-hls-lib="< ?php echo esc_url( VEW_PLUGIN_URL . 'assets/js/hls.min.js' ); ?>"
-			aria-label="< ?php echo esc_attr__( 'Upcoming broadcast', 'vector-elementor-widgets' ); ?>">
+			data-labels="<?php echo esc_attr( wp_json_encode( $labels ) ); ?>"
+			data-segments="<?php echo esc_attr( wp_json_encode( $upcoming ) ); ?>"
+			data-hls-lib="<?php echo esc_url( VEW_PLUGIN_URL . 'assets/js/hls.min.js' ); ?>"
+			aria-label="<?php echo esc_attr__( 'Upcoming broadcast', 'vector-elementor-widgets' ); ?>">
 			<div class="vew-broadcast__inner">
 				<?php echo $heading; ?>
 

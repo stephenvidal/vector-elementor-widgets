@@ -59,7 +59,7 @@ if ( file_exists( $vew_autoload ) ) {
 // when the autoloader is not installed (e.g. WP admin screen activation
 // before vendor/ is present on first install).
 if ( ! defined( 'VEW_VERSION' ) ) {
-	define( 'VEW_VERSION', '0.9.0' );
+	define( 'VEW_VERSION', '0.9.1' );
 }
 if ( ! defined( 'VEW_PLUGIN_FILE' ) ) {
 	define( 'VEW_PLUGIN_FILE', __FILE__ );
