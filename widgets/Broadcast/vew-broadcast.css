@@ -239,6 +239,15 @@
 	transition: transform 0.4s ease, filter 0.4s ease;
 }
 
+/* Embedded live player (HLS) fills the media block like a promotional still. */
+.vew-broadcast__player {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	background: var(--brand-dark, #214a66);
+}
+
 /* Dim the still while live so the play button reads as the active element. */
 .vew-broadcast[data-state="live"] .vew-broadcast__thumb {
 	filter: brightness(0.62);

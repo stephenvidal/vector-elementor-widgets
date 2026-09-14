@@ -284,4 +284,18 @@ final class Segment {
 	public function has_stream(): bool {
 		return '' !== $this->stream_url || '' !== $this->secondary_url;
 	}
+
+	/**
+	 * Whether the primary stream URL is an HLS (.m3u8) endpoint.
+	 *
+	 * HLS can only be played in-page by a <video> + hls.js (Chrome/Firefox) or
+	 * natively (Safari). When true the widget may embed a player instead of
+	 * deep-linking out. Empty/other URLs return false so the existing
+	 * "Watch now" link remains the fallback for non-HLS streams.
+	 *
+	 * @return bool
+	 */
+	public function is_hls(): bool {
+		return '' !== $this->stream_url && preg_match( '/\.m3u8(\?.*)?$/i', $this->stream_url ) === 1;
+	}
 }

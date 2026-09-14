@@ -98,6 +98,69 @@
 	}
 
 	/**
+	 * Boot the embedded live player.
+	 *
+	 * hls.js is injected lazily (only when an HLS live player is present) so
+	 * the ~600KB lib never loads on pages that just render the schedule. The
+	 * lib URL is on the widget root (data-hls-lib). Native playback is used
+	 * where the browser supports it; otherwise the lib attaches to the video.
+	 *
+	 * @param {Element} video   The <video data-broadcast-player>.
+	 * @param {string}  hlsUrl  The .m3u8 endpoint.
+	 * @param {string}  libSrc  Self-hosted hls.js URL ('' when absent).
+	 * @return {void}
+	 */
+	function initHlsPlayer( video, hlsUrl, libSrc ) {
+		var canPlayNative = video.canPlayType( 'application/vnd.apple.mpegurl' ) !== '';
+
+		if ( canPlayNative ) {
+			video.src = hlsUrl;
+			video.play();
+			return;
+		}
+
+		if ( typeof window.VewHls !== 'undefined' ) {
+			attachHls( video, hlsUrl );
+			return;
+		}
+
+		if ( ! libSrc ) {
+			return; // no lib available and no native support — leave the fallback link
+		}
+
+		var script = document.createElement( 'script' );
+		script.src = libSrc;
+		script.onload = function () {
+			attachHls( video, hlsUrl );
+		};
+		document.head.appendChild( script );
+	}
+
+	/**
+	 * Attach an hls.js instance to the video and start playback.
+	 *
+	 * @param {Element} video  The <video> element.
+	 * @param {string}  url    The .m3u8 endpoint.
+	 * @return {void}
+	 */
+	function attachHls( video, url ) {
+		if ( typeof window.Hls === 'undefined' || ! window.Hls.isSupported() ) {
+			video.controls = true;
+			return;
+		}
+		var hls = new window.Hls();
+		hls.loadSource( url );
+		hls.attachMedia( video );
+		hls.on( window.Hls.Events.ERROR, function ( event, data ) {
+			if ( data && data.fatal ) {
+				hls.destroy();
+				video.controls = true; // surface native controls on fatal error
+			}
+		} );
+		window.VewHls = hls;
+	}
+
+	/**
 	 * Pick the active segment from the payload at a given moment.
 	 *
 	 * Live first, then starting-soon, then the soonest upcoming. This mirrors
@@ -264,6 +327,7 @@
 		var secondary = root.querySelector( '[data-broadcast-secondary]' );
 		var thumb = root.querySelector( '[data-broadcast-thumb]' );
 		var announce = root.querySelector( '[data-broadcast-announce]' );
+		var player = root.querySelector( '[data-broadcast-player]' );
 		var localNode = root.querySelector( '[data-broadcast-local]' );
 
 		if ( ! segments.length || ! clockValue ) {
@@ -427,6 +491,22 @@
 			applyRow( active, stateFor( active, soonWindowMs, Date.now() ) );
 		}
 		refresh();
+
+		// Bootstrap the embedded HLS live player if one is present. The
+		// <video> carries data-hls-url when it is an HLS endpoint; hls.js is
+		// lazily injected (only when a live embedded player exists) so the
+		// ~600KB lib is not downloaded on pages that just show the schedule.
+		if ( player ) {
+			var hlsUrl = player.getAttribute( 'data-hls-url' );
+			var libSrc = root.getAttribute( 'data-hls-lib' );
+			if ( hlsUrl ) {
+				initHlsPlayer( player, hlsUrl, libSrc );
+			} else {
+				// Direct .mp4/.webm — native <video> handles it once it's live
+				// and unmuted by user gesture.
+				player.controls = true;
+			}
+		}
 
 		timer = window.setInterval( refresh, 1000 );
 

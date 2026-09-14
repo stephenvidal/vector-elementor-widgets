@@ -123,6 +123,7 @@ final class Broadcast extends BaseWidget {
 					'starting_soon_minutes' => 'int',
 					'visitor_time'          => 'string',
 					'calendar_links'        => 'string',
+					'embed_live'            => 'string',
 					'live_label'            => 'string',
 					'upcoming_label'        => 'string',
 					'starting_soon_label'   => 'string',
@@ -177,9 +178,10 @@ final class Broadcast extends BaseWidget {
 			data-visitor-time="<?php echo esc_attr( $show_visitor ? '1' : '0' ); ?>"
 			data-site-timezone="<?php echo esc_attr( wp_timezone_string() ); ?>"
 			data-preview="<?php echo esc_attr( $this->is_preview() ? '1' : '0' ); ?>"
-			data-labels="<?php echo esc_attr( wp_json_encode( $labels ) ); ?>"
-			data-segments="<?php echo esc_attr( wp_json_encode( $upcoming ) ); ?>"
-			aria-label="<?php echo esc_attr__( 'Upcoming broadcast', 'vector-elementor-widgets' ); ?>">
+			data-labels="< ?php echo esc_attr( wp_json_encode( $labels ) ); ?>"
+			data-segments="< ?php echo esc_attr( wp_json_encode( $upcoming ) ); ?>"
+			data-hls-lib="< ?php echo esc_url( VEW_PLUGIN_URL . 'assets/js/hls.min.js' ); ?>"
+			aria-label="< ?php echo esc_attr__( 'Upcoming broadcast', 'vector-elementor-widgets' ); ?>">
 			<div class="vew-broadcast__inner">
 				<?php echo $heading; ?>
 
@@ -249,7 +251,12 @@ final class Broadcast extends BaseWidget {
 						</div>
 
 						<div class="vew-broadcast__media">
-							<?php if ( '' !== $segment->thumbnail_url() ) : ?>
+							<?php if ( $is_live && $this->can_embed( $safe, $segment ) ) : ?>
+								<video class="vew-broadcast__player" data-broadcast-player
+									playsinline controls autoplay muted
+									<?php echo $segment->is_hls() ? 'data-hls-url="' . esc_url( $segment->stream_url() ) . '"' : 'src="' . esc_url( $segment->stream_url() ) . '"'; ?>>
+								</video>
+							<?php elseif ( '' !== $segment->thumbnail_url() ) : ?>
 								<img class="vew-broadcast__thumb" data-broadcast-thumb
 									src="<?php echo esc_url( $segment->thumbnail_url() ); ?>"
 									alt="<?php echo esc_attr( $segment->thumbnail_alt() ); ?>"
@@ -298,6 +305,30 @@ final class Broadcast extends BaseWidget {
 		echo '<script type="application/ld+json">'
 			. wp_json_encode( $data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE )
 			. '</script>';
+	}
+
+	/**
+	 * Whether to embed the in-page player for the active segment.
+	 *
+	 * Requires: embedding is toggled on, the segment is live, and the primary
+	 * stream URL is embeddable (HLS in-page, or any direct-playable URL). The
+	 * existing deep-link button remains the fallback otherwise.
+	 *
+	 * @param array<string, mixed> $safe    Sanitized settings.
+	 * @param Segment              $segment Active segment.
+	 *
+	 * @return bool
+	 */
+	private function can_embed( array $safe, Segment $segment ): bool {
+		if ( 'yes' !== ( $safe['embed_live'] ?? 'no' ) ) {
+			return false;
+		}
+		if ( ! $segment->has_stream() ) {
+			return false;
+		}
+		// HLS is always embeddable in-page; a direct webm/mp4 also plays in a
+		// <video>. Anything else (e.g. a YouTube page URL) is not.
+		return $segment->is_hls() || preg_match( '/\.(mp4|webm)(\?.*)?$/i', $segment->stream_url() ) === 1;
 	}
 
 	/**

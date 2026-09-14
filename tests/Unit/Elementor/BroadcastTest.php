@@ -411,4 +411,60 @@ final class BroadcastTest extends TestCase {
 		$this->assertStringContainsString( "node.hidden = true", $js, 'suppress when redundant' );
 		$this->assertStringContainsString( "'data-local-prefix'", $js );
 	}
+
+	/**
+	 * The embedded live player (HLS) render path is gated on the embed_live
+	 * toggle, live state, and an embeddable stream URL.
+	 *
+	 * @return void
+	 */
+	public function test_embedded_player_requires_toggle_and_live_and_embeddable_url(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		// Toggle is read from sanitized settings.
+		$this->assertStringContainsString( "'embed_live'            => 'string',", $widget );
+		$this->assertStringContainsString( "can_embed( \$safe, \$segment )", $widget );
+		// The player is only rendered alongside the live state.
+		$this->assertStringContainsString( '$is_live && $this->can_embed(', $widget );
+		// Player + data-hls-url + lib URL are emitted.
+		$this->assertStringContainsString( 'data-broadcast-player', $widget );
+		$this->assertStringContainsString( 'data-hls-url', $widget );
+		$this->assertStringContainsString( 'data-hls-lib', $widget );
+		// The deep-link fallback stays for non-embeddable streams.
+		$this->assertStringContainsString( 'data-broadcast-watch', $widget );
+	}
+
+	/**
+	 * hls.js is self-hosted (tracked in assets/) and registered so the
+	 * broadcast JS can inject it lazily, rather than a fragile external CDN.
+	 *
+	 * @return void
+	 */
+	public function test_hls_library_is_self_hosted_and_registered(): void {
+		$this->assertFileExists(
+			dirname( __DIR__, 3 ) . '/assets/js/hls.min.js',
+			'hls.js must ship with the plugin, not load from a CDN.'
+		);
+
+		$plugin = $this->source( 'src/Plugin.php' );
+		$this->assertStringContainsString( "'vew-hlsjs', 'assets/js/hls.min.js'", $plugin );
+
+		$js = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+		$this->assertStringContainsString( 'function initHlsPlayer(', $js );
+		$this->assertStringContainsString( 'Hls.isSupported()', $js );
+	}
+
+	/**
+	 * The embedded player uses native HLS playback where the browser supports
+	 * it (Safari) and falls back to hls.js otherwise, so no code path depends
+	 * on hls.js being present for native-capable browsers.
+	 *
+	 * @return void
+	 */
+	public function test_player_falls_back_to_native_hls(): void {
+		$js = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+
+		$this->assertStringContainsString( 'application/vnd.apple.mpegurl', $js, 'the native HLS MIME is probed' );
+		$this->assertStringContainsString( 'window.Hls', $js );
+	}
 }

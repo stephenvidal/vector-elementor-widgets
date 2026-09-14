@@ -154,6 +154,17 @@ final class BroadcastContentControls {
 		);
 
 		$widget->add_control(
+			'embed_live',
+			array(
+				'label'        => __( 'Embed live player', 'vector-elementor-widgets' ),
+				'type'         => \Elementor\Controls_Manager::SWITCHER,
+				'default'      => 'no',
+				'return_value' => 'yes',
+				'description'  => __( 'When a segment is live and its stream URL is HLS (.m3u8), render an in-page <video> player instead of only a deep-link "Watch now" button.', 'vector-elementor-widgets' ),
+			)
+		);
+
+		$widget->add_control(
 			'starting_soon_heading',
 			array(
 				'label'     => __( 'Countdown Behaviour', 'vector-elementor-widgets' ),

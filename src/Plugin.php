@@ -325,6 +325,7 @@ final class Plugin {
 		$assets->register_script( 'vew-faq', 'widgets/Faq/faq.js' );
 		$assets->register_style( 'vew-broadcast', 'widgets/Broadcast/vew-broadcast.css' );
 		$assets->register_script( 'vew-broadcast', 'widgets/Broadcast/vew-broadcast.js' );
+		$assets->register_script( 'vew-hlsjs', 'assets/js/hls.min.js' );
 		$assets->register_style( 'vew-post-gallery', 'widgets/PostGallery/vew-post-gallery.css' );
 		$assets->register_script( 'vew-post-gallery', 'widgets/PostGallery/vew-post-gallery.js' );
 		$assets->register_style( 'vew-blog-posts', 'widgets/BlogPosts/vew-blog-posts.css' );
