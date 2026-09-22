@@ -139,6 +139,14 @@
 	/**
 	 * Attach an hls.js instance to the video and start playback.
 	 *
+	 * Playback MUST be kicked off explicitly: the native branch does
+	 * `video.play()`, but with hls.js the media is attached asynchronously
+	 * (and, when the lib is lazily injected, after an extra script load), so
+	 * the element's own `autoplay` attribute has already been consumed and
+	 * the player would sit buffered-but-paused forever — a "loading" spinner
+	 * to the visitor. Start on MANIFEST_PARSED (a live level exists), then use
+	 * a visible tap-to-start fallback if the browser still refuses autoplay.
+	 *
 	 * @param {Element} video  The <video> element.
 	 * @param {string}  url    The .m3u8 endpoint.
 	 * @return {void}
@@ -151,6 +159,35 @@
 		var hls = new window.Hls();
 		hls.loadSource( url );
 		hls.attachMedia( video );
+
+		video.muted = true; // keep the muted flag in sync: required to allow autoplay
+
+		function startPlayback() {
+			var attempt = video.play();
+			if ( attempt && typeof attempt.catch === 'function' ) {
+				attempt.catch( function () {
+					// Autoplay refused. Surface native controls so the visitor
+					// can start it themselves, and retry on their first tap.
+					video.controls = true;
+					var kick = function () {
+						video.play();
+						video.removeEventListener( 'click', kick );
+						video.removeEventListener( 'touchstart', kick );
+					};
+					video.addEventListener( 'click', kick );
+					video.addEventListener( 'touchstart', kick );
+				} );
+			}
+		}
+
+		hls.on( window.Hls.Events.MANIFEST_PARSED, function () {
+			startPlayback();
+		} );
+		// If the manifest parsed before this handler bound (possible when the
+		// lib is already loaded), start anyway once the element has data.
+		if ( video.readyState >= 2 ) {
+			startPlayback();
+		}
 		hls.on( window.Hls.Events.ERROR, function ( event, data ) {
 			if ( data && data.fatal ) {
 				hls.destroy();
