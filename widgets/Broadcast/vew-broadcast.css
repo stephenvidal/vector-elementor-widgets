@@ -248,6 +248,15 @@
 	background: var(--brand-dark, #214a66);
 }
 
+/* The still and the player share the media block and alternate: exactly one
+   is visible per state. Explicit [hidden] rules are required because both
+   selectors above set `display`, which would otherwise win over the UA's
+   `[hidden] { display: none }` and stack them. */
+.vew-broadcast__player[hidden],
+.vew-broadcast__thumb[hidden] {
+	display: none;
+}
+
 /* Dim the still while live so the play button reads as the active element. */
 .vew-broadcast[data-state="live"] .vew-broadcast__thumb {
 	filter: brightness(0.62);

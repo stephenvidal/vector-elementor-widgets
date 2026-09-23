@@ -202,6 +202,12 @@ final class Broadcast extends BaseWidget {
 		// is actionable before JS runs (and without JS at all). It stays hidden
 		// for every other state.
 		$is_live = Segment::STATE_LIVE === $state;
+
+		// Whether this widget may play the stream in-page at all. The client
+		// uses it to decide whether the "Watch now" action should start the
+		// inline player or fall back to deep-linking: an .m3u8 opened in a new
+		// tab is a playlist (a download, or a wall of text), not the service.
+		$embed_live = 'yes' === ( $safe['embed_live'] ?? 'no' );
 		?>
 		<section class="vew-broadcast" data-vew-broadcast
 			data-state="<?php echo esc_attr( $state ); ?>"
@@ -212,6 +218,7 @@ final class Broadcast extends BaseWidget {
 			data-labels="<?php echo esc_attr( wp_json_encode( $labels ) ); ?>"
 			data-segments="<?php echo esc_attr( wp_json_encode( $upcoming ) ); ?>"
 			data-hls-lib="<?php echo esc_url( VEW_PLUGIN_URL . 'assets/js/hls.min.js' ); ?>"
+			data-embed-live="<?php echo esc_attr( $embed_live ? '1' : '0' ); ?>"
 			aria-label="<?php echo esc_attr__( 'Upcoming broadcast', 'vector-elementor-widgets' ); ?>">
 			<div class="vew-broadcast__inner">
 				<?php echo $heading; ?>
@@ -282,13 +289,54 @@ final class Broadcast extends BaseWidget {
 						</div>
 
 						<div class="vew-broadcast__media">
-							<?php if ( $is_live && $this->can_embed( $safe, $segment ) ) : ?>
+							<?php
+							// Render the player whenever in-page embedding is
+							// available — not only when the server saw the live
+							// state — and keep the still alongside it. A page
+							// cached before the service started then already owns
+							// a player the client can reveal when it rolls live,
+							// while the pre-live view stays exactly as it was.
+							// Exactly one of the two is visible at a time.
+							$can_embed = $this->can_embed( $safe, $segment );
+
+							// The player is only shown live, and never in the
+							// editor preview: preview leaves the state untouched
+							// and never runs the player, so revealing the element
+							// there would show a black box instead of the still.
+							$show_player = $is_live && $can_embed && ! $this->is_preview();
+							$player_attr = $show_player ? '' : ' hidden';
+
+							// The still is the fallback for every non-playing
+							// state, so it is hidden only while the player
+							// actually stands in for it.
+							$thumb_attr = $show_player ? ' hidden' : '';
+							?>
+							<?php if ( $can_embed ) : ?>
+								<?php
+								// A hidden <video src> still prefetches, so a
+								// direct-play URL is parked on data-src until the
+								// player is actually revealed and started. An HLS
+								// URL only lives in an attribute the browser never
+								// resolves on its own, so it can be emitted always.
+								if ( $segment->is_hls() ) {
+									$source_attr = 'data-hls-url="' . esc_url( $segment->stream_url() ) . '"';
+								} elseif ( $show_player ) {
+									$source_attr = 'src="' . esc_url( $segment->stream_url() ) . '"';
+								} else {
+									$source_attr = 'data-src="' . esc_url( $segment->stream_url() ) . '"';
+								}
+								$poster_attr = ( $show_player && '' !== $segment->thumbnail_url() )
+									? 'poster="' . esc_url( $segment->thumbnail_url() ) . '"'
+									: '';
+								?>
 								<video class="vew-broadcast__player" data-broadcast-player
-									playsinline controls autoplay muted
-									<?php echo $segment->is_hls() ? 'data-hls-url="' . esc_url( $segment->stream_url() ) . '"' : 'src="' . esc_url( $segment->stream_url() ) . '"'; ?>>
+									playsinline controls autoplay muted<?php echo $player_attr; ?>
+									<?php echo $poster_attr; ?>
+									<?php echo $source_attr; ?>>
 								</video>
-							<?php elseif ( '' !== $segment->thumbnail_url() ) : ?>
-								<img class="vew-broadcast__thumb" data-broadcast-thumb
+							<?php endif; ?>
+							<?php if ( '' !== $segment->thumbnail_url() ) : ?>
+								<img class="vew-broadcast__thumb" data-broadcast-thumb<?php echo $thumb_attr; ?>
 									src="<?php echo esc_url( $segment->thumbnail_url() ); ?>"
 									alt="<?php echo esc_attr( $segment->thumbnail_alt() ); ?>"
 									loading="lazy" decoding="async" />

@@ -366,6 +366,9 @@
 		var announce = root.querySelector( '[data-broadcast-announce]' );
 		var player = root.querySelector( '[data-broadcast-player]' );
 		var localNode = root.querySelector( '[data-broadcast-local]' );
+		// Whether this widget is allowed to play the stream in-page.
+		var embedLive = root.getAttribute( 'data-embed-live' ) === '1';
+		var playerStarted = false;
 
 		if ( ! segments.length || ! clockValue ) {
 			return;
@@ -428,7 +431,9 @@
 				if ( row.stream ) {
 					watch.href = row.stream;
 				}
-				watch.hidden = state !== 'live';
+				// Once the inline player is running the button is redundant:
+				// the service is already playing in the page.
+				watch.hidden = state !== 'live' || playerStarted;
 			}
 
 			if ( secondary ) {
@@ -472,12 +477,21 @@
 					clockLabel.textContent = '';
 				}
 				clockValue.textContent = '';
+				// Covers both boots and the transition itself: a page cached
+				// before the service started rolls into `live` right here, and
+				// the inline player must actually begin. startPlayer() is
+				// idempotent, so repeated ticks are free.
+				startPlayer();
 			} else if ( state === 'starting_soon' ) {
 				if ( clockLabel ) {
 					clockLabel.textContent = labels.starting_soon || '';
 				}
 				clockValue.textContent = '';
 			} else {
+				// Not live any more (the service ended): stop the stale player
+				// and bring the still back, so the widget returns to showing the
+				// next gathering rather than a frozen frame.
+				stopPlayer();
 				if ( clockLabel ) {
 					clockLabel.textContent = labels.upcoming || '';
 				}
@@ -509,6 +523,79 @@
 			}
 		}
 
+		/**
+		 * Show the inline player and hide the still (or the reverse).
+		 *
+		 * Keeps the media block in exactly one visual state, so switching
+		 * between a cached "upcoming" render and a live one never stacks the
+		 * still on top of the playing video.
+		 *
+		 * @param {boolean} playing Whether the player should be visible.
+		 * @return {void}
+		 */
+		function showPlayer( playing ) {
+			if ( player ) {
+				player.hidden = ! playing;
+			}
+			if ( thumb ) {
+				thumb.hidden = playing;
+			}
+		}
+
+		/**
+		 * Stop the inline player and return to the still.
+		 *
+		 * @return {void}
+		 */
+		function stopPlayer() {
+			if ( ! playerStarted ) {
+				return;
+			}
+			playerStarted = false;
+			if ( player ) {
+				try {
+					player.pause();
+				} catch ( e ) {
+					// Nothing to pause.
+				}
+			}
+			showPlayer( false );
+		}
+
+		/**
+		 * Start the inline live player, revealing it first if the page was
+		 * rendered (or cached) before the service went live.
+		 *
+		 * @return {void}
+		 */
+		function startPlayer() {
+			if ( ! player || playerStarted || ! embedLive ) {
+				return;
+			}
+			playerStarted = true;
+			showPlayer( true );
+
+			var hlsUrl = player.getAttribute( 'data-hls-url' );
+			var libSrc = root.getAttribute( 'data-hls-lib' );
+			if ( hlsUrl ) {
+				initHlsPlayer( player, hlsUrl, libSrc );
+			} else {
+				// Direct .mp4/.webm — native <video> handles it once it's live.
+				// The URL is parked on data-src while the player is hidden (a
+				// hidden <video src> still prefetches), so promote it now.
+				var directSrc = player.getAttribute( 'data-src' );
+				if ( directSrc && ! player.getAttribute( 'src' ) ) {
+					player.setAttribute( 'src', directSrc );
+					player.removeAttribute( 'data-src' );
+				}
+				player.controls = true;
+				var attempt = player.play();
+				if ( attempt && typeof attempt.catch === 'function' ) {
+					attempt.catch( function () {} );
+				}
+			}
+		}
+
 		if ( previewActive ) {
 			// Leave the server-rendered state exactly as-is and do not tick.
 			// Still fill the countdown once so a preview does not show a
@@ -529,20 +616,18 @@
 		}
 		refresh();
 
-		// Bootstrap the embedded HLS live player if one is present. The
-		// <video> carries data-hls-url when it is an HLS endpoint; hls.js is
-		// lazily injected (only when a live embedded player exists) so the
-		// ~600KB lib is not downloaded on pages that just show the schedule.
-		if ( player ) {
-			var hlsUrl = player.getAttribute( 'data-hls-url' );
-			var libSrc = root.getAttribute( 'data-hls-lib' );
-			if ( hlsUrl ) {
-				initHlsPlayer( player, hlsUrl, libSrc );
-			} else {
-				// Direct .mp4/.webm — native <video> handles it once it's live
-				// and unmuted by user gesture.
-				player.controls = true;
-			}
+		// The play action belongs to the in-page player when one exists. A bare
+		// .m3u8 deep-link would hand the visitor a playlist instead of the
+		// service, so intercept the click and start playback in place instead.
+		// The href stays for no-JS, SEO, and middle-click.
+		if ( watch && player ) {
+			watch.addEventListener( 'click', function ( event ) {
+				if ( event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button > 0 ) {
+					return; // let the visitor open the stream itself in a new tab
+				}
+				event.preventDefault();
+				startPlayer();
+			} );
 		}
 
 		timer = window.setInterval( refresh, 1000 );

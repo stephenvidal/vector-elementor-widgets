@@ -414,18 +414,18 @@ final class BroadcastTest extends TestCase {
 
 	/**
 	 * The embedded live player (HLS) render path is gated on the embed_live
-	 * toggle, live state, and an embeddable stream URL.
+	 * toggle and an embeddable stream URL. It is deliberately NOT gated on the
+	 * live state: a page cached before the service starts must already carry
+	 * the player so the client can reveal and start it on the transition.
 	 *
 	 * @return void
 	 */
-	public function test_embedded_player_requires_toggle_and_live_and_embeddable_url(): void {
+	public function test_embedded_player_requires_toggle_and_embeddable_url(): void {
 		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
 
 		// Toggle is read from sanitized settings.
 		$this->assertStringContainsString( "'embed_live'            => 'string',", $widget );
-		$this->assertStringContainsString( "can_embed( \$safe, \$segment )", $widget );
-		// The player is only rendered alongside the live state.
-		$this->assertStringContainsString( '$is_live && $this->can_embed(', $widget );
+		$this->assertStringContainsString( 'can_embed( $safe, $segment )', $widget );
 		// Player + data-hls-url + lib URL are emitted.
 		$this->assertStringContainsString( 'data-broadcast-player', $widget );
 		$this->assertStringContainsString( 'data-hls-url', $widget );
@@ -483,5 +483,102 @@ final class BroadcastTest extends TestCase {
 
 		$this->assertStringContainsString( 'application/vnd.apple.mpegurl', $js, 'the native HLS MIME is probed' );
 		$this->assertStringContainsString( 'window.Hls', $js );
+	}
+
+	/**
+	 * Clicking "Watch now" starts the in-page player instead of deep-linking.
+	 *
+	 * An .m3u8 opened in a new tab is a playlist — a download, or a wall of
+	 * text — not the service. The click must be intercepted whenever an inline
+	 * player exists, while the href (and modifier-clicks) still work for no-JS,
+	 * crawlers, and a visitor who deliberately wants the stream itself.
+	 *
+	 * @return void
+	 */
+	public function test_watch_action_starts_the_inline_player(): void {
+		$js = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+
+		$this->assertStringContainsString( 'watch.addEventListener(', $js, 'the play action is intercepted' );
+		$this->assertStringContainsString( 'event.preventDefault()', $js );
+		$this->assertStringContainsString( 'startPlayer()', $js );
+		// Modifier-clicks must still reach the stream URL.
+		$this->assertStringContainsString( 'event.metaKey', $js );
+		$this->assertStringContainsString( 'event.ctrlKey', $js );
+		$this->assertStringContainsString( 'event.shiftKey', $js );
+	}
+
+	/**
+	 * A page cached before the service started must still be able to play it.
+	 *
+	 * The player is server-rendered for every embeddable segment (not only the
+	 * live state) precisely so a full-page-cached render carries one; the
+	 * client reveals and starts it when the segment rolls live, and stops it
+	 * again when the service ends.
+	 *
+	 * @return void
+	 */
+	public function test_player_is_rendered_for_cached_pages_and_toggled_by_state(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+
+		// Rendered on embeddability alone, no longer gated on the live state.
+		$this->assertStringContainsString( '$can_embed = $this->can_embed( $safe, $segment );', $widget );
+		$this->assertStringContainsString( '<?php if ( $can_embed ) : ?>', $widget );
+		$this->assertStringNotContainsString( '$is_live && $this->can_embed(', $widget );
+
+		// Visibility is attribute-toggled, and the preview never reveals it.
+		$this->assertStringContainsString( '$show_player = $is_live && $can_embed && ! $this->is_preview();', $widget );
+		$this->assertStringContainsString( '$thumb_attr = $show_player ? \' hidden\' : \'\';', $widget );
+
+		// The client owns the state transitions.
+		$js = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+		$this->assertStringContainsString( 'function startPlayer()', $js );
+		$this->assertStringContainsString( 'function stopPlayer()', $js );
+		$this->assertStringContainsString( 'function showPlayer(', $js );
+	}
+
+	/**
+	 * The widget tells the client whether it may embed at all, so the button
+	 * can fall back to the deep-link when embedding is switched off.
+	 *
+	 * @return void
+	 */
+	public function test_widget_exposes_the_embed_toggle_to_the_client(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+		$js     = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+
+		$this->assertStringContainsString( 'data-embed-live=', $widget );
+		$this->assertStringContainsString( "'data-embed-live'", $js );
+		$this->assertStringContainsString( 'embedLive', $js, 'the client honours the toggle' );
+	}
+
+	/**
+	 * A hidden <video src> still prefetches, so a direct-play URL is parked on
+	 * data-src until the player is revealed; an HLS URL is never resolved by
+	 * the browser on its own and stays on data-hls-url.
+	 *
+	 * @return void
+	 */
+	public function test_direct_stream_url_is_deferred_until_playback(): void {
+		$widget = $this->source( 'src/Elementor/Widget/Broadcast.php' );
+		$js     = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+
+		$this->assertStringContainsString( "data-src=", $widget, 'the direct URL is parked while hidden' );
+		$this->assertStringContainsString( "'data-hls-url=\"'", $widget, 'HLS stays on its own attribute' );
+		$this->assertStringContainsString( "player.getAttribute( 'data-src' )", $js );
+		$this->assertStringContainsString( "player.setAttribute( 'src', directSrc )", $js );
+	}
+
+	/**
+	 * Both media elements set `display`, so the UA's `[hidden] { display:none }`
+	 * loses to them and they would stack. The explicit rules are load-bearing.
+	 *
+	 * @return void
+	 */
+	public function test_media_hidden_rules_are_explicit(): void {
+		$css = $this->source( 'widgets/Broadcast/vew-broadcast.css' );
+
+		$this->assertStringContainsString( '.vew-broadcast__player[hidden],', $css );
+		$this->assertStringContainsString( '.vew-broadcast__thumb[hidden] {', $css );
+		$this->assertStringContainsString( 'display: none;', $css );
 	}
 }
