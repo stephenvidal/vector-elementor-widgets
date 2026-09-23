@@ -581,4 +581,46 @@ final class BroadcastTest extends TestCase {
 		$this->assertStringContainsString( '.vew-broadcast__thumb[hidden] {', $css );
 		$this->assertStringContainsString( 'display: none;', $css );
 	}
+
+	/**
+	 * Once the inline player runs, the play button is redundant and must go.
+	 *
+	 * The hide cannot live in applyRow() alone: that only runs when the active
+	 * row changes, so clicking the button on an already-live page would leave
+	 * it on screen. stopPlayer() restores it for the deep-link fallback.
+	 *
+	 * @return void
+	 */
+	public function test_play_button_hides_once_the_inline_player_runs(): void {
+		$js = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+
+		$this->assertSame(
+			2,
+			substr_count( $js, 'syncWatch( stateFor( active || {}, soonWindowMs, Date.now() ) );' ),
+			'startPlayer and stopPlayer both defer to the state-aware sync'
+		);
+		$this->assertStringContainsString( 'function syncWatch( state )', $js );
+		$this->assertStringContainsString( "watch.hidden = state !== 'live' || playerStarted;", $js );
+	}
+
+	/**
+	 * If the page cannot play the stream at all, the deep-link action must come
+	 * back rather than leaving the visitor with a dead player.
+	 *
+	 * @return void
+	 */
+	public function test_playback_failure_restores_the_deep_link(): void {
+		$js = $this->source( 'widgets/Broadcast/vew-broadcast.js' );
+
+		$this->assertStringContainsString( 'function initHlsPlayer( video, hlsUrl, libSrc, onUnavailable )', $js );
+		$this->assertStringContainsString( 'script.onerror = function ()', $js, 'a failed lib load is handled' );
+		// A fatal stream error takes the same route as an unloadable lib.
+		$this->assertStringContainsString( 'function attachHls( video, url, onUnavailable )', $js, 'the fatal path is wired' );
+		// The caller undoes the reveal and re-syncs the button.
+		$this->assertStringContainsString( 'playerUnavailable = true;', $js );
+		$this->assertStringContainsString( 'playerStarted = false;', $js );
+		$this->assertStringContainsString( "syncWatch( 'live' );", $js );
+		// And the click handler yields to the link rather than swallowing it.
+		$this->assertStringContainsString( 'if ( playerUnavailable ) {', $js );
+	}
 }

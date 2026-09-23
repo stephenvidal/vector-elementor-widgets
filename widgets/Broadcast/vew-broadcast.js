@@ -105,12 +105,15 @@
 	 * lib URL is on the widget root (data-hls-lib). Native playback is used
 	 * where the browser supports it; otherwise the lib attaches to the video.
 	 *
-	 * @param {Element} video   The <video data-broadcast-player>.
-	 * @param {string}  hlsUrl  The .m3u8 endpoint.
-	 * @param {string}  libSrc  Self-hosted hls.js URL ('' when absent).
+	 * @param {Element}  video        The <video data-broadcast-player>.
+	 * @param {string}   hlsUrl       The .m3u8 endpoint.
+	 * @param {string}   libSrc       Self-hosted hls.js URL ('' when absent).
+	 * @param {Function} onUnavailable Called when the page cannot play the
+	 *                                 stream at all, so the caller can restore
+	 *                                 the deep-link action.
 	 * @return {void}
 	 */
-	function initHlsPlayer( video, hlsUrl, libSrc ) {
+	function initHlsPlayer( video, hlsUrl, libSrc, onUnavailable ) {
 		var canPlayNative = video.canPlayType( 'application/vnd.apple.mpegurl' ) !== '';
 
 		if ( canPlayNative ) {
@@ -125,13 +128,27 @@
 		}
 
 		if ( ! libSrc ) {
-			return; // no lib available and no native support — leave the fallback link
+			// No lib available and no native support: the page cannot play this
+			// stream at all. Tell the caller, so the deep-link action stays
+			// available rather than leaving the visitor with a dead player and
+			// no way to reach the service.
+			if ( typeof onUnavailable === 'function' ) {
+				onUnavailable();
+			}
+			return;
 		}
 
 		var script = document.createElement( 'script' );
 		script.src = libSrc;
 		script.onload = function () {
-			attachHls( video, hlsUrl );
+			attachHls( video, hlsUrl, onUnavailable );
+		};
+		script.onerror = function () {
+			// The lib failed to load — hand the visitor the deep-link instead
+			// of a player that will never start.
+			if ( typeof onUnavailable === 'function' ) {
+				onUnavailable();
+			}
 		};
 		document.head.appendChild( script );
 	}
@@ -147,11 +164,13 @@
 	 * to the visitor. Start on MANIFEST_PARSED (a live level exists), then use
 	 * a visible tap-to-start fallback if the browser still refuses autoplay.
 	 *
-	 * @param {Element} video  The <video> element.
-	 * @param {string}  url    The .m3u8 endpoint.
+	 * @param {Element}  video         The <video> element.
+	 * @param {string}   url           The .m3u8 endpoint.
+	 * @param {Function} onUnavailable Called on a fatal, unrecoverable error so
+	 *                                 the caller can restore the deep-link.
 	 * @return {void}
 	 */
-	function attachHls( video, url ) {
+	function attachHls( video, url, onUnavailable ) {
 		if ( typeof window.Hls === 'undefined' || ! window.Hls.isSupported() ) {
 			video.controls = true;
 			return;
@@ -192,6 +211,11 @@
 			if ( data && data.fatal ) {
 				hls.destroy();
 				video.controls = true; // surface native controls on fatal error
+				// A fatal error means this page will not play the stream.
+				// Restore the deep-link so the visitor is not stranded.
+				if ( typeof onUnavailable === 'function' ) {
+					onUnavailable();
+				}
 			}
 		} );
 		window.VewHls = hls;
@@ -369,6 +393,10 @@
 		// Whether this widget is allowed to play the stream in-page.
 		var embedLive = root.getAttribute( 'data-embed-live' ) === '1';
 		var playerStarted = false;
+		// Set when the page turns out to be unable to play the stream at all.
+		// The button then reverts to a plain deep-link rather than being
+		// intercepted, so a click still reaches the service.
+		var playerUnavailable = false;
 
 		if ( ! segments.length || ! clockValue ) {
 			return;
@@ -431,9 +459,7 @@
 				if ( row.stream ) {
 					watch.href = row.stream;
 				}
-				// Once the inline player is running the button is redundant:
-				// the service is already playing in the page.
-				watch.hidden = state !== 'live' || playerStarted;
+				syncWatch( state );
 			}
 
 			if ( secondary ) {
@@ -524,6 +550,26 @@
 		}
 
 		/**
+		 * Show or hide the deep-link action for a state.
+		 *
+		 * The button is the fallback for a live stream the page cannot play
+		 * in-place. It is hidden when the segment is not live, and once the
+		 * inline player is actually running (the service is then playing right
+		 * there, so the button is redundant). Single source of truth: every
+		 * path that can change either input calls this rather than setting
+		 * `watch.hidden` itself, so the button can never be left showing for a
+		 * stream that is over.
+		 *
+		 * @param {string} state Current state key.
+		 * @return {void}
+		 */
+		function syncWatch( state ) {
+			if ( watch ) {
+				watch.hidden = state !== 'live' || playerStarted;
+			}
+		}
+
+		/**
 		 * Show the inline player and hide the still (or the reverse).
 		 *
 		 * Keeps the media block in exactly one visual state, so switching
@@ -560,6 +606,10 @@
 				}
 			}
 			showPlayer( false );
+			// syncWatch, not a bare `false`: the button must only come back if
+			// the segment is still live. Forcing it visible here would offer a
+			// "Watch now" link for a stream that has already ended.
+			syncWatch( stateFor( active || {}, soonWindowMs, Date.now() ) );
 		}
 
 		/**
@@ -574,11 +624,20 @@
 			}
 			playerStarted = true;
 			showPlayer( true );
+			syncWatch( stateFor( active || {}, soonWindowMs, Date.now() ) );
 
 			var hlsUrl = player.getAttribute( 'data-hls-url' );
 			var libSrc = root.getAttribute( 'data-hls-lib' );
 			if ( hlsUrl ) {
-				initHlsPlayer( player, hlsUrl, libSrc );
+				initHlsPlayer( player, hlsUrl, libSrc, function () {
+					// The page cannot play this stream after all. Undo the
+					// reveal so the visitor is not left staring at a dead
+					// player, and hand the click back to the deep-link.
+					playerStarted = false;
+					playerUnavailable = true;
+					showPlayer( false );
+					syncWatch( 'live' );
+				} );
 			} else {
 				// Direct .mp4/.webm — native <video> handles it once it's live.
 				// The URL is parked on data-src while the player is hidden (a
@@ -622,6 +681,9 @@
 		// The href stays for no-JS, SEO, and middle-click.
 		if ( watch && player ) {
 			watch.addEventListener( 'click', function ( event ) {
+				if ( playerUnavailable ) {
+					return; // the page cannot play it — let the link through
+				}
 				if ( event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button > 0 ) {
 					return; // let the visitor open the stream itself in a new tab
 				}
